@@ -2,7 +2,7 @@
 
 # utterance | response | response_time | speaker | responder | utt_length | error | age
 
-import numpy
+import csv
 import nltk
 from nltk.parse import TestGrammar
 from nltk.corpus.reader import CHILDESCorpusReader
@@ -75,7 +75,11 @@ for file in thomas.fileids():
 		results.append(data)
 		i = i + 1
 	all_files_results.append(results)
-print all_files_results
+
+
+with open('more_thomas_data', 'wb') as myfile:
+    wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+    wr.writerow(all_files_results[0])
 
 # for file in thomas.fileids():
 # 	xmldoc = ElementTree.parse(file).getroot()
