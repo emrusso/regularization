@@ -2,7 +2,6 @@
 
 # utterance | response | response_time | speaker | responder | utt_length | error | age
 
-import csv
 import nltk
 from nltk.parse import TestGrammar
 from nltk.corpus.reader import CHILDESCorpusReader
@@ -55,6 +54,13 @@ def foundError(s):
 		return True
 	return False
 
+def getErrorInfo(arr):
+	error_data = []
+	for file_res in arr:
+		for entry in file_res:
+			if entry['error'] == True:
+				error_data.append(entry)
+	return error_data
 
 all_files_results = []
 for file in thomas.fileids():
@@ -76,10 +82,13 @@ for file in thomas.fileids():
 		i = i + 1
 	all_files_results.append(results)
 
-
-with open('more_thomas_data', 'wb') as myfile:
-    wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
-    wr.writerow(all_files_results[0])
+	utterance_f = open('utterance_data.txt', 'w')
+	utterance_f.write(str(all_files_results))
+	utterance_f.close()
+	errors_f = open('errors.txt', 'w')
+	errors_f.write(str(getErrorInfo(all_files_results)))
+	errors_f.close()
+	print('{%s} done' % file)
 
 # for file in thomas.fileids():
 # 	xmldoc = ElementTree.parse(file).getroot()
