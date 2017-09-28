@@ -2,6 +2,7 @@
 
 # utterance | response | response_time | speaker | responder | utt_length | error | age
 
+import csv
 import nltk
 from nltk.parse import TestGrammar
 from nltk.corpus.reader import CHILDESCorpusReader
@@ -66,29 +67,34 @@ all_files_results = []
 for file in thomas.fileids():
 	xmldoc = ElementTree.parse(file).getroot()
 	results = []
-	i = 0
-	sents = xmldoc.findall('.//{%s}u' % NS)
-	while i + 1 < len(sents):
-		data = {}
-		data['utterance'] = getUtterance(sents[i])
-		data['response'] = getUtterance(sents[i+1])
-		data['response_time'] = getRT(sents[i], sents[i+1])
-		data['speaker'] = sents[i].get('who')
-		data['responder'] = sents[i+1].get('who')
-		data['utterance_length'] = getUL(sents[i])
-		data['error'] = foundError(sents[i])
-		data['age'] = thomas.age(file, month=True)
-		results.append(data)
-		i = i + 1
-	all_files_results.append(results)
+	with open('utterance_data.csv', 'a') as csvfile:
+		fieldnames = ['utterance', 'response',
+			'response_time', 'speaker', 'responder',
+			'utterance_length', 'error', 'age']
+		writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+		i = 0
+		sents = xmldoc.findall('.//{%s}u' % NS)
+		while i + 1 < len(sents):
+			data = {}
+			data['utterance'] = getUtterance(sents[i])
+			data['response'] = getUtterance(sents[i+1])
+			data['response_time'] = getRT(sents[i], sents[i+1])
+			data['speaker'] = sents[i].get('who')
+			data['responder'] = sents[i+1].get('who')
+			data['utterance_length'] = getUL(sents[i])
+			data['error'] = foundError(sents[i])
+			data['age'] = thomas.age(file, month=True)
+			writer.writerow(data)
+			i = i + 1
+		csvfile.close()
+	print('%s done' % file)
 
-	utterance_f = open('utterance_data.txt', 'w')
-	utterance_f.write(str(all_files_results))
-	utterance_f.close()
-	errors_f = open('errors.txt', 'w')
-	errors_f.write(str(getErrorInfo(all_files_results)))
-	errors_f.close()
-	print('{%s} done' % file)
+
+
+# utterance_f = open('utterance_data.txt', 'w')
+# utterance_f.write(str(all_files_results))
+# utterance_f.close()
+	
 
 # for file in thomas.fileids():
 # 	xmldoc = ElementTree.parse(file).getroot()
