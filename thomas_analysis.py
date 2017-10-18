@@ -63,6 +63,28 @@ def getErrorInfo(arr):
 				error_data.append(entry)
 	return error_data
 
+def hasPastTense(utterance):
+	gwraps = utterance.findall('.//{%s}g' % NS)
+	if gwraps != None:
+		for gwrap in gwraps:
+			for xmlword in gwrap.findall('.//{%s}w' % NS):
+				for xmlsfx in xmlword.findall('.//{%s}mor/{%s}mw/{%s}mk' % (NS, NS, NS)):
+					if xmlsfx.get('type') == 'sfx' :
+						if xmlsfx.text.find("PAST") > -1:
+						  return True
+	return False
+
+def hasPlural(utterance):
+	gwraps = utterance.findall('.//{%s}g' % NS)
+	if gwraps != None:
+		for gwrap in gwraps:
+			for xmlword in gwrap.findall('.//{%s}w' % NS):
+				for xmlsfx in xmlword.findall('.//{%s}mor/{%s}mw/{%s}mk' % (NS, NS, NS)):
+					if xmlsfx.get('type') == 'sfx' :
+						if xmlsfx.text == "PL":
+						  return True
+	return False
+
 all_files_results = []
 for file in thomas.fileids():
 	xmldoc = ElementTree.parse(file).getroot()
@@ -70,7 +92,7 @@ for file in thomas.fileids():
 	with open('utterance_data.csv', 'a') as csvfile:
 		fieldnames = ['utterance', 'response',
 			'response_time', 'speaker', 'responder',
-			'utterance_length', 'error', 'age']
+			'utterance_length', 'error', 'age', 'past_tense', 'plural']
 		writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 		i = 0
 		sents = xmldoc.findall('.//{%s}u' % NS)
@@ -84,6 +106,8 @@ for file in thomas.fileids():
 			data['utterance_length'] = getUL(sents[i])
 			data['error'] = foundError(sents[i])
 			data['age'] = thomas.age(file, month=True)
+			data['past_tense'] = hasPastTense(sents[i])
+			data['plural'] = hasPlural(sents[i])
 			writer.writerow(data)
 			i = i + 1
 		csvfile.close()
@@ -94,7 +118,7 @@ for file in thomas.fileids():
 # utterance_f = open('utterance_data.txt', 'w')
 # utterance_f.write(str(all_files_results))
 # utterance_f.close()
-	
+
 
 # for file in thomas.fileids():
 # 	xmldoc = ElementTree.parse(file).getroot()
