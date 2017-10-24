@@ -10,37 +10,30 @@ theme: lumen
 toc_float: false
 code_folding: hide
 ---
-  
-```{r setup, include = FALSE}
-# load packages
-library(knitr)
-library(tidyverse)
-library(stringr) 
 
-opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, 
-               error = FALSE, cache = TRUE, tidy = FALSE)
+
+```{r setup, include = FALSE}
+library(tidyverse)
+library(knitr)
 ```
 
+
 ```{r read_data}
-split_line <- function(line, num) {
-  splits <- first(str_split(line, ","))[1:8] %>%
-    gsub("\'", "", .) %>%
-    gsub("\\}", "", .) %>%
-    str_split(": ", simplify = TRUE) %>%
-    as_data_frame() %>%
-    mutate(line = num) # %>%
+thomas_data <- read_csv("utterance_data.csv", col_names = FALSE)
+names(thomas_data) <- c("utterance", "response", "response_time", "speaker", "responder", "utterance_time", "error", "age", "past_tense", "plural")
 
-}
+thomas_data_clean <- thomas_data %>%
+  mutate(age = as.numeric(gsub("[^0-9]", "", age)),
+         response_time = as.numeric(response_time)) %>%
+  mutate_at(vars(error, past_tense, plural), as.logical)
 
-data <- read_file("thomas_data.txt") %>%
-  str_split(.,pattern = "\\{") %>%
-  first() %>%
-  as_data_frame() %>%
-  slice(2:(nrow(.)-1)) %>%
-  unlist() 
+kid_data <- thomas_data_clean %>%
+  filter(speaker == "CHI") %>%
+  filter(plural) %>%
+  group_by(age, error) 
 
-split_data <- map(1:length(data), function(n) split_line(nth(data,n), n)) %>%
-  bind_rows() %>%
-  mutate(V1 = str_trim(V1)) %>%
-  spread(V1, V2)
+ggplot(kid_data, aes(x = response_time, fill = error)) + 
+  geom_density(alpha = .2)
+
+
 ```
