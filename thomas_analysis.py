@@ -2,6 +2,8 @@
 
 # utterance | response | response_time | speaker | responder | utt_length | error | age
 
+#### add overlap presence, run on MPI-EVA-manchester
+
 import csv
 import nltk
 from nltk.parse import TestGrammar
@@ -14,6 +16,8 @@ NS = 'http://www.talkbank.org/ns/talkbank'
 
 corpus_root = nltk.data.find('corpora/childes/Eng-UK')
 thomas = CHILDESCorpusReader(corpus_root, 'Thomas/.*.xml')
+eleanor = CHILDESCorpusReader(corpus_root, 'MPI-EVA-Manchester/eleanor/.*.xml')
+fraser = CHILDESCorpusReader(corpus_root, 'MPI-EVA-Manchester/fraser/.*.xml')
 
 corpus_rt_total = 0
 corpus_rt_num = 0
@@ -51,7 +55,7 @@ def getUL(s):
 	return "media info not available"
 
 def foundError(s):
-	if sents[i].find('.//{%s}error' % NS) != None:
+	if s.find('.//{%s}error' % NS) != None:
 		return True
 	return False
 
@@ -85,14 +89,26 @@ def hasPlural(utterance):
 						  return True
 	return False
 
-all_files_results = []
-for file in thomas.fileids():
+def responseOverlaps(utt, resp):
+	return responseOverlapsHelper(utt, 'overlap follows') or responseOverlapsHelper(resp, 'overlap precedes')
+
+def responseOverlapsHelper(s, type):
+	gwraps = s.findall('.//{%s}g' % NS)
+	if gwraps != None:
+		for gwrap in gwraps:
+			for overlap in gwrap.findall('.//{%s}overlap' % NS):
+				if overlap.get('type') == type:
+					return True
+	return False
+
+
+for file in eleanor.fileids():
 	xmldoc = ElementTree.parse(file).getroot()
 	results = []
-	with open('utterance_data.csv', 'a') as csvfile:
+	with open('eleanor_utterance_data.csv', 'a') as csvfile:
 		fieldnames = ['utterance', 'response',
 			'response_time', 'speaker', 'responder',
-			'utterance_length', 'error', 'age', 'past_tense', 'plural']
+			'utterance_length', 'error', 'age', 'past_tense', 'plural', 'overlap']
 		writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 		i = 0
 		sents = xmldoc.findall('.//{%s}u' % NS)
@@ -108,6 +124,7 @@ for file in thomas.fileids():
 			data['age'] = thomas.age(file, month=True)
 			data['past_tense'] = hasPastTense(sents[i])
 			data['plural'] = hasPlural(sents[i])
+			data['overlap'] = responseOverlaps(sents[i], sents[i+1])
 			writer.writerow(data)
 			i = i + 1
 		csvfile.close()
