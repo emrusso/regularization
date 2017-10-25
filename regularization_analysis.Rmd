@@ -19,21 +19,34 @@ library(knitr)
 
 
 ```{r read_data}
-thomas_data <- read_csv("utterance_data.csv", col_names = FALSE)
-names(thomas_data) <- c("utterance", "response", "response_time", "speaker", "responder", "utterance_time", "error", "age", "past_tense", "plural")
+eleanor_data <- read_csv("eleanor_utterance_data.csv", col_names = FALSE)
+names(eleanor_data) <- c("utterance", "response", "response_time", "speaker", "responder", "utterance_time", "error", "age", "past_tense", "plural", "overlap")
 
-thomas_data_clean <- thomas_data %>%
+eleanor_data_clean <- eleanor_data %>%
   mutate(age = as.numeric(gsub("[^0-9]", "", age)),
          response_time = as.numeric(response_time)) %>%
-  mutate_at(vars(error, past_tense, plural), as.logical)
+  mutate_at(vars(error, past_tense, plural, overlap), as.logical)
 
-kid_data <- thomas_data_clean %>%
+kid_data <- eleanor_data_clean %>%
   filter(speaker == "CHI") %>%
   filter(plural) %>%
-  group_by(age, error) 
+  group_by(error) 
 
 ggplot(kid_data, aes(x = response_time, fill = error)) + 
-  geom_density(alpha = .2)
+  geom_density(alpha = .2) +
+  scale_x_continuous(limits = c(-5, 5))
 
+ggplot(kid_data, aes(x = response_time, fill = overlap)) + 
+  geom_density(alpha = .2) +
+  scale_x_continuous(limits = c(-5, 5))
+
+kid_data <- kid_data %>%
+  mutate(wonky = (response_time < 0 & !overlap))
+
+noiseless_kid_data <- kid_data[(!kid_data$wonky),]
+
+ggplot(noiseless_kid_data, aes(x = response_time, fill = error)) + 
+  geom_density(alpha = .2) +
+  scale_x_continuous(limits = c(-5, 5))
 
 ```
