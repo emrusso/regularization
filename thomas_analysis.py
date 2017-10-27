@@ -15,9 +15,10 @@ from nltk.compat import string_types
 NS = 'http://www.talkbank.org/ns/talkbank'
 
 corpus_root = nltk.data.find('corpora/childes/Eng-UK')
+manchester_corpus_root = nltk.data.find('corpora/childes/Eng-UK/MPI-EVA-Manchester')
 thomas = CHILDESCorpusReader(corpus_root, 'Thomas/.*.xml')
-eleanor = CHILDESCorpusReader(corpus_root, 'MPI-EVA-Manchester/eleanor/.*.xml')
-fraser = CHILDESCorpusReader(corpus_root, 'MPI-EVA-Manchester/fraser/.*.xml')
+eleanor = CHILDESCorpusReader(manchester_corpus_root, 'eleanor/.*.xml')
+fraser = CHILDESCorpusReader(manchester_corpus_root, 'fraser/.*.xml')
 
 corpus_rt_total = 0
 corpus_rt_num = 0
@@ -101,6 +102,13 @@ def responseOverlapsHelper(s, type):
 					return True
 	return False
 
+def getAgeFromFileName(file):
+	chunks = file.split('-')
+	year = chunks[0]
+	month = chunks[1]
+	months = (int(year) * 12) + int(month)
+	return months
+
 
 for file in eleanor.fileids():
 	xmldoc = ElementTree.parse(file).getroot()
@@ -121,7 +129,7 @@ for file in eleanor.fileids():
 			data['responder'] = sents[i+1].get('who')
 			data['utterance_length'] = getUL(sents[i])
 			data['error'] = foundError(sents[i])
-			data['age'] = thomas.age(file, month=True)
+			data['age'] = getAgeFromFileName(file.split('/')[1])
 			data['past_tense'] = hasPastTense(sents[i])
 			data['plural'] = hasPlural(sents[i])
 			data['overlap'] = responseOverlaps(sents[i], sents[i+1])
