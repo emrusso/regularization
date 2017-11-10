@@ -74,9 +74,8 @@ def hasPastTense(utterance):
 		for gwrap in gwraps:
 			for xmlword in gwrap.findall('.//{%s}w' % NS):
 				for xmlsfx in xmlword.findall('.//{%s}mor/{%s}mw/{%s}mk' % (NS, NS, NS)):
-					if xmlsfx.get('type') == 'sfx' :
-						if xmlsfx.text.find("PAST") > -1:
-						  return True
+					if xmlsfx.text.find("PAST") > -1:
+						return True
 	return False
 
 def hasPlural(utterance):
@@ -85,9 +84,8 @@ def hasPlural(utterance):
 		for gwrap in gwraps:
 			for xmlword in gwrap.findall('.//{%s}w' % NS):
 				for xmlsfx in xmlword.findall('.//{%s}mor/{%s}mw/{%s}mk' % (NS, NS, NS)):
-					if xmlsfx.get('type') == 'sfx' :
-						if xmlsfx.text == "PL":
-						  return True
+					if xmlsfx.text.find("PL") > -1:
+					  return True
 	return False
 
 def responseOverlaps(utt, resp):
@@ -110,10 +108,10 @@ def getAgeFromFileName(file):
 	return months
 
 
-for file in eleanor.fileids():
+for file in thomas.fileids():
 	xmldoc = ElementTree.parse(file).getroot()
 	results = []
-	with open('eleanor_utterance_data.csv', 'a') as csvfile:
+	with open('thomas_utterance_data.csv', 'a') as csvfile:
 		fieldnames = ['utterance', 'response',
 			'response_time', 'speaker', 'responder',
 			'utterance_length', 'error', 'age', 'past_tense', 'plural', 'overlap']

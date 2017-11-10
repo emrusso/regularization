@@ -1,0 +1,52 @@
+---
+title: "Thomas_Regularization_Analysis"
+author: "Emmi Russo"
+date: "11/9/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(knitr)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+``` {r work with manual data}
+thomas_data <- read_csv("thomas_utterance_data.csv", col_names = FALSE)
+names(thomas_data) <- c("utterance", "response", "response_time", "speaker", "responder", "utterance_time", "error", "age", "past_tense", "plural", "overlap", "overreg")
+
+thomas_data_clean <- thomas_data %>%
+  mutate(age = as.numeric(age),
+         response_time = as.numeric(response_time)) %>%
+  mutate_at(vars(error, past_tense, plural, overlap), as.logical)
+
+thomas_kid_data <- thomas_data_clean %>%
+  filter(speaker == "CHI")
+
+thomas_kid_data$past_tense <- NULL
+thomas_kid_data$plural <- NULL
+thomas_kid_data$overlap <- NULL
+thomas_kid_data$overreg <- FALSE
+
+manual_thomas_overregs <- read.csv("manual_thomas_overregs.csv")
+manual_thomas_overregs$X <- NULL
+manual_thomas_overregs$overreg_candidate <- NULL
+manual_thomas_overregs$overlap <- NULL
+manual_thomas_overregs$error <- NULL
+manual_thomas_overregs <- manual_thomas_overregs %>%
+  filter(manual_code != '?')
+
+thomas_overregs <- manual_thomas_overregs %>%
+  mutate(manual_code = as.logical(manual_code)) %>%
+  filter(manual_code)
+
+ggplot(manual_thomas_overregs, aes(x = age, y = response_time, fill = manual_code)) + geom_smooth() + scale_x_continuous(limits = c(24, 50))
+
+ggplot(manual_thomas_overregs, aes(x = response_time, fill = manual_code)) + 
+  geom_density(alpha = .2) +
+  scale_x_continuous(limits = c(-5, 5))
+
+write.csv(thomas_overregs, 'thomas_overregs.csv')
+write.csv(thomas_kid_data, 'all_thomas_kid_utterances.csv')
+
+```
