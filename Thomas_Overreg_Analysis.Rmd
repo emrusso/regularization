@@ -7,15 +7,12 @@ output: html_document
 
 ```{r setup, include=FALSE}
 library(tidyverse)
-library(knitr)
-library(dplyr)
 knitr::opts_chunk$set(echo = TRUE)
 options(digits=10)
 ```
 
 ``` {r work with manual data}
-
-thomas_data <- read.csv("thomas_utterance_data.csv")
+thomas_data <- read_csv("thomas_utterance_data.csv")
 names(thomas_data) <- c("utterance", "response", "speaker", "responder", "error", "age", "past_tense", "plural", "source_file", "utterance_start", "utterance_end", "response_start", "response_end")
 
 thomas_data_clean <- thomas_data %>%
@@ -23,7 +20,7 @@ thomas_data_clean <- thomas_data %>%
          response_time = as.numeric(response_time)) %>%
   mutate_at(vars(error, past_tense, plural), as.logical)
 
-thomas_kid_data <- thomas_data_clean %>%
+thomas_kid_data <- thomas_data %>%
   filter(speaker == "CHI") %>%
   filter(responder == "MOT")
 
@@ -32,7 +29,7 @@ thomas_kid_data$plural <- NULL
 thomas_kid_data$overlap <- NULL
 thomas_kid_data$overreg <- FALSE
 
-manual_thomas_overregs <- read.csv("manual_thomas_overregs.csv")
+manual_thomas_overregs <- read_csv("manual_thomas_overregs.csv")
 manual_thomas_overregs$X <- NULL
 manual_thomas_overregs$overreg_candidate <- NULL
 manual_thomas_overregs$overlap <- NULL
@@ -40,7 +37,7 @@ manual_thomas_overregs$error <- NULL
 manual_thomas_overregs <- manual_thomas_overregs %>%
   filter(manual_code != '?')
 
-thomas_kid_with_overregs <- read.csv("all_thomas_kid_utterances_with_overregs.csv")
+thomas_kid_with_overregs <- read_csv("all_thomas_kid_utterances_with_overregs.csv")
 thomas_kid_with_overregs <- thomas_kid_with_overregs %>%
   filter(responder == "MOT")
 thomas_kid_with_overregs$X <- NULL
@@ -53,11 +50,11 @@ thomas_kid_w_source <- left_join(rownames_to_column(thomas_kid_with_overregs), u
 overregs_w_source <- thomas_kid_w_source %>%
   filter(overreg)
 
-write.csv(file = "audio_coding.csv", overregs_w_source)
+#write.csv(file = "audio_coding.csv", overregs_w_source)
 
-fixed_overregs <- read.csv("final_audio_coding.csv")
+fixed_overregs <- read_csv("final_audio_coding.csv")
 fixed_overregs <- fixed_overregs %>%
-  filter(is.na(THROW.OUT) | THROW.OUT == FALSE)
+  filter(is.na(`THROW OUT`) | `THROW OUT` == FALSE)
 fixed_overregs_cleaner <- fixed_overregs[,c("rowname", "utterance", "response", "speaker", "responder", "error", "age", "overreg", "utterance_start", "utterance_end", "response_start", "response_end")]
 fixed_overregs_cleaner <- fixed_overregs_cleaner %>%
   mutate_at(vars(rowname), as.character)
@@ -128,6 +125,19 @@ chi_stick_info <- overreg.data("stick", "stuck")
 chi_sweep_info <- overreg.data("sweep", "swept")
 chi_take_info <- overreg.data("take", "took")
 
-  
+lm1 <- lm(response_time ~ utterance_time * overreg + log(age), data = together)
+
+come_utts <- together %>%
+  filter(grepl("c[oa]me", utterance)) %>%
+  mutate(utterance_length = str_count(utterance, " "),
+         response_length = str_count(response, " "))
+
+lm_throw <- lm(response_time ~ error + log(age), 
+               data = come_utts)
+
+come_utts %>%
+  group_by(overreg) %>%
+  summarise(response_time = median(response_time))
+
   # filter(length(grep("draw", utterance, fixed=TRUE)) > 0)
 ```

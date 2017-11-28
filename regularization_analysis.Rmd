@@ -45,6 +45,19 @@ kid_data <- kid_data %>%
 
 noiseless_kid_data <- kid_data[(!kid_data$wonky),]
 
+test_data <- noiseless_kid_data %>%
+  filter(responder == "CHI") %>%
+  mutate(utterance_time = as.numeric(utterance_time),
+         response_time = as.numeric(response_time)) %>%
+  filter(response_time < 5, !overlap)
+
+lm1 <- lm(response_time ~ utterance_time + error + log(age), test_data)
+
+%>%
+  group_by(error) %>%
+  summarise(response_time = mean(response_time))
+
+
 ggplot(noiseless_kid_data, aes(x = response_time, fill = error)) + 
   geom_density(alpha = .2) +
   scale_x_continuous(limits = c(-5, 5))
