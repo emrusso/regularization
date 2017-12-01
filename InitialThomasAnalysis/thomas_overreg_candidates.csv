@@ -1,0 +1,443 @@
+"","utterance","response","response_time","speaker","responder","utterance_time","error","age","past_tense","plural","overlap","overreg_candidate"
+"1","this shoes","shoes",-0.244,"CHI","MOT","2.426000000000002",TRUE,24,FALSE,TRUE,FALSE,TRUE
+"2","two mens men","two men",-0.163000000000011,"CHI","MOT","1.4160000000001673",TRUE,26,FALSE,TRUE,FALSE,TRUE
+"3","a bix biscuits","biscuits",-0.115999999999985,"CHI","MOT","1.021000000000015",TRUE,26,FALSE,TRUE,FALSE,TRUE
+"4","two mens men","two men",0.0729999999998654,"CHI","MOT","1.4160000000001673",TRUE,26,FALSE,TRUE,FALSE,TRUE
+"5","two mans men","two mans",0.302000000000135,"CHI","MOT","2.0670000000000073",TRUE,26,FALSE,TRUE,FALSE,TRUE
+"6","two mans men","two mans",1.06799999999976,"CHI","MOT","1.1030000000000655",TRUE,26,FALSE,TRUE,FALSE,TRUE
+"7","baby mans men","oh you've put some men over your eyes",0.619000000000142,"CHI","MOT","1.5790000000001783",TRUE,26,FALSE,TRUE,FALSE,TRUE
+"8","oh two man men","that was some passengers waiting at the side of the platform for the train",2.85899999999992,"CHI","MOT","2.1599999999998545",TRUE,26,FALSE,TRUE,FALSE,TRUE
+"9","bubble nan gone","where the bubble gone",0.0120000000000005,"CHI","MOT","1.625",TRUE,27,TRUE,FALSE,FALSE,TRUE
+"10","a big bubbles","it is a big bubble isn't it",-0.256000000000029,"CHI","MOT","2.090000000000032",TRUE,27,FALSE,TRUE,FALSE,TRUE
+"11","xxx the watch cherries","watch the cherries",-0.394999999999982,"CHI","MOT","4.423000000000229",TRUE,27,FALSE,TRUE,FALSE,TRUE
+"12","no drops","no drops",-0.13799999999992,"CHI","MOT","1.2770000000000437",TRUE,27,FALSE,TRUE,FALSE,TRUE
+"13","a big teef feet","they have big feet",-0.197000000000116,"CHI","INV","1.55600000000004",TRUE,27,FALSE,TRUE,FALSE,TRUE
+"14","two two moneys","two moneys",0.813000000000102,"CHI","MOT","2.8099999999999454",TRUE,27,FALSE,TRUE,FALSE,TRUE
+"15","two moneys please","two moneys please",-0.0889999999999418,"CHI","MOT","1.8920000000000528",TRUE,27,FALSE,TRUE,FALSE,TRUE
+"16","two moneys","yes",0.0350000000000819,"CHI","MOT","1.2189999999998236",TRUE,27,FALSE,TRUE,FALSE,TRUE
+"17","two moneys","two moneys",0.0349999999998545,"CHI","MOT","1.0450000000000728",TRUE,27,FALSE,TRUE,FALSE,TRUE
+"18","moneys","moneys",-0.0350000000000819,"CHI","MOT","0.8479999999999563",TRUE,27,FALSE,TRUE,FALSE,TRUE
+"19","oh two ones","two ones",-0.139999999999873,"CHI","MOT","1.3940000000000055",TRUE,27,FALSE,TRUE,FALSE,TRUE
+"20","two moneys two moneys two moneys","two moneys",-0.0839999999998327,"CHI","MOT","4.632999999999811",TRUE,27,FALSE,TRUE,FALSE,TRUE
+"21","a more box of moneys","yes",0,"CHI","MOT","2.2870000000000346",TRUE,27,FALSE,TRUE,FALSE,TRUE
+"22","box moneys","box moneys",-0.0930000000000746,"CHI","MOT","1.6140000000000327",TRUE,27,FALSE,TRUE,FALSE,TRUE
+"23","box of moneys","box of moneys",0.160000000000082,"CHI","MOT","1.8689999999999145",TRUE,27,FALSE,TRUE,FALSE,TRUE
+"24","moneys","moneys",0.231999999999971,"CHI","MOT","1.0450000000000728",TRUE,27,FALSE,TRUE,FALSE,TRUE
+"25","moneys","Mummy's",1.82399999999961,"CHI","MOT","1.568000000000211",TRUE,27,FALSE,TRUE,FALSE,TRUE
+"26","two moneys","two moneys",NA,"CHI","MOT","media info not available",TRUE,27,FALSE,TRUE,FALSE,TRUE
+"27","some moneys","some money",-0.0119999999999436,"CHI","MOT","1.2539999999999054",TRUE,28,FALSE,TRUE,FALSE,TRUE
+"28","there's moneys","moneys",-0.128000000000156,"CHI","MOT","1.13799999999992",TRUE,28,FALSE,TRUE,FALSE,TRUE
+"29","big moneys","big moneys",0.106999999999971,"CHI","MOT","1.2070000000003347",TRUE,28,FALSE,TRUE,FALSE,TRUE
+"30","two moneys","are you going back to play with Mummy's money",0.547000000000025,"CHI","MOT","1.1150000000002365",TRUE,28,FALSE,TRUE,FALSE,TRUE
+"31","two foots","two foots",0.244999999999891,"CHI","MOT","1.6660000000001673",TRUE,28,FALSE,TRUE,FALSE,TRUE
+"32","one feet","what color's feet",0.531999999999698,"CHI","MOT","1.1880000000001019",TRUE,28,FALSE,TRUE,FALSE,TRUE
+"33","two peoples","two people",0.0459999999999923,"CHI","MOT","1.48599999999999",TRUE,28,FALSE,TRUE,FALSE,TRUE
+"34","two moneys","two moneys",-0.104000000000042,"CHI","MOT","1.3699999999998909",TRUE,28,FALSE,TRUE,FALSE,TRUE
+"35","pinks","what color",0.713000000000193,"CHI","MOT","1.393000000000029",TRUE,28,FALSE,TRUE,FALSE,TRUE
+"36","pinks","pink pigs",0.186000000000149,"CHI","MOT","0.9049999999997453",TRUE,28,FALSE,TRUE,FALSE,TRUE
+"37","a moneys","if you have all your toys out together you lose interest don't you",0.635999999999967,"CHI","MOT","1.4039999999999964",TRUE,28,FALSE,TRUE,FALSE,TRUE
+"38","one crisps please","are you giving him crisps as well",-0.07000000000005,"CHI","MOT","1.9160000000000537",TRUE,28,FALSE,TRUE,FALSE,TRUE
+"39","the money the money the moneys","the moneys the moneys",-0.0459999999998217,"CHI","MOT","2.5540000000000873",TRUE,28,FALSE,TRUE,FALSE,TRUE
+"40","the two moneys","that's right",-0.254999999999882,"CHI","MOT","1.625",TRUE,28,FALSE,TRUE,FALSE,TRUE
+"41","one pounds","and these are a silver color",-0.0349999999999682,"CHI","MOT","1.961999999999989",TRUE,28,FALSE,TRUE,FALSE,TRUE
+"42","broke one","broke one",0.0579999999999927,"CHI","MOT","1.194999999999709",TRUE,28,TRUE,FALSE,FALSE,TRUE
+"43","all done more","all done more",0.0579999999999927,"CHI","MOT","1.2300000000000182",TRUE,28,TRUE,FALSE,FALSE,TRUE
+"44","toys boxes","ah",0.221000000000004,"CHI","INV","1.7530000000001564",TRUE,28,FALSE,TRUE,FALSE,TRUE
+"45","a goings","they're all there now",-1.56700000000001,"CHI","INV","1.5670000000000073",TRUE,28,FALSE,TRUE,TRUE,TRUE
+"46","chips MacDonald's","chips MacDonald's",0.0930000000000746,"CHI","MOT","1.5670000000000073",TRUE,29,FALSE,TRUE,FALSE,TRUE
+"47","sit an hours","sit an hour",0.609000000000009,"CHI","MOT","1.6020000000000039",TRUE,29,FALSE,TRUE,FALSE,TRUE
+"48","an hours","an hours",0.0370000000000061,"CHI","MOT","0.7770000000000152",TRUE,29,FALSE,TRUE,FALSE,TRUE
+"49","dear oh dear an hours","sit an hour",0.803999999999974,"CHI","MOT","3.1929999999999836",TRUE,29,FALSE,TRUE,FALSE,TRUE
+"50","Mummy xxx the moneys","Mummy's bringing some money",0.349999999999909,"CHI","MOT","2.4600000000000364",TRUE,29,FALSE,TRUE,FALSE,TRUE
+"51","xxx the moneys","there we are",1.14699999999993,"CHI","MOT","1.5879999999999654",TRUE,29,FALSE,TRUE,FALSE,TRUE
+"52","more moneys","more moneys",-0.000999999999976353,"CHI","MOT","1.0960000000000036",TRUE,29,FALSE,TRUE,FALSE,TRUE
+"53","moneys","with some money",-0.0630000000001019,"CHI","MOT","1.0150000000001",TRUE,29,FALSE,TRUE,FALSE,TRUE
+"54","Dimitra opened","okay",0.425999999999931,"CHI","INV","1.5989999999999327",TRUE,29,TRUE,FALSE,FALSE,TRUE
+"55","Thomas pocket moneys","Thomas pocket",1.48599999999999,"CHI","MOT","2.844000000000051",TRUE,29,FALSE,TRUE,FALSE,TRUE
+"56","train two moneys","are you going to have a cup of tea with Mummy like you did yesterday",0.673000000000002,"CHI","MOT","2.2169999999999845",TRUE,29,FALSE,TRUE,FALSE,TRUE
+"57","twos hat","two hats from McDonalds",0.173000000000229,"CHI","MOT","1.2539999999999054",TRUE,29,FALSE,TRUE,FALSE,TRUE
+"58","a ones train","we've not seen Purdie have we",8.83500000000004,"CHI","MOT","2.0670000000000073",TRUE,29,FALSE,TRUE,FALSE,TRUE
+"59","a big bites","mhm",0.0640000000000782,"CHI","MOT","0.9639999999999418",TRUE,29,FALSE,TRUE,FALSE,TRUE
+"60","a tree falled over","the tree's going to fall over because the train is going to hit them",0.0109999999999673,"CHI","MOT","1.8119999999998981",TRUE,29,TRUE,FALSE,FALSE,TRUE
+"61","two moneys","yes",-0.035000000000025,"CHI","MOT","0.8940000000000055",TRUE,30,FALSE,TRUE,FALSE,TRUE
+"62","xxx broke broken now","what's the matter",-0.0579999999999998,"CHI","MOT","1.9160000000000004",TRUE,30,TRUE,FALSE,FALSE,TRUE
+"63","no baby in that ones","the baby goes in that one",0.347999999999956,"CHI","INV","1.4859999999998763",TRUE,30,FALSE,TRUE,FALSE,TRUE
+"64","two moneys please driver","I don't think the digger man takes money does he",1.88700000000017,"CHI","MOT","2.8170000000000073",TRUE,30,FALSE,TRUE,FALSE,TRUE
+"65","two man a ladders","two man a ladders",0.275000000000091,"CHI","MOT","2.074999999999818",TRUE,30,FALSE,TRUE,FALSE,TRUE
+"66","two mans men","we can do it with the men",0.906999999999698,"CHI","MOT","0.8110000000001492",TRUE,30,FALSE,TRUE,FALSE,TRUE
+"67","two moneys","two moneys please",0.290999999999997,"CHI","MOT","0.7539999999999623",TRUE,30,FALSE,TRUE,FALSE,TRUE
+"68","another steps","that was very clever really wasn't it",0.162000000000035,"CHI","MOT","1.63799999999992",TRUE,30,FALSE,TRUE,FALSE,TRUE
+"69","dropped ones","you've dropped ones",0.15099999999984,"CHI","MOT","1.5790000000001783",TRUE,30,FALSE,TRUE,FALSE,TRUE
+"70","another traffic lights","another traffic lights",0.98700000000008,"CHI","MOT","1.7179999999998472",TRUE,30,FALSE,TRUE,FALSE,TRUE
+"71","paying the moneys","you've finished your moneys",0.847999999999956,"CHI","MOT","1.462999999999738",TRUE,30,FALSE,TRUE,FALSE,TRUE
+"72","two ones","two ones",0.12700000000001,"CHI","MOT","1.218999999999994",TRUE,30,FALSE,TRUE,FALSE,TRUE
+"73","one cones two cones","yes",0.30199999999968,"CHI","MOT","1.9270000000001346",TRUE,30,FALSE,TRUE,FALSE,TRUE
+"74","drop ones","you've dropped one",0.0349999999998545,"CHI","MOT","1.0790000000001783",TRUE,30,FALSE,TRUE,FALSE,TRUE
+"75","never see big big red bus big red bus came","are you telling me you didn't see the red bus properly because you're having your nappie changed",0.835999999999899,"CHI","MOT","4.249000000000024",TRUE,30,TRUE,FALSE,FALSE,TRUE
+"76","ears have come off","the ears have come off",0.115999999999985,"CHI","MOT","2.0659999999998035",TRUE,30,FALSE,TRUE,FALSE,TRUE
+"77","a falled over","who fell over",0.128000000000156,"CHI","MOT","1.9389999999998508",TRUE,30,TRUE,FALSE,FALSE,TRUE
+"78","yellow fishes","some fish",-0.120000000000005,"CHI","MOT","1.1999999999999886",TRUE,31,FALSE,TRUE,FALSE,TRUE
+"79","some more moneys","oh",-0.120000000000005,"CHI","MOT","1.747000000000071",TRUE,31,FALSE,TRUE,FALSE,TRUE
+"80","mixer has gone","you took it upstairs Thomas",-0.173999999999978,"CHI","MOT","1.6019999999998618",TRUE,31,TRUE,FALSE,FALSE,TRUE
+"81","no bin mens men","yes",0.336000000000013,"CHI","INV","1.4629999999999654",TRUE,31,FALSE,TRUE,FALSE,TRUE
+"82","all mended","you're mended",0.0579999999999927,"CHI","INV","1.5790000000001783",TRUE,31,TRUE,FALSE,FALSE,TRUE
+"83","a traffics","is Spud a character from Bob_The_Builder Thomas",1.06799999999976,"CHI","MOT","1.8810000000003129",TRUE,31,FALSE,TRUE,FALSE,TRUE
+"84","Maltesers have done","aah",-2.18199999999979,"CHI","MOT","2.1829999999999927",TRUE,31,TRUE,FALSE,TRUE,TRUE
+"85","Isabel done a wee wee","Isabel done a wee wee",0.156999999999698,"CHI","MOT","3.2270000000003165",TRUE,31,TRUE,FALSE,FALSE,TRUE
+"86","is lots","why don't you do the jigsaw again and then push them all out",0.186000000000149,"CHI","MOT","1.300000000000182",TRUE,31,FALSE,TRUE,FALSE,TRUE
+"87","another ones","there're quite a lot of small pieces here look that'll fit into the digger quite nicely won't they",2.04299999999989,"CHI","MOT","1.5440000000000964",TRUE,31,FALSE,TRUE,FALSE,TRUE
+"88","big fishes","oh are we going to find some big fishes there",0.440999999999804,"CHI","INV","1.2650000000003274",TRUE,31,FALSE,TRUE,FALSE,TRUE
+"89","mine has gone","oh you'll have_to pour yourself another cup Thomas",0.731999999999971,"CHI","MOT","2.4190000000000964",TRUE,31,TRUE,FALSE,FALSE,TRUE
+"90","a whistles","you talking about the digger",1.27700000000004,"CHI","MOT","0.5800000000000409",TRUE,31,FALSE,TRUE,FALSE,TRUE
+"91","uh buy fishes and sausages","fishes and sausages",-0.0350000000000819,"CHI","MOT","2.54300000000012",TRUE,31,FALSE,TRUE,FALSE,TRUE
+"92","two o'clocks","one o'clock two o'clock",0.0399999999999636,"CHI","MOT","1.1030000000000655",TRUE,31,FALSE,TRUE,FALSE,TRUE
+"93","um a lot of mans men","pardon",0.684999999999945,"CHI","MOT","2.088999999999942",TRUE,31,FALSE,TRUE,FALSE,TRUE
+"94","lot of mans men","a lot of mans",0.00399999999990541,"CHI","MOT","1.1959999999999127",TRUE,31,FALSE,TRUE,FALSE,TRUE
+"95","lot of rubbishes","a lot of rubbish",0.197000000000116,"CHI","MOT","1.7179999999998472",TRUE,32,FALSE,TRUE,FALSE,TRUE
+"96","kissing mistletoes","kissing mistletoes",0.104999999999905,"CHI","MOT","2.090000000000032",TRUE,32,FALSE,TRUE,FALSE,TRUE
+"97","mistletoes","oh you missed your party",-0.546000000000049,"CHI","MOT","1.7770000000000437",TRUE,32,FALSE,TRUE,FALSE,TRUE
+"98","bought brought another one","you've brought another one",-0.162000000000035,"CHI","MOT","1.5090000000000146",TRUE,32,TRUE,FALSE,FALSE,TRUE
+"99","uh I want that a clocks now","you want the clock now",0.0399999999999636,"CHI","MOT","2.8330000000000837",TRUE,32,FALSE,TRUE,FALSE,TRUE
+"100","like Aunty_Mabel done","like Aunty_Mabel does",0.0109999999999957,"CHI","MOT","2.427000000000021",TRUE,33,TRUE,FALSE,FALSE,TRUE
+"101","I not see little mouses",NA,0.220000000000255,"CHI","MOT","2.1479999999996835",TRUE,33,FALSE,TRUE,FALSE,TRUE
+"102","a my holded it","we'll keep it out because you might have a lot of fun playing with it mightn't you",-0.0230000000001382,"CHI","MOT","1.7760000000002947",TRUE,33,TRUE,FALSE,FALSE,TRUE
+"103","I wanted it","you want it",0.012000000000171,"CHI","MOT","0.7429999999999382",TRUE,33,TRUE,FALSE,FALSE,TRUE
+"104","where has Thomas gone","right we'll leave your",-2.08999999999992,"CHI","MOT","2.5079999999999245",TRUE,33,TRUE,FALSE,TRUE,TRUE
+"105","got two lots of chocolates","two chocolates",-0.266999999999825,"CHI","MOT","1.961999999999989",TRUE,33,FALSE,TRUE,TRUE,TRUE
+"106","where's the moneys","well that's your purse isn't it",0.0579999999999927,"CHI","MOT","1.6710000000000491",TRUE,33,FALSE,TRUE,FALSE,TRUE
+"107","I fixeded fixed it","you fixeded it",0.069999999999709,"CHI","MOT","1.5210000000001855",TRUE,33,TRUE,FALSE,FALSE,TRUE
+"108","lots_of fishes","do you think there are a lot of fishes",-0.0910000000003492,"CHI","MOT","2.425000000000182",TRUE,33,FALSE,TRUE,FALSE,TRUE
+"109","lots_of fishes here","oh it's opening again",12.2359999999999,"CHI","INV","1.9800000000000182",TRUE,33,FALSE,TRUE,FALSE,TRUE
+"110","saw some big fishes","you saw some big fishes",0.0229999999999109,"CHI","MOT","2.066000000000031",TRUE,33,FALSE,TRUE,FALSE,TRUE
+"111","I have builded it","you've builded it",0.220000000000027,"CHI","MOT","1.9969999999998436",TRUE,33,TRUE,FALSE,FALSE,TRUE
+"112","eated it","she eaten eat",0.0459999999998217,"CHI","MOT","0.9410000000002583",TRUE,33,TRUE,FALSE,FALSE,TRUE
+"113","it's not it's not fixeded fixed","it's not fixeded",-0.0929999999998472,"CHI","MOT","2.530999999999949",TRUE,33,TRUE,FALSE,FALSE,TRUE
+"114","Bob_the_Builder nearly runned","pardon",1.63699999999972,"CHI","MOT","2.3330000000000837",TRUE,33,TRUE,FALSE,FALSE,TRUE
+"115","xxx big fishes","yes",NA,"CHI","MOT","media info not available",TRUE,33,FALSE,TRUE,FALSE,TRUE
+"116","Bob_Builder fixeded fixed it","Bob_the_Builder fixed it",0.012000000000171,"CHI","MOT","2.031999999999698",TRUE,33,TRUE,FALSE,FALSE,TRUE
+"117","it's all broke broken","it all broken",0.27800000000002,"CHI","MOT","2.310999999999922",TRUE,34,TRUE,FALSE,FALSE,TRUE
+"118","it broken","it hasn't broken",0.371000000000095,"CHI","MOT","1.6489999999998872",TRUE,34,TRUE,FALSE,FALSE,TRUE
+"119","I want a traffic signs","and a traffic sign",-0.128000000000043,"CHI","INV","2.356999999999971",TRUE,34,FALSE,TRUE,FALSE,TRUE
+"120","good mans men","he's a good man is he",0.463999999999942,"CHI","MOT","1.8110000000001492",TRUE,34,FALSE,TRUE,FALSE,TRUE
+"121","I clowned","you're a clown",0.0819999999998799,"CHI","MOT","0.6900000000000546",TRUE,34,TRUE,FALSE,FALSE,TRUE
+"122","it's mornings now","no",0.081000000000131,"CHI","MOT","1.7529999999997017",TRUE,34,FALSE,TRUE,FALSE,TRUE
+"123","ostrich done a poo in his nappie","no",0.163000000000011,"CHI","MOT","2.90199999999993",TRUE,34,TRUE,FALSE,FALSE,TRUE
+"124","here's his wheels on his on his post vans","oh you can see the wheels on his post van",0.208999999999833,"CHI","MOT","3.785000000000082",TRUE,34,FALSE,TRUE,FALSE,TRUE
+"125","an droved away","he's driving away",0.360000000000127,"CHI","MOT","1.2769999999998163",TRUE,34,TRUE,FALSE,FALSE,TRUE
+"126","lady getted off it a did something","the lady got off a blue caravan to get something",0.640999999999991,"CHI","MOT","4.13300000000001",TRUE,34,TRUE,FALSE,FALSE,TRUE
+"127","you have got some more","I know",-0.0650000000000546,"CHI","MOT","1.8340000000002874",TRUE,34,TRUE,FALSE,FALSE,TRUE
+"128","someone droved over on path","pardon",0.626999999999953,"CHI","MOT","2.2640000000001237",TRUE,34,TRUE,FALSE,FALSE,TRUE
+"129","someone droved over path","yes",-0.0470000000000255,"CHI","MOT","1.683999999999969",TRUE,34,TRUE,FALSE,FALSE,TRUE
+"130","goed away","I'll just move that",7.3889999999999,"CHI","MOT","1.5090000000000146",TRUE,34,TRUE,FALSE,FALSE,TRUE
+"131","I am not finished","well let's well let's just move them over there Thomas",-0.603000000000065,"CHI","MOT","1.5209999999997308",TRUE,34,TRUE,FALSE,TRUE,TRUE
+"132","I need that little little toys","there",3.93400000000008,"CHI","MOT","2.19399999999996",TRUE,35,FALSE,TRUE,FALSE,TRUE
+"133","I I see this ones","you saw the balloon did you",-0.0929999999998472,"CHI","MOT","2.8099999999999454",TRUE,35,FALSE,TRUE,FALSE,TRUE
+"134","Fireman_Sam got in the kitchen making some sausages","Fireman_Sam is in the kitchen making some sausages",0.0700000000001637,"CHI","MOT","5.618999999999687",TRUE,35,TRUE,FALSE,FALSE,TRUE
+"135","Dimitra likes post bags an post boxes","oh",1.79999999999995,"CHI","INV","3.923999999999978",TRUE,35,FALSE,TRUE,FALSE,TRUE
+"136","um fishes","fish",0.672999999999774,"CHI","INV","1.4630000000001928",TRUE,35,FALSE,TRUE,FALSE,TRUE
+"137","just remember runned","you've just remember to run like the dustbin man when he gets out of his cab",0.0600000000004002,"CHI","MOT","2.6349999999997635",TRUE,35,TRUE,FALSE,FALSE,TRUE
+"138","droved away","what did the policeman find when he went to see the fireman",1.43999999999983,"CHI","MOT","1.9160000000001673",TRUE,35,TRUE,FALSE,FALSE,TRUE
+"139","dustbin man tipper throwed it away","oh",0.208999999999833,"CHI","MOT","5.8400000000001455",TRUE,35,TRUE,FALSE,FALSE,TRUE
+"140","Judy throwed it","Judy threw something away",0.232999999999947,"CHI","MOT","1.9039999999999964",TRUE,35,TRUE,FALSE,FALSE,TRUE
+"141","big snake goed around","has somebody called you mischief",0.0349999999998545,"CHI","MOT","2.19399999999996",TRUE,35,TRUE,FALSE,FALSE,TRUE
+"142","big wind comed up and blows two down","the big the big wind come up and blown two of them down",0.542999999999665,"CHI","MOT","4.423000000000229",TRUE,35,TRUE,FALSE,FALSE,TRUE
+"143","dirty beer lorry bringed that","the beer lorry brings that",0.0239999999998872,"CHI","MOT","2.2289999999998145",TRUE,35,TRUE,FALSE,FALSE,TRUE
+"144","lorry droved away","driven away Thomas",0.626999999999953,"CHI","MOT","2.286999999999807",TRUE,35,TRUE,FALSE,FALSE,TRUE
+"145","this made delivery","it made a delivery",-0.0159999999999982,"CHI","MOT","1.7530000000000001",TRUE,36,TRUE,FALSE,FALSE,TRUE
+"146","you hold some two ones","I'll hold these two",0.012000000000171,"CHI","MOT","1.7179999999998472",TRUE,36,FALSE,TRUE,FALSE,TRUE
+"147","some silly womans women","what about Bryony and Charlotte",3.93599999999969,"CHI","MOT","2.125",TRUE,36,FALSE,TRUE,FALSE,TRUE
+"148","I pushed over again","yes",0.639000000000124,"CHI","MOT","1.7989999999999782",TRUE,36,TRUE,FALSE,FALSE,TRUE
+"149","and the post lorry driven away","must be my birthday",0.432999999999993,"CHI","MOT","2.8089999999997417",TRUE,36,TRUE,FALSE,FALSE,TRUE
+"150","a lorry droved away","driven away",-0.012000000000171,"CHI","MOT","2.356999999999971",TRUE,36,TRUE,FALSE,FALSE,TRUE
+"151","eated that","eated it",-0.0459999999998217,"CHI","MOT","0.8709999999996398",TRUE,36,TRUE,FALSE,FALSE,TRUE
+"152","flied in here","flied in here did it",NA,"CHI","MOT","1.5790000000000077",TRUE,36,TRUE,FALSE,FALSE,TRUE
+"153","that man put his thing in machine nearly squashed it","oh_gosh",0.336000000000013,"CHI","MOT","3.54099999999994",TRUE,36,TRUE,FALSE,FALSE,TRUE
+"154","I just throwed it in the air","oh you just throwed it in the air and it hit me did it",-0.1400000000001,"CHI","INV","2.7870000000000346",TRUE,36,TRUE,FALSE,FALSE,TRUE
+"155","a postman bringed it","the postman",NA,"CHI","INV","1.6140000000000327",TRUE,36,TRUE,FALSE,FALSE,TRUE
+"156","a dustbin mens men arriving","no",0.209000000000003,"CHI","MOT","2.2749999999999773",TRUE,36,FALSE,TRUE,FALSE,TRUE
+"157","look a crocodiles","yes",0.278999999999996,"CHI","MOT","2.3099999999999454",TRUE,36,FALSE,TRUE,FALSE,TRUE
+"158","I drawed under here","I know you did",-0.093000000000302,"CHI","MOT","0.9980000000000473",TRUE,36,TRUE,FALSE,FALSE,TRUE
+"159","dustbin mens men are here","who's here",0.440999999999804,"CHI","MOT","2.04300000000012",TRUE,36,FALSE,TRUE,FALSE,TRUE
+"160","it runned away","you've driven away",5.32200000000012,"CHI","MOT","1.8809999999998581",TRUE,36,TRUE,FALSE,FALSE,TRUE
+"161","mans men wanted to kiss the fire engine","I would have liked to have kissed the fireman",0.464000000000055,"CHI","MOT","2.6819999999999027",TRUE,36,FALSE,TRUE,FALSE,TRUE
+"162","look I got anything on my hand","xxx",-2.48000000000002,"CHI","MOT","3.265999999999849",TRUE,36,TRUE,FALSE,TRUE,TRUE
+"163","Son Sonia Isabelle falled on the road and and crash went the sick and all over air",NA,0.120000000000118,"CHI","INV","6.866999999999962",TRUE,36,TRUE,FALSE,FALSE,TRUE
+"164","look what I have got my grass","yes",0.3599999999999,"CHI","MOT","1.7050000000001546",TRUE,36,TRUE,FALSE,FALSE,TRUE
+"165","two ones","two ones",0.197999999999865,"CHI","MOT","0.7430000000003929",TRUE,36,FALSE,TRUE,FALSE,TRUE
+"166","two ones","oh two books",0,"CHI","MOT","0.5",TRUE,36,FALSE,TRUE,FALSE,TRUE
+"167","about a lot ones","no no",0.0579999999999927,"CHI","MOT","1.1950000000001637",TRUE,36,FALSE,TRUE,FALSE,TRUE
+"168","I I eated this one","that's right",-0.0340000000001055,"CHI","MOT","2.089000000000169",TRUE,36,TRUE,FALSE,FALSE,TRUE
+"169","Firefighter_Morris lied on the floor","oh right",0.19800000000032,"CHI","MOT","3.493999999999687",TRUE,36,TRUE,FALSE,FALSE,TRUE
+"170","this this wheels can't work","oh has something happened to the wheel",0.545000000000073,"CHI","MOT","3.018999999999778",TRUE,36,FALSE,TRUE,FALSE,TRUE
+"171","I think a mans men sleeps in there","do you think he sleeps in there",-0.0109999999999673,"CHI","MOT","3.8079999999999927",TRUE,36,FALSE,TRUE,FALSE,TRUE
+"172","I call have some cough smints mints","you call them cough mints",0.395000000000437,"CHI","MOT","3.8549999999995634",TRUE,36,FALSE,TRUE,FALSE,TRUE
+"173","things are not fit in bowls","these things are not",1.18900000000002,"CHI","MOT","2.5780000000000314",TRUE,37,TRUE,FALSE,FALSE,TRUE
+"174","I have got these","xxx",-0.81899999999996,"CHI","MOT","3.336999999999989",TRUE,37,TRUE,FALSE,TRUE,TRUE
+"175","then the train not watched out","did the train not watch out",0.0459999999998217,"CHI","MOT","2.425999999999931",TRUE,37,TRUE,FALSE,FALSE,TRUE
+"176","then he leaved his passengers on the line","oh it's gonna catch it",0.300999999999931,"CHI","INV","5.212999999999738",TRUE,37,TRUE,FALSE,FALSE,TRUE
+"177","es droven driven over the money","oh you're driving over the money",-0.0239999999998872,"CHI","MOT","1.719000000000051",TRUE,37,TRUE,FALSE,FALSE,TRUE
+"178","then they said they selled them","and they didn't sell them",1.58999999999992,"CHI","MOT","2.925999999999931",TRUE,37,TRUE,FALSE,FALSE,TRUE
+"179","then come two ones","two ones",0.163000000000011,"CHI","MOT","3.993999999999687",TRUE,37,FALSE,TRUE,FALSE,TRUE
+"180","an the boy runned","and the man",0.313000000000102,"CHI","MOT","1.2309999999999945",TRUE,37,TRUE,FALSE,FALSE,TRUE
+"181","I do not want my tracks off on","that's alright love",0.116,"CHI","MOT","2.497",TRUE,37,FALSE,TRUE,FALSE,TRUE
+"182","I drinked it all","I know",0.255000000000109,"CHI","MOT","1.1149999999997817",TRUE,37,TRUE,FALSE,FALSE,TRUE
+"183","this chairs is tickling me","the chair's tickling you",0.0349999999999682,"CHI","MOT","1.927000000000021",TRUE,37,FALSE,TRUE,FALSE,TRUE
+"184","that chairs is on fire","is it",-1.35000000000002,"CHI","MOT","2.808999999999969",TRUE,37,FALSE,TRUE,FALSE,TRUE
+"185","there one moneys","one two three four five",-0.150000000000091,"CHI","MOT","1.4050000000002",TRUE,37,FALSE,TRUE,FALSE,TRUE
+"186","what his name called","he's called Nemo",-0.0350000000000819,"CHI","INV","1.4739999999999327",TRUE,37,TRUE,FALSE,FALSE,TRUE
+"187","because it falled in the water","really",0.127999999999702,"CHI","INV","2.019999999999982",TRUE,37,TRUE,FALSE,FALSE,TRUE
+"188","then a hat falled on","don't throw that don't throw that",0.813999999999851,"CHI","INV","2.3099999999999454",TRUE,37,TRUE,FALSE,FALSE,TRUE
+"189","this not works","no",0.968999999999999,"CHI","MOT","1.8339999999999996",TRUE,37,FALSE,TRUE,FALSE,TRUE
+"190","I'm making just painting breads","painting breads",1.11400000000003,"CHI","MOT","2.9729999999999563",TRUE,37,FALSE,TRUE,FALSE,TRUE
+"191","this pieces wants a wash in my drink","no",-0.0339999999998781,"CHI","MOT","4.121000000000095",TRUE,37,FALSE,TRUE,FALSE,TRUE
+"192","this train not works","no",0.545000000000073,"CHI","MOT","1.97400000000016",TRUE,37,FALSE,TRUE,FALSE,TRUE
+"193","oh dustbin mens men are coming","yes",0.0930000000000035,"CHI","MOT","1.6019999999999968",TRUE,38,FALSE,TRUE,FALSE,TRUE
+"194","falled on floor","you're just eating your dinner and then you fell on the floor",0.405999999999949,"CHI","MOT","0.9989999999997963",TRUE,38,TRUE,FALSE,FALSE,TRUE
+"195","now it sawed it post lorry coming by","hello post lorry",1.545,"CHI","MOT","6.292",TRUE,38,TRUE,FALSE,FALSE,TRUE
+"196","Purdie swallow my sausages","Purdie done what",0.302000000000135,"CHI","MOT","3.4479999999998654",TRUE,38,FALSE,TRUE,FALSE,TRUE
+"197","two ones","two",0.115999999999985,"CHI","MOT","1.0690000000000737",TRUE,38,FALSE,TRUE,FALSE,TRUE
+"198","it flied","we had a yellow balloon and what happened to it",-0.707999999999998,"CHI","MOT","1.0329999999999977",TRUE,38,TRUE,FALSE,TRUE,TRUE
+"199","flied","it flying",0.318000000000001,"CHI","MOT","0.9639999999999986",TRUE,38,TRUE,FALSE,FALSE,TRUE
+"200","it flieded flied","it flied",0.417999999999999,"CHI","MOT","0.8819999999999979",TRUE,38,TRUE,FALSE,FALSE,TRUE
+"201","it flieded flied","yes",0,"CHI","MOT","0.9990000000000023",TRUE,38,TRUE,FALSE,FALSE,TRUE
+"202","it flieded flied it","you let go of the string didn't you",0.0930000000000035,"CHI","MOT","1.5549999999999997",TRUE,38,TRUE,FALSE,FALSE,TRUE
+"203","where did sent them","well she sent them up to bed",-0.1099999999999,"CHI","MOT","2.6359999999999673",TRUE,38,TRUE,FALSE,FALSE,TRUE
+"204","oh xxx two ones have popped","the balloons",0.103999999999814,"CHI","MOT","2.9720000000002074",TRUE,38,FALSE,TRUE,FALSE,TRUE
+"205","all down my arm I did","what's the matter",0.613000000000284,"CHI","MOT","2.092999999999847",TRUE,39,TRUE,FALSE,FALSE,TRUE
+"206","and we have beened on the flags tool","let's have a look what your clean under pants have got on them",-0.0940000000000509,"CHI","MOT","3.4539999999997235",TRUE,39,TRUE,TRUE,FALSE,TRUE
+"207","I just knowed","no you mustn't eat them",0.184999999999945,"CHI","MOT","1.4519999999999982",TRUE,39,TRUE,FALSE,FALSE,TRUE
+"208","look what I have done","right",-1.19599999999991,"CHI","MOT","1.3119999999998981",TRUE,39,TRUE,FALSE,TRUE,TRUE
+"209","I sweeped it up","oh you're very clever",-0.093000000000302,"CHI","MOT","1.3700000000003456",TRUE,39,TRUE,FALSE,FALSE,TRUE
+"210","no you are stuck","am I",0.0229999999996835,"CHI","MOT","1.1140000000000327",TRUE,39,TRUE,FALSE,FALSE,TRUE
+"211","it's a beautiful flowers","beautiful flowers in the window box on the farm",0.163000000000011,"CHI","MOT","3.11099999999999",TRUE,39,FALSE,TRUE,FALSE,TRUE
+"212","and you wanted to be it was bedtime you were sleepy wasn't you","well I am quite sleepy Thomas",-0.0830000000000268,"CHI","MOT","7.442000000000007",TRUE,39,TRUE,FALSE,FALSE,TRUE
+"213","and then the boy and he didn't touch and the moon just xxx and the boy said quiet","did he",-0.134000000000015,"CHI","MOT","10.344000000000051",TRUE,39,TRUE,FALSE,FALSE,TRUE
+"214","we was too late","what was too late",0.115999999999985,"CHI","MOT","1.7070000000001073",TRUE,39,TRUE,FALSE,FALSE,TRUE
+"215","I just maked it","Tom",0.534000000000106,"CHI","MOT","0.8820000000000618",TRUE,39,TRUE,FALSE,FALSE,TRUE
+"216","he got lots_of containers in it but it was a train track in","oh right",0.132999999999811,"CHI","MOT","5.3400000000001455",TRUE,39,TRUE,TRUE,FALSE,TRUE
+"217","but where are the cars","this is beautiful",-0.348999999999933,"CHI","INV","1.5329999999999018",TRUE,39,FALSE,TRUE,FALSE,TRUE
+"218","it did go elephants sleep","elephants go to sleep",0.115999999999985,"CHI","INV","2.3460000000000036",TRUE,39,TRUE,TRUE,FALSE,TRUE
+"219","look at I have done","we've got_to see what this one has done",0.302000000000135,"CHI","MOT","1.2420000000001892",TRUE,40,TRUE,FALSE,FALSE,TRUE
+"220","it was got lots_of wheels and it said oil","did it",-0.0469999999999118,"CHI","MOT","3.088999999999942",TRUE,40,TRUE,FALSE,FALSE,TRUE
+"221","Mummy put some lots in there then can deliver it there","alright",-1.27700000000004,"CHI","MOT","4.9220000000000255",TRUE,40,FALSE,TRUE,FALSE,TRUE
+"222","I am giving you lots a sweeties","you're giving me lots_of sweeties",NA,"CHI","MOT","media info not available",TRUE,40,FALSE,TRUE,TRUE,TRUE
+"223","not much water in there left","pardon",NA,"CHI","MOT","media info not available",TRUE,40,TRUE,FALSE,FALSE,TRUE
+"224","xxx need some lots","yeah",-0.394999999999982,"CHI","MOT","1.4049999999999727",TRUE,40,FALSE,TRUE,FALSE,TRUE
+"225","I am making some some biscuits for them I like biscuits","right",-2.56099999999992,"CHI","MOT","4.898999999999887",TRUE,40,FALSE,TRUE,TRUE,TRUE
+"226","you have got","it's",-0.853000000000065,"CHI","MOT","1.3359999999997854",TRUE,40,TRUE,FALSE,TRUE,TRUE
+"227","he stopped out a Liam house","yes",0.012000000000171,"CHI","MOT","2.6929999999997563",TRUE,40,TRUE,FALSE,TRUE,TRUE
+"228","it were gold blue an it had got numbers on it as well","got num the rainbow had numbers on it",-3.399,"CHI","MOT","7.933999999999969",TRUE,40,TRUE,FALSE,FALSE,TRUE
+"229","you didn't saw me","well you must think you're doing something naughty by asking me to turn my head",-0.0750000000000455,"CHI","MOT","1.7770000000000437",TRUE,40,TRUE,FALSE,FALSE,TRUE
+"230","you are a good lady you say cables","oh right",-0.696999999999889,"CHI","MOT","3.1579999999999018",TRUE,40,FALSE,TRUE,TRUE,TRUE
+"231","and we have gone all the rubbish away","very good",-0.0109999999999673,"CHI","MOT","3.59900000000016",TRUE,40,TRUE,FALSE,FALSE,TRUE
+"232","you waked him up","have I",-0.0109999999999673,"CHI","MOT","1.531999999999698",TRUE,40,TRUE,FALSE,FALSE,TRUE
+"233","um I readed the ten o'clock","you read the newspaper at ten o'clock",0.498999999999796,"CHI","INV","4.2719999999999345",TRUE,40,TRUE,FALSE,FALSE,TRUE
+"234","because the we all fixeded fixed it","you fixeded it",0,"CHI","MOT","2.356999999999971",TRUE,41,TRUE,FALSE,FALSE,TRUE
+"235","I have fixeded fixed it","you've fixeded it",0,"CHI","MOT","1.3820000000000618",TRUE,41,TRUE,FALSE,FALSE,TRUE
+"236","then he gone down xxx rubbish","and then he came down and collected all the rubbish did he",0.717000000000098,"CHI","MOT","4.620999999999867",TRUE,41,TRUE,FALSE,FALSE,TRUE
+"237","not mice lady","oh I am a nice lady",0.362999999999829,"CHI","MOT","1.8380000000001928",TRUE,41,FALSE,TRUE,FALSE,TRUE
+"238","it was got some problem","oh dear",0.324999999999989,"CHI","MOT","1.7300000000000182",TRUE,41,TRUE,FALSE,FALSE,TRUE
+"239","please can I got past","yes",-0.0339999999999918,"CHI","MOT","1.8689999999999145",TRUE,41,TRUE,FALSE,FALSE,TRUE
+"240","Mummy do you want to talk to Daddy today didn't you","yeah",-0.664999999999964,"CHI","MOT","4.1440000000000055",TRUE,41,TRUE,FALSE,TRUE,TRUE
+"241","but I have just gone away","Thomas would you like some toast",-0.0309999999999491,"CHI","MOT","2.201999999999998",TRUE,41,TRUE,FALSE,FALSE,TRUE
+"242","got a bones in it","it got bones in it has it",-0.119999999999891,"CHI","MOT","1.6199999999998909",TRUE,41,FALSE,TRUE,FALSE,TRUE
+"243","there's some lines here","you were telling me that you drawn some flowers at Nana's",-0.986000000000331,"CHI","MOT","3.7380000000002838",TRUE,41,FALSE,TRUE,TRUE,TRUE
+"244","um a sirens","what siren",-0.105000000000018,"CHI","MOT","1.6720000000000255",TRUE,41,FALSE,TRUE,FALSE,TRUE
+"245","i want this xxx weighed an make it full up","yes please",0,"CHI","MOT","3.923999999999978",TRUE,42,TRUE,FALSE,FALSE,TRUE
+"246","got in Mum","oh yes sorry",0.244000000000028,"CHI","MOT","1.8809999999999718",TRUE,42,TRUE,FALSE,FALSE,TRUE
+"247","I'm just going to left just on there","you're you're going to leave them",0.116999999999962,"CHI","MOT","3.1920000000000073",TRUE,42,TRUE,FALSE,FALSE,TRUE
+"248","she gone on a rails","oh no",0.0349999999998545,"CHI","MOT","2.4029999999997926",TRUE,42,FALSE,TRUE,FALSE,TRUE
+"249","it blowed a xxx into a great big sea","it blew what into the sea",0,"CHI","MOT","3.981999999999971",TRUE,42,TRUE,FALSE,FALSE,TRUE
+"250","an it shut a doors","right",0.720000000000255,"CHI","MOT","2.599999999999909",TRUE,42,FALSE,TRUE,FALSE,TRUE
+"251","you was","is this am I in jail for being a naughty girl",-0.163000000000011,"CHI","INV","1.6259999999999764",TRUE,42,TRUE,FALSE,FALSE,TRUE
+"252","a shops","a shop",1.38800000000003,"CHI","MOT","1.045000000000016",TRUE,42,FALSE,TRUE,FALSE,TRUE
+"253","no not yet I'm not caught in jail forever and don't need anybody ge getting me out a policeman will let me you know","really",0.0810000000000173,"CHI","INV","10.762000000000057",TRUE,42,TRUE,FALSE,FALSE,TRUE
+"254","I'm just I know I'm just fell out of the space rocket that's why I'm lying there","oh right",0.0339999999999918,"CHI","MOT","5.4220000000000255",TRUE,42,TRUE,FALSE,FALSE,TRUE
+"255","nobody has got a sore tummy","xxx put this xxx",-0.185999999999694,"CHI","INV","1.9850000000001273",TRUE,42,TRUE,FALSE,FALSE,TRUE
+"256","and a man done this","pardon",0.621999999999844,"CHI","MOT","1.7999999999997272",TRUE,42,TRUE,FALSE,FALSE,TRUE
+"257","I'm a b an q man to drives a truck","b and q man",-1.20800000000008,"CHI","INV","3.2739999999998872",TRUE,42,FALSE,TRUE,TRUE,TRUE
+"258","an what your in the shops you gave it back to me when we are out of the shops you can get it again","alright",-0.579999999999927,"CHI","MOT","7.105000000000018",TRUE,42,TRUE,FALSE,FALSE,TRUE
+"259","here we comed out of the shops","right",-0.220000000000027,"CHI","MOT","1.83400000000006",TRUE,42,TRUE,FALSE,FALSE,TRUE
+"260","I have got a friend called Luke","the boy's",-2.14599999999996,"CHI","MOT","2.1469999999999345",TRUE,42,TRUE,FALSE,TRUE,TRUE
+"261","oh I throwed it down","well you'd better pick it up because I can't make it if some of the pieces are missing can I",0.0459999999998217,"CHI","MOT","2.6590000000001055",TRUE,42,TRUE,FALSE,FALSE,TRUE
+"262","I have got some Smarties","oh look",-0.754999999999654,"CHI","MOT","2.855999999999767",TRUE,42,TRUE,FALSE,FALSE,TRUE
+"263","I have eaten it","there's a there's a brown one there that I can see",-0.012000000000171,"CHI","MOT","1.474999999999909",TRUE,42,TRUE,FALSE,TRUE,TRUE
+"264","no we wasn't","well tell me what was it",0,"CHI","MOT","1.9499999999999886",TRUE,42,TRUE,FALSE,FALSE,TRUE
+"265","I have just got headache","pardon",-0.0450000000000159,"CHI","MOT","1.9739999999999895",TRUE,42,TRUE,FALSE,FALSE,TRUE
+"266","now tell me the story when the fire catched on","when when next door caught fire",0.151000000000067,"CHI","MOT","5.2590000000000146",TRUE,43,TRUE,FALSE,FALSE,TRUE
+"267","Mummy Mummy do you know what has gone on fire","don't please don't bang that Thomas darling",-4.55099999999993,"CHI","MOT","8.288999999999987",TRUE,43,TRUE,FALSE,TRUE,TRUE
+"268","do you know what it's name called Mummy","no",-0.0119999999999436,"CHI","MOT","2.2760000000000673",TRUE,43,TRUE,FALSE,FALSE,TRUE
+"269","he throwed it in xxx","goodness me",-0.105000000000018,"CHI","MOT","1.8579999999997199",TRUE,43,TRUE,FALSE,FALSE,TRUE
+"270","Mummy it's tacheded attached on","attached",0.0239999999998872,"CHI","MOT","2.6350000000002183",TRUE,43,TRUE,FALSE,FALSE,TRUE
+"271","xxx you cutted it","I didn't cut it",-0.0109999999999673,"CHI","MOT","3.8780000000001564",TRUE,43,TRUE,FALSE,FALSE,TRUE
+"272","I wanted to do it now","could you stand up please",-0.963000000000193,"CHI","MOT","2.936999999999898",TRUE,43,TRUE,FALSE,FALSE,TRUE
+"273","baby falled down","and look on the same page as",0,"CHI","MOT","1.9039999999999964",TRUE,43,TRUE,FALSE,FALSE,TRUE
+"274","now she falled down","I know",-1.11399999999998,"CHI","MOT","1.9390000000000214",TRUE,43,TRUE,FALSE,FALSE,TRUE
+"275","Gordon and Henry was um walking along the rail rail lines","yes",-0.103999999999814,"CHI","MOT","7.3539999999998145",TRUE,43,TRUE,FALSE,FALSE,TRUE
+"276","Mummy Henry felled fell into a deep blue sea","did he",0.7199999999998,"CHI","MOT","4.9340000000001965",TRUE,43,TRUE,FALSE,FALSE,TRUE
+"277","she doesn't bit your finger like that","bite your finger",-0.0190000000002328,"CHI","MOT","3.3780000000001564",TRUE,43,TRUE,FALSE,FALSE,TRUE
+"278","and that was hurt on you","did someone else fly out of their car and land on top of me",0.197000000000003,"CHI","MOT","2.0439999999999827",TRUE,43,TRUE,FALSE,FALSE,TRUE
+"279","we gone in another hotel didn't we","yes yes",0,"CHI","MOT","3.1340000000000146",TRUE,43,TRUE,FALSE,FALSE,TRUE
+"280","show me went it's ready","I will",0.147999999999683,"CHI","MOT","1.800000000000182",TRUE,43,TRUE,FALSE,FALSE,TRUE
+"281","he flied on on my head","you're probably suffering from jet lag Thomas you don't give yourself time in a country to catch up on your sleep before you fly off again",-2.73899999999992,"CHI","MOT","2.7509999999999764",TRUE,43,TRUE,FALSE,FALSE,TRUE
+"282","it got a big long teeth","xxx",-1.54999999999995,"CHI","INV","1.5499999999999545",TRUE,43,FALSE,TRUE,TRUE,TRUE
+"283","got a big teeth","sit here",0.128000000000156,"CHI","INV","1.502999999999929",TRUE,43,FALSE,TRUE,FALSE,TRUE
+"284","crawled away","we've played that already haven't we",0.121999999999844,"CHI","INV","1.7820000000001528",TRUE,43,TRUE,FALSE,FALSE,TRUE
+"285","uh Mummy yesterday you gone on a bus and you forgotten your purse","oh dear",0.208999999999946,"CHI","MOT","6.757000000000062",TRUE,44,TRUE,FALSE,FALSE,TRUE
+"286","I um big lorrys with no poorly wheels and a xxx and big piece of woods","oh right",-0.905999999999949,"CHI","INV","10.28699999999992",TRUE,44,FALSE,TRUE,FALSE,TRUE
+"287","then they runned","was everybody",1.16099999999994,"CHI","INV","1.3350000000000364",TRUE,44,TRUE,FALSE,FALSE,TRUE
+"288","it brok down","oh",0.0230000000000246,"CHI","INV","1.8690000000000282",TRUE,44,TRUE,FALSE,FALSE,TRUE
+"289","this is all the other rubbishes","where's the nearest rubbish tip to here",-0.0080000000000382,"CHI","INV","2.1469999999999345",TRUE,44,FALSE,TRUE,FALSE,TRUE
+"290","shook hands first then I will sing a song","oh",-0.5,"CHI","MOT","3.3899999999998727",TRUE,44,TRUE,FALSE,FALSE,TRUE
+"291","stupids","stupids",0.661999999999807,"CHI","INV","1.1140000000000327",TRUE,44,FALSE,TRUE,FALSE,TRUE
+"292","now I've felled fell in","why did the fire man not put the fire out",-0.453000000000429,"CHI","MOT","1.300000000000182",TRUE,44,TRUE,FALSE,FALSE,TRUE
+"293","there's more dustbin bags","that's all I need",-1.46199999999999,"CHI","MOT","1.4630000000001928",TRUE,44,FALSE,TRUE,TRUE,TRUE
+"294","when I make crush that it gots got dough in","sorry",0.591999999999985,"CHI","MOT","4.817999999999984",TRUE,44,TRUE,FALSE,FALSE,TRUE
+"295","and I might chopped them up","with the",NA,"CHI","MOT","1.41599999999994",TRUE,44,TRUE,FALSE,FALSE,TRUE
+"296","no they said do not do any Ruldoph games","oh right",0.104000000000042,"CHI","MOT","4.52800000000002",TRUE,44,TRUE,FALSE,FALSE,TRUE
+"297","it had snowed","it would be awful if it did snow on top of strawberries because when we grow strawberries in the summer the last thing we want is snow coming down isn't it",0.380999999999858,"CHI","MOT","1.8690000000001419",TRUE,44,TRUE,FALSE,FALSE,TRUE
+"298","when you was going in a driveway do you know what he saw","no",-0.198000000000036,"CHI","MOT","4.5750000000000455",TRUE,45,TRUE,FALSE,FALSE,TRUE
+"299","I was to say sharks didn't I",NA,-0.731999999999971,"CHI","MOT","5.248000000000047",TRUE,45,TRUE,FALSE,FALSE,TRUE
+"300","not see green fishes for a while have you",NA,-1.13799999999992,"CHI","MOT","3.738999999999578",TRUE,45,FALSE,TRUE,FALSE,TRUE
+"301","I won't get messys","no no but there's all this Sellotape that needs using up look",0.514999999999873,"CHI","MOT","1.3460000000000036",TRUE,45,FALSE,TRUE,FALSE,TRUE
+"302","with the windows in and now did it went bang","well Daddy said it all burnt to the ground",-0.0340000000001055,"CHI","MOT","3.227000000000089",TRUE,45,TRUE,FALSE,FALSE,TRUE
+"303","I didn't but I saw treading on wires","treading on the wires",0.581,"CHI","MOT","4.098000000000001",TRUE,45,TRUE,FALSE,FALSE,TRUE
+"304","I have got a hat","that'll do I'm sure",NA,"CHI","INV","media info not available",TRUE,45,TRUE,FALSE,FALSE,TRUE
+"305","I runned over my toy",NA,NA,"CHI","MOT","media info not available",TRUE,45,TRUE,FALSE,FALSE,TRUE
+"306","when I played it would","no",NA,"CHI","MOT","media info not available",TRUE,45,TRUE,FALSE,FALSE,TRUE
+"307","a pooey yoghurts","hey",NA,"CHI","MOT","media info not available",TRUE,45,FALSE,TRUE,FALSE,TRUE
+"308","I did heard it","yes",0.0339999999999989,"CHI","MOT","1.1150000000000002",TRUE,46,TRUE,FALSE,FALSE,TRUE
+"309","what happened rain so he done that","he put the cloth over his van did he",0.558999999999969,"CHI","MOT","3.6679999999998927",TRUE,46,TRUE,FALSE,FALSE,TRUE
+"310","and who did put the rubbish bin under the table","well you did darling actually",-0.012000000000171,"CHI","MOT","3.586999999999989",TRUE,46,TRUE,FALSE,FALSE,TRUE
+"311","uhoh lots of number ones","no it's that's not number ones",-0.209000000000287,"CHI","MOT","2.380000000000109",TRUE,46,FALSE,TRUE,FALSE,TRUE
+"312","oh no my feet need a rest","shall I go and",-2.12,"CHI","MOT","2.310000000000059",TRUE,46,FALSE,TRUE,TRUE,TRUE
+"313","cause I eated some of that","have you",-0.0929999999999609,"CHI","MOT","1.8700000000000045",TRUE,46,TRUE,FALSE,FALSE,TRUE
+"314","told","well it's a great big bag I think actually your Grandad got it from B Q didn't he one day",0.835999999999785,"CHI","MOT","0.8710000000000946",TRUE,46,TRUE,FALSE,FALSE,TRUE
+"315","it run out of um ink to put in his truck","petrol",0.0929999999998472,"CHI","INV","5.711999999999989",TRUE,46,TRUE,FALSE,FALSE,TRUE
+"316","he went gone xxx up and the transporter man fell in a bush","oh",-0.0929999999998472,"CHI","INV","6.640999999999849",TRUE,46,TRUE,FALSE,FALSE,TRUE
+"317","i dropped my list","you dropped your list",-0.000999999999976353,"CHI","MOT","0.9390000000000782",TRUE,47,TRUE,FALSE,FALSE,TRUE
+"318","they were havings","well eat this first",0.0919999999998709,"CHI","MOT","1.9850000000001273",TRUE,47,FALSE,TRUE,FALSE,TRUE
+"319","I was sit one of the customer and said please may I have some sausage and chips and tomato","you were one of the customers",-0.0229999999996835,"CHI","MOT","5.804999999999836",TRUE,47,TRUE,FALSE,FALSE,TRUE
+"320","I have just got pants on","he wears his pants on the outside doesn't he",-1.242,"CHI","MOT","1.764000000000003",TRUE,47,TRUE,FALSE,TRUE,TRUE
+"321","you haven't speaked through it","I haven't speaked through it",-0.0229999999999961,"CHI","MOT","2.495999999999981",TRUE,47,TRUE,FALSE,FALSE,TRUE
+"322","as the day is trains",NA,-0.0109999999999673,"CHI","INV","2.9020000000000437",TRUE,48,FALSE,TRUE,FALSE,TRUE
+"323","I sleeped slept","that you sleeped",-0.00900000000001455,"CHI","MOT","1.4979999999999336",TRUE,48,TRUE,FALSE,FALSE,TRUE
+"324","is there any pink quavers","no",-0.0109999999999673,"CHI","MOT","2.7159999999998945",TRUE,48,FALSE,TRUE,FALSE,TRUE
+"325","what if I runned ran away","no no no",-0.0309999999999491,"CHI","MOT","1.7770000000000437",TRUE,48,TRUE,FALSE,FALSE,TRUE
+"326","if I runned ran away what would happen","now if you ran away and let go it would come flying back and hit me wouldn't it",-0.0540000000000873,"CHI","MOT","1.893000000000029",TRUE,48,TRUE,FALSE,FALSE,TRUE
+"327","I shouldn't of builded built a wall that big","built a wall not builded",-0.0239999999998872,"CHI","MOT","3.8899999999998727",TRUE,48,TRUE,FALSE,FALSE,TRUE
+"328","I've got need it","oh oh",3.59300000000007,"CHI","INV","2.3339999999998327",TRUE,49,TRUE,FALSE,FALSE,TRUE
+"329","she's gone now about us","no she hasn't she's upstairs",0.0109999999999673,"CHI","INV","2.3220000000001164",TRUE,49,TRUE,FALSE,FALSE,TRUE
+"330","these buses have forgot fire engine","right",0.256000000000085,"CHI","MOT","2.2049999999999272",TRUE,49,TRUE,FALSE,FALSE,TRUE
+"331","but the cats there looks bluey","why",0.0349999999998545,"CHI","MOT","2.5890000000003965",TRUE,49,FALSE,TRUE,FALSE,TRUE
+"332","I've ate it","you've eaten it all have you",0.173999999999978,"CHI","MOT","1.4980000000000473",TRUE,49,TRUE,FALSE,FALSE,TRUE
+"333","you are just preten you are dreaming weren't you","I was dreaming",-0.0460000000002765,"CHI","MOT","3.018000000000029",TRUE,49,TRUE,FALSE,FALSE,TRUE
+"334","she did wanted let out that door","so you opened the door and she didn't want to go",0.0190000000002328,"CHI","MOT","2.76299999999992",TRUE,49,TRUE,FALSE,FALSE,TRUE
+"335","this is when this is what she did when Nana and Grandad was here","did she",0,"CHI","MOT","4.08600000000024",TRUE,49,TRUE,FALSE,FALSE,TRUE
+"336","just pretend the cornflakes was back of learning signs then","alright",0.115999999999985,"CHI","MOT","4.414000000000215",TRUE,49,TRUE,FALSE,FALSE,TRUE
+"337","here's some more toys","oh",0.440999999999804,"CHI","MOT","1.2890000000002146",TRUE,49,FALSE,TRUE,FALSE,TRUE
+"338","a car runned over him","a car's run over him",0.0579999999999927,"CHI","MOT","2.0670000000000073",TRUE,50,TRUE,FALSE,FALSE,TRUE
+"339","look xxx throwed it into here","but they must have been jolly strong to pick up a police car and throw it into the dustbin truck",1.49700000000007,"CHI","MOT","2.147999999999911",TRUE,50,TRUE,FALSE,FALSE,TRUE
+"340","and I think a Mummy someone's Mummy has stolen them","you think someone's Mummy has stolen them",-0.0229999999999961,"CHI","INV","4.562999999999988",TRUE,50,TRUE,FALSE,FALSE,TRUE
+"341","I throw you these things","these are lovely cones",0.0930000000000746,"CHI","INV","2.4610000000000127",TRUE,50,FALSE,TRUE,FALSE,TRUE
+"342","what was that lorry carried","www",0.123999999999796,"CHI","MOT","2.0790000000001783",TRUE,50,TRUE,FALSE,FALSE,TRUE
+"343","that's when I'm died","oh",0.405999999999949,"CHI","MOT","2.2409999999999854",TRUE,50,TRUE,FALSE,FALSE,TRUE
+"344","just pretend Purdie was Woody","xxx going to stroke Woody are we",-0.115999999999985,"CHI","MOT","2.1709999999998217",TRUE,50,TRUE,FALSE,FALSE,TRUE
+"345","or they could have painted it","there you are painted your plane xxx",0.906000000000006,"CHI","MOT","1.752999999999986",TRUE,50,TRUE,FALSE,FALSE,TRUE
+"346","he tells you all the sweets how they're made","does he",0.197999999999865,"CHI","MOT","2.1480000000001382",TRUE,50,TRUE,TRUE,FALSE,TRUE
+"347","and then they she did up her knickers","uh Thomas",0.0239999999998872,"CHI","MOT","3.494000000000142",TRUE,51,TRUE,FALSE,FALSE,TRUE
+"348","look where my toes",NA,0.0790000000000006,"CHI","MOT","1.6599999999999966",TRUE,51,FALSE,TRUE,FALSE,TRUE
+"349","I haven't got a uniform just a liccle little xxx","any ideas",-2.35699999999997,"CHI","INV","2.4839999999999236",TRUE,51,TRUE,FALSE,TRUE,TRUE
+"350","habby happy meals",NA,-0.243999999999915,"CHI","INV","1.0329999999999018",TRUE,51,FALSE,TRUE,TRUE,TRUE
+"351","my phone was broke","brrr brrr oh bother",0.000999999999976353,"CHI","MOT","1.2660000000000764",TRUE,51,TRUE,FALSE,FALSE,TRUE
+"352","and I was the delivery man","oh right",NA,"CHI","MOT","media info not available",TRUE,51,TRUE,FALSE,FALSE,TRUE
+"353","and then he did change his bottoms","Mister Clarke wants what",1.35100000000011,"CHI","MOT","3.2040000000001783",TRUE,51,TRUE,FALSE,FALSE,TRUE
+"354","that we've never hap had","you can",0.662000000000262,"CHI","MOT","1.13799999999992",TRUE,51,TRUE,FALSE,FALSE,TRUE
+"355","they're pisps crisps","well are they like quavers",6.41899999999987,"CHI","MOT","1.0329999999999018",TRUE,51,FALSE,TRUE,FALSE,TRUE
+"356","I've just had hundreds of the cheese","have you",-0.0909999999998945,"CHI","MOT","2.5779999999999745",TRUE,51,FALSE,TRUE,FALSE,TRUE
+"357","why are we don't had any rubbish","yes I put mine out",0.408000000000015,"CHI","MOT","2.461999999999989",TRUE,52,TRUE,FALSE,FALSE,TRUE
+"358","you have not done when it was two","well I've mended xxx",1.00700000000006,"CHI","MOT","3.355999999999767",TRUE,52,TRUE,FALSE,FALSE,TRUE
+"359","I've forgot","S K four three",NA,"CHI","MOT","media info not available",TRUE,52,TRUE,FALSE,FALSE,TRUE
+"360","I just drunk some water den then","did you",0.168999999999997,"CHI","MOT","1.7650000000000006",TRUE,52,TRUE,FALSE,FALSE,TRUE
+"361","we've got a green suitcases","yes",-0.707999999999856,"CHI","MOT","2.4149999999999636",TRUE,52,FALSE,TRUE,TRUE,TRUE
+"362","xxx wheels are skipping slipping","they",-0.0820000000001073,"CHI","MOT","2.3460000000000036",TRUE,52,FALSE,TRUE,FALSE,TRUE
+"363","I will if there's another people squirting me","no",0.0920000000000982,"CHI","MOT","2.356000000000222",TRUE,52,FALSE,TRUE,FALSE,TRUE
+"364","Grant given gave it to me","oh that's right yes you're right",-0.0230000000001382,"CHI","MOT","1.6950000000001637",TRUE,53,TRUE,FALSE,FALSE,TRUE
+"365","look how many dinosaurs I have got","xxx",-0.0459999999998217,"CHI","MOT","2.449999999999818",TRUE,53,TRUE,FALSE,FALSE,TRUE
+"366","her got thirty rubbish","mm are you a dustbin man now",-0.109000000000151,"CHI","MOT","2.3920000000000528",TRUE,53,TRUE,FALSE,FALSE,TRUE
+"367","bumped off and now it's broke broken","is the driver of a plane or a train",1.40499999999975,"CHI","MOT","3.994000000000142",TRUE,53,TRUE,FALSE,FALSE,TRUE
+"368","bit fowl wheels and flat stole tyres red blue blue or white cocoas",NA,-1.56700000000001,"CHI","MOT","8.86999999999989",TRUE,53,TRUE,TRUE,TRUE,TRUE
+"369","xxx that I builded this","one you built",-0.0319999999999254,"CHI","MOT","5.0150000000001",TRUE,53,TRUE,FALSE,FALSE,TRUE
+"370","it had this whoo","goodness me that's loud",-0.00700000000006185,"CHI","MOT","2.3450000000000273",TRUE,53,TRUE,FALSE,FALSE,TRUE
+"371","something standed up","oh are you throwing that so sock again are you",0.012000000000171,"CHI","MOT","1.4399999999995998",TRUE,53,TRUE,FALSE,FALSE,TRUE
+"372","there's one bended nose","he's crushing my nose",-0.563000000000102,"CHI","INV","2.4670000000000982",TRUE,53,TRUE,FALSE,FALSE,TRUE
+"373","it's all bended","ow",0.00500000000010914,"CHI","INV","1.2539999999999054",TRUE,53,TRUE,FALSE,FALSE,TRUE
+"374","it's all bended and squashed","bent",-0.0419999999999163,"CHI","MOT","3.3840000000000146",TRUE,53,TRUE,FALSE,FALSE,TRUE
+"375","have some crisps","what do you say",-0.035000000000025,"CHI","MOT","1.3700000000000045",TRUE,54,FALSE,TRUE,FALSE,TRUE
+"376","the hula went ranned run away","has it gone up your sleeve",-0.986999999999966,"CHI","MOT","2.2409999999999854",TRUE,54,TRUE,FALSE,TRUE,TRUE
+"377","xxx see we looked up he was hit me eye","hm",0,"CHI","MOT","3.344000000000051",TRUE,54,TRUE,FALSE,FALSE,TRUE
+"378","I don't want the um wheels squeak if I put some oil in","well if you put oil in things it lubricates them",0.412000000000262,"CHI","MOT","5.3289999999997235",TRUE,54,FALSE,TRUE,FALSE,TRUE
+"379","it just needs one wheel lost","no",-0.0349999999998545,"CHI","MOT","2.263999999999669",TRUE,54,TRUE,FALSE,FALSE,TRUE
+"380","who gots got money","and is this yours Thomas",1.44699999999966,"CHI","MOT","1.718000000000302",TRUE,54,TRUE,FALSE,FALSE,TRUE
+"381","I swimmed","you did swim didn't you",0.165000000000077,"CHI","MOT","1.183999999999969",TRUE,54,TRUE,FALSE,FALSE,TRUE
+"382","does it not matter if it got suds in your ear","no",0.626999999999953,"CHI","MOT","2.2760000000000673",TRUE,54,TRUE,FALSE,FALSE,TRUE
+"383","you maded made it","well you make the next one and I'll slot it in the top",0,"CHI","MOT","1.1959999999999127",TRUE,54,TRUE,FALSE,FALSE,TRUE
+"384","um have you ate your jelly","eaten it",-0.01299999999992,"CHI","MOT","2.9719999999997526",TRUE,54,TRUE,FALSE,FALSE,TRUE
+"385","I think I think a fish bited her","do you",0.0820000000003347,"CHI","MOT","2.7859999999996035",TRUE,54,TRUE,FALSE,FALSE,TRUE
+"386","there's rats outside and mouses inside","there better not be mice inside",-0.06899999999996,"CHI","MOT","2.49599999999964",TRUE,54,FALSE,TRUE,FALSE,TRUE
+"387","how how did the duck fell down","the duck",0.197000000000116,"CHI","MOT","2.33400000000006",TRUE,55,TRUE,FALSE,FALSE,TRUE
+"388","I sitted next to him","did you",-0.0340000000001055,"CHI","MOT","1.7530000000001564",TRUE,55,TRUE,FALSE,FALSE,TRUE
+"389","but would someone have a big candles","yes",-0.557000000000016,"CHI","MOT","3.007000000000062",TRUE,55,FALSE,TRUE,TRUE,TRUE
+"390","don't want to because I've drawed some already","no",-0.0579999999999927,"CHI","MOT","2.5779999999999745",TRUE,55,TRUE,FALSE,FALSE,TRUE
+"391","I'll drawed it","you draw",-0.0229999999999109,"CHI","MOT","1.0909999999998945",TRUE,55,TRUE,FALSE,FALSE,TRUE
+"392","look at her hairs","xxx hair yes",-0.103999999999814,"CHI","MOT","1.6019999999998618",TRUE,55,FALSE,TRUE,FALSE,TRUE
+"393","and I've only got one two persons","what is it you've got",0.0459999999999923,"CHI","MOT","2.833000000000027",TRUE,55,FALSE,TRUE,FALSE,TRUE
+"394","two persons","two persons",0.580000000000041,"CHI","MOT","0.9639999999999986",TRUE,55,FALSE,TRUE,FALSE,TRUE
+"395","I could of not heared him","xxx",-0.0360000000000582,"CHI","MOT","2.49599999999964",TRUE,55,TRUE,FALSE,FALSE,TRUE
+"396","what was how did the man fell off his ladder","I don't know",NA,"CHI","MOT","3.831000000000131",TRUE,55,TRUE,FALSE,FALSE,TRUE
+"397","that had fell off","yes",-0.0230000000001382,"CHI","MOT","1.2420000000001892",TRUE,55,TRUE,FALSE,FALSE,TRUE
+"398","the man's fell off his cab now","at Christmas it was all lit up in his cab and I think he used to have a big advertising poster on his crane as well",4.7510000000002,"CHI","MOT","2.1589999999996508",TRUE,55,TRUE,FALSE,TRUE,TRUE
+"399","have you et ate it","oh",NA,"CHI","MOT","1.3589999999999236",TRUE,55,TRUE,FALSE,FALSE,TRUE
+"400","we went we drived into the car to see it","did you",0.0460000000000207,"CHI","MOT","3.563999999999993",TRUE,56,TRUE,FALSE,FALSE,TRUE
+"401","Thomas gived it me","precisely",0.0230000000001382,"CHI","MOT","1.4169999999999163",TRUE,56,TRUE,FALSE,FALSE,TRUE
+"402","is this what cabs around","yes uhhuh",-0.0120000000000005,"CHI","MOT","1.7410000000000139",TRUE,56,FALSE,TRUE,FALSE,TRUE
+"403","I will do the leafs","then if we have that one that one and that one",0.0309999999999491,"CHI","MOT","1.1259999999999764",TRUE,56,FALSE,TRUE,FALSE,TRUE
+"404","you said I'm banneded banned from cheese","banneded from cheese",0.05600000000004,"CHI","MOT","2.7170000000000982",TRUE,56,TRUE,FALSE,FALSE,TRUE
+"405","um I've forgot all the words","right",0.081000000000131,"CHI","MOT","2.519999999999982",TRUE,56,TRUE,FALSE,FALSE,TRUE
+"406","I've forgot all of it","xxx",-0.615999999999985,"CHI","FAT","1.7529999999997017",TRUE,56,TRUE,FALSE,TRUE,TRUE
+"407","I have eaten some lemon balls","how many have you eaten",0,"CHI","INV","2.100999999999999",TRUE,56,FALSE,TRUE,FALSE,TRUE
+"408","no it's not beginned yet","oh it's not begun yet",-0.336999999999989,"CHI","INV","1.9740000000000464",TRUE,56,TRUE,FALSE,TRUE,TRUE
+"409","I throwed it down there","where",0.567999999999984,"CHI","MOT","2.2299999999999045",TRUE,56,TRUE,FALSE,FALSE,TRUE
+"410","it shoots people and made them die","oh dear",-0.0119999999999436,"CHI","MOT","2.4849999999999",TRUE,56,TRUE,FALSE,FALSE,TRUE
+"411","we're we're doing the we're the cleaner up men and ladies","the cleaner up men and ladies",0.286999999999807,"CHI","INV","5.166000000000167",TRUE,56,FALSE,TRUE,FALSE,TRUE
+"412","why can you not eat touch the the chunks","well I can touch the chunks but they're not very nice to touch",0.0969999999999942,"CHI","MOT","3.9939999999999998",TRUE,57,FALSE,TRUE,FALSE,TRUE
+"413","I just bited this and then it came off","no don't put it",-1.06799999999998,"CHI","MOT","2.380000000000109",TRUE,57,TRUE,FALSE,TRUE,TRUE
+"414","I used it when Nana and Grandad was here","yesterday",0.056999999999789,"CHI","MOT","2.530999999999949",TRUE,57,TRUE,FALSE,FALSE,TRUE
+"415","now I knew a way to put the animals","right then",-0.0920000000000059,"CHI","MOT","2.5190000000000055",TRUE,57,TRUE,TRUE,FALSE,TRUE
+"416","I've forgot","now I'll tell you again then",-0.104999999999961,"CHI","MOT","0.6389999999999532",TRUE,58,TRUE,FALSE,FALSE,TRUE
+"417","it's called a pass sweets","pass sweets",0.360000000000014,"CHI","MOT","2.7749999999999773",TRUE,58,FALSE,TRUE,FALSE,TRUE
+"418","where did they came from","I don't know",0.0289999999999964,"CHI","MOT","1.1839999999997417",TRUE,58,TRUE,FALSE,FALSE,TRUE
+"419","Scoop falled in there","did he",0.0230000000001382,"CHI","MOT","1.6369999999997162",TRUE,58,TRUE,FALSE,FALSE,TRUE
+"420","and then all of them falled in","fell",1.08799999999974,"CHI","MOT","2.450000000000273",TRUE,58,TRUE,FALSE,FALSE,TRUE
+"421","and then the land falled in the water","the land fell in the water",0.557999999999993,"CHI","MOT","3.6219999999998436",TRUE,58,TRUE,FALSE,FALSE,TRUE
+"422","no they have got a child","have they",-0.0819999999998799,"CHI","MOT","2.100999999999658",TRUE,58,TRUE,FALSE,FALSE,TRUE
+"423","you pretend it was tomorrow","okay",-0.00900000000001455,"CHI","INV","2.367999999999938",TRUE,58,TRUE,FALSE,FALSE,TRUE
+"424","I throwed it back for them","did you",0.128,"CHI","MOT","1.5559999999999974",TRUE,58,TRUE,FALSE,FALSE,TRUE
+"425","I was in a town and when this a and a bo and um the people and I forgot to put my trousers on","oh",-0.0370000000002619,"CHI","MOT","8.034000000000106",TRUE,58,FALSE,TRUE,FALSE,TRUE
+"426","you have done it over there","well you can't stay over there all the time Tom because you need your breakfast",-0.175000000000011,"CHI","MOT","2.973000000000013",TRUE,59,TRUE,FALSE,FALSE,TRUE
+"427","did you know what I heard","boo boo something like that",0.894000000000005,"CHI","MOT","1.961999999999989",TRUE,59,TRUE,FALSE,FALSE,TRUE
+"428","Zoe sent to the writing","the one you have written to Lyne and the one you have written to Lyne was the first one",0.128000000000156,"CHI","MOT","2.2049999999999272",TRUE,59,TRUE,FALSE,FALSE,TRUE
+"429","your sausage machine it has already finded some","yes",-0.0120000000000573,"CHI","MOT","4.192000000000007",TRUE,59,TRUE,FALSE,FALSE,TRUE
+"430","be good if real horses","if what",0.139999999999986,"CHI","MOT","2.367999999999938",TRUE,59,FALSE,TRUE,FALSE,TRUE
+"431","I found squashing up the picture xxx","should we open the blue one",NA,"CHI","MOT","media info not available",TRUE,59,TRUE,FALSE,TRUE,TRUE
+"432","xxx lady xxx mens men","well I would imagine ladies and mens are the same really it's only like a waistcoat",0.608999999999924,"CHI","MOT","3.6340000000000146",TRUE,59,FALSE,TRUE,FALSE,TRUE
+"433","you must be gone to back to the shop","well I don't",-0.0579999999999927,"CHI","MOT","3.3789999999999054",TRUE,59,TRUE,FALSE,FALSE,TRUE
+"434","you like weren't me","you keep saying that to me",0.604000000000042,"CHI","MOT","1.926999999999964",TRUE,59,TRUE,FALSE,FALSE,TRUE
+"435","dugged dug","the digger had dugged dug",0.0350000000000819,"CHI","MOT","0.9629999999999654",TRUE,59,TRUE,FALSE,FALSE,TRUE
+"436","I think I've already broke it","well just do it gent",-0.486999999999625,"CHI","MOT","1.8460000000000036",TRUE,59,TRUE,FALSE,TRUE,TRUE
+"437","you should of catched it","do you know what these little rough bits are for there",-0.0929999999998472,"CHI","MOT","1.6829999999999927",TRUE,59,TRUE,FALSE,FALSE,TRUE
+"438","I just throwed it in the bin","you've thrown my hat in the bin",-0.0529999999999973,"CHI","INV","1.2999999999999545",TRUE,59,TRUE,FALSE,FALSE,TRUE
+"439","just pretend there was a cat on the train and it tripped up and he falled on the track","a cat on the train",0.197000000000116,"CHI","MOT","5.143000000000029",TRUE,59,TRUE,FALSE,FALSE,TRUE
+"440","the fence is blowed on the track","oh dear",0.962999999999965,"CHI","MOT","3.6920000000000073",TRUE,59,TRUE,FALSE,FALSE,TRUE
+"441","I have seen it","and your the dirty rascal",-1.25400000000002,"CHI","MOT","1.34699999999998",TRUE,59,TRUE,FALSE,TRUE,TRUE
+"442","they have sawed them down","right",0.0350000000003092,"CHI","MOT","1.55600000000004",TRUE,59,TRUE,FALSE,FALSE,TRUE

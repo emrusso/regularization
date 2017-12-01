@@ -1,0 +1,143 @@
+---
+title: "Thomas_Regularization_Analysis"
+author: "Emmi Russo"
+date: "11/9/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+knitr::opts_chunk$set(echo = TRUE)
+options(digits=10)
+```
+
+``` {r work with manual data}
+thomas_data <- read_csv("thomas_utterance_data.csv")
+names(thomas_data) <- c("utterance", "response", "speaker", "responder", "error", "age", "past_tense", "plural", "source_file", "utterance_start", "utterance_end", "response_start", "response_end")
+
+thomas_data_clean <- thomas_data %>%
+  mutate(age = as.numeric(age),
+         response_time = as.numeric(response_time)) %>%
+  mutate_at(vars(error, past_tense, plural), as.logical)
+
+thomas_kid_data <- thomas_data %>%
+  filter(speaker == "CHI") %>%
+  filter(responder == "MOT")
+
+thomas_kid_data$past_tense <- NULL
+thomas_kid_data$plural <- NULL
+thomas_kid_data$overlap <- NULL
+thomas_kid_data$overreg <- FALSE
+
+manual_thomas_overregs <- read_csv("manual_thomas_overregs.csv")
+manual_thomas_overregs$X <- NULL
+manual_thomas_overregs$overreg_candidate <- NULL
+manual_thomas_overregs$overlap <- NULL
+manual_thomas_overregs$error <- NULL
+manual_thomas_overregs <- manual_thomas_overregs %>%
+  filter(manual_code != '?')
+
+thomas_kid_with_overregs <- read_csv("all_thomas_kid_utterances_with_overregs.csv")
+thomas_kid_with_overregs <- thomas_kid_with_overregs %>%
+  filter(responder == "MOT")
+thomas_kid_with_overregs$X <- NULL
+
+utt_to_sf <- rownames_to_column(thomas_kid_data)
+utt_to_sf <- utt_to_sf[,c("rowname", "source_file", "utterance_start", "utterance_end", "response_start", "response_end")]
+
+thomas_kid_w_source <- left_join(rownames_to_column(thomas_kid_with_overregs), utt_to_sf, by = "rowname")
+
+overregs_w_source <- thomas_kid_w_source %>%
+  filter(overreg)
+
+#write.csv(file = "audio_coding.csv", overregs_w_source)
+
+fixed_overregs <- read_csv("final_audio_coding.csv")
+fixed_overregs <- fixed_overregs %>%
+  filter(is.na(`THROW OUT`) | `THROW OUT` == FALSE)
+fixed_overregs_cleaner <- fixed_overregs[,c("rowname", "utterance", "response", "speaker", "responder", "error", "age", "overreg", "utterance_start", "utterance_end", "response_start", "response_end")]
+fixed_overregs_cleaner <- fixed_overregs_cleaner %>%
+  mutate_at(vars(rowname), as.character)
+  #mutate(response_time = response_start - utterance_end) %>%
+  #mutate(utterance_time = utterance_end - utterance_start)
+
+thomas_kid_overreg_free <- rownames_to_column(thomas_kid_with_overregs) %>%
+  filter(!overreg)
+
+together <- full_join(fixed_overregs_cleaner, thomas_kid_overreg_free, by = "rowname")
+
+ugh <- "media info not found"
+
+together <- together %>%
+  filter(is.na(utterance_start) | utterance_start != ugh) %>%
+  filter(is.na(utterance_end) | utterance_end != ugh) %>% 
+  filter(is.na(response_start) | response_start != ugh) %>%
+  filter(is.na(response_end) | response_end != ugh) %>%
+  filter(is.na(response_time) | response_time != ugh) %>%
+  filter(is.na(utterance_time) | utterance_time != ugh) %>%
+  mutate(response_time = ifelse(is.na(response_time), as.numeric(as.character(response_start)) - as.numeric(as.character(utterance_end)), as.numeric(as.character(response_time)))) %>%
+  mutate(utterance = ifelse(is.na(utterance.x), as.character(utterance.y), as.character(utterance.x))) %>%
+  mutate(response = ifelse(is.na(response.x), as.character(response.y), as.character(response.x))) %>%
+  mutate(speaker = ifelse(is.na(speaker.x), as.character(speaker.y), as.character(speaker.x))) %>%
+  mutate(responder = ifelse(is.na(responder.x), as.character(responder.y), as.character(responder.x))) %>%
+  mutate(age = ifelse(is.na(age.x), age.y, age.x)) %>%
+  mutate(error = ifelse(is.na(error.x), error.y, error.x)) %>%
+  mutate(overreg = ifelse(is.na(overreg.x), overreg.y, overreg.x)) %>%
+  mutate(utterance_time = ifelse(is.na(utterance_time), as.numeric(as.character(utterance_end)) - as.numeric(as.character(utterance_start)), as.numeric(as.character(utterance_time))))
+
+together <- together[,c("utterance", "response", "speaker", "responder", "error", "age", "overreg", "response_time", "utterance_time")]
+together <- together %>%
+  mutate_at(vars(error, overreg), as.logical)
+
+together <- together %>%
+  filter(response_time > -5 & response_time < 5) %>%
+  filter(utterance_time < 9)
+
+together_overregs <- together %>%
+  filter(overreg)
+
+ggplot(together, aes(x = age, y = response_time, fill = overreg)) + geom_smooth()
+
+ggplot(together, aes(x = response_time, fill = overreg)) + 
+  geom_density(alpha = .2)
+
+overreg.data <- function(present, past) {
+  overreg <- paste(present, ifelse(substr(present, nchar(present), nchar(present)) == "e", "d", "ed"), sep="")
+  past_overreg <- paste(past, ifelse(substr(past, nchar(present), nchar(past)) == "e", "d", "ed"), sep="")
+  overregs <- together[grep(overreg, together$utterance),]
+  past_overregs <- together[grep(past_overreg, together$utterance),]
+  correct_past <- together[grep(past, together$utterance),]
+  tibble(nrow(overregs), nrow(past_overregs), nrow(correct_past))
+}
+
+chi_draw_info <- overreg.data("draw", "drew")
+chi_drink_info <- overreg.data("drink", "drank")
+chi_go_info <- overreg.data("go", "went")
+chi_come_info <- overreg.data("come", "came")
+chi_drive_info <- overreg.data("drive", "drove")
+chi_eat_info <- overreg.data("eat", "ate")
+chi_hold_info <- overreg.data("hold", "held")
+chi_know_info <- overreg.data("know", "knew")
+chi_make_info <- overreg.data("make", "made")
+chi_run_info <- overreg.data("run", "ran")
+chi_sell_info <- overreg.data("sell", "sold")
+chi_stick_info <- overreg.data("stick", "stuck")
+chi_sweep_info <- overreg.data("sweep", "swept")
+chi_take_info <- overreg.data("take", "took")
+
+lm1 <- lm(response_time ~ utterance_time * overreg + log(age), data = together)
+
+come_utts <- together %>%
+  filter(grepl("c[oa]me", utterance)) %>%
+  mutate(utterance_length = str_count(utterance, " "),
+         response_length = str_count(response, " "))
+
+lm_throw <- lm(response_time ~ error + log(age), 
+               data = come_utts)
+
+come_utts %>%
+  group_by(overreg) %>%
+  summarise(response_time = median(response_time))
+
+  # filter(length(grep("draw", utterance, fixed=TRUE)) > 0)
+```
