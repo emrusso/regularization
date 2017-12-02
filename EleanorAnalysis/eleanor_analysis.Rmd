@@ -35,9 +35,13 @@ overreg_candidates <- kid_parent_utts %>%
   mutate(overreg_candidate = ((past_tense | plural) & error)) 
 
 sub_data <- kid_parent_utts %>%
-  filter(past_tense | plural) %>%
-  %>%
-  filter(utterance_time >= 0, response_time >= 0)
+  filter(past_tense | plural) 
+
+sub_data %>%
+  group_by(error) %>%
+  filter(response_time > 0) %>%
+  summarise(med_rt = median(log(response_time)),
+            mean_rt = mean(log(response_time)))
 
 sub_lm <- lm(response_time ~ utterance_time + age + error, sub_data)
 
