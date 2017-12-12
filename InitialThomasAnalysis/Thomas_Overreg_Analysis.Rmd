@@ -1,7 +1,7 @@
 ---
 title: "Thomas_Regularization_Analysis"
 author: "Emmi Russo"
-date: "11/9/2017"
+date: "12/12/2017"
 output: html_document
 ---
 
@@ -16,16 +16,13 @@ thomas_data <- read_csv("thomas_utterance_data.csv")
 names(thomas_data) <- c("utterance", "response", "speaker", "responder", "error", "age", "past_tense", "plural", "source_file", "utterance_start", "utterance_end", "response_start", "response_end")
 
 thomas_data_clean <- thomas_data %>%
-  mutate(age = as.numeric(age),
-         response_time = as.numeric(response_time)) %>%
+  mutate(age = as.numeric(age)) %>%
   mutate_at(vars(error, past_tense, plural), as.logical)
 
 thomas_kid_data <- thomas_data %>%
   filter(speaker == "CHI") %>%
   filter(responder == "MOT")
 
-thomas_kid_data$past_tense <- NULL
-thomas_kid_data$plural <- NULL
 thomas_kid_data$overlap <- NULL
 thomas_kid_data$overreg <- FALSE
 
@@ -43,7 +40,7 @@ thomas_kid_with_overregs <- thomas_kid_with_overregs %>%
 thomas_kid_with_overregs$X <- NULL
 
 utt_to_sf <- rownames_to_column(thomas_kid_data)
-utt_to_sf <- utt_to_sf[,c("rowname", "source_file", "utterance_start", "utterance_end", "response_start", "response_end")]
+utt_to_sf <- utt_to_sf[,c("rowname", "source_file", "utterance_start", "utterance_end", "response_start", "response_end", "past_tense", "plural")]
 
 thomas_kid_w_source <- left_join(rownames_to_column(thomas_kid_with_overregs), utt_to_sf, by = "rowname")
 
@@ -61,21 +58,14 @@ fixed_overregs_cleaner <- fixed_overregs_cleaner %>%
   #mutate(response_time = response_start - utterance_end) %>%
   #mutate(utterance_time = utterance_end - utterance_start)
 
-thomas_kid_overreg_free <- rownames_to_column(thomas_kid_with_overregs) %>%
-  filter(!overreg)
+thomas_kid_overreg_free <- rownames_to_column(thomas_kid_data)
 
-together <- full_join(fixed_overregs_cleaner, thomas_kid_overreg_free, by = "rowname")
+
+together <- full_join(fixed_overregs_cleaner, rownames_to_column(thomas_kid_data), by = "rowname")
 
 ugh <- "media info not found"
 
 together <- together %>%
-  filter(is.na(utterance_start) | utterance_start != ugh) %>%
-  filter(is.na(utterance_end) | utterance_end != ugh) %>% 
-  filter(is.na(response_start) | response_start != ugh) %>%
-  filter(is.na(response_end) | response_end != ugh) %>%
-  filter(is.na(response_time) | response_time != ugh) %>%
-  filter(is.na(utterance_time) | utterance_time != ugh) %>%
-  mutate(response_time = ifelse(is.na(response_time), as.numeric(as.character(response_start)) - as.numeric(as.character(utterance_end)), as.numeric(as.character(response_time)))) %>%
   mutate(utterance = ifelse(is.na(utterance.x), as.character(utterance.y), as.character(utterance.x))) %>%
   mutate(response = ifelse(is.na(response.x), as.character(response.y), as.character(response.x))) %>%
   mutate(speaker = ifelse(is.na(speaker.x), as.character(speaker.y), as.character(speaker.x))) %>%
@@ -83,11 +73,25 @@ together <- together %>%
   mutate(age = ifelse(is.na(age.x), age.y, age.x)) %>%
   mutate(error = ifelse(is.na(error.x), error.y, error.x)) %>%
   mutate(overreg = ifelse(is.na(overreg.x), overreg.y, overreg.x)) %>%
-  mutate(utterance_time = ifelse(is.na(utterance_time), as.numeric(as.character(utterance_end)) - as.numeric(as.character(utterance_start)), as.numeric(as.character(utterance_time))))
+  # Trust x timing (will only be different if I manually coded)
+  mutate(utterance_start = ifelse(is.na(utterance_start.x), utterance_start.y, utterance_start.x)) %>%
+  mutate(utterance_end = ifelse(is.na(utterance_end.x), utterance_end.y, utterance_end.y)) %>%
+  mutate(response_start = ifelse(is.na(response_start.x), response_start.y, response_start.x)) %>%
+  mutate(response_end = ifelse(is.na(response_end.x), response_end.y, response_end.x)) %>%
+  # Filter any gross timing
+  filter(!is.na(utterance_start) & utterance_start != ugh) %>%
+  filter(!is.na(utterance_end) & utterance_end != ugh) %>% 
+  filter(!is.na(response_start) & response_start != ugh) %>%
+  filter(!is.na(response_end) & response_end != ugh) %>%
+  # Now that gross timing is gone, calc response_time
+  mutate(response_time = as.numeric(as.character(response_start)) - as.numeric(as.character(utterance_end))) %>%
+  # same for utterance_time
+  mutate(utterance_time = as.numeric(as.character(utterance_end)) - as.numeric(as.character(utterance_start)))
 
-together <- together[,c("utterance", "response", "speaker", "responder", "error", "age", "overreg", "response_time", "utterance_time")]
+# Get only the confirmed rows
+together <- together[,c("utterance", "response", "speaker", "responder", "error", "age", "overreg", "response_time", "utterance_time", "past_tense", "plural")]
 together <- together %>%
-  mutate_at(vars(error, overreg), as.logical)
+  mutate_at(vars(error, overreg, past_tense, plural), as.logical)
 
 together <- together %>%
   filter(response_time > -5 & response_time < 5) %>%
@@ -110,22 +114,30 @@ overreg.data <- function(present, past) {
   tibble(nrow(overregs), nrow(past_overregs), nrow(correct_past))
 }
 
-chi_draw_info <- overreg.data("draw", "drew")
-chi_drink_info <- overreg.data("drink", "drank")
-chi_go_info <- overreg.data("go", "went")
-chi_come_info <- overreg.data("come", "came")
-chi_drive_info <- overreg.data("drive", "drove")
-chi_eat_info <- overreg.data("eat", "ate")
-chi_hold_info <- overreg.data("hold", "held")
-chi_know_info <- overreg.data("know", "knew")
-chi_make_info <- overreg.data("make", "made")
-chi_run_info <- overreg.data("run", "ran")
-chi_sell_info <- overreg.data("sell", "sold")
-chi_stick_info <- overreg.data("stick", "stuck")
-chi_sweep_info <- overreg.data("sweep", "swept")
-chi_take_info <- overreg.data("take", "took")
+#chi_draw_info <- overreg.data("draw", "drew")
+#chi_drink_info <- overreg.data("drink", "drank")
+#chi_go_info <- overreg.data("go", "went")
+#chi_come_info <- overreg.data("come", "came")
+#chi_drive_info <- overreg.data("drive", "drove")
+#chi_eat_info <- overreg.data("eat", "ate")
+#chi_hold_info <- overreg.data("hold", "held")
+#chi_know_info <- overreg.data("know", "knew")
+#chi_make_info <- overreg.data("make", "made")
+#chi_run_info <- overreg.data("run", "ran")
+#chi_sell_info <- overreg.data("sell", "sold")
+#chi_stick_info <- overreg.data("stick", "stuck")
+#chi_sweep_info <- overreg.data("sweep", "swept")
+#chi_take_info <- overreg.data("take", "took")
 
-lm1 <- lm(response_time ~ utterance_time * overreg + log(age), data = together)
+apples_to_apples <- together %>%
+  filter(past_tense || plural)
+
+lm1 <- lm(response_time ~ utterance_time + overreg + log(age), data = together)
+
+apple <- lm(response_time ~ utterance_time + error + overreg + log(age), data = apples_to_apples)
+
+
+summary(lm1)
 
 come_utts <- together %>%
   filter(grepl("c[oa]me", utterance)) %>%
