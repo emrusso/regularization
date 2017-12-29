@@ -1,0 +1,122 @@
+utterance,response,speaker,responder,error,age,overreg,response_time,utterance_time,past_tense,plural
+two mens men,two men,CHI,MOT,TRUE,26,TRUE,-0.16300000000001091,1.4160000000001673,FALSE,TRUE
+two mens men,two men,CHI,MOT,TRUE,26,TRUE,0.0729999999998654,1.4160000000001673,FALSE,TRUE
+two mans men,two mans,CHI,MOT,TRUE,26,TRUE,0.3020000000001346,2.0670000000000073,FALSE,TRUE
+two mans men,two mans,CHI,MOT,TRUE,26,TRUE,1.0679999999997563,1.1030000000000655,FALSE,TRUE
+baby mans men,oh you've put some men over your eyes,CHI,MOT,TRUE,26,TRUE,0.6190000000001419,1.5790000000001783,FALSE,TRUE
+two foots,two foots,CHI,MOT,TRUE,28,TRUE,0.24499999999989086,1.6660000000001673,FALSE,TRUE
+two peoples,two people,CHI,MOT,TRUE,28,TRUE,0.04599999999999227,1.48599999999999,FALSE,TRUE
+a tree falled over,the tree's going to fall over because the train is going to hit them,CHI,MOT,TRUE,29,TRUE,0.010999999999967258,1.8119999999998981,TRUE,FALSE
+two mans men,we can do it with the men,CHI,MOT,TRUE,30,TRUE,0.906999999999698,0.8110000000001492,FALSE,TRUE
+a falled over,who fell over,CHI,MOT,TRUE,30,TRUE,0.12800000000015643,1.9389999999998508,TRUE,FALSE
+yellow fishes,some fish,CHI,MOT,TRUE,31,TRUE,-0.12000000000000455,1.1999999999999886,FALSE,TRUE
+two baby postmans postmen,two baby postmans,CHI,MOT,TRUE,31,TRUE,0.057999999999992724,1.706000000000131,FALSE,FALSE
+uh buy fishes and sausages,fishes and sausages,CHI,MOT,TRUE,31,TRUE,-0.035000000000081855,2.54300000000012,FALSE,TRUE
+um a lot of mans men,pardon,CHI,MOT,TRUE,31,TRUE,0.6849999999999454,2.088999999999942,FALSE,TRUE
+lot of mans men,a lot of mans,CHI,MOT,TRUE,31,TRUE,0.0039999999999054126,1.1959999999999127,FALSE,TRUE
+lot of rubbishes,a lot of rubbish,CHI,MOT,TRUE,32,TRUE,0.19700000000011642,1.7179999999998472,FALSE,TRUE
+I not see little mouses,NA,CHI,MOT,TRUE,33,TRUE,0.22000000000025466,2.1479999999996835,FALSE,TRUE
+a my holded it,we'll keep it out because you might have a lot of fun playing with it mightn't you,CHI,MOT,TRUE,33,TRUE,-0.023000000000138243,1.7760000000002947,TRUE,FALSE
+I fixeded fixed it,you fixeded it,CHI,MOT,TRUE,33,TRUE,0.06999999999970896,1.5210000000001855,TRUE,FALSE
+lots_of fishes,do you think there are a lot of fishes,CHI,MOT,TRUE,33,TRUE,-0.09100000000034925,2.425000000000182,FALSE,TRUE
+saw some big fishes,you saw some big fishes,CHI,MOT,TRUE,33,TRUE,0.02299999999991087,2.066000000000031,FALSE,TRUE
+I have builded it,you've builded it,CHI,MOT,TRUE,33,TRUE,0.22000000000002728,1.9969999999998436,TRUE,FALSE
+eated it,she eaten eat,CHI,MOT,TRUE,33,TRUE,0.04599999999982174,0.9410000000002583,TRUE,FALSE
+it's not it's not fixeded fixed,it's not fixeded,CHI,MOT,TRUE,33,TRUE,-0.0929999999998472,2.530999999999949,TRUE,FALSE
+Bob_the_Builder nearly runned,pardon,CHI,MOT,TRUE,33,TRUE,1.6369999999997162,2.3330000000000837,TRUE,FALSE
+Bob_Builder fixeded fixed it,Bob_the_Builder fixed it,CHI,MOT,TRUE,33,TRUE,0.012000000000170985,2.031999999999698,TRUE,FALSE
+we all two firemens firemen,we're two firemen are we,CHI,MOT,TRUE,33,TRUE,-0.005000000000109139,2.6590000000001055,FALSE,FALSE
+good mans men,he's a good man is he,CHI,MOT,TRUE,34,TRUE,0.4639999999999418,1.8110000000001492,FALSE,TRUE
+an droved away,he's driving away,CHI,MOT,TRUE,34,TRUE,0.36000000000012733,1.2769999999998163,TRUE,FALSE
+lady getted off it a did something,the lady got off a blue caravan to get something,CHI,MOT,TRUE,34,TRUE,0.6409999999999911,4.13300000000001,TRUE,FALSE
+someone droved over on path,pardon,CHI,MOT,TRUE,34,TRUE,0.6269999999999527,2.2640000000001237,TRUE,FALSE
+someone droved over path,yes,CHI,MOT,TRUE,34,TRUE,-0.047000000000025466,1.683999999999969,TRUE,FALSE
+just remember runned,you've just remember to run like the dustbin man when he gets out of his cab,CHI,MOT,TRUE,35,TRUE,0.06000000000040018,2.6349999999997635,TRUE,FALSE
+Jake on the firemens firemen,oh when it's down to one fireman it's just Jake,CHI,MOT,TRUE,35,TRUE,1.2309999999999945,2.564999999999941,FALSE,FALSE
+droved away,what did the policeman find when he went to see the fireman,CHI,MOT,TRUE,35,TRUE,1.4399999999998272,1.9160000000001673,TRUE,FALSE
+dustbin man tipper throwed it away,oh,CHI,MOT,TRUE,35,TRUE,0.20899999999983265,5.8400000000001455,TRUE,FALSE
+Judy throwed it,Judy threw something away,CHI,MOT,TRUE,35,TRUE,0.23299999999994725,1.9039999999999964,TRUE,FALSE
+big snake goed around,has somebody called you mischief,CHI,MOT,TRUE,35,TRUE,0.03499999999985448,2.19399999999996,TRUE,FALSE
+big wind comed up and blows two down,the big the big wind come up and blown two of them down,CHI,MOT,TRUE,35,TRUE,0.5429999999996653,4.423000000000229,TRUE,FALSE
+I am talking about nice womans,you're talking about nice womans,CHI,MOT,TRUE,35,TRUE,0.04200000000000159,3.215999999999994,FALSE,FALSE
+dirty beer lorry bringed that,the beer lorry brings that,CHI,MOT,TRUE,35,TRUE,0.023999999999887223,2.2289999999998145,TRUE,FALSE
+lorry droved away,driven away Thomas,CHI,MOT,TRUE,35,TRUE,0.6269999999999527,2.286999999999807,TRUE,FALSE
+some silly womans women,what about Bryony and Charlotte,CHI,MOT,TRUE,36,TRUE,3.9359999999996944,2.125,FALSE,TRUE
+a lorry droved away,driven away,CHI,MOT,TRUE,36,TRUE,-0.012000000000170985,2.356999999999971,TRUE,FALSE
+eated that,eated it,CHI,MOT,TRUE,36,TRUE,-0.04599999999982174,0.8709999999996398,TRUE,FALSE
+a dustbin mens men arriving,no,CHI,MOT,TRUE,36,TRUE,0.20900000000000318,2.2749999999999773,FALSE,TRUE
+I drawed under here,I know you did,CHI,MOT,TRUE,36,TRUE,-0.09300000000030195,0.9980000000000473,TRUE,FALSE
+dustbin mens men are here,who's here,CHI,MOT,TRUE,36,TRUE,0.44099999999980355,2.04300000000012,FALSE,TRUE
+mans men wanted to kiss the fire engine,I would have liked to have kissed the fireman,CHI,MOT,TRUE,36,TRUE,0.4640000000000555,2.6819999999999027,FALSE,TRUE
+womans,no,CHI,MOT,TRUE,36,TRUE,0.5929999999998472,1.0789999999999509,FALSE,FALSE
+I I eated this one,that's right,CHI,MOT,TRUE,36,TRUE,-0.0340000000001055,2.089000000000169,TRUE,FALSE
+Firefighter_Morris lied on the floor,oh right,CHI,MOT,TRUE,36,TRUE,0.19800000000032014,3.493999999999687,TRUE,FALSE
+I think a mans men sleeps in there,do you think he sleeps in there,CHI,MOT,TRUE,36,TRUE,-0.010999999999967258,3.8079999999999927,FALSE,TRUE
+then they said they selled them,and they didn't sell them,CHI,MOT,TRUE,37,TRUE,1.5899999999999181,2.925999999999931,TRUE,FALSE
+an the boy runned,and the man,CHI,MOT,TRUE,37,TRUE,0.31300000000010186,1.2309999999999945,TRUE,FALSE
+I drinked it all,I know,CHI,MOT,TRUE,37,TRUE,0.25500000000010914,1.1149999999997817,TRUE,FALSE
+oh dustbin mens men are coming,yes,CHI,MOT,TRUE,38,TRUE,0.09300000000000352,1.6019999999999968,FALSE,TRUE
+falled on floor,you're just eating your dinner and then you fell on the floor,CHI,MOT,TRUE,38,TRUE,0.40599999999994907,0.9989999999997963,TRUE,FALSE
+now it sawed it post lorry coming by,hello post lorry,CHI,MOT,TRUE,38,TRUE,1.5450000000000017,6.292,TRUE,FALSE
+it flied,we had a yellow balloon and what happened to it,CHI,MOT,TRUE,38,TRUE,-0.7079999999999984,1.0329999999999977,TRUE,FALSE
+flied,it flying,CHI,MOT,TRUE,38,TRUE,0.3180000000000014,0.9639999999999986,TRUE,FALSE
+it flieded flied,it flied,CHI,MOT,TRUE,38,TRUE,0.41799999999999926,0.8819999999999979,TRUE,FALSE
+it flieded flied,yes,CHI,MOT,TRUE,38,TRUE,0,0.9990000000000023,TRUE,FALSE
+it flieded flied it,you let go of the string didn't you,CHI,MOT,TRUE,38,TRUE,0.09300000000000352,1.5549999999999997,TRUE,FALSE
+and we have beened on the flags tool,let's have a look what your clean under pants have got on them,CHI,MOT,TRUE,39,TRUE,-0.09400000000005093,3.4539999999997235,TRUE,TRUE
+I just knowed,no you mustn't eat them,CHI,MOT,TRUE,39,TRUE,0.18499999999994543,1.4519999999999982,TRUE,FALSE
+I sweeped it up,oh you're very clever,CHI,MOT,TRUE,39,TRUE,-0.09300000000030195,1.3700000000003456,TRUE,FALSE
+I just maked it,Tom,CHI,MOT,TRUE,39,TRUE,0.5340000000001055,0.8820000000000618,TRUE,FALSE
+Mummy xxx all these little police womans here then police man have tools,oh does he,CHI,MOT,TRUE,40,TRUE,-1.1990000000000691,8.463999999999942,FALSE,FALSE
+you waked him up,have I,CHI,MOT,TRUE,40,TRUE,-0.010999999999967258,1.531999999999698,TRUE,FALSE
+because the we all fixeded fixed it,you fixeded it,CHI,MOT,TRUE,41,TRUE,0,2.356999999999971,TRUE,FALSE
+I have fixeded fixed it,you've fixeded it,CHI,MOT,TRUE,41,TRUE,0,1.3820000000000618,TRUE,FALSE
+it blowed a xxx into a great big sea,it blew what into the sea,CHI,MOT,TRUE,42,TRUE,0,3.981999999999971,TRUE,FALSE
+here we comed out of the shops,right,CHI,MOT,TRUE,42,TRUE,-0.01999999999998181,1.83400000000006,TRUE,FALSE
+oh I throwed it down,well you'd better pick it up because I can't make it if some of the pieces are missing can I,CHI,MOT,TRUE,42,TRUE,0.04599999999982174,2.6590000000001055,TRUE,FALSE
+now tell me the story when the fire catched on,when when next door caught fire,CHI,MOT,TRUE,43,TRUE,0.1510000000000673,5.2590000000000146,TRUE,FALSE
+he throwed it in xxx,goodness me,CHI,MOT,TRUE,43,TRUE,-0.10500000000001819,1.8579999999997199,TRUE,FALSE
+xxx you cutted it,I didn't cut it,CHI,MOT,TRUE,43,TRUE,-0.010999999999967258,3.8780000000001564,TRUE,FALSE
+baby falled down,and look on the same page as,CHI,MOT,TRUE,43,TRUE,0,1.9039999999999964,TRUE,FALSE
+now she falled down,I know,CHI,MOT,TRUE,43,TRUE,-1.113999999999976,1.9390000000000214,TRUE,FALSE
+Mummy Henry felled fell into a deep blue sea,did he,CHI,MOT,TRUE,43,TRUE,0.7199999999997999,4.9340000000001965,TRUE,FALSE
+now I've felled fell in,why did the fire man not put the fire out,CHI,MOT,TRUE,44,TRUE,-0.4530000000004293,1.300000000000182,TRUE,FALSE
+cause I eated some of that,have you,CHI,MOT,TRUE,46,TRUE,-0.09299999999996089,1.8700000000000045,TRUE,FALSE
+you haven't speaked through it,I haven't speaked through it,CHI,MOT,TRUE,47,TRUE,-0.022999999999996135,2.495999999999981,TRUE,FALSE
+I sleeped slept,that you sleeped,CHI,MOT,TRUE,48,TRUE,-0.009000000000014552,1.4979999999999336,TRUE,FALSE
+what if I runned ran away,no no no,CHI,MOT,TRUE,48,TRUE,-0.03099999999994907,1.7770000000000437,TRUE,FALSE
+I shouldn't of builded built a wall that big,built a wall not builded,CHI,MOT,TRUE,48,TRUE,-0.023999999999887223,3.8899999999998727,TRUE,FALSE
+a car runned over him,a car's run over him,CHI,MOT,TRUE,50,TRUE,0.057999999999992724,2.0670000000000073,TRUE,FALSE
+look xxx throwed it into here,but they must have been jolly strong to pick up a police car and throw it into the dustbin truck,CHI,MOT,TRUE,50,TRUE,1.497000000000071,2.147999999999911,TRUE,FALSE
+xxx that I builded this,one you built,CHI,MOT,TRUE,53,TRUE,-0.03199999999992542,5.0150000000001,TRUE,FALSE
+something standed up,oh are you throwing that so sock again are you,CHI,MOT,TRUE,53,TRUE,0.012000000000170985,1.4399999999995998,TRUE,FALSE
+it's all bended and squashed,bent,CHI,MOT,TRUE,53,TRUE,-0.041999999999916326,3.3840000000000146,TRUE,FALSE
+the hula went ranned run away,has it gone up your sleeve,CHI,MOT,TRUE,54,TRUE,-0.4679999999999609,2.2409999999999854,TRUE,FALSE
+I swimmed,you did swim didn't you,CHI,MOT,TRUE,54,TRUE,0.1650000000000773,1.183999999999969,TRUE,FALSE
+you maded made it,well you make the next one and I'll slot it in the top,CHI,MOT,TRUE,54,TRUE,0,1.1959999999999127,TRUE,FALSE
+I think I think a fish bited her,do you,CHI,MOT,TRUE,54,TRUE,0.0820000000003347,2.7859999999996035,TRUE,FALSE
+there's rats outside and mouses inside,there better not be mice inside,CHI,MOT,TRUE,54,TRUE,-0.06899999999995998,2.49599999999964,FALSE,TRUE
+I sitted next to him,did you,CHI,MOT,TRUE,55,TRUE,-0.0340000000001055,1.7530000000001564,TRUE,FALSE
+don't want to because I've drawed some already,no,CHI,MOT,TRUE,55,TRUE,-0.057999999999992724,2.5779999999999745,TRUE,FALSE
+I'll drawed it,you draw,CHI,MOT,TRUE,55,TRUE,-0.02299999999991087,1.0909999999998945,TRUE,FALSE
+look at her hairs,xxx hair yes,CHI,MOT,TRUE,55,TRUE,-0.10399999999981446,1.6019999999998618,FALSE,TRUE
+and I've only got one two persons,what is it you've got,CHI,MOT,TRUE,55,TRUE,0.04599999999999227,2.833000000000027,FALSE,TRUE
+two persons,two persons,CHI,MOT,TRUE,55,TRUE,0.5800000000000409,0.9639999999999986,FALSE,TRUE
+I could of not heared him,xxx,CHI,MOT,TRUE,55,TRUE,-0.03600000000005821,2.49599999999964,TRUE,FALSE
+we went we drived into the car to see it,did you,CHI,MOT,TRUE,56,TRUE,0.04600000000002069,3.563999999999993,TRUE,FALSE
+Thomas gived it me,precisely,CHI,MOT,TRUE,56,TRUE,0.023000000000138243,1.4169999999999163,TRUE,FALSE
+I will do the leafs,then if we have that one that one and that one,CHI,MOT,TRUE,56,TRUE,0.03099999999994907,1.1259999999999764,FALSE,TRUE
+you said I'm banneded banned from cheese,banneded from cheese,CHI,MOT,TRUE,56,TRUE,0.05600000000004002,2.7170000000000982,TRUE,FALSE
+I throwed it down there,where,CHI,MOT,TRUE,56,TRUE,0.5679999999999836,2.2299999999999045,TRUE,FALSE
+I just bited this and then it came off,no don't put it,CHI,MOT,TRUE,57,TRUE,-1.0679999999999836,2.380000000000109,TRUE,FALSE
+Scoop falled in there,did he,CHI,MOT,TRUE,58,TRUE,0.023000000000138243,1.6369999999997162,TRUE,FALSE
+and then all of them falled in,fell,CHI,MOT,TRUE,58,TRUE,1.087999999999738,2.450000000000273,TRUE,FALSE
+and then the land falled in the water,the land fell in the water,CHI,MOT,TRUE,58,TRUE,0.5579999999999927,3.6219999999998436,TRUE,FALSE
+I throwed it back for them,did you,CHI,MOT,TRUE,58,TRUE,0.1280000000000001,1.5559999999999974,TRUE,FALSE
+your sausage machine it has already finded some,yes,CHI,MOT,TRUE,59,TRUE,-0.012000000000057298,4.192000000000007,TRUE,FALSE
+xxx lady xxx mens men,well I would imagine ladies and mens are the same really it's only like a waistcoat,CHI,MOT,TRUE,59,TRUE,0.6089999999999236,3.6340000000000146,FALSE,TRUE
+dugged dug,the digger had dugged dug,CHI,MOT,TRUE,59,TRUE,0.035000000000081855,0.9629999999999654,TRUE,FALSE
+you should of catched it,do you know what these little rough bits are for there,CHI,MOT,TRUE,59,TRUE,-0.0929999999998472,1.6829999999999927,TRUE,FALSE
+just pretend there was a cat on the train and it tripped up and he falled on the track,a cat on the train,CHI,MOT,TRUE,59,TRUE,0.19700000000011642,5.143000000000029,TRUE,FALSE
+the fence is blowed on the track,oh dear,CHI,MOT,TRUE,59,TRUE,0.9629999999999654,3.6920000000000073,TRUE,FALSE
+there were bluey they were very blue in the mens in the gents,Thomas said it was lego blue like lego bricks wasn't it,CHI,MOT,FALSE,59,TRUE,0.02500000000009095,5.886999999999944,TRUE,FALSE

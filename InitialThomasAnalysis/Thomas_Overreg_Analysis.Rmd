@@ -114,6 +114,8 @@ overreg.data <- function(present, past) {
   tibble(nrow(overregs), nrow(past_overregs), nrow(correct_past))
 }
 
+write_csv(together_overregs, "FinalOverregList.csv")
+
 #chi_draw_info <- overreg.data("draw", "drew")
 #chi_drink_info <- overreg.data("drink", "drank")
 #chi_go_info <- overreg.data("go", "went")
