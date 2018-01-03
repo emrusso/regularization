@@ -94,7 +94,7 @@ function randomVersion(seen) {
   while(seen.includes(t)) {
     t = randomInteger(11);
   }
-  var v = randomInteger(1) == 0 ? "a" : "b";
+  var v = randomInteger(2) == 0 ? "a" : "b";
   return {"t" : t, "v" : v, "trial" : trials[t]};
 }
 
@@ -121,7 +121,7 @@ showSlide("instructions");
 var experiment = {
   // Parameters for this sequence.
   trials: myTrialOrder,
-
+  ct_index: 0,
   curr_trial: myTrialOrder[0],
   curr_trial_data: [],
   curr_i: 0,
@@ -142,38 +142,31 @@ var experiment = {
     var exchange = experiment.curr_trial.trial.trials[experiment.curr_trial["v"]].utterances;
     var i = experiment.curr_i;
     var j = experiment.curr_j;
-    if(i >= exchange.length) {
-      experiment.data.push(experiment.curr_trial_data);
-      if (experiment.trials.length == 0) {
-        experiment.end();
-        return;
-      }
-      experiment.curr_i = 0;
-      experiment.curr_j = 0;
-      i = experiment.curr_i;
-      j = experiment.curr_j;
-      experiment.curr_trial = experiment.trials.shift();
-      experiment.curr_trial_data = [];
-      exchange = experiment.curr_trial.trial.trials[experiment.curr_trial["v"]].utterances;
-    }
+
     if(j >= exchange[i].length) {
       experiment.curr_i++;
       experiment.curr_j = 0;
+      
       if(experiment.curr_i >= exchange.length) {
         experiment.data.push({"version":experiment.curr_trial["t"] + experiment.curr_trial["v"], "data" : experiment.curr_trial_data});
-      if (experiment.trials.length == 0) {
-        experiment.end();
-        return;
+        experiment.curr_i = 0;
+        experiment.curr_j = 0;
+        experiment.ct_index++;
+
+        if(experiment.ct_index >= experiment.trials.length) {
+          experiment.end();
+          return;
+        }
+
+        experiment.curr_trial = experiment.trials[experiment.ct_index];
+        experiment.curr_trial_data = [];
       }
-      experiment.curr_i = 0;
-      experiment.curr_j = 0;
+
       i = experiment.curr_i;
       j = experiment.curr_j;
-      experiment.curr_trial = experiment.trials.shift();
-      experiment.curr_trial_data = [];
       exchange = experiment.curr_trial.trial.trials[experiment.curr_trial["v"]].utterances;
-      }
     }
+
     showSlide("stage");
     startTime = (new Date()).getTime();
     $("#word").text(exchange[i][j]);
@@ -192,8 +185,10 @@ var experiment = {
         };
         experiment.curr_trial_data.push(word_data);
         $("#word").text("");
-        experiment.curr_j++;
-        experiment.next_word();
+        setTimeout(function() {
+          experiment.curr_j++;
+          experiment.next_word();
+        }, 500)
       }
     }
     $(document).one("keydown", keyPressHandler);

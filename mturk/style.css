@@ -17,8 +17,8 @@ body {
 	display: none;
 	position: absolute;
 	margin: 0;
-	margin-left: 0.5%;
-	padding: 1% 2% 1% 2%;
+	/*margin-left: 0.5%;
+	padding: 1% 2% 1% 2%;*/
 }
 
 input, select, button {font-family: Georgia, serif; font-size: 14px;}
@@ -85,11 +85,10 @@ button[disabled] {
   font-size: 0.8em;
 }
 
-#number {
+#word {
   font-size: 42px;
   font-family: Arial, sans-serif;
   margin: 0 auto;
   text-align: center;
-  width: 100px;
   margin-top: 100px;
 }
