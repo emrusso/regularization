@@ -22,9 +22,8 @@ function Exchange(utterances) {
   for(key in utterances) {
     var utt = utterances[key];
     var words = [];
-    words.push(utt["SPEAKER"]);
     words = words.concat(utt["UTTERANCE"].split(" "));
-    utts[utt["INDEX"] - 1] = words; 
+    utts[utt["INDEX"] - 1] = {"words": words, "speaker": utt["SPEAKER"]}; 
   }
   this.utterances = utts;
 }
@@ -67,11 +66,8 @@ for(var i = 0; i < 11; i++) {
 
 // ## Helper functions
 
-// Shows slides. We're using jQuery here - the **$** is the jQuery selector function, which takes as input either a DOM element or a CSS selector string.
 function showSlide(id) {
-  // Hide all slides
 	$(".slide").hide();
-	// Show just the slide we want to show
 	$("#"+id).show();
 }
 
@@ -89,13 +85,33 @@ function keyPressed(event) {
 
 }
 
+
+//fix position of offset : for label and underline
+
+
+
 function randomVersion(seen) {
+  //maybe decide how many versions 
+  // g,g,g,u,u,u and shuffle
   var t = randomInteger(11);
   while(seen.includes(t)) {
     t = randomInteger(11);
   }
   var v = randomInteger(2) == 0 ? "a" : "b";
   return {"t" : t, "v" : v, "trial" : trials[t]};
+}
+
+function generateUnderlines(words) {
+  $("#utt").empty();
+  var $underlines = $("<div/>", {"id": "underlines"});
+  for(var i = 0; i < words.length; i++) {
+    $sp = $("<span/>", {"class": "empty", "id": "word" + i});
+    $wrapper = $("<div/>", {"class": "underline"});
+    $sp.text(words[i]);
+    $wrapper.append($sp);
+    $underlines.append($wrapper);
+  }
+  $("#utt").append($underlines);
 }
 
 // ## Configuration settings
@@ -143,7 +159,7 @@ var experiment = {
     var i = experiment.curr_i;
     var j = experiment.curr_j;
 
-    if(j >= exchange[i].length) {
+    if(j >= exchange[i]["words"].length) {
       experiment.curr_i++;
       experiment.curr_j = 0;
       
@@ -169,7 +185,18 @@ var experiment = {
 
     showSlide("stage");
     startTime = (new Date()).getTime();
-    $("#word").text(exchange[i][j]);
+    //if start of new utterance
+    if(experiment.curr_j == 0) {
+      //update label
+      $("#speaker").text(exchange[i]["speaker"]);
+      //update underlines
+      generateUnderlines(exchange[i]["words"]);
+    }
+
+    $("#word" + experiment.curr_j).removeClass("empty");
+    $("#word" + experiment.curr_j).parent(".underline").addClass("selected");
+
+    //$("#utt").text(exchange[i]["words"][j]);
     var keyPressHandler = function(event) {
       var keyCode = event.which;
       while (keyCode != SPACE) {
@@ -180,15 +207,18 @@ var experiment = {
       var endTime = (new Date()).getTime()
       if(keyCode == SPACE) {
         word_data = {
-          stimulus: exchange[i][j],
+          stimulus: exchange[i]["words"][j],
           rt: endTime - startTime
         };
         experiment.curr_trial_data.push(word_data);
-        $("#word").text("");
-        setTimeout(function() {
-          experiment.curr_j++;
-          experiment.next_word();
-        }, 500)
+        $("#word" + experiment.curr_j).addClass("empty");
+        $(".selected").removeClass("selected");
+        // setTimeout(function() {
+        //   experiment.curr_j++;
+        //   experiment.next_word();
+        // }, 500);
+        experiment.curr_j++;
+        experiment.next_word();
       }
     }
     $(document).one("keydown", keyPressHandler);
