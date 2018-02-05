@@ -1,11 +1,3 @@
-<!-- ## Introduction -->
-<!-- This example experiment is a categorization task. On every trial, the subject sees a number and has to press a key depending on whether the number is even or odd. There are two between-subjects independent variables: which keys get pressed (either P for even and Q for odd or vice versa) and the trial order (subjects see one of two fixed orders). There are two dependent variables: accuracy and reaction time. -->
-
-<!-- This example assumes that you already know the basics of HTML, JavaScript (JS), and CSS. If not, [the Codecademy tutorials](http://www.codecademy.com/tracks/javascript) are a useful starting point. -->
-
-<!-- This page contains source code on the right and explanations/commentary on the left. You can jump around the different files by using the "Jump To ..." menu in the upper right corner. You will also want to refer to <a href="../even-odd.html">the actual experiment</a>. -->
-
-<!-- ## Code -->
 <html>
 <head>
 	<title>Mother-Child Interactions</title>
@@ -16,8 +8,6 @@
 	<script src="mmturkey-0.6.js"></script>
 	<script src="jquery.csv.js"></script>
 	<script src="trials.js"></script>
-	
-	<!-- Include the cascading style sheet (CSS), which lets us separate style from content. This stylesheet is important because it defines the notion of a **slide** and also makes things look nicer, which subjects appreciate. It's worth looking at the [source code](style.html). -->
 	<link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -30,23 +20,15 @@
     <img src="images/cecr.png" alt="University of Chicago Center for Early Childhood Research">
   </div>
 		<p id='logo-text'>University of Chicago Center for Early Childhood Research</p>
-	<p class="block-text">In this experiment, you will see short exchanges between a mother and her child. You will then answer a true/false question about each exchange. The words of the exchange will be displayed one at a time and each new utterance will be labeled with the speaker.<br>Press <span id="advance-key" class="key">{{}}</span> to see the next word in the exchange. Press <span id="true-key", class="key">{{}}</span> to respond if the statement is true and <span id="false-key" class="key">{{}}</span> if the statement is false.
+	<p class="block-text">In this experiment, you will see short exchanges between a mother and her child. The words of the exchange will be displayed one at a time and each new utterance will be labeled with the speaker.<br><br>Press <span id="advance-key" class="key">{{}}</span> to see the next word in the exchange.<br><br>
+	Following each exchange, you will answer a question about the exchange you saw. You will see two statements on the screen: one that the mother said in the previous exchange and one that the mother did not say in the previous exchange. Select the statement that you saw by pressing <span id="true-key", class="key">{{}}</span> if the statement you saw is at the top of the screen or <span id="false-key" class="key">{{}}</span> if the statement you saw is at the bottom of the screen. These instructions will be repeated for each question.
 	</p>
 	<!-- Button to start the experiment. <code>this.blur()</code> removes the focus from the button, if the user pressed the button by using the keyboard, rather than the mouse. -->
 	<button type="button" onclick="this.blur(); experiment.next_word()">Start</button>
 	<!-- Legal blurb that we're required to show. -->
 	<!-- replace with UChicago informed consent blurb -->
-	<p class="block-text" id="legal">Legal information: By answering the
-		following questions, you are participating in a study being performed by
-		cognitive scientists in the Stanford Department of Psychology. If you have
-		questions about this research, please contact Long Ouyang at <a
-		href="mailto://louyang@stanford.edu">louyang@stanford.edu</a> or Noah
-		Goodman, at ngoodman@stanford.edu. You must be  at least 18 years old to
-		participate. Your participation in this research is voluntary. You may
-		decline to answer any or all of the following questions. You may decline
-		further participation, at any time, without adverse consequences. Your
-		anonymity is assured; the researchers who have requested your
-		participation will not receive any personal information about you.</p>
+	<p class="block-text" id="legal">By answering the following questions, you are participating in a study being performed by cognitive scientists in the University of Chicago Department of Psychology. If you have questions about this research, please contact us at <a href="mailto:callab.uchicago@gmail.com">callab.uchicago@gmail.com</a>. You must be  at least 18 years old to participate. Your participation in this research is voluntary. You may decline to answer any or all of the following questions. You may decline further participation, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any personal information about you. Note however that we have recently been made aware that your public Amazon.com profile can be accessed via your worker ID if you do not choose to opt out. If you would like to opt out of this feature, you may follow instructions available <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=16465241">here</a>.
+</p>
 </div>
 <!-- The "stage" slide - where the bulk of the experiment will be displayed. Again, note the use of <code>{{}}</code>. -->
 <!-- probably want an example trial -->
@@ -54,6 +36,11 @@
 	<div class="cont">
 		<span id="speaker">{{}}</span>
 		<div id="utt"></div>
+	</div>
+</div>
+
+<div class="slide" id="ac">
+	<div id="cont">
 	</div>
 </div>
 <!-- The finish slide. -->
