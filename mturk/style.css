@@ -30,7 +30,7 @@ body {
 	border-bottom: 2px solid gray;
 	display: inline-block;
 	margin: 5px;
-	font-size: 20px;
+	font-size: 1.5vw;
 }
 
 .selected {
@@ -46,21 +46,38 @@ body {
 }
 
 .ac_option .key {
-	margin-right: 5%;
+	font-size: 1.5vw;
 }
 
 .ac_option {
-	margin: auto;
-	width: 50%;
-	margin-left: 25%;
+	display: inline-block;
+	width: 45%;
 	font-size: 20px;
 	padding: 5% 0;
+	text-align: center;
+	font-size: 1.5vw;
 }
 
 #ac_instructions {
 	width: 50%;
 	margin: auto;
 	padding: 5% 0;
+	font-size: 1.5vw;
+	line-height: 30px;
+}
+
+#ac_instructions .key {
+	font-size: 1.5vw;
+}
+
+.ac_container {
+	margin: auto;
+	text-align: center;
+}
+
+.sample_instructions {
+	margin-top: 5%;
+	text-align: center;
 }
 
 input, select, button {font-family: Georgia, serif; font-size: 14px;}
@@ -102,6 +119,8 @@ button[disabled] {
 
 #instructions {
   text-align: center;
+  height: 100%;
+  width: 100%;
 }
 
 .key {
@@ -114,7 +133,7 @@ button[disabled] {
 }
 
 .block-text {
-  width: 750px;
+  width: 40%;
   text-align: justify;
   margin: 0 auto;
   margin-bottom: 1em;
@@ -127,7 +146,7 @@ button[disabled] {
 }
 
 .cont {
-  font-size: 42px;
+  font-size: 2vw;
   font-family: Arial, sans-serif;
   margin: 0 auto;
   text-align: center;

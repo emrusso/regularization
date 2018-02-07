@@ -14,19 +14,16 @@
 
 
 <!-- The instructions slide. -->
-<div class="slide" id="instructions">
-	<!-- is there a specific template that the CECR/callab uses for mturk? -->
+<div class="slide" id="instructions" tabindex=0 onkeypress="start(event);">
   <div style="width: 500px; margin: 0 auto; text-align: center; padding: 20px 15px 10px 10px">
     <img src="images/cecr.png" alt="University of Chicago Center for Early Childhood Research">
   </div>
 		<p id='logo-text'>University of Chicago Center for Early Childhood Research</p>
-	<p class="block-text">In this experiment, you will see short exchanges between a mother and her child. The words of the exchange will be displayed one at a time and each new utterance will be labeled with the speaker.<br><br>Press <span id="advance-key" class="key">{{}}</span> to see the next word in the exchange.<br><br>
-	Following each exchange, you will answer a question about the exchange you saw. You will see two statements on the screen: one that the mother said in the previous exchange and one that the mother did not say in the previous exchange. Select the statement that you saw by pressing <span id="true-key", class="key">{{}}</span> if the statement you saw is at the top of the screen or <span id="false-key" class="key">{{}}</span> if the statement you saw is at the bottom of the screen. These instructions will be repeated for each question.
-	</p>
+	<p class="block-text">In this experiment, you will see short exchanges between a mother and her child. The words of the exchange will be displayed one at a time and each new utterance will be labeled with the speaker.<br><br>Press <span id="advance-key" class="key">{{}}</span> to start a sample exchange.</p>
+
 	<!-- Button to start the experiment. <code>this.blur()</code> removes the focus from the button, if the user pressed the button by using the keyboard, rather than the mouse. -->
-	<button type="button" onclick="this.blur(); experiment.next_word()">Start</button>
-	<!-- Legal blurb that we're required to show. -->
-	<!-- replace with UChicago informed consent blurb -->
+<!-- 	<button type="button" onclick="this.blur(); experiment.next_word()">Start</button>
+ -->	<!-- Legal blurb that we're required to show. -->
 	<p class="block-text" id="legal">By answering the following questions, you are participating in a study being performed by cognitive scientists in the University of Chicago Department of Psychology. If you have questions about this research, please contact us at <a href="mailto:callab.uchicago@gmail.com">callab.uchicago@gmail.com</a>. You must be  at least 18 years old to participate. Your participation in this research is voluntary. You may decline to answer any or all of the following questions. You may decline further participation, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any personal information about you. Note however that we have recently been made aware that your public Amazon.com profile can be accessed via your worker ID if you do not choose to opt out. If you would like to opt out of this feature, you may follow instructions available <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=16465241">here</a>.
 </p>
 </div>
@@ -34,13 +31,29 @@
 <!-- probably want an example trial -->
 <div class="slide" id="stage">
 	<div class="cont">
-		<span id="speaker">{{}}</span>
-		<div id="utt"></div>
+		<span class="speaker"></span>
+		<div class="utt"></div>
 	</div>
+</div>
+
+<div class="slide" id="sample">
+	<div class="cont">
+		<span class="speaker"></span>
+		<div class="utt"></div>
+	</div>
+	<div class="sample_instructions">Press <span id="advance-key" class="key">space</span> to see the next word.</p></div>
+</div>
+
+<div class="slide" id="begin">
+	<div class="cont">Press <span id="advance-key" class="key">space</span> to begin the first exchange.</div>
 </div>
 
 <div class="slide" id="ac">
 	<div id="cont">
+		<div id="ac_instructions">
+		Which statement did you see in the previous exchange? Press <span class='key'>F</span> if the statement you saw is on the left. Press <span class='key'>J</span> if the statement you saw is on the right.
+		</div>
+		<div class= "ac_container"></div>
 	</div>
 </div>
 <!-- The finish slide. -->
