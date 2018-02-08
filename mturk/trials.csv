@@ -1,7 +1,9 @@
 TRIAL,VERSION,INDEX,SPEAKER,UTTERANCE,ERROR_POSITION,SEEN,UNSEEN
--1,x,1,,"Following each exchange, you will answer a question about the exchange you saw.",0,Select this statment.,Don't select this statement.
--1,x,2,,You will see two statements on the screen.,0,,
--1,x,3,,Select which statement was spoken by the mother in the previous exchange using the keyboard.,0,,
+-1,x,1,INSTRUCTION 1,"Following each exchange, you will answer a question about the exchange you saw.",0,Select this statment.,Don't select this statement.
+-1,x,2,INSTRUCTION 2,You will see two statements on the screen.,0,,
+-1,x,3,INSTRUCTION 3,Select which statement was spoken by the mother in the previous exchange using the keyboard.,0,,
+-2,x,1,MOTHER,"hello, Thomas.",0,"hello, Thomas.","goodbye, Thomas."
+-2,x,2,CHILD,"hi, mummy.",0,,
 1,a,1,MOTHER,you did it quick so I didn't tread on it.,0,"well, that's a clever boy, isn't it?","a jelly mould, well, it's a container"
 1,a,2,CHILD,yeah.,0,,
 1,a,3,MOTHER,"well, that's a clever boy, isn't it?",0,,

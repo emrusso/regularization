@@ -15,6 +15,15 @@ var SPACE = 32;
 var F = 70;
 var J = 74;
 
+$(function() {
+  $("#instructions").focus();
+})
+
+function start(e) {
+  if(e.keyCode == SPACE) {
+    experiment.next_word();
+  }
+}
 
 // expected input: array only with same version and trial num
 function Exchange(utterances) {
@@ -22,6 +31,7 @@ function Exchange(utterances) {
   for(key in utterances) {
     var utt = utterances[key];
     var words = [];
+    utt["UTTERANCE"] = utt["UTTERANCE"].replace("\"", "");
     words = words.concat(utt["UTTERANCE"].split(" "));
     utts[utt["INDEX"] - 1] = {"words": words, "speaker": utt["SPEAKER"]}; 
   }
@@ -42,6 +52,8 @@ function logme(trialVersion) {
   console.log("utterances: " + trial["v"].utterances);
 }
 
+
+
 // ## Define trial object
 function Trial(number, entries) {
   this.number = number;
@@ -49,10 +61,16 @@ function Trial(number, entries) {
   this.check = {"seen": "", "unseen": ""};
   var as = [];
   var bs = [];
+
   for(key in entries) {
     var entry = entries[key];
     if(entry["TRIAL"] == number) {
-      entry["VERSION"] == "a" ? as.push(entry) : bs.push(entry);
+      if(number < 0) {
+        as.push(entry);
+        bs.push(entry);
+      } else {
+        entry["VERSION"] == "a" ? as.push(entry) : bs.push(entry);
+      }
       if(this.check["seen"]=="") {
         this.check["seen"] = entry["SEEN"];
         this.check["unseen"] = entry["UNSEEN"];
@@ -64,17 +82,17 @@ function Trial(number, entries) {
 }
 
 
+var testTrial = new Trial()
 
 // ## Read csv
 var trialObjs = $.csv.toObjects(trialsStr);
 // ## reorganize trials
-var trials = [];
-for(var i = 0; i < 11; i++) {
+var trials = [new Trial(-1, trialObjs)];
+trials.push(new Trial(-2, trialObjs));
+for(var i = 0; i < 10; i++) {
   var t = new Trial(i + 1, trialObjs);
-  //logme(t);
   trials.push(t);
 }
-
 
 // ## Helper functions
 
@@ -99,41 +117,38 @@ function randomVersion(testTrialNums) {
   if(testTrialNums.includes(t)) {
     v = "a";
   }
-  return {"t" : t+1, "v" : v, "trial" : trials[t]};
+  return {"t" : t+1, "v" : v, "trial" : trials[t+1]};
 }
 
 function generateUnderlines(words) {
-  $("#utt").empty();
+  $(".utt").empty();
   var $underlines = $("<div/>", {"id": "underlines"});
   for(var i = 0; i < words.length; i++) {
-    $sp = $("<span/>", {"class": "empty", "id": "word" + i});
+    $sp = $("<span/>", {"class": "empty word" + i});
     $wrapper = $("<div/>", {"class": "underline"});
     $sp.text(words[i]);
     $wrapper.append($sp);
     $underlines.append($wrapper);
   }
-  $("#utt").append($underlines);
+  $(".utt").append($underlines);
 }
 
 function generateAttentionCheck(seenOrder, seen, unseen) {
-  $("#cont").empty();
-  var $instructions = $("<div/>", {"id": "ac_instructions"});
-  $instructions.html("Which statement did you see in the previous exchange? Press <span class='key'>F</span> if the statement you saw is displayed on the top half of the screen. Press <span class='key'>J</span> if the statement you saw is displayed on the bottom half of the screen.");
+  $(".ac_container").empty();
   var $seenContainer = $("<div/>", {"id": "seen", "class": "ac_option"});
   var $unseenContainer = $("<div/>", {"id": "unseen", "class": "ac_option"});
   $seenContainer.text(seen);
   $unseenContainer.text(unseen);
-  $("#cont").append($instructions);  
   if(seenOrder == F) {
-    $seenContainer.prepend("<span class='key'>F</span>");
-    $("#cont").append($seenContainer);
-    $unseenContainer.prepend("<span class='key'>J</span>");
-    $("#cont").append($unseenContainer);
+    $seenContainer.prepend("<span class='key'>F</span><br><br>");
+    $(".ac_container").append($seenContainer);
+    $unseenContainer.prepend("<span class='key'>J</span><br><br>");
+    $(".ac_container").append($unseenContainer);
   } else {
-    $unseenContainer.prepend("<span class='key'>F</span>");
-    $("#cont").append($unseenContainer);
-    $seenContainer.prepend("<span class='key'>J</span>");
-    $("#cont").append($seenContainer);
+    $unseenContainer.prepend("<span class='key'>F</span><br><br>");
+    $(".ac_container").append($unseenContainer);
+    $seenContainer.prepend("<span class='key'>J</span><br><br>");
+    $(".ac_container").append($seenContainer);
   }
 }
 
@@ -150,6 +165,9 @@ for(var i = 0; i < 5; i++) {
   testTrialNums.push(t);
   seenTestTrialNums.push(t);
 }
+
+myTrialOrder.push({"t": 0, "v": "a", "trial": trials[0]});
+myTrialOrder.push({"t": 1, "v": "a", "trial": trials[1]});
 //randomize order
 for(var i = 0; i < 10; i++) {
   trial = randomVersion(testTrialNums);
@@ -184,6 +202,7 @@ var experiment = {
   passed_ac: false,
   show_ac: false,
   correctKeyCode: F,
+  show_begin: false,
 
   // The function that gets called when the sequence is finished.
   end: function() {
@@ -199,8 +218,12 @@ var experiment = {
     var i = experiment.curr_i;
     var j = experiment.curr_j;
 
+    if(experiment.show_begin) {
+      showSlide("begin");
+    }
+
     //if at the end of the last utterance of the exchange
-    if(experiment.curr_i >= exchange.length) {
+    if(experiment.curr_i >= exchange.length && !experiment.show_begin) {
         // //show attention check
         // showSlide("stage");
 
@@ -215,7 +238,7 @@ var experiment = {
         startTime = (new Date()).getTime();
 
         generateAttentionCheck(experiment.correctKeyCode, correct, unseen);
-    } else if(j >= exchange[i]["words"].length) {
+    } else if(j >= exchange[i]["words"].length && !experiment.show_begin) {
       experiment.curr_i++;
       experiment.curr_j = 0;
       if(experiment.curr_i >= exchange.length) {
@@ -229,25 +252,37 @@ var experiment = {
         showSlide("ac");
         startTime = (new Date()).getTime();
 
-        //DONT FORGET TO BALANCE NUM U,G trials
-
         generateAttentionCheck(experiment.correctKeyCode, correct, unseen);
       }
     }
 
-    if(!experiment.show_ac) {
+    if(experiment.curr_trial["t"] < 2 && !experiment.show_ac && !experiment.show_begin) {
+      showSlide("sample");
+
+      if(experiment.curr_j == 0) {
+        //update label
+        $(".speaker").text(exchange[experiment.curr_i]["speaker"]);
+        //update underlines
+        generateUnderlines(exchange[experiment.curr_i]["words"]);
+      }
+
+      $(".word" + experiment.curr_j).removeClass("empty");
+      $(".word" + experiment.curr_j).parent(".underline").addClass("selected");
+    }
+
+    if(!experiment.show_ac && experiment.curr_trial["t"] >= 2 && !experiment.show_begin) {
       showSlide("stage");
       startTime = (new Date()).getTime();
       //if start of new utterance
       if(experiment.curr_j == 0) {
         //update label
-        $("#speaker").text(exchange[experiment.curr_i]["speaker"]);
+        $(".speaker").text(exchange[experiment.curr_i]["speaker"]);
         //update underlines
         generateUnderlines(exchange[experiment.curr_i]["words"]);
       }
 
-      $("#word" + experiment.curr_j).removeClass("empty");
-      $("#word" + experiment.curr_j).parent(".underline").addClass("selected");
+      $(".word" + experiment.curr_j).removeClass("empty");
+      $(".word" + experiment.curr_j).parent(".underline").addClass("selected");
     }
 
     //$("#utt").text(exchange[i]["words"][j]);
@@ -259,23 +294,66 @@ var experiment = {
       }
 
       if(keyCode == SPACE && !experiment.show_ac) {
-        // record the reaction time (current time minus start time), which key was pressed, and what that means (even or odd).
+        //if sample trial, don't send any data        
+        if(experiment.curr_trial["t"] == 0 && !experiment.show_begin) {
+            $(".word" + experiment.curr_j).addClass("empty");
+            $(".selected").removeClass("selected");
+            experiment.curr_j++;
+            experiment.next_word();
+            return;
+        }
+
+        if(experiment.show_begin) {
+          experiment.show_begin = false;
+          experiment.next_word();
+          return;
+        }
+
         var endTime = (new Date()).getTime();
         word_data = {
           stimulus: exchange[experiment.curr_i]["words"][experiment.curr_j],
           rt: endTime - startTime
         };
         experiment.curr_trial_data.push(word_data);
-        $("#word" + experiment.curr_j).addClass("empty");
+        $(".word" + experiment.curr_j).addClass("empty");
         $(".selected").removeClass("selected");
         experiment.curr_j++;
         experiment.next_word();
       } else if((keyCode == F || keyCode == J) && experiment.show_ac) {
+        
+        if(experiment.curr_trial["t"] < 2) {
+          if(keyCode != experiment.correctKeyCode) {
+            $(document).one("keydown", keyPressHandler);
+            return;
+          }
+
+          if(experiment.curr_trial["t"] == 1) {
+            experiment.show_begin = true;
+          }
+
+          experiment.show_ac = false;
+          experiment.ct_index++;
+          experiment.curr_trial = experiment.trials[experiment.ct_index];
+          experiment.curr_trial_data = [];
+          experiment.curr_i = 0;
+          experiment.curr_j = 0;
+          experiment.passed_ac = false;
+          if(experiment.curr_trial["t"] == 1) {
+            showSlide("nextSample");
+            setTimeout(function() {
+              experiment.next_word()
+            }, 2000);
+          } else {
+            experiment.next_word();
+          }
+          return;
+        }
+
         var endTime = (new Date()).getTime();
         experiment.passed_ac = keyCode == experiment.correctKeyCode;
         ac_data = {
-          correctKeyCode: experiment.correctKeyCode == F ? "top" : "bottom",
-          pressedKeyCode: keyCode == F ? "top" : "bottom",
+          correctKeyCode: experiment.correctKeyCode == F ? "left" : "right",
+          pressedKeyCode: keyCode == F ? "left" : "right",
           passed: experiment.passed_ac,
           rt: endTime - startTime
         }
