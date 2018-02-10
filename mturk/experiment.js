@@ -168,13 +168,6 @@ for(var i = 0; i < 5; i++) {
   seenTestTrialNums.push(t);
 }
 
-console.log(testTrialNums);
-console.log(trials);
-
-for(num in testTrialNums) {
-  console.log()
-}
-
 myTrialOrder.push({"t": 0, "v": "a", "trial": trials[0]});
 myTrialOrder.push({"t": 1, "v": "a", "trial": trials[1]});
 //randomize order
@@ -186,8 +179,6 @@ for(var i = 0; i < 10; i++) {
   myTrialOrder.push(trial);
   seenTrials.push(trial["t"]);
 }
-
-console.log(myTrialOrder);
 
 // Fill in the instructions template using jQuery's <code>html()</code> method. In particular,
 $("#true-key").text("J");
