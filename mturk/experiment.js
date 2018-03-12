@@ -33,7 +33,12 @@ function Exchange(utterances) {
     var words = [];
     utt["UTTERANCE"] = utt["UTTERANCE"].replace("\"", "");
     words = words.concat(utt["UTTERANCE"].split(" "));
-    utts[utt["INDEX"] - 1] = {"words": words, "speaker": utt["SPEAKER"]}; 
+    var containsTestWord = utt["ERROR_POSITION"] > 0;
+    var testWord = null;
+    if(containsTestWord) {
+      testWord = words[utt["ERROR_POSITION"] - 1];
+    }
+    utts[utt["INDEX"] - 1] = {"words": words, "speaker": utt["SPEAKER"], "testUtterance": containsTestWord, "testWord": testWord}; 
   }
   this.utterances = utts;
 }
@@ -53,23 +58,23 @@ function logme(trialVersion) {
 }
 
 
-
-// ## Define trial object
-function Trial(number, entries) {
+function Trial(kid, number, entries) {
+  this.kid = kid;
   this.number = number;
-  this.versions = {"a": [], "b": []};
+  this.versions = {"u": [], "g": []};
   this.check = {"seen": "", "unseen": ""};
-  var as = [];
-  var bs = [];
+  var us = [];
+  var gs = [];
 
   for(key in entries) {
     var entry = entries[key];
-    if(entry["TRIAL"] == number) {
+    if(entry["TRIAL"] == number && entry["CHILD"] == kid) {
       if(number < 0) {
-        as.push(entry);
-        bs.push(entry);
+        //if instruction utterance
+        us.push(entry);
+        gs.push(entry);
       } else {
-        entry["VERSION"] == "a" ? as.push(entry) : bs.push(entry);
+        entry["VERSION"] == "u" ? us.push(entry) : gs.push(entry);
       }
       if(this.check["seen"]=="") {
         this.check["seen"] = entry["SEEN"];
@@ -77,20 +82,27 @@ function Trial(number, entries) {
       }
     }
   }
-  this.versions["a"] = new Exchange(as);
-  this.versions["b"] = new Exchange(bs);
+  this.versions["u"] = new Exchange(us);
+  this.versions["g"] = new Exchange(gs);
 }
 
-
-var testTrial = new Trial()
 
 // ## Read csv
 var trialObjs = $.csv.toObjects(trialsStr);
 // ## reorganize trials
-var trials = [new Trial(-1, trialObjs)];
-trials.push(new Trial(-2, trialObjs));
+//first two trials are instructions
+//next 10 are Thomas
+var trials = [new Trial("Thomas", -1, trialObjs)];
+trials.push(new Trial("Thomas", -2, trialObjs));
 for(var i = 0; i < 10; i++) {
-  var t = new Trial(i + 1, trialObjs);
+  var t = new Trial("Thomas", i + 1, trialObjs);
+  trials.push(t);
+}
+
+//after Thomas trials, add fraser instructions, ten Fraser trials
+trials.push(new Trial("Fraser", -3, trialObjs));
+for(var i = 0; i < 10; i++) {
+  var t = new Trial("Fraser", i + 1, trialObjs);
   trials.push(t);
 }
 
@@ -111,15 +123,26 @@ function randomElement(array) {
   return array[randomInteger(array.length)];
 }
 
-function randomVersion(testTrialNums) {
-  //FIX THIS YOU ARE MISSING TRIAL 11
-
+function randomThomasVersion(testTrialNums) {
   var t = randomInteger(10);
-  var v = "b";
-  if(testTrialNums.includes(t + 2)) {
-    v = "a";
+  var v = "g";
+  if(testTrialNums.includes(t)) {
+    v = "u";
   }
-  return {"t" : t+2, "v" : v, "trial" : trials[t+2]};
+  //t is 1-based index
+  //account for two sets of instructions in trials obj
+  return {"t" : t + 1, "v" : v, "trialObj" : trials[t+2]};
+}
+
+function randomFraserVersion(testTrialNums) {
+  var t = randomInteger(10);
+  var v = "g";
+  if(testTrialNums.includes(t)) {
+    v = "u";
+  }
+  //t is 1-based index
+  //account for 10 Thomas trials + 3 sets of instructions in trials obj
+  return {"t" : t + 11, "v" : v, "trialObj" : trials[t+13]};
 }
 
 function generateUnderlines(words) {
@@ -158,23 +181,51 @@ function generateAttentionCheck(seenOrder, seen, unseen) {
 var myTrialOrder = [];
 var seenTrials = [];
 var seenTestTrialNums = [];
-var testTrialNums = [];
+var testThomasTrialNums = [];
+//pick which test trials for Thomas
 for(var i = 0; i < 5; i++) {
-  var t = randomInteger(10) + 2;
+  var t = randomInteger(10);
   while(seenTestTrialNums.includes(t)) {
-    t = randomInteger(10) + 2;
+    t = randomInteger(10);
   }
-  testTrialNums.push(t);
+  testThomasTrialNums.push(t);
+  seenTestTrialNums.push(t);
+}
+//pick which test trials for Fraser
+seenTestTrialNums = [];
+var testFraserTrialNums = [];
+for(var i = 0; i < 5; i++) {
+  var t = randomInteger(10);
+  while(seenTestTrialNums.includes(t)) {
+    t = randomInteger(10);
+  }
+  testFraserTrialNums.push(t);
   seenTestTrialNums.push(t);
 }
 
-myTrialOrder.push({"t": 0, "v": "a", "trial": trials[0]});
-myTrialOrder.push({"t": 1, "v": "a", "trial": trials[1]});
-//randomize order
+//first two sets of instructions
+myTrialOrder.push({"t": -1, "v": "g", "trialObj": trials[0]});
+myTrialOrder.push({"t": -2, "v": "g", "trialObj": trials[1]});
+
+//randomize order for Thomas trials
 for(var i = 0; i < 10; i++) {
-  trial = randomVersion(testTrialNums);
+  trial = randomThomasVersion(testThomasTrialNums);
   while(seenTrials.includes(trial["t"])) {
-    trial = randomVersion(testTrialNums);
+    trial = randomThomasVersion(testThomasTrialNums);
+  }
+  myTrialOrder.push(trial);
+  seenTrials.push(trial["t"]);
+}
+
+
+//add set of instructions between Thomas and Fraser
+myTrialOrder.push({"t": -3, "v": "g", "trialObj": trials[12]});
+
+//randomize order for Fraser trials
+for(var i = 0; i < 10; i++) {
+  trial = randomFraserVersion(testFraserTrialNums);
+  while(seenTrials.includes(trial["t"])) {
+    trial = randomFraserVersion(testFraserTrialNums);
   }
   myTrialOrder.push(trial);
   seenTrials.push(trial["t"]);
@@ -216,49 +267,57 @@ var experiment = {
 
   next_word: function() {
     var wordData = {};
-    var exchange = experiment.curr_trial.trial.versions[experiment.curr_trial["v"]].utterances;
+    var exchange = experiment.curr_trial.trialObj.versions[experiment.curr_trial["v"]].utterances;
     var i = experiment.curr_i;
     var j = experiment.curr_j;
 
     if(experiment.show_begin) {
-      showSlide("begin");
+      if(experiment.ct_index < 10) {
+        showSlide("begin");
+      }
     }
 
     //if at the end of the last utterance of the exchange
     if(experiment.curr_i >= exchange.length && !experiment.show_begin) {
         // //show attention check
         // showSlide("stage");
-
         //randomly pick and display appropriate ac utts
-        var correct = experiment.curr_trial.trial.check["seen"];
-        var unseen = experiment.curr_trial.trial.check["unseen"];
+        if(experiment.curr_trial.t != -3){
+          var correct = experiment.curr_trial.trialObj.check["seen"];
+          var unseen = experiment.curr_trial.trialObj.check["unseen"];
 
 
-        experiment.correctKeyCode = randomInteger(2) == 0 ? F : J;
-        experiment.show_ac = true;
-        showSlide("ac");
-        startTime = (new Date()).getTime();
+          experiment.correctKeyCode = randomInteger(2) == 0 ? F : J;
+          experiment.show_ac = true;
+          showSlide("ac");
+          startTime = (new Date()).getTime();
 
-        generateAttentionCheck(experiment.correctKeyCode, correct, unseen);
+          generateAttentionCheck(experiment.correctKeyCode, correct, unseen);
+        }
     } else if(j >= exchange[i]["words"].length && !experiment.show_begin) {
       experiment.curr_i++;
       experiment.curr_j = 0;
       if(experiment.curr_i >= exchange.length) {
-        //lol this is extremely dumb
-        var correct = experiment.curr_trial.trial.check["seen"];
-        var unseen = experiment.curr_trial.trial.check["unseen"];
+        //if fraser instruction, just set show_begin and continue
+        if(experiment.curr_trial.t != -3) {
+          //lol this is extremely dumb
+          var correct = experiment.curr_trial.trialObj.check["seen"];
+          var unseen = experiment.curr_trial.trialObj.check["unseen"];
 
+          experiment.correctKeyCode = randomInteger(2) == 0 ? F : J;
+          experiment.show_ac = true;
+          showSlide("ac");
+          startTime = (new Date()).getTime();
 
-        experiment.correctKeyCode = randomInteger(2) == 0 ? F : J;
-        experiment.show_ac = true;
-        showSlide("ac");
-        startTime = (new Date()).getTime();
-
-        generateAttentionCheck(experiment.correctKeyCode, correct, unseen);
+          generateAttentionCheck(experiment.correctKeyCode, correct, unseen);
+        } else {
+          experiment.show_begin = true;
+          showSlide("begin_fraser");
+        }
       }
     }
 
-    if(experiment.curr_trial["t"] < 2 && !experiment.show_ac && !experiment.show_begin) {
+    if(experiment.curr_trial["t"] < 0 && !experiment.show_ac && !experiment.show_begin) {
       showSlide("sample");
 
       if(experiment.curr_j == 0) {
@@ -272,7 +331,7 @@ var experiment = {
       $(".word" + experiment.curr_j).parent(".underline").addClass("selected");
     }
 
-    if(!experiment.show_ac && experiment.curr_trial["t"] >= 2 && !experiment.show_begin) {
+    if(!experiment.show_ac && experiment.curr_trial["t"] >= 0 && !experiment.show_begin) {
       showSlide("stage");
       startTime = (new Date()).getTime();
       //if start of new utterance
@@ -297,7 +356,7 @@ var experiment = {
 
       if(keyCode == SPACE && !experiment.show_ac) {
         //if sample trial, don't send any data        
-        if(experiment.curr_trial["t"] == 0 && !experiment.show_begin) {
+        if(experiment.curr_trial["t"] < 0 && !experiment.show_begin) {
             $(".word" + experiment.curr_j).addClass("empty");
             $(".selected").removeClass("selected");
             experiment.curr_j++;
@@ -307,13 +366,31 @@ var experiment = {
 
         if(experiment.show_begin) {
           experiment.show_begin = false;
+          if(experiment.curr_trial.trialObj.number == -3) {
+            experiment.show_ac = false;
+            experiment.ct_index++;
+            experiment.curr_trial = experiment.trials[experiment.ct_index];
+            experiment.curr_trial_data = [];
+            experiment.curr_i = 0;
+            experiment.curr_j = 0;
+            experiment.passed_ac = false;
+            console.log(experiment.curr_trial);
+          }
           experiment.next_word();
           return;
         }
 
         var endTime = (new Date()).getTime();
         word_data = {
+          kid: experiment.curr_trial.trialObj.kid,
+          exchange_index: experiment.curr_trial["t"],
+          display_index: experiment.ct_index + 1,
+          utterance_in_exchange: experiment.curr_i + 1,
+          utterance: exchange[experiment.curr_i],
+          word_in_utterance: experiment.curr_j + 1,
           stimulus: exchange[experiment.curr_i]["words"][experiment.curr_j],
+          is_test_utterance: exchange[experiment.curr_i]["testUtterance"],
+          test_word: exchange[experiment.curr_i]["testWord"] == null ? null : exchange[experiment.curr_i]["testWord"],
           rt: endTime - startTime
         };
         experiment.curr_trial_data.push(word_data);
@@ -323,13 +400,13 @@ var experiment = {
         experiment.next_word();
       } else if((keyCode == F || keyCode == J) && experiment.show_ac) {
         
-        if(experiment.curr_trial["t"] < 2) {
+        if(experiment.curr_trial["t"] < 0) {
           if(keyCode != experiment.correctKeyCode) {
             $(document).one("keydown", keyPressHandler);
             return;
           }
 
-          if(experiment.curr_trial["t"] == 1) {
+          if(experiment.curr_trial["t"] < -1) {
             experiment.show_begin = true;
           }
 
@@ -340,12 +417,13 @@ var experiment = {
           experiment.curr_i = 0;
           experiment.curr_j = 0;
           experiment.passed_ac = false;
-          if(experiment.curr_trial["t"] == 1) {
+          if(experiment.curr_trial["t"] == -2) {
             showSlide("nextSample");
             setTimeout(function() {
               experiment.next_word()
             }, 2000);
           } else {
+            console.log(experiment.curr_trial);
             experiment.next_word();
           }
           return;
@@ -360,7 +438,7 @@ var experiment = {
           rt: endTime - startTime
         }
         experiment.show_ac = false;
-        experiment.data.push({"version":experiment.curr_trial["t"] + experiment.curr_trial["v"], "data" : experiment.curr_trial_data, "ac_data" : ac_data});
+        experiment.data.push({"version":experiment.curr_trial["t"] + experiment.curr_trial["v"], "trial_data" : experiment.curr_trial_data, "ac_data" : ac_data});
         experiment.ct_index++;
         //end experiment if we've run all the trials
         if(experiment.ct_index >= experiment.trials.length) {
@@ -373,6 +451,14 @@ var experiment = {
         experiment.curr_i = 0;
         experiment.curr_j = 0;
         experiment.passed_ac = false;
+        console.log(experiment.curr_trial);
+        if(experiment.curr_trial["t"] == -3) {
+          showSlide("completeFirstHalf");
+          setTimeout(function() {
+            experiment.next_word()
+          }, 2000);
+          return;
+        }
         experiment.next_word();
       }
     }

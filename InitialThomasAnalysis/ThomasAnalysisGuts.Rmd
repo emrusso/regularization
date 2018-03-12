@@ -1,0 +1,274 @@
+---
+title: "ThomasAnalysisGuts"
+author: "Emmi Russo"
+date: "2/19/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+knitr::opts_chunk$set(echo = TRUE)
+options(digits=10)
+```
+
+``` {r work with manual data}
+thomas_data <- read_csv("thomas_utterance_data.csv")
+names(thomas_data) <- c("utterance", "response", "speaker", "responder", "error", "age", "past_tense", "plural", "source_file", "utterance_start", "utterance_end", "response_start", "response_end")
+
+thomas_data_clean <- thomas_data %>%
+  mutate(age = as.numeric(age)) %>%
+  mutate_at(vars(error, past_tense, plural), as.logical)
+
+thomas_kid_data <- thomas_data %>%
+  filter(speaker == "CHI") %>%
+  filter(responder == "MOT")
+
+# Do some extremely gross joining that can definitely be cleaned up
+thomas_kid_data$overlap <- NULL
+thomas_kid_data$overreg <- FALSE
+
+manual_thomas_overregs <- read_csv("manual_thomas_overregs.csv")
+manual_thomas_overregs$X <- NULL
+manual_thomas_overregs$overreg_candidate <- NULL
+manual_thomas_overregs$overlap <- NULL
+manual_thomas_overregs$error <- NULL
+manual_thomas_overregs <- manual_thomas_overregs %>%
+  filter(manual_code != '?')
+
+thomas_kid_with_overregs <- read_csv("all_thomas_kid_utterances_with_overregs.csv")
+thomas_kid_with_overregs <- thomas_kid_with_overregs %>%
+  filter(responder == "MOT")
+thomas_kid_with_overregs$X <- NULL
+
+utt_to_sf <- rownames_to_column(thomas_kid_data)
+utt_to_sf <- utt_to_sf[,c("rowname", "source_file", "utterance_start", "utterance_end", "response_start", "response_end", "past_tense", "plural")]
+
+thomas_kid_w_source <- left_join(rownames_to_column(thomas_kid_with_overregs), utt_to_sf, by = "rowname")
+
+overregs_w_source <- thomas_kid_w_source %>%
+  filter(overreg)
+
+#write.csv(file = "audio_coding.csv", overregs_w_source)
+
+fixed_overregs <- read_csv("final_audio_coding.csv")
+fixed_overregs <- fixed_overregs %>%
+  filter(is.na(`THROW OUT`) | `THROW OUT` == FALSE)
+fixed_overregs_cleaner <- fixed_overregs[,c("rowname", "utterance", "response", "speaker", "responder", "error", "age", "overreg", "utterance_start", "utterance_end", "response_start", "response_end")]
+fixed_overregs_cleaner <- fixed_overregs_cleaner %>%
+  mutate_at(vars(rowname), as.character)
+  #mutate(response_time = response_start - utterance_end) %>%
+  #mutate(utterance_time = utterance_end - utterance_start)
+
+thomas_kid_overreg_free <- rownames_to_column(thomas_kid_data)
+
+
+together <- full_join(fixed_overregs_cleaner, rownames_to_column(thomas_kid_data), by = "rowname")
+
+ugh <- "media info not found"
+
+together <- together %>%
+  mutate(utterance = ifelse(is.na(utterance.x), as.character(utterance.y), as.character(utterance.x))) %>%
+  mutate(response = ifelse(is.na(response.x), as.character(response.y), as.character(response.x))) %>%
+  mutate(speaker = ifelse(is.na(speaker.x), as.character(speaker.y), as.character(speaker.x))) %>%
+  mutate(responder = ifelse(is.na(responder.x), as.character(responder.y), as.character(responder.x))) %>%
+  mutate(age = ifelse(is.na(age.x), age.y, age.x)) %>%
+  mutate(error = ifelse(is.na(error.x), error.y, error.x)) %>%
+  mutate(overreg = ifelse(is.na(overreg.x), overreg.y, overreg.x)) %>%
+  # Trust x timing (will only be different if I manually coded)
+  mutate(utterance_start = ifelse(is.na(utterance_start.x), utterance_start.y, utterance_start.x)) %>%
+  mutate(utterance_end = ifelse(is.na(utterance_end.x), utterance_end.y, utterance_end.y)) %>%
+  mutate(response_start = ifelse(is.na(response_start.x), response_start.y, response_start.x)) %>%
+  mutate(response_end = ifelse(is.na(response_end.x), response_end.y, response_end.x)) %>%
+  # Filter any gross timing
+  filter(!is.na(utterance_start) & utterance_start != ugh) %>%
+  filter(!is.na(utterance_end) & utterance_end != ugh) %>% 
+  filter(!is.na(response_start) & response_start != ugh) %>%
+  filter(!is.na(response_end) & response_end != ugh) %>%
+  # Now that gross timing is gone, calc response_time
+  mutate(response_time = as.numeric(as.character(response_start)) - as.numeric(as.character(utterance_end))) %>%
+  # same for utterance_time
+  mutate(utterance_time = as.numeric(as.character(utterance_end)) - as.numeric(as.character(utterance_start)))
+
+# Get only the confirmed rows
+together <- together[,c("utterance", "response", "speaker", "responder", "error", "age", "overreg", "response_time", "utterance_time", "past_tense", "plural")]
+together <- together %>%
+  mutate_at(vars(error, overreg, past_tense, plural), as.logical)
+
+together <- together %>%
+  filter(response_time > -5 & response_time < 5) %>%
+  filter(utterance_time < 9)
+
+# write_csv(together, "thomas_analysis_utts.csv")
+```
+
+
+```{r}
+# General exploration
+ggplot(together, aes(x = age, y = response_time, fill = error)) + geom_smooth()
+
+ggplot(together, aes(x = response_time, fill=error)) + 
+  geom_density(alpha = .4)
+
+
+overreg.data <- function(present, past) {
+  overreg <- paste(present, ifelse(substr(present, nchar(present), nchar(present)) == "e", "d", "ed"), sep="")
+  past_overreg <- paste(past, ifelse(substr(past, nchar(present), nchar(past)) == "e", "d", "ed"), sep="")
+  overregs <- together[grep(overreg, together$utterance),]
+  past_overregs <- together[grep(past_overreg, together$utterance),]
+  correct_past <- together[grep(past, together$utterance),]
+  tibble(nrow(overregs), nrow(past_overregs), nrow(correct_past))
+}
+
+# write_csv(together_overregs, "FinalOverregList.csv")
+
+#chi_draw_info <- overreg.data("draw", "drew")
+#chi_drink_info <- overreg.data("drink", "drank")
+#chi_go_info <- overreg.data("go", "went")
+#chi_come_info <- overreg.data("come", "came")
+#chi_drive_info <- overreg.data("drive", "drove")
+#chi_eat_info <- overreg.data("eat", "ate")
+#chi_hold_info <- overreg.data("hold", "held")
+#chi_know_info <- overreg.data("know", "knew")
+#chi_make_info <- overreg.data("make", "made")
+#chi_run_info <- overreg.data("run", "ran")
+#chi_sell_info <- overreg.data("sell", "sold")
+#chi_stick_info <- overreg.data("stick", "stuck")
+#chi_sweep_info <- overreg.data("sweep", "swept")
+#chi_take_info <- overreg.data("take", "took")
+
+
+
+apples_to_apples <- together %>%
+  filter(past_tense | plural)
+
+thomas_all_or_rates <- together %>%
+  group_by(age) %>%
+  summarise(total_tokens = n(), overreg_tokens = sum(overreg), error_tokens = sum(error)) %>%
+  mutate(or_rate = (overreg_tokens/total_tokens) * 100, error_rate = (error_tokens/total_tokens) * 100, or_of_err = (overreg_tokens/error_tokens) * 100)
+
+thomas_or_rates <- apples_to_apples %>%
+  group_by(age) %>%
+  summarise(total_tokens = n(), overreg_tokens = sum(overreg), error_tokens = sum(error)) %>%
+  mutate(or_rate = (overreg_tokens/total_tokens) * 100, error_rate = (error_tokens/total_tokens) * 100, or_of_err = (overreg_tokens/error_tokens) * 100)
+
+
+max_rates <- thomas_or_rates %>%
+  summarise(max_er = max(error_rate), max_or = max(or_rate), max_or_of_err = max(or_of_err))
+
+max_er_age <- thomas_or_rates %>%
+  filter(error_rate == max_rates$max_er)
+
+max_or_age <- thomas_or_rates %>%
+  filter(or_rate == max_rates$max_or)
+
+max_or_percent_of_err <- thomas_or_rates %>%
+  filter(or_of_err == max_rates$max_or_of_err)
+
+#write_csv(thomas_or_rates, "thomas_or_rates.csv")
+#write_csv(thomas_all_or_rates, "thomas_all_or_rates.csv")
+
+ggplot(thomas_or_rates, aes(x=age)) +
+  geom_smooth(aes(y=log(or_rate), colour="or_rate")) +
+  geom_smooth(aes(y=log(error_rate), colour="error_rate"))
+
+ggplot(apples_to_apples, aes(x = log(age), y = response_time, fill = error)) + geom_smooth() +
+  geom_vline(xintercept=log(max_er_age$age)) +
+  geom_text(aes(log(max_er_age$age), 0, label = "Age of max error rate", vjust = -1)) +
+  geom_vline(xintercept=log(max_or_age$age)) +
+  geom_text(aes(log(max_or_age$age), 0, label = "Age of max or rate"))
+
+
+ggplot(apples_to_apples, aes(x = response_time, fill=error)) + 
+  geom_density(alpha = .4)
+
+apples_to_apples <- apples_to_apples %>%
+  mutate(overlap = response_time < 0)
+
+lm1 <- lm(response_time ~ utterance_time + error + log(age), data = apples_to_apples)
+
+apple <- glm(overlap ~ utterance_time + error + log(age) + overreg, data = apples_to_apples, family="binomial")
+
+apple_anova <- aov(age ~ overreg, apples_to_apples)
+
+apple <- lm(overreg ~ age + utterance_time, apples_to_apples)
+
+summary(lm1)
+
+nwords <- function(string, pseudo=F){
+  ifelse( pseudo, 
+          pattern <- "\\S+", 
+          pattern <- "[[:alpha:]]+" 
+        )
+  str_count(string, pattern)
+}
+
+together <- together %>%
+  mutate(ul=nwords(utterance)) %>%
+  mutate(error_type = ifelse(!error, "no error", ifelse(overreg, "overregularization", "other error")))
+
+
+
+apples_to_apples <- apples_to_apples %>%
+  mutate(ul=nwords(utterance)) %>%
+  mutate(error_type = ifelse(!error, "no error", ifelse(overreg, "overregularization", "other error")))
+
+first_third <- apples_to_apples %>%
+  filter(age <= 35)
+
+middle_third <- apples_to_apples %>%
+  filter(age > 35 & age <= 45)
+
+last_third <- apples_to_apples %>%
+  filter(age > 45)
+
+first_half <- apples_to_apples %>%
+  filter(age <= 39)
+
+second_half <- apples_to_apples %>%
+  filter(age > 39)
+
+ggplot(first_third, aes(x = response_time, fill=error_type)) + geom_density(alpha = .3)
+ggplot(middle_third, aes(x = response_time, fill=error_type)) + geom_density(alpha = .3)
+ggplot(last_third, aes(x = response_time, fill=error_type)) + geom_density(alpha = .3)
+
+ggplot(apples_to_apples %>% filter(response_time > -2, response_time < 2), aes(x = response_time, fill=error_type)) + 
+  geom_density(alpha = .4)
+  
+ggplot(apples_to_apples, aes(x=age, y=response_time, fill=error)) + geom_smooth()
+
+first_third_lm <- lm(response_time ~ error_type + age + ul, first_third)
+middle_third_lm <- lm(response_time ~ error_type + age + ul, middle_third)
+last_third_lm <- lm(response_time ~ error_type + age + ul, last_third)
+
+
+
+
+
+apple <- lm(response_time ~ error + overreg + age + ul, apples_to_apples)
+
+apple <- lm(overlap ~ error + overreg + age + ul, apples_to_apples)
+
+
+overlap ~ age * overreg + (age*+/id)
+overreg_model <- lmer(overlap ~ (1|subj) + (1|exchange) + version, data = comparison_data) 
+
+predicted_data <- comparison_data %>%
+  ungroup() %>%
+  mutate(predicted = predict(model))
+
+
+ggplot(predicted_data, aes(x = predicted, y = log(rt), color = version)) + 
+  geom_point()
+
+```
+
+```{r}
+# Code to make finding utterances for attention checks easy
+#ac_utts <- thomas_data %>%
+  #filter(speaker=="MOT") %>%
+  #filter(source_file=="Thomas/3-01-13.xml") %>%
+  #mutate(ul=nwords(utterance)) %>%
+  #filter(ul==8)
+  
+  # filter(length(grep("draw", utterance, fixed=TRUE)) > 0)
+```

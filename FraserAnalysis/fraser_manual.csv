@@ -1,0 +1,442 @@
+,utterance,response,response_time,speaker,responder,utterance_time,error,age,past_tense,plural,overlap,source_file,overreg_candidate,overreg
+1,one ladybirds,where's the ladybird,0.263,CHI,MOT,2.229,TRUE,24,FALSE,TRUE,FALSE,fraser/2-00-01b.xml,TRUE,F
+2,broken blues clues,broken blues clues,0.039,CHI,MOT,2.612,TRUE,24,TRUE,FALSE,FALSE,fraser/2-00-02a.xml,TRUE,F
+3,a crickets,mhm hm,0.175,CHI,MOT,1.393,TRUE,24,FALSE,TRUE,FALSE,fraser/2-00-03b.xml,TRUE,F
+4,two feets,oh oh oh,0.012,CHI,MOT,1.056,TRUE,24,FALSE,TRUE,FALSE,fraser/2-00-10a.xml,TRUE,T
+5,zero done,you done it,-0.998,CHI,MOT,1.033,TRUE,24,TRUE,FALSE,TRUE,fraser/2-00-10a.xml,TRUE,F
+6,Jwww the balls,Jwww's in the balls isn't he,0.018,CHI,MOT,2.102,TRUE,24,FALSE,TRUE,FALSE,fraser/2-00-12a.xml,TRUE,F
+7,Jwww no shoes on,yeah,0,CHI,MOT,1.904,TRUE,24,FALSE,TRUE,FALSE,fraser/2-00-12a.xml,TRUE,F
+8,glasses on,oh no be careful with them because you're hurting Mummy,0.081,CHI,MOT,1.057,TRUE,24,FALSE,TRUE,FALSE,fraser/2-00-12a.xml,TRUE,F
+9,glasses on,your glasses are here,0.023,CHI,MOT,1.439,TRUE,24,FALSE,TRUE,FALSE,fraser/2-00-12a.xml,TRUE,F
+10,oh Fraser done,oh Fraser what have you done,0.336,CHI,MOT,3.402,TRUE,24,TRUE,FALSE,FALSE,fraser/2-00-15a.xml,TRUE,F
+11,xxx things do,so many things to do,0.299,CHI,MOT,2.009,TRUE,24,FALSE,TRUE,FALSE,fraser/2-00-15a.xml,TRUE,F
+12,Fraser turn pages,what are you saying sweetheart,3.349,CHI,MOT,1.985,TRUE,24,FALSE,TRUE,FALSE,fraser/2-00-15a.xml,TRUE,F
+13,no feets,where's Fraser's feet,0.012,CHI,MOT,1.184,TRUE,24,FALSE,TRUE,FALSE,fraser/2-00-15a.xml,TRUE,T
+14,the ball wet,the ball is wet yes,0.228,CHI,MOT,2.914,TRUE,24,TRUE,FALSE,FALSE,fraser/2-00-16a.xml,TRUE,F
+15,that was lion get out,what are you saying to the lion,1.424,CHI,MOT,3.228,TRUE,24,TRUE,FALSE,FALSE,fraser/2-00-16a.xml,TRUE,F
+16,that cards,yeah,0.011,CHI,MOT,1.196,TRUE,24,FALSE,TRUE,FALSE,fraser/2-00-18a.xml,TRUE,F
+17,zero got,oh Fraser don't do that darling,0.267,CHI,MOT,0.708,TRUE,24,TRUE,FALSE,FALSE,fraser/2-00-18a.xml,TRUE,F
+18,Twww got balloon,he's got a balloon and what color is the balloon,1.324,CHI,MOT,1.312,TRUE,24,TRUE,FALSE,FALSE,fraser/2-00-18b.xml,TRUE,F
+19,zero got blanket,yes,0.067,CHI,MOT,1.973,TRUE,24,TRUE,FALSE,FALSE,fraser/2-00-18b.xml,TRUE,F
+20,birds have,that's right,-0.906,CHI,MOT,0.906,TRUE,24,FALSE,TRUE,TRUE,fraser/2-00-19a.xml,TRUE,F
+21,sheeps,counting the sheep,0.081,CHI,MOT,1.033,TRUE,24,FALSE,TRUE,FALSE,fraser/2-00-19a.xml,TRUE,T
+22,Patch got ice,yeah he's got an ice hasn't he,0.058,CHI,MOT,2.311,TRUE,24,TRUE,FALSE,FALSE,fraser/2-00-19b.xml,TRUE,F
+23,where cow gone,cow gone,0.047,CHI,MOT,1.045,TRUE,24,TRUE,FALSE,FALSE,fraser/2-00-20b.xml,TRUE,F
+24,where Jeannine gone,shut the door,-1.266,CHI,MOT,2.125,TRUE,24,TRUE,FALSE,TRUE,fraser/2-00-20v.xml,TRUE,F
+25,where Daddy gone,where's Daddy gone,0.291,CHI,MOT,1.521,TRUE,24,TRUE,FALSE,FALSE,fraser/2-00-21b.xml,TRUE,F
+26,twos hills,is that a big hill,0.952,CHI,MOT,1.393,TRUE,24,FALSE,TRUE,FALSE,fraser/2-00-21b.xml,TRUE,F
+27,look a rabbits,yeah that's the rabbit over there isn't it,0.359,CHI,MOT,1.893,TRUE,24,FALSE,TRUE,FALSE,fraser/2-00-23v.xml,TRUE,F
+28,sheeps,sheeps,0.163,CHI,MOT,0.546,TRUE,24,FALSE,TRUE,FALSE,fraser/2-00-23v.xml,TRUE,T
+29,a work pennys,yes,0.139,CHI,MOT,2.322,TRUE,24,FALSE,TRUE,FALSE,fraser/2-00-23v.xml,TRUE,F
+30,sheeps,yes,0.07,CHI,MOT,1.323,TRUE,24,FALSE,TRUE,FALSE,fraser/2-00-23v.xml,TRUE,T
+31,someone broken,who broke that,0.012,CHI,MOT,2.427,TRUE,24,TRUE,FALSE,FALSE,fraser/2-00-24a.xml,TRUE,F
+32,more ba more bale bales hay,yes,0,CHI,MOT,2.856,TRUE,24,FALSE,TRUE,FALSE,fraser/2-00-24b.xml,TRUE,F
+33,oh the tractors,it's a tractor isn't it,0.082,CHI,MOT,1.811,TRUE,24,FALSE,TRUE,FALSE,fraser/2-00-24b.xml,TRUE,F
+34,orange bears,orange bear,0,CHI,MOT,1.858,TRUE,24,FALSE,TRUE,FALSE,fraser/2-00-24b.xml,TRUE,F
+35,yeah done I done it,did you do it,0.046,CHI,MOT,3.158,TRUE,24,TRUE,FALSE,FALSE,fraser/2-00-26b.xml,TRUE,F
+36,done naughty,oh dear,0,CHI,MOT,2.276,TRUE,24,TRUE,FALSE,FALSE,fraser/2-00-27b.xml,TRUE,F
+37,Jwww gone,Jwww's playing with Awww oh Jwww,-0.168,CHI,MOT,1.939,TRUE,24,TRUE,FALSE,TRUE,fraser/2-00-27b.xml,TRUE,F
+38,zero was there,was there,0.818,CHI,MOT,1.788,TRUE,24,TRUE,FALSE,FALSE,fraser/2-00-28b.xml,TRUE,F
+39,Mummy put Daddy pillow,yeah,0.018,CHI,MOT,2.497,TRUE,24,TRUE,FALSE,FALSE,fraser/2-00-28b.xml,TRUE,F
+40,a bears,the bears,0.464,CHI,MOT,1.08,TRUE,24,FALSE,TRUE,FALSE,fraser/2-00-28b.xml,TRUE,F
+41,zero down the slides,and then you went down the slide,-0.372,CHI,MOT,1.602,TRUE,24,FALSE,TRUE,TRUE,fraser/2-00-28b.xml,TRUE,F
+42,oh no fell it over,did it fall over,0.15,CHI,MOT,2.218,TRUE,24,TRUE,FALSE,FALSE,fraser/2-00-28v.xml,TRUE,F
+43,got to xxx dress,you've got school soon,-0.894,CHI,MOT,1.823,TRUE,24,TRUE,FALSE,TRUE,fraser/2-00-30b.xml,TRUE,F
+44,oh the car,Fraser the car's gone,0.151,CHI,MOT,2.299,TRUE,25,TRUE,FALSE,FALSE,fraser/2-01-02a.xml,TRUE,F
+45,Helen a him,you reading the story now are you,2.027,CHI,MOT,2.554,TRUE,25,TRUE,FALSE,FALSE,fraser/2-01-06a.xml,TRUE,F
+46,tell well done,well done,0.023,CHI,MOT,2.032,TRUE,25,TRUE,FALSE,FALSE,fraser/2-01-07a.xml,TRUE,F
+47,loved you,I love you too Fraser,0.011,CHI,MOT,1.115,TRUE,25,TRUE,FALSE,FALSE,fraser/2-01-07a.xml,TRUE,F
+48,I loved you loved you,I love you too Fraser,0.07,CHI,MOT,3.506,TRUE,25,TRUE,FALSE,FALSE,fraser/2-01-07a.xml,TRUE,F
+49,I loved you,where's Fraser,1.648,CHI,MOT,2.031,TRUE,25,TRUE,FALSE,FALSE,fraser/2-01-07a.xml,TRUE,F
+50,I getting the shoes,no,-0.046,CHI,MOT,1.66,TRUE,25,FALSE,TRUE,TRUE,fraser/2-01-10b.xml,TRUE,F
+51,a sheeps have,how many sheeps are there,0.209,CHI,MOT,1.648,TRUE,25,FALSE,TRUE,FALSE,fraser/2-01-10b.xml,TRUE,T
+52,look my nails well,yeah,-0.639,CHI,MOT,1.985,TRUE,26,FALSE,TRUE,TRUE,fraser/2-02-01b.xml,TRUE,F
+53,lion lion's got stripes,that's right,-0.29,CHI,MOT,2.229,TRUE,26,FALSE,TRUE,TRUE,fraser/2-02-02a.xml,TRUE,F
+54,he in the works,yeah,0.07,CHI,MOT,1.347,TRUE,26,FALSE,TRUE,FALSE,fraser/2-02-02b.xml,TRUE,F
+55,sleepings,yeah,0,CHI,MOT,1.706,TRUE,26,FALSE,TRUE,FALSE,fraser/2-02-02b.xml,TRUE,F
+56,they got a baby ducks,yes,0.011,CHI,MOT,1.719,TRUE,26,FALSE,TRUE,FALSE,fraser/2-02-02b.xml,TRUE,F
+57,she's scared the spider,she's scared of the spider,0.035,CHI,MOT,2.345,TRUE,26,TRUE,FALSE,FALSE,fraser/2-02-02b.xml,TRUE,F
+58,I broken again,oh Fraser,0,CHI,MOT,2.508,TRUE,26,TRUE,FALSE,FALSE,fraser/2-02-04a.xml,TRUE,F
+59,here I go come xxx giants,have you got fi figh fo fum,3.023,CHI,MOT,3.53,TRUE,26,FALSE,TRUE,FALSE,fraser/2-02-04b.xml,TRUE,F
+60,Little_Bill got hamster,yeah,0.081,CHI,MOT,2.508,TRUE,26,TRUE,FALSE,FALSE,fraser/2-02-04b.xml,TRUE,F
+61,I got,and some sandwich as well,0.058,CHI,MOT,0.627,TRUE,26,TRUE,FALSE,FALSE,fraser/2-02-05a.xml,TRUE,F
+62,I broke it,did Fraser break it,0.22,CHI,MOT,1.498,TRUE,26,TRUE,FALSE,FALSE,fraser/2-02-06a.xml,TRUE,F
+63,Maisey's got big big trunk,Maisey's got a big big trunk,0.151,CHI,MOT,3.611,TRUE,26,TRUE,FALSE,FALSE,fraser/2-02-06a.xml,TRUE,F
+64,and Grandma does got flower,yeah,0.011,CHI,MOT,2.52,TRUE,27,TRUE,FALSE,FALSE,fraser/2-03-00a.xml,TRUE,F
+65,you got a black hat,no,0.162,CHI,MOT,1.591,TRUE,27,TRUE,FALSE,FALSE,fraser/2-03-00a.xml,TRUE,F
+66,that's Daddy Daddy's hairs,that's Daddy's head,0.809,CHI,MOT,1.614,TRUE,27,FALSE,TRUE,FALSE,fraser/2-03-00a.xml,TRUE,?
+67,I got a party hat,you've got a party hat,0.117,CHI,MOT,1.671,TRUE,27,TRUE,FALSE,FALSE,fraser/2-03-00a.xml,TRUE,F
+68,I got party hat phone,you got a party hat phone,0.023,CHI,MOT,2.519,TRUE,27,TRUE,FALSE,FALSE,fraser/2-03-00a.xml,TRUE,F
+69,that's that's a that that's that's a mountains,it's a mountain,0.074,CHI,MOT,4.006,TRUE,27,FALSE,TRUE,FALSE,fraser/2-03-00b.xml,TRUE,F
+70,it said oh,it says oh does it,0.035,CHI,MOT,1.939,TRUE,27,TRUE,FALSE,FALSE,fraser/2-03-03a.xml,TRUE,F
+71,she got umbrella,yes,0.058,CHI,MOT,1.939,TRUE,27,TRUE,FALSE,FALSE,fraser/2-03-03a.xml,TRUE,F
+72,zero got got umbrella,yeah,0.023,CHI,MOT,1.858,TRUE,27,TRUE,FALSE,FALSE,fraser/2-03-03a.xml,TRUE,F
+73,all those peoples,all those people,0.011,CHI,MOT,1.73,TRUE,27,FALSE,TRUE,FALSE,fraser/2-03-03a.xml,TRUE,T
+74,the tiger have got stripes,aah,-0.696,CHI,MOT,2.403,TRUE,27,FALSE,TRUE,TRUE,fraser/2-03-03a.xml,TRUE,F
+75,Grandma and Grandad did buy me this,did they,0.035,CHI,MOT,3.042,TRUE,27,TRUE,FALSE,FALSE,fraser/2-03-05a.xml,TRUE,F
+76,and crisps yukky,crisps are yucky,0.429,CHI,MOT,1.51,TRUE,27,FALSE,TRUE,FALSE,fraser/2-03-05a.xml,TRUE,F
+77,don't pieces taking Mummy outy,shall I go away,0.012,CHI,MOT,2.322,TRUE,27,FALSE,TRUE,FALSE,fraser/2-03-05a.xml,TRUE,F
+78,where's my pennies,where's your pennies,-0.221,CHI,MOT,1.753,TRUE,27,FALSE,TRUE,TRUE,fraser/2-03-05a.xml,TRUE,F
+79,and those those people sleeping,is everybody sleeping,0.255,CHI,MOT,4.133,TRUE,27,FALSE,TRUE,FALSE,fraser/2-03-05b.xml,TRUE,F
+80,the birds lucky,the birds are yucky,0.14,CHI,MOT,2.217,TRUE,27,FALSE,TRUE,FALSE,fraser/2-03-06a.xml,TRUE,F
+81,the wheels going round and round,the wheels are going round and round,0.093,CHI,MOT,2.763,TRUE,27,FALSE,TRUE,FALSE,fraser/2-03-06a.xml,TRUE,F
+82,those girls hiding,yes,0.012,CHI,MOT,2.101,TRUE,27,FALSE,TRUE,FALSE,fraser/2-03-06a.xml,TRUE,F
+83,what he's got,I don't know,0.011,CHI,MOT,0.964,TRUE,27,TRUE,FALSE,FALSE,fraser/2-03-06b.xml,TRUE,F
+84,and some cups,xxx cups,0.136,CHI,MOT,1.416,TRUE,27,FALSE,TRUE,FALSE,fraser/2-03-06b.xml,TRUE,F
+85,it's not got back to shop,it has gone back to the shop,1.024,CHI,MOT,4.121,TRUE,27,TRUE,FALSE,FALSE,fraser/2-03-06b.xml,TRUE,F
+86,he went see Pooh,wanna go bouncing,0.125,CHI,MOT,1.544,TRUE,28,TRUE,FALSE,FALSE,fraser/2-04-01b.xml,TRUE,F
+87,zero Twww gonna going to gone with his Daddy,ooh dear,1.834,CHI,MOT,2.566,TRUE,28,TRUE,FALSE,FALSE,fraser/2-04-01b.xml,TRUE,F
+88,what what you have got,I've got some sauce,0.697,CHI,MOT,2.496,TRUE,28,TRUE,FALSE,FALSE,fraser/2-04-02a.xml,TRUE,F
+89,Roo was a pig,no,0.12,CHI,MOT,1.591,TRUE,28,TRUE,FALSE,FALSE,fraser/2-04-02b.xml,TRUE,F
+90,she got two two two blacks legs,got two black legs,0.058,CHI,MOT,6.653,TRUE,28,FALSE,TRUE,FALSE,fraser/2-04-02b.xml,TRUE,F
+91,good_night sheeps,see,4.961,CHI,MOT,1.51,TRUE,28,FALSE,TRUE,FALSE,fraser/2-04-02b.xml,TRUE,T
+92,a g we seen a giraffe at the zoo today,you saw a giraffe at the zoo,-0.906,CHI,MOT,4.621,TRUE,28,TRUE,FALSE,TRUE,fraser/2-04-03v.xml,TRUE,F
+93,and Aladdin came uh at the zoo,no,0.104,CHI,MOT,2.612,TRUE,28,TRUE,FALSE,FALSE,fraser/2-04-03v.xml,TRUE,F
+94,oh it's fallen over,fell over again didn't it,1.802,CHI,MOT,2.273,TRUE,28,TRUE,FALSE,FALSE,fraser/2-04-04a.xml,TRUE,F
+95,and I see the animals,and you saw what,0.301,CHI,MOT,2.81,TRUE,28,FALSE,TRUE,FALSE,fraser/2-04-04b.xml,TRUE,F
+96,there's no rooms,there's lots of room,0.499,CHI,MOT,1.44,TRUE,28,FALSE,TRUE,FALSE,fraser/2-04-04b.xml,TRUE,F
+97,zero gone,see it's all gone,3.499,CHI,MOT,0.65,TRUE,28,TRUE,FALSE,FALSE,fraser/2-04-05a.xml,TRUE,F
+98,these hoops broken,the hoops are broken,0.04,CHI,MOT,1.904,TRUE,28,FALSE,TRUE,FALSE,fraser/2-04-05b.xml,TRUE,F
+99,tha just not a grapes,no,0.464,CHI,MOT,2.763,TRUE,28,FALSE,TRUE,FALSE,fraser/2-04-06a.xml,TRUE,F
+100,that that ornaments goes in there,that's right,0,CHI,MOT,3.041,TRUE,28,FALSE,TRUE,FALSE,fraser/2-04-06a.xml,TRUE,F
+101,I I got in shopping,did you,0,CHI,MOT,2.322,TRUE,28,TRUE,FALSE,FALSE,fraser/2-04-06a.xml,TRUE,F
+102,and I hear the people in the car,pardon,0.348,CHI,MOT,3.17,TRUE,28,FALSE,TRUE,FALSE,fraser/2-04-06b.xml,TRUE,F
+103,xxx gonna going to see the fish and Daddy's and Daddy saw the fish and you saw the fish,yeah,0.035,CHI,MOT,7.476,TRUE,29,TRUE,FALSE,FALSE,fraser/2-05-00a.xml,TRUE,F
+104,and grandad saw the fish,did he,0.058,CHI,MOT,2.172,TRUE,29,TRUE,FALSE,FALSE,fraser/2-05-00a.xml,TRUE,F
+105,and Jwww seed the dustmen,did he,0.074,CHI,MOT,2.194,TRUE,29,TRUE,FALSE,FALSE,fraser/2-05-00a.xml,TRUE,F
+106,he got,elephant,-0.603,CHI,MOT,0.743,TRUE,29,TRUE,FALSE,TRUE,fraser/2-05-00a.xml,TRUE,F
+107,and then we ran at little ball,was he,0.058,CHI,MOT,3.552,TRUE,29,TRUE,FALSE,FALSE,fraser/2-05-00b.xml,TRUE,F
+108,um he has it and that eat leaves,does he eat leaves,0.034,CHI,MOT,5.353,TRUE,29,FALSE,TRUE,FALSE,fraser/2-05-01b.xml,TRUE,F
+109,got big long long tail,wow,0.692,CHI,MOT,2.299,TRUE,29,TRUE,FALSE,FALSE,fraser/2-05-01b.xml,TRUE,F
+110,went Trafford_Centre,that's right,0.046,CHI,MOT,2.52,TRUE,29,TRUE,FALSE,FALSE,fraser/2-05-03a.xml,TRUE,F
+111,catch your foots,catch my foot,0,CHI,MOT,1.742,TRUE,29,FALSE,TRUE,FALSE,fraser/2-05-03a.xml,TRUE,T
+112,I be got get up,you've got to get up,0.035,CHI,MOT,1.939,TRUE,29,TRUE,FALSE,FALSE,fraser/2-05-03a.xml,TRUE,F
+113,he was being running,yeah,-1.811,CHI,MOT,1.881,TRUE,29,TRUE,FALSE,TRUE,fraser/2-05-03a.xml,TRUE,F
+114,look at all these sheeps,is there lots of sheep there,0.025,CHI,MOT,1.729,TRUE,29,FALSE,TRUE,FALSE,fraser/2-05-03a.xml,TRUE,T
+115,is that a sausages,sausages,0.581,CHI,MOT,2.124,TRUE,29,FALSE,TRUE,FALSE,fraser/2-05-03a.xml,TRUE,F
+116,oh look got monkey again,is it a monkey again,0.035,CHI,MOT,2.113,TRUE,29,TRUE,FALSE,FALSE,fraser/2-05-03b.xml,TRUE,F
+117,I got I saw the sea see the fish,you saw the sea and the fish,0.024,CHI,MOT,3.993,TRUE,29,TRUE,FALSE,FALSE,fraser/2-05-03b.xml,TRUE,F
+118,and I went on a train,yes,0,CHI,MOT,2.194,TRUE,29,TRUE,FALSE,FALSE,fraser/2-05-03b.xml,TRUE,F
+119,and there was planets,and there were planets,0,CHI,MOT,2.217,TRUE,29,TRUE,FALSE,FALSE,fraser/2-05-03b.xml,TRUE,F
+120,is it scratched it,yeah did you,-0.662,CHI,MOT,2.09,TRUE,29,TRUE,FALSE,TRUE,fraser/2-05-03b.xml,TRUE,F
+121,I saw them,you saw what,0.476,CHI,MOT,2.078,TRUE,29,TRUE,FALSE,FALSE,fraser/2-05-04a.xml,TRUE,F
+122,xxx seen Bear,we saw Bear we did,0.747,CHI,MOT,1.416,TRUE,29,TRUE,FALSE,FALSE,fraser/2-05-04a.xml,TRUE,F
+123,Dipsy's not got nothing,he has,0.023,CHI,MOT,2.101,TRUE,29,TRUE,FALSE,FALSE,fraser/2-05-04a.xml,TRUE,F
+124,he he not got nothing,Dipsy has something on his head,0.093,CHI,MOT,2.658,TRUE,29,TRUE,FALSE,FALSE,fraser/2-05-04a.xml,TRUE,F
+125,is it a worms,I don't know,0.185,CHI,MOT,1.37,TRUE,29,FALSE,TRUE,FALSE,fraser/2-05-04a.xml,TRUE,F
+126,what your said,who else is a girl,0,CHI,MOT,1.625,TRUE,29,TRUE,FALSE,FALSE,fraser/2-05-04b.xml,TRUE,F
+127,what I got on my blanket,come on,-1.753,CHI,MOT,1.95,TRUE,29,TRUE,FALSE,TRUE,fraser/2-05-04b.xml,TRUE,F
+128,look he's got red nose,has he got a red nose,0.011,CHI,MOT,2.311,TRUE,29,TRUE,FALSE,FALSE,fraser/2-05-04b.xml,TRUE,F
+129,what your said,do you like corn,0,CHI,MOT,1.265,TRUE,29,TRUE,FALSE,FALSE,fraser/2-05-04b.xml,TRUE,F
+130,the mouth called a beak,yes,0.139,CHI,MOT,2.427,TRUE,29,TRUE,FALSE,FALSE,fraser/2-05-06a.xml,TRUE,F
+131,just got got all these peoples,pardon,1.08,CHI,MOT,2.903,TRUE,29,FALSE,TRUE,FALSE,fraser/2-05-06a.xml,TRUE,F
+132,I got to say that,go on then,2.136,CHI,MOT,2.043,TRUE,29,TRUE,FALSE,FALSE,fraser/2-05-06b.xml,TRUE,F
+133,that that dragon's scared that bird,is he,0,CHI,MOT,4.354,TRUE,30,TRUE,FALSE,FALSE,fraser/2-06-01a.xml,TRUE,F
+134,you it it was dropped it,she dropped it,0.353,CHI,MOT,2.6,TRUE,30,TRUE,FALSE,FALSE,fraser/2-06-01a.xml,TRUE,F
+135,and and there was crabs on the floor,was there,0.22,CHI,MOT,4.11,TRUE,30,TRUE,FALSE,FALSE,fraser/2-06-01a.xml,TRUE,F
+136,and Jwww's throwed Joe's ball,does he,0.018,CHI,MOT,2.659,TRUE,30,TRUE,FALSE,FALSE,fraser/2-06-01a.xml,TRUE,T
+137,no no is it is tickles,does it,-0.192,CHI,MOT,2.845,TRUE,30,FALSE,TRUE,TRUE,fraser/2-06-01b.xml,TRUE,F
+138,four foots,two foots,0.047,CHI,MOT,1.231,TRUE,30,FALSE,TRUE,FALSE,fraser/2-06-01b.xml,TRUE,T
+139,no sheeps,no sheep,0,CHI,MOT,1.266,TRUE,30,FALSE,TRUE,FALSE,fraser/2-06-01b.xml,TRUE,T
+140,why you said ooh,because the postman just came and there's some cards for Mummy,0.047,CHI,MOT,1.846,TRUE,30,TRUE,FALSE,FALSE,fraser/2-06-01b.xml,TRUE,F
+141,he broke it,he broke it,0.384,CHI,MOT,1.683,TRUE,30,TRUE,FALSE,FALSE,fraser/2-06-02a.xml,TRUE,F
+142,but that one falled,did it,0.058,CHI,MOT,1.683,TRUE,30,TRUE,FALSE,FALSE,fraser/2-06-02a.xml,TRUE,T
+143,I don't like to cut my fingers,you have to soon,0.85,CHI,MOT,2.148,TRUE,30,FALSE,TRUE,FALSE,fraser/2-06-02b.xml,TRUE,F
+144,I don't like to cut my fingers,your finger,0.302,CHI,MOT,3.773,TRUE,30,FALSE,TRUE,FALSE,fraser/2-06-02b.xml,TRUE,F
+145,oh it falled,has it fallen,0.023,CHI,MOT,2.159,TRUE,30,TRUE,FALSE,FALSE,fraser/2-06-03a.xml,TRUE,T
+146,it falled,you fell,0.441,CHI,MOT,1.811,TRUE,30,TRUE,FALSE,FALSE,fraser/2-06-03a.xml,TRUE,T
+147,it falled,your tower fell over did it,1.242,CHI,MOT,1.963,TRUE,30,TRUE,FALSE,FALSE,fraser/2-06-03a.xml,TRUE,T
+148,it went twinkle twinkle little star,did it,0.012,CHI,MOT,2.752,TRUE,30,TRUE,FALSE,FALSE,fraser/2-06-03a.xml,TRUE,F
+149,it goed I it go down to my ear,it goes down to your ear,0.262,CHI,MOT,4.737,TRUE,30,TRUE,FALSE,FALSE,fraser/2-06-03b.xml,TRUE,T
+150,it's went down to my mouth,it goes down to your mouth,0.127,CHI,MOT,2.241,TRUE,30,TRUE,FALSE,FALSE,fraser/2-06-03b.xml,TRUE,F
+151,m my chins hurt,your chin hurts,0.058,CHI,MOT,1.846,TRUE,30,FALSE,TRUE,FALSE,fraser/2-06-03b.xml,TRUE,F
+152,I falled,did he fall,0.279,CHI,MOT,1.671,TRUE,30,TRUE,FALSE,FALSE,fraser/2-06-03b.xml,TRUE,T
+153,you broke the box,yeah,0.406,CHI,MOT,2.044,TRUE,30,TRUE,FALSE,FALSE,fraser/2-06-03b.xml,TRUE,F
+154,you falled,I fell,0.47,CHI,MOT,1.637,TRUE,30,TRUE,FALSE,FALSE,fraser/2-06-03b.xml,TRUE,T
+155,is you falled,I fell,0.708,CHI,MOT,1.567,TRUE,30,TRUE,FALSE,FALSE,fraser/2-06-03b.xml,TRUE,T
+156,and I I won't blow the candles,I know,-0.291,CHI,MOT,3.1,TRUE,30,FALSE,TRUE,TRUE,fraser/2-06-04b.xml,TRUE,F
+157,that's Bob_the_Builder builders hat,is it,0.487,CHI,MOT,2.032,TRUE,30,FALSE,TRUE,FALSE,fraser/2-06-04b.xml,TRUE,F
+158,look what you got,you're noisy aren't you,0.546,CHI,MOT,2.043,TRUE,30,TRUE,FALSE,FALSE,fraser/2-06-04b.xml,TRUE,F
+159,those balls,they're bowls,0,CHI,MOT,1.648,TRUE,30,FALSE,TRUE,FALSE,fraser/2-06-04b.xml,TRUE,F
+160,there lots of balloons,yeah,-0.372,CHI,MOT,2.177,TRUE,30,FALSE,TRUE,TRUE,fraser/2-06-06b.xml,TRUE,F
+161,it falled,did it fall,0.487,CHI,MOT,1.184,TRUE,30,TRUE,FALSE,FALSE,fraser/2-06-06b.xml,TRUE,T
+162,a frogs,frogs,0.104,CHI,MOT,1.509,TRUE,30,FALSE,TRUE,FALSE,fraser/2-06-06b.xml,TRUE,F
+163,I broke it,you broke it,0.163,CHI,MOT,1.381,TRUE,30,TRUE,FALSE,FALSE,fraser/2-06-06b.xml,TRUE,F
+164,and there's ducks,that's right,-0.545,CHI,MOT,2.217,TRUE,30,FALSE,TRUE,TRUE,fraser/2-06-06b.xml,TRUE,F
+165,I done that all by myself,aren't you clever,0.116,CHI,MOT,2.728,TRUE,30,TRUE,FALSE,FALSE,fraser/2-06-06b.xml,TRUE,F
+166,I might dropped it,do you want me to wipe your nose,1.428,CHI,MOT,1.73,TRUE,30,TRUE,FALSE,FALSE,fraser/2-06-06b.xml,TRUE,F
+167,it falled again,fell didn't it,0.15,CHI,MOT,1.382,TRUE,31,TRUE,FALSE,FALSE,fraser/2-07-02a.xml,TRUE,T
+168,a turtles,turtle,0.023,CHI,MOT,1.486,TRUE,31,FALSE,TRUE,FALSE,fraser/2-07-02a.xml,TRUE,F
+169,this this one fit here,does it not fit there,0.94,CHI,MOT,2.717,TRUE,31,TRUE,FALSE,FALSE,fraser/2-07-02a.xml,TRUE,F
+170,there's lots of bears in the curtains,there's lots of what,0.36,CHI,MOT,3.68,TRUE,31,FALSE,TRUE,FALSE,fraser/2-07-02b.xml,TRUE,F
+171,I think those bears making that noise,why are they making that noise,0.058,CHI,MOT,3.077,TRUE,31,FALSE,TRUE,FALSE,fraser/2-07-02b.xml,TRUE,F
+172,the rocks covered in snow,pardon,0.174,CHI,MOT,2.507,TRUE,31,TRUE,TRUE,FALSE,fraser/2-07-02b.xml,TRUE,F
+173,two feets,no,0.523,CHI,MOT,1.126,TRUE,31,FALSE,TRUE,FALSE,fraser/2-07-02b.xml,TRUE,T
+174,they're sheeps,what,0.082,CHI,MOT,1.938,TRUE,31,FALSE,TRUE,FALSE,fraser/2-07-02b.xml,TRUE,T
+175,can my feet go in,mhm hm,0.174,CHI,MOT,1.707,TRUE,31,FALSE,TRUE,FALSE,fraser/2-07-04a.xml,TRUE,F
+176,and he got go to work,yeah,0.128,CHI,MOT,2.113,TRUE,31,TRUE,FALSE,FALSE,fraser/2-07-04b.xml,TRUE,F
+177,I found I found bit of the doggy,found a piece of the doggy,0.314,CHI,MOT,3.541,TRUE,31,TRUE,FALSE,FALSE,fraser/2-07-04b.xml,TRUE,F
+178,because I had play with Blue,because you play with Blue,0.046,CHI,MOT,5.062,TRUE,31,TRUE,FALSE,FALSE,fraser/2-07-04b.xml,TRUE,F
+179,what the colors them,they're brown,0.046,CHI,MOT,1.858,TRUE,31,FALSE,TRUE,FALSE,fraser/2-07-04b.xml,TRUE,F
+180,was that go there,no,0.035,CHI,MOT,1.602,TRUE,31,TRUE,FALSE,FALSE,fraser/2-07-06a.xml,TRUE,F
+181,those penguins got silly hats on,have they,0.035,CHI,MOT,3.204,TRUE,31,FALSE,TRUE,FALSE,fraser/2-07-06a.xml,TRUE,F
+182,and that's got pink flower,has that got a pink flower,0.255,CHI,MOT,3.158,TRUE,31,TRUE,FALSE,FALSE,fraser/2-07-06a.xml,TRUE,F
+183,look I fall I fell,did you fall,0.058,CHI,MOT,2.658,TRUE,31,TRUE,FALSE,FALSE,fraser/2-07-06a.xml,TRUE,F
+184,look I broke it,what's up,0.128,CHI,MOT,1.834,TRUE,31,TRUE,FALSE,FALSE,fraser/2-07-06a.xml,TRUE,F
+185,could could I do this could I broke them up,yeah,0.024,CHI,MOT,4.214,TRUE,31,TRUE,FALSE,FALSE,fraser/2-07-06a.xml,TRUE,F
+186,these cats not singing,they're not singing,0.139,CHI,MOT,1.997,TRUE,31,FALSE,TRUE,FALSE,fraser/2-07-06b.xml,TRUE,F
+187,I were playing Shrek,was was Andy,0,CHI,MOT,1.551,TRUE,31,TRUE,FALSE,FALSE,fraser/2-07-06b.xml,TRUE,F
+188,I made mess,why,0.283,CHI,MOT,1.196,TRUE,31,TRUE,FALSE,FALSE,fraser/2-07-07a.xml,TRUE,F
+189,I broke it,you broke the jigsaw,1.827,CHI,MOT,1.404,TRUE,31,TRUE,FALSE,FALSE,fraser/2-07-07a.xml,TRUE,F
+190,what did that can be,what is it,0.174,CHI,MOT,2.496,TRUE,32,TRUE,FALSE,FALSE,fraser/2-08-01b.xml,TRUE,F
+191,it got spilled,what have you been eating,0.081,CHI,MOT,1.184,TRUE,32,TRUE,FALSE,FALSE,fraser/2-08-02a.xml,TRUE,F
+192,then I went downstairs,and then you went downstairs,0.185,CHI,MOT,2.566,TRUE,32,TRUE,FALSE,FALSE,fraser/2-08-02a.xml,TRUE,F
+193,I fell,because you fell,0.36,CHI,MOT,1.451,TRUE,32,TRUE,FALSE,FALSE,fraser/2-08-02a.xml,TRUE,F
+194,who was that is,you shut the door,0.267,CHI,MOT,1.811,TRUE,32,TRUE,FALSE,FALSE,fraser/2-08-02a.xml,TRUE,F
+195,what they called,oh he's flying upside,-0.198,CHI,MOT,1.753,TRUE,32,TRUE,FALSE,TRUE,fraser/2-08-04a.xml,TRUE,F
+196,well I just falled then,did you just fall,0.058,CHI,MOT,2.16,TRUE,32,TRUE,FALSE,FALSE,fraser/2-08-04b.xml,TRUE,T
+197,hey they got big block,yeah,0.058,CHI,MOT,2.45,TRUE,32,TRUE,FALSE,FALSE,fraser/2-08-04b.xml,TRUE,F
+198,I done it,clever boy,0.058,CHI,MOT,0.976,TRUE,32,TRUE,FALSE,FALSE,fraser/2-08-04b.xml,TRUE,F
+199,he's got letter,what colors his letter,0.024,CHI,MOT,1.637,TRUE,32,TRUE,FALSE,FALSE,fraser/2-08-05a.xml,TRUE,F
+200,and what how does this one got,how many has that one got,0.023,CHI,MOT,2.519,TRUE,32,TRUE,FALSE,FALSE,fraser/2-08-05b.xml,TRUE,F
+201,xxx got all the sheeps,yeah,0.777,CHI,MOT,2.938,TRUE,32,FALSE,TRUE,FALSE,fraser/2-08-05b.xml,TRUE,T
+202,throwed them down,why did you throw them down,0.058,CHI,MOT,2.821,TRUE,32,TRUE,FALSE,FALSE,fraser/2-08-06a.xml,TRUE,T
+203,is it was Daddy,yeah,0.116,CHI,MOT,2.078,TRUE,32,TRUE,FALSE,FALSE,fraser/2-08-06a.xml,TRUE,F
+204,he's fell off his bike,he fell off his bike,0.093,CHI,MOT,3.471,TRUE,32,TRUE,FALSE,FALSE,fraser/2-08-06a.xml,TRUE,F
+205,I broke it,you broke it,0.127,CHI,MOT,1.556,TRUE,32,TRUE,FALSE,FALSE,fraser/2-08-06a.xml,TRUE,F
+206,look I done two puzzles,have you,-0.267,CHI,MOT,3.97,TRUE,32,FALSE,TRUE,TRUE,fraser/2-08-06a.xml,TRUE,F
+207,I got a peas on my head,are you silly,0.116,CHI,MOT,2.252,TRUE,32,FALSE,TRUE,FALSE,fraser/2-08-06b.xml,TRUE,F
+208,and who called,isn't that Thomas,0,CHI,MOT,3.483,TRUE,32,TRUE,FALSE,FALSE,fraser/2-08-06b.xml,TRUE,F
+209,does it fixed,does it fit,0.29,CHI,MOT,1.858,TRUE,32,TRUE,FALSE,FALSE,fraser/2-08-06b.xml,TRUE,F
+210,it falled,never mind,2.02,CHI,MOT,2.125,TRUE,32,TRUE,FALSE,FALSE,fraser/2-08-06b.xml,TRUE,T
+211,it falled,it fell,0.279,CHI,MOT,2.925,TRUE,32,TRUE,FALSE,FALSE,fraser/2-08-06b.xml,TRUE,T
+212,it falled,it fell down,0.917,CHI,MOT,2.137,TRUE,32,TRUE,FALSE,FALSE,fraser/2-08-06b.xml,TRUE,T
+213,I run off,you did,0.035,CHI,MOT,1.649,TRUE,33,TRUE,FALSE,FALSE,fraser/2-09-03a.xml,TRUE,F
+214,you was cross,I was cross wasn't I,-0.434,CHI,MOT,1.637,TRUE,33,TRUE,FALSE,TRUE,fraser/2-09-03a.xml,TRUE,F
+215,Lala's falled,Lala fell,0.058,CHI,MOT,2.287,TRUE,33,TRUE,FALSE,FALSE,fraser/2-09-03a.xml,TRUE,T
+216,I didn't broke it,you did break it because I saw you break it,0,CHI,MOT,1.405,TRUE,33,TRUE,FALSE,FALSE,fraser/2-09-05b.xml,TRUE,F
+217,we got kitchen,yeah,0.313,CHI,MOT,2.264,TRUE,33,TRUE,FALSE,FALSE,fraser/2-09-05b.xml,TRUE,F
+218,this one got spikes,that's right,-0.511,CHI,MOT,2.253,TRUE,33,FALSE,TRUE,TRUE,fraser/2-09-05b.xml,TRUE,F
+219,they not plants,oh no those are his his feet,-0.314,CHI,MOT,1.463,TRUE,33,FALSE,TRUE,TRUE,fraser/2-09-05b.xml,TRUE,F
+220,I got finger,you've got fingers,0.742,CHI,MOT,1.463,TRUE,33,TRUE,FALSE,FALSE,fraser/2-09-05v.xml,TRUE,F
+221,I finished,have you now,0.938,CHI,MOT,1.138,TRUE,33,TRUE,FALSE,FALSE,fraser/2-09-07a.xml,TRUE,F
+222,I broke it,you broke it,0.151,CHI,MOT,1.66,TRUE,33,TRUE,FALSE,FALSE,fraser/2-09-07b.xml,TRUE,F
+223,this I broke it,have you,0.337,CHI,MOT,2.845,TRUE,33,TRUE,FALSE,FALSE,fraser/2-09-07b.xml,TRUE,F
+224,does does Daddy got a,what,2.229,CHI,MOT,5.701,TRUE,33,TRUE,FALSE,FALSE,fraser/2-09-07b.xml,TRUE,F
+225,so it already just goed,it's a good train isn't it,3.081,CHI,MOT,2.577,TRUE,33,TRUE,FALSE,FALSE,fraser/2-09-08a.xml,TRUE,T
+226,a forgot the other people,oh dear,0,CHI,MOT,3.031,TRUE,33,TRUE,FALSE,FALSE,fraser/2-09-08a.xml,TRUE,F
+227,Jean Jeannine's come,not today she isn't,0.801,CHI,MOT,3.449,TRUE,33,TRUE,FALSE,FALSE,fraser/2-09-08b.xml,TRUE,F
+228,I didn't yet,oh not yet no,0.158,CHI,MOT,1.37,TRUE,33,TRUE,FALSE,FALSE,fraser/2-09-09a.xml,TRUE,F
+229,I didn't like the blue one said,oh,0.012,CHI,MOT,3.285,TRUE,33,TRUE,FALSE,FALSE,fraser/2-09-09b.xml,TRUE,F
+230,he drawn me,did she draw you,0.325,CHI,MOT,1.532,TRUE,33,TRUE,FALSE,FALSE,fraser/2-09-09b.xml,TRUE,F
+231,she drawn me,I think she was drawing the monster,0.011,CHI,MOT,1.591,TRUE,33,TRUE,FALSE,FALSE,fraser/2-09-09b.xml,TRUE,F
+232,somebody broke him,who broke him,0.058,CHI,MOT,1.962,TRUE,33,TRUE,FALSE,FALSE,fraser/2-09-09b.xml,TRUE,F
+233,xxx they waked up,oh,0.569,CHI,MOT,3.366,TRUE,33,TRUE,FALSE,FALSE,fraser/2-09-09b.xml,TRUE,T
+234,there was I weren't scared at the round boat,you weren't scared in the round boat,0.134,CHI,MOT,5.729,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-00a.xml,TRUE,F
+235,and there was no monster,because there was no monsters,0,CHI,MOT,2.142,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-00a.xml,TRUE,F
+236,those yellow that yellow pieces there,that yellow bit is fluff,0.418,CHI,MOT,3.819,TRUE,34,FALSE,TRUE,FALSE,fraser/2-10-00a.xml,TRUE,F
+237,where I falled,mm,0.255,CHI,MOT,1.347,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-00a.xml,TRUE,T
+238,they was so poor,they were so poor,3.815,CHI,MOT,2.229,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-00a.xml,TRUE,F
+239,ah I stuck I stuck,is he rescuing him,0.07,CHI,MOT,1.811,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-00a.xml,TRUE,F
+240,I going trapped it,are you going to trap it,0.65,CHI,MOT,1.405,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-00a.xml,TRUE,F
+241,but I didn't put my fleece in my trousers,you did,1.234,CHI,MOT,3.959,TRUE,34,FALSE,TRUE,FALSE,fraser/2-10-00b.xml,TRUE,F
+242,Charlie don't play worms do they Mummy,what,0,CHI,MOT,3.46,TRUE,34,FALSE,TRUE,FALSE,fraser/2-10-00b.xml,TRUE,F
+243,where birds,on the windowsill,0.047,CHI,MOT,0.94,TRUE,34,FALSE,TRUE,FALSE,fraser/2-10-00b.xml,TRUE,F
+244,the that boy playing with the blocks,yeah,-0.285,CHI,MOT,3.111,TRUE,34,FALSE,TRUE,TRUE,fraser/2-10-01a.xml,TRUE,F
+245,I broke the map too,you broke it as well,0.105,CHI,MOT,2.6,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-01a.xml,TRUE,F
+246,did you went to the shop to see Jwww,I did,0,CHI,MOT,3.622,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-01a.xml,TRUE,F
+247,they falled over,oh,1.602,CHI,MOT,1.8,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-01a.xml,TRUE,T
+248,why were I crying,I don't know,0.023,CHI,MOT,2.009,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-01a.xml,TRUE,F
+249,and they falled over,and they fell over,0.082,CHI,MOT,2.229,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-01b.xml,TRUE,T
+250,look he waked up,has he woken up,0,CHI,MOT,1.509,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-01b.xml,TRUE,T
+251,but it goed,does it go away,0.093,CHI,MOT,1.439,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-01b.xml,TRUE,T
+252,and what he got,those are ants,0,CHI,MOT,1.741,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-01b.xml,TRUE,F
+253,who drawed those,I don't know,0,CHI,MOT,1.753,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-01b.xml,TRUE,T
+254,I can't doed it,do you want me to do it for you,1.486,CHI,MOT,2.032,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-01b.xml,TRUE,?
+255,that's he got one eye,Fraser,-1.614,CHI,MOT,2.891,TRUE,34,TRUE,FALSE,TRUE,fraser/2-10-01b.xml,TRUE,F
+256,zero don't want to get dressed,you are gonna going to get dressed Fraser,-0.49,CHI,MOT,1.73,TRUE,34,TRUE,FALSE,TRUE,fraser/2-10-03a.xml,TRUE,F
+257,this goes in that papers,well,2.293,CHI,MOT,2.375,TRUE,34,FALSE,TRUE,FALSE,fraser/2-10-03a.xml,TRUE,F
+258,and that haven't got any horns,no,-0.32,CHI,MOT,3.065,TRUE,34,FALSE,TRUE,TRUE,fraser/2-10-03b.xml,TRUE,F
+259,and and that one is waked up,yes,0.069,CHI,MOT,2.472,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-03b.xml,TRUE,T
+260,and that one waked up,that's right,-1.521,CHI,MOT,1.544,TRUE,34,TRUE,FALSE,TRUE,fraser/2-10-03b.xml,TRUE,T
+261,what did I had on holiday,that you had on holiday,0.174,CHI,MOT,3.309,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-03b.xml,TRUE,F
+262,it doesn't stamps,it should do,0,CHI,MOT,1.625,TRUE,34,FALSE,TRUE,FALSE,fraser/2-10-03b.xml,TRUE,F
+263,did I spilled it all those books,yes,0.046,CHI,MOT,3.379,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-05b.xml,TRUE,F
+264,that what was that one I wear,yeah,0.012,CHI,MOT,4.017,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-05b.xml,TRUE,F
+265,is it not little blocks,no,-0.378,CHI,MOT,2.404,TRUE,34,FALSE,TRUE,TRUE,fraser/2-10-05b.xml,TRUE,F
+266,come on let get to it,come on let's get to it,0.557,CHI,MOT,2.392,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-05b.xml,TRUE,F
+267,fell,it fell,0.476,CHI,MOT,0.767,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-05v.xml,TRUE,F
+268,I drawed it,you drawed on your hand,0.151,CHI,MOT,1.8,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-06a.xml,TRUE,T
+269,who flushed toilet,maybe Maisie flushed the toilet,0.302,CHI,MOT,2.346,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-06a.xml,TRUE,F
+270,did you found him,uh huh,0,CHI,MOT,1.684,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-06b.xml,TRUE,F
+271,Shrek sayed it,yeah,0.07,CHI,MOT,2.136,TRUE,34,TRUE,FALSE,FALSE,fraser/2-10-06b.xml,TRUE,T
+272,they hurted me,the spiky flowers,0.012,CHI,MOT,1.707,TRUE,35,TRUE,FALSE,FALSE,fraser/2-11-00a.xml,TRUE,T
+273,maybe that Tyrannosaurus_rex ate them,do you think the Tyrannosaurus_rex ate them,0.36,CHI,MOT,4.54,TRUE,35,TRUE,FALSE,FALSE,fraser/2-11-00a.xml,TRUE,F
+274,maybe we taked the gorillas away,aren't you supposed to spin this here,0,CHI,MOT,4.481,TRUE,35,TRUE,FALSE,FALSE,fraser/2-11-00a.xml,TRUE,T
+275,and he and he runned away,then he runs away,0.011,CHI,MOT,2.427,TRUE,35,TRUE,FALSE,FALSE,fraser/2-11-00b.xml,TRUE,T
+276,why why why why do those people got ice,because its a hot day there,0.002,CHI,MOT,6.002,TRUE,35,TRUE,TRUE,FALSE,fraser/2-11-00b.xml,TRUE,F
+277,she throwed it,did Lala throw the dice,0.488,CHI,MOT,1.997,TRUE,35,TRUE,FALSE,FALSE,fraser/2-11-00b.xml,TRUE,T
+278,maybe h maybe he maybe maybe maybe he fell,maybe he fell,-0.302,CHI,MOT,8.382,TRUE,35,TRUE,FALSE,TRUE,fraser/2-11-00b.xml,TRUE,F
+279,he's handed the spoon,oh,1.463,CHI,MOT,2.775,TRUE,35,TRUE,FALSE,FALSE,fraser/2-11-00b.xml,TRUE,F
+280,what they made,what have they made,0.371,CHI,MOT,1.823,TRUE,35,TRUE,FALSE,FALSE,fraser/2-11-01a.xml,TRUE,F
+281,that two towels,two blue towels,0.046,CHI,MOT,2.74,TRUE,35,FALSE,TRUE,FALSE,fraser/2-11-01b.xml,TRUE,F
+282,have have your plants grown up yet,have my plants grown up yet,0.034,CHI,MOT,3.402,TRUE,35,TRUE,TRUE,FALSE,fraser/2-11-01b.xml,TRUE,F
+283,xxx and them other grown up yet,no,0.081,CHI,MOT,4.122,TRUE,35,TRUE,FALSE,FALSE,fraser/2-11-01b.xml,TRUE,F
+284,maybe I broke it,you did break it,0.047,CHI,MOT,2.031,TRUE,35,TRUE,FALSE,FALSE,fraser/2-11-01b.xml,TRUE,F
+285,xxx didn't said no,his grandmother didn't say no,0.162,CHI,MOT,2.717,TRUE,35,TRUE,FALSE,FALSE,fraser/2-11-01b.xml,TRUE,F
+286,why does he counted,he wanted to see how many teeth you had,0.047,CHI,MOT,1.532,TRUE,35,TRUE,FALSE,FALSE,fraser/2-11-01b.xml,TRUE,F
+287,he got all him spikes on his back,he's got orange spots,1.054,CHI,MOT,3.413,TRUE,35,TRUE,TRUE,FALSE,fraser/2-11-01b.xml,TRUE,F
+288,it hurted me,did it hurt you,0.035,CHI,MOT,1.66,TRUE,35,TRUE,FALSE,FALSE,fraser/2-11-01b.xml,TRUE,T
+289,why did you said so,you saw Jeannine today as well didn't you,1.162,CHI,MOT,3.611,TRUE,35,TRUE,FALSE,FALSE,fraser/2-11-02b.xml,TRUE,F
+290,I singed that one,who's Dot Man,0,CHI,MOT,1.915,TRUE,35,TRUE,FALSE,FALSE,fraser/2-11-02b.xml,TRUE,T
+291,who's he called,I know that's Orangekitten,-0.58,CHI,MOT,1.753,TRUE,35,TRUE,FALSE,TRUE,fraser/2-11-02b.xml,TRUE,F
+292,two oranges circle,that's right,0.058,CHI,MOT,2.102,TRUE,35,FALSE,TRUE,FALSE,fraser/2-11-02v.xml,TRUE,F
+293,look it's Jwww's got,what has he got,0.186,CHI,MOT,1.8,TRUE,35,TRUE,FALSE,FALSE,fraser/2-11-04a.xml,TRUE,F
+294,I get these a lots of shapes,you're gonna going to get lots of shapes,1.244,CHI,MOT,2.729,TRUE,35,FALSE,TRUE,FALSE,fraser/2-11-04a.xml,TRUE,F
+295,w w w w we we just was messing them up,I know,0.035,CHI,MOT,5.712,TRUE,35,TRUE,FALSE,FALSE,fraser/2-11-04a.xml,TRUE,F
+296,play snakes and ladders Mummy and Daddy's room,no,0.151,CHI,MOT,3.111,TRUE,35,FALSE,TRUE,FALSE,fraser/2-11-04b.xml,TRUE,F
+297,Swiper taked it,Swiper took the ball,0.151,CHI,MOT,1.973,TRUE,35,TRUE,FALSE,FALSE,fraser/2-11-04b.xml,TRUE,T
+298,zero ate carrots,you ate carrots,-0.285,CHI,MOT,1.492,TRUE,35,FALSE,TRUE,TRUE,fraser/2-11-06b.xml,TRUE,F
+299,you have to see the lions won't and the tigers won't scratch me up,shall we put some cream on it,1.706,CHI,MOT,8.522,TRUE,35,FALSE,TRUE,FALSE,fraser/2-11-06b.xml,TRUE,F
+300,it is cars,imagine that,0.876,CHI,MOT,1.788,TRUE,35,FALSE,TRUE,FALSE,fraser/2-11-06b.xml,TRUE,F
+301,teared it again,Jwww what,0.506,CHI,MOT,1.985,TRUE,35,TRUE,FALSE,FALSE,fraser/2-11-06b.xml,TRUE,T
+302,it falled over,it's alright,0.096,CHI,MOT,2.229,TRUE,35,TRUE,FALSE,FALSE,fraser/2-11-06b.xml,TRUE,T
+303,I can't find this bit off,do you want me to do it for you,3.85,CHI,MOT,2.142,TRUE,35,TRUE,FALSE,FALSE,fraser/2-11-06b.xml,TRUE,F
+304,I made a present,pardon,0.801,CHI,MOT,2.397,TRUE,35,TRUE,FALSE,FALSE,fraser/2-11-06b.xml,TRUE,F
+305,why those holes in,because it plugs into whatever you want to make work,0.37,CHI,MOT,1.962,TRUE,35,FALSE,TRUE,FALSE,fraser/2-11-06b.xml,TRUE,F
+306,did did I drank it all,yeah you drank your Fruitshoot as well didn't you,0,CHI,MOT,2.276,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-00b.xml,TRUE,F
+307,sheeps,sheeps,0.058,CHI,MOT,0.883,TRUE,36,FALSE,TRUE,FALSE,fraser/3-00-00b.xml,TRUE,T
+308,they eated them all,did he eat them all up,0.058,CHI,MOT,1.754,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-00b.xml,TRUE,T
+309,it sticked,oh,0.139,CHI,MOT,1.417,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-00b.xml,TRUE,T
+310,is is those are dinosaurs,yeah they're dinosaurs,-0.203,CHI,MOT,2.276,TRUE,36,FALSE,TRUE,TRUE,fraser/3-00-02b.xml,TRUE,F
+311,when Nwww goed in the paddling pool,yeah,0,CHI,MOT,2.868,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-04a.xml,TRUE,F
+312,but now he got one teeth,now he's got one tooth,0.028,CHI,MOT,2.775,TRUE,36,FALSE,TRUE,FALSE,fraser/3-00-04b.xml,TRUE,F
+313,that one that one up that one waked up,that one's woken up,0.126,CHI,MOT,4.888,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-04b.xml,TRUE,T
+314,what did you bought,this,0.116,CHI,MOT,2.067,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-04b.xml,TRUE,F
+315,why did why did you bought that,because,0.168,CHI,MOT,2.346,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-04b.xml,TRUE,F
+316,but you came in didn't you,yeah,0.011,CHI,MOT,2.775,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-04b.xml,TRUE,F
+317,what did it did,it's ripped a bit,0.082,CHI,MOT,1.683,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-04b.xml,TRUE,F
+318,what did it did,what does it do,0.186,CHI,MOT,1.741,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-04b.xml,TRUE,F
+319,did I did it,yeah,0.07,CHI,MOT,1.161,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-04b.xml,TRUE,F
+320,it it needs that elephant right there what I sticked on,yeah that's right,0.003,CHI,MOT,3.797,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-05a.xml,TRUE,T
+321,who made it,pardon,0.232,CHI,MOT,1.579,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-05b.xml,TRUE,F
+322,that weren't a song,was it not a song,0.163,CHI,MOT,1.474,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-06a.xml,TRUE,F
+323,it was a bird,yeah those are birds that are very far away aren't they,0.058,CHI,MOT,1.405,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-06a.xml,TRUE,F
+324,there does no alligators,yes there are alligators,0.012,CHI,MOT,1.962,TRUE,36,FALSE,TRUE,FALSE,fraser/3-00-06a.xml,TRUE,F
+325,did I had one,yeah you've already had one haven't you,0.07,CHI,MOT,1.8,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-06b.xml,TRUE,F
+326,so I goed back home instead,what darling,1.117,CHI,MOT,2.659,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-06b.xml,TRUE,T
+327,be he I didn't saw him,did you not see him,0.035,CHI,MOT,4.4,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-08a.xml,TRUE,F
+328,those ones over there what we made,oh right yes,0.035,CHI,MOT,3.03,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-08a.xml,TRUE,F
+329,you didn't went out did you Mum,well I did,0.047,CHI,MOT,2.345,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-08b.xml,TRUE,F
+330,but why they got little bit water in,because the bath is still a little bit wet isn't it,0.126,CHI,MOT,3.216,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-08b.xml,TRUE,F
+331,it breaked,did it break,0.712,CHI,MOT,1.545,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-10a.xml,TRUE,T
+332,I already started,you look like you're making a mess to me,-0.336,CHI,MOT,2.043,TRUE,36,TRUE,FALSE,TRUE,fraser/3-00-10a.xml,TRUE,F
+333,oops it come downs again,well put it on the floor,2.981,CHI,MOT,2.101,TRUE,36,FALSE,TRUE,FALSE,fraser/3-00-10a.xml,TRUE,F
+334,but we didn't went in,but you didn't went in,0.163,CHI,MOT,1.857,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-10b.xml,TRUE,F
+335,but you don't stamped on books do you,no,-0.627,CHI,MOT,2.949,TRUE,36,TRUE,FALSE,TRUE,fraser/3-00-10b.xml,TRUE,F
+336,I already done the kangaroo,you've already done the kangaroo haven't you,0,CHI,MOT,2.925,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-10b.xml,TRUE,F
+337,but why she not picking those muds up,she will do in a minute,0.76,CHI,MOT,3.285,TRUE,36,FALSE,TRUE,FALSE,fraser/3-00-10b.xml,TRUE,F
+338,did I broke it,I hope not,0.116,CHI,MOT,1.672,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-10b.xml,TRUE,F
+339,I hope I didn't broke it,and I hope you didn't break it as well,0.091,CHI,MOT,2.357,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-10b.xml,TRUE,F
+340,did somebody made a mess,yeah,0.174,CHI,MOT,2.287,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-11a.xml,TRUE,F
+341,I run away,and you had to have your tea didn't you,0.546,CHI,MOT,1.172,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-11a.xml,TRUE,F
+342,why did we already done them,why've we already done them,0.834,CHI,MOT,2.573,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-11a.xml,TRUE,F
+343,we haven't got I haven't got blue pile today,have you not,0.166,CHI,MOT,4.504,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-13b.xml,TRUE,F
+344,we haven't got blue pile today,what happened to the blue pile then,0.058,CHI,MOT,2.543,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-13b.xml,TRUE,F
+345,that's why it breaked,it's not very good is it,0.065,CHI,MOT,2.089,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-13b.xml,TRUE,T
+346,I taked them off,oh Fraser,0.047,CHI,MOT,1.521,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-13b.xml,TRUE,T
+347,and I were xxx,did you go to babyschool today,0.128,CHI,MOT,1.219,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-13b.xml,TRUE,F
+348,but you wasn't cross,who wasn't cross,0.174,CHI,MOT,1.602,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-13b.xml,TRUE,F
+349,Little_bear hurted it,Little_bear hurt it,0.023,CHI,MOT,3.169,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-13b.xml,TRUE,T
+350,I want read these ones,no,-1.973,CHI,MOT,1.973,TRUE,36,FALSE,TRUE,TRUE,fraser/3-00-13v.xml,TRUE,F
+351,look I got dinosaur piece,yeah keep going,0,CHI,MOT,1.672,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-13v.xml,TRUE,F
+352,I breaked the Thomas thing,you did,0.559,CHI,MOT,2.751,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-15b.xml,TRUE,T
+353,I telled them off,did you,0.093,CHI,MOT,1.382,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-15b.xml,TRUE,T
+354,that bit came off,mhm hm,-1.753,CHI,MOT,1.776,TRUE,36,TRUE,FALSE,TRUE,fraser/3-00-15b.xml,TRUE,F
+355,it breaked that bit,xxx and see,1.883,CHI,MOT,2.101,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-15b.xml,TRUE,T
+356,they came out,what's come out,0.469,CHI,MOT,1.312,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-15b.xml,TRUE,F
+357,it falled a bit,does it go,0.604,CHI,MOT,1.532,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-15b.xml,TRUE,T
+358,why is that truck fell down,I don't know,0.342,CHI,MOT,3.158,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-16a.xml,TRUE,F
+359,my trousers came off,come on let's get your pants back on please,3.668,CHI,MOT,2.473,TRUE,36,TRUE,TRUE,FALSE,fraser/3-00-16a.xml,TRUE,F
+360,but why is that truck fell off,pardon,0.186,CHI,MOT,2.88,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-16a.xml,TRUE,F
+361,now that one woken up didn't it,yeah he's woken up hasn't he,0,CHI,MOT,2.624,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-16a.xml,TRUE,F
+362,but why she got why has she got mask,well they've all got masks haven't they because they've all made masks at school,0.75,CHI,MOT,3.634,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-16b.xml,TRUE,F
+363,he taked it off,he did,0.025,CHI,MOT,1.393,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-16b.xml,TRUE,T
+364,when I falled,did you bang it,0.119,CHI,MOT,1.858,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-16b.xml,TRUE,T
+365,did you caught me,yeah,0.043,CHI,MOT,2.195,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-16b.xml,TRUE,F
+366,who breaked the big truck,nobody broke it Fraser,0,CHI,MOT,2.89,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-16b.xml,TRUE,T
+367,I throwed it,yeah,0.074,CHI,MOT,1.683,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-16b.xml,TRUE,T
+368,we got some when we goed to the beach didn't we,that's right,0.267,CHI,MOT,3.645,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-16b.xml,TRUE,T
+369,no it was Bob singed it,oh was it Bob singing,0.104,CHI,MOT,1.603,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-16b.xml,TRUE,T
+370,look the pieces not a bit noisy,it is a bit noisy,0.105,CHI,MOT,2.357,TRUE,36,FALSE,TRUE,FALSE,fraser/3-00-16b.xml,TRUE,F
+371,who drawed on Lofty's eye,I don't know,0.116,CHI,MOT,2.125,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-16b.xml,TRUE,T
+372,um felt game gone,I don't know,0.208,CHI,MOT,1.846,TRUE,36,TRUE,FALSE,TRUE,fraser/3-00-16b.xml,TRUE,F
+373,I I eated a big yoghurt,you were eating a big yoghurt,-0.116,CHI,MOT,2.38,TRUE,36,TRUE,FALSE,TRUE,fraser/3-00-18a.xml,TRUE,T
+374,did just have one,yeah you just had one,0.174,CHI,MOT,1.405,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-18b.xml,TRUE,F
+375,I nearly goed in the mud,yeah you did didn't you,0.023,CHI,MOT,1.823,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-18b.xml,TRUE,T
+376,did I missed him,yeah because if the door's opening that means Daddy's already in the house doesn't it,-0.267,CHI,MOT,1.359,TRUE,36,TRUE,FALSE,TRUE,fraser/3-00-19a.xml,TRUE,F
+377,and these are three mouses,three mice,0.093,CHI,MOT,2.508,TRUE,36,FALSE,TRUE,FALSE,fraser/3-00-19a.xml,TRUE,T
+378,did you went,yeah,0.035,CHI,MOT,0.696,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-19b.xml,TRUE,F
+379,we only bought today,oh dear,0,CHI,MOT,1.799,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-19b.xml,TRUE,F
+380,is he the baddies too,yeah,0.003,CHI,MOT,1.509,TRUE,36,FALSE,TRUE,FALSE,fraser/3-00-19b.xml,TRUE,F
+381,is he the baddies,yes,0.603,CHI,MOT,1.858,TRUE,36,FALSE,TRUE,FALSE,fraser/3-00-19b.xml,TRUE,F
+382,that that's a baddie and that's a baddie and that's the baddie and that's a baddie and that's a baddie and that's a baddies,yes,0.046,CHI,MOT,8.324,TRUE,36,FALSE,TRUE,FALSE,fraser/3-00-19b.xml,TRUE,F
+383,there was dustbin lorry,no,0.418,CHI,MOT,1.823,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-20a.xml,TRUE,F
+384,what's grey because that didn't go there,but I thought you said it went over there,0.572,CHI,MOT,2.891,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-20a.xml,TRUE,F
+385,I heared the people,you heard the people,0.035,CHI,MOT,1.405,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-20b.xml,TRUE,T
+386,my foots have gone,your feet have gone,0.058,CHI,MOT,1.683,TRUE,36,FALSE,TRUE,FALSE,fraser/3-00-20b.xml,TRUE,T
+387,do you know who was that green one was it,that's a tree,0.047,CHI,MOT,2.728,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-21b.xml,TRUE,F
+388,I wanna read a boys,you want to read the boys,0.267,CHI,MOT,2.067,TRUE,36,FALSE,TRUE,FALSE,fraser/3-00-21b.xml,TRUE,F
+389,I think this one I think I think these ones supposed to be up,who made this,0.095,CHI,MOT,5.202,TRUE,36,FALSE,TRUE,FALSE,fraser/3-00-21b.xml,TRUE,F
+390,it drinked it all,it drank all the juice didn't it,0.034,CHI,MOT,1.405,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-21b.xml,TRUE,T
+391,where did you do did that,how did I do that,0.003,CHI,MOT,2.09,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-21b.xml,TRUE,F
+392,will I just carried it,yeah,0.139,CHI,MOT,1.672,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-21b.xml,TRUE,F
+393,I nearly falled then,that's not good is it,0.662,CHI,MOT,2.182,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-21v.xml,TRUE,T
+394,the the train said it,you didn't say it,0.07,CHI,MOT,2.949,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-21v.xml,TRUE,F
+395,how did Wendy did that,pardon,2.296,CHI,MOT,2.229,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-23a.xml,TRUE,F
+396,how did Wendy did that,like this,0.185,CHI,MOT,1.939,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-23a.xml,TRUE,F
+397,why did it went down,because he has to put it down when he puts it away,1.498,CHI,MOT,1.997,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-23a.xml,TRUE,F
+398,said they not,they are,0.035,CHI,MOT,1.324,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-25a.xml,TRUE,F
+399,gone whoo,does it,-0.499,CHI,MOT,1.753,TRUE,36,TRUE,FALSE,TRUE,fraser/3-00-25a.xml,TRUE,F
+400,er have you just have xxx had a rectangle,had the rectangles,0.427,CHI,MOT,5.236,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-25a.xml,TRUE,F
+401,who broke it,I don't know,0.25,CHI,MOT,3.402,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-26a.xml,TRUE,F
+402,I seen Maisy in here,well bring the book over here,0.534,CHI,MOT,2.752,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-26a.xml,TRUE,F
+403,I breaked it,are you breaking it,0,CHI,MOT,1.207,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-26b.xml,TRUE,T
+404,did I missed it,yeah you missed it,0.025,CHI,MOT,1.335,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-26b.xml,TRUE,F
+405,I sat on the Vimto,you sat on the Vimto,0.096,CHI,MOT,2.148,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-27b.xml,TRUE,F
+406,we got lotsa things haven't we,yes,0.411,CHI,MOT,1.979,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-27b.xml,TRUE,F
+407,look the cat eated that thing,did it,0.255,CHI,MOT,3.309,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-27b.xml,TRUE,T
+408,I runned on the white bit,you did,0.069,CHI,MOT,2.369,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-27b.xml,TRUE,T
+409,where did you bought those,got them from the shops,0.029,CHI,MOT,1.672,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-29a.xml,TRUE,F
+410,did he didn't want to play with me anymore,no,0.012,CHI,MOT,2.983,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-29a.xml,TRUE,F
+411,this one got puddle,we've got lots of things in here but Jwww doesn't sleep in here anymore does he,0.185,CHI,MOT,1.649,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-29a.xml,TRUE,F
+412,then then we slept in this bed didn't we,did she sleep up there,0,CHI,MOT,4.83,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-29a.xml,TRUE,F
+413,you runned on crocodile lake,again,0.243,CHI,MOT,2.241,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-29b.xml,TRUE,T
+414,the but the wind breaked it,no you broke it,0.035,CHI,MOT,2.578,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-29b.xml,TRUE,T
+415,no the wind blowed it away,no I think you were coloring with it and you broke it Fraser,0.464,CHI,MOT,2.45,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-29b.xml,TRUE,T
+416,that sound came with the owl and the pussycat,the sound,0.949,CHI,MOT,3.448,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-29b.xml,TRUE,F
+417,and lovely foots,and lovely feet,0.012,CHI,MOT,1.311,TRUE,36,FALSE,TRUE,FALSE,fraser/3-00-29b.xml,TRUE,T
+418,someone breaked it,yeah I know,0.035,CHI,MOT,1.602,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-29b.xml,TRUE,T
+419,I goed in that boat with Daddy and I goed that boat with you,yeah,0.023,CHI,MOT,4.215,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-29b.xml,TRUE,T
+420,did he Jwww didn't want to go in there did he,no he didn't did he,0,CHI,MOT,3.309,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-29b.xml,TRUE,F
+421,Jwww goed on water ride didn't he,he did in the end yeah,0.294,CHI,MOT,2.578,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-29b.xml,TRUE,T
+422,I done the outside now I gonna going to do the inside,now you're gonna going to do the inside,0.079,CHI,MOT,3.448,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-29b.xml,TRUE,F
+423,when you were little girl,yeah when I was a little girl like you Mummy used to have this book,0.075,CHI,MOT,1.544,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-30a.xml,TRUE,F
+424,he he threw the candle then he xxx,he threw the candles,-0.727,CHI,MOT,3.6,TRUE,36,TRUE,FALSE,TRUE,fraser/3-00-30a.xml,TRUE,F
+425,got,might have to put a belt on you as well,-0.452,CHI,MOT,0.557,TRUE,36,TRUE,FALSE,TRUE,fraser/3-00-30b.xml,TRUE,F
+426,it got a trunk didn't it,it did didn't it,0.023,CHI,MOT,2.415,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-30b.xml,TRUE,F
+427,did did did I lick it when I when I goed in the kitchen,did you like it,1.065,CHI,MOT,5.341,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-30b.xml,TRUE,T
+428,when I goed in the kitchen,what the cheese,0.012,CHI,MOT,1.788,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-30b.xml,TRUE,T
+429,the man taked my bouncy castle didn't he,he did yeah,0,CHI,MOT,3.495,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-30b.xml,TRUE,T
+430,lots lots lots colors don't I,yeah,0.267,CHI,MOT,3.042,TRUE,36,FALSE,TRUE,FALSE,fraser/3-00-30b.xml,TRUE,F
+431,I'm stayed here,can you just get up a minute,0.615,CHI,MOT,2.926,TRUE,36,TRUE,FALSE,FALSE,fraser/3-00-30b.xml,TRUE,F
+432,no he got three eyes,oh who's got three eyes,-0.209,CHI,MOT,1.719,TRUE,37,FALSE,TRUE,TRUE,fraser/3-01-00a.xml,TRUE,F
+433,and and you would be cross didn't you,yes I would be cross,0.024,CHI,MOT,2.902,TRUE,37,TRUE,FALSE,FALSE,fraser/3-01-02b.xml,TRUE,F
+434,but when I go growed up I can be space explorer,when you grow up you can be what,0.19,CHI,MOT,5.433,TRUE,37,TRUE,FALSE,FALSE,fraser/3-01-02b.xml,TRUE,?
+435,did you didn't do Strum,no I didn't do Strum,0.047,CHI,MOT,2.229,TRUE,37,TRUE,FALSE,FALSE,fraser/3-01-02b.xml,TRUE,F
+436,I had big Macdonalds,what did you have,0.058,CHI,MOT,2.299,TRUE,37,TRUE,FALSE,FALSE,fraser/3-01-02b.xml,TRUE,F
+437,I knew you you were blame Jwww,I'm not blaming Jwww,1.816,CHI,MOT,2.542,TRUE,37,TRUE,FALSE,FALSE,fraser/3-01-02b.xml,TRUE,F
+438,did you caught me,I did,0.082,CHI,MOT,1.23,TRUE,37,TRUE,FALSE,FALSE,fraser/3-01-03a.xml,TRUE,F
+439,did you told me it's purple,mhm hm,0.024,CHI,MOT,2.554,TRUE,37,TRUE,FALSE,FALSE,fraser/3-01-03a.xml,TRUE,F
+440,did Daddy and me drew it,yeah you and Daddy drew that didn't you,0.025,CHI,MOT,2.996,TRUE,37,TRUE,FALSE,FALSE,fraser/3-01-03a.xml,TRUE,F
+441,hey it stuck to me hand,it stuck on your hand,0.168,CHI,MOT,2.496,TRUE,37,TRUE,FALSE,FALSE,fraser/3-01-03a.xml,TRUE,F

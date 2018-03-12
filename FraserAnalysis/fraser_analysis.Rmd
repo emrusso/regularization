@@ -9,6 +9,8 @@ number_sections: false
 theme: lumen
 toc_float: false
 code_folding: hide
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup}
@@ -31,19 +33,80 @@ kid_parent_utts <- utts_clean %>%
 
 ```{r get possible overregs}
 
-overreg_candidates <- kid_parent_utts %>%
-  mutate(overreg_candidate = ((past_tense | plural) & error))
+#overreg_candidates <- kid_parent_utts %>%
+  #mutate(overreg_candidate = ((past_tense | plural) & error)) %>%
+  #filter(past_tense | plural)
 
-sub_data <- kid_parent_utts %>%
-  filter(past_tense | plural) %>%
-  filter(response_time > -2)
+#to_write <- overreg_candidates %>%
+  #filter(overreg_candidate)
 
-sub_glm <- glm(response_time < 0 ~ utterance_time + age + error, sub_data,
-               family = "binomial")
+#write.csv(to_write, "fraser_overreg_candidates.csv")
 
-or_lm <- lm(response_time ~ utterance_time + age + overreg_candidate, overreg_candidates)
+fraser_manual_overregs <- read_csv("fraser_manual.csv")
+
+fraser_manual_overregs$X1 = NULL
+
+fraser_final <- kid_parent_utts %>%
+  left_join(fraser_manual_overregs, by=c("utterance", "response")) %>%
+  mutate(overreg = ifelse(is.na(overreg), F, ifelse(overreg == "T", T, F)))
 
 
-ggplot(overreg_candidates, aes(x=response_time, fill=error)) + geom_density(alpha=.3) + scale_x_continuous(limits = c(-3, 3))
+fraser_final <- fraser_final %>%
+  mutate(response_time = response_time.x, speaker = speaker.x, responder = responder.x, utterance_time = utterance_time.x, error = error.x, age = age.x, past_tense = past_tense.x, plural = plural.x, overlap = overlap.x, source_file = source_file.x)
+  
+fraser_final <- fraser_final[,c("utterance", "response", "speaker", "responder", "error", "age", "response_time", "utterance_time", "past_tense", "plural", "overreg", "overlap", "source_file")]
+
+fraser_final <- fraser_final %>%
+  mutate(error_type = ifelse(!error, "no error", ifelse(overreg, "overregularization", "other error")))
+
+sub_data <- fraser_final %>%
+  filter(past_tense | plural)
+
+sub_lm <- lm(overlap ~ error_type + age + utterance_time, sub_data)
+summary(sub_lm)
+
+ggplot(sub_data %>% filter(response_time > -2.5 & response_time < 2.5), aes(x=response_time, fill=error_type)) + geom_density(alpha=0.6) +
+  geom_vline(xintercept=0, linetype="dotted", color="red") +
+  facet_grid(error_type ~ .) + ggtitle("Fraser") + theme_classic() + ylim(0, 3.5) + xlim(-2.5, 2.5)
+
+fraser_left_side <-  sub_data %>%
+  filter(response_time < 0) %>%
+  mutate(abs_rt = abs(response_time))
+
+fraser_right_side <- sub_data %>%
+  filter(response_time > 0)
+
+lm(log(response_time) ~ error + age + utterance_time, fraser_right_side) %>%
+summary()
+
+lm(log(abs_rt) ~ error + age + utterance_time, fraser_left_side) %>%
+summary()
+  
+
+ggplot(fraser_left_side, aes(x=log(abs_rt), fill=error_type)) + geom_density(alpha=.4)
+
+ggplot(fraser_right_side, aes(x=log(response_time), fill=error_type)) + geom_density(alpha=.4)
+
+ ggplot(sub_data, aes(x = age, y = response_time, fill = error)) + geom_smooth()
+
+
+
+```
+
+```{r}
+nwords <- function(string, pseudo=F){
+  ifelse( pseudo, 
+          pattern <- "\\S+", 
+          pattern <- "[[:alpha:]]+" 
+        )
+  str_count(string, pattern)
+}
+
+#Find attention check utts
+ac_utts <- fraser_final %>%
+  filter(responder=="MOT") %>%
+  filter(source_file=="fraser/3-00-30b.xml") %>%
+  mutate(ul=nwords(response)) %>%
+  filter(ul==3)
 ```
 

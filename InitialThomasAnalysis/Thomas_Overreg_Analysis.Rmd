@@ -97,13 +97,16 @@ together <- together %>%
   filter(response_time > -5 & response_time < 5) %>%
   filter(utterance_time < 9)
 
+# write_csv(together, "thomas_analysis_utts.csv")
+
 together_overregs <- together %>%
   filter(overreg)
 
-ggplot(together, aes(x = age, y = response_time, fill = overreg)) + geom_smooth()
+ggplot(together, aes(x = age, y = response_time, fill = error)) + geom_smooth()
 
-ggplot(together, aes(x = response_time, fill = overreg)) + 
-  geom_density(alpha = .2)
+ggplot(together, aes(x = response_time, fill=error)) + 
+  geom_density(alpha = .4)
+
 
 overreg.data <- function(present, past) {
   overreg <- paste(present, ifelse(substr(present, nchar(present), nchar(present)) == "e", "d", "ed"), sep="")
@@ -114,7 +117,7 @@ overreg.data <- function(present, past) {
   tibble(nrow(overregs), nrow(past_overregs), nrow(correct_past))
 }
 
-write_csv(together_overregs, "FinalOverregList.csv")
+# write_csv(together_overregs, "FinalOverregList.csv")
 
 #chi_draw_info <- overreg.data("draw", "drew")
 #chi_drink_info <- overreg.data("drink", "drank")
@@ -131,27 +134,134 @@ write_csv(together_overregs, "FinalOverregList.csv")
 #chi_sweep_info <- overreg.data("sweep", "swept")
 #chi_take_info <- overreg.data("take", "took")
 
+
+
 apples_to_apples <- together %>%
-  filter(past_tense || plural)
+  filter(past_tense | plural)
 
-lm1 <- lm(response_time ~ utterance_time + overreg + log(age), data = together)
+thomas_or_rates <- apples_to_apples %>%
+  group_by(age) %>%
+  summarise(total_tokens = n(), overreg_tokens = sum(overreg), error_tokens = sum(error)) %>%
+  mutate(or_rate = (overreg_tokens/total_tokens) * 100, error_rate = (error_tokens/total_tokens) * 100, or_of_err = (overreg_tokens/error_tokens) * 100)
 
-apple <- lm(response_time ~ utterance_time + error + overreg + log(age), data = apples_to_apples)
+ggplot(thomas_or_rates, aes(x=age, y=or_rate)) + geom_line() + geom_smooth()
 
+ggplot(thomas_or_rates, aes(x=age, y=error_rate)) + geom_line() + geom_smooth()
+
+max_rates <- thomas_or_rates %>%
+  summarise(max_er = max(error_rate), max_or = max(or_rate), max_or_of_err = max(or_of_err))
+
+max_er_age <- thomas_or_rates %>%
+  filter(error_rate == max_rates$max_er)
+
+max_or_age <- thomas_or_rates %>%
+  filter(or_rate == max_rates$max_or)
+
+max_or_percent_of_err <- thomas_or_rates %>%
+  filter(or_of_err == max_rates$max_or_of_err)
+
+ggplot(thomas_or_rates, aes(x=age)) +
+  geom_smooth(aes(y=log(or_rate), colour="or_rate")) +
+  geom_smooth(aes(y=log(error_rate), colour="error_rate"))
+
+ggplot(apples_to_apples, aes(x = log(age), y = response_time, fill = error)) + geom_smooth() +
+  geom_vline(xintercept=log(max_er_age$age)) +
+  geom_text(aes(log(max_er_age$age), 0, label = "Age of max error rate", vjust = -1)) +
+  geom_vline(xintercept=log(max_or_age$age)) +
+  geom_text(aes(log(max_or_age$age), 0, label = "Age of max or rate"))
+
+
+ggplot(apples_to_apples, aes(x = response_time, fill=error)) + 
+  geom_density(alpha = .4)
+
+apples_to_apples <- apples_to_apples %>%
+  mutate(overlap = response_time < 0)
+
+lm1 <- lm(response_time ~ utterance_time + error + log(age), data = apples_to_apples)
+
+apple <- glm(overlap ~ utterance_time + error + log(age) + overreg, data = apples_to_apples, family="binomial")
+
+apple_anova <- aov(age ~ overreg, apples_to_apples)
+
+apple <- lm(overreg ~ age + utterance_time, apples_to_apples)
 
 summary(lm1)
 
-come_utts <- together %>%
-  filter(grepl("c[oa]me", utterance)) %>%
-  mutate(utterance_length = str_count(utterance, " "),
-         response_length = str_count(response, " "))
+nwords <- function(string, pseudo=F){
+  ifelse( pseudo, 
+          pattern <- "\\S+", 
+          pattern <- "[[:alpha:]]+" 
+        )
+  str_count(string, pattern)
+}
 
-lm_throw <- lm(response_time ~ error + log(age), 
-               data = come_utts)
+together <- together %>%
+  mutate(ul=nwords(utterance)) %>%
+  mutate(error_type = ifelse(!error, "no error", ifelse(overreg, "overregularization", "other error")))
 
-come_utts %>%
-  group_by(overreg) %>%
-  summarise(response_time = median(response_time))
+apples_to_apples <- apples_to_apples %>%
+  mutate(ul=nwords(utterance)) %>%
+  mutate(error_type = ifelse(!error, "no error", ifelse(overreg, "overregularization", "other error")))
 
+first_third <- apples_to_apples %>%
+  filter(age <= 35)
+
+middle_third <- apples_to_apples %>%
+  filter(age > 35 & age <= 45)
+
+last_third <- apples_to_apples %>%
+  filter(age > 45)
+
+first_half <- apples_to_apples %>%
+  filter(age <= 39)
+
+second_half <- apples_to_apples %>%
+  filter(age > 39)
+
+ggplot(first_third, aes(x = response_time, fill=error_type)) + geom_density(alpha = .3)
+ggplot(middle_third, aes(x = response_time, fill=error_type)) + geom_density(alpha = .3)
+ggplot(last_third, aes(x = response_time, fill=error_type)) + geom_density(alpha = .3)
+
+ggplot(apples_to_apples %>% filter(response_time > -2, response_time < 2), aes(x = response_time, fill=error_type)) + 
+  geom_density(alpha = .4)
+  
+ggplot(apples_to_apples, aes(x=age, y=response_time, fill=error)) + geom_smooth()
+
+first_third_lm <- lm(response_time ~ error_type + age + ul, first_third)
+middle_third_lm <- lm(response_time ~ error_type + age + ul, middle_third)
+last_third_lm <- lm(response_time ~ error_type + age + ul, last_third)
+
+
+
+
+
+apple <- lm(response_time ~ error + overreg + age + ul, apples_to_apples)
+
+apple <- lm(overlap ~ error + overreg + age + ul, apples_to_apples)
+
+
+overlap ~ age * overreg + (age*+/id)
+overreg_model <- lmer(overlap ~ (1|subj) + (1|exchange) + version, data = comparison_data) 
+
+predicted_data <- comparison_data %>%
+  ungroup() %>%
+  mutate(predicted = predict(model))
+
+
+ggplot(predicted_data, aes(x = predicted, y = log(rt), color = version)) + 
+  geom_point()
+
+ac_utts <- thomas_data %>%
+  filter(speaker=="MOT") %>%
+  filter(source_file=="Thomas/3-01-13.xml") %>%
+  mutate(ul=nwords(utterance)) %>%
+  filter(ul==8)
+  
+  
+  
+  mutate(split=strsplit(utterance, " ")) %>%
+  group_by(utterance) %>%
+  mutate(ul=as.numeric(length(split)))
+  
   # filter(length(grep("draw", utterance, fixed=TRUE)) > 0)
 ```

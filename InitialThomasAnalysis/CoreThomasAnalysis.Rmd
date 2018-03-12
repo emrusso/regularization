@@ -1,0 +1,140 @@
+---
+title: "Core Thomas Analysis"
+author: "Emmi Russo"
+date: "2/19/2018"
+output: pdf_document
+---
+```{r setup, include=FALSE}
+library(tidyverse)
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(fig.width=6, fig.height=4) 
+options(digits=10)
+```
+
+
+```{r}
+thomas_utts <- read_csv("thomas_analysis_utts.csv")
+
+thomas_past_plural_utts <- thomas_utts %>%
+  filter(past_tense | plural)
+
+thomas_or_rates <- read_csv("thomas_or_rates.csv")
+thomas_overall_or_rates <- read_csv("thomas_all_or_rates.csv")
+```
+
+## Some basic information about Thomas' language development
+### For All Kid-Parent Utterance-Response pairs
+#### Response Time Distribution
+```{r}
+ggplot(thomas_utts, aes(x=response_time)) + geom_density() + theme_bw()
+```
+
+#### Thomas MLU Over Age
+```{r}
+thomas_mlu <- thomas_utts %>%
+  filter(!is.na(ul)) %>%
+  group_by(age) %>%
+  summarise(mlu = mean(ul))
+
+ggplot(thomas_mlu, aes(x=age, y=mlu)) + geom_line() + geom_smooth() + theme_bw()
+```
+
+#### Rate of Overregularization Over Development
+```{r}
+ggplot(thomas_overall_or_rates, aes(x=age, y=or_rate)) + geom_line() + geom_smooth() + theme_bw()
+```
+
+#### Relationship of Overregularization to Age
+```{r}
+lm(overreg ~ age + error + ul, thomas_utts) %>% summary()
+```
+
+#### Rate of Error Over Development
+```{r}
+ggplot(thomas_overall_or_rates, aes(x=age, y=error_rate)) + geom_line() + geom_smooth() + theme_bw()
+```
+
+### For Kid-Parent Utterance-Response pairs where child makes use of past-tense or plural
+#### Rate of Overregularization Over Development
+```{r}
+ggplot(thomas_or_rates, aes(x=age, y=or_rate)) + geom_line() + geom_smooth() + theme_bw()
+```
+
+#### Rate of Error Over Development
+```{r}
+ggplot(thomas_or_rates, aes(x=age, y=error_rate)) + geom_line() + geom_smooth() + theme_bw()
+```
+
+## Response Time Density by Error Type
+```{r}
+ggplot(thomas_past_plural_utts %>% filter(response_time > -2 & response_time < 2), aes(x = response_time, fill=error_type)) + 
+  geom_density(alpha = .4) + theme_bw()
+```
+
+```{r}
+loggable <- thomas_past_plural_utts %>%
+  filter(response_time > 0 & response_time < 2.5)
+
+loggable_flipped <- thomas_past_plural_utts %>%
+  filter(response_time < 0 & response_time > -2.5) %>%
+  mutate(response_time = abs(response_time))
+```
+
+#### Right Side
+```{r}
+ggplot(loggable, aes(x=log(response_time), fill=error)) + geom_density(alpha=.4) + theme_bw()
+
+ggplot(loggable, aes(x=log(response_time), fill=error_type)) + geom_density(alpha=.4) + theme_bw()
+
+ggplot(loggable %>% filter(error_type != "other error"), aes(x=log(response_time), fill=error_type)) + geom_density(alpha=.4) + theme_bw()
+
+ggplot(loggable, aes(x=response_time)) + geom_density(alpha=.4) + theme_bw() + facet_wrap(~error_type)
+
+```
+
+#### Left Side
+```{r}
+ggplot(loggable_flipped, aes(x=log(response_time), fill=error_type)) + geom_density(alpha=.4) + theme_bw()
+```
+
+## Logistic Regressions
+### Error Presence
+```{r}
+lm(response_time ~ error + age + ul, thomas_past_plural_utts) %>% summary()
+lm(response_time ~ error + age + ul, thomas_past_plural_utts %>% filter(response_time < 0)) %>% summary()
+lm(response_time ~ error_type + age + ul, thomas_past_plural_utts %>% filter(response_time < 0)) %>% summary()
+```
+
+#### Right Side
+```{r}
+lm(response_time ~ error + age + ul, loggable) %>% summary()
+```
+
+#### Left Side
+```{r}
+lm(log(response_time) ~ error + age + ul, loggable_flipped) %>% summary()
+```
+
+### Type of Error
+```{r}
+lm(response_time ~ error + age + ul, loggable) %>% summary()
+```
+
+#### Right Side
+```{r}
+lm(response_time ~ error_type + age + ul, loggable) %>% summary()
+lm(log(response_time) ~ error + age + ul, loggable) %>% summary()
+```
+
+#### Left Side
+```{r}
+lm(response_time ~ error_type + age + ul, thomas_past_plural_utts %>% filter(response_time < 0)) %>% summary()
+lm(log(response_time) ~ error_type + age + ul, loggable_flipped) %>% summary()
+```
+
+## General Response Time Distributions by Error Type
+```{r}
+ggplot(thomas_past_plural_utts %>% filter(response_time > -2.5 & response_time < 2.5), aes(x=response_time, fill=error_type)) + geom_density(alpha=.6) +
+  geom_vline(xintercept=0, linetype="dotted", color="red") +
+  facet_grid(error_type ~ .) + theme_classic() + ggtitle("Thomas") + ylim(0, 3.5)
+```

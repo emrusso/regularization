@@ -1,0 +1,442 @@
+"","utterance","response","response_time","speaker","responder","utterance_time","error","age","past_tense","plural","overlap","source_file","overreg_candidate"
+"1","one ladybirds","where's the ladybird",0.26299999999992,"CHI","MOT",2.22900000000004,TRUE,24,FALSE,TRUE,FALSE,"fraser/2-00-01b.xml",TRUE
+"2","broken blues clues","broken blues clues",0.0389999999999873,"CHI","MOT",2.61200000000008,TRUE,24,TRUE,FALSE,FALSE,"fraser/2-00-02a.xml",TRUE
+"3","a crickets","mhm hm",0.174999999999727,"CHI","MOT",1.39300000000003,TRUE,24,FALSE,TRUE,FALSE,"fraser/2-00-03b.xml",TRUE
+"4","two feets","oh oh oh",0.012000000000171,"CHI","MOT",1.05599999999981,TRUE,24,FALSE,TRUE,FALSE,"fraser/2-00-10a.xml",TRUE
+"5","zero done","you done it",-0.998000000000047,"CHI","MOT",1.03300000000036,TRUE,24,TRUE,FALSE,TRUE,"fraser/2-00-10a.xml",TRUE
+"6","Jwww the balls","Jwww's in the balls isn't he",0.0180000000000291,"CHI","MOT",2.10199999999986,TRUE,24,FALSE,TRUE,FALSE,"fraser/2-00-12a.xml",TRUE
+"7","Jwww no shoes on","yeah",0,"CHI","MOT",1.904,TRUE,24,FALSE,TRUE,FALSE,"fraser/2-00-12a.xml",TRUE
+"8","glasses on","oh no be careful with them because you're hurting Mummy",0.0809999999996762,"CHI","MOT",1.05700000000024,TRUE,24,FALSE,TRUE,FALSE,"fraser/2-00-12a.xml",TRUE
+"9","glasses on","your glasses are here",0.0230000000001382,"CHI","MOT",1.43899999999985,TRUE,24,FALSE,TRUE,FALSE,"fraser/2-00-12a.xml",TRUE
+"10","oh Fraser done","oh Fraser what have you done",0.336000000000013,"CHI","MOT",3.40199999999993,TRUE,24,TRUE,FALSE,FALSE,"fraser/2-00-15a.xml",TRUE
+"11","xxx things do","so many things to do",0.298999999999978,"CHI","MOT",2.00900000000001,TRUE,24,FALSE,TRUE,FALSE,"fraser/2-00-15a.xml",TRUE
+"12","Fraser turn pages","what are you saying sweetheart",3.34900000000016,"CHI","MOT",1.98500000000013,TRUE,24,FALSE,TRUE,FALSE,"fraser/2-00-15a.xml",TRUE
+"13","no feets","where's Fraser's feet",0.012000000000171,"CHI","MOT",1.1840000000002,TRUE,24,FALSE,TRUE,FALSE,"fraser/2-00-15a.xml",TRUE
+"14","the ball wet","the ball is wet yes",0.228000000000009,"CHI","MOT",2.91399999999999,TRUE,24,TRUE,FALSE,FALSE,"fraser/2-00-16a.xml",TRUE
+"15","that was lion get out","what are you saying to the lion",1.42399999999998,"CHI","MOT",3.22800000000007,TRUE,24,TRUE,FALSE,FALSE,"fraser/2-00-16a.xml",TRUE
+"16","that cards","yeah",0.0110000000000809,"CHI","MOT",1.19599999999991,TRUE,24,FALSE,TRUE,FALSE,"fraser/2-00-18a.xml",TRUE
+"17","zero got","oh Fraser don't do that darling",0.26700000000028,"CHI","MOT",0.707999999999629,TRUE,24,TRUE,FALSE,FALSE,"fraser/2-00-18a.xml",TRUE
+"18","Twww got balloon","he's got a balloon and what color is the balloon",1.32399999999996,"CHI","MOT",1.31200000000001,TRUE,24,TRUE,FALSE,FALSE,"fraser/2-00-18b.xml",TRUE
+"19","zero got blanket","yes",0.0670000000000073,"CHI","MOT",1.97299999999996,TRUE,24,TRUE,FALSE,FALSE,"fraser/2-00-18b.xml",TRUE
+"20","birds have","that's right",-0.905999999999949,"CHI","MOT",0.905999999999949,TRUE,24,FALSE,TRUE,TRUE,"fraser/2-00-19a.xml",TRUE
+"21","sheeps","counting the sheep",0.081000000000131,"CHI","MOT",1.0329999999999,TRUE,24,FALSE,TRUE,FALSE,"fraser/2-00-19a.xml",TRUE
+"22","Patch got ice","yeah he's got an ice hasn't he",0.0579999999999927,"CHI","MOT",2.31100000000015,TRUE,24,TRUE,FALSE,FALSE,"fraser/2-00-19b.xml",TRUE
+"23","where cow gone","cow gone",0.0470000000000255,"CHI","MOT",1.04500000000007,TRUE,24,TRUE,FALSE,FALSE,"fraser/2-00-20b.xml",TRUE
+"24","where Jeannine gone","shut the door",-1.26600000000008,"CHI","MOT",2.125,TRUE,24,TRUE,FALSE,TRUE,"fraser/2-00-20v.xml",TRUE
+"25","where Daddy gone","where's Daddy gone",0.290999999999997,"CHI","MOT",1.52100000000002,TRUE,24,TRUE,FALSE,FALSE,"fraser/2-00-21b.xml",TRUE
+"26","twos hills","is that a big hill",0.951999999999998,"CHI","MOT",1.39299999999992,TRUE,24,FALSE,TRUE,FALSE,"fraser/2-00-21b.xml",TRUE
+"27","look a rabbits","yeah that's the rabbit over there isn't it",0.358999999999995,"CHI","MOT",1.893,TRUE,24,FALSE,TRUE,FALSE,"fraser/2-00-23v.xml",TRUE
+"28","sheeps","sheeps",0.162999999999954,"CHI","MOT",0.546000000000049,TRUE,24,FALSE,TRUE,FALSE,"fraser/2-00-23v.xml",TRUE
+"29","a work pennys","yes",0.13900000000001,"CHI","MOT",2.322,TRUE,24,FALSE,TRUE,FALSE,"fraser/2-00-23v.xml",TRUE
+"30","sheeps","yes",0.0699999999999363,"CHI","MOT",1.32299999999987,TRUE,24,FALSE,TRUE,FALSE,"fraser/2-00-23v.xml",TRUE
+"31","someone broken","who broke that",0.0120000000000573,"CHI","MOT",2.42700000000002,TRUE,24,TRUE,FALSE,FALSE,"fraser/2-00-24a.xml",TRUE
+"32","more ba more bale bales hay","yes",0,"CHI","MOT",2.85599999999999,TRUE,24,FALSE,TRUE,FALSE,"fraser/2-00-24b.xml",TRUE
+"33","oh the tractors","it's a tractor isn't it",0.0819999999998799,"CHI","MOT",1.81100000000015,TRUE,24,FALSE,TRUE,FALSE,"fraser/2-00-24b.xml",TRUE
+"34","orange bears","orange bear",0,"CHI","MOT",1.85799999999972,TRUE,24,FALSE,TRUE,FALSE,"fraser/2-00-24b.xml",TRUE
+"35","yeah done I done it","did you do it",0.0459999999998217,"CHI","MOT",3.1579999999999,TRUE,24,TRUE,FALSE,FALSE,"fraser/2-00-26b.xml",TRUE
+"36","done naughty","oh dear",0,"CHI","MOT",2.276,TRUE,24,TRUE,FALSE,FALSE,"fraser/2-00-27b.xml",TRUE
+"37","Jwww gone","Jwww's playing with Awww oh Jwww",-0.16800000000012,"CHI","MOT",1.93900000000008,TRUE,24,TRUE,FALSE,TRUE,"fraser/2-00-27b.xml",TRUE
+"38","zero was there","was there",0.818000000000097,"CHI","MOT",1.7879999999999,TRUE,24,TRUE,FALSE,FALSE,"fraser/2-00-28b.xml",TRUE
+"39","Mummy put Daddy pillow","yeah",0.0180000000000291,"CHI","MOT",2.49699999999984,TRUE,24,TRUE,FALSE,FALSE,"fraser/2-00-28b.xml",TRUE
+"40","a bears","the bears",0.463999999999942,"CHI","MOT",1.07999999999993,TRUE,24,FALSE,TRUE,FALSE,"fraser/2-00-28b.xml",TRUE
+"41","zero down the slides","and then you went down the slide",-0.372000000000298,"CHI","MOT",1.60200000000032,TRUE,24,FALSE,TRUE,TRUE,"fraser/2-00-28b.xml",TRUE
+"42","oh no fell it over","did it fall over",0.150000000000091,"CHI","MOT",2.21799999999985,TRUE,24,TRUE,FALSE,FALSE,"fraser/2-00-28v.xml",TRUE
+"43","got to xxx dress","you've got school soon",-0.894000000000233,"CHI","MOT",1.82300000000032,TRUE,24,TRUE,FALSE,TRUE,"fraser/2-00-30b.xml",TRUE
+"44","oh the car","Fraser the car's gone",0.151000000000295,"CHI","MOT",2.29899999999998,TRUE,25,TRUE,FALSE,FALSE,"fraser/2-01-02a.xml",TRUE
+"45","Helen a him","you reading the story now are you",2.02700000000004,"CHI","MOT",2.55399999999963,TRUE,25,TRUE,FALSE,FALSE,"fraser/2-01-06a.xml",TRUE
+"46","tell well done","well done",0.0230000000000246,"CHI","MOT",2.03200000000004,TRUE,25,TRUE,FALSE,FALSE,"fraser/2-01-07a.xml",TRUE
+"47","loved you","I love you too Fraser",0.0109999999999673,"CHI","MOT",1.11499999999978,TRUE,25,TRUE,FALSE,FALSE,"fraser/2-01-07a.xml",TRUE
+"48","I loved you loved you","I love you too Fraser",0.0700000000001637,"CHI","MOT",3.50599999999986,TRUE,25,TRUE,FALSE,FALSE,"fraser/2-01-07a.xml",TRUE
+"49","I loved you","where's Fraser",1.64800000000014,"CHI","MOT",2.03099999999995,TRUE,25,TRUE,FALSE,FALSE,"fraser/2-01-07a.xml",TRUE
+"50","I getting the shoes","no",-0.0460000000000491,"CHI","MOT",1.65999999999985,TRUE,25,FALSE,TRUE,TRUE,"fraser/2-01-10b.xml",TRUE
+"51","a sheeps have","how many sheeps are there",0.208999999999833,"CHI","MOT",1.64800000000014,TRUE,25,FALSE,TRUE,FALSE,"fraser/2-01-10b.xml",TRUE
+"52","look my nails well","yeah",-0.63900000000001,"CHI","MOT",1.98500000000001,TRUE,26,FALSE,TRUE,TRUE,"fraser/2-02-01b.xml",TRUE
+"53","lion lion's got stripes","that's right",-0.289999999999964,"CHI","MOT",2.22899999999993,TRUE,26,FALSE,TRUE,TRUE,"fraser/2-02-02a.xml",TRUE
+"54","he in the works","yeah",0.07000000000005,"CHI","MOT",1.34699999999998,TRUE,26,FALSE,TRUE,FALSE,"fraser/2-02-02b.xml",TRUE
+"55","sleepings","yeah",0,"CHI","MOT",1.70600000000002,TRUE,26,FALSE,TRUE,FALSE,"fraser/2-02-02b.xml",TRUE
+"56","they got a baby ducks","yes",0.0110000000001946,"CHI","MOT",1.71899999999982,TRUE,26,FALSE,TRUE,FALSE,"fraser/2-02-02b.xml",TRUE
+"57","she's scared the spider","she's scared of the spider",0.0349999999998545,"CHI","MOT",2.34500000000025,TRUE,26,TRUE,FALSE,FALSE,"fraser/2-02-02b.xml",TRUE
+"58","I broken again","oh Fraser",0,"CHI","MOT",2.50799999999981,TRUE,26,TRUE,FALSE,FALSE,"fraser/2-02-04a.xml",TRUE
+"59","here I go come xxx giants","have you got fi figh fo fum",3.023,"CHI","MOT",3.53,TRUE,26,FALSE,TRUE,FALSE,"fraser/2-02-04b.xml",TRUE
+"60","Little_Bill got hamster","yeah",0.0809999999996762,"CHI","MOT",2.50800000000027,TRUE,26,TRUE,FALSE,FALSE,"fraser/2-02-04b.xml",TRUE
+"61","I got","and some sandwich as well",0.0579999999999927,"CHI","MOT",0.626999999999953,TRUE,26,TRUE,FALSE,FALSE,"fraser/2-02-05a.xml",TRUE
+"62","I broke it","did Fraser break it",0.220000000000027,"CHI","MOT",1.49800000000005,TRUE,26,TRUE,FALSE,FALSE,"fraser/2-02-06a.xml",TRUE
+"63","Maisey's got big big trunk","Maisey's got a big big trunk",0.15099999999984,"CHI","MOT",3.61100000000033,TRUE,26,TRUE,FALSE,FALSE,"fraser/2-02-06a.xml",TRUE
+"64","and Grandma does got flower","yeah",0.0109999999999673,"CHI","MOT",2.52000000000004,TRUE,27,TRUE,FALSE,FALSE,"fraser/2-03-00a.xml",TRUE
+"65","you got a black hat","no",0.161999999999978,"CHI","MOT",1.59100000000001,TRUE,27,TRUE,FALSE,FALSE,"fraser/2-03-00a.xml",TRUE
+"66","that's Daddy Daddy's hairs","that's Daddy's head",0.808999999999969,"CHI","MOT",1.61400000000003,TRUE,27,FALSE,TRUE,FALSE,"fraser/2-03-00a.xml",TRUE
+"67","I got a party hat","you've got a party hat",0.116999999999962,"CHI","MOT",1.67100000000005,TRUE,27,TRUE,FALSE,FALSE,"fraser/2-03-00a.xml",TRUE
+"68","I got party hat phone","you got a party hat phone",0.0229999999999109,"CHI","MOT",2.51900000000001,TRUE,27,TRUE,FALSE,FALSE,"fraser/2-03-00a.xml",TRUE
+"69","that's that's a that that's that's a mountains","it's a mountain",0.0740000000000691,"CHI","MOT",4.00600000000031,TRUE,27,FALSE,TRUE,FALSE,"fraser/2-03-00b.xml",TRUE
+"70","it said oh","it says oh does it",0.035000000000025,"CHI","MOT",1.93900000000002,TRUE,27,TRUE,FALSE,FALSE,"fraser/2-03-03a.xml",TRUE
+"71","she got umbrella","yes",0.0580000000000496,"CHI","MOT",1.93899999999996,TRUE,27,TRUE,FALSE,FALSE,"fraser/2-03-03a.xml",TRUE
+"72","zero got got umbrella","yeah",0.0229999999999109,"CHI","MOT",1.85800000000006,TRUE,27,TRUE,FALSE,FALSE,"fraser/2-03-03a.xml",TRUE
+"73","all those peoples","all those people",0.0109999999999673,"CHI","MOT",1.73000000000002,TRUE,27,FALSE,TRUE,FALSE,"fraser/2-03-03a.xml",TRUE
+"74","the tiger have got stripes","aah",-0.695999999999913,"CHI","MOT",2.40300000000025,TRUE,27,FALSE,TRUE,TRUE,"fraser/2-03-03a.xml",TRUE
+"75","Grandma and Grandad did buy me this","did they",0.035000000000025,"CHI","MOT",3.04199999999997,TRUE,27,TRUE,FALSE,FALSE,"fraser/2-03-05a.xml",TRUE
+"76","and crisps yukky","crisps are yucky",0.428999999999633,"CHI","MOT",1.51000000000022,TRUE,27,FALSE,TRUE,FALSE,"fraser/2-03-05a.xml",TRUE
+"77","don't pieces taking Mummy outy","shall I go away",0.0119999999997162,"CHI","MOT",2.32200000000012,TRUE,27,FALSE,TRUE,FALSE,"fraser/2-03-05a.xml",TRUE
+"78","where's my pennies","where's your pennies",-0.221000000000004,"CHI","MOT",1.75300000000016,TRUE,27,FALSE,TRUE,TRUE,"fraser/2-03-05a.xml",TRUE
+"79","and those those people sleeping","is everybody sleeping",0.255000000000109,"CHI","MOT",4.13299999999981,TRUE,27,FALSE,TRUE,FALSE,"fraser/2-03-05b.xml",TRUE
+"80","the birds lucky","the birds are yucky",0.139999999999986,"CHI","MOT",2.21700000000001,TRUE,27,FALSE,TRUE,FALSE,"fraser/2-03-06a.xml",TRUE
+"81","the wheels going round and round","the wheels are going round and round",0.0930000000000177,"CHI","MOT",2.76299999999998,TRUE,27,FALSE,TRUE,FALSE,"fraser/2-03-06a.xml",TRUE
+"82","those girls hiding","yes",0.0119999999999436,"CHI","MOT",2.10100000000011,TRUE,27,FALSE,TRUE,FALSE,"fraser/2-03-06a.xml",TRUE
+"83","what he's got","I don't know",0.0109999999999673,"CHI","MOT",0.963999999999942,TRUE,27,TRUE,FALSE,FALSE,"fraser/2-03-06b.xml",TRUE
+"84","and some cups","xxx cups",0.135999999999967,"CHI","MOT",1.41599999999994,TRUE,27,FALSE,TRUE,FALSE,"fraser/2-03-06b.xml",TRUE
+"85","it's not got back to shop","it has gone back to the shop",1.02399999999989,"CHI","MOT",4.12100000000009,TRUE,27,TRUE,FALSE,FALSE,"fraser/2-03-06b.xml",TRUE
+"86","he went see Pooh","wanna go bouncing",0.125,"CHI","MOT",1.54399999999998,TRUE,28,TRUE,FALSE,FALSE,"fraser/2-04-01b.xml",TRUE
+"87","zero Twww gonna going to gone with his Daddy","ooh dear",1.83400000000006,"CHI","MOT",2.56600000000003,TRUE,28,TRUE,FALSE,FALSE,"fraser/2-04-01b.xml",TRUE
+"88","what what you have got","I've got some sauce",0.697000000000116,"CHI","MOT",2.49600000000009,TRUE,28,TRUE,FALSE,FALSE,"fraser/2-04-02a.xml",TRUE
+"89","Roo was a pig","no",0.119999999999891,"CHI","MOT",1.59100000000035,TRUE,28,TRUE,FALSE,FALSE,"fraser/2-04-02b.xml",TRUE
+"90","she got two two two blacks legs","got two black legs",0.0579999999999927,"CHI","MOT",6.65300000000025,TRUE,28,FALSE,TRUE,FALSE,"fraser/2-04-02b.xml",TRUE
+"91","good_night sheeps","see",4.96100000000024,"CHI","MOT",1.50999999999976,TRUE,28,FALSE,TRUE,FALSE,"fraser/2-04-02b.xml",TRUE
+"92","a g we seen a giraffe at the zoo today","you saw a giraffe at the zoo",-0.906000000000006,"CHI","MOT",4.62100000000001,TRUE,28,TRUE,FALSE,TRUE,"fraser/2-04-03v.xml",TRUE
+"93","and Aladdin came uh at the zoo","no",0.103999999999985,"CHI","MOT",2.61200000000002,TRUE,28,TRUE,FALSE,FALSE,"fraser/2-04-03v.xml",TRUE
+"94","oh it's fallen over","fell over again didn't it",1.80199999999991,"CHI","MOT",2.27300000000014,TRUE,28,TRUE,FALSE,FALSE,"fraser/2-04-04a.xml",TRUE
+"95","and I see the animals","and you saw what",0.301000000000045,"CHI","MOT",2.80999999999995,TRUE,28,FALSE,TRUE,FALSE,"fraser/2-04-04b.xml",TRUE
+"96","there's no rooms","there's lots of room",0.498999999999796,"CHI","MOT",1.44000000000005,TRUE,28,FALSE,TRUE,FALSE,"fraser/2-04-04b.xml",TRUE
+"97","zero gone","see it's all gone",3.49900000000002,"CHI","MOT",0.649999999999977,TRUE,28,TRUE,FALSE,FALSE,"fraser/2-04-05a.xml",TRUE
+"98","these hoops broken","the hoops are broken",0.0400000000004184,"CHI","MOT",1.904,TRUE,28,FALSE,TRUE,FALSE,"fraser/2-04-05b.xml",TRUE
+"99","tha just not a grapes","no",0.463999999999942,"CHI","MOT",2.76299999999992,TRUE,28,FALSE,TRUE,FALSE,"fraser/2-04-06a.xml",TRUE
+"100","that that ornaments goes in there","that's right",0,"CHI","MOT",3.04099999999971,TRUE,28,FALSE,TRUE,FALSE,"fraser/2-04-06a.xml",TRUE
+"101","I I got in shopping","did you",0,"CHI","MOT",2.32200000000012,TRUE,28,TRUE,FALSE,FALSE,"fraser/2-04-06a.xml",TRUE
+"102","and I hear the people in the car","pardon",0.347999999999956,"CHI","MOT",3.17000000000007,TRUE,28,FALSE,TRUE,FALSE,"fraser/2-04-06b.xml",TRUE
+"103","xxx gonna going to see the fish and Daddy's and Daddy saw the fish and you saw the fish","yeah",0.035000000000025,"CHI","MOT",7.476,TRUE,29,TRUE,FALSE,FALSE,"fraser/2-05-00a.xml",TRUE
+"104","and grandad saw the fish","did he",0.0580000000000211,"CHI","MOT",2.172,TRUE,29,TRUE,FALSE,FALSE,"fraser/2-05-00a.xml",TRUE
+"105","and Jwww seed the dustmen","did he",0.0740000000000691,"CHI","MOT",2.19399999999996,TRUE,29,TRUE,FALSE,FALSE,"fraser/2-05-00a.xml",TRUE
+"106","he got","elephant",-0.603000000000065,"CHI","MOT",0.742999999999938,TRUE,29,TRUE,FALSE,TRUE,"fraser/2-05-00a.xml",TRUE
+"107","and then we ran at little ball","was he",0.0579999999999927,"CHI","MOT",3.55200000000002,TRUE,29,TRUE,FALSE,FALSE,"fraser/2-05-00b.xml",TRUE
+"108","um he has it and that eat leaves","does he eat leaves",0.0339999999999918,"CHI","MOT",5.35300000000001,TRUE,29,FALSE,TRUE,FALSE,"fraser/2-05-01b.xml",TRUE
+"109","got big long long tail","wow",0.692000000000007,"CHI","MOT",2.29900000000004,TRUE,29,TRUE,FALSE,FALSE,"fraser/2-05-01b.xml",TRUE
+"110","went Trafford_Centre","that's right",0.0459999999999923,"CHI","MOT",2.52,TRUE,29,TRUE,FALSE,FALSE,"fraser/2-05-03a.xml",TRUE
+"111","catch your foots","catch my foot",0,"CHI","MOT",1.74199999999996,TRUE,29,FALSE,TRUE,FALSE,"fraser/2-05-03a.xml",TRUE
+"112","I be got get up","you've got to get up",0.0349999999999682,"CHI","MOT",1.93900000000008,TRUE,29,TRUE,FALSE,FALSE,"fraser/2-05-03a.xml",TRUE
+"113","he was being running","yeah",-1.81099999999992,"CHI","MOT",1.88100000000009,TRUE,29,TRUE,FALSE,TRUE,"fraser/2-05-03a.xml",TRUE
+"114","look at all these sheeps","is there lots of sheep there",0.0249999999998636,"CHI","MOT",1.72900000000004,TRUE,29,FALSE,TRUE,FALSE,"fraser/2-05-03a.xml",TRUE
+"115","is that a sausages","sausages",0.581000000000131,"CHI","MOT",2.12400000000002,TRUE,29,FALSE,TRUE,FALSE,"fraser/2-05-03a.xml",TRUE
+"116","oh look got monkey again","is it a monkey again",0.0350000000003092,"CHI","MOT",2.11299999999983,TRUE,29,TRUE,FALSE,FALSE,"fraser/2-05-03b.xml",TRUE
+"117","I got I saw the sea see the fish","you saw the sea and the fish",0.0239999999998872,"CHI","MOT",3.99299999999994,TRUE,29,TRUE,FALSE,FALSE,"fraser/2-05-03b.xml",TRUE
+"118","and I went on a train","yes",0,"CHI","MOT",2.19400000000041,TRUE,29,TRUE,FALSE,FALSE,"fraser/2-05-03b.xml",TRUE
+"119","and there was planets","and there were planets",0,"CHI","MOT",2.2170000000001,TRUE,29,TRUE,FALSE,FALSE,"fraser/2-05-03b.xml",TRUE
+"120","is it scratched it","yeah did you",-0.661999999999807,"CHI","MOT",2.08999999999969,TRUE,29,TRUE,FALSE,TRUE,"fraser/2-05-03b.xml",TRUE
+"121","I saw them","you saw what",0.475999999999999,"CHI","MOT",2.07799999999997,TRUE,29,TRUE,FALSE,FALSE,"fraser/2-05-04a.xml",TRUE
+"122","xxx seen Bear","we saw Bear we did",0.746999999999957,"CHI","MOT",1.416,TRUE,29,TRUE,FALSE,FALSE,"fraser/2-05-04a.xml",TRUE
+"123","Dipsy's not got nothing","he has",0.0230000000001382,"CHI","MOT",2.10099999999989,TRUE,29,TRUE,FALSE,FALSE,"fraser/2-05-04a.xml",TRUE
+"124","he he not got nothing","Dipsy has something on his head",0.0929999999998472,"CHI","MOT",2.65800000000013,TRUE,29,TRUE,FALSE,FALSE,"fraser/2-05-04a.xml",TRUE
+"125","is it a worms","I don't know",0.184999999999945,"CHI","MOT",1.36999999999989,TRUE,29,FALSE,TRUE,FALSE,"fraser/2-05-04a.xml",TRUE
+"126","what your said","who else is a girl",0,"CHI","MOT",1.625,TRUE,29,TRUE,FALSE,FALSE,"fraser/2-05-04b.xml",TRUE
+"127","what I got on my blanket","come on",-1.75299999999993,"CHI","MOT",1.94999999999982,TRUE,29,TRUE,FALSE,TRUE,"fraser/2-05-04b.xml",TRUE
+"128","look he's got red nose","has he got a red nose",0.0109999999999673,"CHI","MOT",2.31100000000015,TRUE,29,TRUE,FALSE,FALSE,"fraser/2-05-04b.xml",TRUE
+"129","what your said","do you like corn",0,"CHI","MOT",1.26499999999987,TRUE,29,TRUE,FALSE,FALSE,"fraser/2-05-04b.xml",TRUE
+"130","the mouth called a beak","yes",0.13900000000001,"CHI","MOT",2.42700000000002,TRUE,29,TRUE,FALSE,FALSE,"fraser/2-05-06a.xml",TRUE
+"131","just got got all these peoples","pardon",1.08000000000038,"CHI","MOT",2.90299999999979,TRUE,29,FALSE,TRUE,FALSE,"fraser/2-05-06a.xml",TRUE
+"132","I got to say that","go on then",2.13599999999997,"CHI","MOT",2.04300000000012,TRUE,29,TRUE,FALSE,FALSE,"fraser/2-05-06b.xml",TRUE
+"133","that that dragon's scared that bird","is he",0,"CHI","MOT",4.35400000000004,TRUE,30,TRUE,FALSE,FALSE,"fraser/2-06-01a.xml",TRUE
+"134","you it it was dropped it","she dropped it",0.353000000000065,"CHI","MOT",2.59999999999991,TRUE,30,TRUE,FALSE,FALSE,"fraser/2-06-01a.xml",TRUE
+"135","and and there was crabs on the floor","was there",0.220000000000255,"CHI","MOT",4.10999999999967,TRUE,30,TRUE,FALSE,FALSE,"fraser/2-06-01a.xml",TRUE
+"136","and Jwww's throwed Joe's ball","does he",0.0180000000000291,"CHI","MOT",2.65900000000011,TRUE,30,TRUE,FALSE,FALSE,"fraser/2-06-01a.xml",TRUE
+"137","no no is it is tickles","does it",-0.192000000000007,"CHI","MOT",2.84500000000003,TRUE,30,FALSE,TRUE,TRUE,"fraser/2-06-01b.xml",TRUE
+"138","four foots","two foots",0.0470000000000255,"CHI","MOT",1.23099999999999,TRUE,30,FALSE,TRUE,FALSE,"fraser/2-06-01b.xml",TRUE
+"139","no sheeps","no sheep",0,"CHI","MOT",1.26600000000008,TRUE,30,FALSE,TRUE,FALSE,"fraser/2-06-01b.xml",TRUE
+"140","why you said ooh","because the postman just came and there's some cards for Mummy",0.0470000000000255,"CHI","MOT",1.846,TRUE,30,TRUE,FALSE,FALSE,"fraser/2-06-01b.xml",TRUE
+"141","he broke it","he broke it",0.384000000000015,"CHI","MOT",1.68299999999999,TRUE,30,TRUE,FALSE,FALSE,"fraser/2-06-02a.xml",TRUE
+"142","but that one falled","did it",0.0579999999999927,"CHI","MOT",1.68299999999999,TRUE,30,TRUE,FALSE,FALSE,"fraser/2-06-02a.xml",TRUE
+"143","I don't like to cut my fingers","you have to soon",0.849999999999909,"CHI","MOT",2.14799999999968,TRUE,30,FALSE,TRUE,FALSE,"fraser/2-06-02b.xml",TRUE
+"144","I don't like to cut my fingers","your finger",0.30199999999968,"CHI","MOT",3.77300000000014,TRUE,30,FALSE,TRUE,FALSE,"fraser/2-06-02b.xml",TRUE
+"145","oh it falled","has it fallen",0.0229999999999961,"CHI","MOT",2.15899999999999,TRUE,30,TRUE,FALSE,FALSE,"fraser/2-06-03a.xml",TRUE
+"146","it falled","you fell",0.441000000000031,"CHI","MOT",1.81100000000004,TRUE,30,TRUE,FALSE,FALSE,"fraser/2-06-03a.xml",TRUE
+"147","it falled","your tower fell over did it",1.24199999999996,"CHI","MOT",1.96299999999997,TRUE,30,TRUE,FALSE,FALSE,"fraser/2-06-03a.xml",TRUE
+"148","it went twinkle twinkle little star","did it",0.0119999999999436,"CHI","MOT",2.75200000000018,TRUE,30,TRUE,FALSE,FALSE,"fraser/2-06-03a.xml",TRUE
+"149","it goed I it go down to my ear","it goes down to your ear",0.261999999999944,"CHI","MOT",4.73700000000008,TRUE,30,TRUE,FALSE,FALSE,"fraser/2-06-03b.xml",TRUE
+"150","it's went down to my mouth","it goes down to your mouth",0.126999999999953,"CHI","MOT",2.24099999999999,TRUE,30,TRUE,FALSE,FALSE,"fraser/2-06-03b.xml",TRUE
+"151","m my chins hurt","your chin hurts",0.0579999999999927,"CHI","MOT",1.846,TRUE,30,FALSE,TRUE,FALSE,"fraser/2-06-03b.xml",TRUE
+"152","I falled","did he fall",0.278999999999996,"CHI","MOT",1.67099999999982,TRUE,30,TRUE,FALSE,FALSE,"fraser/2-06-03b.xml",TRUE
+"153","you broke the box","yeah",0.405999999999949,"CHI","MOT",2.04400000000032,TRUE,30,TRUE,FALSE,FALSE,"fraser/2-06-03b.xml",TRUE
+"154","you falled","I fell",0.470000000000255,"CHI","MOT",1.63699999999972,TRUE,30,TRUE,FALSE,FALSE,"fraser/2-06-03b.xml",TRUE
+"155","is you falled","I fell",0.708000000000084,"CHI","MOT",1.56700000000001,TRUE,30,TRUE,FALSE,FALSE,"fraser/2-06-03b.xml",TRUE
+"156","and I I won't blow the candles","I know",-0.290999999999997,"CHI","MOT",3.09999999999999,TRUE,30,FALSE,TRUE,TRUE,"fraser/2-06-04b.xml",TRUE
+"157","that's Bob_the_Builder builders hat","is it",0.48700000000008,"CHI","MOT",2.03199999999993,TRUE,30,FALSE,TRUE,FALSE,"fraser/2-06-04b.xml",TRUE
+"158","look what you got","you're noisy aren't you",0.545999999999822,"CHI","MOT",2.04300000000012,TRUE,30,TRUE,FALSE,FALSE,"fraser/2-06-04b.xml",TRUE
+"159","those balls","they're bowls",0,"CHI","MOT",1.64800000000014,TRUE,30,FALSE,TRUE,FALSE,"fraser/2-06-04b.xml",TRUE
+"160","there lots of balloons","yeah",-0.371999999999957,"CHI","MOT",2.17700000000002,TRUE,30,FALSE,TRUE,TRUE,"fraser/2-06-06b.xml",TRUE
+"161","it falled","did it fall",0.486999999999966,"CHI","MOT",1.18399999999997,TRUE,30,TRUE,FALSE,FALSE,"fraser/2-06-06b.xml",TRUE
+"162","a frogs","frogs",0.104000000000042,"CHI","MOT",1.50900000000001,TRUE,30,FALSE,TRUE,FALSE,"fraser/2-06-06b.xml",TRUE
+"163","I broke it","you broke it",0.163000000000011,"CHI","MOT",1.38100000000009,TRUE,30,TRUE,FALSE,FALSE,"fraser/2-06-06b.xml",TRUE
+"164","and there's ducks","that's right",-0.544999999999845,"CHI","MOT",2.21699999999987,TRUE,30,FALSE,TRUE,TRUE,"fraser/2-06-06b.xml",TRUE
+"165","I done that all by myself","aren't you clever",0.115999999999985,"CHI","MOT",2.72800000000007,TRUE,30,TRUE,FALSE,FALSE,"fraser/2-06-06b.xml",TRUE
+"166","I might dropped it","do you want me to wipe your nose",1.42799999999988,"CHI","MOT",1.73000000000002,TRUE,30,TRUE,FALSE,FALSE,"fraser/2-06-06b.xml",TRUE
+"167","it falled again","fell didn't it",0.149999999999977,"CHI","MOT",1.38199999999995,TRUE,31,TRUE,FALSE,FALSE,"fraser/2-07-02a.xml",TRUE
+"168","a turtles","turtle",0.0229999999999109,"CHI","MOT",1.4860000000001,TRUE,31,FALSE,TRUE,FALSE,"fraser/2-07-02a.xml",TRUE
+"169","this this one fit here","does it not fit there",0.940000000000055,"CHI","MOT",2.7170000000001,TRUE,31,TRUE,FALSE,FALSE,"fraser/2-07-02a.xml",TRUE
+"170","there's lots of bears in the curtains","there's lots of what",0.359999999999985,"CHI","MOT",3.68000000000001,TRUE,31,FALSE,TRUE,FALSE,"fraser/2-07-02b.xml",TRUE
+"171","I think those bears making that noise","why are they making that noise",0.0579999999999927,"CHI","MOT",3.077,TRUE,31,FALSE,TRUE,FALSE,"fraser/2-07-02b.xml",TRUE
+"172","the rocks covered in snow","pardon",0.173999999999978,"CHI","MOT",2.50700000000006,TRUE,31,TRUE,TRUE,FALSE,"fraser/2-07-02b.xml",TRUE
+"173","two feets","no",0.522999999999683,"CHI","MOT",1.1260000000002,TRUE,31,FALSE,TRUE,FALSE,"fraser/2-07-02b.xml",TRUE
+"174","they're sheeps","what",0.0819999999998799,"CHI","MOT",1.9380000000001,TRUE,31,FALSE,TRUE,FALSE,"fraser/2-07-02b.xml",TRUE
+"175","can my feet go in","mhm hm",0.173999999999978,"CHI","MOT",1.70699999999988,TRUE,31,FALSE,TRUE,FALSE,"fraser/2-07-04a.xml",TRUE
+"176","and he got go to work","yeah",0.128000000000014,"CHI","MOT",2.113,TRUE,31,TRUE,FALSE,FALSE,"fraser/2-07-04b.xml",TRUE
+"177","I found I found bit of the doggy","found a piece of the doggy",0.313999999999965,"CHI","MOT",3.54100000000005,TRUE,31,TRUE,FALSE,FALSE,"fraser/2-07-04b.xml",TRUE
+"178","because I had play with Blue","because you play with Blue",0.0460000000000491,"CHI","MOT",5.0619999999999,TRUE,31,TRUE,FALSE,FALSE,"fraser/2-07-04b.xml",TRUE
+"179","what the colors them","they're brown",0.0460000000002765,"CHI","MOT",1.85799999999972,TRUE,31,FALSE,TRUE,FALSE,"fraser/2-07-04b.xml",TRUE
+"180","was that go there","no",0.0349999999999966,"CHI","MOT",1.602,TRUE,31,TRUE,FALSE,FALSE,"fraser/2-07-06a.xml",TRUE
+"181","those penguins got silly hats on","have they",0.0350000000000819,"CHI","MOT",3.20399999999995,TRUE,31,FALSE,TRUE,FALSE,"fraser/2-07-06a.xml",TRUE
+"182","and that's got pink flower","has that got a pink flower",0.255000000000109,"CHI","MOT",3.1579999999999,TRUE,31,TRUE,FALSE,FALSE,"fraser/2-07-06a.xml",TRUE
+"183","look I fall I fell","did you fall",0.0579999999999927,"CHI","MOT",2.6579999999999,TRUE,31,TRUE,FALSE,FALSE,"fraser/2-07-06a.xml",TRUE
+"184","look I broke it","what's up",0.127999999999702,"CHI","MOT",1.83400000000029,TRUE,31,TRUE,FALSE,FALSE,"fraser/2-07-06a.xml",TRUE
+"185","could could I do this could I broke them up","yeah",0.0239999999998872,"CHI","MOT",4.21399999999994,TRUE,31,TRUE,FALSE,FALSE,"fraser/2-07-06a.xml",TRUE
+"186","these cats not singing","they're not singing",0.13900000000001,"CHI","MOT",1.99699999999996,TRUE,31,FALSE,TRUE,FALSE,"fraser/2-07-06b.xml",TRUE
+"187","I were playing Shrek","was was Andy",0,"CHI","MOT",1.55100000000016,TRUE,31,TRUE,FALSE,FALSE,"fraser/2-07-06b.xml",TRUE
+"188","I made mess","why",0.282999999999902,"CHI","MOT",1.19600000000014,TRUE,31,TRUE,FALSE,FALSE,"fraser/2-07-07a.xml",TRUE
+"189","I broke it","you broke the jigsaw",1.82699999999977,"CHI","MOT",1.404,TRUE,31,TRUE,FALSE,FALSE,"fraser/2-07-07a.xml",TRUE
+"190","what did that can be","what is it",0.174000000000035,"CHI","MOT",2.49599999999998,TRUE,32,TRUE,FALSE,FALSE,"fraser/2-08-01b.xml",TRUE
+"191","it got spilled","what have you been eating",0.0809999999999889,"CHI","MOT",1.184,TRUE,32,TRUE,FALSE,FALSE,"fraser/2-08-02a.xml",TRUE
+"192","then I went downstairs","and then you went downstairs",0.185000000000002,"CHI","MOT",2.56600000000003,TRUE,32,TRUE,FALSE,FALSE,"fraser/2-08-02a.xml",TRUE
+"193","I fell","because you fell",0.360000000000014,"CHI","MOT",1.45100000000002,TRUE,32,TRUE,FALSE,FALSE,"fraser/2-08-02a.xml",TRUE
+"194","who was that is","you shut the door",0.267000000000053,"CHI","MOT",1.81099999999992,TRUE,32,TRUE,FALSE,FALSE,"fraser/2-08-02a.xml",TRUE
+"195","what they called","oh he's flying upside",-0.198000000000036,"CHI","MOT",1.75300000000004,TRUE,32,TRUE,FALSE,TRUE,"fraser/2-08-04a.xml",TRUE
+"196","well I just falled then","did you just fall",0.0579999999999927,"CHI","MOT",2.16000000000003,TRUE,32,TRUE,FALSE,FALSE,"fraser/2-08-04b.xml",TRUE
+"197","hey they got big block","yeah",0.0579999999999927,"CHI","MOT",2.45000000000005,TRUE,32,TRUE,FALSE,FALSE,"fraser/2-08-04b.xml",TRUE
+"198","I done it","clever boy",0.0579999999999927,"CHI","MOT",0.976000000000113,TRUE,32,TRUE,FALSE,FALSE,"fraser/2-08-04b.xml",TRUE
+"199","he's got letter","what colors his letter",0.0240000000001146,"CHI","MOT",1.63699999999994,TRUE,32,TRUE,FALSE,FALSE,"fraser/2-08-05a.xml",TRUE
+"200","and what how does this one got","how many has that one got",0.0230000000000246,"CHI","MOT",2.51900000000001,TRUE,32,TRUE,FALSE,FALSE,"fraser/2-08-05b.xml",TRUE
+"201","xxx got all the sheeps","yeah",0.777000000000044,"CHI","MOT",2.9380000000001,TRUE,32,FALSE,TRUE,FALSE,"fraser/2-08-05b.xml",TRUE
+"202","throwed them down","why did you throw them down",0.0579999999999998,"CHI","MOT",2.821,TRUE,32,TRUE,FALSE,FALSE,"fraser/2-08-06a.xml",TRUE
+"203","is it was Daddy","yeah",0.115999999999985,"CHI","MOT",2.07799999999997,TRUE,32,TRUE,FALSE,FALSE,"fraser/2-08-06a.xml",TRUE
+"204","he's fell off his bike","he fell off his bike",0.093000000000302,"CHI","MOT",3.471,TRUE,32,TRUE,FALSE,FALSE,"fraser/2-08-06a.xml",TRUE
+"205","I broke it","you broke it",0.126999999999953,"CHI","MOT",1.55600000000004,TRUE,32,TRUE,FALSE,FALSE,"fraser/2-08-06a.xml",TRUE
+"206","look I done two puzzles","have you",-0.266999999999825,"CHI","MOT",3.9699999999998,TRUE,32,FALSE,TRUE,TRUE,"fraser/2-08-06a.xml",TRUE
+"207","I got a peas on my head","are you silly",0.115999999999985,"CHI","MOT",2.25200000000007,TRUE,32,FALSE,TRUE,FALSE,"fraser/2-08-06b.xml",TRUE
+"208","and who called","isn't that Thomas",0,"CHI","MOT",3.48299999999995,TRUE,32,TRUE,FALSE,FALSE,"fraser/2-08-06b.xml",TRUE
+"209","does it fixed","does it fit",0.289999999999964,"CHI","MOT",1.85799999999972,TRUE,32,TRUE,FALSE,FALSE,"fraser/2-08-06b.xml",TRUE
+"210","it falled","never mind",2.01999999999998,"CHI","MOT",2.125,TRUE,32,TRUE,FALSE,FALSE,"fraser/2-08-06b.xml",TRUE
+"211","it falled","it fell",0.278999999999996,"CHI","MOT",2.92499999999973,TRUE,32,TRUE,FALSE,FALSE,"fraser/2-08-06b.xml",TRUE
+"212","it falled","it fell down",0.917000000000371,"CHI","MOT",2.13699999999972,TRUE,32,TRUE,FALSE,FALSE,"fraser/2-08-06b.xml",TRUE
+"213","I run off","you did",0.0349999999998545,"CHI","MOT",1.64899999999989,TRUE,33,TRUE,FALSE,FALSE,"fraser/2-09-03a.xml",TRUE
+"214","you was cross","I was cross wasn't I",-0.434000000000196,"CHI","MOT",1.63700000000017,TRUE,33,TRUE,FALSE,TRUE,"fraser/2-09-03a.xml",TRUE
+"215","Lala's falled","Lala fell",0.0579999999999927,"CHI","MOT",2.28699999999981,TRUE,33,TRUE,FALSE,FALSE,"fraser/2-09-03a.xml",TRUE
+"216","I didn't broke it","you did break it because I saw you break it",0,"CHI","MOT",1.40500000000003,TRUE,33,TRUE,FALSE,FALSE,"fraser/2-09-05b.xml",TRUE
+"217","we got kitchen","yeah",0.312999999999988,"CHI","MOT",2.26400000000001,TRUE,33,TRUE,FALSE,FALSE,"fraser/2-09-05b.xml",TRUE
+"218","this one got spikes","that's right",-0.511000000000195,"CHI","MOT",2.25300000000016,TRUE,33,FALSE,TRUE,TRUE,"fraser/2-09-05b.xml",TRUE
+"219","they not plants","oh no those are his his feet",-0.313999999999851,"CHI","MOT",1.46299999999997,TRUE,33,FALSE,TRUE,TRUE,"fraser/2-09-05b.xml",TRUE
+"220","I got finger","you've got fingers",0.742000000000189,"CHI","MOT",1.46300000000019,TRUE,33,TRUE,FALSE,FALSE,"fraser/2-09-05v.xml",TRUE
+"221","I finished","have you now",0.937999999999647,"CHI","MOT",1.13799999999992,TRUE,33,TRUE,FALSE,FALSE,"fraser/2-09-07a.xml",TRUE
+"222","I broke it","you broke it",0.151000000000067,"CHI","MOT",1.65999999999985,TRUE,33,TRUE,FALSE,FALSE,"fraser/2-09-07b.xml",TRUE
+"223","this I broke it","have you",0.336999999999989,"CHI","MOT",2.84500000000025,TRUE,33,TRUE,FALSE,FALSE,"fraser/2-09-07b.xml",TRUE
+"224","does does Daddy got a","what",2.22900000000027,"CHI","MOT",5.70100000000002,TRUE,33,TRUE,FALSE,FALSE,"fraser/2-09-07b.xml",TRUE
+"225","so it already just goed","it's a good train isn't it",3.08100000000002,"CHI","MOT",2.577,TRUE,33,TRUE,FALSE,FALSE,"fraser/2-09-08a.xml",TRUE
+"226","a forgot the other people","oh dear",0,"CHI","MOT",3.03100000000006,TRUE,33,TRUE,FALSE,FALSE,"fraser/2-09-08a.xml",TRUE
+"227","Jean Jeannine's come","not today she isn't",0.800999999999931,"CHI","MOT",3.44900000000007,TRUE,33,TRUE,FALSE,FALSE,"fraser/2-09-08b.xml",TRUE
+"228","I didn't yet","oh not yet no",0.157999999999902,"CHI","MOT",1.36999999999989,TRUE,33,TRUE,FALSE,FALSE,"fraser/2-09-09a.xml",TRUE
+"229","I didn't like the blue one said","oh",0.0119999999999436,"CHI","MOT",3.28500000000008,TRUE,33,TRUE,FALSE,FALSE,"fraser/2-09-09b.xml",TRUE
+"230","he drawn me","did she draw you",0.325000000000045,"CHI","MOT",1.53199999999993,TRUE,33,TRUE,FALSE,FALSE,"fraser/2-09-09b.xml",TRUE
+"231","she drawn me","I think she was drawing the monster",0.0110000000001946,"CHI","MOT",1.59099999999989,TRUE,33,TRUE,FALSE,FALSE,"fraser/2-09-09b.xml",TRUE
+"232","somebody broke him","who broke him",0.0579999999999927,"CHI","MOT",1.96199999999999,TRUE,33,TRUE,FALSE,FALSE,"fraser/2-09-09b.xml",TRUE
+"233","xxx they waked up","oh",0.56899999999996,"CHI","MOT",3.36599999999999,TRUE,33,TRUE,FALSE,FALSE,"fraser/2-09-09b.xml",TRUE
+"234","there was I weren't scared at the round boat","you weren't scared in the round boat",0.134000000000015,"CHI","MOT",5.72899999999998,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-00a.xml",TRUE
+"235","and there was no monster","because there was no monsters",0,"CHI","MOT",2.142,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-00a.xml",TRUE
+"236","those yellow that yellow pieces there","that yellow bit is fluff",0.418000000000006,"CHI","MOT",3.81900000000007,TRUE,34,FALSE,TRUE,FALSE,"fraser/2-10-00a.xml",TRUE
+"237","where I falled","mm",0.254999999999995,"CHI","MOT",1.34699999999998,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-00a.xml",TRUE
+"238","they was so poor","they were so poor",3.81500000000005,"CHI","MOT",2.22900000000004,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-00a.xml",TRUE
+"239","ah I stuck I stuck","is he rescuing him",0.0700000000001637,"CHI","MOT",1.81099999999969,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-00a.xml",TRUE
+"240","I going trapped it","are you going to trap it",0.650000000000091,"CHI","MOT",1.40499999999975,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-00a.xml",TRUE
+"241","but I didn't put my fleece in my trousers","you did",1.23400000000004,"CHI","MOT",3.95899999999995,TRUE,34,FALSE,TRUE,FALSE,"fraser/2-10-00b.xml",TRUE
+"242","Charlie don't play worms do they Mummy","what",0,"CHI","MOT",3.46000000000004,TRUE,34,FALSE,TRUE,FALSE,"fraser/2-10-00b.xml",TRUE
+"243","where birds","on the windowsill",0.0470000000000255,"CHI","MOT",0.940000000000055,TRUE,34,FALSE,TRUE,FALSE,"fraser/2-10-00b.xml",TRUE
+"244","the that boy playing with the blocks","yeah",-0.285000000000025,"CHI","MOT",3.11099999999999,TRUE,34,FALSE,TRUE,TRUE,"fraser/2-10-01a.xml",TRUE
+"245","I broke the map too","you broke it as well",0.104999999999961,"CHI","MOT",2.60000000000002,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-01a.xml",TRUE
+"246","did you went to the shop to see Jwww","I did",0,"CHI","MOT",3.62199999999984,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-01a.xml",TRUE
+"247","they falled over","oh",1.60199999999986,"CHI","MOT",1.80000000000018,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-01a.xml",TRUE
+"248","why were I crying","I don't know",0.0230000000001382,"CHI","MOT",2.00900000000001,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-01a.xml",TRUE
+"249","and they falled over","and they fell over",0.0819999999999936,"CHI","MOT",2.22900000000001,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-01b.xml",TRUE
+"250","look he waked up","has he woken up",0,"CHI","MOT",1.50900000000001,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-01b.xml",TRUE
+"251","but it goed","does it go away",0.0930000000000746,"CHI","MOT",1.43899999999985,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-01b.xml",TRUE
+"252","and what he got","those are ants",0,"CHI","MOT",1.74099999999999,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-01b.xml",TRUE
+"253","who drawed those","I don't know",0,"CHI","MOT",1.7529999999997,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-01b.xml",TRUE
+"254","I can't doed it","do you want me to do it for you",1.48599999999988,"CHI","MOT",2.03200000000015,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-01b.xml",TRUE
+"255","that's he got one eye","Fraser",-1.61400000000003,"CHI","MOT",2.89100000000008,TRUE,34,TRUE,FALSE,TRUE,"fraser/2-10-01b.xml",TRUE
+"256","zero don't want to get dressed","you are gonna going to get dressed Fraser",-0.489999999999782,"CHI","MOT",1.72999999999979,TRUE,34,TRUE,FALSE,TRUE,"fraser/2-10-03a.xml",TRUE
+"257","this goes in that papers","well",2.29299999999967,"CHI","MOT",2.375,TRUE,34,FALSE,TRUE,FALSE,"fraser/2-10-03a.xml",TRUE
+"258","and that haven't got any horns","no",-0.319999999999936,"CHI","MOT",3.06499999999994,TRUE,34,FALSE,TRUE,TRUE,"fraser/2-10-03b.xml",TRUE
+"259","and and that one is waked up","yes",0.06899999999996,"CHI","MOT",2.47199999999998,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-03b.xml",TRUE
+"260","and that one waked up","that's right",-1.52099999999996,"CHI","MOT",1.5440000000001,TRUE,34,TRUE,FALSE,TRUE,"fraser/2-10-03b.xml",TRUE
+"261","what did I had on holiday","that you had on holiday",0.173999999999978,"CHI","MOT",3.3090000000002,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-03b.xml",TRUE
+"262","it doesn't stamps","it should do",0,"CHI","MOT",1.625,TRUE,34,FALSE,TRUE,FALSE,"fraser/2-10-03b.xml",TRUE
+"263","did I spilled it all those books","yes",0.0460000000000065,"CHI","MOT",3.37899999999999,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-05b.xml",TRUE
+"264","that what was that one I wear","yeah",0.0120000000000573,"CHI","MOT",4.01699999999994,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-05b.xml",TRUE
+"265","is it not little blocks","no",-0.378000000000156,"CHI","MOT",2.404,TRUE,34,FALSE,TRUE,TRUE,"fraser/2-10-05b.xml",TRUE
+"266","come on let get to it","come on let's get to it",0.557000000000244,"CHI","MOT",2.39199999999983,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-05b.xml",TRUE
+"267","fell","it fell",0.476000000000113,"CHI","MOT",0.766999999999825,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-05v.xml",TRUE
+"268","I drawed it","you drawed on your hand",0.15099999999984,"CHI","MOT",1.80000000000018,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-06a.xml",TRUE
+"269","who flushed toilet","maybe Maisie flushed the toilet",0.302000000000589,"CHI","MOT",2.34599999999955,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-06a.xml",TRUE
+"270","did you found him","uh huh",0,"CHI","MOT",1.68399999999974,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-06b.xml",TRUE
+"271","Shrek sayed it","yeah",0.0700000000001637,"CHI","MOT",2.13599999999997,TRUE,34,TRUE,FALSE,FALSE,"fraser/2-10-06b.xml",TRUE
+"272","they hurted me","the spiky flowers",0.0120000000000005,"CHI","MOT",1.70700000000005,TRUE,35,TRUE,FALSE,FALSE,"fraser/2-11-00a.xml",TRUE
+"273","maybe that Tyrannosaurus_rex ate them","do you think the Tyrannosaurus_rex ate them",0.3599999999999,"CHI","MOT",4.54000000000008,TRUE,35,TRUE,FALSE,FALSE,"fraser/2-11-00a.xml",TRUE
+"274","maybe we taked the gorillas away","aren't you supposed to spin this here",0,"CHI","MOT",4.48099999999999,TRUE,35,TRUE,FALSE,FALSE,"fraser/2-11-00a.xml",TRUE
+"275","and he and he runned away","then he runs away",0.0109999999999673,"CHI","MOT",2.42699999999991,TRUE,35,TRUE,FALSE,FALSE,"fraser/2-11-00b.xml",TRUE
+"276","why why why why do those people got ice","because its a hot day there",0.00199999999995271,"CHI","MOT",6.00199999999995,TRUE,35,TRUE,TRUE,FALSE,"fraser/2-11-00b.xml",TRUE
+"277","she throwed it","did Lala throw the dice",0.487999999999829,"CHI","MOT",1.9970000000003,TRUE,35,TRUE,FALSE,FALSE,"fraser/2-11-00b.xml",TRUE
+"278","maybe h maybe he maybe maybe maybe he fell","maybe he fell",-0.30199999999968,"CHI","MOT",8.38200000000006,TRUE,35,TRUE,FALSE,TRUE,"fraser/2-11-00b.xml",TRUE
+"279","he's handed the spoon","oh",1.46299999999974,"CHI","MOT",2.77500000000009,TRUE,35,TRUE,FALSE,FALSE,"fraser/2-11-00b.xml",TRUE
+"280","what they made","what have they made",0.371000000000095,"CHI","MOT",1.82299999999987,TRUE,35,TRUE,FALSE,FALSE,"fraser/2-11-01a.xml",TRUE
+"281","that two towels","two blue towels",0.0459999999999994,"CHI","MOT",2.74,TRUE,35,FALSE,TRUE,FALSE,"fraser/2-11-01b.xml",TRUE
+"282","have have your plants grown up yet","have my plants grown up yet",0.0339999999999918,"CHI","MOT",3.40200000000004,TRUE,35,TRUE,TRUE,FALSE,"fraser/2-11-01b.xml",TRUE
+"283","xxx and them other grown up yet","no",0.0810000000000173,"CHI","MOT",4.12199999999996,TRUE,35,TRUE,FALSE,FALSE,"fraser/2-11-01b.xml",TRUE
+"284","maybe I broke it","you did break it",0.0470000000000255,"CHI","MOT",2.03099999999995,TRUE,35,TRUE,FALSE,FALSE,"fraser/2-11-01b.xml",TRUE
+"285","xxx didn't said no","his grandmother didn't say no",0.162000000000035,"CHI","MOT",2.7170000000001,TRUE,35,TRUE,FALSE,FALSE,"fraser/2-11-01b.xml",TRUE
+"286","why does he counted","he wanted to see how many teeth you had",0.0470000000000255,"CHI","MOT",1.53200000000015,TRUE,35,TRUE,FALSE,FALSE,"fraser/2-11-01b.xml",TRUE
+"287","he got all him spikes on his back","he's got orange spots",1.05399999999963,"CHI","MOT",3.41300000000001,TRUE,35,TRUE,TRUE,FALSE,"fraser/2-11-01b.xml",TRUE
+"288","it hurted me","did it hurt you",0.0349999999998545,"CHI","MOT",1.65999999999985,TRUE,35,TRUE,FALSE,FALSE,"fraser/2-11-01b.xml",TRUE
+"289","why did you said so","you saw Jeannine today as well didn't you",1.16200000000001,"CHI","MOT",3.61100000000002,TRUE,35,TRUE,FALSE,FALSE,"fraser/2-11-02b.xml",TRUE
+"290","I singed that one","who's Dot Man",0,"CHI","MOT",1.91500000000002,TRUE,35,TRUE,FALSE,FALSE,"fraser/2-11-02b.xml",TRUE
+"291","who's he called","I know that's Orangekitten",-0.579999999999927,"CHI","MOT",1.75300000000016,TRUE,35,TRUE,FALSE,TRUE,"fraser/2-11-02b.xml",TRUE
+"292","two oranges circle","that's right",0.0579999999999927,"CHI","MOT",2.10199999999986,TRUE,35,FALSE,TRUE,FALSE,"fraser/2-11-02v.xml",TRUE
+"293","look it's Jwww's got","what has he got",0.185999999999922,"CHI","MOT",1.80000000000018,TRUE,35,TRUE,FALSE,FALSE,"fraser/2-11-04a.xml",TRUE
+"294","I get these a lots of shapes","you're gonna going to get lots of shapes",1.24399999999991,"CHI","MOT",2.72900000000004,TRUE,35,FALSE,TRUE,FALSE,"fraser/2-11-04a.xml",TRUE
+"295","w w w w we we just was messing them up","I know",0.0349999999998545,"CHI","MOT",5.71199999999999,TRUE,35,TRUE,FALSE,FALSE,"fraser/2-11-04a.xml",TRUE
+"296","play snakes and ladders Mummy and Daddy's room","no",0.15099999999984,"CHI","MOT",3.1110000000001,TRUE,35,FALSE,TRUE,FALSE,"fraser/2-11-04b.xml",TRUE
+"297","Swiper taked it","Swiper took the ball",0.151000000000067,"CHI","MOT",1.97299999999996,TRUE,35,TRUE,FALSE,FALSE,"fraser/2-11-04b.xml",TRUE
+"298","zero ate carrots","you ate carrots",-0.284999999999997,"CHI","MOT",1.49199999999999,TRUE,35,FALSE,TRUE,TRUE,"fraser/2-11-06b.xml",TRUE
+"299","you have to see the lions won't and the tigers won't scratch me up","shall we put some cream on it",1.70599999999996,"CHI","MOT",8.52200000000005,TRUE,35,FALSE,TRUE,FALSE,"fraser/2-11-06b.xml",TRUE
+"300","it is cars","imagine that",0.875999999999976,"CHI","MOT",1.78800000000001,TRUE,35,FALSE,TRUE,FALSE,"fraser/2-11-06b.xml",TRUE
+"301","teared it again","Jwww what",0.506000000000085,"CHI","MOT",1.9849999999999,TRUE,35,TRUE,FALSE,FALSE,"fraser/2-11-06b.xml",TRUE
+"302","it falled over","it's alright",0.0960000000000036,"CHI","MOT",2.22900000000027,TRUE,35,TRUE,FALSE,FALSE,"fraser/2-11-06b.xml",TRUE
+"303","I can't find this bit off","do you want me to do it for you",3.84999999999991,"CHI","MOT",2.14199999999983,TRUE,35,TRUE,FALSE,FALSE,"fraser/2-11-06b.xml",TRUE
+"304","I made a present","pardon",0.800999999999931,"CHI","MOT",2.39699999999993,TRUE,35,TRUE,FALSE,FALSE,"fraser/2-11-06b.xml",TRUE
+"305","why those holes in","because it plugs into whatever you want to make work",0.370000000000346,"CHI","MOT",1.96199999999999,TRUE,35,FALSE,TRUE,FALSE,"fraser/2-11-06b.xml",TRUE
+"306","did did I drank it all","yeah you drank your Fruitshoot as well didn't you",0,"CHI","MOT",2.27600000000007,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-00b.xml",TRUE
+"307","sheeps","sheeps",0.0579999999999927,"CHI","MOT",0.883000000000038,TRUE,36,FALSE,TRUE,FALSE,"fraser/3-00-00b.xml",TRUE
+"308","they eated them all","did he eat them all up",0.0580000000004475,"CHI","MOT",1.75399999999991,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-00b.xml",TRUE
+"309","it sticked","oh",0.139000000000124,"CHI","MOT",1.41699999999992,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-00b.xml",TRUE
+"310","is is those are dinosaurs","yeah they're dinosaurs",-0.203000000000202,"CHI","MOT",2.27600000000007,TRUE,36,FALSE,TRUE,TRUE,"fraser/3-00-02b.xml",TRUE
+"311","when Nwww goed in the paddling pool","yeah",0,"CHI","MOT",2.86799999999994,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-04a.xml",TRUE
+"312","but now he got one teeth","now he's got one tooth",0.0279999999999916,"CHI","MOT",2.77500000000001,TRUE,36,FALSE,TRUE,FALSE,"fraser/3-00-04b.xml",TRUE
+"313","that one that one up that one waked up","that one's woken up",0.126000000000005,"CHI","MOT",4.88800000000001,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-04b.xml",TRUE
+"314","what did you bought","this",0.115999999999985,"CHI","MOT",2.06700000000001,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-04b.xml",TRUE
+"315","why did why did you bought that","because",0.16799999999995,"CHI","MOT",2.346,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-04b.xml",TRUE
+"316","but you came in didn't you","yeah",0.0109999999999673,"CHI","MOT",2.77499999999998,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-04b.xml",TRUE
+"317","what did it did","it's ripped a bit",0.0819999999998799,"CHI","MOT",1.68299999999999,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-04b.xml",TRUE
+"318","what did it did","what does it do",0.186000000000149,"CHI","MOT",1.74099999999999,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-04b.xml",TRUE
+"319","did I did it","yeah",0.0700000000001637,"CHI","MOT",1.16100000000006,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-04b.xml",TRUE
+"320","it it needs that elephant right there what I sticked on","yeah that's right",0.00299999999992906,"CHI","MOT",3.79700000000003,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-05a.xml",TRUE
+"321","who made it","pardon",0.231999999999971,"CHI","MOT",1.57899999999995,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-05b.xml",TRUE
+"322","that weren't a song","was it not a song",0.163000000000011,"CHI","MOT",1.47399999999993,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-06a.xml",TRUE
+"323","it was a bird","yeah those are birds that are very far away aren't they",0.0579999999999927,"CHI","MOT",1.40499999999997,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-06a.xml",TRUE
+"324","there does no alligators","yes there are alligators",0.012000000000171,"CHI","MOT",1.96199999999999,TRUE,36,FALSE,TRUE,FALSE,"fraser/3-00-06a.xml",TRUE
+"325","did I had one","yeah you've already had one haven't you",0.069999999999709,"CHI","MOT",1.80000000000018,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-06b.xml",TRUE
+"326","so I goed back home instead","what darling",1.11700000000019,"CHI","MOT",2.65900000000011,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-06b.xml",TRUE
+"327","be he I didn't saw him","did you not see him",0.0349999999998545,"CHI","MOT",4.40000000000009,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-08a.xml",TRUE
+"328","those ones over there what we made","oh right yes",0.0349999999998545,"CHI","MOT",3.02999999999975,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-08a.xml",TRUE
+"329","you didn't went out did you Mum","well I did",0.046999999999997,"CHI","MOT",2.345,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-08b.xml",TRUE
+"330","but why they got little bit water in","because the bath is still a little bit wet isn't it",0.125999999999976,"CHI","MOT",3.21599999999989,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-08b.xml",TRUE
+"331","it breaked","did it break",0.711999999999989,"CHI","MOT",1.54500000000007,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-10a.xml",TRUE
+"332","I already started","you look like you're making a mess to me",-0.33600000000024,"CHI","MOT",2.04300000000012,TRUE,36,TRUE,FALSE,TRUE,"fraser/3-00-10a.xml",TRUE
+"333","oops it come downs again","well put it on the floor",2.98100000000022,"CHI","MOT",2.10099999999966,TRUE,36,FALSE,TRUE,FALSE,"fraser/3-00-10a.xml",TRUE
+"334","but we didn't went in","but you didn't went in",0.163000000000011,"CHI","MOT",1.85699999999997,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-10b.xml",TRUE
+"335","but you don't stamped on books do you","no",-0.627000000000066,"CHI","MOT",2.94900000000007,TRUE,36,TRUE,FALSE,TRUE,"fraser/3-00-10b.xml",TRUE
+"336","I already done the kangaroo","you've already done the kangaroo haven't you",0,"CHI","MOT",2.92500000000018,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-10b.xml",TRUE
+"337","but why she not picking those muds up","she will do in a minute",0.759999999999764,"CHI","MOT",3.28499999999985,TRUE,36,FALSE,TRUE,FALSE,"fraser/3-00-10b.xml",TRUE
+"338","did I broke it","I hope not",0.115999999999985,"CHI","MOT",1.67200000000003,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-10b.xml",TRUE
+"339","I hope I didn't broke it","and I hope you didn't break it as well",0.0909999999998945,"CHI","MOT",2.35699999999997,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-10b.xml",TRUE
+"340","did somebody made a mess","yeah",0.173999999999978,"CHI","MOT",2.28700000000003,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-11a.xml",TRUE
+"341","I run away","and you had to have your tea didn't you",0.546000000000276,"CHI","MOT",1.17200000000003,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-11a.xml",TRUE
+"342","why did we already done them","why've we already done them",0.834000000000287,"CHI","MOT",2.57299999999987,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-11a.xml",TRUE
+"343","we haven't got I haven't got blue pile today","have you not",0.165999999999997,"CHI","MOT",4.504,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-13b.xml",TRUE
+"344","we haven't got blue pile today","what happened to the blue pile then",0.0579999999999927,"CHI","MOT",2.54300000000001,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-13b.xml",TRUE
+"345","that's why it breaked","it's not very good is it",0.0649999999999977,"CHI","MOT",2.089,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-13b.xml",TRUE
+"346","I taked them off","oh Fraser",0.046999999999997,"CHI","MOT",1.52100000000002,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-13b.xml",TRUE
+"347","and I were xxx","did you go to babyschool today",0.127999999999986,"CHI","MOT",1.21899999999999,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-13b.xml",TRUE
+"348","but you wasn't cross","who wasn't cross",0.173999999999978,"CHI","MOT",1.60199999999986,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-13b.xml",TRUE
+"349","Little_bear hurted it","Little_bear hurt it",0.0230000000001382,"CHI","MOT",3.16899999999987,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-13b.xml",TRUE
+"350","I want read these ones","no",-1.97299999999996,"CHI","MOT",1.97299999999996,TRUE,36,FALSE,TRUE,TRUE,"fraser/3-00-13v.xml",TRUE
+"351","look I got dinosaur piece","yeah keep going",0,"CHI","MOT",1.67200000000003,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-13v.xml",TRUE
+"352","I breaked the Thomas thing","you did",0.559000000000083,"CHI","MOT",2.75099999999998,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-15b.xml",TRUE
+"353","I telled them off","did you",0.0930000000000746,"CHI","MOT",1.38199999999983,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-15b.xml",TRUE
+"354","that bit came off","mhm hm",-1.75300000000016,"CHI","MOT",1.77600000000029,TRUE,36,TRUE,FALSE,TRUE,"fraser/3-00-15b.xml",TRUE
+"355","it breaked that bit","xxx and see",1.88299999999981,"CHI","MOT",2.10100000000011,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-15b.xml",TRUE
+"356","they came out","what's come out",0.469000000000051,"CHI","MOT",1.3119999999999,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-15b.xml",TRUE
+"357","it falled a bit","does it go",0.603999999999814,"CHI","MOT",1.53200000000015,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-15b.xml",TRUE
+"358","why is that truck fell down","I don't know",0.341999999999985,"CHI","MOT",3.15800000000002,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-16a.xml",TRUE
+"359","my trousers came off","come on let's get your pants back on please",3.66799999999989,"CHI","MOT",2.47299999999996,TRUE,36,TRUE,TRUE,FALSE,"fraser/3-00-16a.xml",TRUE
+"360","but why is that truck fell off","pardon",0.186000000000149,"CHI","MOT",2.87999999999988,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-16a.xml",TRUE
+"361","now that one woken up didn't it","yeah he's woken up hasn't he",0,"CHI","MOT",2.6239999999998,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-16a.xml",TRUE
+"362","but why she got why has she got mask","well they've all got masks haven't they because they've all made masks at school",0.75,"CHI","MOT",3.63399999999996,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-16b.xml",TRUE
+"363","he taked it off","he did",0.0249999999999773,"CHI","MOT",1.39300000000003,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-16b.xml",TRUE
+"364","when I falled","did you bang it",0.118999999999915,"CHI","MOT",1.85800000000017,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-16b.xml",TRUE
+"365","did you caught me","yeah",0.0430000000001201,"CHI","MOT",2.19499999999994,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-16b.xml",TRUE
+"366","who breaked the big truck","nobody broke it Fraser",0,"CHI","MOT",2.8900000000001,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-16b.xml",TRUE
+"367","I throwed it","yeah",0.0740000000000691,"CHI","MOT",1.68299999999999,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-16b.xml",TRUE
+"368","we got some when we goed to the beach didn't we","that's right",0.267000000000053,"CHI","MOT",3.64499999999998,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-16b.xml",TRUE
+"369","no it was Bob singed it","oh was it Bob singing",0.104000000000042,"CHI","MOT",1.60300000000007,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-16b.xml",TRUE
+"370","look the pieces not a bit noisy","it is a bit noisy",0.105000000000018,"CHI","MOT",2.35699999999997,TRUE,36,FALSE,TRUE,FALSE,"fraser/3-00-16b.xml",TRUE
+"371","who drawed on Lofty's eye","I don't know",0.11600000000044,"CHI","MOT",2.125,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-16b.xml",TRUE
+"372","um felt game gone","I don't know",0.208000000000084,"CHI","MOT",1.846,TRUE,36,TRUE,FALSE,TRUE,"fraser/3-00-16b.xml",TRUE
+"373","I I eated a big yoghurt","you were eating a big yoghurt",-0.116,"CHI","MOT",2.38,TRUE,36,TRUE,FALSE,TRUE,"fraser/3-00-18a.xml",TRUE
+"374","did just have one","yeah you just had one",0.174000000000035,"CHI","MOT",1.40499999999997,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-18b.xml",TRUE
+"375","I nearly goed in the mud","yeah you did didn't you",0.0230000000001382,"CHI","MOT",1.82299999999987,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-18b.xml",TRUE
+"376","did I missed him","yeah because if the door's opening that means Daddy's already in the house doesn't it",-0.267000000000053,"CHI","MOT",1.35899999999992,TRUE,36,TRUE,FALSE,TRUE,"fraser/3-00-19a.xml",TRUE
+"377","and these are three mouses","three mice",0.0929999999998472,"CHI","MOT",2.50800000000027,TRUE,36,FALSE,TRUE,FALSE,"fraser/3-00-19a.xml",TRUE
+"378","did you went","yeah",0.0349999999999682,"CHI","MOT",0.696000000000026,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-19b.xml",TRUE
+"379","we only bought today","oh dear",0,"CHI","MOT",1.79899999999998,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-19b.xml",TRUE
+"380","is he the baddies too","yeah",0.00300000000004275,"CHI","MOT",1.50900000000001,TRUE,36,FALSE,TRUE,FALSE,"fraser/3-00-19b.xml",TRUE
+"381","is he the baddies","yes",0.602999999999952,"CHI","MOT",1.85800000000006,TRUE,36,FALSE,TRUE,FALSE,"fraser/3-00-19b.xml",TRUE
+"382","that that's a baddie and that's a baddie and that's the baddie and that's a baddie and that's a baddie and that's a baddies","yes",0.0460000000000491,"CHI","MOT",8.32399999999996,TRUE,36,FALSE,TRUE,FALSE,"fraser/3-00-19b.xml",TRUE
+"383","there was dustbin lorry","no",0.418000000000006,"CHI","MOT",1.82299999999998,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-20a.xml",TRUE
+"384","what's grey because that didn't go there","but I thought you said it went over there",0.572000000000116,"CHI","MOT",2.89099999999985,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-20a.xml",TRUE
+"385","I heared the people","you heard the people",0.0350000000000108,"CHI","MOT",1.405,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-20b.xml",TRUE
+"386","my foots have gone","your feet have gone",0.0579999999999927,"CHI","MOT",1.68299999999999,TRUE,36,FALSE,TRUE,FALSE,"fraser/3-00-20b.xml",TRUE
+"387","do you know who was that green one was it","that's a tree",0.0470000000000255,"CHI","MOT",2.72799999999995,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-21b.xml",TRUE
+"388","I wanna read a boys","you want to read the boys",0.267000000000053,"CHI","MOT",2.06700000000001,TRUE,36,FALSE,TRUE,FALSE,"fraser/3-00-21b.xml",TRUE
+"389","I think this one I think I think these ones supposed to be up","who made this",0.0950000000000273,"CHI","MOT",5.202,TRUE,36,FALSE,TRUE,FALSE,"fraser/3-00-21b.xml",TRUE
+"390","it drinked it all","it drank all the juice didn't it",0.0340000000001055,"CHI","MOT",1.40499999999997,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-21b.xml",TRUE
+"391","where did you do did that","how did I do that",0.00299999999992906,"CHI","MOT",2.09000000000015,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-21b.xml",TRUE
+"392","will I just carried it","yeah",0.139000000000124,"CHI","MOT",1.67200000000003,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-21b.xml",TRUE
+"393","I nearly falled then","that's not good is it",0.662000000000006,"CHI","MOT",2.18199999999999,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-21v.xml",TRUE
+"394","the the train said it","you didn't say it",0.0700000000001637,"CHI","MOT",2.94899999999984,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-21v.xml",TRUE
+"395","how did Wendy did that","pardon",2.29599999999982,"CHI","MOT",2.22900000000004,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-23a.xml",TRUE
+"396","how did Wendy did that","like this",0.184999999999945,"CHI","MOT",1.93900000000008,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-23a.xml",TRUE
+"397","why did it went down","because he has to put it down when he puts it away",1.49800000000005,"CHI","MOT",1.99700000000007,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-23a.xml",TRUE
+"398","said they not","they are",0.0349999999999682,"CHI","MOT",1.32399999999996,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-25a.xml",TRUE
+"399","gone whoo","does it",-0.499000000000024,"CHI","MOT",1.75300000000016,TRUE,36,TRUE,FALSE,TRUE,"fraser/3-00-25a.xml",TRUE
+"400","er have you just have xxx had a rectangle","had the rectangles",0.427000000000135,"CHI","MOT",5.23599999999988,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-25a.xml",TRUE
+"401","who broke it","I don't know",0.25,"CHI","MOT",3.40200000000002,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-26a.xml",TRUE
+"402","I seen Maisy in here","well bring the book over here",0.534000000000106,"CHI","MOT",2.75199999999995,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-26a.xml",TRUE
+"403","I breaked it","are you breaking it",0,"CHI","MOT",1.20699999999999,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-26b.xml",TRUE
+"404","did I missed it","yeah you missed it",0.0250000000000909,"CHI","MOT",1.33500000000004,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-26b.xml",TRUE
+"405","I sat on the Vimto","you sat on the Vimto",0.0960000000000036,"CHI","MOT",2.148,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-27b.xml",TRUE
+"406","we got lotsa things haven't we","yes",0.410999999999945,"CHI","MOT",1.97900000000004,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-27b.xml",TRUE
+"407","look the cat eated that thing","did it",0.254999999999654,"CHI","MOT",3.3090000000002,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-27b.xml",TRUE
+"408","I runned on the white bit","you did",0.06899999999996,"CHI","MOT",2.36900000000014,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-27b.xml",TRUE
+"409","where did you bought those","got them from the shops",0.0289999999999964,"CHI","MOT",1.67200000000003,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-29a.xml",TRUE
+"410","did he didn't want to play with me anymore","no",0.0119999999997162,"CHI","MOT",2.98300000000017,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-29a.xml",TRUE
+"411","this one got puddle","we've got lots of things in here but Jwww doesn't sleep in here anymore does he",0.184999999999945,"CHI","MOT",1.64899999999989,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-29a.xml",TRUE
+"412","then then we slept in this bed didn't we","did she sleep up there",0,"CHI","MOT",4.82999999999993,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-29a.xml",TRUE
+"413","you runned on crocodile lake","again",0.242999999999938,"CHI","MOT",2.24099999999999,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-29b.xml",TRUE
+"414","the but the wind breaked it","no you broke it",0.0349999999999682,"CHI","MOT",2.57799999999997,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-29b.xml",TRUE
+"415","no the wind blowed it away","no I think you were coloring with it and you broke it Fraser",0.463999999999942,"CHI","MOT",2.45000000000005,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-29b.xml",TRUE
+"416","that sound came with the owl and the pussycat","the sound",0.949000000000069,"CHI","MOT",3.44799999999987,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-29b.xml",TRUE
+"417","and lovely foots","and lovely feet",0.0119999999999436,"CHI","MOT",1.31099999999992,TRUE,36,FALSE,TRUE,FALSE,"fraser/3-00-29b.xml",TRUE
+"418","someone breaked it","yeah I know",0.0349999999998545,"CHI","MOT",1.60199999999986,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-29b.xml",TRUE
+"419","I goed in that boat with Daddy and I goed that boat with you","yeah",0.0230000000001382,"CHI","MOT",4.21500000000015,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-29b.xml",TRUE
+"420","did he Jwww didn't want to go in there did he","no he didn't did he",0,"CHI","MOT",3.30899999999974,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-29b.xml",TRUE
+"421","Jwww goed on water ride didn't he","he did in the end yeah",0.293999999999869,"CHI","MOT",2.57799999999997,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-29b.xml",TRUE
+"422","I done the outside now I gonna going to do the inside","now you're gonna going to do the inside",0.0790000000001783,"CHI","MOT",3.44799999999987,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-29b.xml",TRUE
+"423","when you were little girl","yeah when I was a little girl like you Mummy used to have this book",0.0749999999998181,"CHI","MOT",1.5440000000001,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-30a.xml",TRUE
+"424","he he threw the candle then he xxx","he threw the candles",-0.727000000000317,"CHI","MOT",3.59999999999991,TRUE,36,TRUE,FALSE,TRUE,"fraser/3-00-30a.xml",TRUE
+"425","got","might have to put a belt on you as well",-0.451999999999998,"CHI","MOT",0.556999999999988,TRUE,36,TRUE,FALSE,TRUE,"fraser/3-00-30b.xml",TRUE
+"426","it got a trunk didn't it","it did didn't it",0.0230000000000246,"CHI","MOT",2.41500000000008,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-30b.xml",TRUE
+"427","did did did I lick it when I when I goed in the kitchen","did you like it",1.06500000000005,"CHI","MOT",5.34100000000001,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-30b.xml",TRUE
+"428","when I goed in the kitchen","what the cheese",0.0119999999999436,"CHI","MOT",1.78800000000001,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-30b.xml",TRUE
+"429","the man taked my bouncy castle didn't he","he did yeah",0,"CHI","MOT",3.49500000000012,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-30b.xml",TRUE
+"430","lots lots lots colors don't I","yeah",0.267000000000053,"CHI","MOT",3.04199999999992,TRUE,36,FALSE,TRUE,FALSE,"fraser/3-00-30b.xml",TRUE
+"431","I'm stayed here","can you just get up a minute",0.614999999999782,"CHI","MOT",2.92599999999993,TRUE,36,TRUE,FALSE,FALSE,"fraser/3-00-30b.xml",TRUE
+"432","no he got three eyes","oh who's got three eyes",-0.208999999999833,"CHI","MOT",1.71900000000005,TRUE,37,FALSE,TRUE,TRUE,"fraser/3-01-00a.xml",TRUE
+"433","and and you would be cross didn't you","yes I would be cross",0.0240000000000009,"CHI","MOT",2.90199999999999,TRUE,37,TRUE,FALSE,FALSE,"fraser/3-01-02b.xml",TRUE
+"434","but when I go growed up I can be space explorer","when you grow up you can be what",0.189999999999998,"CHI","MOT",5.43299999999999,TRUE,37,TRUE,FALSE,FALSE,"fraser/3-01-02b.xml",TRUE
+"435","did you didn't do Strum","no I didn't do Strum",0.0470000000000255,"CHI","MOT",2.22899999999981,TRUE,37,TRUE,FALSE,FALSE,"fraser/3-01-02b.xml",TRUE
+"436","I had big Macdonalds","what did you have",0.0579999999999927,"CHI","MOT",2.29899999999998,TRUE,37,TRUE,FALSE,FALSE,"fraser/3-01-02b.xml",TRUE
+"437","I knew you you were blame Jwww","I'm not blaming Jwww",1.8159999999998,"CHI","MOT",2.54199999999992,TRUE,37,TRUE,FALSE,FALSE,"fraser/3-01-02b.xml",TRUE
+"438","did you caught me","I did",0.0820000000000221,"CHI","MOT",1.22999999999999,TRUE,37,TRUE,FALSE,FALSE,"fraser/3-01-03a.xml",TRUE
+"439","did you told me it's purple","mhm hm",0.0240000000000009,"CHI","MOT",2.55400000000009,TRUE,37,TRUE,FALSE,FALSE,"fraser/3-01-03a.xml",TRUE
+"440","did Daddy and me drew it","yeah you and Daddy drew that didn't you",0.0250000000000909,"CHI","MOT",2.99599999999987,TRUE,37,TRUE,FALSE,FALSE,"fraser/3-01-03a.xml",TRUE
+"441","hey it stuck to me hand","it stuck on your hand",0.16800000000012,"CHI","MOT",2.49599999999964,TRUE,37,TRUE,FALSE,FALSE,"fraser/3-01-03a.xml",TRUE

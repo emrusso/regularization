@@ -31,23 +31,123 @@ kid_parent_utts <- utts_clean %>%
 
 ```{r get possible overregs}
 
-overreg_candidates <- kid_parent_utts %>%
-  mutate(overreg_candidate = ((past_tense | plural) & error)) 
+# overreg_candidates <- kid_parent_utts %>%
+  #mutate(overreg_candidate = ((past_tense | plural) & error))  %>%
+  #filter(past_tense | plural)
 
-sub_data <- kid_parent_utts %>%
-  filter(past_tense | plural) %>%
-  filter(response_time > 0)
+#to_write <- overreg_candidates %>%
+  #filter(overreg_candidate)
+
+#write.csv(to_write, "eleanor_overreg_candidates.csv")
+
+eleanor_manual_overregs <- read_csv("eleanor_manual_overregs.csv")
+
+eleanor_manual_overregs$X1 = NULL
+
+eleanor_final <- kid_parent_utts %>%
+  left_join(eleanor_manual_overregs, by=c("utterance", "response")) %>%
+  mutate(overreg = ifelse(is.na(manual_code), F, ifelse(manual_code == "T", T, F)))
+
+eleanor_final <- eleanor_final %>%
+  mutate(error_type = ifelse(!error.x, "no error", ifelse(overreg, "overregularization", "other error")))
+
+sub_data <- eleanor_final %>%
+  filter(past_tense.x | plural.x)
 
 sub_data %>%
-  group_by(error) %>%
-  filter(response_time > 0) %>%
-  summarise(med_rt = median(log(response_time)),
-            mean_rt = mean(log(response_time)))
+  group_by(error_type) %>%
+  filter(response_time.x > 0) %>%
+  summarise(med_rt = median(log(response_time.x)),
+            mean_rt = mean(log(response_time.x)))
 
-sub_lm <- lm(response_time ~ utterance_time + age + error, sub_data)
 
-or_lm <- lm(response_time ~ utterance_time + age + overreg_candidate, overreg_candidates)
+ ggplot(sub_data, aes(x=response_time.x, fill=error_type)) + geom_density(alpha=.3) + scale_x_continuous(limits = c(-2, 2))
 
- ggplot(overreg_candidates, aes(x=response_time, fill=error)) + geom_density(alpha=.3) + scale_x_continuous(limits = c(-3, 3))
+ 
+ ggplot(sub_data, aes(x = age.x, y = response_time.x, fill = error_type)) + geom_smooth()
+
+ or_lm <- lm(response_time.x ~ utterance_time.x + age.x + error_type, sub_data)
+  summary(or_lm)
+
+ 
+ eleanor_or_rates <- sub_data %>%
+  group_by(age.x) %>%
+  summarise(total_tokens = n(), overreg_tokens = sum(overreg), error_tokens = sum(error.x)) %>%
+  mutate(or_rate = (overreg_tokens/total_tokens) * 100, error_rate = (error_tokens/total_tokens) * 100, or_of_err = (overreg_tokens/error_tokens) * 100)
+
+ggplot(eleanor_or_rates, aes(x=age.x, y=or_rate)) + geom_line() + geom_smooth()
+
+ggplot(eleanor_or_rates, aes(x=age.x, y=error_rate)) + geom_line() + geom_smooth()
+
+max_rates <- eleanor_or_rates %>%
+  summarise(max_er = max(error_rate), max_or = max(or_rate), max_or_of_err = max(or_of_err))
+
+max_er_age <- eleanor_or_rates %>%
+  filter(error_rate == max_rates$max_er)
+
+max_or_age <- eleanor_or_rates %>%
+  filter(or_rate == max_rates$max_or)
+
+max_or_percent_of_err <- eleanor_or_rates %>%
+  filter(or_of_err == max_rates$max_or_of_err)
+
+ggplot(eleanor_or_rates, aes(x=age.x)) +
+  geom_smooth(aes(y=or_rate, colour="or_rate")) +
+  geom_smooth(aes(y=error_rate, colour="error_rate"))
+
+sub_data <- sub_data %>%
+  mutate(error_type = ifelse(!error.x, "no error", ifelse(overreg, "overregularization", "other error")))
+
+ggplot(sub_data, aes(x=response_time.x, fill=error_type)) + geom_density(alpha=0.4)
+
+nwords <- function(string, pseudo=F){
+  ifelse( pseudo, 
+          pattern <- "\\S+", 
+          pattern <- "[[:alpha:]]+" 
+        )
+  str_count(string, pattern)
+}
+
+with_response_length <- sub_data %>%
+  mutate(rl = nwords(response))
+
+ggplot(with_response_length, aes(x=rl)) + geom_histogram()
+
+ggplot(with_response_length, aes(x=response_time.x, fill=error_type)) + geom_density(alpha=.6) + facet_grid(responder.x ~ .)
+
+ggplot(with_response_length %>% filter(response_time.x > -2.5 & response_time.x < 2.5), aes(x=response_time.x, fill=error_type)) + geom_density(alpha=.6) +
+  geom_vline(xintercept=0, linetype="dotted", color="red") +
+  facet_grid(error_type ~ .) + theme_classic() + ggtitle("Eleanor") + ylim(0, 3.5) + xlim(-2.5, 2.5)
+
+lm(response_time.x ~ error_type + age.x, data = sub_data) %>%
+  summary()
+
+
+left_side <- sub_data %>%
+  filter(overlap.x) %>%
+  mutate(abs_rt = abs(response_time.x)) %>%
+  filter(abs_rt > 0)
+
+
+sub_data %>%
+  group_by(error_type) %>%
+  summarise(rt = mean(response_time.x))
+
+
+lm(response_time.x < 0 ~ error_type + age.x, sub_data) %>%
+  summary()
+
+right_side <- sub_data %>%
+  filter(response_time.x > 0)
+
+ggplot(left_side, aes(x=log(abs_rt), fill=error_type)) + geom_density(alpha=0.4)
+
+ggplot(right_side, aes(x=log(response_time.x), fill=error_type)) + geom_density(alpha=0.4)
 ```
 
+```{r}
+lm(log(abs_rt) ~ error_type + age.x, left_side) %>% summary()
+lm(log(response_time.x) ~ error_type + age.x, right_side) %>% summary()
+
+lm(overlap.x ~ error_type + age.x, sub_data) %>% summary()
+```

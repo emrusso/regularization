@@ -1,0 +1,14 @@
+{
+    "title":               "Mother Child Interaction",
+    "description":         "Responding to conversations between a mother and her child",
+    "keywords":            "language, psychology, English",
+    "url":                 "https://emrusso.github.io/mturk/mother-child.html",
+    "frame_height":         450,
+    "assignment_duration":  "5 minutes",
+    "auto_approval_delay":  "5 minutes",
+    "reward":               0.60,
+    "qualifications": {
+        "location": "US",
+        "approval_percentage": 95
+    }
+}

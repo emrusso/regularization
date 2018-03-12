@@ -1,0 +1,196 @@
+---
+title: "R Notebook"
+output: html_notebook
+editor_options: 
+  chunk_output_type: inline
+---
+
+
+load libraries
+```{r}
+library(tidyverse)
+library(tidyboot)
+library(lme4)
+library(dplyr)
+```
+
+read data
+```{r}
+
+nwords <- function(string, pseudo=F){
+  string = gsub("[^[:alpha:][:space:]]", "", string)
+  ifelse( pseudo, 
+          pattern <- "\\S+", 
+          pattern <- "[[:alpha:]]+" 
+        )
+  str_count(string, pattern)
+}
+
+trials_data <- read_csv("../trials.csv") %>%
+  filter(TRIAL >= 0) %>%
+  mutate(words = strsplit(UTTERANCE, " "), ul = nwords(UTTERANCE), exchange=TRIAL+1)
+
+trials_as_words <- read_csv("../trials_as_words.csv")
+names(trials_as_words) <- c('word_in_utterance', 'word', 'version', 'utterance_in_exchange', 'exchange')
+
+raw_pilot_data <- read_csv("../data/pilot_data.csv") %>%
+  group_by(exchange, version, subj) %>%
+  mutate(n = 1:n())
+ 
+exchanges <- raw_pilot_data %>%
+  ungroup() %>%
+  distinct(exchange, version, word, n) %>%
+  spread(version, word) %>%
+  mutate(different = (a != b)) %>%
+  gather(version, word, a, b)
+
+reordered <- trials_data %>% filter(TRIAL!=10) %>% arrange(VERSION, TRIAL)
+
+tmp <- reordered[rep(seq_len(nrow(reordered)), reordered$ul), ]
+full_data <- cbind(tmp, exchanges %>% select(-exchange))
+
+mark_lag <- function(isDifferent, total, target_position, count) {
+  maxCheck = total - target_position
+  if (count <= maxCheck) {
+    ifelse(isDifferent, TRUE, mark_lag(lag(isDifferent),  total, target_position, count+1))
+  } else {
+    FALSE
+  }
+}
+
+trials_as_words <- trials_as_words %>%
+  filter(exchange != 11)
+
+
+comparison_data <- raw_pilot_data %>%
+  left_join(.,full_data) %>%
+  group_by(version, subj, exchange, INDEX) %>%
+  filter(rt > 100, rt < 1000) %>%
+  mutate(length = nchar(word)) %>%
+  mutate(rt_over_utterance = sum(rt)) %>%
+  mutate(lag_different = mark_lag(different, ul, ERROR_POSITION, 0)) %>%
+  #filter(lag_different) %>%
+  #left_join(., trials_as_words, by=c("exchange", "version", "word")) %>%
+  # throw out trials where ac not passed
+  filter(passed)
+
+err_data <- left_join(raw_pilot_data, full_data) %>%
+  as_tibble() %>%
+  filter(ERROR_POSITION != 0) %>%
+  group_by(VERSION, exchange, subj) %>%
+  mutate(centered_pos = 1:n()-ERROR_POSITION) %>%
+  filter(passed)
+
+
+err_data %>%
+  distinct(version, exchange, subj) %>%
+  group_by(version, exchange) %>%
+  summarise(n = n()) %>%
+  View()
+ 
+ggplot(err_data, aes(x = centered_pos, y = log(rt), color = version)) + 
+  facet_wrap(~ exchange) +
+  geom_smooth(span = .5) + 
+  geom_vline(xintercept = 0) + 
+  theme_classic()
+
+# comparison_data <- raw_pilot_data %>%
+#   left_join(.,full_data) %>%
+#   group_by(version, subj, exchange, INDEX) %>%
+#   filter(rt > 100, rt < 1000) %>%
+#   mutate(length = nchar(word)) %>%
+#   mutate(rt_over_utterance = sum(rt)) %>%
+#   #mutate(lag_different = mark_lag(different, ul, ERROR_POSITION, 0)) %>%
+#   #filter(lag_different) %>%
+#   left_join(., trials_as_words, by=c("exchange", "version", "word")) %>%
+#   # throw out trials where ac not passed
+#   filter(passed)
+
+
+  
+
+
+## CONCERNED THAT THE LAG IS PICKING UP TOO MANY (ex: "on" or "the")
+
+subj_1_data <- comparison_data %>%
+  filter(subj == 1) %>%
+  left_join(., trials_as_words, by=c("exchange", "version", "word"))
+
+
+
+comparison_data %>%
+  group_by(version, subj) %>%
+  summarise(rt = mean(rt)) %>%
+  summarise(mean = mean(rt),
+            sd = sd(rt))
+
+
+lmer(log(rt) ~ version + (1|subj), data = comparison_data) %>%
+  summary()
+
+lmer(log(rt_over_utterance) ~ version + (1|subj), data = comparison_data) %>%
+  summary()
+
+comparison_data %>%
+  group_by(version, subj, exchange) %>%
+  summarise(n = n(),
+            rt = sum(rt),
+            rt_over_utterance = sum(rt_over_utterance)) %>%
+  lmer(log(rt_over_utterance) ~ version + (1|subj) + (1|exchange) + n, data  =.) %>%
+  summary()
+
+
+  
+model <- lmer(rt ~ (1|subj) + (1|exchange) + version, data = comparison_data) 
+
+
+predicted_data <- comparison_data %>%
+  ungroup() %>%
+  mutate(predicted = predict(model))
+
+
+ggplot(predicted_data, aes(x = predicted, y = log(rt), color = version)) + 
+  geom_point()
+
+
+
+ggplot(comparison_data, aes(x = log(rt), fill = version)) +
+  facet_wrap(~exchange) +
+  geom_histogram()
+
+ggplot(comparison_data, aes(x = log(rt), fill = version)) +
+  geom_histogram()
+
+ggplot(comparison_data, aes(x = log(rt_over_utterance), fill = version)) +
+  geom_histogram()
+
+ggplot(comparison_data, aes(x = word_in_utterance, y = rt, fill=version,
+                            color = version)) + 
+  facet_wrap(~exchange) +
+  geom_smooth(se=F, span = .5)
+
+
+
+comparison_data %>%
+  filter(different) %>%
+  group_by(version, subj, exchange) %>%
+  summarise(rt = mean(log(rt))) %>%
+  summarise(rt =mean(rt)) %>%
+  tidyboot_mean(rt)
+
+
+raw_pilot_data %>%
+  filter(ac_rt < 10000) %>%
+  group_by(version, subj) %>%
+  summarise(ac_rt = mean(log(ac_rt))) %>%
+  summarise(mean = mean(ac_rt), sd = sd(ac_rt))
+
+ggplot(raw_pilot_data, aes(x=passed, stat="count")) + geom_bar()
+
+didnt_pass_ac <- raw_pilot_data %>%
+  group_by(exchange, subj) %>%
+  filter(!passed)
+
+
+
+```

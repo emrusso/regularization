@@ -1,0 +1,169 @@
+"","utterance","response","response_time","speaker","responder","utterance_time","error","age","past_tense","plural","overlap","source_file","overreg_candidate"
+"1","where Mama gone","xxx",-0.604000000000042,"CHI","FAT",2.08999999999992,TRUE,24,TRUE,FALSE,TRUE,"eleanor/2-00-03a.xml",TRUE
+"2","it stuck","is it stuck",0.174000000000035,"CHI","MOT",1.75299999999999,TRUE,24,TRUE,FALSE,FALSE,"eleanor/2-00-03b.xml",TRUE
+"3","I got stomach ache","have you got stomach ache",0.0520000000000209,"CHI","MOT",2.49599999999998,TRUE,24,TRUE,FALSE,FALSE,"eleanor/2-00-03b.xml",TRUE
+"4","hey look my teddy's got","ah",-1.67200000000003,"CHI","FAT",2.22900000000004,TRUE,24,TRUE,FALSE,TRUE,"eleanor/2-00-03b.xml",TRUE
+"5","yellows","yellow daffodil",-0.105000000000018,"CHI","FAT",0.847999999999956,TRUE,24,FALSE,TRUE,TRUE,"eleanor/2-00-03b.xml",TRUE
+"6","I teared it","hm",0.2199999999998,"CHI","FAT",1.19599999999991,TRUE,24,TRUE,FALSE,FALSE,"eleanor/2-00-03b.xml",TRUE
+"7","it's raining it's pouring old man is snoring went to bed bumped","bumped his head",-2.19399999999996,"CHI","MOT",9.41499999999996,TRUE,24,TRUE,FALSE,TRUE,"eleanor/2-00-04b.xml",TRUE
+"8","I got jacket on","doesn't know about the xxx",-2.078,"CHI","MOT",2.252,TRUE,24,TRUE,FALSE,TRUE,"eleanor/2-00-05b.xml",TRUE
+"9","where's ball gone","it's over here",0.143000000000029,"CHI","FAT",2.14800000000002,TRUE,24,TRUE,FALSE,FALSE,"eleanor/2-00-08b.xml",TRUE
+"10","look I made dog","there's a dog what noise does a dog make",-0.0670000000000073,"CHI","MOT",2.22700000000009,TRUE,24,TRUE,FALSE,TRUE,"eleanor/2-00-10a.xml",TRUE
+"11","I want I want sleep Mama's arms","no",-2.10200000000003,"CHI","MOT",4.12200000000001,TRUE,24,FALSE,TRUE,TRUE,"eleanor/2-00-10b.xml",TRUE
+"12","I broken it","you broke it darling",0.521999999999935,"CHI","FAT",1.95100000000002,TRUE,24,TRUE,FALSE,FALSE,"eleanor/2-00-11b.xml",TRUE
+"13","I got hot","you got",0.138999999999896,"CHI","FAT",1.46299999999997,TRUE,24,TRUE,FALSE,FALSE,"eleanor/2-00-11b.xml",TRUE
+"14","I found","ah that's Thomas_the_Tank_Engine",0.0470000000000255,"CHI","FAT",0.962999999999965,TRUE,24,TRUE,FALSE,FALSE,"eleanor/2-00-11b.xml",TRUE
+"15","I done a painting","Eleanor",-0.708000000000084,"CHI","MOT",1.50900000000001,TRUE,24,TRUE,FALSE,TRUE,"eleanor/2-00-16a.xml",TRUE
+"16","where Jeannine gone","oh xxx",-0.487999999999829,"CHI","MOT",2.0319999999997,TRUE,24,TRUE,FALSE,TRUE,"eleanor/2-00-16a.xml",TRUE
+"17","look what Kwww got","look",-0.394999999999982,"CHI","FAT",2.00900000000001,TRUE,24,TRUE,FALSE,TRUE,"eleanor/2-00-16b.xml",TRUE
+"18","Gwww falled down","oh no",0.0180000000000291,"CHI","FAT",2.29899999999998,TRUE,24,TRUE,FALSE,FALSE,"eleanor/2-00-16b.xml",TRUE
+"19","I did rolly","wow",0.322999999999865,"CHI","FAT",1.94000000000005,TRUE,24,TRUE,FALSE,FALSE,"eleanor/2-00-17b.xml",TRUE
+"20","head shoulder knees and toes knees and toes",NA,-4.41099999999983,"CHI","FAT",4.41099999999983,TRUE,24,FALSE,TRUE,TRUE,"eleanor/2-00-22b.xml",TRUE
+"21","no I done me wet","have you done a weewee",0.178000000000338,"CHI","MOT",2.42699999999968,TRUE,24,TRUE,FALSE,FALSE,"eleanor/2-00-22b.xml",TRUE
+"22","Po where Lala gone","um",0.093000000000302,"CHI","FAT",2.29300000000012,TRUE,24,TRUE,FALSE,FALSE,"eleanor/2-00-23b.xml",TRUE
+"23","I got pink nose","you got a pink nose",0.210000000000036,"CHI","MOT",1.55500000000006,TRUE,24,TRUE,FALSE,FALSE,"eleanor/2-00-23v.xml",TRUE
+"24","I see the spiders the museum","spiders were there a lot of spiders were they big or were they small",0.0519999999999072,"CHI","MOT",2.46199999999999,TRUE,24,FALSE,TRUE,FALSE,"eleanor/2-00-23v.xml",TRUE
+"25","I did Tellytubbies on","where",0.15100000000001,"CHI","FAT",2.62399999999997,TRUE,24,TRUE,FALSE,FALSE,"eleanor/2-00-24b.xml",TRUE
+"26","gone the shop","gone to the shop",0.574000000000012,"CHI","FAT",1.73000000000002,TRUE,24,TRUE,FALSE,FALSE,"eleanor/2-00-24b.xml",TRUE
+"27","I got dirty hands","oh Eleanor let's have a look",-0.697000000000116,"CHI","MOT",2.06700000000001,TRUE,24,FALSE,TRUE,TRUE,"eleanor/2-00-26a.xml",TRUE
+"28","what happened Pilchard","er try and remember correctly",0.856999999999971,"CHI","FAT",2.49800000000005,TRUE,24,TRUE,FALSE,FALSE,"eleanor/2-00-26b.xml",TRUE
+"29","look I did painting","wow",1.00999999999999,"CHI","FAT",2.15300000000002,TRUE,24,TRUE,FALSE,FALSE,"eleanor/2-00-26b.xml",TRUE
+"30","Eleanor Eleanor be tired","right give me a kiss first",-0.324999999999932,"CHI","MOT",1.68299999999999,TRUE,24,TRUE,FALSE,TRUE,"eleanor/2-00-28a.xml",TRUE
+"31","baby done xxx","oh no",0.06899999999996,"CHI","MOT",2.14799999999991,TRUE,24,TRUE,FALSE,FALSE,"eleanor/2-00-29a.xml",TRUE
+"32","look I done nappie","would you like to do a weewee",-0.627000000000002,"CHI","MOT",1.834,TRUE,24,TRUE,FALSE,TRUE,"eleanor/2-00-30a.xml",TRUE
+"33","no I I done weewee","have you done weewee",0.242999999999995,"CHI","MOT",3.00700000000001,TRUE,24,TRUE,FALSE,FALSE,"eleanor/2-00-30a.xml",TRUE
+"34","I don't like sheeps","you don't like",0.463999999999999,"CHI","MOT",2.27500000000003,TRUE,24,FALSE,TRUE,FALSE,"eleanor/2-00-30a.xml",TRUE
+"35","I don't like sheeps","sheeps",0.0109999999999673,"CHI","MOT",2.63600000000002,TRUE,24,FALSE,TRUE,FALSE,"eleanor/2-00-30b.xml",TRUE
+"36","I liked it Winnie_the_pooh had friends","oh",2.83199999999988,"CHI","MOT",3.51800000000003,TRUE,25,FALSE,TRUE,FALSE,"eleanor/2-01-00a.xml",TRUE
+"37","xxx but Dalmatian gone a Dalmatian all gone","what's a Dalmatian got on you tell us has he got spots or stripes",0.190999999999974,"CHI","MOT",7.524,TRUE,25,TRUE,FALSE,FALSE,"eleanor/2-01-02a.xml",TRUE
+"38","all my friends gone swimming","right",0.539999999999964,"CHI","MOT",2.96000000000004,TRUE,26,FALSE,TRUE,FALSE,"eleanor/2-02-00b.xml",TRUE
+"39","I doing acrobats","acrobat",0.657000000000039,"CHI","MOT",2.27499999999998,TRUE,26,FALSE,TRUE,FALSE,"eleanor/2-02-02a.xml",TRUE
+"40","Swww and me making clays","there you go",0.916999999999916,"CHI","MOT",3.298,TRUE,26,FALSE,TRUE,FALSE,"eleanor/2-02-02a.xml",TRUE
+"41","what does Daddy's eyes","are you making Daddy",0.0229999999999109,"CHI","MOT",1.95100000000002,TRUE,26,FALSE,TRUE,FALSE,"eleanor/2-02-02a.xml",TRUE
+"42","she's pouring a water can to the flowers","she's watering the",-0.394999999999982,"CHI","MOT",3.44799999999987,TRUE,26,FALSE,TRUE,TRUE,"eleanor/2-02-02a.xml",TRUE
+"43","these people having their picnic","okay",0.208000000000084,"CHI","FAT",4.21399999999994,TRUE,26,FALSE,TRUE,FALSE,"eleanor/2-02-03b.xml",TRUE
+"44","I got xxx","sorry",0.468999999999994,"CHI","MOT",1.77600000000001,TRUE,27,TRUE,FALSE,FALSE,"eleanor/2-03-00b.xml",TRUE
+"45","I made pocket","aha",0.0350000000003092,"CHI","FAT",1.46299999999974,TRUE,27,TRUE,FALSE,FALSE,"eleanor/2-03-00b.xml",TRUE
+"46","where did your turn Daddy",NA,-2.78600000000006,"CHI","FAT",2.91400000000021,TRUE,27,TRUE,FALSE,TRUE,"eleanor/2-03-00b.xml",TRUE
+"47","there some rabbits","oh",-0.488000000000056,"CHI","MOT",1.73000000000002,TRUE,27,FALSE,TRUE,TRUE,"eleanor/2-03-01v.xml",TRUE
+"48","not not we done that one","which one",0.197999999999979,"CHI","MOT",2.84399999999994,TRUE,27,TRUE,FALSE,FALSE,"eleanor/2-03-04a.xml",TRUE
+"49","I got one of those","what are they called",-0.220000000000255,"CHI","MOT",1.74000000000024,TRUE,27,TRUE,FALSE,TRUE,"eleanor/2-03-04a.xml",TRUE
+"50","I haven't got tail","tail you haven't got a tail",0.0229999999996835,"CHI","MOT",2.33300000000008,TRUE,27,TRUE,FALSE,FALSE,"eleanor/2-03-04a.xml",TRUE
+"51","Mum where's Bob's gone","is it not in here",-1.33499999999992,"CHI","MOT",2.33399999999995,TRUE,27,TRUE,FALSE,TRUE,"eleanor/2-03-04b.xml",TRUE
+"52","there's your shoes","uhhuh",-0.708000000000084,"CHI","FAT",1.42800000000034,TRUE,28,FALSE,TRUE,TRUE,"eleanor/2-04-02a.xml",TRUE
+"53","and the spider eat the sausages","oh at the uh puppet show",0.301000000000386,"CHI","MOT",3.33299999999963,TRUE,28,FALSE,TRUE,FALSE,"eleanor/2-04-04a.xml",TRUE
+"54","we see the seagulls","ooh",-0.359999999999999,"CHI","FAT",2.566,TRUE,28,FALSE,TRUE,TRUE,"eleanor/2-04-04b.xml",TRUE
+"55","Little_bo_peep has lost sheep","and doesn't know where to",0.13900000000001,"CHI","MOT",2.578,TRUE,28,TRUE,FALSE,FALSE,"eleanor/2-04-05a.xml",TRUE
+"56","I saw sheeps yesterday","did you see sheep yesterday",0,"CHI","MOT",2.99599999999998,TRUE,28,FALSE,TRUE,FALSE,"eleanor/2-04-05a.xml",TRUE
+"57","we done now","no",0.383000000000038,"CHI","MOT",0.999000000000024,TRUE,28,TRUE,FALSE,FALSE,"eleanor/2-04-05a.xml",TRUE
+"58","I hurted my foot","what stuff have you got",0.173999999999978,"CHI","MOT",1.75300000000004,TRUE,29,TRUE,FALSE,FALSE,"eleanor/2-05-01b.xml",TRUE
+"59","Dada walked past the tree and this apple fallen down on his head",NA,2.32400000000007,"CHI","MOT",4.60899999999992,TRUE,29,TRUE,FALSE,FALSE,"eleanor/2-05-01b.xml",TRUE
+"60","he's been work","you've been to work",0.925999999999931,"CHI","MOT",2.72800000000007,TRUE,29,TRUE,FALSE,FALSE,"eleanor/2-05-03a.xml",TRUE
+"61","I wanted drink of milk in there like Ha Hwww","yeah",0.0690000000000026,"CHI","MOT",5.062,TRUE,29,TRUE,FALSE,FALSE,"eleanor/2-05-05a.xml",TRUE
+"62","I go and get carrots","are you going to sit down",1.31200000000001,"CHI","MOT",1.98499999999996,TRUE,29,FALSE,TRUE,FALSE,"eleanor/2-05-05a.xml",TRUE
+"63","I married","hello",1.17899999999986,"CHI","MOT",1.64900000000011,TRUE,29,TRUE,FALSE,FALSE,"eleanor/2-05-05a.xml",TRUE
+"64","they got pink face",NA,0.0340000000001055,"CHI","MOT",1.52099999999996,TRUE,29,TRUE,FALSE,FALSE,"eleanor/2-05-05a.xml",TRUE
+"65","I weren't","cry and I won't take you anywhere",2.322,"CHI","MOT",0.824000000000012,TRUE,30,TRUE,FALSE,FALSE,"eleanor/2-06-00a.xml",TRUE
+"66","climbed up the stairs then she fee she falled down","she climbed up the stairs and she'd fallen down",0.06899999999996,"CHI","MOT",3.78500000000003,TRUE,30,TRUE,FALSE,FALSE,"eleanor/2-06-02v.xml",TRUE
+"67","sheeps","sheep",0.19800000000032,"CHI","MOT",0.881999999999607,TRUE,30,FALSE,TRUE,FALSE,"eleanor/2-06-03a.xml",TRUE
+"68","is that is that did hurt","that hurts",0,"CHI","MOT",2.54300000000001,TRUE,30,TRUE,FALSE,FALSE,"eleanor/2-06-04a.xml",TRUE
+"69","there's someone missed","who's that",-0.894000000000005,"CHI","MOT",1.68400000000008,TRUE,31,TRUE,FALSE,TRUE,"eleanor/2-07-03a.xml",TRUE
+"70","have you got parachute","no",0.0230000000001382,"CHI","MOT",1.56700000000001,TRUE,31,TRUE,FALSE,FALSE,"eleanor/2-07-03a.xml",TRUE
+"71","a toys","Eleanor what does this say",-0.302000000000021,"CHI","MOT",0.730999999999995,TRUE,31,FALSE,TRUE,TRUE,"eleanor/2-07-04a.xml",TRUE
+"72","I found it","xxx",-0.905999999999949,"CHI","MOT",1.54499999999996,TRUE,31,TRUE,FALSE,TRUE,"eleanor/2-07-05a.xml",TRUE
+"73","can I just woke up","right you put it in",-0.313000000000102,"CHI","MOT",1.56700000000001,TRUE,31,TRUE,FALSE,TRUE,"eleanor/2-07-05a.xml",TRUE
+"74","look here's my shoes","oh put them on then",-0.534000000000106,"CHI","MOT",1.87000000000012,TRUE,31,FALSE,TRUE,TRUE,"eleanor/2-07-05a.xml",TRUE
+"75","he makes me some children tea","gonna going to make your children some tea",0.731000000000222,"CHI","MOT",3.08799999999974,TRUE,31,FALSE,TRUE,FALSE,"eleanor/2-07-05a.xml",TRUE
+"76","I just put this in here it doesn't mix them up","it doesn't what darling",0.128000000000156,"CHI","MOT",5.23599999999988,TRUE,31,TRUE,FALSE,FALSE,"eleanor/2-07-06v.xml",TRUE
+"77","the bunnies making a noise","the bunnies are making a noise",0.0919999999996435,"CHI","MOT",2.19500000000016,TRUE,31,FALSE,TRUE,FALSE,"eleanor/2-07-06v.xml",TRUE
+"78","I drewed drew","drew",0.329000000000178,"CHI","MOT",1.50900000000001,TRUE,32,TRUE,FALSE,FALSE,"eleanor/2-08-00a.xml",TRUE
+"79","leave the other ones off","yeah",-0.615000000000009,"CHI","MOT",2.41500000000019,TRUE,32,FALSE,TRUE,TRUE,"eleanor/2-08-02b.xml",TRUE
+"80","do you see my birds","yeah",-0.336999999999989,"CHI","MOT",2.13599999999997,TRUE,32,FALSE,TRUE,TRUE,"eleanor/2-08-02b.xml",TRUE
+"81","I've bought this for bake cakes track","look Eleanor look",-2.17100000000005,"CHI","MOT",2.43800000000005,TRUE,32,TRUE,TRUE,TRUE,"eleanor/2-08-04v.xml",TRUE
+"82","xxx this is losted lost","sorry darling",1.37699999999995,"CHI","MOT",1.76400000000012,TRUE,32,TRUE,FALSE,FALSE,"eleanor/2-08-04v.xml",TRUE
+"83","this lost","what's lost",0.320999999999913,"CHI","MOT",1.10300000000007,TRUE,32,TRUE,FALSE,FALSE,"eleanor/2-08-04v.xml",TRUE
+"84","you catched it","you caught it darling",0.643000000000029,"CHI","MOT",1.54400000000032,TRUE,32,TRUE,FALSE,FALSE,"eleanor/2-08-04v.xml",TRUE
+"85","when you gonna going to get some more presents","you're gonna going to get lots of presents",-0.5,"CHI","MOT",2.29899999999998,TRUE,32,FALSE,TRUE,TRUE,"eleanor/2-08-10b.xml",TRUE
+"86","two little dog came back one day","mhm",0.0109999999999673,"CHI","MOT",4.27300000000014,TRUE,32,TRUE,FALSE,FALSE,"eleanor/2-08-10b.xml",TRUE
+"87","supposed to have two ear","he's only got one",-0.801000000000158,"CHI","MOT",1.66000000000008,TRUE,32,TRUE,FALSE,TRUE,"eleanor/2-08-11a.xml",TRUE
+"88","did share with Frosty","yeah",0.697000000000116,"CHI","FAT",1.98499999999967,TRUE,32,TRUE,FALSE,FALSE,"eleanor/2-08-11b.xml",TRUE
+"89","he's been he waked up too early","woke up too early darling",0.0559999999995853,"CHI","MOT",3.29700000000003,TRUE,33,TRUE,FALSE,FALSE,"eleanor/2-09-01a.xml",TRUE
+"90","he not going to get any presents","he's getting no presents",-0.673999999999978,"CHI","MOT",3.30899999999974,TRUE,33,FALSE,TRUE,TRUE,"eleanor/2-09-01a.xml",TRUE
+"91","I done it","no",0,"CHI","MOT",1.56799999999998,TRUE,33,TRUE,FALSE,FALSE,"eleanor/2-09-01b.xml",TRUE
+"92","you have to broke them do you","not broke them",-0.56899999999996,"CHI","MOT",2.08899999999994,TRUE,33,TRUE,FALSE,TRUE,"eleanor/2-09-02a.xml",TRUE
+"93","no they not gone out","where have they gone",0,"CHI","MOT",1.88099999999986,TRUE,33,TRUE,FALSE,FALSE,"eleanor/2-09-02b.xml",TRUE
+"94","because Ted was come early",NA,0.0119999999999436,"CHI","MOT",2.11300000000006,TRUE,33,TRUE,FALSE,FALSE,"eleanor/2-09-04a.xml",TRUE
+"95","you burned your arm","that's right",1.14599999999996,"CHI","FAT",4.00599999999997,TRUE,33,TRUE,FALSE,FALSE,"eleanor/2-09-04b.xml",TRUE
+"96","the tea's fell out","again",0,"CHI","FAT",1.93899999999996,TRUE,33,TRUE,FALSE,FALSE,"eleanor/2-09-04b.xml",TRUE
+"97","who spilled it","mm",0.0109999999999673,"CHI","FAT",1.47500000000002,TRUE,33,TRUE,FALSE,FALSE,"eleanor/2-09-04b.xml",TRUE
+"98","then they saw a knock on the door","mhm",1.34699999999998,"CHI","FAT",3.40199999999982,TRUE,33,TRUE,FALSE,FALSE,"eleanor/2-09-04b.xml",TRUE
+"99","then the big bad wolf puffed then he puffed then he blowed the house down","uhoh",0.0109999999999673,"CHI","FAT",7.19900000000007,TRUE,33,TRUE,FALSE,FALSE,"eleanor/2-09-04b.xml",TRUE
+"100","I have blues as well","are you copying me again",0.34900000000016,"CHI","MOT",2.03099999999995,TRUE,33,FALSE,TRUE,FALSE,"eleanor/2-09-05b.xml",TRUE
+"101","I got a bigger fish","oh",0.162000000000035,"CHI","MOT",1.54399999999998,TRUE,33,TRUE,FALSE,FALSE,"eleanor/2-09-05v.xml",TRUE
+"102","she didn't woke up","she didn't wake up",0.278999999999996,"CHI","MOT",1.29999999999973,TRUE,33,TRUE,FALSE,FALSE,"eleanor/2-09-05v.xml",TRUE
+"103","I have done on the water","no",0.0350000000000819,"CHI","MOT",1.81099999999992,TRUE,34,TRUE,FALSE,FALSE,"eleanor/2-10-01a.xml",TRUE
+"104","then what happened Mister_bear xxx the seeds","oh",0.417999999999893,"CHI","FAT",6.02500000000009,TRUE,34,TRUE,FALSE,FALSE,"eleanor/2-10-01b.xml",TRUE
+"105","he can help the books putting away","xxx",0.0109999999999673,"CHI","FAT",2.90300000000025,TRUE,34,FALSE,TRUE,FALSE,"eleanor/2-10-01b.xml",TRUE
+"106","this book's tored torn","this what",0.0109999999999673,"CHI","MOT",2.13699999999994,TRUE,34,TRUE,FALSE,FALSE,"eleanor/2-10-02a.xml",TRUE
+"107","took my hairs","xxx",0,"CHI","MOT",1.74099999999999,TRUE,34,FALSE,TRUE,FALSE,"eleanor/2-10-02a.xml",TRUE
+"108","he's done poopoo","who did",0.0109999999999957,"CHI","FAT",1.33499999999998,TRUE,34,TRUE,FALSE,FALSE,"eleanor/2-10-02b.xml",TRUE
+"109","just Teddy did weewee","oh",0.206000000000017,"CHI","FAT",1.60199999999998,TRUE,34,TRUE,FALSE,FALSE,"eleanor/2-10-02b.xml",TRUE
+"110","he's done he's just done spilt on the swing","spilt what Darling",0.138999999999896,"CHI","FAT",4.29600000000005,TRUE,34,TRUE,FALSE,FALSE,"eleanor/2-10-02b.xml",TRUE
+"111","he he didn't spilt it","no",0,"CHI","FAT",1.69499999999971,TRUE,34,TRUE,FALSE,FALSE,"eleanor/2-10-02b.xml",TRUE
+"112","he just got scarf on","oh",0.0809999999996762,"CHI","FAT",1.61400000000003,TRUE,34,TRUE,FALSE,FALSE,"eleanor/2-10-02b.xml",TRUE
+"113","he just got hat on","mm",0.109999999999673,"CHI","FAT",1.46300000000019,TRUE,34,TRUE,FALSE,FALSE,"eleanor/2-10-02b.xml",TRUE
+"114","he just got glove on","mm",0.175000000000182,"CHI","FAT",1.79899999999998,TRUE,34,TRUE,FALSE,FALSE,"eleanor/2-10-02b.xml",TRUE
+"115","I forgotten","oh dear",0.0700000000001637,"CHI","FAT",0.951999999999771,TRUE,34,TRUE,FALSE,FALSE,"eleanor/2-10-02b.xml",TRUE
+"116","do you think these bears ones do fit him","I hope so",0.313000000000102,"CHI","FAT",3.17000000000007,TRUE,34,FALSE,TRUE,FALSE,"eleanor/2-10-02b.xml",TRUE
+"117","he he just done poopoo in his pants","xxx",-0.998000000000047,"CHI","FAT",3.36700000000019,TRUE,34,TRUE,FALSE,TRUE,"eleanor/2-10-02b.xml",TRUE
+"118","I going to swimming lessons","is it",1.95100000000002,"CHI","MOT",2.36799999999994,TRUE,34,FALSE,TRUE,FALSE,"eleanor/2-10-03a.xml",TRUE
+"119","I just put these here","well I think we should find the tray and put them all together then we can't find them when we need them",0.63799999999992,"CHI","MOT",2.2180000000003,TRUE,34,TRUE,FALSE,FALSE,"eleanor/2-10-03a.xml",TRUE
+"120","down came rain","hm",0.126999999999995,"CHI","FAT",1.82300000000001,TRUE,35,TRUE,FALSE,FALSE,"eleanor/2-11-01b.xml",TRUE
+"121","where the Bob_builder gone","xxx the fall",0.115999999999985,"CHI","FAT",2.26400000000001,TRUE,35,TRUE,FALSE,FALSE,"eleanor/2-11-01b.xml",TRUE
+"122","and the and the and ponies in in a stable","that's right",0.0240000000001146,"CHI","FAT",4.89899999999989,TRUE,35,FALSE,TRUE,FALSE,"eleanor/2-11-03b.xml",TRUE
+"123","I didn't broke it","er it's called the counting train",0.875,"CHI","MOT",1.81099999999999,TRUE,35,TRUE,FALSE,FALSE,"eleanor/2-11-04a.xml",TRUE
+"124","he doesn't want eat rats","no",-0.0929999999998472,"CHI","MOT",2.08999999999969,TRUE,35,FALSE,TRUE,TRUE,"eleanor/2-11-04a.xml",TRUE
+"125","your trousers falling down","oh",-0.800999999999931,"CHI","FAT",1.61400000000003,TRUE,35,FALSE,TRUE,TRUE,"eleanor/2-11-04b.xml",TRUE
+"126","I done one","oh",-1.09099999999989,"CHI","FAT",1.13799999999992,TRUE,35,TRUE,FALSE,TRUE,"eleanor/2-11-04b.xml",TRUE
+"127","I just got children","no animals",0.0349999999998545,"CHI","FAT",1.91499999999996,TRUE,35,TRUE,TRUE,FALSE,"eleanor/2-11-04b.xml",TRUE
+"128","I'm finished one","you gonna going to do any more colors",0.975000000000364,"CHI","FAT",1.904,TRUE,35,TRUE,FALSE,FALSE,"eleanor/2-11-04b.xml",TRUE
+"129","I picked in the crab today","yeah",-0.115999999999985,"CHI","FAT",1.88000000000011,TRUE,35,TRUE,FALSE,TRUE,"eleanor/2-11-04b.xml",TRUE
+"130","you got smelly toes","Eleanor",0.278999999999996,"CHI","MOT",2.01999999999998,TRUE,35,TRUE,FALSE,FALSE,"eleanor/2-11-06a.xml",TRUE
+"131","have you got mouse","xxx this is called the mouse",0.487999999999829,"CHI","FAT",1.17200000000003,TRUE,35,TRUE,FALSE,FALSE,"eleanor/2-11-06b.xml",TRUE
+"132","that's a numbers two","oh yes",0.151000000000295,"CHI","FAT",2.3449999999998,TRUE,35,FALSE,TRUE,FALSE,"eleanor/2-11-06b.xml",TRUE
+"133","I winned","you did not win",0.0109999999999673,"CHI","MOT",1.06899999999996,TRUE,35,TRUE,FALSE,FALSE,"eleanor/2-11-09v.xml",TRUE
+"134","have you got diabetes","she said you've got diabetes and grandmother hasn't",0.314000000000021,"CHI","MOT",2.101,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-00v.xml",TRUE
+"135","I just did carried","just did carried",0.035000000000025,"CHI","MOT",2.298,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-01a.xml",TRUE
+"136","Dada drawed that","Dada",0.0809999999999036,"CHI","MOT",2.05500000000006,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-01a.xml",TRUE
+"137","it was accident","right",0.0639999999998508,"CHI","MOT",1.64899999999989,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-01a.xml",TRUE
+"138","you scareded scared it","did what",0.0109999999999673,"CHI","MOT",1.846,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-01a.xml",TRUE
+"139","and you put your sunglasses when there's sun and then","that's right",0,"CHI","FAT",4.30799999999999,TRUE,36,FALSE,TRUE,FALSE,"eleanor/3-00-02b.xml",TRUE
+"140","it's got planet on","ooh",0.13900000000001,"CHI","FAT",1.60199999999998,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-02b.xml",TRUE
+"141","zero throwed it on the floor","Sammy",0.592000000000098,"CHI","FAT",1.94999999999982,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-02b.xml",TRUE
+"142","she did wee in her pants","yeah",0.0230000000001382,"CHI","FAT",1.904,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-02b.xml",TRUE
+"143","opened your eye","okay",0.427000000000135,"CHI","FAT",1.28899999999999,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-06b.xml",TRUE
+"144","I took it out","why",0.277999999999793,"CHI","FAT",2.82200000000012,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-06b.xml",TRUE
+"145","when I were a baby","when I w",0.13900000000001,"CHI","MOT",2.19500000000005,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-09a.xml",TRUE
+"146","take men oh stay ladies over they","red",0.197999999999865,"CHI","MOT",5.49099999999999,TRUE,36,FALSE,TRUE,FALSE,"eleanor/3-00-09a.xml",TRUE
+"147","see them run away run them stop","shark",0.203999999999951,"CHI","MOT",5.45700000000011,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-09a.xml",TRUE
+"148","have you never been big children","I've never been on a climbing frame",0.0240000000001146,"CHI","MOT",3.15699999999993,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-11b.xml",TRUE
+"149","Daddy have you never seen high seat","see what",1.79999999999995,"CHI","FAT",2.98299999999995,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-11b.xml",TRUE
+"150","oy I got boot","number",0,"CHI","MOT",1.846,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-14a.xml",TRUE
+"151","Mummy there's got water in there","what what water",0.0819999999998799,"CHI","MOT",2.65800000000036,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-14a.xml",TRUE
+"152","it was Barbie_umbrella","Barbie_umbrella",0.162000000000262,"CHI","FAT",2.28800000000001,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-15a.xml",TRUE
+"153","it was Barbie umbrella","a baby umbrella",0.0349999999998545,"CHI","FAT",2.07799999999997,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-15b.xml",TRUE
+"154","oh looky she got jumper","she's got a nice jumper hasn't she",0.17999999999995,"CHI","MOT",2.42700000000002,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-16a.xml",TRUE
+"155","she's got friend","ah",0,"CHI","FAT",0.000999999999748979,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-16b.xml",TRUE
+"156","ow oh I got oh I got leg ache","leg ache",0.52000000000001,"CHI","MOT",4.42400000000001,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-17a.xml",TRUE
+"157","I know who trod that","mhm",0.15100000000001,"CHI","MOT",3.08800000000002,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-18b.xml",TRUE
+"158","I I thought it was got eight","um it might have eight",0.346000000000004,"CHI","MOT",3.09999999999991,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-18b.xml",TRUE
+"159","he hadn't had a Mummy","he didn't have a Mummy",0.244000000000142,"CHI","MOT",1.94999999999982,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-18v.xml",TRUE
+"160","magic fairy got some fruit","is there any to share",0.187999999999874,"CHI","FAT",3.68000000000006,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-21b.xml",TRUE
+"161","she gone xxx","she woke up early",-0.324999999999818,"CHI","MOT",1.00999999999976,TRUE,36,TRUE,FALSE,TRUE,"eleanor/3-00-21v.xml",TRUE
+"162","Wwww took away","oh she wants to share it does she",0.0230000000000246,"CHI","FAT",2.06700000000001,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-22b.xml",TRUE
+"163","with my sharp nails they crack","no",0.182999999999993,"CHI","MOT",2.42599999999993,TRUE,36,FALSE,TRUE,FALSE,"eleanor/3-00-24a.xml",TRUE
+"164","eight thirties","eight thirty",0.18100000000004,"CHI","MOT",1.13700000000017,TRUE,36,FALSE,TRUE,FALSE,"eleanor/3-00-24a.xml",TRUE
+"165","did you bought that","I bought it yes",0.104000000000269,"CHI","MOT",1.3119999999999,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-24b.xml",TRUE
+"166","I weren't","you weren't",0,"CHI","MOT",1.60200000000009,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-29a.xml",TRUE
+"167","I did have a face painting at Gullivers_world","oh",0.0350000000003092,"CHI","FAT",4.64399999999978,TRUE,36,TRUE,FALSE,FALSE,"eleanor/3-00-30b.xml",TRUE
+"168","a lots of stars","not not too many darling",-0.662000000000262,"CHI","FAT",1.6840000000002,TRUE,36,FALSE,TRUE,TRUE,"eleanor/3-00-30b.xml",TRUE
