@@ -222,18 +222,20 @@ Fraser,8,g,3,CHILD,he said oh man.,0,,
 Fraser,8,g,4,MOTHER,is that what he says?,0,,
 Fraser,8,g,5,CHILD,yeah and he ran away.,5,,
 Fraser,8,g,6,MOTHER,then he runs away.,0,,
-Fraser,9,u,1,MOTHER,did you hear something?,0,did you hear something?,why are they bad?
+Fraser,9,u,1,MOTHER,"we'd have to read the story to find out, wouldn't we?",0,what's the matter?,does that look good?
 Fraser,9,u,2,CHILD,yeah.,0,,
-Fraser,9,u,3,MOTHER,what did you hear?,0,,
-Fraser,9,u,4,CHILD,I heared the people.,2,,
-Fraser,9,u,5,MOTHER,you heard the people?,0,,
+Fraser,9,u,3,MOTHER,what's the matter?,0,,
+Fraser,9,u,4,CHILD,"look, the cat eated that thing.",4,,
+Fraser,9,u,5,MOTHER,did it?,0,,
 Fraser,9,u,6,CHILD,yeah.,0,,
-Fraser,9,g,1,MOTHER,did you hear something?,0,did you hear something?,why are they bad?
+Fraser,9,u,7,MOTHER,did it eat the hamster?,0,,
+Fraser,9,g,1,MOTHER,"we'd have to read the story to find out, wouldn't we?",0,what's the matter?,does that look good?
 Fraser,9,g,2,CHILD,yeah.,0,,
-Fraser,9,g,3,MOTHER,what did you hear?,0,,
-Fraser,9,g,4,CHILD,I heard the people.,2,,
-Fraser,9,g,5,MOTHER,you heard the people?,0,,
+Fraser,9,g,3,MOTHER,what's the matter?,0,,
+Fraser,9,g,4,CHILD,"look, the cat ate that thing.",4,,
+Fraser,9,g,5,MOTHER,did it?,0,,
 Fraser,9,g,6,CHILD,yeah.,0,,
+Fraser,9,g,7,MOTHER,did it eat the hamster?,0,,
 Fraser,10,u,1,CHILD,"it's not my bouncy anymore, is it?",0,"he did, yeah.",that was quick.
 Fraser,10,u,2,MOTHER,pardon?,0,,
 Fraser,10,u,3,CHILD,"the man taked my bouncy castle, didn't he?",3,,
