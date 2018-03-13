@@ -43,21 +43,6 @@ function Exchange(utterances) {
   this.utterances = utts;
 }
 
-function logTrial(trial) {
-  console.log("number: " + trial.number);
-  console.log("a version: ");
-  console.log(trial.trials["a"].utterances);
-  console.log("b version: ");
-  console.log(trial.trials["b"].utterances);
-}
-
-function logme(trialVersion) {
-  console.log("number: " + trial["t"]);
-  console.log("version: " + trial["v"]);
-  console.log("utterances: " + trial["v"].utterances);
-}
-
-
 function Trial(kid, number, entries) {
   this.kid = kid;
   this.number = number;
@@ -374,7 +359,6 @@ var experiment = {
             experiment.curr_i = 0;
             experiment.curr_j = 0;
             experiment.passed_ac = false;
-            console.log(experiment.curr_trial);
           }
           experiment.next_word();
           return;
@@ -423,7 +407,6 @@ var experiment = {
               experiment.next_word()
             }, 2000);
           } else {
-            console.log(experiment.curr_trial);
             experiment.next_word();
           }
           return;
@@ -451,7 +434,6 @@ var experiment = {
         experiment.curr_i = 0;
         experiment.curr_j = 0;
         experiment.passed_ac = false;
-        console.log(experiment.curr_trial);
         if(experiment.curr_trial["t"] == -3) {
           showSlide("completeFirstHalf");
           setTimeout(function() {
