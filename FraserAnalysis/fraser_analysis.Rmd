@@ -105,8 +105,8 @@ nwords <- function(string, pseudo=F){
 #Find attention check utts
 ac_utts <- fraser_final %>%
   filter(responder=="MOT") %>%
-  filter(source_file=="fraser/3-00-30b.xml") %>%
+  filter(source_file=="fraser/3-00-27b.xml") %>%
   mutate(ul=nwords(response)) %>%
-  filter(ul==3)
+  filter(ul==4)
 ```
 
