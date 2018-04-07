@@ -16,7 +16,8 @@ options(digits=10)
 thomas_utts <- read_csv("thomas_analysis_utts.csv")
 
 thomas_past_plural_utts <- thomas_utts %>%
-  filter(past_tense | plural)
+  filter(past_tense | plural) %>%
+  filter(!is.na(response))
 
 thomas_or_rates <- read_csv("thomas_or_rates.csv")
 thomas_overall_or_rates <- read_csv("thomas_all_or_rates.csv")
@@ -41,7 +42,78 @@ ggplot(thomas_mlu, aes(x=age, y=mlu)) + geom_line() + geom_smooth() + theme_bw()
 
 #### Rate of Overregularization Over Development
 ```{r}
-ggplot(thomas_overall_or_rates, aes(x=age, y=or_rate)) + geom_line() + geom_smooth() + theme_bw()
+## Compare utterances to dictionary of irregulars
+irregulars <- read_csv("../EnglishIrregularVerbs.csv")
+
+
+past_with_irregulars <- thomas_utts %>%
+  filter(past_tense) %>%
+  mutate(words = strsplit(utterance, " ")) %>%
+  merge(., irregulars, by=NULL)
+
+getCorrectToken <- function(words, simple1, simple2, pastp1, pastp2, regularized, double) {
+  if(simple1 %in% words) {
+    simple1
+  } else if(simple2 %in% words) {
+    simple2
+  } else if(pastp1 %in% words) {
+    pastp1
+  } else if(pastp2 %in% words) {
+    pastp2
+  } else if(regularized %in% words) {
+    simple1
+  } else if(double %in% words) {
+    simple1
+  } else {
+    warning(paste("No version in words ", words))
+    NA
+  }
+}
+
+isCorrectToken <- function(words, simple1, simple2, pastp1, pastp2) {
+  simple1 %in% words |
+  simple2 %in% words | 
+  pastp1 %in% words | 
+  pastp2 %in% words
+}
+
+isIncorrectToken <- function(words, regularized, double) {
+  regularized %in% words | double %in% words
+}
+
+past_with_irregulars <- past_with_irregulars %>%
+  filter(error_type != "other error") %>%
+  rowwise() %>%
+  mutate(contains_correct_token = isCorrectToken(words, PastSimple1, PastSimple2, PastParticiple1, PastParticiple2), contains_incorrect_token = isIncorrectToken(words, RegularizedPast, DoubleInflection)) %>%
+  filter(contains_correct_token | contains_incorrect_token) %>%
+mutate(correct_token = getCorrectToken(words, PastSimple1, PastSimple2, PastParticiple1, PastParticiple2, RegularizedPast, DoubleInflection))
+
+past_with_irregulars["PastSimple1"] <- NULL
+past_with_irregulars["PastSimple2"] <- NULL
+past_with_irregulars["PastParticiple1"] <- NULL
+past_with_irregulars["PastParticiple2"] <- NULL
+past_with_irregulars["RegularizedPast"] <- NULL
+past_with_irregulars["DoubleInflection"] <- NULL
+
+overreg_stats <- past_with_irregulars %>%
+  group_by(age, correct_token) %>%
+  summarise(n_or_tokens = sum(contains_incorrect_token), n_correct_tokens = sum(contains_correct_token)) %>%
+  group_by(age) %>%
+  summarise(or_rate = (sum(n_or_tokens)/(sum(n_or_tokens) + sum(n_correct_tokens))) * 100) %>%
+  group_by(age) %>%
+  summarise(or_rate = or_rate, percent_correct = 100 - or_rate)
+
+ggplot(overreg_stats, aes(x = age, y = percent_correct)) + geom_line() + theme_classic() + ylim(0, 100)
+
+ggplot(overreg_stats, aes(x = age, y = or_rate)) + geom_smooth() + theme_classic() + ylim(0, 100)
+
+## Marcus (1992) or rate
+## overreg tokens / (overreg tokens + correct past tokens)
+
+
+
+
+#ggplot(thomas_overall_or_rates, aes(x=age, y=or_rate)) + geom_line() + geom_smooth() + theme_bw()
 ```
 
 #### Relationship of Overregularization to Age
@@ -137,4 +209,11 @@ lm(log(response_time) ~ error_type + age + ul, loggable_flipped) %>% summary()
 ggplot(thomas_past_plural_utts %>% filter(response_time > -2.5 & response_time < 2.5), aes(x=response_time, fill=error_type)) + geom_density(alpha=.6) +
   geom_vline(xintercept=0, linetype="dotted", color="red") +
   facet_grid(error_type ~ .) + theme_classic() + ggtitle("Thomas") + ylim(0, 3.5)
+
+stats <- thomas_past_plural_utts %>%
+  group_by(error_type) %>%
+  summarise(mean = mean(response_time), var = var(response_time), sd = sd(response_time), se = sd/sqrt(n()))
+
+ggplot(stats, aes(x=error_type, y = mean, fill=error_type)) + geom_bar(stat="identity") + geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width = 0.2) + theme_bw()
+
 ```

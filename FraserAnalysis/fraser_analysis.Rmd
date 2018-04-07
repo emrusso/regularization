@@ -15,6 +15,7 @@ editor_options:
 
 ```{r setup}
 library(tidyverse)
+library(ggridges)
 
 utts <- read_csv("fraser_utterance_data.csv", col_names = FALSE)
 names(utts) <- c("utterance", "response", "response_time", "speaker", "responder", "utterance_time", "error", "age", "past_tense", "plural", "overlap", "source_file")
@@ -65,9 +66,22 @@ sub_data <- fraser_final %>%
 sub_lm <- lm(overlap ~ error_type + age + utterance_time, sub_data)
 summary(sub_lm)
 
-ggplot(sub_data %>% filter(response_time > -2.5 & response_time < 2.5), aes(x=response_time, fill=error_type)) + geom_density(alpha=0.6) +
-  geom_vline(xintercept=0, linetype="dotted", color="red") +
-  facet_grid(error_type ~ .) + ggtitle("Fraser") + theme_classic() + ylim(0, 3.5) + xlim(-2.5, 2.5)
+sub_data <- sub_data %>% filter(response_time > -2.5 & response_time < 2.5)
+
+ggplot(sub_data, aes(x=response_time, y = error_type, fill=error_type)) + geom_density_ridges(alpha=0.6, aes(point_shape = error_type, point_fill = error_type), jittered_points = F) + theme_minimal(base_size = 14) + theme(axis.text.y = element_text(vjust = 0)) +
+   scale_x_continuous(expand = c(0.01, 0)) +
+   scale_y_discrete(expand = c(0.01, 0))
+
+
+
+  geom_vline(xintercept=0, linetype="dotted", color="red") + theme_classic()
+   + ggtitle("Fraser") + theme_classic() + ylim(0, 3.5) + xlim(-2.5, 2.5)
+
+stats <- sub_data %>%
+  group_by(error_type) %>%
+  summarise(mean = mean(response_time), var = var(response_time), sd = sd(response_time), se = sd/sqrt(n()))
+
+ggplot(stats, aes(x=error_type, y = mean, fill=error_type)) + geom_bar(stat="identity") + geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width = 0.2) + theme_classic()
 
 fraser_left_side <-  sub_data %>%
   filter(response_time < 0) %>%

@@ -119,6 +119,12 @@ ggplot(with_response_length %>% filter(response_time.x > -2.5 & response_time.x 
   geom_vline(xintercept=0, linetype="dotted", color="red") +
   facet_grid(error_type ~ .) + theme_classic() + ggtitle("Eleanor") + ylim(0, 3.5) + xlim(-2.5, 2.5)
 
+stats <- with_response_length %>%
+  group_by(error_type) %>%
+  summarise(mean = mean(response_time.x), var = var(response_time.x), sd = sd(response_time.x), se = sd/sqrt(n()))
+
+ggplot(stats, aes(x=error_type, y = mean, fill=error_type)) + geom_bar(stat="identity") + geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width = 0.2) + theme_classic()
+
 lm(response_time.x ~ error_type + age.x, data = sub_data) %>%
   summary()
 

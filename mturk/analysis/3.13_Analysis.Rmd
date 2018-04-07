@@ -57,11 +57,6 @@ error_pos_info <- read_csv("../error_pos_data.csv")
 data <- data %>%
   left_join(., error_pos_info)
 
-comparison_data <- data %>%
-  filter(is_test_utterance & word_response_time < 1000 & word_response_time > 150) %>%
-  group_by(subj, trial, version, utterance_in_exchange) %>%
-  mutate(centered_pos = 1:n()-error_position)
-
 single_subj_data <- comparison_data %>%
   filter(subj == 1)
 
@@ -69,12 +64,15 @@ ggplot(data, aes(x = word_response_time, fill = speaker)) +
   xlim(0, 1000) +
   geom_histogram()
 
-ggplot(comparison_data, aes(x = centered_pos, y = log(word_response_time), fill = version)) +
-  geom_smooth() +
-  facet_wrap(~trial)
+comparison_data <- data %>%
+  filter(is_test_utterance & word_response_time < 1000 & word_response_time > 150) %>%
+  group_by(subj, trial, version, utterance_in_exchange) %>%
+  #filter(error_position >= 3) %>%
+  mutate(centered_pos = 1:n()-error_position)
 
-comparison_data <- comparison_data %>%
-  filter(error_position >= 3)
+ggplot(comparison_data, aes(x = centered_pos, y = word_response_time, fill = version)) +
+  geom_smooth(method="loess") +
+  facet_wrap(~trial)
 
 ggplot(comparison_data, aes(x = centered_pos, y = log(word_response_time), fill = version)) +
   geom_smooth() +
@@ -82,16 +80,89 @@ ggplot(comparison_data, aes(x = centered_pos, y = log(word_response_time), fill 
   xlim(-1, 5) +
   facet_wrap(~trial)
 
+g_first_subjs <- data %>%
+  filter(true_display_order == 1 & version == "g") %>%
+  distinct(subj) %>%
+  mutate(order="g_first")
+
+u_first_subjs <- data %>%
+  filter(true_display_order == 1 & version == "u") %>%
+  distinct(subj) %>%
+  mutate(order="u_first")
+
+data <- data %>%
+  right_join(full_join(g_first_subjs, u_first_subjs))
+```
+
+```{r}
+## April 16th code
+ggplot(data, aes(x = log(word_response_time))) + 
+  geom_histogram()
+
+cutoffs <- data %>%
+  filter(word_response_time > 0) %>%
+  mutate(log_rt = log(word_response_time)) %>%
+  summarise(sd = sd(log_rt),
+            mean = mean(log_rt))
+
+cutoff_data <- data %>%
+  filter(word_response_time > 0) %>%
+  mutate(log_rt = log(word_response_time)) %>%
+  mutate(log_rt = if_else(log_rt > cutoffs$mean + 3 * cutoffs$sd,
+                          as.numeric(NA), if_else(
+                            log_rt <  cutoffs$mean - 3 * cutoffs$sd,
+                            as.numeric(NA), log_rt)))
+
+
+comparison_data <- cutoff_data %>%
+  filter(is_test_utterance) %>%
+  group_by(version, trial, utterance_in_exchange, subj) %>%
+  mutate(centered_pos = 1:n()-error_position)
+
+
+
+ggplot(aggregate_data, aes(x = centered_pos, y = exp(empirical_stat), 
+                           color = version, fill = version)) + 
+  geom_pointrange(aes(ymin = exp(ci_lower), ymax = exp(ci_upper)),
+                  position = position_dodge(.5)) + 
+  geom_smooth(se = F, span = 1) +
+  theme_classic()
+
+lmer(log_rt ~ version + centered_pos +
+       (version|subj) + (1|trial),
+     data = filter(comparison_data, centered_pos <  0)) %>%
+  summary()
+
+3.616051e-02/sd(filter(comparison_data, centered_pos == 0) %>% pull(log_rt), na.rm = T)
+```
+
+```{r}
+comparison_data <- data %>%
+  filter(is_test_utterance & word_response_time < 1000 & word_response_time > 150) %>%
+  group_by(subj, trial, version, utterance_in_exchange) %>%
+  mutate(centered_pos = 1:n()-error_position)
+
+ggplot(data %>% filter(is_test_utterance == F), aes(y = word_response_time, x = word_in_utterance, fill=version)) +
+  geom_smooth(method="loess") +
+  coord_cartesian(xlim = c(1, 10)) + theme_classic() + facet_wrap(~order)
+
+ggplot(comparison_data, aes(y = word_response_time, x = centered_pos, fill=version)) +
+  geom_smooth(method="loess") +
+  coord_cartesian(xlim = c(-5, 5)) + theme_classic() + facet_grid(~order)
 
 ggplot(comparison_data, aes(y = word_response_time, x = centered_pos, fill = version)) +
   geom_smooth(method="loess") +
+  facet_wrap(~error_position)  
+  
   coord_cartesian(xlim = c(-1, 5)) +
   facet_wrap(~trial)
 
 # check data size for u and g versions actually seen
 sanity_check <- data %>%
   filter(is_test_utterance) %>%
-  group_by(subj) %>%
+  group_by(subj, trial, kid) %>%
+  distinct(., kid,version) %>%
+  group_by(subj, kid) %>%
   summarise(n_g = sum(version == "g"), n_u = sum(version == "u"))
 
 total_stats <- sanity_check %>%
@@ -100,5 +171,12 @@ total_stats <- sanity_check %>%
 
 lmer(log(word_response_time) ~ version + (1|subj), data = comparison_data) %>%
   summary()
+
+comparison_data %>%
+  filter(centered_pos == 2) %>%
+  group_by(version, order, trial, subj) %>%
+  summarise(time = mean(word_response_time)) %>%
+  summarise(time = mean(time)) %>%
+  summarise(sd = sd(time), mean = mean(time))
 
 ```
