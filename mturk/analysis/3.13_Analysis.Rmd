@@ -12,7 +12,8 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(tidyboot)
 library(lme4)
-library(dplyr)
+
+theme_set(theme_classic(base_size = 14))
 ```
 
 ```{r}
@@ -34,7 +35,8 @@ ac_info <- data %>%
   group_by(subj, trial) %>%
   distinct(.,passed_ac) %>%
   group_by(subj) %>%
-  summarise(num_ac_passed = sum(passed_ac), percent_ac_passed = num_ac_passed/n() * 100)
+  summarise(num_ac_passed = sum(passed_ac), 
+            percent_ac_passed = num_ac_passed/n() * 100)
 
 data_with_ac_info <- data %>%
   left_join(ac_info, by="subj")
@@ -60,7 +62,7 @@ data <- data %>%
 single_subj_data <- comparison_data %>%
   filter(subj == 1)
 
-ggplot(data, aes(x = word_response_time, fill = speaker)) +
+ggplot(data, aes(x = log(word_response_time), fill = speaker)) +
   xlim(0, 1000) +
   geom_histogram()
 
@@ -96,7 +98,15 @@ data <- data %>%
 
 ```{r}
 ## April 16th code
-ggplot(data, aes(x = log(word_response_time))) + 
+
+#check whether RTs are normally distributed
+data %>%
+  select(word_response_time) %>%
+  filter(word_response_time > 0 & word_response_time < 5000) %>%
+  mutate(log_rt = log(word_response_time)) %>%
+  gather(measure, value, word_response_time, log_rt) %>%
+  ggplot(aes(x = value)) + 
+  facet_wrap(~ measure, scales = "free") +
   geom_histogram()
 
 cutoffs <- data %>%
@@ -108,32 +118,70 @@ cutoffs <- data %>%
 cutoff_data <- data %>%
   filter(word_response_time > 0) %>%
   mutate(log_rt = log(word_response_time)) %>%
-  mutate(log_rt = if_else(log_rt > cutoffs$mean + 3 * cutoffs$sd,
+  mutate(log_rt = if_else(log_rt > cutoffs$mean + 2.5 * cutoffs$sd,
                           as.numeric(NA), if_else(
-                            log_rt <  cutoffs$mean - 3 * cutoffs$sd,
+                            log_rt <  cutoffs$mean - 2.5 * cutoffs$sd,
                             as.numeric(NA), log_rt)))
 
+#How much data did we lose?
+cutoff_data %>%
+  summarise(na_pct = mean(is.na(log_rt))) %>%
+  pull(na_pct)
 
+#Filter down to just the relevant data
 comparison_data <- cutoff_data %>%
   filter(is_test_utterance) %>%
-  group_by(version, trial, utterance_in_exchange, subj) %>%
+  group_by(version, subj, trial, utterance_in_exchange) %>%
   mutate(centered_pos = 1:n()-error_position)
 
 
+comparison_data %>%
+  group_by(version, trial, subj) %>%
+  select(1) %>%
+  summarise(n = n()) %>%
+  summarise(n = n()) %>%
+  View()
 
-ggplot(aggregate_data, aes(x = centered_pos, y = exp(empirical_stat), 
-                           color = version, fill = version)) + 
-  geom_pointrange(aes(ymin = exp(ci_lower), ymax = exp(ci_upper)),
-                  position = position_dodge(.5)) + 
-  geom_smooth(se = F, span = 1) +
-  theme_classic()
+aggregate_data <- comparison_data %>%
+  filter(abs(centered_pos) <= 3) %>%
+  mutate(word_length = 1,#nchar(gsub("[^A-Za-z]+","",stimulus)),
+         log_rt_per_char = exp(log_rt) / word_length) %>%
+  mutate(pos = if_else(centered_pos < 0, "before",
+                       if_else(centered_pos > 0, "after", "during"))) %>%
+  mutate(pos = factor(pos, levels = c("before", "during", "after"))) %>%
+  group_by(version, pos, trial, subj, utterance_in_exchange, 
+            true_display_order) %>%
+   summarise(log_rt_per_char = mean(log_rt_per_char), na.rm = T)
 
-lmer(log_rt ~ version + centered_pos +
-       (version|subj) + (1|trial),
-     data = filter(comparison_data, centered_pos <  0)) %>%
-  summary()
+char_model <- lmer(log_rt_per_char ~ version * pos + 
+                     true_display_order + utterance_in_exchange  +
+                     (pos + version| subj) + 
+                     (pos + version| trial),
+     data = aggregate_data) 
 
-3.616051e-02/sd(filter(comparison_data, centered_pos == 0) %>% pull(log_rt), na.rm = T)
+summary(char_model)
+
+# Does the model accord with the data?
+predicted_data <- aggregate_data %>%
+  filter(!is.na(log_rt_per_char)) %>%
+  ungroup() %>%
+  mutate(predicted = predict(char_model, re.form = NA))
+
+cor.test(predicted_data$predicted, predicted_data$log_rt_per_char)
+
+plot_data <- aggregate_data %>%
+  group_by(version, pos, subj, trial) %>%
+  summarise(log_rt_per_char = mean(log_rt_per_char, na.rm = T)) %>%
+  summarise(log_rt_per_char = mean(log_rt_per_char, na.rm = T)) %>%
+  summarise(sem = sqrt(var(log_rt_per_char, na.rm = T) / 
+                         sum(!is.na(log_rt_per_char))),
+            empirical_stat = mean(log_rt_per_char, na.rm = T)) %>%
+  mutate(ci_upper = empirical_stat + sem, ci_lower = empirical_stat - sem)
+  #tidyboot_mean(log_rt_per_char)
+
+ggplot(plot_data, aes(x = pos, y = empirical_stat, color = version)) +
+  geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper), 
+                      position = position_dodge(.5))
 ```
 
 ```{r}
