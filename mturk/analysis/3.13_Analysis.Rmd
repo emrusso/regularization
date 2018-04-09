@@ -135,25 +135,18 @@ comparison_data <- cutoff_data %>%
   mutate(centered_pos = 1:n()-error_position)
 
 
-comparison_data %>%
-  group_by(version, trial, subj) %>%
-  select(1) %>%
-  summarise(n = n()) %>%
-  summarise(n = n()) %>%
-  View()
-
 aggregate_data <- comparison_data %>%
-  filter(abs(centered_pos) <= 3) %>%
+  #filter(abs(centered_pos) <= 3) %>% # This seems not to matter
   mutate(word_length = 1,#nchar(gsub("[^A-Za-z]+","",stimulus)),
-         log_rt_per_char = exp(log_rt) / word_length) %>%
+         rt_per_char = exp(log_rt) / word_length) %>%
   mutate(pos = if_else(centered_pos < 0, "before",
                        if_else(centered_pos > 0, "after", "during"))) %>%
   mutate(pos = factor(pos, levels = c("before", "during", "after"))) %>%
   group_by(version, pos, trial, subj, utterance_in_exchange, 
             true_display_order) %>%
-   summarise(log_rt_per_char = mean(log_rt_per_char), na.rm = T)
+   summarise(rt_per_char = mean(rt_per_char), na.rm = T)
 
-char_model <- lmer(log_rt_per_char ~ version * pos + 
+char_model <- lmer(rt_per_char ~ version * pos + 
                      true_display_order + utterance_in_exchange  +
                      (pos + version| subj) + 
                      (pos + version| trial),
@@ -171,13 +164,12 @@ cor.test(predicted_data$predicted, predicted_data$log_rt_per_char)
 
 plot_data <- aggregate_data %>%
   group_by(version, pos, subj, trial) %>%
-  summarise(log_rt_per_char = mean(log_rt_per_char, na.rm = T)) %>%
-  summarise(log_rt_per_char = mean(log_rt_per_char, na.rm = T)) %>%
-  summarise(sem = sqrt(var(log_rt_per_char, na.rm = T) / 
-                         sum(!is.na(log_rt_per_char))),
-            empirical_stat = mean(log_rt_per_char, na.rm = T)) %>%
+  summarise(rt_per_char = mean(rt_per_char, na.rm = T)) %>%
+  summarise(rt_per_char = mean(rt_per_char, na.rm = T)) %>%
+  summarise(sem = sqrt(var(rt_per_char, na.rm = T) / 
+                         sum(!is.na(rt_per_char))),
+            empirical_stat = mean(rt_per_char, na.rm = T)) %>%
   mutate(ci_upper = empirical_stat + sem, ci_lower = empirical_stat - sem)
-  #tidyboot_mean(log_rt_per_char)
 
 ggplot(plot_data, aes(x = pos, y = empirical_stat, color = version)) +
   geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper), 
