@@ -1,0 +1,154 @@
+---
+title: "Preregistered analysis for Study 2"
+author: "Emmi Russo and Dan Yurovsky"
+date: "4/20/2018"
+output: html_notebook
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(tidyboot)
+library(lme4)
+
+theme_set(theme_classic(base_size = 14))
+```
+
+Read in the data
+```{r read_data}
+DATA_FILE <- "../data/replication_data.csv"
+data <- read_csv(DATA_FILE)
+
+# Count number of words in a string
+nwords <- function(string, pseudo=F){
+  string = gsub("[^[:alpha:][:space:]]", "", string)
+  ifelse( pseudo, 
+          pattern <- "\\S+", 
+          pattern <- "[[:alpha:]]+" 
+        )
+  str_count(string, pattern)
+}
+
+utterance_data <- data %>%
+  mutate(ul = nwords(utterance))
+
+ac_info <- utterance_data %>%
+  group_by(subj, trial) %>%
+  distinct(passed_ac) %>%
+  group_by(subj) %>%
+  summarise(num_ac_passed = sum(passed_ac), 
+            percent_ac_passed = num_ac_passed/n() * 100)
+```
+
+Drop participants who didn't pass attention check
+```{r attention_check}
+data_with_ac_info <- utterance_data %>%
+  left_join(ac_info, by="subj")
+
+# Throw out the rude people who didn't pay attention
+checked_data <- data_with_ac_info %>%
+  filter(percent_ac_passed >= 95)
+
+ggplot(ac_info, aes(x=num_ac_passed, stat="count")) +
+  geom_bar()
+
+# error pos data
+error_pos_info <- read_csv("../error_pos_data.csv")
+
+# add in error positions
+pos_data <- checked_data %>%
+  left_join(error_pos_info)
+
+ggplot(pos_data, aes(x = word_response_time, fill = speaker)) +
+  xlim(0, 1000) +
+  geom_histogram()
+```
+
+Drop extreme rts
+```{r drop_extreme_rts}
+comparison_data <- pos_data %>%
+  filter(is_test_utterance) %>%
+  mutate(word_response_time = 
+           if_else(word_response_time < 100, 
+                   as.numeric(NA), 
+                   if_else(word_response_time > 1000, as.numeric(NA),
+                           as.numeric(word_response_time)))) %>%
+  group_by( version, utterance_in_exchange, subj, trial) %>%
+  mutate(centered_pos = 1:n()-error_position)
+
+# Trial by trial plot
+# ggplot(comparison_data, aes(x = centered_pos, y = log(word_response_time), 
+#                             fill = version, color = version)) +
+#   geom_smooth() +
+#   geom_vline(xintercept = 0) +
+#   xlim(-1, 5) +
+#   facet_wrap(~trial)
+```
+
+Plot aggregate difference in mean rt in each position
+```{r plot_test}
+test_data <- comparison_data %>%
+  filter(abs(centered_pos) <= (error_position - 1)) %>%
+  mutate(pos = if_else(centered_pos < 0, "before",
+                       if_else(centered_pos > 0, "after", "during"))) %>%
+  mutate(pos = factor(pos, levels = c("before", "during", "after"))) %>%
+  group_by(pos, version, subj, trial) %>%
+  summarise(word_response_time = mean(word_response_time, na.rm = T)) %>%
+  summarise(word_response_time = mean(word_response_time, na.rm = T)) %>%
+  spread(version, word_response_time) %>%
+  mutate(diff = u - g) %>%
+  tidyboot_mean(diff)
+
+test_data %>%
+  ggplot(aes(x = pos, y = empirical_stat, ymax = ci_upper, ymin = ci_lower)) + 
+  geom_pointrange(position = position_dodge(.5)) + 
+  geom_hline(aes(yintercept = 0))
+```
+
+Fit the model, critical predicition is a positive interaction between grammaticality and postition such that ungrammatical utterances are slower after the target word
+```{r fit_lmer}
+aggregate_data <- comparison_data %>%
+  filter(abs(centered_pos) <= (error_position - 1)) %>% # This seems not to matter
+  mutate(pos = if_else(centered_pos < 0, "before",
+                       if_else(centered_pos > 0, "after", "during"))) %>%
+  mutate(pos = factor(pos, levels = c("before", "during", "after"))) %>%
+  group_by(version, pos, utterance_in_exchange, true_display_order, 
+           trial, subj) %>%
+   summarise(word_response_time = mean(word_response_time))
+
+# Most maximal model that will converge using previous data. If this model does not converge, we will prioritize keeping the pos * version interaction in trial given the variability across trials
+maximal_model <- lmer(word_response_time ~ version * pos + 
+                     true_display_order + utterance_in_exchange  +
+                     (pos + version| subj) + 
+                     (pos * version| trial), 
+     data = aggregate_data) 
+
+summary(maximal_model)
+```
+
+How much variance is predicted nby the fixed effects?
+```{r}
+
+# Does the model accord with the data?
+predicted_data <- aggregate_data %>%
+  filter(!is.na(word_response_time)) %>%
+  ungroup() %>%
+  mutate(predicted = predict(maximal_model, re.form = NA))
+
+cor.test(predicted_data$predicted, predicted_data$word_response_time)
+
+plot_data <- aggregate_data %>%
+  group_by(version, pos, subj, trial) %>%
+  summarise(rt_per_char = mean(rt_per_char, na.rm = T)) %>%
+  summarise(rt_per_char = mean(rt_per_char, na.rm = T)) %>%
+  summarise(sem = sqrt(var(rt_per_char, na.rm = T) / 
+                         sum(!is.na(rt_per_char))),
+            empirical_stat = mean(rt_per_char, na.rm = T)) %>%
+  mutate(ci_upper = empirical_stat + sem, ci_lower = empirical_stat - sem)
+
+ggplot(plot_data, aes(x = pos, y = empirical_stat, color = version)) +
+  geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper), 
+                      position = position_dodge(.5))
+```
