@@ -16,6 +16,15 @@ editor_options:
 ```{r setup}
 library(tidyverse)
 library(ggridges)
+library(tidyboot)
+
+nwords <- function(string, pseudo=F){
+  ifelse( pseudo, 
+          pattern <- "\\S+", 
+          pattern <- "[[:alpha:]]+" 
+        )
+  str_count(string, pattern)
+}
 
 utts <- read_csv("fraser_utterance_data.csv", col_names = FALSE)
 names(utts) <- c("utterance", "response", "response_time", "speaker", "responder", "utterance_time", "error", "age", "past_tense", "plural", "overlap", "source_file")
@@ -28,94 +37,138 @@ utts_clean <- utts %>%
   filter((-5 <= response_time) & (response_time <= 5) & (utterance_time <= 10))
 
 kid_parent_utts <- utts_clean %>%
-  filter((speaker == "CHI") & ((responder == "MOT")))
+  filter((speaker == "CHI") & ((responder == "MOT" | responder == "FAT")))
 
 ```
 
 ```{r get possible overregs}
 
-#overreg_candidates <- kid_parent_utts %>%
-  #mutate(overreg_candidate = ((past_tense | plural) & error)) %>%
-  #filter(past_tense | plural)
+overreg_candidates <- kid_parent_utts %>%
+  mutate(overreg_candidate = ((past_tense | plural) & error)) %>%
+  filter(past_tense | plural)
+
+dad_overreg_candidates <- overreg_candidates %>%
+  filter(responder == "FAT" & overreg_candidate == T)
 
 #to_write <- overreg_candidates %>%
   #filter(overreg_candidate)
 
 #write.csv(to_write, "fraser_overreg_candidates.csv")
+```
 
-fraser_manual_overregs <- read_csv("fraser_manual.csv")
+# Join back in hand coded data
+```{r}
+fraser_manual_overregs <- read_csv("fraser_manual_with_dad.csv")
 
 fraser_manual_overregs$X1 = NULL
 
 fraser_final <- kid_parent_utts %>%
-  left_join(fraser_manual_overregs, by=c("utterance", "response")) %>%
+  left_join(fraser_manual_overregs, by=c("utterance", "response", "responder")) %>%
   mutate(overreg = ifelse(is.na(overreg), F, ifelse(overreg == "T", T, F)))
 
-
 fraser_final <- fraser_final %>%
-  mutate(response_time = response_time.x, speaker = speaker.x, responder = responder.x, utterance_time = utterance_time.x, error = error.x, age = age.x, past_tense = past_tense.x, plural = plural.x, overlap = overlap.x, source_file = source_file.x)
-  
+  mutate(response_time = response_time.x, speaker = speaker.x, utterance_time = utterance_time.x, error = error.x, age = age.x, past_tense = past_tense.x, plural = plural.x, overlap = overlap.x, source_file = source_file.x)
+
 fraser_final <- fraser_final[,c("utterance", "response", "speaker", "responder", "error", "age", "response_time", "utterance_time", "past_tense", "plural", "overreg", "overlap", "source_file")]
 
 fraser_final <- fraser_final %>%
   mutate(error_type = ifelse(!error, "no error", ifelse(overreg, "overregularization", "other error")))
 
 sub_data <- fraser_final %>%
-  filter(past_tense | plural)
+  filter(past_tense | plural) %>%
+  mutate(ul = nwords(utterance), rl = nwords(response))
 
-sub_lm <- lm(overlap ~ error_type + age + utterance_time, sub_data)
+sub_lm <- lm(overlap ~ error_type + age + utterance_time + ul + rl + responder, sub_data)
 summary(sub_lm)
 
-sub_data <- sub_data %>% filter(response_time > -2.5 & response_time < 2.5)
+#responder is a significant factor and we have fat utterances <<< mot utterances - just look at mom
 
-ggplot(sub_data, aes(x=response_time, y = error_type, fill=error_type)) + geom_density_ridges(alpha=0.6, aes(point_shape = error_type, point_fill = error_type), jittered_points = F) + theme_minimal(base_size = 14) + theme(axis.text.y = element_text(vjust = 0)) +
-   scale_x_continuous(expand = c(0.01, 0)) +
-   scale_y_discrete(expand = c(0.01, 0))
+mom_data <- sub_data %>%
+  filter(responder=="MOT")
 
+mom_lm <- lm(overlap ~ error_type + age + utterance_time + ul + rl, sub_data)
+summary(mom_lm)
 
+#write_csv(sub_data, "fraser_final_utterances.csv")
 
-  geom_vline(xintercept=0, linetype="dotted", color="red") + theme_classic()
-   + ggtitle("Fraser") + theme_classic() + ylim(0, 3.5) + xlim(-2.5, 2.5)
+quartz()
+ggplot(mom_data, aes(x=response_time, fill=error_type)) + geom_density(alpha=.6) +
+  geom_vline(xintercept=0, linetype="dotted", color="red") +
+  scale_fill_brewer(palette="Accent") +
+  facet_grid(error_type ~ .) + theme_classic() + ggtitle("Fraser") + coord_cartesian(xlim = c(-2.5, 2.5), ylim = c(0, 3.5)) + xlab("Parent Response Time (s)") + ylab("Density") + theme(legend.position = "none")
+```
 
-stats <- sub_data %>%
-  group_by(error_type) %>%
-  summarise(mean = mean(response_time), var = var(response_time), sd = sd(response_time), se = sd/sqrt(n()))
+# Check if Mom and Dad response times are sig different - if so, look only at Mom
+```{r}
+mom_response <- sub_data %>% filter(responder == "MOT")
+dad_response <- sub_data %>% filter(responder == "FAT")
 
-ggplot(stats, aes(x=error_type, y = mean, fill=error_type)) + geom_bar(stat="identity") + geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width = 0.2) + theme_classic()
+mom <- lm(response_time ~ error_type + age + utterance_time + ul + rl, mom_response)
+dad <- lm(response_time ~ error_type + age + utterance_time + ul + rl, dad_response)
+both <- lm(response_time ~ error_type + age + utterance_time + ul + rl + responder, sub_data)
 
-fraser_left_side <-  sub_data %>%
-  filter(response_time < 0) %>%
-  mutate(abs_rt = abs(response_time))
+momdad <- sub_data %>%
+  group_by(responder, error_type) %>%
+  tidyboot_mean(., response_time, na.rm = T)
 
-fraser_right_side <- sub_data %>%
-  filter(response_time > 0)
-
-lm(log(response_time) ~ error + age + utterance_time, fraser_right_side) %>%
-summary()
-
-lm(log(abs_rt) ~ error + age + utterance_time, fraser_left_side) %>%
-summary()
-  
-
-ggplot(fraser_left_side, aes(x=log(abs_rt), fill=error_type)) + geom_density(alpha=.4)
-
-ggplot(fraser_right_side, aes(x=log(response_time), fill=error_type)) + geom_density(alpha=.4)
-
- ggplot(sub_data, aes(x = age, y = response_time, fill = error)) + geom_smooth()
-
-
-
+t.test(formula = response_time ~ responder, data = sub_data %>% filter(error_type == "no error"))
+t.test(formula = response_time ~ responder, data = sub_data %>% filter(error_type == "other error"))
+t.test(formula = response_time ~ responder, data = sub_data %>% filter(error_type == "overregularization"))
 ```
 
 ```{r}
-nwords <- function(string, pseudo=F){
-  ifelse( pseudo, 
-          pattern <- "\\S+", 
-          pattern <- "[[:alpha:]]+" 
-        )
-  str_count(string, pattern)
-}
+stats <- mom_data %>%
+  group_by(error_type) %>%
+  summarise(mean = mean(response_time), var = var(response_time), sd = sd(response_time), se = sd/sqrt(n()))
 
+tb_stats <- mom_data %>%
+  group_by(error_type) %>%
+  tidyboot_mean(., response_time, na.rm = T)
+```
+
+# Plots
+```{r}
+t.test(formula = response_time ~ error_type, data = mom_data %>% filter(error_type == "no error" | error_type == "overregularization"))
+t.test(formula = response_time ~ error_type, data = mom_data %>% filter(error_type == "other error" | error_type == "no error"))
+t.test(formula = response_time ~ error_type, data = mom_data %>% filter(error_type == "other error" | error_type == "overregularization"))
+
+
+ggplot(tb_stats, aes(x=error_type, y = mean, fill=error_type)) + geom_bar(stat="identity") + geom_errorbar(aes(ymin=ci_lower, ymax=ci_upper), width = 0.2) + theme_bw()
+
+tb_stats$error_type = paste0(tb_stats$error_type, "       ")
+
+basePlot <- ggplot(tb_stats, aes(x = error_type, y = mean * 1000, 
+                           group=error_type, fill=error_type)) + 
+  geom_bar(stat="identity", position="dodge") +
+  geom_errorbar(aes(ymin=ci_lower*1000, ymax=ci_upper*1000), 
+                width = 0.2, position = position_dodge(0.9)) +
+  theme_bw(base_size = 16) +
+  theme(plot.title = element_text(hjust=0.5), legend.position = "none",panel.background = element_rect(fill = "transparent"), axis.text = element_text(size=16)) +
+  scale_fill_brewer(palette = "Accent") +
+  xlab("Error Type") +
+  ylab("Mean parent response time (ms)") +
+  ggtitle("Average Parent Response Time by Grammaticality (Fraser)") +
+  coord_cartesian(ylim=(c(-200,700))) +
+  scale_y_continuous(breaks = scales::pretty_breaks(n = 6))
+
+quartz()
+#pdf("ploooot.pdf", width=6, height=4)
+basePlot +
+  geom_segment(y = 600, yend = 600, x = 1, xend = 3) +
+  geom_segment(y = 585, yend = 600, x = 1, xend = 1) +
+  geom_segment(y = 585, yend = 600, x = 3, xend = 3) +
+  annotate("text", x = 2, y = 620, label="p < 0.001 ***") +
+  geom_segment(y = 400, yend = 400, x = 1, xend = 2) +
+  geom_segment(y = 385, yend = 400, x = 1, xend = 1) +
+  geom_segment(y = 385, yend = 400, x = 2, xend = 2) +
+  annotate("text", x = 1.5, y = 420, label="p < 0.001 ***") +
+  geom_segment(y = 500, yend = 500, x = 2, xend = 3) +
+  geom_segment(y = 485, yend = 500, x = 2, xend = 2) +
+  geom_segment(y = 485, yend = 500, x = 3, xend = 3) +
+  annotate("text", x = 2.5, y = 520, label="NS")
+```
+
+```{r}
 #Find attention check utts
 ac_utts <- fraser_final %>%
   filter(responder=="MOT") %>%
@@ -123,4 +176,30 @@ ac_utts <- fraser_final %>%
   mutate(ul=nwords(response)) %>%
   filter(ul==4)
 ```
+
+```{r}
+#MLU
+kid_utts <- utts_clean %>%
+  filter(speaker == "CHI") %>%
+  mutate(ul = nwords(utterance))
+
+mlu <- kid_utts %>%
+  filter(!is.na(ul)) %>%
+  group_by(age) %>%
+  summarise(mlu = mean(ul))
+
+ggplot(mlu, aes(x = age, y = mlu)) + geom_smooth() + geom_line() + theme_classic()
+```
+
+# t test variance
+```{r}
+variance_stats <- mom_data %>%
+  group_by(error_type, age) %>%
+  summarise(var = var(response_time))
+
+t.test(formula = var ~ error_type, data = variance_stats %>% filter(error_type == "no error" | error_type == "overregularization"))
+
+```
+
+
 

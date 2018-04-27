@@ -1,0 +1,139 @@
+---
+title: "AllKiddos"
+author: "Emmi Russo"
+date: "4/9/2018"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(tidyboot)
+library(ggridges)
+```
+
+```{r eleanor}
+eleanor_utts <- read_csv("EleanorAnalysis/eleanor_final_utterances.csv", col_names = T)
+eleanor_utts <- eleanor_utts %>%
+  mutate(kid = "Eleanor") %>%
+  filter(!is.na(response))
+
+eleanor_utts <- eleanor_utts[,c("utterance", "response", "speaker", "responder", "error", "age", "response_time", "utterance_time", "past_tense", "plural", "error_type", "rl", "kid")]
+
+#write.table(eleanor_utts, "all_kids_test_utts.csv", sep = ",", col.names = T, append = T)
+```
+
+```{r fraser}
+fraser_utts <- read_csv("FraserAnalysis/fraser_final_utterances.csv", col_names = T)
+fraser_utts <- fraser_utts %>%
+  mutate(kid = "Fraser") %>%
+  filter(!is.na(response))
+
+fraser_utts <- fraser_utts[,c("utterance", "response", "speaker", "responder", "error", "age", "response_time", "utterance_time", "past_tense", "plural", "error_type", "rl", "kid")]
+
+#write.table(fraser_utts, "all_kids_test_utts.csv", sep=",", col.names = F, append = T)
+```
+
+```{r thomas}
+thomas_utts <- read_csv("InitialThomasAnalysis/thomas_final_utts.csv", col_names = T)
+thomas_utts <- thomas_utts %>%
+  mutate(kid = "Thomas")
+
+thomas_utts <- thomas_utts[,c("utterance", "response", "speaker", "responder", "error", "age", "response_time", "utterance_time", "past_tense", "plural", "error_type", "rl", "kid")]
+
+#write.table(thomas_utts, "all_kids_test_utts.csv", sep=",", col.names = F, append = T)
+```
+
+```{r all kids}
+all_kids <- read_csv("all_kids_test_utts.csv", col_names = T)
+
+quartz()
+ggplot(all_kids, aes(x=response_time, y = kid, fill=error_type)) + geom_density_ridges(scale=1, alpha=0.6) + theme_minimal(base_size = 14) + theme(axis.text.y = element_text(vjust = 0)) +
+  scale_fill_brewer(palette = "Accent") +
+   scale_x_continuous(expand = c(0.01, 0)) +
+   scale_y_discrete(expand = c(0.01, 0)) +
+  facet_wrap(~error_type) +
+  xlab("Response Time") +
+  ylab("Density by Child") +
+  theme(legend.position = "none")
+
+all_kids_stats <- all_kids %>%
+  group_by(kid, error_type) %>%
+  tidyboot_mean(response_time, na.rm = T)
+
+stats_no_other <- all_kids %>%
+  filter(error_type != "other error") %>%
+  group_by(kid, error_type) %>%
+  tidyboot_mean(response_time, na.rm = T)
+
+# significance
+get_ttest <- function(kidName) {
+  kid_data = all_kids %>%
+    filter(kid == kidName)
+  
+  noerr = kid_data %>%
+    filter(error_type == "no error") %>%
+    pull(response_time)
+  
+  overreg = kid_data %>%
+    filter(error_type == "overregularization") %>%
+    pull(response_time)
+  
+  t.test(overreg, noerr)
+    
+}
+
+eleanor_sig <- get_ttest("Eleanor")
+fraser_sig <- get_ttest("Fraser")
+thomas_sig <- get_ttest("Thomas")
+
+stats_no_other$error_type = paste0(stats_no_other$error_type, "       ")
+
+basePlot <- ggplot(stats_no_other, aes(x = kid, y = mean * 1000, 
+                           group=error_type, fill=error_type)) + 
+  geom_bar(stat="identity", position="dodge") +
+  geom_errorbar(aes(ymin=ci_lower*1000, ymax=ci_upper*1000), 
+                width = 0.2, position = position_dodge(0.9)) +
+  theme_bw(base_size = 26) +
+  theme(plot.title = element_text(hjust=0.5), legend.title=element_blank(), legend.position = "top",legend.text=element_text(size=30),panel.background = element_rect(fill = "transparent"), axis.text = element_text(size=30)) +
+  scale_fill_brewer(palette = "Accent") +
+  xlab("Child") +
+  ylab("Mean parent response time (ms)") +
+  ggtitle("Average Parent Response Time by Grammaticality") +
+  coord_cartesian(ylim=(c(-500,500)))
+
+#quartz()
+#pdf("ploooot.pdf", width=6, height=4)
+basePlot +
+  geom_segment(y = 500, yend = 500, x = 0.8, xend = 1.2) +
+  geom_segment(y = 485, yend = 500, x = 0.8, xend = 0.8) +
+  geom_segment(y = 485, yend = 500, x = 1.2, xend = 1.2) +
+  annotate("text", x = 1, y = 510, label="***") +
+  geom_segment(y = 375, yend = 375, x = 1.8, xend = 2.2) +
+  geom_segment(y = 360, yend = 375, x = 1.8, xend = 1.8) +
+  geom_segment(y = 360, yend = 375, x = 2.2, xend = 2.2) +
+  annotate("text", x = 2, y = 385, label="***") +
+  geom_segment(y = 375, yend = 375, x = 2.8, xend = 3.2) +
+  geom_segment(y = 360, yend = 375, x = 2.8, xend = 2.8) +
+  geom_segment(y = 360, yend = 375, x = 3.2, xend = 3.2) +
+  annotate("text", x = 3, y = 385, label="***")
+#dev.off()
+```
+
+
+```{r}
+eleanor <- all_kids %>%
+  filter(kid == "Eleanor")
+
+t.test(filter(eleanor, error_type == "overregularization") %>% pull(response_time), 
+       filter(eleanor, error_type == "no error") %>% pull(response_time))
+
+
+lm(response_time ~ error_type + age + rl, data = filter(all_kids, kid == "Fraser")) %>%
+  summary()
+
+lmer(esponse_time ~ error_type + age + rl + (error_type|kid),
+     data = filter(all_kids)) %>%
+  summary()
+
+
+```

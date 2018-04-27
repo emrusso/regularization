@@ -6,18 +6,47 @@ output: pdf_document
 ---
 ```{r setup, include=FALSE}
 library(tidyverse)
+library(tidyboot)
+library(lme4)
+library(ggsignif)
 knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(fig.width=6, fig.height=4) 
 options(digits=10)
+
+nwords <- function(string, pseudo=F){
+  ifelse( pseudo, 
+          pattern <- "\\S+", 
+          pattern <- "[[:alpha:]]+" 
+        )
+  str_count(string, pattern)
+}
 ```
 
 
 ```{r}
-thomas_utts <- read_csv("thomas_analysis_utts.csv")
+thomas_utts <- read_csv("thomas_analysis_utts.csv") %>%
+  mutate(ul = nwords(utterance))
+
+# correct 7 utterances where past tense/plural incorrectly recorded --> exclude "womans" like Maslen does
+# --> correct 3 with irregular noun heads (policemans, firemens)
+thomas_utts_recode <- thomas_utts %>%
+  rowwise() %>%
+  mutate(plural = ifelse(error_type == "overregularization" & !(past_tense | plural) & !grepl("woman", utterance), T, plural))
+
+thomas_utts_recode %>%
+  group_by(error_type, past_tense | plural) %>%
+  summarise(n = n())
+
+thomas_utts <- thomas_utts_recode
 
 thomas_past_plural_utts <- thomas_utts %>%
   filter(past_tense | plural) %>%
   filter(!is.na(response))
+
+thomas_past_plural_utts <- thomas_past_plural_utts %>%
+  mutate(rl = nwords(response))
+
+#write_csv(thomas_past_plural_utts, "thomas_final_utts.csv")
 
 thomas_or_rates <- read_csv("thomas_or_rates.csv")
 thomas_overall_or_rates <- read_csv("thomas_all_or_rates.csv")
@@ -32,12 +61,29 @@ ggplot(thomas_utts, aes(x=response_time)) + geom_density() + theme_bw()
 
 #### Thomas MLU Over Age
 ```{r}
-thomas_mlu <- thomas_utts %>%
+mlu_utts <- read_csv("all_timing_thomas_utts.csv") %>%
+  mutate(ul = nwords(utterance))
+
+thomas_mlu <- mlu_utts %>%
   filter(!is.na(ul)) %>%
   group_by(age) %>%
   summarise(mlu = mean(ul))
 
-ggplot(thomas_mlu, aes(x=age, y=mlu)) + geom_line() + geom_smooth() + theme_bw()
+maslen_mlu <- read_csv("maslen_mlu.csv")
+
+#quartz()
+ggplot(thomas_mlu, aes(x=age, y=mlu)) + geom_line(col="black") + geom_smooth(col="black") + theme_classic() + ggtitle("Thomas MLU Over Development") + xlab("Age (months)") + ylab("Mean Length Utterance (words)")
+
+ggplot(NULL, aes(x=age, y=mlu)) + geom_line(data=thomas_mlu) + geom_smooth(data=thomas_mlu) + geom_line(data=maslen_mlu) + geom_smooth(data=maslen_mlu) + theme_bw()
+
+comp_mlu <- thomas_mlu %>%
+  left_join(maslen_mlu, by="age") %>%
+  filter(!is.na(mlu.y))
+
+thomas_mlu <- thomas_mlu %>%
+  filter(age <= 47)
+
+lm(mlu.x ~ mlu.y, data = comp_mlu) %>% summary()
 ```
 
 #### Rate of Overregularization Over Development
@@ -82,12 +128,11 @@ isIncorrectToken <- function(words, regularized, double) {
 }
 
 past_with_irregulars <- past_with_irregulars %>%
-  filter(error_type != "other error") %>%
   rowwise() %>%
   mutate(contains_correct_token = isCorrectToken(words, PastSimple1, PastSimple2, PastParticiple1, PastParticiple2), contains_incorrect_token = isIncorrectToken(words, RegularizedPast, DoubleInflection)) %>%
   filter(contains_correct_token | contains_incorrect_token) %>%
 mutate(correct_token = getCorrectToken(words, PastSimple1, PastSimple2, PastParticiple1, PastParticiple2, RegularizedPast, DoubleInflection))
-
+       
 past_with_irregulars["PastSimple1"] <- NULL
 past_with_irregulars["PastSimple2"] <- NULL
 past_with_irregulars["PastParticiple1"] <- NULL
@@ -103,9 +148,19 @@ overreg_stats <- past_with_irregulars %>%
   group_by(age) %>%
   summarise(or_rate = or_rate, percent_correct = 100 - or_rate)
 
-ggplot(overreg_stats, aes(x = age, y = percent_correct)) + geom_line() + theme_classic() + ylim(0, 100)
+sf_to_age <- function(sf) {
+  sfx <- strsplit(sf, "Thomas/")[[1]][2]
+  meat <- strsplit(sfx, ".xml")[[1]][1]
+  age_parts <- strsplit(meat, "-")
+  year_days <- as.numeric(age_parts[[1]][1]) * 365
+  month_days <- as.numeric(age_parts[[1]][2]) * 30
+  days <- as.numeric(age_parts[[1]][3])
+  year_days + month_days + days
+}
 
-ggplot(overreg_stats, aes(x = age, y = or_rate)) + geom_smooth() + theme_classic() + ylim(0, 100)
+ggplot(overreg_stats, aes(x = weird_age, y = or_rate)) + geom_point() + geom_line() + theme_classic() + ylim(0, 100)
+
+ggplot(overreg_stats, aes(x = age, y = or_rate)) + geom_line() + theme_classic() + ylim(0, 100)
 
 ## Marcus (1992) or rate
 ## overreg tokens / (overreg tokens + correct past tokens)
@@ -127,10 +182,6 @@ ggplot(thomas_overall_or_rates, aes(x=age, y=error_rate)) + geom_line() + geom_s
 ```
 
 ### For Kid-Parent Utterance-Response pairs where child makes use of past-tense or plural
-#### Rate of Overregularization Over Development
-```{r}
-ggplot(thomas_or_rates, aes(x=age, y=or_rate)) + geom_line() + geom_smooth() + theme_bw()
-```
 
 #### Rate of Error Over Development
 ```{r}
@@ -141,6 +192,16 @@ ggplot(thomas_or_rates, aes(x=age, y=error_rate)) + geom_line() + geom_smooth() 
 ```{r}
 ggplot(thomas_past_plural_utts %>% filter(response_time > -2 & response_time < 2), aes(x = response_time, fill=error_type)) + 
   geom_density(alpha = .4) + theme_bw()
+
+ggplot(thomas_past_plural_utts, aes(x=response_time, y = error_type, fill=error_type)) + geom_density_ridges(alpha=0.6, aes(point_shape = error_type, point_fill = error_type), jittered_points = F) + theme_minimal(base_size = 14) + theme(axis.text.y = element_text(vjust = 0)) +
+  scale_fill_brewer(palette = "Accent") +
+   scale_x_continuous(expand = c(0.01, 0)) +
+   scale_y_discrete(expand = c(0.01, 0)) +
+  coord_cartesian(xlim = c(-2.5, 2.5)) +
+  ylab("Density") +
+  xlab("Response Time (seconds)") +
+  ggtitle("Parent Response Time Density by Grammaticality") +
+  theme(plot.title = element_text(hjust=0.5), legend.title=element_blank(), axis.text.y = element_blank())
 ```
 
 ```{r}
@@ -174,7 +235,13 @@ ggplot(loggable_flipped, aes(x=log(response_time), fill=error_type)) + geom_dens
 ```{r}
 lm(response_time ~ error + age + ul, thomas_past_plural_utts) %>% summary()
 lm(response_time ~ error + age + ul, thomas_past_plural_utts %>% filter(response_time < 0)) %>% summary()
-lm(response_time ~ error_type + age + ul, thomas_past_plural_utts %>% filter(response_time < 0)) %>% summary()
+
+fit <- lm(response_time ~ error_type + age + utterance_time + ul + rl, thomas_past_plural_utts)
+
+plot(fit)
+
+overlapm <- lm(response_time < 0 ~ error_type + age + utterance_time + ul + rl, thomas_past_plural_utts)
+
 ```
 
 #### Right Side
@@ -208,12 +275,81 @@ lm(log(response_time) ~ error_type + age + ul, loggable_flipped) %>% summary()
 ```{r}
 ggplot(thomas_past_plural_utts %>% filter(response_time > -2.5 & response_time < 2.5), aes(x=response_time, fill=error_type)) + geom_density(alpha=.6) +
   geom_vline(xintercept=0, linetype="dotted", color="red") +
-  facet_grid(error_type ~ .) + theme_classic() + ggtitle("Thomas") + ylim(0, 3.5)
+  scale_fill_brewer(palette="Accent") +
+  facet_grid(error_type ~ .) + theme_classic() + ggtitle("Thomas") + coord_cartesian(xlim = c(-2.5, 2.5), ylim = c(0, 3.5)) + theme(legend.position = "none") + xlab("Parent Response Time (s)") + ylab("Density")
+
+tb_stats <- thomas_past_plural_utts %>%
+  group_by(error_type) %>%
+  tidyboot_mean(., response_time, na.rm = T)
+
+overreg_noerr_only <- thomas_past_plural_utts %>%
+  filter(error_type != "other error")
+
+binary_tb_stats <- overreg_noerr_only %>%
+  group_by(error_type) %>%
+  tidyboot_mean(response_time, na.rm = T)
 
 stats <- thomas_past_plural_utts %>%
   group_by(error_type) %>%
   summarise(mean = mean(response_time), var = var(response_time), sd = sd(response_time), se = sd/sqrt(n()))
 
-ggplot(stats, aes(x=error_type, y = mean, fill=error_type)) + geom_bar(stat="identity") + geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width = 0.2) + theme_bw()
+ggplot(tb_stats, aes(x=error_type, y = mean, fill=error_type)) + geom_bar(stat="identity") + geom_errorbar(aes(ymin=ci_lower, ymax=ci_upper), width = 0.2) + theme_bw()
 
+thomas_past_plural_utts <- thomas_past_plural_utts %>%
+  mutate(rl = nwords(response))
+
+lm(response_time ~ error_type + age + utterance_time + ul + rl, data = thomas_past_plural_utts) %>% summary()
+
+lm(utterance_time ~ ul + age + (ul*age), data = thomas_past_plural_utts) %>% summary()
+
+lm(ul ~ utterance_time + age + (utterance_time*age), data = thomas_past_plural_utts) %>% summary()
+
+```
+
+```{r}
+sample_size_info <- thomas_past_plural_utts %>%
+  group_by(error_type) %>%
+  summarise(n = n(), mean = mean(response_time), sd = sd(response_time), var = var(response_time))
+```
+
+# Nice plotting with significance
+```{r}
+t.test(formula = response_time ~ error_type, data = overreg_noerr_only)
+t.test(formula = response_time ~ error_type, data = thomas_past_plural_utts %>% filter(error_type == "other error" | error_type == "no error"))
+t.test(formula = response_time ~ error_type, data = thomas_past_plural_utts %>% filter(error_type == "other error" | error_type == "overregularization"))
+
+
+ggplot(tb_stats, aes(x=error_type, y =empirical_stat, fill=error_type)) + geom_bar(stat="identity") + geom_errorbar(aes(ymin=ci_lower, ymax=ci_upper), width = 0.2) + theme_bw()
+
+tb_stats$error_type = paste0(tb_stats$error_type, "       ")
+
+basePlot <- ggplot(tb_stats, aes(x = error_type, y = empirical_stat * 1000, 
+                           group=error_type, fill=error_type)) + 
+  geom_bar(stat="identity", position="dodge") +
+  geom_errorbar(aes(ymin=ci_lower*1000, ymax=ci_upper*1000), 
+                width = 0.2, position = position_dodge(0.9)) +
+  theme_bw(base_size = 16) +
+  theme(plot.title = element_text(hjust=0.5), legend.position = "none",panel.background = element_rect(fill = "transparent"), axis.text = element_text(size=16)) +
+  scale_fill_brewer(palette = "Accent") +
+  xlab("Error Type") +
+  ylab("Mean parent response time (ms)") +
+  ggtitle("Average Parent Response Time by Grammaticality (Thomas)") +
+  coord_cartesian(ylim=(c(-300,500))) +
+  scale_y_continuous(breaks = scales::pretty_breaks(n = 7))
+
+quartz()
+#pdf("ploooot.pdf", width=6, height=4)
+basePlot +
+  geom_segment(y = 465, yend = 465, x = 1, xend = 3) +
+  geom_segment(y = 450, yend = 465, x = 1, xend = 1) +
+  geom_segment(y = 450, yend = 465, x = 3, xend = 3) +
+  annotate("text", x = 2, y = 485, label="p < 0.001 ***") +
+  geom_segment(y = 215, yend = 215, x = 1, xend = 2) +
+  geom_segment(y = 200, yend = 215, x = 1, xend = 1) +
+  geom_segment(y = 200, yend = 215, x = 2, xend = 2) +
+  annotate("text", x = 1.5, y = 235, label="p = 0.0607 .") +
+  geom_segment(y = 365, yend = 365, x = 2, xend = 3) +
+  geom_segment(y = 350, yend = 365, x = 2, xend = 2) +
+  geom_segment(y = 350, yend = 365, x = 3, xend = 3) +
+  annotate("text", x = 2.5, y = 385, label="p = 0.0491 *")
 ```

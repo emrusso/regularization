@@ -79,6 +79,7 @@ together <- together %>%
   mutate(utterance_end = ifelse(is.na(utterance_end.x), utterance_end.y, utterance_end.y)) %>%
   mutate(response_start = ifelse(is.na(response_start.x), response_start.y, response_start.x)) %>%
   mutate(response_end = ifelse(is.na(response_end.x), response_end.y, response_end.x)) %>%
+  mutate(error_type = ifelse(overreg, "overregularization", ifelse(error, "other error", "no error"))) %>%
   # Filter any gross timing
   filter(!is.na(utterance_start) & utterance_start != ugh) %>%
   filter(!is.na(utterance_end) & utterance_end != ugh) %>% 
@@ -90,15 +91,17 @@ together <- together %>%
   mutate(utterance_time = as.numeric(as.character(utterance_end)) - as.numeric(as.character(utterance_start)))
 
 # Get only the confirmed rows
-together <- together[,c("utterance", "response", "speaker", "responder", "error", "age", "overreg", "response_time", "utterance_time", "past_tense", "plural")]
+together <- together[,c("utterance", "response", "speaker", "responder", "error", "age", "overreg", "response_time", "utterance_time", "past_tense", "plural", "source_file", "error_type")]
 together <- together %>%
   mutate_at(vars(error, overreg, past_tense, plural), as.logical)
+
+#write_csv(together, "all_timing_thomas_utts.csv")
 
 together <- together %>%
   filter(response_time > -5 & response_time < 5) %>%
   filter(utterance_time < 9)
 
-# write_csv(together, "thomas_analysis_utts.csv")
+#write_csv(together, "thomas_analysis_utts.csv")
 ```
 
 
