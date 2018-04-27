@@ -1,0 +1,858 @@
+utterance,response,speaker,responder,error,age,response_time,utterance_time,past_tense,plural,overreg,overlap,source_file,error_type,rl
+one ladybirds,where's the ladybird,CHI,MOT,TRUE,24,0.26299999999991996,2.229000000000042,FALSE,TRUE,FALSE,FALSE,fraser/2-00-01b.xml,other error,4
+xxx peas,what's that,CHI,MOT,FALSE,24,1.1959999999999127,2.0779999999999745,FALSE,TRUE,FALSE,FALSE,fraser/2-00-01b.xml,no error,3
+broken blues clues,broken blues clues,CHI,MOT,TRUE,24,0.03899999999998727,2.61200000000008,TRUE,FALSE,FALSE,FALSE,fraser/2-00-02a.xml,other error,3
+three buckles,uhuh,CHI,MOT,FALSE,24,0.057999999999992724,1.5090000000000146,FALSE,TRUE,FALSE,FALSE,fraser/2-00-02b.xml,no error,1
+buckles,buckles,CHI,MOT,FALSE,24,1.3240000000000691,1.2529999999997017,FALSE,TRUE,FALSE,FALSE,fraser/2-00-02b.xml,no error,1
+say buckles,you're funny aren't you,CHI,MOT,FALSE,24,1.7559999999998581,1.6260000000002037,FALSE,TRUE,FALSE,FALSE,fraser/2-00-02b.xml,no error,6
+yeah did it,yeah,CHI,MOT,FALSE,24,0,1.4729999999999563,TRUE,FALSE,FALSE,FALSE,fraser/2-00-03a.xml,no error,1
+moles,what's this,CHI,MOT,FALSE,24,-1.1610000000000582,1.1610000000000582,FALSE,TRUE,FALSE,TRUE,fraser/2-00-03a.xml,no error,3
+got,what's she got,CHI,MOT,FALSE,24,0.11599999999998545,0.8360000000002401,TRUE,FALSE,FALSE,FALSE,fraser/2-00-03a.xml,no error,4
+all gone now,all gone now,CHI,MOT,FALSE,24,-1.5330000000001291,1.5330000000001291,TRUE,FALSE,FALSE,TRUE,fraser/2-00-03b.xml,no error,3
+a crickets,mhm hm,CHI,MOT,TRUE,24,0.17499999999972715,1.393000000000029,FALSE,TRUE,FALSE,FALSE,fraser/2-00-03b.xml,other error,2
+sheeps do,what does a sheep what does a piggy do,CHI,MOT,FALSE,24,0.035000000000081855,1.6489999999998872,FALSE,TRUE,FALSE,FALSE,fraser/2-00-05a.xml,no error,9
+oh that's bouncing castles,what's wrong,CHI,MOT,FALSE,24,0.030000000000001137,4.295999999999992,FALSE,TRUE,FALSE,FALSE,fraser/2-00-06b.xml,no error,3
+huh run away,xxx out,CHI,MOT,FALSE,24,-1.009999999999991,1.5560000000000116,TRUE,FALSE,FALSE,TRUE,fraser/2-00-08a.xml,no error,2
+chicken gone,what did you say Fraser,CHI,MOT,FALSE,24,0.10400000000004184,1.0570000000000164,TRUE,FALSE,FALSE,FALSE,fraser/2-00-08b.xml,no error,5
+toesies,toesies,CHI,MOT,FALSE,24,0.0809999999999036,1.6140000000000327,FALSE,TRUE,FALSE,FALSE,fraser/2-00-09a.xml,no error,1
+xxx birds,seven birds,CHI,MOT,FALSE,24,-0.03500000000030923,1.2890000000002146,FALSE,TRUE,FALSE,TRUE,fraser/2-00-09a.xml,no error,2
+two feets,oh oh oh,CHI,MOT,TRUE,24,0.012000000000170985,1.0559999999998126,FALSE,TRUE,TRUE,FALSE,fraser/2-00-10a.xml,overregularization,3
+zero done,you done it,CHI,MOT,TRUE,24,-0.9980000000000473,1.0330000000003565,TRUE,FALSE,FALSE,TRUE,fraser/2-00-10a.xml,other error,3
+a put in there,not many are there,CHI,MOT,FALSE,24,0,0.9630000000000223,TRUE,FALSE,FALSE,FALSE,fraser/2-00-10b.xml,no error,4
+shapes,this is this is different,CHI,MOT,FALSE,24,-0.38199999999994816,0.3829999999999245,FALSE,TRUE,FALSE,TRUE,fraser/2-00-10b.xml,no error,5
+whistles,you and Jwww were building blocks xxx today weren't you,CHI,MOT,FALSE,24,0.7339999999999947,2.4270000000000067,FALSE,TRUE,FALSE,FALSE,fraser/2-00-12a.xml,no error,11
+Jwww the balls,Jwww's in the balls isn't he,CHI,MOT,TRUE,24,0.018000000000029104,2.1019999999998618,FALSE,TRUE,FALSE,FALSE,fraser/2-00-12a.xml,other error,8
+Jwww no shoes on,yeah,CHI,MOT,TRUE,24,0,1.9039999999999964,FALSE,TRUE,FALSE,FALSE,fraser/2-00-12a.xml,other error,1
+glasses on,oh no be careful with them because you're hurting Mummy,CHI,MOT,TRUE,24,0.08099999999967622,1.0570000000002437,FALSE,TRUE,FALSE,FALSE,fraser/2-00-12a.xml,other error,11
+glasses on,your glasses are here,CHI,MOT,TRUE,24,0.023000000000138243,1.4389999999998508,FALSE,TRUE,FALSE,FALSE,fraser/2-00-12a.xml,other error,4
+gone,it's gone,CHI,MOT,FALSE,24,-1.1489999999998872,1.1489999999998872,TRUE,FALSE,FALSE,TRUE,fraser/2-00-12a.xml,no error,3
+a chairs,come on then,CHI,MOT,FALSE,24,0.1670000000001437,1.5899999999999181,FALSE,TRUE,FALSE,FALSE,fraser/2-00-12b.xml,no error,3
+bears,hold on,CHI,MOT,FALSE,24,-1.1610000000000582,1.1610000000000582,FALSE,TRUE,FALSE,TRUE,fraser/2-00-12b.xml,no error,2
+bears,xxx the microphone,CHI,MOT,FALSE,24,1.0570000000002437,1.0209999999997308,FALSE,TRUE,FALSE,FALSE,fraser/2-00-12b.xml,no error,3
+came the sun,and dried all the rain,CHI,MOT,FALSE,24,0.31799999999998363,1.34699999999998,TRUE,FALSE,FALSE,FALSE,fraser/2-00-13b.xml,no error,5
+hey my blues,your blues,CHI,MOT,FALSE,24,0.10400000000004184,1.48700000000008,FALSE,TRUE,FALSE,FALSE,fraser/2-00-13b.xml,no error,2
+no my yellows,your blues,CHI,MOT,FALSE,24,0.45299999999997453,2.160000000000082,FALSE,TRUE,FALSE,FALSE,fraser/2-00-13b.xml,no error,2
+my blues,well,CHI,MOT,FALSE,24,1.5920000000000982,1.6489999999998872,FALSE,TRUE,FALSE,FALSE,fraser/2-00-13b.xml,no error,1
+oh a reds silly boy,are you silly boy,CHI,MOT,FALSE,24,1.77599999999984,4.133000000000266,FALSE,TRUE,FALSE,FALSE,fraser/2-00-13b.xml,no error,4
+oh Fraser done,oh Fraser what have you done,CHI,MOT,TRUE,24,0.33600000000001273,3.40199999999993,TRUE,FALSE,FALSE,FALSE,fraser/2-00-15a.xml,other error,6
+xxx things do,so many things to do,CHI,MOT,TRUE,24,0.29899999999997817,2.0090000000000146,FALSE,TRUE,FALSE,FALSE,fraser/2-00-15a.xml,other error,5
+no feets,where's Fraser's feet,CHI,MOT,TRUE,24,0.012000000000170985,1.1840000000001965,FALSE,TRUE,TRUE,FALSE,fraser/2-00-15a.xml,overregularization,5
+hands,I've done them,CHI,MOT,FALSE,24,0.3389999999999418,1.393000000000029,FALSE,TRUE,FALSE,FALSE,fraser/2-00-15b.xml,no error,4
+steps,yeah the steps are all covered in water as well aren't they,CHI,MOT,FALSE,24,0.12600000000000477,0.5339999999999918,FALSE,TRUE,FALSE,FALSE,fraser/2-00-16a.xml,no error,13
+that's hailstones,what's that,CHI,MOT,FALSE,24,0.09899999999998954,4.621000000000038,FALSE,TRUE,FALSE,FALSE,fraser/2-00-16a.xml,no error,3
+the ball wet,the ball is wet yes,CHI,MOT,TRUE,24,0.22800000000000864,2.9139999999999873,TRUE,FALSE,FALSE,FALSE,fraser/2-00-16a.xml,other error,5
+oh crumbs,yes,CHI,MOT,FALSE,24,0,1.7069999999999936,FALSE,TRUE,FALSE,FALSE,fraser/2-00-16a.xml,no error,1
+that was lion get out,what are you saying to the lion,CHI,MOT,TRUE,24,1.4239999999999782,3.2280000000000655,TRUE,FALSE,FALSE,FALSE,fraser/2-00-16a.xml,other error,7
+that cards,yeah,CHI,MOT,TRUE,24,0.011000000000080945,1.1959999999999127,FALSE,TRUE,FALSE,FALSE,fraser/2-00-18a.xml,other error,1
+broken,oh happy birthday,CHI,MOT,FALSE,24,-0.8600000000000136,0.9410000000000309,TRUE,FALSE,FALSE,TRUE,fraser/2-00-18a.xml,no error,3
+yes hugs yes,from great grandma,CHI,MOT,FALSE,24,0.25499999999988177,1.4860000000001037,FALSE,TRUE,FALSE,FALSE,fraser/2-00-18a.xml,no error,3
+zero got,oh Fraser don't do that darling,CHI,MOT,TRUE,24,0.2670000000002801,0.7079999999996289,TRUE,FALSE,FALSE,FALSE,fraser/2-00-18a.xml,other error,7
+dragons,dragon,CHI,MOT,FALSE,24,0.1269999999999527,0.7319999999999709,FALSE,TRUE,FALSE,FALSE,fraser/2-00-18a.xml,no error,1
+Mummy I g g I got chair,you got me,CHI,MOT,FALSE,24,0.045000000000015916,4.353000000000009,TRUE,FALSE,FALSE,FALSE,fraser/2-00-18b.xml,no error,3
+no I got see oh gosh,Fraser,CHI,MOT,FALSE,24,1.384999999999991,3.1579999999999586,TRUE,FALSE,FALSE,FALSE,fraser/2-00-18b.xml,no error,1
+trains,trains,CHI,MOT,FALSE,24,0.22000000000002728,1.6140000000000327,FALSE,TRUE,FALSE,FALSE,fraser/2-00-18b.xml,no error,1
+Twww got balloon,he's got a balloon and what color is the balloon,CHI,MOT,TRUE,24,1.3239999999999554,1.3120000000000118,TRUE,FALSE,FALSE,FALSE,fraser/2-00-18b.xml,other error,11
+rescued,rescued what the dragon,CHI,MOT,FALSE,24,0.0580000000002201,2.2059999999999036,TRUE,FALSE,FALSE,FALSE,fraser/2-00-18b.xml,no error,4
+fallen down,that's no good is it,CHI,MOT,FALSE,24,1.280999999999949,1.2539999999999054,TRUE,FALSE,FALSE,FALSE,fraser/2-00-18b.xml,no error,6
+chairs,to move the chairs don't we,CHI,MOT,FALSE,24,0.39800000000013824,1.5320000000001528,FALSE,TRUE,FALSE,FALSE,fraser/2-00-18b.xml,no error,7
+zero got blanket,yes,CHI,MOT,TRUE,24,0.06700000000000728,1.9729999999999563,TRUE,FALSE,FALSE,FALSE,fraser/2-00-18b.xml,other error,1
+little blocks,a little box,CHI,MOT,FALSE,24,0.011999999999943611,2.216999999999871,FALSE,TRUE,FALSE,FALSE,fraser/2-00-19a.xml,no error,3
+birds have,that's right,CHI,MOT,TRUE,24,-0.9059999999999491,0.9059999999999491,FALSE,TRUE,FALSE,TRUE,fraser/2-00-19a.xml,other error,3
+in the pots,in the what,CHI,MOT,FALSE,24,0.56899999999996,1.9279999999998836,FALSE,TRUE,FALSE,FALSE,fraser/2-00-19a.xml,no error,3
+sheeps,counting the sheep,CHI,MOT,TRUE,24,0.08100000000013097,1.0329999999999018,FALSE,TRUE,TRUE,FALSE,fraser/2-00-19a.xml,overregularization,3
+pears,three plums,CHI,MOT,FALSE,24,1.6019999999998618,1.2540000000001328,FALSE,TRUE,FALSE,FALSE,fraser/2-00-19b.xml,no error,2
+three plums,is something coming out there,CHI,MOT,FALSE,24,1.80600000000004,1.683999999999969,FALSE,TRUE,FALSE,FALSE,fraser/2-00-19b.xml,no error,5
+Patch got ice,yeah he's got an ice hasn't he,CHI,MOT,TRUE,24,0.057999999999992724,2.311000000000149,TRUE,FALSE,FALSE,FALSE,fraser/2-00-19b.xml,other error,9
+cows up there,yes,CHI,MOT,FALSE,24,0.38299999999998136,1.5900000000000318,FALSE,TRUE,FALSE,FALSE,fraser/2-00-20b.xml,no error,1
+and cl climbed,and climbed,CHI,MOT,FALSE,24,-0.2319999999999709,1.69500000000005,TRUE,FALSE,FALSE,TRUE,fraser/2-00-20b.xml,no error,2
+reached the top,inside Jack hid when he heard a thumping,CHI,MOT,FALSE,24,0.6879999999999882,2.786000000000058,TRUE,FALSE,FALSE,FALSE,fraser/2-00-20b.xml,no error,8
+jellies nice,is that nice,CHI,MOT,FALSE,24,0.023000000000024556,1.7530000000000427,FALSE,TRUE,FALSE,FALSE,fraser/2-00-20b.xml,no error,3
+monkeys,cream cakes,CHI,MOT,FALSE,24,0.3949999999999818,1.0329999999999018,FALSE,TRUE,FALSE,FALSE,fraser/2-00-20b.xml,no error,2
+monkeys,what darling,CHI,MOT,FALSE,24,0.06200000000012551,1.1140000000000327,FALSE,TRUE,FALSE,FALSE,fraser/2-00-20b.xml,no error,2
+monkeys,they're cream cakes,CHI,MOT,FALSE,24,1.9729999999999563,1.115000000000009,FALSE,TRUE,FALSE,FALSE,fraser/2-00-20b.xml,no error,4
+NA,what's the matter,CHI,MOT,FALSE,24,-0.7190000000000509,0.7200000000000273,TRUE,FALSE,FALSE,TRUE,fraser/2-00-20b.xml,no error,4
+where cow gone,cow gone,CHI,MOT,TRUE,24,0.047000000000025466,1.0450000000000728,TRUE,FALSE,FALSE,FALSE,fraser/2-00-20b.xml,other error,2
+flowers,flowers,CHI,MOT,FALSE,24,0.35999999999989996,0.8240000000000691,FALSE,TRUE,FALSE,FALSE,fraser/2-00-20v.xml,no error,1
+where Jeannine gone,shut the door,CHI,MOT,TRUE,24,-1.2660000000000764,2.125,TRUE,FALSE,FALSE,TRUE,fraser/2-00-20v.xml,other error,3
+a girl a train tracks,girl a train tracks,CHI,MOT,FALSE,24,0.3949999999999818,3.0650000000000546,FALSE,TRUE,FALSE,FALSE,fraser/2-00-21a.xml,no error,4
+where Daddy gone,where's Daddy gone,CHI,MOT,TRUE,24,0.2909999999999968,1.521000000000015,TRUE,FALSE,FALSE,FALSE,fraser/2-00-21b.xml,other error,4
+twos hills,is that a big hill,CHI,MOT,TRUE,24,0.9519999999999982,1.3929999999999154,FALSE,TRUE,FALSE,FALSE,fraser/2-00-21b.xml,other error,5
+no,no what,CHI,MOT,FALSE,24,1.1399999999999864,2.26400000000001,TRUE,FALSE,FALSE,FALSE,fraser/2-00-23b.xml,no error,2
+cow gone,where's the cow gone,CHI,MOT,FALSE,24,0.13899999999989632,1.2770000000000437,TRUE,FALSE,FALSE,FALSE,fraser/2-00-23b.xml,no error,5
+all gone,all gone,CHI,MOT,FALSE,24,-0.7659999999996217,2.1709999999998217,TRUE,FALSE,FALSE,TRUE,fraser/2-00-23b.xml,no error,2
+made Awww's,Awww's,CHI,MOT,FALSE,24,0.023000000000138243,2.0429999999996653,TRUE,FALSE,FALSE,FALSE,fraser/2-00-23b.xml,no error,2
+look a rabbits,yeah that's the rabbit over there isn't it,CHI,MOT,TRUE,24,0.35899999999999466,1.8930000000000007,FALSE,TRUE,FALSE,FALSE,fraser/2-00-23v.xml,other error,10
+sheeps,sheeps,CHI,MOT,TRUE,24,0.16299999999995407,0.5460000000000491,FALSE,TRUE,TRUE,FALSE,fraser/2-00-23v.xml,overregularization,1
+sheeps,sheeps,CHI,MOT,TRUE,24,0.16299999999995407,0.5460000000000491,FALSE,TRUE,TRUE,FALSE,fraser/2-00-23v.xml,overregularization,1
+a work pennys,yes,CHI,MOT,TRUE,24,0.13900000000001,2.3220000000000027,FALSE,TRUE,FALSE,FALSE,fraser/2-00-23v.xml,other error,1
+sheeps,yes,CHI,MOT,TRUE,24,0.06999999999993634,1.3229999999998654,FALSE,TRUE,TRUE,FALSE,fraser/2-00-23v.xml,overregularization,1
+a climbed a climbed,and climbed and he didn't stop until he reached,CHI,MOT,FALSE,24,-0.9519999999999982,2.4039999999999964,TRUE,FALSE,FALSE,TRUE,fraser/2-00-23v.xml,no error,10
+beans,one two three four five,CHI,MOT,FALSE,24,0.2899999999999636,1.2650000000001,FALSE,TRUE,FALSE,FALSE,fraser/2-00-23v.xml,no error,5
+someone broken,who broke that,CHI,MOT,TRUE,24,0.012000000000057298,2.427000000000021,TRUE,FALSE,FALSE,FALSE,fraser/2-00-24a.xml,other error,3
+ah well done,that better,CHI,MOT,FALSE,24,0.25499999999999545,2.0779999999999745,TRUE,FALSE,FALSE,FALSE,fraser/2-00-24a.xml,no error,2
+head stuck,what,CHI,MOT,FALSE,24,0.13999999999998636,1.3230000000000928,TRUE,FALSE,FALSE,FALSE,fraser/2-00-24b.xml,no error,1
+more ba more bale bales hay,yes,CHI,MOT,TRUE,24,0,2.8559999999999945,FALSE,TRUE,FALSE,FALSE,fraser/2-00-24b.xml,other error,1
+oh the tractors,it's a tractor isn't it,CHI,MOT,TRUE,24,0.08199999999987995,1.8110000000001492,FALSE,TRUE,FALSE,FALSE,fraser/2-00-24b.xml,other error,7
+orange bears,orange bear,CHI,MOT,TRUE,24,0,1.8579999999997199,FALSE,TRUE,FALSE,FALSE,fraser/2-00-24b.xml,other error,2
+grew,till it was right out of sight,CHI,MOT,FALSE,24,1.8200000000001637,1.0100000000002183,TRUE,FALSE,FALSE,FALSE,fraser/2-00-26a.xml,no error,7
+pots,pots,CHI,MOT,FALSE,24,0.03499999999985448,1.8690000000001419,FALSE,TRUE,FALSE,FALSE,fraser/2-00-26a.xml,no error,1
+yeah done I done it,did you do it,CHI,MOT,TRUE,24,0.04599999999982174,3.1579999999999018,TRUE,FALSE,FALSE,FALSE,fraser/2-00-26b.xml,other error,4
+xxx found it,have you found it,CHI,MOT,FALSE,24,1.3699999999998909,4.155999999999949,TRUE,FALSE,FALSE,FALSE,fraser/2-00-26b.xml,no error,4
+done naughty,oh dear,CHI,MOT,TRUE,24,0,2.2759999999999962,TRUE,FALSE,FALSE,FALSE,fraser/2-00-27b.xml,other error,2
+books,yes,CHI,MOT,FALSE,24,-0.8830000000000382,1.6840000000000828,FALSE,TRUE,FALSE,TRUE,fraser/2-00-27b.xml,no error,1
+Jwww gone,Jwww's playing with Awww oh Jwww,CHI,MOT,TRUE,24,-0.16800000000012005,1.9390000000000782,TRUE,FALSE,FALSE,TRUE,fraser/2-00-27b.xml,other error,7
+beads,think your tea's ready,CHI,MOT,FALSE,24,-0.33599999999978536,1.3699999999998909,FALSE,TRUE,FALSE,TRUE,fraser/2-00-27b.xml,no error,5
+spaghetti and chips,oops ooh Mummy almost dropped that,CHI,MOT,FALSE,24,-1.1140000000000327,2.5650000000000546,FALSE,TRUE,FALSE,TRUE,fraser/2-00-27b.xml,no error,6
+climbed,and,CHI,MOT,FALSE,24,0.9329999999999927,1.0570000000000164,TRUE,FALSE,FALSE,FALSE,fraser/2-00-27v.xml,no error,1
+zero was there,was there,CHI,MOT,TRUE,24,0.8180000000000973,1.7879999999998972,TRUE,FALSE,FALSE,FALSE,fraser/2-00-28b.xml,other error,2
+Mummy put Daddy pillow,yeah,CHI,MOT,TRUE,24,0.018000000000029104,2.4969999999998436,TRUE,FALSE,FALSE,FALSE,fraser/2-00-28b.xml,other error,1
+a bears,the bears,CHI,MOT,TRUE,24,0.4639999999999418,1.0799999999999272,FALSE,TRUE,FALSE,FALSE,fraser/2-00-28b.xml,other error,2
+zero down the slides,and then you went down the slide,CHI,MOT,TRUE,24,-0.3720000000002983,1.6020000000003165,FALSE,TRUE,FALSE,TRUE,fraser/2-00-28b.xml,other error,7
+oh no fell it over,did it fall over,CHI,MOT,TRUE,24,0.15000000000009095,2.217999999999847,TRUE,FALSE,FALSE,FALSE,fraser/2-00-28v.xml,other error,4
+oh it got me,is it coming to get you,CHI,MOT,FALSE,24,0.13899999999966894,2.04300000000012,TRUE,FALSE,FALSE,FALSE,fraser/2-00-28v.xml,no error,6
+oh a all the books,what's that,CHI,MOT,FALSE,24,0.7550000000001091,2.275000000000091,FALSE,TRUE,FALSE,FALSE,fraser/2-00-30a.xml,no error,3
+got to xxx dress,you've got school soon,CHI,MOT,TRUE,24,-0.8940000000002328,1.8230000000003201,TRUE,FALSE,FALSE,TRUE,fraser/2-00-30b.xml,other error,5
+I come with new shoes,did you,CHI,MOT,FALSE,24,0.023000000000138243,2.9719999999997526,FALSE,TRUE,FALSE,FALSE,fraser/2-00-30b.xml,no error,2
+mind all the clouds,mind the clouds,CHI,MOT,FALSE,24,0.13599999999996726,4.213999999999942,FALSE,TRUE,FALSE,FALSE,fraser/2-00-30b.xml,no error,3
+oh the car,Fraser the car's gone,CHI,MOT,TRUE,25,0.15100000000029468,2.298999999999978,TRUE,FALSE,FALSE,FALSE,fraser/2-01-02a.xml,other error,5
+chips,yeah,CHI,MOT,FALSE,25,-0.7319999999999709,0.8360000000002401,FALSE,TRUE,FALSE,TRUE,fraser/2-01-02b.xml,no error,1
+Mummy a lost it the bone,he's lost the bone,CHI,MOT,FALSE,25,0.46800000000030195,2.274999999999636,TRUE,FALSE,FALSE,FALSE,fraser/2-01-02b.xml,no error,5
+lost it the bone,lost it the bone,CHI,MOT,FALSE,25,0.6039999999998145,2.0670000000000073,TRUE,FALSE,FALSE,FALSE,fraser/2-01-02b.xml,no error,4
+no play books,p play with what,CHI,MOT,FALSE,25,1.8989999999998872,2.1480000000001382,FALSE,TRUE,FALSE,FALSE,fraser/2-01-03b.xml,no error,4
+play books,your books,CHI,MOT,FALSE,25,0,1.625,FALSE,TRUE,FALSE,FALSE,fraser/2-01-03b.xml,no error,2
+NA,is he stuck,CHI,MOT,FALSE,25,0.0340000000001055,1.3009999999999309,TRUE,FALSE,FALSE,FALSE,fraser/2-01-03b.xml,no error,3
+a ducks,NA,CHI,MOT,FALSE,25,-0.18600000000014916,1.1850000000004002,FALSE,TRUE,FALSE,TRUE,fraser/2-01-03b.xml,no error,NA
+that socks,whose socks are they,CHI,MOT,FALSE,25,0.17400000000009186,1.2889999999999873,FALSE,TRUE,FALSE,FALSE,fraser/2-01-05a.xml,no error,4
+Jwww been,oh look what's here,CHI,MOT,FALSE,25,0.023000000000138243,1.6599999999998545,TRUE,FALSE,FALSE,FALSE,fraser/2-01-05a.xml,no error,5
+that socks,whose socks are they,CHI,MOT,FALSE,25,0.17400000000009186,1.2889999999999873,FALSE,TRUE,FALSE,FALSE,fraser/2-01-05b.xml,no error,4
+Jwww been,oh look what's here,CHI,MOT,FALSE,25,0.023000000000138243,1.6599999999998545,TRUE,FALSE,FALSE,FALSE,fraser/2-01-05b.xml,no error,5
+flowers,yeah those are flowers,CHI,MOT,FALSE,25,0,1.044999999999618,FALSE,TRUE,FALSE,FALSE,fraser/2-01-06a.xml,no error,4
+Helen a him,you reading the story now are you,CHI,MOT,TRUE,25,2.0270000000000437,2.5539999999996326,TRUE,FALSE,FALSE,FALSE,fraser/2-01-06a.xml,other error,7
+no more monkeys jump the bed,no more monkeys jumping on the bed,CHI,MOT,FALSE,25,0.3249999999998181,1.068000000000211,FALSE,TRUE,FALSE,FALSE,fraser/2-01-06b.xml,no error,7
+no more monkeys jump on the bed,that's right,CHI,MOT,FALSE,25,0.04599999999982174,2.8099999999999454,FALSE,TRUE,FALSE,FALSE,fraser/2-01-06b.xml,no error,3
+tell well done,well done,CHI,MOT,TRUE,25,0.023000000000024556,2.032000000000039,TRUE,FALSE,FALSE,FALSE,fraser/2-01-07a.xml,other error,2
+mixed up,yes,CHI,MOT,FALSE,25,0.035000000000081855,1.0329999999999018,TRUE,FALSE,FALSE,FALSE,fraser/2-01-07a.xml,no error,1
+mixed up,mixed up,CHI,MOT,FALSE,25,0.0929999999998472,1.0450000000000728,TRUE,FALSE,FALSE,FALSE,fraser/2-01-07a.xml,no error,2
+loved you,I love you too Fraser,CHI,MOT,TRUE,25,0.010999999999967258,1.1149999999997817,TRUE,FALSE,FALSE,FALSE,fraser/2-01-07a.xml,other error,5
+I loved you loved you,I love you too Fraser,CHI,MOT,TRUE,25,0.07000000000016371,3.505999999999858,TRUE,FALSE,FALSE,FALSE,fraser/2-01-07a.xml,other error,5
+I loved you,where's Fraser,CHI,MOT,TRUE,25,1.6480000000001382,2.030999999999949,TRUE,FALSE,FALSE,FALSE,fraser/2-01-07a.xml,other error,3
+stars,stars,CHI,MOT,FALSE,25,0,1.2300000000000182,FALSE,TRUE,FALSE,FALSE,fraser/2-01-07a.xml,no error,1
+elephant lost Lwww,he's lost Lwww,CHI,MOT,FALSE,25,0.13899999999989632,2.576999999999998,TRUE,FALSE,FALSE,FALSE,fraser/2-01-07b.xml,no error,4
+bits in there,you just have to have a look and find them,CHI,MOT,FALSE,25,1.0450000000000728,1.7179999999998472,FALSE,TRUE,FALSE,FALSE,fraser/2-01-07b.xml,no error,10
+play a blocks,yes and had he got little ball there,CHI,MOT,FALSE,25,-0.3129999999999882,1.288000000000011,FALSE,TRUE,FALSE,TRUE,fraser/2-01-09a.xml,no error,8
+where's the flowers,the flowers are on this page look,CHI,MOT,FALSE,25,-0.5800000000001546,1.9500000000000455,FALSE,TRUE,FALSE,TRUE,fraser/2-01-09a.xml,no error,7
+I getting the shoes,no,CHI,MOT,TRUE,25,-0.04600000000004911,1.6599999999998545,FALSE,TRUE,FALSE,TRUE,fraser/2-01-10b.xml,other error,1
+a sheeps have,how many sheeps are there,CHI,MOT,TRUE,25,0.20899999999983265,1.6480000000001382,FALSE,TRUE,TRUE,FALSE,fraser/2-01-10b.xml,overregularization,5
+that one came,Jwww Fraser,CHI,MOT,FALSE,25,0.15299999999979264,2.4839999999999236,TRUE,FALSE,FALSE,FALSE,fraser/2-01-10v.xml,no error,2
+all gone now,Chicken_Licken,CHI,MOT,FALSE,25,-1.3809999999998581,1.3820000000000618,TRUE,FALSE,FALSE,TRUE,fraser/2-01-10v.xml,no error,2
+look my nails well,yeah,CHI,MOT,TRUE,26,-0.63900000000001,1.9850000000000136,FALSE,TRUE,FALSE,TRUE,fraser/2-02-01b.xml,other error,1
+hide in the cushions,come come this way,CHI,MOT,FALSE,26,-0.44099999999980355,1.381999999999607,FALSE,TRUE,FALSE,TRUE,fraser/2-02-01b.xml,no error,4
+lion lion's got stripes,that's right,CHI,MOT,TRUE,26,-0.2899999999999636,2.228999999999928,FALSE,TRUE,FALSE,TRUE,fraser/2-02-02a.xml,other error,3
+berries,they're raspberries,CHI,MOT,FALSE,26,-0.18599999999992178,0.9059999999999491,FALSE,TRUE,FALSE,TRUE,fraser/2-02-02a.xml,no error,3
+bit messy,what about,CHI,MOT,FALSE,26,-1.5439999999999827,1.5439999999999827,TRUE,FALSE,FALSE,TRUE,fraser/2-02-02a.xml,no error,2
+broken,has it broken,CHI,MOT,FALSE,26,-0.3020000000001346,1.19600000000014,TRUE,FALSE,FALSE,TRUE,fraser/2-02-02a.xml,no error,3
+and Jwww and Awww are left,Jwww and Awww are still sleeping Fraser,CHI,MOT,FALSE,26,0.023000000000024556,3.5989999999999895,TRUE,FALSE,FALSE,FALSE,fraser/2-02-02b.xml,no error,7
+he in the works,yeah,CHI,MOT,TRUE,26,0.07000000000005002,1.34699999999998,FALSE,TRUE,FALSE,FALSE,fraser/2-02-02b.xml,other error,1
+sleepings,yeah,CHI,MOT,TRUE,26,0,1.7060000000000173,FALSE,TRUE,FALSE,FALSE,fraser/2-02-02b.xml,other error,1
+I did it,you did it,CHI,MOT,FALSE,26,0.6290000000001328,1.4510000000000218,TRUE,FALSE,FALSE,FALSE,fraser/2-02-02b.xml,no error,3
+oh frogs,frogs,CHI,MOT,FALSE,26,-0.7309999999999945,2.2059999999999036,FALSE,TRUE,FALSE,TRUE,fraser/2-02-02b.xml,no error,1
+they got a baby ducks,yes,CHI,MOT,TRUE,26,0.011000000000194632,1.7189999999998236,FALSE,TRUE,FALSE,FALSE,fraser/2-02-02b.xml,other error,1
+butterfly there lost cups,pardon,CHI,MOT,FALSE,26,0.20900000000006003,2.90300000000002,TRUE,TRUE,FALSE,FALSE,fraser/2-02-02b.xml,no error,1
+she's scared the spider,she's scared of the spider,CHI,MOT,TRUE,26,0.03499999999985448,2.3450000000002547,TRUE,FALSE,FALSE,FALSE,fraser/2-02-02b.xml,other error,6
+where's the animals,where's the animals,CHI,MOT,FALSE,26,0.09200000000009823,2.3460000000000036,FALSE,TRUE,FALSE,FALSE,fraser/2-02-02b.xml,no error,4
+all gone,don't break it,CHI,MOT,FALSE,26,0.0340000000001055,1.3820000000000618,TRUE,FALSE,FALSE,FALSE,fraser/2-02-02b.xml,no error,4
+I broken again,oh Fraser,CHI,MOT,TRUE,26,0,2.507999999999811,TRUE,FALSE,FALSE,FALSE,fraser/2-02-04a.xml,other error,2
+I found it,yes,CHI,MOT,FALSE,26,0.047000000000025466,1.3809999999998581,TRUE,FALSE,FALSE,FALSE,fraser/2-02-04b.xml,no error,1
+Little_Bill got hamster,yeah,CHI,MOT,TRUE,26,0.08099999999967622,2.5080000000002656,TRUE,FALSE,FALSE,FALSE,fraser/2-02-04b.xml,other error,1
+look two apples,what's that,CHI,MOT,FALSE,26,0.45299999999997453,2.275000000000091,FALSE,TRUE,FALSE,FALSE,fraser/2-02-04b.xml,no error,3
+I got,and some sandwich as well,CHI,MOT,TRUE,26,0.057999999999992724,0.6269999999999527,TRUE,FALSE,FALSE,FALSE,fraser/2-02-05a.xml,other error,5
+you got,and what have you got on your pajamas,CHI,MOT,FALSE,26,-0.8000000000001819,0.8009999999999309,TRUE,FALSE,FALSE,TRUE,fraser/2-02-05a.xml,no error,8
+thing's stuck,what's stuck,CHI,MOT,FALSE,26,0.023999999999999577,2.3800000000000003,TRUE,FALSE,FALSE,FALSE,fraser/2-02-06a.xml,no error,3
+I thought that it's Grandad,is it naughty Grandad,CHI,MOT,FALSE,26,0.3949999999999818,2.3799999999999955,TRUE,FALSE,FALSE,FALSE,fraser/2-02-06a.xml,no error,4
+I broke it,did Fraser break it,CHI,MOT,TRUE,26,0.22000000000002728,1.4980000000000473,TRUE,FALSE,FALSE,FALSE,fraser/2-02-06a.xml,other error,4
+xxx said that,have you had enough,CHI,MOT,FALSE,26,0.32500000000027285,1.8809999999998581,TRUE,FALSE,FALSE,FALSE,fraser/2-02-06a.xml,no error,4
+broken,have you broken it,CHI,MOT,FALSE,26,0.03499999999985448,1.543999999999869,TRUE,FALSE,FALSE,FALSE,fraser/2-02-06a.xml,no error,4
+Maisey's got big big trunk,Maisey's got a big big trunk,CHI,MOT,TRUE,26,0.15099999999983993,3.611000000000331,TRUE,FALSE,FALSE,FALSE,fraser/2-02-06a.xml,other error,7
+the potty said,come on then,CHI,MOT,FALSE,26,0.06999999999970896,1.4280000000003383,TRUE,FALSE,FALSE,FALSE,fraser/2-02-06a.xml,no error,3
+and Grandma does got flower,yeah,CHI,MOT,TRUE,27,0.010999999999967258,2.5200000000000387,TRUE,FALSE,FALSE,FALSE,fraser/2-03-00a.xml,other error,1
+you got a black hat,no,CHI,MOT,TRUE,27,0.16199999999997772,1.5910000000000082,TRUE,FALSE,FALSE,FALSE,fraser/2-03-00a.xml,other error,1
+that's Daddy Daddy's hairs,that's Daddy's head,CHI,MOT,TRUE,27,0.8089999999999691,1.6140000000000327,FALSE,TRUE,FALSE,FALSE,fraser/2-03-00a.xml,other error,5
+I got a party hat,you've got a party hat,CHI,MOT,TRUE,27,0.1169999999999618,1.6710000000000491,TRUE,FALSE,FALSE,FALSE,fraser/2-03-00a.xml,other error,6
+I got party hat phone,you got a party hat phone,CHI,MOT,TRUE,27,0.02299999999991087,2.5190000000000055,TRUE,FALSE,FALSE,FALSE,fraser/2-03-00a.xml,other error,6
+bit like this,oh,CHI,MOT,FALSE,27,0.63799999999992,1.5209999999999582,TRUE,FALSE,FALSE,FALSE,fraser/2-03-00a.xml,no error,1
+he's he's got a Mummy's dress,NA,CHI,MOT,FALSE,27,0.42899999999985994,4.09900000000016,TRUE,FALSE,FALSE,FALSE,fraser/2-03-00b.xml,no error,NA
+no kicking the doors,no kicking the door,CHI,MOT,FALSE,27,-0.3369999999999891,1.70699999999988,FALSE,TRUE,FALSE,TRUE,fraser/2-03-00b.xml,no error,4
+that's that's a that that's that's a mountains,it's a mountain,CHI,MOT,TRUE,27,0.07400000000006912,4.006000000000313,FALSE,TRUE,FALSE,FALSE,fraser/2-03-00b.xml,other error,4
+get wet in in the rain,ooh,CHI,MOT,FALSE,27,0.9170000000000016,6.7449999999999974,TRUE,FALSE,FALSE,FALSE,fraser/2-03-03a.xml,no error,1
+spots,spots,CHI,MOT,FALSE,27,0.0589999999999975,1.4039999999999964,FALSE,TRUE,FALSE,FALSE,fraser/2-03-03a.xml,no error,1
+it said oh,it says oh does it,CHI,MOT,TRUE,27,0.03500000000002501,1.9390000000000214,TRUE,FALSE,FALSE,FALSE,fraser/2-03-03a.xml,other error,5
+she got umbrella,yes,CHI,MOT,TRUE,27,0.05800000000004957,1.9389999999999645,TRUE,FALSE,FALSE,FALSE,fraser/2-03-03a.xml,other error,1
+zero got got umbrella,yeah,CHI,MOT,TRUE,27,0.02299999999991087,1.858000000000061,TRUE,FALSE,FALSE,FALSE,fraser/2-03-03a.xml,other error,1
+that's his glasses,that says what,CHI,MOT,FALSE,27,0.1269999999999527,1.509999999999991,FALSE,TRUE,FALSE,FALSE,fraser/2-03-03a.xml,no error,3
+all those peoples,all those people,CHI,MOT,TRUE,27,0.010999999999967258,1.7300000000000182,FALSE,TRUE,TRUE,FALSE,fraser/2-03-03a.xml,overregularization,3
+the tiger have got stripes,aah,CHI,MOT,TRUE,27,-0.6959999999999127,2.4030000000002474,FALSE,TRUE,FALSE,TRUE,fraser/2-03-03a.xml,other error,1
+I've got a ring,that's,CHI,MOT,FALSE,27,-1.1369999999997162,1.20699999999988,TRUE,FALSE,FALSE,TRUE,fraser/2-03-03b.xml,no error,2
+Grandma and Grandad did buy me this,did they,CHI,MOT,TRUE,27,0.03500000000002501,3.041999999999973,TRUE,FALSE,FALSE,FALSE,fraser/2-03-05a.xml,other error,2
+and crisps yukky,crisps are yucky,CHI,MOT,TRUE,27,0.42899999999963256,1.5100000000002183,FALSE,TRUE,FALSE,FALSE,fraser/2-03-05a.xml,other error,3
+don't pieces taking Mummy outy,shall I go away,CHI,MOT,TRUE,27,0.011999999999716238,2.3220000000001164,FALSE,TRUE,FALSE,FALSE,fraser/2-03-05a.xml,other error,4
+where's my pennies,where's your pennies,CHI,MOT,TRUE,27,-0.22100000000000364,1.7530000000001564,FALSE,TRUE,FALSE,TRUE,fraser/2-03-05a.xml,other error,4
+beans,done said Jack,CHI,MOT,FALSE,27,0.26699999999993906,1.34699999999998,FALSE,TRUE,FALSE,FALSE,fraser/2-03-05b.xml,no error,3
+my foot's stuck,what's the matter,CHI,MOT,FALSE,27,0.2319999999999709,2.0899999999996908,TRUE,FALSE,FALSE,FALSE,fraser/2-03-05b.xml,no error,4
+and those those people sleeping,is everybody sleeping,CHI,MOT,TRUE,27,0.25500000000010914,4.132999999999811,FALSE,TRUE,FALSE,FALSE,fraser/2-03-05b.xml,other error,3
+xxx people sleeping,those people are sleeping,CHI,MOT,FALSE,27,0.08099999999967622,1.7539999999999054,FALSE,TRUE,FALSE,FALSE,fraser/2-03-05b.xml,no error,4
+xxx people sleeping,little people sleeping,CHI,MOT,FALSE,27,0.057999999999992724,1.788000000000011,FALSE,TRUE,FALSE,FALSE,fraser/2-03-05b.xml,no error,3
+the birds lucky,the birds are yucky,CHI,MOT,TRUE,27,0.13999999999998636,2.217000000000013,FALSE,TRUE,FALSE,FALSE,fraser/2-03-06a.xml,other error,4
+the wheels going round and round,the wheels are going round and round,CHI,MOT,TRUE,27,0.09300000000001774,2.762999999999977,FALSE,TRUE,FALSE,FALSE,fraser/2-03-06a.xml,other error,7
+I got,oh,CHI,MOT,FALSE,27,2.032000000000039,2.2520000000000095,TRUE,FALSE,FALSE,FALSE,fraser/2-03-06a.xml,no error,1
+he's eating all the eggs,is he,CHI,MOT,FALSE,27,0,2.8209999999999127,FALSE,TRUE,FALSE,FALSE,fraser/2-03-06a.xml,no error,2
+those girls,yeah,CHI,MOT,FALSE,27,0.011999999999943611,1.1259999999999764,FALSE,TRUE,FALSE,FALSE,fraser/2-03-06a.xml,no error,1
+those girls hiding,yes,CHI,MOT,TRUE,27,0.011999999999943611,2.1010000000001128,FALSE,TRUE,FALSE,FALSE,fraser/2-03-06a.xml,other error,1
+the socks,what are they,CHI,MOT,FALSE,27,1.102999999999838,1.6140000000000327,FALSE,TRUE,FALSE,FALSE,fraser/2-03-06a.xml,no error,3
+the blue clues one,it's the Blues_clues one is it,CHI,MOT,FALSE,27,0.2669999999998254,2.5770000000002256,FALSE,TRUE,FALSE,FALSE,fraser/2-03-06a.xml,no error,8
+this ones flowers there,yes,CHI,MOT,FALSE,27,-1.9270000000001346,3.2160000000003492,FALSE,TRUE,FALSE,TRUE,fraser/2-03-06a.xml,no error,1
+what he's got,I don't know,CHI,MOT,TRUE,27,0.010999999999967258,0.9639999999999418,TRUE,FALSE,FALSE,FALSE,fraser/2-03-06b.xml,other error,4
+and some cups,xxx cups,CHI,MOT,TRUE,27,0.13599999999996726,1.41599999999994,FALSE,TRUE,FALSE,FALSE,fraser/2-03-06b.xml,other error,2
+I took them off,yeah,CHI,MOT,FALSE,27,-0.011999999999943611,1.4049999999999727,TRUE,FALSE,FALSE,TRUE,fraser/2-03-06b.xml,no error,1
+I only took,I think I'll go and put the heating on it's a bit chilly,CHI,MOT,FALSE,27,2.1410000000000764,1.4400000000000546,TRUE,FALSE,FALSE,FALSE,fraser/2-03-06b.xml,no error,15
+might trap my fingers,and that will hurt,CHI,MOT,FALSE,27,-0.8360000000002401,2.9600000000000364,FALSE,TRUE,FALSE,TRUE,fraser/2-03-06b.xml,no error,4
+it's not got back to shop,it has gone back to the shop,CHI,MOT,TRUE,27,1.0239999999998872,4.121000000000095,TRUE,FALSE,FALSE,FALSE,fraser/2-03-06b.xml,other error,7
+baby rolled it,don't do that,CHI,MOT,FALSE,27,-1.5679999999997563,2.3109999999996944,TRUE,FALSE,FALSE,TRUE,fraser/2-03-06b.xml,no error,4
+he went see Pooh,wanna go bouncing,CHI,MOT,TRUE,28,0.125,1.5439999999999827,TRUE,FALSE,FALSE,FALSE,fraser/2-04-01b.xml,other error,3
+zero Twww gonna going to gone with his Daddy,ooh dear,CHI,MOT,TRUE,28,1.83400000000006,2.566000000000031,TRUE,FALSE,FALSE,FALSE,fraser/2-04-01b.xml,other error,2
+Jwww gave it,xxx,CHI,MOT,FALSE,28,-0.6620000000002619,0.6620000000002619,TRUE,FALSE,FALSE,TRUE,fraser/2-04-01b.xml,no error,1
+owls are downstairs,you gonna going to help Mummy put the shopping away,CHI,MOT,FALSE,28,0.22100000000000364,1.972999999999999,FALSE,TRUE,FALSE,FALSE,fraser/2-04-02a.xml,no error,10
+Mummy I'm eating things,what was that Fraser,CHI,MOT,FALSE,28,2.3910000000000764,1.9039999999999964,FALSE,TRUE,FALSE,FALSE,fraser/2-04-02a.xml,no error,4
+what what you have got,I've got some sauce,CHI,MOT,TRUE,28,0.6970000000001164,2.4960000000000946,TRUE,FALSE,FALSE,FALSE,fraser/2-04-02a.xml,other error,5
+er I don't like my socks,oh,CHI,MOT,FALSE,28,-0.2909999999999968,2.8449999999999704,FALSE,TRUE,FALSE,TRUE,fraser/2-04-02b.xml,no error,1
+the books,yes,CHI,MOT,FALSE,28,-0.6959999999999127,1.77599999999984,FALSE,TRUE,FALSE,TRUE,fraser/2-04-02b.xml,no error,1
+Roo was a pig,no,CHI,MOT,TRUE,28,0.11999999999989086,1.5910000000003492,TRUE,FALSE,FALSE,FALSE,fraser/2-04-02b.xml,other error,1
+she got two two two blacks legs,got two black legs,CHI,MOT,TRUE,28,0.057999999999992724,6.653000000000247,FALSE,TRUE,FALSE,FALSE,fraser/2-04-02b.xml,other error,4
+a g we seen a giraffe at the zoo today,you saw a giraffe at the zoo,CHI,MOT,TRUE,28,-0.9060000000000059,4.621000000000009,TRUE,FALSE,FALSE,TRUE,fraser/2-04-03v.xml,other error,7
+and Aladdin came uh at the zoo,no,CHI,MOT,TRUE,28,0.103999999999985,2.612000000000023,TRUE,FALSE,FALSE,FALSE,fraser/2-04-03v.xml,other error,1
+and eyes,that's Jeannine's eyes,CHI,MOT,FALSE,28,0.17000000000007276,1.3460000000000036,FALSE,TRUE,FALSE,FALSE,fraser/2-04-03v.xml,no error,5
+green thighs,green thighs,CHI,MOT,FALSE,28,0.11000000000012733,1.3580000000001746,FALSE,TRUE,FALSE,FALSE,fraser/2-04-03v.xml,no error,2
+oh it's fallen over,fell over again didn't it,CHI,MOT,TRUE,28,1.8019999999999072,2.2730000000001382,TRUE,FALSE,FALSE,FALSE,fraser/2-04-04a.xml,other error,6
+reach for the stars,what do you do with your arms,CHI,MOT,FALSE,28,0.18500000000040018,2.356999999999971,FALSE,TRUE,FALSE,FALSE,fraser/2-04-04a.xml,no error,7
+and I see the animals,and you saw what,CHI,MOT,TRUE,28,0.30100000000004457,2.8099999999999454,FALSE,TRUE,FALSE,FALSE,fraser/2-04-04b.xml,other error,4
+there's no rooms,there's lots of room,CHI,MOT,TRUE,28,0.4989999999997963,1.4400000000000546,FALSE,TRUE,FALSE,FALSE,fraser/2-04-04b.xml,other error,5
+these hoops broken,the hoops are broken,CHI,MOT,TRUE,28,0.04000000000041837,1.9039999999999964,FALSE,TRUE,FALSE,FALSE,fraser/2-04-05b.xml,other error,4
+I like these plates,you like those plates,CHI,MOT,FALSE,28,-0.16200000000026193,1.9969999999998436,FALSE,TRUE,FALSE,TRUE,fraser/2-04-05b.xml,no error,4
+tha just not a grapes,no,CHI,MOT,TRUE,28,0.4639999999999418,2.76299999999992,FALSE,TRUE,FALSE,FALSE,fraser/2-04-06a.xml,other error,1
+I'm I I under locking lots off,are you thirsty,CHI,MOT,FALSE,28,2.3340000000002874,3.668999999999869,FALSE,TRUE,FALSE,FALSE,fraser/2-04-06a.xml,no error,3
+I'm sixty fours,no,CHI,MOT,FALSE,28,1.044999999999618,1.6140000000000327,FALSE,TRUE,FALSE,FALSE,fraser/2-04-06a.xml,no error,1
+and the crystals,where the ornaments go,CHI,MOT,FALSE,28,-0.4989999999997963,1.47400000000016,FALSE,TRUE,FALSE,TRUE,fraser/2-04-06a.xml,no error,4
+that that ornaments goes in there,that's right,CHI,MOT,TRUE,28,0,3.0409999999997126,FALSE,TRUE,FALSE,FALSE,fraser/2-04-06a.xml,other error,3
+I I got in shopping,did you,CHI,MOT,TRUE,28,0,2.3220000000001164,TRUE,FALSE,FALSE,FALSE,fraser/2-04-06a.xml,other error,2
+and I hear the people in the car,pardon,CHI,MOT,TRUE,28,0.34799999999995634,3.1700000000000728,FALSE,TRUE,FALSE,FALSE,fraser/2-04-06b.xml,other error,1
+xxx gonna going to see the fish and Daddy's and Daddy saw the fish and you saw the fish,yeah,CHI,MOT,TRUE,29,0.03500000000002501,7.475999999999999,TRUE,FALSE,FALSE,FALSE,fraser/2-05-00a.xml,other error,1
+and grandad saw the fish,did he,CHI,MOT,TRUE,29,0.058000000000021146,2.171999999999997,TRUE,FALSE,FALSE,FALSE,fraser/2-05-00a.xml,other error,2
+and Jwww seed the dustmen,did he,CHI,MOT,TRUE,29,0.07400000000006912,2.19399999999996,TRUE,FALSE,FALSE,FALSE,fraser/2-05-00a.xml,other error,2
+he got,elephant,CHI,MOT,TRUE,29,-0.6030000000000655,0.7429999999999382,TRUE,FALSE,FALSE,TRUE,fraser/2-05-00a.xml,other error,1
+and then we ran at little ball,was he,CHI,MOT,TRUE,29,0.057999999999992724,3.552000000000021,TRUE,FALSE,FALSE,FALSE,fraser/2-05-00b.xml,other error,2
+one fell off and bumped their nose,their nose,CHI,MOT,FALSE,29,0.057999999999992724,4.219000000000051,TRUE,FALSE,FALSE,FALSE,fraser/2-05-00b.xml,no error,2
+no more no more monkeys on the bed,no more Fraser jumping on the bed,CHI,MOT,FALSE,29,0.13200000000006185,3.3489999999999327,FALSE,TRUE,FALSE,FALSE,fraser/2-05-00b.xml,no error,7
+one fell off and bumped their xxx,ear,CHI,MOT,FALSE,29,-0.5989999999999327,3.0370000000000346,TRUE,FALSE,FALSE,TRUE,fraser/2-05-00b.xml,no error,1
+no more monkeys jumping on the bed,ahhah,CHI,MOT,FALSE,29,0.007000000000061846,3.7109999999997854,FALSE,TRUE,FALSE,FALSE,fraser/2-05-00b.xml,no error,1
+Mama gone the doctor said,that's you were under the bed though,CHI,MOT,FALSE,29,-1.9869999999998527,2.987999999999829,TRUE,FALSE,FALSE,TRUE,fraser/2-05-00b.xml,no error,8
+no more monkeys jumping,jumping on the bed,CHI,MOT,FALSE,29,-0.13999999999987267,3.5219999999999345,FALSE,TRUE,FALSE,TRUE,fraser/2-05-00b.xml,no error,4
+no Mum I chose to read this,why not,CHI,MOT,FALSE,29,0.012000000000170985,2.5419999999999163,TRUE,FALSE,FALSE,FALSE,fraser/2-05-00b.xml,no error,2
+they're my baby dragons,your baby dragons,CHI,MOT,FALSE,29,-0.2899999999999636,1.8219999999996617,FALSE,TRUE,FALSE,TRUE,fraser/2-05-00b.xml,no error,3
+um he has it and that eat leaves,does he eat leaves,CHI,MOT,TRUE,29,0.033999999999991815,5.353000000000009,FALSE,TRUE,FALSE,FALSE,fraser/2-05-01b.xml,other error,4
+got big long long tail,wow,CHI,MOT,TRUE,29,0.6920000000000073,2.299000000000035,TRUE,FALSE,FALSE,FALSE,fraser/2-05-01b.xml,other error,1
+that's not my feet,xxx,CHI,MOT,FALSE,29,-1.382000000000005,1.6370000000000005,FALSE,TRUE,FALSE,TRUE,fraser/2-05-01b.xml,no error,1
+it was scary,where's Fraser,CHI,MOT,FALSE,29,-1.3230000000003201,1.7530000000001564,TRUE,FALSE,FALSE,TRUE,fraser/2-05-01b.xml,no error,3
+my feet them,no Fraser,CHI,MOT,FALSE,29,0.24400000000014188,1.788000000000011,FALSE,TRUE,FALSE,FALSE,fraser/2-05-01b.xml,no error,2
+it was,he's being naughty isn't he,CHI,MOT,FALSE,29,-0.30199999999967986,0.56899999999996,TRUE,FALSE,FALSE,TRUE,fraser/2-05-01b.xml,no error,7
+elephants,elephants,CHI,MOT,FALSE,29,-0.30199999999967986,1.1839999999997417,FALSE,TRUE,FALSE,TRUE,fraser/2-05-01b.xml,no error,1
+went Trafford_Centre,that's right,CHI,MOT,TRUE,29,0.04599999999999227,2.519999999999996,TRUE,FALSE,FALSE,FALSE,fraser/2-05-03a.xml,other error,3
+catch your foots,catch my foot,CHI,MOT,TRUE,29,0,1.7419999999999618,FALSE,TRUE,TRUE,FALSE,fraser/2-05-03a.xml,overregularization,3
+I be got get up,you've got to get up,CHI,MOT,TRUE,29,0.03499999999996817,1.9390000000000782,TRUE,FALSE,FALSE,FALSE,fraser/2-05-03a.xml,other error,6
+he was being running,yeah,CHI,MOT,TRUE,29,-1.8109999999999218,1.8810000000000855,TRUE,FALSE,FALSE,TRUE,fraser/2-05-03a.xml,other error,1
+I don't have showers,not yet not yet,CHI,MOT,FALSE,29,-1.4279999999998836,1.8919999999998254,FALSE,TRUE,FALSE,TRUE,fraser/2-05-03a.xml,no error,4
+look at all these sheeps,is there lots of sheep there,CHI,MOT,TRUE,29,0.024999999999863576,1.7290000000000418,FALSE,TRUE,TRUE,FALSE,fraser/2-05-03a.xml,overregularization,6
+is that a sausages,sausages,CHI,MOT,TRUE,29,0.581000000000131,2.1240000000000236,FALSE,TRUE,FALSE,FALSE,fraser/2-05-03a.xml,other error,1
+I did a Fraser alphabet,is that the Fraser alphabet,CHI,MOT,FALSE,29,0.10399999999981446,2.530999999999949,TRUE,FALSE,FALSE,FALSE,fraser/2-05-03a.xml,no error,5
+I did ah,was that lady talking to you,CHI,MOT,FALSE,29,0.1859999999996944,2.46100000000024,TRUE,FALSE,FALSE,FALSE,fraser/2-05-03a.xml,no error,6
+and he got,is that what,CHI,MOT,FALSE,29,-1.1839999999997417,1.1839999999997417,TRUE,FALSE,FALSE,TRUE,fraser/2-05-03b.xml,no error,3
+oh look got monkey again,is it a monkey again,CHI,MOT,TRUE,29,0.03500000000030923,2.112999999999829,TRUE,FALSE,FALSE,FALSE,fraser/2-05-03b.xml,other error,5
+I got I saw the sea see the fish,you saw the sea and the fish,CHI,MOT,TRUE,29,0.023999999999887223,3.992999999999938,TRUE,FALSE,FALSE,FALSE,fraser/2-05-03b.xml,other error,7
+and I went on a train,yes,CHI,MOT,TRUE,29,0,2.1940000000004147,TRUE,FALSE,FALSE,FALSE,fraser/2-05-03b.xml,other error,1
+and there was planets,and there were planets,CHI,MOT,TRUE,29,0,2.2170000000000982,TRUE,FALSE,FALSE,FALSE,fraser/2-05-03b.xml,other error,4
+you got a red mouth,that's,CHI,MOT,FALSE,29,-1.6820000000002437,1.6829999999999927,TRUE,FALSE,FALSE,TRUE,fraser/2-05-03b.xml,no error,2
+is it scratched it,yeah did you,CHI,MOT,TRUE,29,-0.6619999999998072,2.0899999999996908,TRUE,FALSE,FALSE,TRUE,fraser/2-05-03b.xml,other error,3
+I saw them,you saw what,CHI,MOT,TRUE,29,0.4759999999999991,2.0779999999999745,TRUE,FALSE,FALSE,FALSE,fraser/2-05-04a.xml,other error,3
+xxx seen Bear,we saw Bear we did,CHI,MOT,TRUE,29,0.7469999999999573,1.4159999999999968,TRUE,FALSE,FALSE,FALSE,fraser/2-05-04a.xml,other error,5
+um is it called good,a hood,CHI,MOT,FALSE,29,0.09300000000001774,1.8110000000000355,TRUE,FALSE,FALSE,FALSE,fraser/2-05-04a.xml,no error,2
+did it go on that house,what color is it,CHI,MOT,FALSE,29,0.03499999999996817,2.7749999999999773,TRUE,FALSE,FALSE,FALSE,fraser/2-05-04a.xml,no error,4
+Dipsy's not got nothing,he has,CHI,MOT,TRUE,29,0.023000000000138243,2.1009999999998854,TRUE,FALSE,FALSE,FALSE,fraser/2-05-04a.xml,other error,2
+he he not got nothing,Dipsy has something on his head,CHI,MOT,TRUE,29,0.0929999999998472,2.658000000000129,TRUE,FALSE,FALSE,FALSE,fraser/2-05-04a.xml,other error,6
+is it a worms,I don't know,CHI,MOT,TRUE,29,0.18499999999994543,1.3699999999998909,FALSE,TRUE,FALSE,FALSE,fraser/2-05-04a.xml,other error,4
+you got you got a book on my book,pardon,CHI,MOT,FALSE,29,0.047000000000025466,4.701999999999998,TRUE,FALSE,FALSE,FALSE,fraser/2-05-04b.xml,no error,1
+what your said,who else is a girl,CHI,MOT,TRUE,29,0,1.625,TRUE,FALSE,FALSE,FALSE,fraser/2-05-04b.xml,other error,5
+what I got on my blanket,come on,CHI,MOT,TRUE,29,-1.752999999999929,1.949999999999818,TRUE,FALSE,FALSE,TRUE,fraser/2-05-04b.xml,other error,2
+look he's got red nose,has he got a red nose,CHI,MOT,TRUE,29,0.010999999999967258,2.311000000000149,TRUE,FALSE,FALSE,FALSE,fraser/2-05-04b.xml,other error,6
+and what I like potatoes,you like potatoes,CHI,MOT,FALSE,29,-0.34799999999995634,2.530999999999949,FALSE,TRUE,FALSE,TRUE,fraser/2-05-04b.xml,no error,3
+what your said,do you like corn,CHI,MOT,TRUE,29,0,1.2649999999998727,TRUE,FALSE,FALSE,FALSE,fraser/2-05-04b.xml,other error,4
+heard I heard that noise with Grandma and Granddad,did you,CHI,MOT,FALSE,29,0.012000000000000455,3.006999999999948,TRUE,FALSE,FALSE,FALSE,fraser/2-05-06a.xml,no error,2
+the mouth called a beak,yes,CHI,MOT,TRUE,29,0.13900000000001,2.427000000000021,TRUE,FALSE,FALSE,FALSE,fraser/2-05-06a.xml,other error,1
+just got got all these peoples,pardon,CHI,MOT,TRUE,29,1.080000000000382,2.9029999999997926,FALSE,TRUE,FALSE,FALSE,fraser/2-05-06a.xml,other error,1
+I found something,have you found something,CHI,MOT,FALSE,29,0.20900000000006003,2.1359999999999673,TRUE,FALSE,FALSE,FALSE,fraser/2-05-06b.xml,no error,4
+I got to say that,go on then,CHI,MOT,TRUE,29,2.1359999999999673,2.04300000000012,TRUE,FALSE,FALSE,FALSE,fraser/2-05-06b.xml,other error,3
+that that dragon's scared that bird,is he,CHI,MOT,TRUE,30,0,4.354000000000042,TRUE,FALSE,FALSE,FALSE,fraser/2-06-01a.xml,other error,2
+smashed that monster out,and you got the monster out,CHI,MOT,FALSE,30,0.46400000000016917,3.076999999999998,TRUE,FALSE,FALSE,FALSE,fraser/2-06-01a.xml,no error,6
+you it it was dropped it,she dropped it,CHI,MOT,TRUE,30,0.3530000000000655,2.599999999999909,TRUE,FALSE,FALSE,FALSE,fraser/2-06-01a.xml,other error,3
+not not no Maisy blow the candles,oh Maisy blows the candles,CHI,MOT,FALSE,30,-0.3949999999999818,4.632000000000062,FALSE,TRUE,FALSE,TRUE,fraser/2-06-01a.xml,no error,5
+and and there was crabs on the floor,was there,CHI,MOT,TRUE,30,0.22000000000025466,4.109999999999673,TRUE,FALSE,FALSE,FALSE,fraser/2-06-01a.xml,other error,2
+and they hurt my toes,did they hurt your toes,CHI,MOT,FALSE,30,-0.3360000000002401,1.9039999999999964,FALSE,TRUE,FALSE,TRUE,fraser/2-06-01a.xml,no error,5
+and Jwww's throwed Joe's ball,does he,CHI,MOT,TRUE,30,0.018000000000029104,2.6590000000001055,TRUE,FALSE,TRUE,FALSE,fraser/2-06-01a.xml,overregularization,2
+a got,shall we get you dressed Fraser,CHI,MOT,FALSE,30,-0.4059999999999775,0.4059999999999775,TRUE,FALSE,FALSE,TRUE,fraser/2-06-01b.xml,no error,6
+no no is it is tickles,does it,CHI,MOT,TRUE,30,-0.19200000000000728,2.8450000000000273,FALSE,TRUE,FALSE,TRUE,fraser/2-06-01b.xml,other error,2
+four foots,two foots,CHI,MOT,TRUE,30,0.047000000000025466,1.2309999999999945,FALSE,TRUE,TRUE,FALSE,fraser/2-06-01b.xml,overregularization,2
+books,you never,CHI,MOT,FALSE,30,-1.1140000000000327,1.1140000000000327,FALSE,TRUE,FALSE,TRUE,fraser/2-06-01b.xml,no error,2
+books,oh look,CHI,MOT,FALSE,30,-0.8120000000000118,0.8120000000000118,FALSE,TRUE,FALSE,TRUE,fraser/2-06-01b.xml,no error,2
+no sheeps,no sheep,CHI,MOT,TRUE,30,0,1.2660000000000764,FALSE,TRUE,TRUE,FALSE,fraser/2-06-01b.xml,overregularization,2
+xxx cousins and Auntie_Dwww,yeah,CHI,MOT,FALSE,30,0.10500000000001819,3.95900000000006,FALSE,TRUE,FALSE,FALSE,fraser/2-06-01b.xml,no error,1
+why you said ooh,because the postman just came and there's some cards for Mummy,CHI,MOT,TRUE,30,0.047000000000025466,1.8460000000000036,TRUE,FALSE,FALSE,FALSE,fraser/2-06-01b.xml,other error,12
+he broke it,he broke it,CHI,MOT,TRUE,30,0.38400000000001455,1.6829999999999927,TRUE,FALSE,FALSE,FALSE,fraser/2-06-02a.xml,other error,3
+they're called,really,CHI,MOT,FALSE,30,-0.7550000000001091,0.7550000000001091,TRUE,FALSE,FALSE,TRUE,fraser/2-06-02a.xml,no error,1
+but that one falled,did it,CHI,MOT,TRUE,30,0.057999999999992724,1.6829999999999927,TRUE,FALSE,TRUE,FALSE,fraser/2-06-02a.xml,overregularization,2
+I don't like to cut my fingers,you have to soon,CHI,MOT,TRUE,30,0.849999999999909,2.1479999999996835,FALSE,TRUE,FALSE,FALSE,fraser/2-06-02b.xml,other error,4
+I don't like to cut my fingers,your finger,CHI,MOT,TRUE,30,0.30199999999967986,3.7730000000001382,FALSE,TRUE,FALSE,FALSE,fraser/2-06-02b.xml,other error,2
+reach for the,that's right,CHI,MOT,FALSE,30,0,2.414999999999999,FALSE,TRUE,FALSE,FALSE,fraser/2-06-03a.xml,no error,3
+oh it falled,has it fallen,CHI,MOT,TRUE,30,0.022999999999996135,2.158999999999992,TRUE,FALSE,TRUE,FALSE,fraser/2-06-03a.xml,overregularization,3
+it falled,you fell,CHI,MOT,TRUE,30,0.4410000000000309,1.8110000000000355,TRUE,FALSE,TRUE,FALSE,fraser/2-06-03a.xml,overregularization,2
+it falled,your tower fell over did it,CHI,MOT,TRUE,30,1.2419999999999618,1.9629999999999654,TRUE,FALSE,TRUE,FALSE,fraser/2-06-03a.xml,overregularization,6
+it went twinkle twinkle little star,did it,CHI,MOT,TRUE,30,0.011999999999943611,2.75200000000018,TRUE,FALSE,FALSE,FALSE,fraser/2-06-03a.xml,other error,2
+toys,I'm gonna going to take these toys and put them away if you keep doing that,CHI,MOT,FALSE,30,-0.8119999999998981,0.8699999999998909,FALSE,TRUE,FALSE,TRUE,fraser/2-06-03a.xml,no error,17
+reach for the,are you in a singing mood today,CHI,MOT,FALSE,30,0.14599999999995816,2.949000000000069,FALSE,TRUE,FALSE,FALSE,fraser/2-06-03a.xml,no error,7
+reach for the stars,shall we go downstairs for a few minutes,CHI,MOT,FALSE,30,1.0330000000001291,2.658999999999878,FALSE,TRUE,FALSE,FALSE,fraser/2-06-03a.xml,no error,8
+reach for the stars,what did you say,CHI,MOT,FALSE,30,1.8110000000001492,2.6929999999999836,FALSE,TRUE,FALSE,FALSE,fraser/2-06-03a.xml,no error,4
+reach for the star,what,CHI,MOT,FALSE,30,2.288000000000011,2.9829999999999472,FALSE,TRUE,FALSE,FALSE,fraser/2-06-03a.xml,no error,1
+reach for the star,you're mad,CHI,MOT,FALSE,30,1.66800000000012,3.0529999999998836,FALSE,TRUE,FALSE,FALSE,fraser/2-06-03a.xml,no error,3
+how there many ducks are there,how many chicks are there,CHI,MOT,FALSE,30,1.9410000000002583,3.344000000000051,FALSE,TRUE,FALSE,FALSE,fraser/2-06-03a.xml,no error,5
+are they doing the balloons,yeah,CHI,MOT,FALSE,30,-0.35999999999999943,2.160000000000011,FALSE,TRUE,FALSE,TRUE,fraser/2-06-03b.xml,no error,1
+but Ewww said down,Ewww said that,CHI,MOT,FALSE,30,0.12799999999992906,2.3450000000000273,TRUE,FALSE,FALSE,FALSE,fraser/2-06-03b.xml,no error,3
+it goed I it go down to my ear,it goes down to your ear,CHI,MOT,TRUE,30,0.2619999999999436,4.73700000000008,TRUE,FALSE,TRUE,FALSE,fraser/2-06-03b.xml,overregularization,6
+it's went down to my mouth,it goes down to your mouth,CHI,MOT,TRUE,30,0.1269999999999527,2.2409999999999854,TRUE,FALSE,FALSE,FALSE,fraser/2-06-03b.xml,other error,6
+m my chins hurt,your chin hurts,CHI,MOT,TRUE,30,0.057999999999992724,1.8460000000000036,FALSE,TRUE,FALSE,FALSE,fraser/2-06-03b.xml,other error,3
+I falled,did he fall,CHI,MOT,TRUE,30,0.27899999999999636,1.6709999999998217,TRUE,FALSE,TRUE,FALSE,fraser/2-06-03b.xml,overregularization,3
+you broke the box,yeah,CHI,MOT,TRUE,30,0.40599999999994907,2.044000000000324,TRUE,FALSE,FALSE,FALSE,fraser/2-06-03b.xml,other error,1
+gone,oh,CHI,MOT,FALSE,30,-0.6619999999998072,0.6619999999998072,TRUE,FALSE,FALSE,TRUE,fraser/2-06-03b.xml,no error,1
+you falled,I fell,CHI,MOT,TRUE,30,0.47000000000025466,1.6369999999997162,TRUE,FALSE,TRUE,FALSE,fraser/2-06-03b.xml,overregularization,2
+is you falled,I fell,CHI,MOT,TRUE,30,0.7080000000000837,1.5670000000000073,TRUE,FALSE,TRUE,FALSE,fraser/2-06-03b.xml,overregularization,2
+ears and mouth and xxx and nose,pardon,CHI,MOT,FALSE,30,1.830000000000382,2.268999999999778,FALSE,TRUE,FALSE,FALSE,fraser/2-06-04a.xml,no error,1
+but but I'm a doggy and I have bones,well,CHI,MOT,FALSE,30,-0.2199999999997999,3.413000000000011,FALSE,TRUE,FALSE,TRUE,fraser/2-06-04a.xml,no error,1
+and I I won't blow the candles,I know,CHI,MOT,TRUE,30,-0.2909999999999968,3.0999999999999943,FALSE,TRUE,FALSE,TRUE,fraser/2-06-04b.xml,other error,2
+that's Bob_the_Builder builders hat,is it,CHI,MOT,TRUE,30,0.48700000000008004,2.0319999999999254,FALSE,TRUE,FALSE,FALSE,fraser/2-06-04b.xml,other error,2
+look what you got,you're noisy aren't you,CHI,MOT,TRUE,30,0.5459999999998217,2.04300000000012,TRUE,FALSE,FALSE,FALSE,fraser/2-06-04b.xml,other error,6
+those balls,they're bowls,CHI,MOT,TRUE,30,0,1.6480000000001382,FALSE,TRUE,FALSE,FALSE,fraser/2-06-04b.xml,other error,3
+there lots of balloons,yeah,CHI,MOT,TRUE,30,-0.37199999999995725,2.177000000000021,FALSE,TRUE,FALSE,TRUE,fraser/2-06-06b.xml,other error,1
+it falled,did it fall,CHI,MOT,TRUE,30,0.48699999999996635,1.183999999999969,TRUE,FALSE,TRUE,FALSE,fraser/2-06-06b.xml,overregularization,3
+a frogs,frogs,CHI,MOT,TRUE,30,0.10400000000004184,1.5090000000000146,FALSE,TRUE,FALSE,FALSE,fraser/2-06-06b.xml,other error,1
+I did it,well done,CHI,MOT,FALSE,30,-1.2879999999997835,1.2879999999997835,TRUE,FALSE,FALSE,TRUE,fraser/2-06-06b.xml,no error,2
+I broke it,you broke it,CHI,MOT,TRUE,30,0.16300000000001091,1.3810000000000855,TRUE,FALSE,FALSE,FALSE,fraser/2-06-06b.xml,other error,3
+I broke it,you broke it,CHI,MOT,TRUE,30,0.16300000000001091,1.3810000000000855,TRUE,FALSE,FALSE,FALSE,fraser/2-06-06b.xml,other error,3
+I broke it,you broke it,CHI,MOT,TRUE,30,0.16300000000001091,1.3810000000000855,TRUE,FALSE,FALSE,FALSE,fraser/2-06-06b.xml,other error,3
+and there's ducks,that's right,CHI,MOT,TRUE,30,-0.5449999999998454,2.216999999999871,FALSE,TRUE,FALSE,TRUE,fraser/2-06-06b.xml,other error,3
+I done that all by myself,aren't you clever,CHI,MOT,TRUE,30,0.11599999999998545,2.7280000000000655,TRUE,FALSE,FALSE,FALSE,fraser/2-06-06b.xml,other error,4
+I might dropped it,do you want me to wipe your nose,CHI,MOT,TRUE,30,1.4279999999998836,1.7300000000000182,TRUE,FALSE,FALSE,FALSE,fraser/2-06-06b.xml,other error,8
+and more blocks,thank you very much,CHI,MOT,FALSE,30,-0.48800000000028376,1.5790000000001783,FALSE,TRUE,FALSE,TRUE,fraser/2-06-06b.xml,no error,4
+it falled again,fell didn't it,CHI,MOT,TRUE,31,0.14999999999997726,1.3819999999999482,TRUE,FALSE,TRUE,FALSE,fraser/2-07-02a.xml,overregularization,4
+his teeth goes here,yeah,CHI,MOT,FALSE,31,0.04699999999979809,1.5900000000001455,FALSE,TRUE,FALSE,FALSE,fraser/2-07-02a.xml,no error,1
+a turtles,turtle,CHI,MOT,TRUE,31,0.02299999999991087,1.4860000000001037,FALSE,TRUE,FALSE,FALSE,fraser/2-07-02a.xml,other error,1
+they're pictures,it's the end,CHI,MOT,FALSE,31,-1.4039999999999964,1.4039999999999964,FALSE,TRUE,FALSE,TRUE,fraser/2-07-02a.xml,no error,4
+this this one fit here,does it not fit there,CHI,MOT,TRUE,31,0.9400000000000546,2.7170000000000982,TRUE,FALSE,FALSE,FALSE,fraser/2-07-02a.xml,other error,5
+look I did it,have you done it,CHI,MOT,FALSE,31,0.11599999999998545,1.4850000000001273,TRUE,FALSE,FALSE,FALSE,fraser/2-07-02a.xml,no error,4
+there's lots of bears in the curtains,there's lots of what,CHI,MOT,TRUE,31,0.3599999999999852,3.680000000000007,FALSE,TRUE,FALSE,FALSE,fraser/2-07-02b.xml,other error,5
+I think those bears making that noise,why are they making that noise,CHI,MOT,TRUE,31,0.057999999999992724,3.076999999999998,FALSE,TRUE,FALSE,FALSE,fraser/2-07-02b.xml,other error,6
+the rocks covered in snow,pardon,CHI,MOT,TRUE,31,0.17399999999997817,2.507000000000062,TRUE,TRUE,FALSE,FALSE,fraser/2-07-02b.xml,other error,1
+two feets,no,CHI,MOT,TRUE,31,0.5229999999996835,1.1260000000002037,FALSE,TRUE,TRUE,FALSE,fraser/2-07-02b.xml,overregularization,1
+they're sheeps,what,CHI,MOT,TRUE,31,0.08199999999987995,1.9380000000001019,FALSE,TRUE,TRUE,FALSE,fraser/2-07-02b.xml,overregularization,1
+ugh yucky flies,yeah,CHI,MOT,FALSE,31,-0.2440000000000282,1.6369999999999436,FALSE,TRUE,FALSE,TRUE,fraser/2-07-04a.xml,no error,1
+there was a Teletubbies ride,you were in your pram when we went to the shops weren't you,CHI,MOT,FALSE,31,0.4070000000001528,2.216999999999871,TRUE,FALSE,FALSE,FALSE,fraser/2-07-04a.xml,no error,14
+can my feet go in,mhm hm,CHI,MOT,TRUE,31,0.17399999999997817,1.70699999999988,FALSE,TRUE,FALSE,FALSE,fraser/2-07-04a.xml,other error,2
+and he got go to work,yeah,CHI,MOT,TRUE,31,0.12800000000001432,2.1129999999999995,TRUE,FALSE,FALSE,FALSE,fraser/2-07-04b.xml,other error,1
+I found I found bit of the doggy,found a piece of the doggy,CHI,MOT,TRUE,31,0.31399999999996453,3.5410000000000537,TRUE,FALSE,FALSE,FALSE,fraser/2-07-04b.xml,other error,6
+because I had play with Blue,because you play with Blue,CHI,MOT,TRUE,31,0.04600000000004911,5.061999999999898,TRUE,FALSE,FALSE,FALSE,fraser/2-07-04b.xml,other error,5
+big tails,and big tails,CHI,MOT,FALSE,31,-0.650000000000091,1.4510000000000218,FALSE,TRUE,FALSE,TRUE,fraser/2-07-04b.xml,no error,3
+what the colors them,they're brown,CHI,MOT,TRUE,31,0.046000000000276486,1.8579999999997199,FALSE,TRUE,FALSE,FALSE,fraser/2-07-04b.xml,other error,3
+was that go there,no,CHI,MOT,TRUE,31,0.03499999999999659,1.6020000000000039,TRUE,FALSE,FALSE,FALSE,fraser/2-07-06a.xml,other error,1
+look I did it,well done,CHI,MOT,FALSE,31,0.08200000000010732,1.252999999999929,TRUE,FALSE,FALSE,FALSE,fraser/2-07-06a.xml,no error,2
+those penguins got silly hats on,have they,CHI,MOT,TRUE,31,0.035000000000081855,3.203999999999951,FALSE,TRUE,FALSE,FALSE,fraser/2-07-06a.xml,other error,2
+and that's got pink flower,has that got a pink flower,CHI,MOT,TRUE,31,0.25500000000010914,3.1579999999999018,TRUE,FALSE,FALSE,FALSE,fraser/2-07-06a.xml,other error,6
+look I fall I fell,did you fall,CHI,MOT,TRUE,31,0.057999999999992724,2.6579999999999018,TRUE,FALSE,FALSE,FALSE,fraser/2-07-06a.xml,other error,3
+look I broke it,what's up,CHI,MOT,TRUE,31,0.12799999999970169,1.8340000000002874,TRUE,FALSE,FALSE,FALSE,fraser/2-07-06a.xml,other error,3
+next to the rabbits,that's it,CHI,MOT,FALSE,31,-1.2770000000000437,2.04300000000012,FALSE,TRUE,FALSE,TRUE,fraser/2-07-06a.xml,no error,3
+could could I do this could I broke them up,yeah,CHI,MOT,TRUE,31,0.023999999999887223,4.213999999999942,TRUE,FALSE,FALSE,FALSE,fraser/2-07-06a.xml,other error,1
+what's a reindeer called,I bet his name's Rudolph he's got a red nose,CHI,MOT,FALSE,31,-0.18499999999997385,1.7639999999999816,TRUE,FALSE,FALSE,TRUE,fraser/2-07-06b.xml,no error,12
+these cats not singing,they're not singing,CHI,MOT,TRUE,31,0.13900000000001,1.9969999999999573,FALSE,TRUE,FALSE,FALSE,fraser/2-07-06b.xml,other error,4
+I were playing Shrek,was was Andy,CHI,MOT,TRUE,31,0,1.5510000000001583,TRUE,FALSE,FALSE,FALSE,fraser/2-07-06b.xml,other error,3
+it's gone,are you gonna going to start sleeping in this bed now,CHI,MOT,FALSE,31,0.9169999999999163,1.0100000000002183,TRUE,FALSE,FALSE,FALSE,fraser/2-07-06b.xml,no error,11
+I made mess,why,CHI,MOT,TRUE,31,0.2829999999999018,1.19600000000014,TRUE,FALSE,FALSE,FALSE,fraser/2-07-07a.xml,other error,1
+I broke it,you broke the jigsaw,CHI,MOT,TRUE,31,1.8269999999997708,1.4039999999999964,TRUE,FALSE,FALSE,FALSE,fraser/2-07-07a.xml,other error,4
+it's fallen down,did it fall,CHI,MOT,FALSE,31,0.09300000000007458,2.5540000000000873,TRUE,FALSE,FALSE,FALSE,fraser/2-07-08a.xml,no error,3
+what did that can be,what is it,CHI,MOT,TRUE,32,0.17400000000003502,2.495999999999981,TRUE,FALSE,FALSE,FALSE,fraser/2-08-01b.xml,other error,3
+I did it,wow,CHI,MOT,FALSE,32,-0.13700000000000045,1.5210000000000008,TRUE,FALSE,FALSE,TRUE,fraser/2-08-02a.xml,no error,1
+it got spilled,what have you been eating,CHI,MOT,TRUE,32,0.08099999999998886,1.1839999999999975,TRUE,FALSE,FALSE,FALSE,fraser/2-08-02a.xml,other error,5
+then I went downstairs,and then you went downstairs,CHI,MOT,TRUE,32,0.18500000000000227,2.566000000000031,TRUE,FALSE,FALSE,FALSE,fraser/2-08-02a.xml,other error,5
+I fell,because you fell,CHI,MOT,TRUE,32,0.36000000000001364,1.4510000000000218,TRUE,FALSE,FALSE,FALSE,fraser/2-08-02a.xml,other error,3
+who was that is,you shut the door,CHI,MOT,TRUE,32,0.26700000000005275,1.8109999999999218,TRUE,FALSE,FALSE,FALSE,fraser/2-08-02a.xml,other error,4
+I didn't put this one away,no,CHI,MOT,FALSE,32,0.2719999999999345,2.4030000000002474,TRUE,FALSE,FALSE,FALSE,fraser/2-08-02a.xml,no error,1
+what they called,oh he's flying upside,CHI,MOT,TRUE,32,-0.19800000000003593,1.7530000000000427,TRUE,FALSE,FALSE,TRUE,fraser/2-08-04a.xml,other error,5
+I want numbers,you want number,CHI,MOT,FALSE,32,0.3250000000000455,1.8109999999999218,FALSE,TRUE,FALSE,FALSE,fraser/2-08-04a.xml,no error,3
+I don't need keys,no,CHI,MOT,FALSE,32,-0.5620000000000118,2.1829999999999927,FALSE,TRUE,FALSE,TRUE,fraser/2-08-04a.xml,no error,1
+well I just falled then,did you just fall,CHI,MOT,TRUE,32,0.057999999999992724,2.160000000000025,TRUE,FALSE,TRUE,FALSE,fraser/2-08-04b.xml,overregularization,4
+hey they got big block,yeah,CHI,MOT,TRUE,32,0.057999999999992724,2.4500000000000455,TRUE,FALSE,FALSE,FALSE,fraser/2-08-04b.xml,other error,1
+oh just these ones,mhm hm,CHI,MOT,FALSE,32,-0.4069999999999254,2.159999999999968,FALSE,TRUE,FALSE,TRUE,fraser/2-08-04b.xml,no error,2
+what was that,I don't know Fraser,CHI,MOT,FALSE,32,0.06899999999995998,1.474999999999909,TRUE,FALSE,FALSE,FALSE,fraser/2-08-04b.xml,no error,5
+didn't xxx this one,what darling,CHI,MOT,FALSE,32,0.06999999999970896,3.367000000000189,TRUE,FALSE,FALSE,FALSE,fraser/2-08-04b.xml,no error,2
+I done it,clever boy,CHI,MOT,TRUE,32,0.057999999999992724,0.9760000000001128,TRUE,FALSE,FALSE,FALSE,fraser/2-08-04b.xml,other error,2
+he's got letter,what colors his letter,CHI,MOT,TRUE,32,0.024000000000114596,1.6369999999999436,TRUE,FALSE,FALSE,FALSE,fraser/2-08-05a.xml,other error,4
+where's he gone now,oy,CHI,MOT,FALSE,32,-1.5090000000000146,2.2170000000000982,TRUE,FALSE,FALSE,TRUE,fraser/2-08-05a.xml,no error,1
+and what how does this one got,how many has that one got,CHI,MOT,TRUE,32,0.023000000000024556,2.5190000000000055,TRUE,FALSE,FALSE,FALSE,fraser/2-08-05b.xml,other error,6
+xxx got all the sheeps,yeah,CHI,MOT,TRUE,32,0.7770000000000437,2.938000000000102,FALSE,TRUE,TRUE,FALSE,fraser/2-08-05b.xml,overregularization,1
+I bought xxx bought this,don't know,CHI,MOT,FALSE,32,0.15299999999979264,3.75,TRUE,FALSE,FALSE,FALSE,fraser/2-08-05b.xml,no error,3
+throwed them down,why did you throw them down,CHI,MOT,TRUE,32,0.05799999999999983,2.820999999999998,TRUE,FALSE,TRUE,FALSE,fraser/2-08-06a.xml,overregularization,6
+is it was Daddy,yeah,CHI,MOT,TRUE,32,0.11599999999998545,2.0779999999999745,TRUE,FALSE,FALSE,FALSE,fraser/2-08-06a.xml,other error,1
+he's fell off his bike,he fell off his bike,CHI,MOT,TRUE,32,0.09300000000030195,3.4710000000000036,TRUE,FALSE,FALSE,FALSE,fraser/2-08-06a.xml,other error,5
+I broke it,you broke it,CHI,MOT,TRUE,32,0.1269999999999527,1.55600000000004,TRUE,FALSE,FALSE,FALSE,fraser/2-08-06a.xml,other error,3
+I broke it,you broke it,CHI,MOT,TRUE,32,0.1269999999999527,1.55600000000004,TRUE,FALSE,FALSE,FALSE,fraser/2-08-06a.xml,other error,3
+I broke it,you broke it,CHI,MOT,TRUE,32,0.1269999999999527,1.55600000000004,TRUE,FALSE,FALSE,FALSE,fraser/2-08-06a.xml,other error,3
+look I done two puzzles,have you,CHI,MOT,TRUE,32,-0.2669999999998254,3.9699999999998,FALSE,TRUE,FALSE,TRUE,fraser/2-08-06a.xml,other error,2
+I got a peas on my head,are you silly,CHI,MOT,TRUE,32,0.11599999999998545,2.2520000000000664,FALSE,TRUE,FALSE,FALSE,fraser/2-08-06b.xml,other error,3
+and who called,isn't that Thomas,CHI,MOT,TRUE,32,0,3.4829999999999472,TRUE,FALSE,FALSE,FALSE,fraser/2-08-06b.xml,other error,4
+does it fixed,does it fit,CHI,MOT,TRUE,32,0.2899999999999636,1.8579999999997199,TRUE,FALSE,FALSE,FALSE,fraser/2-08-06b.xml,other error,3
+it falled,never mind,CHI,MOT,TRUE,32,2.019999999999982,2.125,TRUE,FALSE,TRUE,FALSE,fraser/2-08-06b.xml,overregularization,2
+it falled,it fell,CHI,MOT,TRUE,32,0.27899999999999636,2.924999999999727,TRUE,FALSE,TRUE,FALSE,fraser/2-08-06b.xml,overregularization,2
+it falled,it fell down,CHI,MOT,TRUE,32,0.9170000000003711,2.1369999999997162,TRUE,FALSE,TRUE,FALSE,fraser/2-08-06b.xml,overregularization,3
+I finished,have you done it,CHI,MOT,FALSE,33,0.03500000000002501,1.1610000000000014,TRUE,FALSE,FALSE,FALSE,fraser/2-09-03a.xml,no error,4
+I eat my investments on animals,NA,CHI,MOT,FALSE,33,0.09299999999996089,2.716000000000008,FALSE,TRUE,FALSE,FALSE,fraser/2-09-03a.xml,no error,NA
+have made your bed,oh,CHI,MOT,FALSE,33,0.2319999999999709,1.4400000000000546,TRUE,FALSE,FALSE,FALSE,fraser/2-09-03a.xml,no error,1
+I run off,you did,CHI,MOT,TRUE,33,0.03499999999985448,1.6489999999998872,TRUE,FALSE,FALSE,FALSE,fraser/2-09-03a.xml,other error,2
+you was cross,I was cross wasn't I,CHI,MOT,TRUE,33,-0.43400000000019645,1.637000000000171,TRUE,FALSE,FALSE,TRUE,fraser/2-09-03a.xml,other error,6
+Lala's falled,Lala fell,CHI,MOT,TRUE,33,0.057999999999992724,2.286999999999807,TRUE,FALSE,TRUE,FALSE,fraser/2-09-03a.xml,overregularization,2
+old MacDonald had a farm,well done,CHI,MOT,FALSE,33,0.22100000000000364,2.8910000000000764,TRUE,FALSE,FALSE,FALSE,fraser/2-09-03a.xml,no error,2
+spots,spots,CHI,MOT,FALSE,33,0,1.1839999999997417,FALSE,TRUE,FALSE,FALSE,fraser/2-09-03b.xml,no error,1
+I didn't broke it,you did break it because I saw you break it,CHI,MOT,TRUE,33,0,1.4050000000000296,TRUE,FALSE,FALSE,FALSE,fraser/2-09-05b.xml,other error,10
+no it was,do you know what,CHI,MOT,FALSE,33,-0.2669999999999959,0.7899999999999636,TRUE,FALSE,FALSE,TRUE,fraser/2-09-05b.xml,no error,4
+we got kitchen,yeah,CHI,MOT,TRUE,33,0.3129999999999882,2.26400000000001,TRUE,FALSE,FALSE,FALSE,fraser/2-09-05b.xml,other error,1
+loads of bunnies,loads of bunnies,CHI,MOT,FALSE,33,-0.32599999999990814,2.089999999999918,FALSE,TRUE,FALSE,TRUE,fraser/2-09-05b.xml,no error,3
+this one got spikes,that's right,CHI,MOT,TRUE,33,-0.5110000000001946,2.2530000000001564,FALSE,TRUE,FALSE,TRUE,fraser/2-09-05b.xml,other error,3
+they not plants,oh no those are his his feet,CHI,MOT,TRUE,33,-0.31399999999985084,1.4629999999999654,FALSE,TRUE,FALSE,TRUE,fraser/2-09-05b.xml,other error,7
+he won a lollipop,he wants a lollipop,CHI,MOT,FALSE,33,0,1.9389999999998508,TRUE,FALSE,FALSE,FALSE,fraser/2-09-05v.xml,no error,4
+I got finger,you've got fingers,CHI,MOT,TRUE,33,0.7420000000001892,1.4630000000001928,TRUE,FALSE,FALSE,FALSE,fraser/2-09-05v.xml,other error,4
+buzzy bees,buzzy bees,CHI,MOT,FALSE,33,0.15100000000029468,0.974999999999909,FALSE,TRUE,FALSE,FALSE,fraser/2-09-07a.xml,no error,2
+I finished,have you now,CHI,MOT,TRUE,33,0.9379999999996471,1.13799999999992,TRUE,FALSE,FALSE,FALSE,fraser/2-09-07a.xml,other error,3
+I broke it,you broke it,CHI,MOT,TRUE,33,0.1510000000000673,1.6599999999998545,TRUE,FALSE,FALSE,FALSE,fraser/2-09-07b.xml,other error,3
+I broke it,you broke it,CHI,MOT,TRUE,33,0.1510000000000673,1.6599999999998545,TRUE,FALSE,FALSE,FALSE,fraser/2-09-07b.xml,other error,3
+I broke it,you broke it,CHI,MOT,TRUE,33,0.1510000000000673,1.6599999999998545,TRUE,FALSE,FALSE,FALSE,fraser/2-09-07b.xml,other error,3
+this I broke it,have you,CHI,MOT,TRUE,33,0.3369999999999891,2.8450000000002547,TRUE,FALSE,FALSE,FALSE,fraser/2-09-07b.xml,other error,2
+eyes,don't want Mummy to have a headache do you,CHI,MOT,FALSE,33,0.5219999999999345,1.1840000000001965,FALSE,TRUE,FALSE,FALSE,fraser/2-09-07b.xml,no error,10
+does does Daddy got a,what,CHI,MOT,TRUE,33,2.229000000000269,5.701000000000022,TRUE,FALSE,FALSE,FALSE,fraser/2-09-07b.xml,other error,1
+eyes,pardon,CHI,MOT,FALSE,33,1.462999999999738,1.4970000000002983,FALSE,TRUE,FALSE,FALSE,fraser/2-09-07b.xml,no error,1
+he came off,did he come off,CHI,MOT,FALSE,33,0.17400000000003502,1.6829999999999927,TRUE,FALSE,FALSE,FALSE,fraser/2-09-08a.xml,no error,4
+we forgot,what did you forget,CHI,MOT,FALSE,33,0.11599999999998545,2.032000000000039,TRUE,FALSE,FALSE,FALSE,fraser/2-09-08a.xml,no error,4
+did put forgot,you forgot something else,CHI,MOT,FALSE,33,0.40699999999998226,2.1469999999999914,TRUE,FALSE,FALSE,FALSE,fraser/2-09-08a.xml,no error,4
+they forgot the people,they forgot the people,CHI,MOT,FALSE,33,0,2.391999999999939,TRUE,FALSE,FALSE,FALSE,fraser/2-09-08a.xml,no error,4
+a forgot the other people,oh dear,CHI,MOT,TRUE,33,0,3.0310000000000628,TRUE,FALSE,FALSE,FALSE,fraser/2-09-08a.xml,other error,2
+that fell on the ghost,come here ghost,CHI,MOT,FALSE,33,0.011999999999716238,2.229000000000269,TRUE,FALSE,FALSE,FALSE,fraser/2-09-08a.xml,no error,3
+gone where,do you not want Daddy to go,CHI,MOT,FALSE,33,1.6019999999999754,1.7300000000000182,TRUE,FALSE,FALSE,FALSE,fraser/2-09-08b.xml,no error,7
+Jean Jeannine's come,not today she isn't,CHI,MOT,TRUE,33,0.8009999999999309,3.449000000000069,TRUE,FALSE,FALSE,FALSE,fraser/2-09-08b.xml,other error,5
+people there,people inside the house,CHI,MOT,FALSE,33,0.012000000000170985,2.19399999999996,FALSE,TRUE,FALSE,TRUE,fraser/2-09-09a.xml,no error,4
+I didn't yet,oh not yet no,CHI,MOT,TRUE,33,0.15799999999990177,1.3699999999998909,TRUE,FALSE,FALSE,FALSE,fraser/2-09-09a.xml,other error,4
+tickets,yes,CHI,MOT,FALSE,33,0.023999999999887223,0.8589999999999236,FALSE,TRUE,FALSE,FALSE,fraser/2-09-09a.xml,no error,1
+purple ones,purple one goes does it go here,CHI,MOT,FALSE,33,0.057999999999992724,1.5090000000000146,FALSE,TRUE,FALSE,FALSE,fraser/2-09-09b.xml,no error,7
+I forgot little green I forgot little green there and there and there,oh dear,CHI,MOT,FALSE,33,-0.2319999999999709,7.29099999999994,TRUE,FALSE,FALSE,TRUE,fraser/2-09-09b.xml,no error,2
+I didn't like the blue one said,oh,CHI,MOT,TRUE,33,0.011999999999943611,3.285000000000082,TRUE,FALSE,FALSE,FALSE,fraser/2-09-09b.xml,other error,1
+I didn't like the blue one,did you not,CHI,MOT,FALSE,33,0.012000000000170985,2.019999999999982,TRUE,FALSE,FALSE,FALSE,fraser/2-09-09b.xml,no error,3
+and what's the girl called,ah,CHI,MOT,FALSE,33,-0.26700000000005275,2.2059999999999036,TRUE,FALSE,FALSE,TRUE,fraser/2-09-09b.xml,no error,1
+he drawn me,did she draw you,CHI,MOT,TRUE,33,0.3250000000000455,1.5319999999999254,TRUE,FALSE,FALSE,FALSE,fraser/2-09-09b.xml,other error,4
+she drawn me,I think she was drawing the monster,CHI,MOT,TRUE,33,0.011000000000194632,1.5909999999998945,TRUE,FALSE,FALSE,FALSE,fraser/2-09-09b.xml,other error,7
+d is it stuck,no,CHI,MOT,FALSE,33,0.03499999999985448,1.8460000000000036,TRUE,FALSE,FALSE,FALSE,fraser/2-09-09b.xml,no error,1
+what did I do,oops,CHI,MOT,FALSE,33,0.5219999999999345,2.288000000000011,TRUE,FALSE,FALSE,FALSE,fraser/2-09-09b.xml,no error,1
+somebody broke him,who broke him,CHI,MOT,TRUE,33,0.057999999999992724,1.961999999999989,TRUE,FALSE,FALSE,FALSE,fraser/2-09-09b.xml,other error,3
+xxx they waked up,oh,CHI,MOT,TRUE,33,0.56899999999996,3.3659999999999854,TRUE,FALSE,TRUE,FALSE,fraser/2-09-09b.xml,overregularization,1
+run across xxx to the blue one,quick,CHI,MOT,FALSE,33,0.023000000000138243,3.6340000000000146,TRUE,FALSE,FALSE,FALSE,fraser/2-09-09b.xml,no error,1
+there was I weren't scared at the round boat,you weren't scared in the round boat,CHI,MOT,TRUE,34,0.13400000000001455,5.728999999999985,TRUE,FALSE,FALSE,FALSE,fraser/2-10-00a.xml,other error,8
+and there was no monster,because there was no monsters,CHI,MOT,TRUE,34,0,2.141999999999996,TRUE,FALSE,FALSE,FALSE,fraser/2-10-00a.xml,other error,5
+those yellow that yellow pieces there,that yellow bit is fluff,CHI,MOT,TRUE,34,0.41800000000000637,3.8190000000000737,FALSE,TRUE,FALSE,FALSE,fraser/2-10-00a.xml,other error,5
+where I falled,mm,CHI,MOT,TRUE,34,0.25499999999999545,1.34699999999998,TRUE,FALSE,TRUE,FALSE,fraser/2-10-00a.xml,overregularization,1
+ah I stuck I stuck,is he rescuing him,CHI,MOT,TRUE,34,0.07000000000016371,1.8109999999996944,TRUE,FALSE,FALSE,FALSE,fraser/2-10-00a.xml,other error,4
+he crashed the he crashed that fish,what the fish,CHI,MOT,FALSE,34,1.0340000000001055,4.2840000000001055,TRUE,FALSE,FALSE,FALSE,fraser/2-10-00a.xml,no error,3
+I going trapped it,are you going to trap it,CHI,MOT,TRUE,34,0.650000000000091,1.4049999999997453,TRUE,FALSE,FALSE,FALSE,fraser/2-10-00a.xml,other error,6
+they seem to waters,that one does doesn't it,CHI,MOT,FALSE,34,0.38299999999999557,2.39200000000001,FALSE,TRUE,FALSE,FALSE,fraser/2-10-00b.xml,no error,6
+and one my hands,and on your hands,CHI,MOT,FALSE,34,-0.16199999999997772,3.0649999999999977,FALSE,TRUE,FALSE,TRUE,fraser/2-10-00b.xml,no error,4
+that door was shut,the door's shut isn't it,CHI,MOT,FALSE,34,0.07000000000005002,2.100999999999999,TRUE,FALSE,FALSE,FALSE,fraser/2-10-00b.xml,no error,7
+but I didn't put my fleece in my trousers,you did,CHI,MOT,TRUE,34,1.2340000000000373,3.9589999999999463,FALSE,TRUE,FALSE,FALSE,fraser/2-10-00b.xml,other error,2
+I said byebye to them,yeah,CHI,MOT,FALSE,34,0.18599999999992178,2.2170000000000982,TRUE,FALSE,FALSE,FALSE,fraser/2-10-00b.xml,no error,1
+Charlie don't play worms do they Mummy,what,CHI,MOT,TRUE,34,0,3.4600000000000364,FALSE,TRUE,FALSE,FALSE,fraser/2-10-00b.xml,other error,1
+there's some more pieces left,yeah,CHI,MOT,FALSE,34,-0.4410000000000309,2.7050000000001546,TRUE,FALSE,FALSE,TRUE,fraser/2-10-00b.xml,no error,1
+we're not finished,it's not finished is it,CHI,MOT,FALSE,34,-0.6610000000000582,2.4029999999997926,TRUE,FALSE,FALSE,TRUE,fraser/2-10-00b.xml,no error,6
+who told the Mummy and Daddy,no,CHI,MOT,FALSE,34,0.011999999999716238,2.9720000000002074,TRUE,FALSE,FALSE,FALSE,fraser/2-10-00b.xml,no error,1
+where birds,on the windowsill,CHI,MOT,TRUE,34,0.047000000000025466,0.9400000000000546,FALSE,TRUE,FALSE,FALSE,fraser/2-10-00b.xml,other error,3
+I got him,aah,CHI,MOT,FALSE,34,1.543999999999869,3.0650000000000546,TRUE,FALSE,FALSE,FALSE,fraser/2-10-00b.xml,no error,1
+the that boy playing with the blocks,yeah,CHI,MOT,TRUE,34,-0.285000000000025,3.11099999999999,FALSE,TRUE,FALSE,TRUE,fraser/2-10-01a.xml,other error,1
+I broke the map too,you broke it as well,CHI,MOT,TRUE,34,0.10499999999996135,2.6000000000000227,TRUE,FALSE,FALSE,FALSE,fraser/2-10-01a.xml,other error,5
+there's some farms,there's some what,CHI,MOT,FALSE,34,0.07000000000005002,2.2060000000000173,FALSE,TRUE,FALSE,FALSE,fraser/2-10-01a.xml,no error,4
+did you went to the shop to see Jwww,I did,CHI,MOT,TRUE,34,0,3.6219999999998436,TRUE,FALSE,FALSE,FALSE,fraser/2-10-01a.xml,other error,2
+they falled over,oh,CHI,MOT,TRUE,34,1.6019999999998618,1.800000000000182,TRUE,FALSE,TRUE,FALSE,fraser/2-10-01a.xml,overregularization,1
+why were I crying,I don't know,CHI,MOT,TRUE,34,0.023000000000138243,2.0090000000000146,TRUE,FALSE,FALSE,FALSE,fraser/2-10-01a.xml,other error,4
+and they falled over,and they fell over,CHI,MOT,TRUE,34,0.08199999999999363,2.2290000000000134,TRUE,FALSE,TRUE,FALSE,fraser/2-10-01b.xml,overregularization,4
+look he waked up,has he woken up,CHI,MOT,TRUE,34,0,1.5090000000000146,TRUE,FALSE,TRUE,FALSE,fraser/2-10-01b.xml,overregularization,4
+but it goed,does it go away,CHI,MOT,TRUE,34,0.09300000000007458,1.4389999999998508,TRUE,FALSE,TRUE,FALSE,fraser/2-10-01b.xml,overregularization,4
+and what he got,those are ants,CHI,MOT,TRUE,34,0,1.7409999999999854,TRUE,FALSE,FALSE,FALSE,fraser/2-10-01b.xml,other error,3
+who drawed those,I don't know,CHI,MOT,TRUE,34,0,1.7529999999997017,TRUE,FALSE,TRUE,FALSE,fraser/2-10-01b.xml,overregularization,4
+I can't doed it,do you want me to do it for you,CHI,MOT,TRUE,34,1.4859999999998763,2.032000000000153,TRUE,FALSE,FALSE,FALSE,fraser/2-10-01b.xml,other error,9
+that's he got one eye,Fraser,CHI,MOT,TRUE,34,-1.6140000000000327,2.8910000000000764,TRUE,FALSE,FALSE,TRUE,fraser/2-10-01b.xml,other error,1
+zero don't want to get dressed,you are gonna going to get dressed Fraser,CHI,MOT,TRUE,34,-0.4899999999997817,1.7299999999997908,TRUE,FALSE,FALSE,TRUE,fraser/2-10-03a.xml,other error,8
+I pulled this bit up,yep,CHI,MOT,FALSE,34,0.2960000000000491,2.089999999999918,TRUE,FALSE,FALSE,FALSE,fraser/2-10-03a.xml,no error,1
+all those steps make some noises,all the what,CHI,MOT,FALSE,34,0.16300000000001091,3.344000000000051,FALSE,TRUE,FALSE,FALSE,fraser/2-10-03a.xml,no error,3
+this goes in that papers,well,CHI,MOT,TRUE,34,2.2929999999996653,2.375,FALSE,TRUE,FALSE,FALSE,fraser/2-10-03a.xml,other error,1
+is that one of the big ones,that's it's tooth,CHI,MOT,FALSE,34,-0.4010000000000673,2.8330000000000837,FALSE,TRUE,FALSE,TRUE,fraser/2-10-03b.xml,no error,5
+and that haven't got any horns,no,CHI,MOT,TRUE,34,-0.31999999999993634,3.064999999999941,FALSE,TRUE,FALSE,TRUE,fraser/2-10-03b.xml,other error,1
+and and that one is waked up,yes,CHI,MOT,TRUE,34,0.06899999999995998,2.47199999999998,TRUE,FALSE,TRUE,FALSE,fraser/2-10-03b.xml,overregularization,1
+and that one waked up,that's right,CHI,MOT,TRUE,34,-1.5209999999999582,1.5440000000000964,TRUE,FALSE,TRUE,TRUE,fraser/2-10-03b.xml,overregularization,3
+they were very nice,they're very nice,CHI,MOT,FALSE,34,0.10999999999989996,2.0310000000001764,TRUE,FALSE,FALSE,FALSE,fraser/2-10-03b.xml,no error,4
+what did I had on holiday,that you had on holiday,CHI,MOT,TRUE,34,0.17399999999997817,3.3090000000001965,TRUE,FALSE,FALSE,FALSE,fraser/2-10-03b.xml,other error,5
+I need my slippers,your slippers or your sandals,CHI,MOT,FALSE,34,-0.34799999999995634,1.6600000000003092,FALSE,TRUE,FALSE,TRUE,fraser/2-10-03b.xml,no error,5
+it doesn't stamps,it should do,CHI,MOT,TRUE,34,0,1.625,FALSE,TRUE,FALSE,FALSE,fraser/2-10-03b.xml,other error,3
+in my fingers,I hurt your fingers,CHI,MOT,FALSE,34,-0.20899999999983265,1.6609999999996035,FALSE,TRUE,FALSE,TRUE,fraser/2-10-03b.xml,no error,4
+xxx didn't her,didn't she,CHI,MOT,FALSE,34,0.1039999999999992,3.4129999999999967,TRUE,FALSE,FALSE,FALSE,fraser/2-10-05b.xml,no error,3
+did I spilled it all those books,yes,CHI,MOT,TRUE,34,0.04600000000000648,3.3789999999999907,TRUE,FALSE,FALSE,FALSE,fraser/2-10-05b.xml,other error,1
+that what was that one I wear,yeah,CHI,MOT,TRUE,34,0.012000000000057298,4.016999999999939,TRUE,FALSE,FALSE,FALSE,fraser/2-10-05b.xml,other error,1
+and big pieces,where's that,CHI,MOT,FALSE,34,1.4739999999999327,2.1829999999999927,FALSE,TRUE,FALSE,TRUE,fraser/2-10-05b.xml,no error,3
+small bubbles this time,you've got two towers now haven't you,CHI,MOT,FALSE,34,0.08100000000013097,4.028999999999996,FALSE,TRUE,FALSE,FALSE,fraser/2-10-05b.xml,no error,9
+is it not little blocks,no,CHI,MOT,TRUE,34,-0.37800000000015643,2.4039999999999964,FALSE,TRUE,FALSE,TRUE,fraser/2-10-05b.xml,other error,1
+come on let get to it,come on let's get to it,CHI,MOT,TRUE,34,0.5570000000002437,2.3919999999998254,TRUE,FALSE,FALSE,FALSE,fraser/2-10-05b.xml,other error,7
+look at all the blocks,yeah,CHI,MOT,FALSE,34,-0.25500000000010914,2.2519999999999527,FALSE,TRUE,FALSE,TRUE,fraser/2-10-05b.xml,no error,1
+fell,it fell,CHI,MOT,TRUE,34,0.4760000000001128,0.7669999999998254,TRUE,FALSE,FALSE,FALSE,fraser/2-10-05v.xml,other error,2
+I drawed it,you drawed on your hand,CHI,MOT,TRUE,34,0.15099999999983993,1.800000000000182,TRUE,FALSE,TRUE,FALSE,fraser/2-10-06a.xml,overregularization,5
+who flushed toilet,maybe Maisie flushed the toilet,CHI,MOT,TRUE,34,0.30200000000058935,2.345999999999549,TRUE,FALSE,FALSE,FALSE,fraser/2-10-06a.xml,other error,5
+said hey,come and eat your tea,CHI,MOT,FALSE,34,0,2.26400000000001,TRUE,FALSE,FALSE,FALSE,fraser/2-10-06b.xml,no error,5
+no she and it's closed,oh no,CHI,MOT,FALSE,34,-0.4179999999998927,2.2639999999998963,TRUE,FALSE,FALSE,TRUE,fraser/2-10-06b.xml,no error,2
+did you found him,uh huh,CHI,MOT,TRUE,34,0,1.6839999999997417,TRUE,FALSE,FALSE,FALSE,fraser/2-10-06b.xml,other error,2
+Shrek sayed it,yeah,CHI,MOT,TRUE,34,0.07000000000016371,2.1359999999999673,TRUE,FALSE,TRUE,FALSE,fraser/2-10-06b.xml,overregularization,1
+they hurted me,the spiky flowers,CHI,MOT,TRUE,35,0.012000000000000455,1.7070000000000505,TRUE,FALSE,TRUE,FALSE,fraser/2-11-00a.xml,overregularization,3
+maybe that Tyrannosaurus_rex ate them,do you think the Tyrannosaurus_rex ate them,CHI,MOT,TRUE,35,0.35999999999989996,4.540000000000077,TRUE,FALSE,FALSE,FALSE,fraser/2-11-00a.xml,other error,8
+maybe we taked the gorillas away,aren't you supposed to spin this here,CHI,MOT,TRUE,35,0,4.4809999999999945,TRUE,FALSE,TRUE,FALSE,fraser/2-11-00a.xml,overregularization,8
+that was a good one wasn't it,it,CHI,MOT,FALSE,35,-0.9290000000000873,2.4850000000001273,TRUE,FALSE,FALSE,TRUE,fraser/2-11-00a.xml,no error,1
+he said oh man,is that what he says,CHI,MOT,FALSE,35,0.11599999999998545,2.4039999999999964,TRUE,FALSE,FALSE,FALSE,fraser/2-11-00b.xml,no error,5
+and he and he runned away,then he runs away,CHI,MOT,TRUE,35,0.010999999999967258,2.4269999999999072,TRUE,FALSE,TRUE,FALSE,fraser/2-11-00b.xml,overregularization,4
+why why why why do those people got ice,because its a hot day there,CHI,MOT,TRUE,35,0.0019999999999527063,6.001999999999953,TRUE,TRUE,FALSE,FALSE,fraser/2-11-00b.xml,other error,6
+she throwed it,did Lala throw the dice,CHI,MOT,TRUE,35,0.487999999999829,1.9970000000002983,TRUE,FALSE,TRUE,FALSE,fraser/2-11-00b.xml,overregularization,5
+Lala's got the dice,has she,CHI,MOT,FALSE,35,-0.3829999999998108,2.4609999999997854,FALSE,TRUE,FALSE,TRUE,fraser/2-11-00b.xml,no error,2
+maybe his parents couldn't find him,maybe,CHI,MOT,FALSE,35,0,3.2040000000001783,FALSE,TRUE,FALSE,FALSE,fraser/2-11-00b.xml,no error,1
+maybe h maybe he maybe maybe maybe he fell,maybe he fell,CHI,MOT,TRUE,35,-0.30199999999967986,8.382000000000062,TRUE,FALSE,FALSE,TRUE,fraser/2-11-00b.xml,other error,3
+he's handed the spoon,oh,CHI,MOT,TRUE,35,1.462999999999738,2.775000000000091,TRUE,FALSE,FALSE,FALSE,fraser/2-11-00b.xml,other error,1
+xxx three gorillas,there's no gorillas,CHI,MOT,FALSE,35,1.4740000000000038,2.2169999999999987,FALSE,TRUE,FALSE,FALSE,fraser/2-11-01a.xml,no error,4
+I didn't burp,you say,CHI,MOT,FALSE,35,-1.6129999999999995,1.752999999999986,TRUE,FALSE,FALSE,TRUE,fraser/2-11-01a.xml,no error,2
+what they made,what have they made,CHI,MOT,TRUE,35,0.3710000000000946,1.8229999999998654,TRUE,FALSE,FALSE,FALSE,fraser/2-11-01a.xml,other error,4
+that two towels,two blue towels,CHI,MOT,TRUE,35,0.045999999999999375,2.740000000000002,FALSE,TRUE,FALSE,FALSE,fraser/2-11-01b.xml,other error,3
+have have your plants grown up yet,have my plants grown up yet,CHI,MOT,TRUE,35,0.033999999999991815,3.4020000000000437,TRUE,TRUE,FALSE,FALSE,fraser/2-11-01b.xml,other error,6
+xxx and them other grown up yet,no,CHI,MOT,TRUE,35,0.08100000000001728,4.121999999999957,TRUE,FALSE,FALSE,FALSE,fraser/2-11-01b.xml,other error,1
+maybe I broke it,you did break it,CHI,MOT,TRUE,35,0.047000000000025466,2.030999999999949,TRUE,FALSE,FALSE,FALSE,fraser/2-11-01b.xml,other error,4
+xxx didn't said no,his grandmother didn't say no,CHI,MOT,TRUE,35,0.16200000000003456,2.7170000000000982,TRUE,FALSE,FALSE,FALSE,fraser/2-11-01b.xml,other error,6
+why does he counted,he wanted to see how many teeth you had,CHI,MOT,TRUE,35,0.047000000000025466,1.5320000000001528,TRUE,FALSE,FALSE,FALSE,fraser/2-11-01b.xml,other error,9
+he got all him spikes on his back,he's got orange spots,CHI,MOT,TRUE,35,1.0539999999996326,3.413000000000011,TRUE,TRUE,FALSE,FALSE,fraser/2-11-01b.xml,other error,5
+Jack climbed and climbed and didn't stop till he reached,Jack climbed and climbed and didn't stop,CHI,MOT,FALSE,35,-1.636000000000422,1.637000000000171,TRUE,FALSE,FALSE,TRUE,fraser/2-11-01b.xml,no error,8
+it hurted me,did it hurt you,CHI,MOT,TRUE,35,0.03499999999985448,1.6599999999998545,TRUE,FALSE,TRUE,FALSE,fraser/2-11-01b.xml,overregularization,4
+xxx but we didn't go like this,yeah,CHI,MOT,FALSE,35,0.1389999999999958,2.7290000000000134,TRUE,FALSE,FALSE,FALSE,fraser/2-11-02b.xml,no error,1
+why did you said so,you saw Jeannine today as well didn't you,CHI,MOT,TRUE,35,1.1620000000000061,3.6110000000000184,TRUE,FALSE,FALSE,FALSE,fraser/2-11-02b.xml,other error,9
+I singed that one,who's Dot Man,CHI,MOT,TRUE,35,0,1.9150000000000205,TRUE,FALSE,TRUE,FALSE,fraser/2-11-02b.xml,overregularization,4
+and that was a plate,aha,CHI,MOT,FALSE,35,0.02299999999991087,2.0900000000001455,TRUE,FALSE,FALSE,FALSE,fraser/2-11-02b.xml,no error,1
+muffins,NA,CHI,MOT,FALSE,35,-0.5690000000001874,1.8110000000001492,FALSE,TRUE,FALSE,TRUE,fraser/2-11-02b.xml,no error,NA
+put your hands on botbot,we'll have to wash your botbots,CHI,MOT,FALSE,35,1.9279999999998836,2.1590000000001055,FALSE,TRUE,FALSE,FALSE,fraser/2-11-02b.xml,no error,7
+I don't like them snapped,there you go,CHI,MOT,FALSE,35,-0.5229999999999109,2.3689999999999145,TRUE,FALSE,FALSE,TRUE,fraser/2-11-02b.xml,no error,3
+it wasn't monsters then,naughty little boys,CHI,MOT,FALSE,35,0.10500000000001819,2.1820000000000164,TRUE,FALSE,FALSE,FALSE,fraser/2-11-02b.xml,no error,3
+they're playing with blocks,are they playing with blocks,CHI,MOT,FALSE,35,-0.25500000000010914,1.9850000000001273,FALSE,TRUE,FALSE,TRUE,fraser/2-11-02b.xml,no error,5
+who's he called,I know that's Orangekitten,CHI,MOT,TRUE,35,-0.5799999999999272,1.7530000000001564,TRUE,FALSE,FALSE,TRUE,fraser/2-11-02b.xml,other error,5
+I want puzzles,got to go through xxx,CHI,MOT,FALSE,35,0.03500000000000014,1.718,FALSE,TRUE,FALSE,FALSE,fraser/2-11-02v.xml,no error,5
+there's cars,that's right,CHI,MOT,FALSE,35,-0.3830000000000382,1.8690000000001419,FALSE,TRUE,FALSE,TRUE,fraser/2-11-02v.xml,no error,3
+two oranges circle,that's right,CHI,MOT,TRUE,35,0.057999999999992724,2.1019999999998618,FALSE,TRUE,FALSE,FALSE,fraser/2-11-02v.xml,other error,3
+did you did you touch it,yep,CHI,MOT,FALSE,35,0.046999999999997044,2.589000000000013,TRUE,FALSE,FALSE,FALSE,fraser/2-11-04a.xml,no error,1
+bikes,is Daddy home now,CHI,MOT,FALSE,35,0,1.2539999999999907,FALSE,TRUE,FALSE,FALSE,fraser/2-11-04a.xml,no error,4
+look it's Jwww's got,what has he got,CHI,MOT,TRUE,35,0.18599999999992178,1.800000000000182,TRUE,FALSE,FALSE,FALSE,fraser/2-11-04a.xml,other error,4
+and the ships won't go too close,that's right,CHI,MOT,FALSE,35,0.03999999999996362,3.90099999999984,FALSE,TRUE,FALSE,FALSE,fraser/2-11-04a.xml,no error,3
+I get these a lots of shapes,you're gonna going to get lots of shapes,CHI,MOT,TRUE,35,1.2439999999999145,2.729000000000042,FALSE,TRUE,FALSE,FALSE,fraser/2-11-04a.xml,other error,9
+w w w w we we just was messing them up,I know,CHI,MOT,TRUE,35,0.03499999999985448,5.711999999999989,TRUE,FALSE,FALSE,FALSE,fraser/2-11-04a.xml,other error,2
+got what,xxx,CHI,MOT,FALSE,35,0.6239999999997963,1.5670000000000073,TRUE,FALSE,FALSE,FALSE,fraser/2-11-04a.xml,no error,1
+he jumped he jumped on it,does he,CHI,MOT,FALSE,35,0.0929999999998472,3.1230000000000473,TRUE,FALSE,FALSE,FALSE,fraser/2-11-04a.xml,no error,2
+he jumped on it,right,CHI,MOT,FALSE,35,0.03300000000035652,1.8809999999998581,TRUE,FALSE,FALSE,FALSE,fraser/2-11-04a.xml,no error,1
+play snakes and ladders Mummy and Daddy's room,no,CHI,MOT,TRUE,35,0.15099999999983993,3.1110000000001037,FALSE,TRUE,FALSE,FALSE,fraser/2-11-04b.xml,other error,1
+they're all shaped like houses,pardon,CHI,MOT,FALSE,35,0.18599999999992178,2.61200000000008,TRUE,FALSE,FALSE,FALSE,fraser/2-11-04b.xml,no error,1
+Swiper taked it,Swiper took the ball,CHI,MOT,TRUE,35,0.1510000000000673,1.9729999999999563,TRUE,FALSE,TRUE,FALSE,fraser/2-11-04b.xml,overregularization,4
+they might be drinks,there's lots of cat there as well,CHI,MOT,FALSE,35,-0.43000000000029104,1.8230000000003201,FALSE,TRUE,FALSE,TRUE,fraser/2-11-04b.xml,no error,8
+and he didn't knock them down did he,oh look,CHI,MOT,FALSE,35,-0.63799999999992,2.786000000000058,TRUE,FALSE,FALSE,TRUE,fraser/2-11-04b.xml,no error,2
+zebras,zebras,CHI,MOT,FALSE,35,0.046999999999997044,0.8360000000000127,FALSE,TRUE,FALSE,FALSE,fraser/2-11-06a.xml,no error,1
+giraffes,anything else,CHI,MOT,FALSE,35,1.0220000000000198,0.9060000000000059,FALSE,TRUE,FALSE,FALSE,fraser/2-11-06a.xml,no error,2
+didn't want to,did you want to go on that slide,CHI,MOT,FALSE,35,0.7309999999999945,2.334000000000003,TRUE,FALSE,FALSE,FALSE,fraser/2-11-06a.xml,no error,8
+have you done xxx,what you saying,CHI,MOT,FALSE,35,0.5579999999999927,1.997000000000071,TRUE,FALSE,FALSE,FALSE,fraser/2-11-06a.xml,no error,3
+oh no I didn't,NA,CHI,MOT,FALSE,35,0.10799999999994725,1.961999999999989,TRUE,FALSE,FALSE,FALSE,fraser/2-11-06a.xml,no error,NA
+it ripped,the one with the horns,CHI,MOT,FALSE,35,0.02299999999991087,0.859000000000151,TRUE,FALSE,FALSE,FALSE,fraser/2-11-06a.xml,no error,5
+it's got holes in it,oh,CHI,MOT,FALSE,35,1.4159999999997126,2.1010000000001128,TRUE,TRUE,FALSE,FALSE,fraser/2-11-06a.xml,no error,1
+zero ate carrots,you ate carrots,CHI,MOT,TRUE,35,-0.2849999999999966,1.4919999999999902,FALSE,TRUE,FALSE,TRUE,fraser/2-11-06b.xml,other error,3
+and the li and the lions and the tigers won't come near to u and won't bite our fingers,that's right,CHI,MOT,FALSE,35,-0.20400000000000773,8.023000000000025,FALSE,TRUE,FALSE,TRUE,fraser/2-11-06b.xml,no error,3
+you have to see the lions won't and the tigers won't scratch me up,shall we put some cream on it,CHI,MOT,TRUE,35,1.7059999999999604,8.522000000000048,FALSE,TRUE,FALSE,FALSE,fraser/2-11-06b.xml,other error,7
+it is cars,imagine that,CHI,MOT,TRUE,35,0.8759999999999764,1.788000000000011,FALSE,TRUE,FALSE,FALSE,fraser/2-11-06b.xml,other error,2
+your rabbit can go in with all all shapes,can it,CHI,MOT,FALSE,35,0.12800000000015643,4.051999999999907,FALSE,TRUE,FALSE,FALSE,fraser/2-11-06b.xml,no error,2
+teared it again,Jwww what,CHI,MOT,TRUE,35,0.5060000000000855,1.9849999999999,TRUE,FALSE,TRUE,FALSE,fraser/2-11-06b.xml,overregularization,2
+it falled over,it's alright,CHI,MOT,TRUE,35,0.09600000000000364,2.229000000000269,TRUE,FALSE,TRUE,FALSE,fraser/2-11-06b.xml,overregularization,3
+I made a present,pardon,CHI,MOT,TRUE,35,0.8009999999999309,2.3969999999999345,TRUE,FALSE,FALSE,FALSE,fraser/2-11-06b.xml,other error,1
+I know the words,do you,CHI,MOT,FALSE,35,-0.25,2.0960000000000036,FALSE,TRUE,FALSE,TRUE,fraser/2-11-06b.xml,no error,2
+anything the lions,yeah,CHI,MOT,FALSE,35,-0.13400000000001455,1.961999999999989,FALSE,TRUE,FALSE,TRUE,fraser/2-11-06b.xml,no error,1
+why those holes in,because it plugs into whatever you want to make work,CHI,MOT,TRUE,35,0.3700000000003456,1.961999999999989,FALSE,TRUE,FALSE,FALSE,fraser/2-11-06b.xml,other error,10
+I it it go it didn't go near the hot air balloons,did it not,CHI,MOT,FALSE,36,-0.3129999999999882,5.004000000000019,FALSE,TRUE,FALSE,TRUE,fraser/3-00-00b.xml,no error,3
+did did I drank it all,yeah you drank your Fruitshoot as well didn't you,CHI,MOT,TRUE,36,0,2.2760000000000673,TRUE,FALSE,FALSE,FALSE,fraser/3-00-00b.xml,other error,10
+sheeps,sheeps,CHI,MOT,TRUE,36,0.057999999999992724,0.8830000000000382,FALSE,TRUE,TRUE,FALSE,fraser/3-00-00b.xml,overregularization,1
+sheeps,sheeps,CHI,MOT,TRUE,36,0.057999999999992724,0.8830000000000382,FALSE,TRUE,TRUE,FALSE,fraser/3-00-00b.xml,overregularization,1
+they eated them all,did he eat them all up,CHI,MOT,TRUE,36,0.05800000000044747,1.7539999999999054,TRUE,FALSE,TRUE,FALSE,fraser/3-00-00b.xml,overregularization,6
+it sticked,oh,CHI,MOT,TRUE,36,0.1390000000001237,1.4169999999999163,TRUE,FALSE,TRUE,FALSE,fraser/3-00-00b.xml,overregularization,1
+but this don't matches than this white one,one's fallen on the floor hasn't it,CHI,MOT,FALSE,36,0.0689999999999884,5.294000000000011,FALSE,TRUE,FALSE,FALSE,fraser/3-00-00v.xml,no error,9
+two legs,two legs,CHI,MOT,FALSE,36,-0.057999999999992724,0.8819999999999482,FALSE,TRUE,FALSE,TRUE,fraser/3-00-00v.xml,no error,2
+and the beans,bean,CHI,MOT,FALSE,36,0.4409999999999741,1.1610000000000014,FALSE,TRUE,FALSE,FALSE,fraser/3-00-02a.xml,no error,1
+it came out again,you keep taking that book out don't you,CHI,MOT,FALSE,36,0,1.6370000000000573,TRUE,FALSE,FALSE,FALSE,fraser/3-00-02a.xml,no error,9
+we lost,there you go,CHI,MOT,FALSE,36,-1.4280000000003383,1.4280000000003383,TRUE,FALSE,FALSE,TRUE,fraser/3-00-02a.xml,no error,3
+have you have I lost some pieces,yes you have,CHI,MOT,FALSE,36,-0.2480000000000473,3.2970000000000255,FALSE,TRUE,FALSE,TRUE,fraser/3-00-02a.xml,no error,3
+is is those are dinosaurs,yeah they're dinosaurs,CHI,MOT,TRUE,36,-0.2030000000002019,2.2760000000000673,FALSE,TRUE,FALSE,TRUE,fraser/3-00-02b.xml,other error,4
+when Nwww goed in the paddling pool,yeah,CHI,MOT,TRUE,36,0,2.867999999999938,TRUE,FALSE,FALSE,FALSE,fraser/3-00-04a.xml,other error,1
+I don't know what he's called,oh look he's made a flower in the sky,CHI,MOT,FALSE,36,-0.48700000000008004,1.8220000000001164,TRUE,FALSE,FALSE,TRUE,fraser/3-00-04a.xml,no error,10
+but now he got one teeth,now he's got one tooth,CHI,MOT,TRUE,36,0.027999999999991587,2.7750000000000057,FALSE,TRUE,FALSE,FALSE,fraser/3-00-04b.xml,other error,6
+that one that one up that one waked up,that one's woken up,CHI,MOT,TRUE,36,0.12600000000000477,4.888000000000005,TRUE,FALSE,TRUE,FALSE,fraser/3-00-04b.xml,overregularization,5
+what did you bought,this,CHI,MOT,TRUE,36,0.11599999999998545,2.0670000000000073,TRUE,FALSE,FALSE,FALSE,fraser/3-00-04b.xml,other error,1
+why did why did you bought that,because,CHI,MOT,TRUE,36,0.16799999999994952,2.3460000000000036,TRUE,FALSE,FALSE,FALSE,fraser/3-00-04b.xml,other error,1
+there's lots,you read them in here,CHI,MOT,FALSE,36,-0.6030000000000655,0.6040000000000418,FALSE,TRUE,FALSE,TRUE,fraser/3-00-04b.xml,no error,5
+but you came in didn't you,yeah,CHI,MOT,TRUE,36,0.010999999999967258,2.7749999999999773,TRUE,FALSE,FALSE,FALSE,fraser/3-00-04b.xml,other error,1
+there I found,oh very good,CHI,MOT,FALSE,36,-0.68100000000004,2.2170000000000982,TRUE,FALSE,FALSE,TRUE,fraser/3-00-04b.xml,no error,3
+what did it did,it's ripped a bit,CHI,MOT,TRUE,36,0.08199999999987995,1.6829999999999927,TRUE,FALSE,FALSE,FALSE,fraser/3-00-04b.xml,other error,5
+what did it did,what does it do,CHI,MOT,TRUE,36,0.18600000000014916,1.7409999999999854,TRUE,FALSE,FALSE,FALSE,fraser/3-00-04b.xml,other error,4
+did I did it,yeah,CHI,MOT,TRUE,36,0.07000000000016371,1.1610000000000582,TRUE,FALSE,FALSE,FALSE,fraser/3-00-04b.xml,other error,1
+I did it,oh clever boy,CHI,MOT,FALSE,36,0.057999999999992724,0.8359999999999985,TRUE,FALSE,FALSE,FALSE,fraser/3-00-05a.xml,no error,3
+uh the foots,your foot makes funny noises,CHI,MOT,FALSE,36,0.02400000000000091,1.9039999999999964,FALSE,TRUE,FALSE,FALSE,fraser/3-00-05a.xml,no error,5
+it it needs that elephant right there what I sticked on,yeah that's right,CHI,MOT,TRUE,36,0.0029999999999290594,3.7970000000000255,TRUE,FALSE,TRUE,FALSE,fraser/3-00-05a.xml,overregularization,4
+but or sad bushes,no or sad bushes,CHI,MOT,FALSE,36,-0.4290000000000873,2.4139999999999873,FALSE,TRUE,FALSE,TRUE,fraser/3-00-05b.xml,no error,4
+who made it,pardon,CHI,MOT,TRUE,36,0.2319999999999709,1.5789999999999509,TRUE,FALSE,FALSE,FALSE,fraser/3-00-05b.xml,other error,1
+yeah it popped out again,there we go,CHI,MOT,FALSE,36,0.18500000000000227,1.4629999999999939,TRUE,FALSE,FALSE,TRUE,fraser/3-00-06a.xml,no error,3
+that weren't a song,was it not a song,CHI,MOT,TRUE,36,0.16300000000001091,1.4739999999999327,TRUE,FALSE,FALSE,FALSE,fraser/3-00-06a.xml,other error,5
+that won't hurt my leggies will it,it won't hurt,CHI,MOT,FALSE,36,0.023000000000024556,3.4249999999999545,FALSE,TRUE,FALSE,FALSE,fraser/3-00-06a.xml,no error,4
+but I want some socks,you want some socks,CHI,MOT,FALSE,36,-0.12799999999992906,2.2519999999999527,FALSE,TRUE,FALSE,TRUE,fraser/3-00-06a.xml,no error,4
+it was a bird,yeah those are birds that are very far away aren't they,CHI,MOT,TRUE,36,0.057999999999992724,1.4049999999999727,TRUE,FALSE,FALSE,FALSE,fraser/3-00-06a.xml,other error,12
+there does no alligators,yes there are alligators,CHI,MOT,TRUE,36,0.012000000000170985,1.961999999999989,FALSE,TRUE,FALSE,FALSE,fraser/3-00-06a.xml,other error,4
+rhinos,rhinos,CHI,MOT,FALSE,36,-0.36000000000012733,1.6489999999998872,FALSE,TRUE,FALSE,TRUE,fraser/3-00-06a.xml,no error,1
+tissues,oh I've put it xxx,CHI,MOT,FALSE,36,-0.16200000000026193,1.0100000000002183,FALSE,TRUE,FALSE,TRUE,fraser/3-00-06a.xml,no error,6
+all these pieces,and and and the dinosaurs,CHI,MOT,FALSE,36,-0.5340000000001055,0.98700000000008,FALSE,TRUE,FALSE,TRUE,fraser/3-00-06b.xml,no error,5
+did I had one,yeah you've already had one haven't you,CHI,MOT,TRUE,36,0.06999999999970896,1.800000000000182,TRUE,FALSE,FALSE,FALSE,fraser/3-00-06b.xml,other error,9
+so I goed back home instead,what darling,CHI,MOT,TRUE,36,1.1170000000001892,2.6590000000001055,TRUE,FALSE,TRUE,FALSE,fraser/3-00-06b.xml,overregularization,2
+just xxx into squares,well no because we've got all the squares now,CHI,MOT,FALSE,36,-0.17600000000004457,2.2760000000000105,FALSE,TRUE,FALSE,TRUE,fraser/3-00-08a.xml,no error,10
+you did it,I did it,CHI,MOT,FALSE,36,0.05899999999996908,0.9979999999999336,TRUE,FALSE,FALSE,FALSE,fraser/3-00-08a.xml,no error,3
+still still still still still still still still closed,it is yeah,CHI,MOT,FALSE,36,-0.3709999999998672,4.95699999999988,TRUE,FALSE,FALSE,TRUE,fraser/3-00-08a.xml,no error,3
+be he I didn't saw him,did you not see him,CHI,MOT,TRUE,36,0.03499999999985448,4.400000000000091,TRUE,FALSE,FALSE,FALSE,fraser/3-00-08a.xml,other error,5
+it no it was Jwww,ah,CHI,MOT,FALSE,36,-1.91599999999994,2.298999999999978,TRUE,FALSE,FALSE,TRUE,fraser/3-00-08a.xml,no error,1
+that that big one has got lots of spikes,he has got lots of spikes along his back,CHI,MOT,FALSE,36,-0.6389999999998963,3.7840000000001055,FALSE,TRUE,FALSE,TRUE,fraser/3-00-08a.xml,no error,9
+those ones over there what we made,oh right yes,CHI,MOT,TRUE,36,0.03499999999985448,3.0299999999997453,TRUE,FALSE,FALSE,FALSE,fraser/3-00-08a.xml,other error,3
+you didn't went out did you Mum,well I did,CHI,MOT,TRUE,36,0.046999999999997044,2.344999999999999,TRUE,FALSE,FALSE,FALSE,fraser/3-00-08b.xml,other error,3
+but why they got little bit water in,because the bath is still a little bit wet isn't it,CHI,MOT,TRUE,36,0.12599999999997635,3.2159999999998945,TRUE,FALSE,FALSE,FALSE,fraser/3-00-08b.xml,other error,12
+grew,two grew,CHI,MOT,FALSE,36,0.6730000000000018,0.6620000000000346,TRUE,FALSE,FALSE,FALSE,fraser/3-00-08b.xml,no error,2
+grew,and so did all the rest,CHI,MOT,FALSE,36,0.31300000000010186,0.9059999999999491,TRUE,FALSE,FALSE,FALSE,fraser/3-00-08b.xml,no error,6
+three hammers three hammers three hammers,Peter works with three hammers this fine day,CHI,MOT,FALSE,36,0.18599999999992178,2.786000000000058,FALSE,TRUE,FALSE,FALSE,fraser/3-00-08b.xml,no error,8
+old man he played one,he played knick on my,CHI,MOT,FALSE,36,0.11599999999998545,2.288000000000011,TRUE,FALSE,FALSE,FALSE,fraser/3-00-08b.xml,no error,5
+with a knick Paddywhack this old man came rolling home,London bridge is falling down falling down falling down,CHI,MOT,FALSE,36,0.18499999999994543,5.5620000000001255,TRUE,FALSE,FALSE,FALSE,fraser/3-00-08b.xml,no error,9
+lived in a box,he swam in a puddle,CHI,MOT,FALSE,36,0.4420000000000073,2.229000000000042,TRUE,FALSE,FALSE,FALSE,fraser/3-00-08b.xml,no error,5
+rocks,he snapped at a mosquito,CHI,MOT,FALSE,36,0.8250000000000455,0.9519999999999982,FALSE,TRUE,FALSE,FALSE,fraser/3-00-08b.xml,no error,5
+xxx rocks,he snapped at a mosquito,CHI,MOT,FALSE,36,0.9869999999998527,1.800000000000182,FALSE,TRUE,FALSE,FALSE,fraser/3-00-08b.xml,no error,5
+people,here is the parson,CHI,MOT,FALSE,36,0.91800000000012,0.974999999999909,FALSE,TRUE,FALSE,FALSE,fraser/3-00-08b.xml,no error,4
+grasses,making them shake,CHI,MOT,FALSE,36,0.07000000000016371,1.0099999999997635,FALSE,TRUE,FALSE,FALSE,fraser/3-00-08b.xml,no error,3
+said the s,as he slid through the grasses,CHI,MOT,FALSE,36,-0.8360000000002401,1.1959999999999127,TRUE,FALSE,FALSE,TRUE,fraser/3-00-08b.xml,no error,6
+grasses,making them shake,CHI,MOT,FALSE,36,0.24399999999968713,1.0220000000003893,FALSE,TRUE,FALSE,FALSE,fraser/3-00-08b.xml,no error,3
+I want some I want one I want some of those little things,I tell you what you could have,CHI,MOT,FALSE,36,-0.6269999999999527,4.807000000000244,FALSE,TRUE,FALSE,TRUE,fraser/3-00-08b.xml,no error,7
+I want to touch my knees,you did didn't you,CHI,MOT,FALSE,36,-0.46399999999999864,2.9490000000000123,FALSE,TRUE,FALSE,TRUE,fraser/3-00-10a.xml,no error,5
+cakes cakes cakes,hey are you not talking to me,CHI,MOT,FALSE,36,0.20900000000006003,2.530999999999949,FALSE,TRUE,FALSE,FALSE,fraser/3-00-10a.xml,no error,7
+xxx numbers,pardon,CHI,MOT,FALSE,36,0.2130000000001928,1.4279999999998836,FALSE,TRUE,FALSE,FALSE,fraser/3-00-10a.xml,no error,1
+it breaked,did it break,CHI,MOT,TRUE,36,0.7119999999999891,1.5450000000000728,TRUE,FALSE,TRUE,FALSE,fraser/3-00-10a.xml,overregularization,3
+I already started,you look like you're making a mess to me,CHI,MOT,TRUE,36,-0.3360000000002401,2.04300000000012,TRUE,FALSE,FALSE,TRUE,fraser/3-00-10a.xml,other error,10
+where where are the sponges,can you have what,CHI,MOT,FALSE,36,0.17000000000007276,2.3330000000000837,FALSE,TRUE,FALSE,FALSE,fraser/3-00-10a.xml,no error,4
+but we didn't went in,but you didn't went in,CHI,MOT,TRUE,36,0.16300000000001091,1.856999999999971,TRUE,FALSE,FALSE,FALSE,fraser/3-00-10b.xml,other error,6
+but you don't stamped on books do you,no,CHI,MOT,TRUE,36,-0.6270000000000664,2.949000000000069,TRUE,FALSE,FALSE,TRUE,fraser/3-00-10b.xml,other error,1
+and eight juices,and eight socks,CHI,MOT,FALSE,36,0.775000000000091,2.9020000000000437,FALSE,TRUE,FALSE,FALSE,fraser/3-00-10b.xml,no error,3
+I already done the kangaroo,you've already done the kangaroo haven't you,CHI,MOT,TRUE,36,0,2.925000000000182,TRUE,FALSE,FALSE,FALSE,fraser/3-00-10b.xml,other error,9
+but why she not picking those muds up,she will do in a minute,CHI,MOT,TRUE,36,0.7599999999997635,3.2849999999998545,FALSE,TRUE,FALSE,FALSE,fraser/3-00-10b.xml,other error,6
+did I broke it,I hope not,CHI,MOT,TRUE,36,0.11599999999998545,1.6720000000000255,TRUE,FALSE,FALSE,FALSE,fraser/3-00-10b.xml,other error,3
+I hope I didn't broke it,and I hope you didn't break it as well,CHI,MOT,TRUE,36,0.0909999999998945,2.356999999999971,TRUE,FALSE,FALSE,FALSE,fraser/3-00-10b.xml,other error,10
+did somebody made a mess,yeah,CHI,MOT,TRUE,36,0.17399999999997817,2.2870000000000346,TRUE,FALSE,FALSE,FALSE,fraser/3-00-11a.xml,other error,1
+this old man came rolling,Fraser did you do this jigsaw with Daddy,CHI,MOT,FALSE,36,0.4399999999998272,2.82100000000014,TRUE,FALSE,FALSE,FALSE,fraser/3-00-11a.xml,no error,8
+I run away,and you had to have your tea didn't you,CHI,MOT,TRUE,36,0.5460000000002765,1.1720000000000255,TRUE,FALSE,FALSE,FALSE,fraser/3-00-11a.xml,other error,10
+why did we already done them,why've we already done them,CHI,MOT,TRUE,36,0.8340000000002874,2.5729999999998654,TRUE,FALSE,FALSE,FALSE,fraser/3-00-11a.xml,other error,6
+lots,is that it,CHI,MOT,FALSE,36,-1.009999999999991,1.009999999999991,FALSE,TRUE,FALSE,TRUE,fraser/3-00-12a.xml,no error,3
+I opened lots of presents didn't,you,CHI,MOT,FALSE,36,-0.8700000000001182,2.9249999999999545,FALSE,TRUE,FALSE,TRUE,fraser/3-00-12a.xml,no error,1
+dinosaurs weak,and dinosaurs,CHI,MOT,FALSE,36,0.3369999999999891,2.229000000000269,FALSE,TRUE,FALSE,FALSE,fraser/3-00-12a.xml,no error,2
+where did J where did,clever boy,CHI,MOT,FALSE,36,-1.276999999999589,1.276999999999589,TRUE,FALSE,FALSE,TRUE,fraser/3-00-12a.xml,no error,2
+all done,oh,CHI,MOT,FALSE,36,-1.1380000000003747,1.1380000000003747,TRUE,FALSE,FALSE,TRUE,fraser/3-00-12a.xml,no error,1
+we haven't got I haven't got blue pile today,have you not,CHI,MOT,TRUE,36,0.16599999999999682,4.504000000000005,TRUE,FALSE,FALSE,FALSE,fraser/3-00-13b.xml,other error,3
+we haven't got blue pile today,what happened to the blue pile then,CHI,MOT,TRUE,36,0.057999999999992724,2.5430000000000064,TRUE,FALSE,FALSE,FALSE,fraser/3-00-13b.xml,other error,7
+that's why it breaked,it's not very good is it,CHI,MOT,TRUE,36,0.06499999999999773,2.0889999999999986,TRUE,FALSE,TRUE,FALSE,fraser/3-00-13b.xml,overregularization,7
+I taked them off,oh Fraser,CHI,MOT,TRUE,36,0.046999999999997044,1.521000000000015,TRUE,FALSE,TRUE,FALSE,fraser/3-00-13b.xml,overregularization,2
+and I were xxx,did you go to babyschool today,CHI,MOT,TRUE,36,0.1279999999999859,1.218999999999994,TRUE,FALSE,FALSE,FALSE,fraser/3-00-13b.xml,other error,6
+but you wasn't cross,who wasn't cross,CHI,MOT,TRUE,36,0.17399999999997817,1.6019999999998618,TRUE,FALSE,FALSE,FALSE,fraser/3-00-13b.xml,other error,4
+I went,xxx,CHI,MOT,FALSE,36,0.20299999999997453,1.7300000000000182,TRUE,FALSE,FALSE,FALSE,fraser/3-00-13b.xml,no error,1
+Little_bear hurted it,Little_bear hurt it,CHI,MOT,TRUE,36,0.023000000000138243,3.168999999999869,TRUE,FALSE,TRUE,FALSE,fraser/3-00-13b.xml,overregularization,4
+where did you put those two squares,I put them in in the um wardrobe,CHI,MOT,FALSE,36,0.8209999999999127,1.8460000000000036,FALSE,TRUE,FALSE,FALSE,fraser/3-00-13b.xml,no error,8
+lots of pictures,lots of pictures,CHI,MOT,FALSE,36,-1.997000000000071,1.997000000000071,FALSE,TRUE,FALSE,TRUE,fraser/3-00-13v.xml,no error,3
+I want read these ones,no,CHI,MOT,TRUE,36,-1.9729999999999563,1.9729999999999563,FALSE,TRUE,FALSE,TRUE,fraser/3-00-13v.xml,other error,1
+no I started one,and then the piece,CHI,MOT,FALSE,36,-0.8009999999999309,1.5329999999999018,TRUE,FALSE,FALSE,TRUE,fraser/3-00-13v.xml,no error,4
+look I got dinosaur piece,yeah keep going,CHI,MOT,TRUE,36,0,1.6720000000000255,TRUE,FALSE,FALSE,FALSE,fraser/3-00-13v.xml,other error,3
+do you like leafy parts,oh yes,CHI,MOT,FALSE,36,-0.0929999999998472,1.7300000000000182,FALSE,TRUE,FALSE,TRUE,fraser/3-00-15a.xml,no error,2
+who who danced,who jumps,CHI,MOT,FALSE,36,0.012000000000000455,2.9609999999999985,TRUE,FALSE,FALSE,FALSE,fraser/3-00-15b.xml,no error,2
+xxx my hearts,was I on your heart shapes,CHI,MOT,FALSE,36,-0.2560000000000855,1.9039999999999964,FALSE,TRUE,FALSE,TRUE,fraser/3-00-15b.xml,no error,6
+I breaked the Thomas thing,you did,CHI,MOT,TRUE,36,0.5590000000000828,2.7509999999999764,TRUE,FALSE,TRUE,FALSE,fraser/3-00-15b.xml,overregularization,2
+I telled them off,did you,CHI,MOT,TRUE,36,0.09300000000007458,1.3819999999998345,TRUE,FALSE,TRUE,FALSE,fraser/3-00-15b.xml,overregularization,2
+had,that's it,CHI,MOT,FALSE,36,-0.9280000000003383,0.9280000000003383,TRUE,FALSE,FALSE,TRUE,fraser/3-00-15b.xml,no error,3
+flies,that's the thing about outside,CHI,MOT,FALSE,36,-0.2840000000001055,0.8360000000002401,FALSE,TRUE,FALSE,TRUE,fraser/3-00-15b.xml,no error,6
+did,no,CHI,MOT,FALSE,36,-0.8009999999999309,0.8009999999999309,TRUE,FALSE,FALSE,TRUE,fraser/3-00-15b.xml,no error,1
+that bit came off,mhm hm,CHI,MOT,TRUE,36,-1.7530000000001564,1.7760000000002947,TRUE,FALSE,FALSE,TRUE,fraser/3-00-15b.xml,other error,2
+it breaked that bit,xxx and see,CHI,MOT,TRUE,36,1.8829999999998108,2.1010000000001128,TRUE,FALSE,TRUE,FALSE,fraser/3-00-15b.xml,overregularization,3
+they came out,what's come out,CHI,MOT,TRUE,36,0.46900000000005093,1.3119999999998981,TRUE,FALSE,FALSE,FALSE,fraser/3-00-15b.xml,other error,4
+it falled a bit,does it go,CHI,MOT,TRUE,36,0.6039999999998145,1.5320000000001528,TRUE,FALSE,TRUE,FALSE,fraser/3-00-15b.xml,overregularization,3
+they're really big ones,yeah,CHI,MOT,FALSE,36,-0.1389999999999958,2.1939999999999884,FALSE,TRUE,FALSE,TRUE,fraser/3-00-16a.xml,no error,1
+why is that truck fell down,I don't know,CHI,MOT,TRUE,36,0.34199999999998454,3.1580000000000155,TRUE,FALSE,FALSE,FALSE,fraser/3-00-16a.xml,other error,4
+but why is that truck fell off,pardon,CHI,MOT,TRUE,36,0.18600000000014916,2.8799999999998818,TRUE,FALSE,FALSE,FALSE,fraser/3-00-16a.xml,other error,1
+now that one woken up didn't it,yeah he's woken up hasn't he,CHI,MOT,TRUE,36,0,2.6239999999997963,TRUE,FALSE,FALSE,FALSE,fraser/3-00-16a.xml,other error,8
+and these ones,you want me to put those ones away as well,CHI,MOT,FALSE,36,-0.31300000000010186,1.13799999999992,FALSE,TRUE,FALSE,TRUE,fraser/3-00-16a.xml,no error,10
+but why she got why has she got mask,well they've all got masks haven't they because they've all made masks at school,CHI,MOT,TRUE,36,0.75,3.6339999999999577,TRUE,FALSE,FALSE,FALSE,fraser/3-00-16b.xml,other error,17
+he taked it off,he did,CHI,MOT,TRUE,36,0.024999999999977263,1.393000000000029,TRUE,FALSE,TRUE,FALSE,fraser/3-00-16b.xml,overregularization,2
+robot said,Jess,CHI,MOT,FALSE,36,0.4759999999999991,1.4400000000000546,TRUE,FALSE,FALSE,FALSE,fraser/3-00-16b.xml,no error,1
+when I falled,did you bang it,CHI,MOT,TRUE,36,0.11899999999991451,1.8580000000001746,TRUE,FALSE,TRUE,FALSE,fraser/3-00-16b.xml,overregularization,4
+did you caught me,yeah,CHI,MOT,TRUE,36,0.04300000000012005,2.1949999999999363,TRUE,FALSE,FALSE,FALSE,fraser/3-00-16b.xml,other error,1
+who breaked the big truck,nobody broke it Fraser,CHI,MOT,TRUE,36,0,2.8900000000001,TRUE,FALSE,TRUE,FALSE,fraser/3-00-16b.xml,overregularization,4
+I throwed it,yeah,CHI,MOT,TRUE,36,0.07400000000006912,1.6829999999999927,TRUE,FALSE,TRUE,FALSE,fraser/3-00-16b.xml,overregularization,1
+we got some when we goed to the beach didn't we,that's right,CHI,MOT,TRUE,36,0.26700000000005275,3.644999999999982,TRUE,FALSE,TRUE,FALSE,fraser/3-00-16b.xml,overregularization,3
+no it was Bob singed it,oh was it Bob singing,CHI,MOT,TRUE,36,0.10400000000004184,1.6030000000000655,TRUE,FALSE,TRUE,FALSE,fraser/3-00-16b.xml,overregularization,5
+look the pieces not a bit noisy,it is a bit noisy,CHI,MOT,TRUE,36,0.10500000000001819,2.356999999999971,FALSE,TRUE,FALSE,FALSE,fraser/3-00-16b.xml,other error,5
+who drawed on Lofty's eye,I don't know,CHI,MOT,TRUE,36,0.1160000000004402,2.125,TRUE,FALSE,TRUE,FALSE,fraser/3-00-16b.xml,overregularization,4
+um felt game gone,I don't know,CHI,MOT,TRUE,36,0.20800000000008367,1.8460000000000036,TRUE,FALSE,FALSE,TRUE,fraser/3-00-16b.xml,other error,4
+I I eated a big yoghurt,you were eating a big yoghurt,CHI,MOT,TRUE,36,-0.11599999999999966,2.379999999999999,TRUE,FALSE,TRUE,TRUE,fraser/3-00-18a.xml,overregularization,6
+xxx strawberry flavored,that's right,CHI,MOT,FALSE,36,0.18600000000000705,2.3100000000000023,TRUE,FALSE,FALSE,FALSE,fraser/3-00-18a.xml,no error,3
+they don't have helmets,they do,CHI,MOT,FALSE,36,-0.18599999999992178,1.7999999999999545,FALSE,TRUE,FALSE,TRUE,fraser/3-00-18a.xml,no error,2
+there's lots of pieces,there's lots of pieces yeah,CHI,MOT,FALSE,36,-0.010999999999967258,1.9159999999997126,FALSE,TRUE,FALSE,TRUE,fraser/3-00-18a.xml,no error,6
+they're very stuck,is that hard work,CHI,MOT,FALSE,36,0.8390000000003965,2.576999999999771,TRUE,FALSE,FALSE,FALSE,fraser/3-00-18a.xml,no error,4
+one of these big books,which one,CHI,MOT,FALSE,36,0.057999999999992724,2.775000000000091,FALSE,TRUE,FALSE,FALSE,fraser/3-00-18a.xml,no error,2
+snappy little dinosaurs,yeah,CHI,MOT,FALSE,36,-0.5799999999999272,2.1359999999999673,FALSE,TRUE,FALSE,TRUE,fraser/3-00-18a.xml,no error,1
+did just have one,yeah you just had one,CHI,MOT,TRUE,36,0.17400000000003502,1.4049999999999727,TRUE,FALSE,FALSE,FALSE,fraser/3-00-18b.xml,other error,5
+I wanna press the two ends,okay then,CHI,MOT,FALSE,36,0.046000000000276486,1.9510000000000218,FALSE,TRUE,FALSE,FALSE,fraser/3-00-18b.xml,no error,2
+we didn't,xxx,CHI,MOT,FALSE,36,-1.5329999999999018,1.5329999999999018,TRUE,FALSE,FALSE,TRUE,fraser/3-00-18b.xml,no error,1
+I nearly goed in the mud,yeah you did didn't you,CHI,MOT,TRUE,36,0.023000000000138243,1.8229999999998654,TRUE,FALSE,TRUE,FALSE,fraser/3-00-18b.xml,overregularization,6
+lots,can you see,CHI,MOT,FALSE,36,-0.8829999999998108,0.9410000000002583,FALSE,TRUE,FALSE,TRUE,fraser/3-00-18b.xml,no error,3
+and these are the good ones,what's his name,CHI,MOT,FALSE,36,-0.1269999999999527,1.4279999999999973,FALSE,TRUE,FALSE,TRUE,fraser/3-00-19a.xml,no error,4
+did I missed him,yeah because if the door's opening that means Daddy's already in the house doesn't it,CHI,MOT,TRUE,36,-0.26700000000005275,1.3589999999999236,TRUE,FALSE,FALSE,TRUE,fraser/3-00-19a.xml,other error,18
+puppies,look,CHI,MOT,FALSE,36,-0.30199999999967986,0.9869999999996253,FALSE,TRUE,FALSE,TRUE,fraser/3-00-19a.xml,no error,1
+and those are doggies,yeah,CHI,MOT,FALSE,36,-0.2319999999999709,1.6829999999999927,FALSE,TRUE,FALSE,TRUE,fraser/3-00-19a.xml,no error,1
+playing the dominoes,NA,CHI,MOT,FALSE,36,-0.32300000000032014,1.718000000000302,FALSE,TRUE,FALSE,TRUE,fraser/3-00-19a.xml,no error,NA
+these are these are big dominoes,you're going to have to have a nice rest today aren't you,CHI,MOT,FALSE,36,-0.06999999999970896,2.031999999999698,FALSE,TRUE,FALSE,TRUE,fraser/3-00-19a.xml,no error,14
+rockets,wow,CHI,MOT,FALSE,36,-1.9510000000000218,2.1600000000003092,FALSE,TRUE,FALSE,TRUE,fraser/3-00-19a.xml,no error,1
+these are the high rockets,they are aren't they,CHI,MOT,FALSE,36,-0.34799999999995634,2.0080000000002656,FALSE,TRUE,FALSE,TRUE,fraser/3-00-19a.xml,no error,5
+and these are three mouses,three mice,CHI,MOT,TRUE,36,0.0929999999998472,2.5080000000002656,FALSE,TRUE,TRUE,FALSE,fraser/3-00-19a.xml,overregularization,2
+and these are flowers,nine flowers,CHI,MOT,FALSE,36,-0.2199999999997999,1.612999999999829,FALSE,TRUE,FALSE,TRUE,fraser/3-00-19a.xml,no error,2
+there's two sixes,NA,CHI,MOT,FALSE,36,-0.39400000000023283,1.486000000000331,FALSE,TRUE,FALSE,TRUE,fraser/3-00-19a.xml,no error,NA
+now there's two nines,yes,CHI,MOT,FALSE,36,-0.38400000000001455,2.5549999999998363,FALSE,TRUE,FALSE,TRUE,fraser/3-00-19a.xml,no error,1
+did you went,yeah,CHI,MOT,TRUE,36,0.03499999999996817,0.6960000000000264,TRUE,FALSE,FALSE,FALSE,fraser/3-00-19b.xml,other error,1
+we only bought today,oh dear,CHI,MOT,TRUE,36,0,1.7989999999999782,TRUE,FALSE,FALSE,FALSE,fraser/3-00-19b.xml,other error,2
+boxes,Mrs,CHI,MOT,FALSE,36,0.6749999999999545,1.009999999999991,FALSE,TRUE,FALSE,FALSE,fraser/3-00-19b.xml,no error,1
+is he the baddies too,yeah,CHI,MOT,TRUE,36,0.0030000000000427463,1.5090000000000146,FALSE,TRUE,FALSE,FALSE,fraser/3-00-19b.xml,other error,1
+is he the baddies,yes,CHI,MOT,TRUE,36,0.6029999999999518,1.858000000000061,FALSE,TRUE,FALSE,FALSE,fraser/3-00-19b.xml,other error,1
+that that's a baddie and that's a baddie and that's the baddie and that's a baddie and that's a baddie and that's a baddies,yes,CHI,MOT,TRUE,36,0.04600000000004911,8.323999999999955,FALSE,TRUE,FALSE,FALSE,fraser/3-00-19b.xml,other error,1
+listened,did he listen to your chest,CHI,MOT,FALSE,36,0.19800000000003593,0.7659999999999627,TRUE,FALSE,FALSE,FALSE,fraser/3-00-20a.xml,no error,6
+there was dustbin lorry,no,CHI,MOT,TRUE,36,0.41800000000000637,1.822999999999979,TRUE,FALSE,FALSE,FALSE,fraser/3-00-20a.xml,other error,1
+because that was,this one,CHI,MOT,FALSE,36,0.18599999999992178,0.9400000000000546,TRUE,FALSE,FALSE,FALSE,fraser/3-00-20a.xml,no error,2
+what's grey because that didn't go there,but I thought you said it went over there,CHI,MOT,TRUE,36,0.5720000000001164,2.890999999999849,TRUE,FALSE,FALSE,FALSE,fraser/3-00-20a.xml,other error,9
+dog laughed,to see such fun,CHI,MOT,FALSE,36,0.4070000000001528,0.9049999999999727,TRUE,FALSE,FALSE,FALSE,fraser/3-00-20a.xml,no error,4
+broke his crown,and Jill came tumbling,CHI,MOT,FALSE,36,0.1710000000000491,2.089999999999918,TRUE,FALSE,FALSE,FALSE,fraser/3-00-20a.xml,no error,4
+have they got two rabbits,yeah,CHI,MOT,FALSE,36,-0.25500000000010914,2.0900000000001455,TRUE,TRUE,FALSE,TRUE,fraser/3-00-20a.xml,no error,1
+have they got two rabbits,they have got two rabbits,CHI,MOT,FALSE,36,-0.2380000000000564,1.7650000000001,FALSE,TRUE,FALSE,TRUE,fraser/3-00-20a.xml,no error,5
+I I want to stand on these rocks,pardon,CHI,MOT,FALSE,36,0.2780000000002474,4.980999999999767,FALSE,TRUE,FALSE,FALSE,fraser/3-00-20a.xml,no error,1
+clink scales,clink scales,CHI,MOT,FALSE,36,0.36000000000012733,2.298999999999978,FALSE,TRUE,FALSE,FALSE,fraser/3-00-20a.xml,no error,2
+mm my feet are in,what are you looking for,CHI,MOT,FALSE,36,0.2319999999999709,1.6720000000000255,FALSE,TRUE,FALSE,FALSE,fraser/3-00-20a.xml,no error,5
+got to,we'll have to get you dressed first,CHI,MOT,FALSE,36,1.8779999999997017,1.2890000000002146,TRUE,FALSE,FALSE,FALSE,fraser/3-00-20a.xml,no error,8
+I heared the people,you heard the people,CHI,MOT,TRUE,36,0.0350000000000108,1.4050000000000011,TRUE,FALSE,TRUE,FALSE,fraser/3-00-20b.xml,overregularization,4
+three more weeks,and then you're off for the summer holiday,CHI,MOT,FALSE,36,-0.4759999999998854,1.1369999999999436,FALSE,TRUE,FALSE,TRUE,fraser/3-00-20b.xml,no error,9
+my foots have gone,your feet have gone,CHI,MOT,TRUE,36,0.057999999999992724,1.6829999999999927,FALSE,TRUE,TRUE,FALSE,fraser/3-00-20b.xml,overregularization,4
+what's gonna going to happen in these books,are you feeling better today then Fraser,CHI,MOT,FALSE,36,0.9279999999999973,2.228999999999928,FALSE,TRUE,FALSE,FALSE,fraser/3-00-21b.xml,no error,7
+do you know who was that green one was it,that's a tree,CHI,MOT,TRUE,36,0.047000000000025466,2.727999999999952,TRUE,FALSE,FALSE,FALSE,fraser/3-00-21b.xml,other error,4
+I wanna read a boys,you want to read the boys,CHI,MOT,TRUE,36,0.26700000000005275,2.0670000000000073,FALSE,TRUE,FALSE,FALSE,fraser/3-00-21b.xml,other error,6
+I think this one I think I think these ones supposed to be up,who made this,CHI,MOT,TRUE,36,0.09500000000002728,5.201999999999998,FALSE,TRUE,FALSE,FALSE,fraser/3-00-21b.xml,other error,3
+it drinked it all,it drank all the juice didn't it,CHI,MOT,TRUE,36,0.0340000000001055,1.4049999999999727,TRUE,FALSE,TRUE,FALSE,fraser/3-00-21b.xml,overregularization,8
+where did you do did that,how did I do that,CHI,MOT,TRUE,36,0.0029999999999290594,2.0900000000001455,TRUE,FALSE,FALSE,FALSE,fraser/3-00-21b.xml,other error,5
+yeah lots of words,air,CHI,MOT,FALSE,36,-1.0039999999999054,1.7419999999997344,FALSE,TRUE,FALSE,TRUE,fraser/3-00-21b.xml,no error,1
+will I just carried it,yeah,CHI,MOT,TRUE,36,0.1390000000001237,1.6720000000000255,TRUE,FALSE,FALSE,FALSE,fraser/3-00-21b.xml,other error,1
+I wiped it off,you wiped it off,CHI,MOT,FALSE,36,0.06500000000005457,1.4510000000000218,TRUE,FALSE,FALSE,FALSE,fraser/3-00-21b.xml,no error,4
+I nearly falled then,that's not good is it,CHI,MOT,TRUE,36,0.6620000000000061,2.181999999999988,TRUE,FALSE,TRUE,FALSE,fraser/3-00-21v.xml,overregularization,6
+the the train said it,you didn't say it,CHI,MOT,TRUE,36,0.07000000000016371,2.9489999999998417,TRUE,FALSE,FALSE,FALSE,fraser/3-00-21v.xml,other error,5
+how did Wendy did that,pardon,CHI,MOT,TRUE,36,2.2959999999998217,2.229000000000042,TRUE,FALSE,FALSE,FALSE,fraser/3-00-23a.xml,other error,1
+how did Wendy did that,like this,CHI,MOT,TRUE,36,0.18499999999994543,1.9390000000000782,TRUE,FALSE,FALSE,FALSE,fraser/3-00-23a.xml,other error,2
+why did it went down,because he has to put it down when he puts it away,CHI,MOT,TRUE,36,1.4980000000000473,1.997000000000071,TRUE,FALSE,FALSE,FALSE,fraser/3-00-23a.xml,other error,12
+and some side my ears,no no no no don't put it inside your ears,CHI,MOT,FALSE,36,-0.4519999999997708,1.9969999999998436,FALSE,TRUE,FALSE,TRUE,fraser/3-00-23a.xml,no error,11
+have we got paint in the babyschool,oh there's lots of paint in babyschool isn't there,CHI,MOT,FALSE,36,0.009000000000014552,2.2169999999996435,TRUE,FALSE,FALSE,FALSE,fraser/3-00-23a.xml,no error,11
+you did have their chocolate and their sweeties though,eh,CHI,MOT,FALSE,36,0.32500000000001705,2.518999999999977,TRUE,FALSE,FALSE,FALSE,fraser/3-00-25a.xml,no error,1
+said they not,they are,CHI,MOT,TRUE,36,0.03499999999996817,1.3239999999999554,TRUE,FALSE,FALSE,FALSE,fraser/3-00-25a.xml,other error,2
+Jwww and me cried,why were you crying,CHI,MOT,FALSE,36,-0.6970000000000027,2.4850000000000136,TRUE,FALSE,FALSE,TRUE,fraser/3-00-25a.xml,no error,4
+gone whoo,does it,CHI,MOT,TRUE,36,-0.49900000000002365,1.7530000000001564,TRUE,FALSE,FALSE,TRUE,fraser/3-00-25a.xml,other error,2
+the yellow one's gone,I didn't see that one,CHI,MOT,FALSE,36,-0.4760000000001128,1.3350000000000364,TRUE,FALSE,FALSE,TRUE,fraser/3-00-25a.xml,no error,6
+xxx here is it gone,I don't know what you're saying Fraser,CHI,MOT,FALSE,36,1.856999999999971,1.91599999999994,TRUE,FALSE,FALSE,FALSE,fraser/3-00-25a.xml,no error,9
+hey I xxx look at the pictures,yeah,CHI,MOT,FALSE,36,-0.3830000000002656,2.462000000000444,FALSE,TRUE,FALSE,TRUE,fraser/3-00-25a.xml,no error,1
+er have you just have xxx had a rectangle,had the rectangles,CHI,MOT,TRUE,36,0.4270000000001346,5.235999999999876,TRUE,FALSE,FALSE,FALSE,fraser/3-00-25a.xml,other error,3
+that wasn't supposed to have the rectangles,okay then,CHI,MOT,FALSE,36,0.033999999999650754,2.9030000000002474,TRUE,FALSE,FALSE,FALSE,fraser/3-00-25a.xml,no error,2
+we've had those ones,okay,CHI,MOT,FALSE,36,0.3830000000002656,1.9510000000000218,TRUE,FALSE,FALSE,FALSE,fraser/3-00-25a.xml,no error,1
+who broke it,I don't know,CHI,MOT,TRUE,36,0.25,3.4020000000000152,TRUE,FALSE,FALSE,FALSE,fraser/3-00-26a.xml,other error,4
+was it Gullivers_World,yeah that was for Guillivers_World wasn't it,CHI,MOT,FALSE,36,-1.0790000000000077,1.4509999999999934,TRUE,FALSE,FALSE,TRUE,fraser/3-00-26a.xml,no error,9
+all done I said,Fraser I'm done,CHI,MOT,FALSE,36,1.544999999999959,2.3559999999999945,TRUE,FALSE,FALSE,FALSE,fraser/3-00-26a.xml,no error,4
+all gone I said,okay I'm finished now,CHI,MOT,FALSE,36,-0.23200000000008458,2.299000000000092,TRUE,FALSE,FALSE,TRUE,fraser/3-00-26a.xml,no error,5
+no I didn't,look at that bin outside,CHI,MOT,FALSE,36,0.7340000000000373,2.0430000000000064,TRUE,FALSE,FALSE,FALSE,fraser/3-00-26a.xml,no error,5
+it's xxx cars,Fraser don't throw things,CHI,MOT,FALSE,36,0.41800000000000637,1.5209999999999582,FALSE,TRUE,FALSE,FALSE,fraser/3-00-26a.xml,no error,5
+I seen Maisy in here,well bring the book over here,CHI,MOT,TRUE,36,0.5340000000001055,2.7519999999999527,TRUE,FALSE,FALSE,FALSE,fraser/3-00-26a.xml,other error,6
+I breaked it,are you breaking it,CHI,MOT,TRUE,36,0,1.2069999999999936,TRUE,FALSE,TRUE,FALSE,fraser/3-00-26b.xml,overregularization,4
+buds,so Mummy's,CHI,MOT,FALSE,36,-0.8820000000000618,1.009999999999991,FALSE,TRUE,FALSE,TRUE,fraser/3-00-26b.xml,no error,3
+where xxx gone,xxx shall we throw that one away,CHI,MOT,FALSE,36,-1.4160000000001673,1.4510000000000218,TRUE,FALSE,FALSE,TRUE,fraser/3-00-26b.xml,no error,7
+did I missed it,yeah you missed it,CHI,MOT,TRUE,36,0.02500000000009095,1.3350000000000364,TRUE,FALSE,FALSE,FALSE,fraser/3-00-26b.xml,other error,4
+arms,fingers,CHI,MOT,FALSE,36,-0.3129999999996471,0.6619999999998072,FALSE,TRUE,FALSE,TRUE,fraser/3-00-26b.xml,no error,1
+I sat on the Vimto,you sat on the Vimto,CHI,MOT,TRUE,36,0.09600000000000364,2.147999999999996,TRUE,FALSE,FALSE,FALSE,fraser/3-00-27b.xml,other error,5
+we got lotsa things haven't we,yes,CHI,MOT,TRUE,36,0.4109999999999445,1.9790000000000418,TRUE,FALSE,FALSE,FALSE,fraser/3-00-27b.xml,other error,1
+these long screws,yeah we're gonna going to use them again in a minute,CHI,MOT,FALSE,36,-0.2560000000000855,1.8579999999999472,FALSE,TRUE,FALSE,TRUE,fraser/3-00-27b.xml,no error,12
+look the cat eated that thing,did it,CHI,MOT,TRUE,36,0.2549999999996544,3.3090000000001965,TRUE,FALSE,TRUE,FALSE,fraser/3-00-27b.xml,overregularization,2
+I runned on the white bit,you did,CHI,MOT,TRUE,36,0.06899999999995998,2.369000000000142,TRUE,FALSE,TRUE,FALSE,fraser/3-00-27b.xml,overregularization,2
+weren't you Mum,we have,CHI,MOT,FALSE,36,0.13999999999987267,1.2770000000000437,TRUE,FALSE,FALSE,FALSE,fraser/3-00-27b.xml,no error,2
+where did you bought those,got them from the shops,CHI,MOT,TRUE,36,0.028999999999996362,1.6720000000000255,TRUE,FALSE,FALSE,FALSE,fraser/3-00-29a.xml,other error,5
+did he didn't want to play with me anymore,no,CHI,MOT,TRUE,36,0.011999999999716238,2.9830000000001746,TRUE,FALSE,FALSE,FALSE,fraser/3-00-29a.xml,other error,1
+this one got puddle,we've got lots of things in here but Jwww doesn't sleep in here anymore does he,CHI,MOT,TRUE,36,0.18499999999994543,1.6489999999998872,TRUE,FALSE,FALSE,FALSE,fraser/3-00-29a.xml,other error,18
+then then we slept in this bed didn't we,did she sleep up there,CHI,MOT,TRUE,36,0,4.829999999999927,TRUE,FALSE,FALSE,FALSE,fraser/3-00-29a.xml,other error,5
+you runned on crocodile lake,again,CHI,MOT,TRUE,36,0.24299999999993815,2.2409999999999854,TRUE,FALSE,TRUE,FALSE,fraser/3-00-29b.xml,overregularization,1
+the but the wind breaked it,no you broke it,CHI,MOT,TRUE,36,0.03499999999996817,2.5779999999999745,TRUE,FALSE,TRUE,FALSE,fraser/3-00-29b.xml,overregularization,4
+no the wind blowed it away,no I think you were coloring with it and you broke it Fraser,CHI,MOT,TRUE,36,0.4639999999999418,2.4500000000000455,TRUE,FALSE,TRUE,FALSE,fraser/3-00-29b.xml,overregularization,13
+that sound came with the owl and the pussycat,the sound,CHI,MOT,TRUE,36,0.9490000000000691,3.4479999999998654,TRUE,FALSE,FALSE,FALSE,fraser/3-00-29b.xml,other error,2
+two cheeks,and lovely ears,CHI,MOT,FALSE,36,-0.8249999999998181,0.8249999999998181,FALSE,TRUE,FALSE,TRUE,fraser/3-00-29b.xml,no error,3
+and lovely foots,and lovely feet,CHI,MOT,TRUE,36,0.011999999999943611,1.3109999999999218,FALSE,TRUE,TRUE,FALSE,fraser/3-00-29b.xml,overregularization,3
+someone breaked it,yeah I know,CHI,MOT,TRUE,36,0.03499999999985448,1.6019999999998618,TRUE,FALSE,TRUE,FALSE,fraser/3-00-29b.xml,overregularization,3
+I goed in that boat with Daddy and I goed that boat with you,yeah,CHI,MOT,TRUE,36,0.023000000000138243,4.2150000000001455,TRUE,FALSE,TRUE,FALSE,fraser/3-00-29b.xml,overregularization,1
+rides,yeah,CHI,MOT,FALSE,36,0,0.8130000000001019,FALSE,TRUE,FALSE,TRUE,fraser/3-00-29b.xml,no error,1
+did he Jwww didn't want to go in there did he,no he didn't did he,CHI,MOT,TRUE,36,0,3.3089999999997417,TRUE,FALSE,FALSE,FALSE,fraser/3-00-29b.xml,other error,6
+Jwww goed on water ride didn't he,he did in the end yeah,CHI,MOT,TRUE,36,0.29399999999986903,2.5779999999999745,TRUE,FALSE,TRUE,FALSE,fraser/3-00-29b.xml,overregularization,6
+I done the outside now I gonna going to do the inside,now you're gonna going to do the inside,CHI,MOT,TRUE,36,0.07900000000017826,3.4479999999998654,TRUE,FALSE,FALSE,FALSE,fraser/3-00-29b.xml,other error,9
+when you were little girl,yeah when I was a little girl like you Mummy used to have this book,CHI,MOT,TRUE,36,0.0749999999998181,1.5440000000000964,TRUE,FALSE,FALSE,FALSE,fraser/3-00-30a.xml,other error,15
+xxx gone,it's all gone now,CHI,MOT,FALSE,36,0.047000000000025466,1.009999999999991,TRUE,FALSE,FALSE,FALSE,fraser/3-00-30a.xml,no error,5
+my socks,filthy aren't they,CHI,MOT,FALSE,36,-0.5219999999999345,1.0209999999997308,FALSE,TRUE,FALSE,TRUE,fraser/3-00-30a.xml,no error,4
+he he threw the candle then he xxx,he threw the candles,CHI,MOT,TRUE,36,-0.7270000000003165,3.599999999999909,TRUE,FALSE,FALSE,TRUE,fraser/3-00-30a.xml,other error,4
+got,might have to put a belt on you as well,CHI,MOT,TRUE,36,-0.4519999999999982,0.556999999999988,TRUE,FALSE,FALSE,TRUE,fraser/3-00-30b.xml,other error,10
+it got a trunk didn't it,it did didn't it,CHI,MOT,TRUE,36,0.023000000000024556,2.4150000000000773,TRUE,FALSE,FALSE,FALSE,fraser/3-00-30b.xml,other error,5
+did did did I lick it when I when I goed in the kitchen,did you like it,CHI,MOT,TRUE,36,1.0650000000000546,5.341000000000008,TRUE,FALSE,TRUE,FALSE,fraser/3-00-30b.xml,overregularization,4
+when I goed in the kitchen,what the cheese,CHI,MOT,TRUE,36,0.011999999999943611,1.788000000000011,TRUE,FALSE,TRUE,FALSE,fraser/3-00-30b.xml,overregularization,3
+the man taked my bouncy castle didn't he,he did yeah,CHI,MOT,TRUE,36,0,3.4950000000001182,TRUE,FALSE,TRUE,FALSE,fraser/3-00-30b.xml,overregularization,3
+lots lots lots colors don't I,yeah,CHI,MOT,TRUE,36,0.26700000000005275,3.0419999999999163,FALSE,TRUE,FALSE,FALSE,fraser/3-00-30b.xml,other error,1
+because I'm scared,oh Fraser,CHI,MOT,FALSE,36,-0.6039999999998145,1.568000000000211,TRUE,FALSE,FALSE,TRUE,fraser/3-00-30b.xml,no error,2
+I'm stayed here,can you just get up a minute,CHI,MOT,TRUE,36,0.6149999999997817,2.925999999999931,TRUE,FALSE,FALSE,FALSE,fraser/3-00-30b.xml,other error,7
+no he got three eyes,oh who's got three eyes,CHI,MOT,TRUE,37,-0.20899999999983265,1.719000000000051,FALSE,TRUE,FALSE,TRUE,fraser/3-01-00a.xml,other error,6
+and and you would be cross didn't you,yes I would be cross,CHI,MOT,TRUE,37,0.02400000000000091,2.901999999999987,TRUE,FALSE,FALSE,FALSE,fraser/3-01-02b.xml,other error,5
+but when I go growed up I can be space explorer,when you grow up you can be what,CHI,MOT,TRUE,37,0.18999999999999773,5.432999999999993,TRUE,FALSE,FALSE,FALSE,fraser/3-01-02b.xml,other error,8
+no you didn't,yes I did,CHI,MOT,FALSE,37,0.023000000000024556,1.8920000000000528,TRUE,FALSE,FALSE,FALSE,fraser/3-01-02b.xml,no error,3
+did you didn't do Strum,no I didn't do Strum,CHI,MOT,TRUE,37,0.047000000000025466,2.2289999999998145,TRUE,FALSE,FALSE,FALSE,fraser/3-01-02b.xml,other error,6
+I had big Macdonalds,what did you have,CHI,MOT,TRUE,37,0.057999999999992724,2.298999999999978,TRUE,FALSE,FALSE,FALSE,fraser/3-01-02b.xml,other error,4
+I knew you you were blame Jwww,I'm not blaming Jwww,CHI,MOT,TRUE,37,1.8159999999998035,2.5419999999999163,TRUE,FALSE,FALSE,FALSE,fraser/3-01-02b.xml,other error,5
+did you caught me,I did,CHI,MOT,TRUE,37,0.08200000000002206,1.2299999999999898,TRUE,FALSE,FALSE,FALSE,fraser/3-01-03a.xml,other error,2
+did you told me it's purple,mhm hm,CHI,MOT,TRUE,37,0.02400000000000091,2.5540000000000873,TRUE,FALSE,FALSE,FALSE,fraser/3-01-03a.xml,other error,2
+did Daddy and me drew it,yeah you and Daddy drew that didn't you,CHI,MOT,TRUE,37,0.02500000000009095,2.995999999999867,TRUE,FALSE,FALSE,FALSE,fraser/3-01-03a.xml,other error,9
+hey it stuck to me hand,it stuck on your hand,CHI,MOT,TRUE,37,0.16800000000012005,2.49599999999964,TRUE,FALSE,FALSE,FALSE,fraser/3-01-03a.xml,other error,5

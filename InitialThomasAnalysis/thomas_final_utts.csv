@@ -1,0 +1,1448 @@
+utterance,response,speaker,responder,error,age,overreg,response_time,utterance_time,past_tense,plural,ul,error_type,rl
+two mens men,two men,CHI,MOT,TRUE,26,TRUE,-0.16300000000001091,1.4160000000001673,FALSE,TRUE,3,overregularization,2
+two mens men,two men,CHI,MOT,TRUE,26,TRUE,0.0729999999998654,1.4160000000001673,FALSE,TRUE,3,overregularization,2
+two mans men,two mans,CHI,MOT,TRUE,26,TRUE,0.3020000000001346,2.0670000000000073,FALSE,TRUE,3,overregularization,2
+two mans men,two mans,CHI,MOT,TRUE,26,TRUE,1.0679999999997563,1.1030000000000655,FALSE,TRUE,3,overregularization,2
+baby mans men,oh you've put some men over your eyes,CHI,MOT,TRUE,26,TRUE,0.6190000000001419,1.5790000000001783,FALSE,TRUE,3,overregularization,9
+two foots,two foots,CHI,MOT,TRUE,28,TRUE,0.24499999999989086,1.6660000000001673,FALSE,TRUE,2,overregularization,2
+two peoples,two people,CHI,MOT,TRUE,28,TRUE,0.04599999999999227,1.48599999999999,FALSE,TRUE,2,overregularization,2
+a tree falled over,the tree's going to fall over because the train is going to hit them,CHI,MOT,TRUE,29,TRUE,0.010999999999967258,1.8119999999998981,TRUE,FALSE,4,overregularization,15
+two mans men,we can do it with the men,CHI,MOT,TRUE,30,TRUE,0.906999999999698,0.8110000000001492,FALSE,TRUE,3,overregularization,7
+a falled over,who fell over,CHI,MOT,TRUE,30,TRUE,0.12800000000015643,1.9389999999998508,TRUE,FALSE,3,overregularization,3
+yellow fishes,some fish,CHI,MOT,TRUE,31,TRUE,-0.12000000000000455,1.1999999999999886,FALSE,TRUE,2,overregularization,2
+uh buy fishes and sausages,fishes and sausages,CHI,MOT,TRUE,31,TRUE,-0.035000000000081855,2.54300000000012,FALSE,TRUE,5,overregularization,3
+um a lot of mans men,pardon,CHI,MOT,TRUE,31,TRUE,0.6849999999999454,2.088999999999942,FALSE,TRUE,6,overregularization,1
+lot of mans men,a lot of mans,CHI,MOT,TRUE,31,TRUE,0.0039999999999054126,1.1959999999999127,FALSE,TRUE,4,overregularization,4
+lot of rubbishes,a lot of rubbish,CHI,MOT,TRUE,32,TRUE,0.19700000000011642,1.7179999999998472,FALSE,TRUE,3,overregularization,4
+a my holded it,we'll keep it out because you might have a lot of fun playing with it mightn't you,CHI,MOT,TRUE,33,TRUE,-0.023000000000138243,1.7760000000002947,TRUE,FALSE,4,overregularization,19
+I fixeded fixed it,you fixeded it,CHI,MOT,TRUE,33,TRUE,0.06999999999970896,1.5210000000001855,TRUE,FALSE,4,overregularization,3
+lots_of fishes,do you think there are a lot of fishes,CHI,MOT,TRUE,33,TRUE,-0.09100000000034925,2.425000000000182,FALSE,TRUE,3,overregularization,9
+saw some big fishes,you saw some big fishes,CHI,MOT,TRUE,33,TRUE,0.02299999999991087,2.066000000000031,FALSE,TRUE,4,overregularization,5
+I have builded it,you've builded it,CHI,MOT,TRUE,33,TRUE,0.22000000000002728,1.9969999999998436,TRUE,FALSE,4,overregularization,4
+eated it,she eaten eat,CHI,MOT,TRUE,33,TRUE,0.04599999999982174,0.9410000000002583,TRUE,FALSE,2,overregularization,3
+it's not it's not fixeded fixed,it's not fixeded,CHI,MOT,TRUE,33,TRUE,-0.0929999999998472,2.530999999999949,TRUE,FALSE,8,overregularization,4
+Bob_the_Builder nearly runned,pardon,CHI,MOT,TRUE,33,TRUE,1.6369999999997162,2.3330000000000837,TRUE,FALSE,5,overregularization,1
+Bob_Builder fixeded fixed it,Bob_the_Builder fixed it,CHI,MOT,TRUE,33,TRUE,0.012000000000170985,2.031999999999698,TRUE,FALSE,5,overregularization,5
+good mans men,he's a good man is he,CHI,MOT,TRUE,34,TRUE,0.4639999999999418,1.8110000000001492,FALSE,TRUE,3,overregularization,7
+an droved away,he's driving away,CHI,MOT,TRUE,34,TRUE,0.36000000000012733,1.2769999999998163,TRUE,FALSE,3,overregularization,4
+lady getted off it a did something,the lady got off a blue caravan to get something,CHI,MOT,TRUE,34,TRUE,0.6409999999999911,4.13300000000001,TRUE,FALSE,7,overregularization,10
+someone droved over on path,pardon,CHI,MOT,TRUE,34,TRUE,0.6269999999999527,2.2640000000001237,TRUE,FALSE,5,overregularization,1
+someone droved over path,yes,CHI,MOT,TRUE,34,TRUE,-0.047000000000025466,1.683999999999969,TRUE,FALSE,4,overregularization,1
+just remember runned,you've just remember to run like the dustbin man when he gets out of his cab,CHI,MOT,TRUE,35,TRUE,0.06000000000040018,2.6349999999997635,TRUE,FALSE,3,overregularization,17
+droved away,what did the policeman find when he went to see the fireman,CHI,MOT,TRUE,35,TRUE,1.4399999999998272,1.9160000000001673,TRUE,FALSE,2,overregularization,12
+dustbin man tipper throwed it away,oh,CHI,MOT,TRUE,35,TRUE,0.20899999999983265,5.8400000000001455,TRUE,FALSE,6,overregularization,1
+Judy throwed it,Judy threw something away,CHI,MOT,TRUE,35,TRUE,0.23299999999994725,1.9039999999999964,TRUE,FALSE,3,overregularization,4
+big snake goed around,has somebody called you mischief,CHI,MOT,TRUE,35,TRUE,0.03499999999985448,2.19399999999996,TRUE,FALSE,4,overregularization,5
+big wind comed up and blows two down,the big the big wind come up and blown two of them down,CHI,MOT,TRUE,35,TRUE,0.5429999999996653,4.423000000000229,TRUE,FALSE,8,overregularization,13
+dirty beer lorry bringed that,the beer lorry brings that,CHI,MOT,TRUE,35,TRUE,0.023999999999887223,2.2289999999998145,TRUE,FALSE,5,overregularization,5
+lorry droved away,driven away Thomas,CHI,MOT,TRUE,35,TRUE,0.6269999999999527,2.286999999999807,TRUE,FALSE,3,overregularization,3
+some silly womans women,what about Bryony and Charlotte,CHI,MOT,TRUE,36,TRUE,3.9359999999996944,2.125,FALSE,TRUE,4,overregularization,5
+a lorry droved away,driven away,CHI,MOT,TRUE,36,TRUE,-0.012000000000170985,2.356999999999971,TRUE,FALSE,4,overregularization,2
+eated that,eated it,CHI,MOT,TRUE,36,TRUE,-0.04599999999982174,0.8709999999996398,TRUE,FALSE,2,overregularization,2
+a dustbin mens men arriving,no,CHI,MOT,TRUE,36,TRUE,0.20900000000000318,2.2749999999999773,FALSE,TRUE,5,overregularization,1
+I drawed under here,I know you did,CHI,MOT,TRUE,36,TRUE,-0.09300000000030195,0.9980000000000473,TRUE,FALSE,4,overregularization,4
+dustbin mens men are here,who's here,CHI,MOT,TRUE,36,TRUE,0.44099999999980355,2.04300000000012,FALSE,TRUE,5,overregularization,3
+mans men wanted to kiss the fire engine,I would have liked to have kissed the fireman,CHI,MOT,TRUE,36,TRUE,0.4640000000000555,2.6819999999999027,FALSE,TRUE,8,overregularization,9
+I I eated this one,that's right,CHI,MOT,TRUE,36,TRUE,-0.0340000000001055,2.089000000000169,TRUE,FALSE,5,overregularization,3
+Firefighter_Morris lied on the floor,oh right,CHI,MOT,TRUE,36,TRUE,0.19800000000032014,3.493999999999687,TRUE,FALSE,6,overregularization,2
+I think a mans men sleeps in there,do you think he sleeps in there,CHI,MOT,TRUE,36,TRUE,-0.010999999999967258,3.8079999999999927,FALSE,TRUE,8,overregularization,7
+then they said they selled them,and they didn't sell them,CHI,MOT,TRUE,37,TRUE,1.5899999999999181,2.925999999999931,TRUE,FALSE,6,overregularization,6
+an the boy runned,and the man,CHI,MOT,TRUE,37,TRUE,0.31300000000010186,1.2309999999999945,TRUE,FALSE,4,overregularization,3
+I drinked it all,I know,CHI,MOT,TRUE,37,TRUE,0.25500000000010914,1.1149999999997817,TRUE,FALSE,4,overregularization,2
+oh dustbin mens men are coming,yes,CHI,MOT,TRUE,38,TRUE,0.09300000000000352,1.6019999999999968,FALSE,TRUE,6,overregularization,1
+falled on floor,you're just eating your dinner and then you fell on the floor,CHI,MOT,TRUE,38,TRUE,0.40599999999994907,0.9989999999997963,TRUE,FALSE,3,overregularization,13
+now it sawed it post lorry coming by,hello post lorry,CHI,MOT,TRUE,38,TRUE,1.5450000000000017,6.292,TRUE,FALSE,8,overregularization,3
+it flied,we had a yellow balloon and what happened to it,CHI,MOT,TRUE,38,TRUE,-0.7079999999999984,1.0329999999999977,TRUE,FALSE,2,overregularization,10
+flied,it flying,CHI,MOT,TRUE,38,TRUE,0.3180000000000014,0.9639999999999986,TRUE,FALSE,1,overregularization,2
+it flieded flied,it flied,CHI,MOT,TRUE,38,TRUE,0.41799999999999926,0.8819999999999979,TRUE,FALSE,3,overregularization,2
+it flieded flied,yes,CHI,MOT,TRUE,38,TRUE,0,0.9990000000000023,TRUE,FALSE,3,overregularization,1
+it flieded flied it,you let go of the string didn't you,CHI,MOT,TRUE,38,TRUE,0.09300000000000352,1.5549999999999997,TRUE,FALSE,4,overregularization,9
+and we have beened on the flags tool,let's have a look what your clean under pants have got on them,CHI,MOT,TRUE,39,TRUE,-0.09400000000005093,3.4539999999997235,TRUE,TRUE,8,overregularization,14
+I just knowed,no you mustn't eat them,CHI,MOT,TRUE,39,TRUE,0.18499999999994543,1.4519999999999982,TRUE,FALSE,3,overregularization,6
+I sweeped it up,oh you're very clever,CHI,MOT,TRUE,39,TRUE,-0.09300000000030195,1.3700000000003456,TRUE,FALSE,4,overregularization,5
+I just maked it,Tom,CHI,MOT,TRUE,39,TRUE,0.5340000000001055,0.8820000000000618,TRUE,FALSE,4,overregularization,1
+you waked him up,have I,CHI,MOT,TRUE,40,TRUE,-0.010999999999967258,1.531999999999698,TRUE,FALSE,4,overregularization,2
+because the we all fixeded fixed it,you fixeded it,CHI,MOT,TRUE,41,TRUE,0,2.356999999999971,TRUE,FALSE,7,overregularization,3
+I have fixeded fixed it,you've fixeded it,CHI,MOT,TRUE,41,TRUE,0,1.3820000000000618,TRUE,FALSE,5,overregularization,4
+it blowed a xxx into a great big sea,it blew what into the sea,CHI,MOT,TRUE,42,TRUE,0,3.981999999999971,TRUE,FALSE,9,overregularization,6
+here we comed out of the shops,right,CHI,MOT,TRUE,42,TRUE,-0.01999999999998181,1.83400000000006,TRUE,FALSE,7,overregularization,1
+oh I throwed it down,well you'd better pick it up because I can't make it if some of the pieces are missing can I,CHI,MOT,TRUE,42,TRUE,0.04599999999982174,2.6590000000001055,TRUE,FALSE,5,overregularization,22
+now tell me the story when the fire catched on,when when next door caught fire,CHI,MOT,TRUE,43,TRUE,0.1510000000000673,5.2590000000000146,TRUE,FALSE,10,overregularization,6
+he throwed it in xxx,goodness me,CHI,MOT,TRUE,43,TRUE,-0.10500000000001819,1.8579999999997199,TRUE,FALSE,5,overregularization,2
+xxx you cutted it,I didn't cut it,CHI,MOT,TRUE,43,TRUE,-0.010999999999967258,3.8780000000001564,TRUE,FALSE,4,overregularization,5
+baby falled down,and look on the same page as,CHI,MOT,TRUE,43,TRUE,0,1.9039999999999964,TRUE,FALSE,3,overregularization,7
+now she falled down,I know,CHI,MOT,TRUE,43,TRUE,-1.113999999999976,1.9390000000000214,TRUE,FALSE,4,overregularization,2
+Mummy Henry felled fell into a deep blue sea,did he,CHI,MOT,TRUE,43,TRUE,0.7199999999997999,4.9340000000001965,TRUE,FALSE,9,overregularization,2
+now I've felled fell in,why did the fire man not put the fire out,CHI,MOT,TRUE,44,TRUE,-0.4530000000004293,1.300000000000182,TRUE,FALSE,6,overregularization,10
+cause I eated some of that,have you,CHI,MOT,TRUE,46,TRUE,-0.09299999999996089,1.8700000000000045,TRUE,FALSE,6,overregularization,2
+you haven't speaked through it,I haven't speaked through it,CHI,MOT,TRUE,47,TRUE,-0.022999999999996135,2.495999999999981,TRUE,FALSE,6,overregularization,6
+I sleeped slept,that you sleeped,CHI,MOT,TRUE,48,TRUE,-0.009000000000014552,1.4979999999999336,TRUE,FALSE,3,overregularization,3
+what if I runned ran away,no no no,CHI,MOT,TRUE,48,TRUE,-0.03099999999994907,1.7770000000000437,TRUE,FALSE,6,overregularization,3
+I shouldn't of builded built a wall that big,built a wall not builded,CHI,MOT,TRUE,48,TRUE,-0.023999999999887223,3.8899999999998727,TRUE,FALSE,10,overregularization,5
+a car runned over him,a car's run over him,CHI,MOT,TRUE,50,TRUE,0.057999999999992724,2.0670000000000073,TRUE,FALSE,5,overregularization,6
+look xxx throwed it into here,but they must have been jolly strong to pick up a police car and throw it into the dustbin truck,CHI,MOT,TRUE,50,TRUE,1.497000000000071,2.147999999999911,TRUE,FALSE,6,overregularization,20
+xxx that I builded this,one you built,CHI,MOT,TRUE,53,TRUE,-0.03199999999992542,5.0150000000001,TRUE,FALSE,5,overregularization,3
+something standed up,oh are you throwing that so sock again are you,CHI,MOT,TRUE,53,TRUE,0.012000000000170985,1.4399999999995998,TRUE,FALSE,3,overregularization,10
+it's all bended and squashed,bent,CHI,MOT,TRUE,53,TRUE,-0.041999999999916326,3.3840000000000146,TRUE,FALSE,6,overregularization,1
+the hula went ranned run away,has it gone up your sleeve,CHI,MOT,TRUE,54,TRUE,-0.4679999999999609,2.2409999999999854,TRUE,FALSE,6,overregularization,6
+I swimmed,you did swim didn't you,CHI,MOT,TRUE,54,TRUE,0.1650000000000773,1.183999999999969,TRUE,FALSE,2,overregularization,6
+you maded made it,well you make the next one and I'll slot it in the top,CHI,MOT,TRUE,54,TRUE,0,1.1959999999999127,TRUE,FALSE,4,overregularization,14
+I think I think a fish bited her,do you,CHI,MOT,TRUE,54,TRUE,0.0820000000003347,2.7859999999996035,TRUE,FALSE,8,overregularization,2
+there's rats outside and mouses inside,there better not be mice inside,CHI,MOT,TRUE,54,TRUE,-0.06899999999995998,2.49599999999964,FALSE,TRUE,7,overregularization,6
+I sitted next to him,did you,CHI,MOT,TRUE,55,TRUE,-0.0340000000001055,1.7530000000001564,TRUE,FALSE,5,overregularization,2
+don't want to because I've drawed some already,no,CHI,MOT,TRUE,55,TRUE,-0.057999999999992724,2.5779999999999745,TRUE,FALSE,10,overregularization,1
+I'll drawed it,you draw,CHI,MOT,TRUE,55,TRUE,-0.02299999999991087,1.0909999999998945,TRUE,FALSE,4,overregularization,2
+look at her hairs,xxx hair yes,CHI,MOT,TRUE,55,TRUE,-0.10399999999981446,1.6019999999998618,FALSE,TRUE,4,overregularization,3
+and I've only got one two persons,what is it you've got,CHI,MOT,TRUE,55,TRUE,0.04599999999999227,2.833000000000027,FALSE,TRUE,8,overregularization,6
+two persons,two persons,CHI,MOT,TRUE,55,TRUE,0.5800000000000409,0.9639999999999986,FALSE,TRUE,2,overregularization,2
+I could of not heared him,xxx,CHI,MOT,TRUE,55,TRUE,-0.03600000000005821,2.49599999999964,TRUE,FALSE,6,overregularization,1
+we went we drived into the car to see it,did you,CHI,MOT,TRUE,56,TRUE,0.04600000000002069,3.563999999999993,TRUE,FALSE,10,overregularization,2
+Thomas gived it me,precisely,CHI,MOT,TRUE,56,TRUE,0.023000000000138243,1.4169999999999163,TRUE,FALSE,4,overregularization,1
+I will do the leafs,then if we have that one that one and that one,CHI,MOT,TRUE,56,TRUE,0.03099999999994907,1.1259999999999764,FALSE,TRUE,5,overregularization,11
+you said I'm banneded banned from cheese,banneded from cheese,CHI,MOT,TRUE,56,TRUE,0.05600000000004002,2.7170000000000982,TRUE,FALSE,8,overregularization,3
+I throwed it down there,where,CHI,MOT,TRUE,56,TRUE,0.5679999999999836,2.2299999999999045,TRUE,FALSE,5,overregularization,1
+I just bited this and then it came off,no don't put it,CHI,MOT,TRUE,57,TRUE,-1.0679999999999836,2.380000000000109,TRUE,FALSE,9,overregularization,5
+Scoop falled in there,did he,CHI,MOT,TRUE,58,TRUE,0.023000000000138243,1.6369999999997162,TRUE,FALSE,4,overregularization,2
+and then all of them falled in,fell,CHI,MOT,TRUE,58,TRUE,1.087999999999738,2.450000000000273,TRUE,FALSE,7,overregularization,1
+and then the land falled in the water,the land fell in the water,CHI,MOT,TRUE,58,TRUE,0.5579999999999927,3.6219999999998436,TRUE,FALSE,8,overregularization,6
+I throwed it back for them,did you,CHI,MOT,TRUE,58,TRUE,0.1280000000000001,1.5559999999999974,TRUE,FALSE,6,overregularization,2
+your sausage machine it has already finded some,yes,CHI,MOT,TRUE,59,TRUE,-0.012000000000057298,4.192000000000007,TRUE,FALSE,8,overregularization,1
+xxx lady xxx mens men,well I would imagine ladies and mens are the same really it's only like a waistcoat,CHI,MOT,TRUE,59,TRUE,0.6089999999999236,3.6340000000000146,FALSE,TRUE,5,overregularization,17
+dugged dug,the digger had dugged dug,CHI,MOT,TRUE,59,TRUE,0.035000000000081855,0.9629999999999654,TRUE,FALSE,2,overregularization,5
+you should of catched it,do you know what these little rough bits are for there,CHI,MOT,TRUE,59,TRUE,-0.0929999999998472,1.6829999999999927,TRUE,FALSE,5,overregularization,11
+just pretend there was a cat on the train and it tripped up and he falled on the track,a cat on the train,CHI,MOT,TRUE,59,TRUE,0.19700000000011642,5.143000000000029,TRUE,FALSE,19,overregularization,5
+the fence is blowed on the track,oh dear,CHI,MOT,TRUE,59,TRUE,0.9629999999999654,3.6920000000000073,TRUE,FALSE,7,overregularization,2
+there were bluey they were very blue in the mens in the gents,Thomas said it was lego blue like lego bricks wasn't it,CHI,MOT,FALSE,59,TRUE,0.02500000000009095,5.886999999999944,TRUE,FALSE,13,no error,12
+peas,peas,CHI,MOT,FALSE,24,FALSE,0.7970000000000255,1.393000000000029,FALSE,TRUE,1,no error,1
+peas,Thomas,CHI,MOT,FALSE,24,FALSE,0.6389999999998963,1.5900000000000318,FALSE,TRUE,1,no error,1
+two eggs,oops,CHI,MOT,FALSE,24,FALSE,4.017000000000053,1.1489999999998872,FALSE,TRUE,2,no error,1
+are we done,finished now,CHI,MOT,FALSE,24,FALSE,0.2090000000002874,1.7419999999997344,TRUE,FALSE,3,no error,2
+shoes,and I've not had time not had time to clean your shoes yet,CHI,MOT,FALSE,24,FALSE,-1.3590000000000089,1.382000000000005,FALSE,TRUE,1,no error,14
+a stuck,we helped Wiggly Feet Pig find Tiny_Pig,CHI,MOT,FALSE,24,FALSE,0.06600000000003092,1.1960000000000264,TRUE,FALSE,2,no error,8
+all gone,yes,CHI,MOT,FALSE,24,FALSE,0.11599999999998545,1.1259999999999764,TRUE,FALSE,2,no error,1
+all gone,yes,CHI,MOT,FALSE,24,FALSE,0.31399999999996453,0.7770000000000437,TRUE,FALSE,2,no error,1
+ooh xxx jobs,to cut down some trees,CHI,MOT,FALSE,24,FALSE,0,2.031000000000404,FALSE,TRUE,3,no error,5
+oops xxx stuck woosh,but sometimes they grow a little bit too tall xxx light,CHI,MOT,FALSE,24,FALSE,-0.0340000000001055,1.4980000000000473,TRUE,FALSE,4,no error,11
+a gone,it gone hasn't it,CHI,MOT,FALSE,24,FALSE,0.36000000000012733,1.207999999999629,TRUE,FALSE,2,no error,5
+this shoes,shoes,CHI,MOT,TRUE,24,FALSE,-0.24399999999999977,2.426000000000002,FALSE,TRUE,2,other error,1
+two steps,two steps,CHI,MOT,FALSE,24,FALSE,-1.8450000000002547,1.8460000000000036,FALSE,TRUE,2,no error,2
+all done,all done,CHI,MOT,FALSE,24,FALSE,-0.09199999999999875,1.1489999999999991,TRUE,FALSE,2,no error,2
+grapes,and grapes,CHI,MOT,FALSE,24,FALSE,0.4650000000000034,0.6849999999999739,FALSE,TRUE,1,no error,2
+xxx hat gone,where the hat gone,CHI,MOT,FALSE,24,FALSE,0.160000000000025,1.7069999999999936,TRUE,FALSE,3,no error,4
+spoon gone,where the spoon gone,CHI,MOT,FALSE,24,FALSE,0.4270000000000209,1.6669999999999163,TRUE,FALSE,2,no error,4
+a gone,where the banana gone,CHI,MOT,FALSE,24,FALSE,0.03099999999994907,1.5069999999998345,TRUE,FALSE,2,no error,4
+juice all gone,it can't have all gone,CHI,MOT,FALSE,24,FALSE,2.188000000000102,3.563999999999851,TRUE,FALSE,3,no error,6
+all gone,are you hiding Mummy's sandals under the stairs,CHI,MOT,FALSE,24,FALSE,2.1829999999999927,0.5449999999999591,TRUE,FALSE,2,no error,9
+quack quack all gone,and then all of a sudden she lifted her head up and then we could see her swimming again on the pond,CHI,MOT,FALSE,24,FALSE,-0.02500000000009095,1.6489999999998872,TRUE,FALSE,4,no error,22
+all done,oh he gone,CHI,MOT,FALSE,25,FALSE,-0.11599999999998545,1.5670000000000073,TRUE,FALSE,2,no error,3
+all done,all done,CHI,MOT,FALSE,25,FALSE,-0.03500000000002501,1.0219999999999914,TRUE,FALSE,2,no error,2
+choos all done,choo_choos all gone,CHI,MOT,FALSE,25,FALSE,0.057999999999992724,1.7639999999998963,TRUE,FALSE,3,no error,4
+all done,all done,CHI,MOT,FALSE,25,FALSE,-0.010999999999967258,1.09699999999998,TRUE,FALSE,2,no error,2
+shops,shoes,CHI,MOT,FALSE,25,FALSE,-0.25300000000015643,1.106999999999971,FALSE,TRUE,1,no error,1
+hey Sue I said,you shouted Sue when you saw her,CHI,MOT,FALSE,25,FALSE,-0.31500000000005457,3.030999999999949,TRUE,FALSE,4,no error,7
+new shoes,they're blue aren't they,CHI,MOT,FALSE,25,FALSE,0.5809999999999036,1.2770000000000437,FALSE,TRUE,2,no error,6
+a choo gone,choo,CHI,MOT,FALSE,25,FALSE,0.10400000000026921,1.1149999999997817,TRUE,FALSE,3,no error,1
+got wash,it needs a wash because you've been putting pieces of apple and bits of toast in it,CHI,MOT,FALSE,25,FALSE,0.019000000000005457,1.4740000000000464,TRUE,FALSE,2,no error,18
+dropped the choc_choc on here,have you dropped it,CHI,MOT,FALSE,25,FALSE,2.875,2.449000000000069,TRUE,FALSE,6,no error,4
+all done,oh,CHI,MOT,FALSE,25,FALSE,0.04600000000004911,1.3579999999999472,TRUE,FALSE,2,no error,1
+oh dear peas,you can't eat those peas,CHI,MOT,FALSE,25,FALSE,-0.6619999999998072,1.5100000000002183,FALSE,TRUE,3,no error,6
+a choo_choos gone,and what about this one,CHI,MOT,FALSE,25,FALSE,-0.12800000000004275,1.3000000000000682,TRUE,FALSE,4,no error,5
+a steps xxx bus,the windows on the bus go up and down don't they,CHI,MOT,FALSE,25,FALSE,0.8110000000001492,2.367999999999938,FALSE,TRUE,4,no error,12
+big Po shoes,big Po,CHI,MOT,FALSE,25,FALSE,0.8240000000000123,1.6020000000000323,FALSE,TRUE,3,no error,2
+shoes stuck,thank you,CHI,MOT,FALSE,25,FALSE,0.26700000000005275,1.8230000000000928,TRUE,FALSE,2,no error,2
+no shoes,yes,CHI,MOT,FALSE,25,FALSE,-0.04500000000007276,1.8230000000000928,FALSE,TRUE,2,no error,1
+Daddad all done,that's not Daddy,CHI,MOT,FALSE,25,FALSE,0.6410000000000196,1.7879999999999825,TRUE,FALSE,3,no error,4
+Bow all gone,they're a lot smaller than our biscuits aren't they,CHI,MOT,FALSE,25,FALSE,-0.22100000000000364,1.1489999999998872,TRUE,FALSE,3,no error,11
+babies wipes,baby wipes,CHI,MOT,FALSE,25,FALSE,-0.6039999999998145,2.043999999999869,FALSE,TRUE,2,no error,2
+all gone,yes,CHI,MOT,FALSE,25,FALSE,0.3250000000000455,0.6040000000000418,TRUE,FALSE,2,no error,1
+all gone,what's Mummy saying,CHI,MOT,FALSE,25,FALSE,0.84699999999998,0.6739999999999782,TRUE,FALSE,2,no error,4
+done,no,CHI,MOT,FALSE,25,FALSE,-0.046000000000276486,0.6150000000002365,TRUE,FALSE,1,no error,1
+keys a Dadda,that's right,CHI,MOT,FALSE,25,FALSE,0.16300000000001091,1.625,FALSE,TRUE,3,no error,3
+babies,that's the little piece of bread isn't it,CHI,MOT,FALSE,25,FALSE,0.5339999999996508,0.9059999999999491,FALSE,TRUE,1,no error,10
+yellow all done,it come down very quickly because Mummy was outside earlier on putting some plants in,CHI,MOT,FALSE,25,FALSE,0,1.5090000000000146,TRUE,FALSE,3,no error,15
+pea all gone,mm,CHI,MOT,FALSE,26,FALSE,-0.24400000000014188,1.4630000000001928,TRUE,FALSE,3,no error,1
+men,just wash your hands Thomas,CHI,MOT,FALSE,26,FALSE,0.6660000000000537,0.9059999999999491,FALSE,TRUE,1,no error,5
+who did that,oh it's a bit of mess,CHI,MOT,FALSE,26,FALSE,0.17899999999985994,0.8830000000000382,TRUE,FALSE,3,no error,7
+all done,all done,CHI,MOT,FALSE,26,FALSE,0.1459999999997308,0.8700000000003456,TRUE,FALSE,2,no error,2
+all done,I don't think we'll worry about that,CHI,MOT,FALSE,26,FALSE,-1.0449999999998454,1.7879999999997835,TRUE,FALSE,2,no error,9
+all done,two shades of brown,CHI,MOT,FALSE,26,FALSE,0.06900000000018736,0.8360000000000127,TRUE,FALSE,2,no error,4
+gone two steps,what are those steps,CHI,MOT,FALSE,26,FALSE,-0.03499999999985448,1.6950000000001637,TRUE,FALSE,3,no error,4
+gone on steps,is that how the animals get in,CHI,MOT,FALSE,26,FALSE,0.5460000000002765,2.030999999999949,TRUE,FALSE,3,no error,7
+all done,which one looks like Nana,CHI,MOT,FALSE,26,FALSE,0.593000000000302,1.3809999999998581,TRUE,FALSE,2,no error,5
+a bix biscuits,biscuits,CHI,MOT,TRUE,26,FALSE,-0.11599999999998545,1.021000000000015,FALSE,TRUE,3,other error,1
+xxx a books,two books to look at and when we've looked at the books we'll do a little bit of finger,CHI,MOT,FALSE,26,FALSE,0.1799999999998363,2.6010000000001128,FALSE,TRUE,3,no error,21
+a stuck,is he stuck,CHI,MOT,FALSE,26,FALSE,1.2350000000001273,1.3240000000000691,TRUE,FALSE,2,no error,3
+men tea,men tea,CHI,MOT,FALSE,26,FALSE,0.2559999999998581,1.3120000000003529,FALSE,TRUE,2,no error,2
+all gone,all gone,CHI,MOT,FALSE,26,FALSE,1.28899999999976,1.149000000000342,TRUE,FALSE,2,no error,2
+choo choos,because some are nicer than the others aren't they,CHI,MOT,FALSE,26,FALSE,1.0920000000000982,1.5549999999998363,FALSE,TRUE,2,no error,10
+all done,just let me count them,CHI,MOT,FALSE,26,FALSE,-0.5920000000000982,0.7660000000000764,TRUE,FALSE,2,no error,5
+a stuck,they can count them and what will they find when they count them,CHI,MOT,FALSE,26,FALSE,-0.4760000000001128,1.2540000000003602,TRUE,FALSE,2,no error,13
+all gone,just twist the top like that,CHI,MOT,FALSE,26,FALSE,-0.8929999999995744,1.6369999999997162,TRUE,FALSE,2,no error,6
+gone,are you going to say goodbye,CHI,MOT,FALSE,26,FALSE,0.4420000000000073,1.1140000000004875,TRUE,FALSE,1,no error,6
+drops,we went to see Uncle Brian and Aunty Linda the other day,CHI,MOT,FALSE,26,FALSE,4.933999999999969,1.6490000000001146,FALSE,TRUE,1,no error,12
+choo choos juice,yes,CHI,MOT,FALSE,26,FALSE,0.4079999999999018,0.41800000000012005,FALSE,TRUE,3,no error,1
+choo choos,you went over a bridge with Daddy yesterday didn't you,CHI,MOT,FALSE,26,FALSE,-1.219000000000051,1.543999999999869,FALSE,TRUE,2,no error,11
+xxx books,more books,CHI,MOT,FALSE,26,FALSE,0.023000000000138243,2.507999999999811,FALSE,TRUE,2,no error,2
+two xxx chip shops,two three chip shops,CHI,MOT,FALSE,26,FALSE,0.0820000000003347,3.2409999999999854,FALSE,TRUE,4,no error,4
+yuck trucks,Thomas,CHI,MOT,FALSE,26,FALSE,0.40200000000004366,1.3929999999995744,FALSE,TRUE,2,no error,1
+no touch a trucks,no touch,CHI,MOT,FALSE,26,FALSE,0.3370000000000033,2.1359999999999957,FALSE,TRUE,4,no error,2
+n Nin_Nin a men,mhm,CHI,MOT,FALSE,26,FALSE,0.05100000000015825,2.1359999999999673,FALSE,TRUE,5,no error,1
+all done,now have you got a picture of a tipper truck,CHI,MOT,FALSE,26,FALSE,0.0820000000003347,1,TRUE,FALSE,2,no error,10
+two men,oops,CHI,MOT,FALSE,26,FALSE,0.3650000000000091,1.1380000000001473,FALSE,TRUE,2,no error,1
+a more stuck,Thomas you're not stuck,CHI,MOT,FALSE,26,FALSE,0.11599999999998545,3.1230000000000473,TRUE,FALSE,3,no error,5
+all done light,it's a bright light,CHI,MOT,FALSE,26,FALSE,1.8919999999999995,2.032,TRUE,FALSE,3,no error,5
+two eyes,excuse me,CHI,MOT,FALSE,26,FALSE,0.17399999999997817,1.55600000000004,FALSE,TRUE,2,no error,2
+all done,so what have all these faces got,CHI,MOT,FALSE,26,FALSE,1.5209999999999582,0.7899999999999636,TRUE,FALSE,2,no error,7
+two books,those are a little bit like the biscuits we've just made,CHI,MOT,FALSE,26,FALSE,-0.035000000000081855,0.7670000000000528,FALSE,TRUE,2,no error,12
+all done big splash,yes,CHI,MOT,FALSE,26,FALSE,0.024000000000114596,2.3559999999999945,TRUE,FALSE,4,no error,1
+done a poo,what's the dolly's name,CHI,MOT,FALSE,26,FALSE,1.2139999999999418,1.997000000000071,TRUE,FALSE,3,no error,6
+aya all done babies,what did you say then,CHI,MOT,FALSE,26,FALSE,3.7789999999999964,1.5090000000000146,TRUE,FALSE,4,no error,5
+all done Dobbin,are you getting on as well,CHI,MOT,FALSE,26,FALSE,0.7730000000001382,1.2309999999997672,TRUE,FALSE,3,no error,6
+no steps,oh yes,CHI,MOT,FALSE,26,FALSE,0.9809999999999945,1.543999999999869,FALSE,TRUE,2,no error,2
+a stuck,what do you want Thomas,CHI,MOT,FALSE,26,FALSE,0.5199999999999818,2.0549999999998363,TRUE,FALSE,2,no error,5
+oh two man men,that was some passengers waiting at the side of the platform for the train,CHI,MOT,TRUE,26,FALSE,2.8589999999999236,2.1599999999998545,FALSE,TRUE,4,other error,14
+where gone two trucks,that's Daddy's teddy,CHI,MOT,FALSE,26,FALSE,0.84699999999998,1.8460000000000036,TRUE,TRUE,4,no error,5
+a big boxes,what have you got,CHI,MOT,FALSE,27,FALSE,0.9519999999999982,1.2649999999998727,FALSE,TRUE,3,no error,4
+a bubble gone,now don't,CHI,MOT,FALSE,27,FALSE,0.046999999999997044,1.4390000000000072,TRUE,FALSE,3,no error,3
+bubble nan gone,where the bubble gone,CHI,MOT,TRUE,27,FALSE,0.012000000000000455,1.625,TRUE,FALSE,3,other error,4
+bubble done,bubble gone,CHI,MOT,FALSE,27,FALSE,0.058000000000006935,1.4279999999999973,TRUE,FALSE,2,no error,2
+a big bubbles,it is a big bubble isn't it,CHI,MOT,TRUE,27,FALSE,-0.25600000000002865,2.090000000000032,FALSE,TRUE,3,other error,8
+more bubbles,and that's the palm of your hand,CHI,MOT,FALSE,27,FALSE,0.5,1.2770000000000437,FALSE,TRUE,2,no error,8
+where Po gone,Po's going down the slide,CHI,MOT,FALSE,27,FALSE,0,2.6700000000000728,TRUE,FALSE,3,no error,6
+steps,well I haven't forgotten how terribly painful is to xxx,CHI,MOT,FALSE,27,FALSE,-0.8129999999996471,1.1019999999998618,FALSE,TRUE,1,no error,11
+xxx the watch cherries,watch the cherries,CHI,MOT,TRUE,27,FALSE,-0.3949999999999818,4.423000000000229,FALSE,TRUE,4,other error,3
+no drops,no drops,CHI,MOT,TRUE,27,FALSE,-0.13799999999991996,1.2770000000000437,FALSE,TRUE,2,other error,2
+stuck,I think you're saying vroom vroom because you know it's the racing driver rather than the train driver,CHI,MOT,FALSE,27,FALSE,0.544999999999618,1.0210000000001855,TRUE,FALSE,1,no error,20
+a broken,oops a daisy,CHI,MOT,FALSE,27,FALSE,0.2260000000000133,1.7469999999999999,TRUE,FALSE,2,no error,3
+wellies gone,where the wellies gone,CHI,MOT,FALSE,27,FALSE,0.1069999999999709,1.9730000000000132,FALSE,TRUE,2,no error,4
+a crisps,there you are,CHI,MOT,FALSE,27,FALSE,0.1330000000000382,1.6539999999999964,FALSE,TRUE,2,no error,3
+on a xxx a shops,and where are the plant pots on this page,CHI,MOT,FALSE,27,FALSE,-0.022999999999683496,2.5540000000000873,FALSE,TRUE,5,no error,9
+big trucks gone,after all that work the lawn looks beautiful,CHI,MOT,FALSE,27,FALSE,0.3020000000001346,1.8690000000001419,TRUE,TRUE,3,no error,8
+poos all done,pardon,CHI,MOT,FALSE,27,FALSE,2.191000000000031,2.160000000000082,TRUE,TRUE,3,no error,1
+where's tree gone,where's the picture of the tree gone,CHI,MOT,FALSE,27,FALSE,0.03999999999996362,2.1200000000003456,TRUE,FALSE,4,no error,8
+three cats,how many pussy cats have we got,CHI,MOT,FALSE,27,FALSE,-0.9290000000000873,1.9280000000003383,FALSE,TRUE,2,no error,7
+yellow boxes,yes,CHI,MOT,FALSE,27,FALSE,-0.2669999999999959,2.0079999999999814,FALSE,TRUE,2,no error,1
+yellow boxes,you want to post in the yellow box again,CHI,MOT,FALSE,27,FALSE,0.13999999999998636,2.9600000000000364,FALSE,TRUE,2,no error,9
+a balloons,a blue one,CHI,MOT,FALSE,27,FALSE,0,1.3820000000000618,FALSE,TRUE,2,no error,3
+tomatoes,it was a little tomato,CHI,MOT,FALSE,27,FALSE,-0.06899999999995998,1.2770000000000437,FALSE,TRUE,1,no error,5
+a wellies,yes,CHI,MOT,FALSE,27,FALSE,0.103999999999985,1.382000000000005,FALSE,TRUE,2,no error,1
+all done juice,this juice,CHI,MOT,FALSE,27,FALSE,0.7429999999999382,2.206000000000131,TRUE,FALSE,3,no error,2
+trains,you wait till she hears this tape and she'll smack your bum,CHI,MOT,FALSE,27,FALSE,0.05999999999994543,1.4160000000001673,FALSE,TRUE,1,no error,13
+doggies,doggies,CHI,MOT,FALSE,27,FALSE,0.7540000000003602,0.6969999999996617,FALSE,TRUE,1,no error,1
+been too,you were a giddy boy weren't you,CHI,MOT,FALSE,27,FALSE,0.9470000000001164,1.300000000000182,TRUE,FALSE,2,no error,8
+Thomas done it,no,CHI,MOT,FALSE,27,FALSE,0.34799999999995634,1.3469999999997526,TRUE,FALSE,3,no error,1
+brush a trees,you went to the shops didn't you,CHI,MOT,FALSE,27,FALSE,0,1.961999999999989,FALSE,TRUE,3,no error,8
+leaks,there were some leaks,CHI,MOT,FALSE,27,FALSE,1.0570000000000164,1.856999999999971,FALSE,TRUE,1,no error,4
+a bee bah Dimitra ne more cherries,yes,CHI,MOT,FALSE,27,FALSE,-0.035000000000081855,4.329999999999927,FALSE,TRUE,7,no error,1
+three boxes,we went into the baker's as well didn't we,CHI,MOT,FALSE,27,FALSE,0.21999999999997044,1.1960000000000264,FALSE,TRUE,2,no error,11
+run away xxx,Purdie's following Felix round the garden,CHI,MOT,FALSE,27,FALSE,0.6890000000000782,1.2770000000000437,TRUE,FALSE,3,no error,7
+a man came,was it a man called Alan,CHI,MOT,FALSE,27,FALSE,0.3389999999999418,3.6340000000000146,TRUE,FALSE,3,no error,6
+two two moneys,two moneys,CHI,MOT,TRUE,27,FALSE,0.8130000000001019,2.8099999999999454,FALSE,TRUE,3,other error,2
+boy gone,and the boy got a hat but the little girl hasn't has she,CHI,MOT,FALSE,27,FALSE,0.3340000000000032,1.4399999999999977,TRUE,FALSE,2,no error,14
+daffodils,it's a frog,CHI,MOT,FALSE,27,FALSE,0.46399999999999864,1.545000000000016,FALSE,TRUE,1,no error,4
+two heads,pardon,CHI,MOT,FALSE,27,FALSE,0.33600000000001273,1.5330000000000155,FALSE,TRUE,2,no error,1
+two moneys please,two moneys please,CHI,MOT,TRUE,27,FALSE,-0.08899999999994179,1.8920000000000528,FALSE,TRUE,3,other error,3
+a trains,left the car in the car park and walked to a station,CHI,MOT,FALSE,27,FALSE,-0.03499999999985448,1.0329999999999018,FALSE,TRUE,2,no error,12
+cranes,cranes,CHI,MOT,FALSE,27,FALSE,0.17799999999988358,0.999000000000251,FALSE,TRUE,1,no error,1
+red ones,you haven't even got,CHI,MOT,FALSE,27,FALSE,0.012000000000000455,0.8359999999999985,FALSE,TRUE,2,no error,5
+yellow ones,you haven't even got any yellow or white shoes,CHI,MOT,FALSE,27,FALSE,-0.10500000000000398,0.929000000000002,FALSE,TRUE,2,no error,10
+done,is it too late for the potty,CHI,MOT,FALSE,27,FALSE,0.2440000000000282,0.6270000000000095,TRUE,FALSE,1,no error,7
+two pears,two pears,CHI,MOT,FALSE,27,FALSE,-0.023000000000024556,1.4629999999999654,FALSE,TRUE,2,no error,2
+Nin_Nin teeth hurt,pardon,CHI,MOT,FALSE,27,FALSE,0.28099999999994907,2.2049999999999272,FALSE,TRUE,4,no error,1
+teeth teeth,cheese,CHI,MOT,FALSE,27,FALSE,0.09300000000007458,2.8099999999999454,FALSE,TRUE,2,no error,1
+teeth,teeth,CHI,MOT,FALSE,27,FALSE,0.7889999999999873,1.0690000000001874,FALSE,TRUE,1,no error,1
+two moneys,yes,CHI,MOT,TRUE,27,FALSE,0.035000000000081855,1.2189999999998236,FALSE,TRUE,2,other error,1
+two moneys,two moneys,CHI,MOT,TRUE,27,FALSE,0.03499999999985448,1.0450000000000728,FALSE,TRUE,2,other error,2
+moneys,moneys,CHI,MOT,TRUE,27,FALSE,-0.035000000000081855,0.8479999999999563,FALSE,TRUE,1,other error,1
+oh two ones,two ones,CHI,MOT,TRUE,27,FALSE,-0.13999999999987267,1.3940000000000055,FALSE,TRUE,3,other error,2
+two moneys two moneys two moneys,two moneys,CHI,MOT,TRUE,27,FALSE,-0.08399999999983265,4.632999999999811,FALSE,TRUE,6,other error,2
+a more box of moneys,yes,CHI,MOT,TRUE,27,FALSE,0,2.2870000000000346,FALSE,TRUE,5,other error,1
+box moneys,box moneys,CHI,MOT,TRUE,27,FALSE,-0.09300000000007458,1.6140000000000327,FALSE,TRUE,2,other error,2
+box of moneys,box of moneys,CHI,MOT,TRUE,27,FALSE,0.16000000000008185,1.8689999999999145,FALSE,TRUE,3,other error,3
+moneys,moneys,CHI,MOT,TRUE,27,FALSE,0.2319999999999709,1.0450000000000728,FALSE,TRUE,1,other error,1
+moneys,Mummy's,CHI,MOT,TRUE,27,FALSE,1.8239999999996144,1.568000000000211,FALSE,TRUE,1,other error,2
+some moneys,some money,CHI,MOT,TRUE,28,FALSE,-0.011999999999943611,1.2539999999999054,FALSE,TRUE,2,other error,2
+all done fish,all done fish,CHI,MOT,FALSE,28,FALSE,0.568000000000211,1.8809999999998581,TRUE,FALSE,3,no error,3
+there's moneys,moneys,CHI,MOT,TRUE,28,FALSE,-0.12800000000015643,1.13799999999992,FALSE,TRUE,3,other error,1
+big moneys,big moneys,CHI,MOT,TRUE,28,FALSE,0.1069999999999709,1.2070000000003347,FALSE,TRUE,2,other error,2
+two moneys,are you going back to play with Mummy's money,CHI,MOT,TRUE,28,FALSE,0.5470000000000255,1.1150000000002365,FALSE,TRUE,2,other error,10
+one feet,what color's feet,CHI,MOT,TRUE,28,FALSE,0.531999999999698,1.1880000000001019,FALSE,TRUE,2,other error,4
+machines,yes,CHI,MOT,FALSE,28,FALSE,-0.20899999999983265,1.1839999999997417,FALSE,TRUE,1,no error,1
+what colors,what colors,CHI,MOT,FALSE,28,FALSE,-0.018000000000029104,1.6369999999997162,FALSE,TRUE,2,no error,2
+open doors,that's cute isn't it,CHI,MOT,FALSE,28,FALSE,0.004000000000019099,1.3579999999999472,FALSE,TRUE,2,no error,6
+two moneys,two moneys,CHI,MOT,TRUE,28,FALSE,-0.10400000000004184,1.3699999999998909,FALSE,TRUE,2,other error,2
+pinks,what color,CHI,MOT,TRUE,28,FALSE,0.7130000000001928,1.393000000000029,FALSE,TRUE,1,other error,2
+pinks,pink pigs,CHI,MOT,TRUE,28,FALSE,0.18600000000014916,0.9049999999997453,FALSE,TRUE,1,other error,2
+a moneys,if you have all your toys out together you lose interest don't you,CHI,MOT,TRUE,28,FALSE,0.6359999999999673,1.4039999999999964,FALSE,TRUE,2,other error,14
+one crisps please,are you giving him crisps as well,CHI,MOT,TRUE,28,FALSE,-0.07000000000005002,1.9160000000000537,FALSE,TRUE,3,other error,7
+the money the money the moneys,the moneys the moneys,CHI,MOT,TRUE,28,FALSE,-0.04599999999982174,2.5540000000000873,FALSE,TRUE,6,other error,4
+Smarties got a xxx,I can't tell what you're saying,CHI,MOT,FALSE,28,FALSE,1.9840000000000373,2.3099999999999454,TRUE,FALSE,4,no error,8
+all done Mummy,now what have you done,CHI,MOT,FALSE,28,FALSE,-0.0809999999999036,1.41599999999994,TRUE,FALSE,3,no error,5
+spiders,spiders,CHI,MOT,FALSE,28,FALSE,-0.09300000000007458,2.2639999999998963,FALSE,TRUE,1,no error,1
+the bikes,oh yes,CHI,MOT,FALSE,28,FALSE,-0.24399999999999977,1.8930000000000007,FALSE,TRUE,2,no error,2
+the two moneys,that's right,CHI,MOT,TRUE,28,FALSE,-0.25499999999988177,1.625,FALSE,TRUE,3,other error,3
+one pounds,and these are a silver color,CHI,MOT,TRUE,28,FALSE,-0.03499999999996817,1.961999999999989,FALSE,TRUE,2,other error,6
+broke one,broke one,CHI,MOT,TRUE,28,FALSE,0.057999999999992724,1.194999999999709,TRUE,FALSE,2,other error,2
+Thomas brought it,Thomas brought it,CHI,MOT,FALSE,28,FALSE,0.32500000000001705,1.938999999999993,TRUE,FALSE,3,no error,3
+all done more,all done more,CHI,MOT,TRUE,28,FALSE,0.057999999999992724,1.2300000000000182,TRUE,FALSE,3,other error,3
+what colors,blue,CHI,MOT,FALSE,28,FALSE,-1.2650000000001,2.019999999999982,FALSE,TRUE,2,no error,1
+a shiners,pardon,CHI,MOT,FALSE,28,FALSE,0.8819999999996071,0.8250000000002728,FALSE,TRUE,2,no error,1
+shiners,here it is Thomas,CHI,MOT,FALSE,28,FALSE,1.150000000000091,1.6599999999998545,FALSE,TRUE,1,no error,4
+fell off,xxx off,CHI,MOT,FALSE,28,FALSE,1.5330000000000155,1.5439999999999827,TRUE,FALSE,2,no error,2
+oh tipped over,pardon,CHI,MOT,FALSE,28,FALSE,1.5789999999999509,1.7989999999999782,TRUE,FALSE,3,no error,1
+tipped over,ah,CHI,MOT,FALSE,28,FALSE,0.3140000000000782,1.41599999999994,TRUE,FALSE,2,no error,1
+stuck,does the apple taste good,CHI,MOT,FALSE,28,FALSE,1.4529999999999745,1.0340000000001055,TRUE,FALSE,1,no error,5
+all done,and who was there,CHI,MOT,FALSE,28,FALSE,-0.13999999999998636,1.34699999999998,TRUE,FALSE,2,no error,4
+two pences please,oh,CHI,MOT,FALSE,28,FALSE,-0.4720000000000937,2.115000000000009,FALSE,TRUE,3,no error,1
+uh a done a poo,go back and see Dimitra,CHI,MOT,FALSE,28,FALSE,1.0329999999999018,2.1359999999999673,TRUE,FALSE,5,no error,5
+big done,the one on top Thomas,CHI,MOT,FALSE,28,FALSE,0.16300000000001091,1.1610000000000582,TRUE,FALSE,2,no error,5
+leaves,well you,CHI,MOT,FALSE,28,FALSE,-1.1829999999999927,1.184000000000026,FALSE,TRUE,1,no error,2
+a chips,oh Daddy,CHI,MOT,FALSE,28,FALSE,-1.2250000000003638,1.2260000000001128,FALSE,TRUE,2,no error,2
+opened,well I'm just going to take this cellophane wrapper off here,CHI,MOT,FALSE,28,FALSE,-0.22000000000002728,2.2519999999999527,TRUE,FALSE,1,no error,12
+Mummy got a drink here,yes,CHI,MOT,FALSE,28,FALSE,-0.03499999999985448,2.8209999999999127,TRUE,FALSE,5,no error,1
+bought shop,well we bought something else at the shop yesterday didn't we,CHI,MOT,FALSE,28,FALSE,1.543999999999869,1.4750000000001364,TRUE,FALSE,2,no error,12
+Mummy milk read books,you're tired so you want to sit on Mummy's knee and have a bath,CHI,MOT,FALSE,28,FALSE,0.2539999999999978,2.554000000000002,FALSE,TRUE,4,no error,16
+tree a leafs,pardon,CHI,MOT,FALSE,28,FALSE,0.5220000000000198,1.7769999999999868,FALSE,TRUE,3,no error,1
+Grandma Grandma gone,Grandma's at home this morning,CHI,MOT,FALSE,28,FALSE,0.7549999999998818,5.932999999999993,TRUE,FALSE,3,no error,6
+a doors,we walk,CHI,MOT,FALSE,28,FALSE,2.665999999999997,0.7740000000000009,FALSE,TRUE,2,no error,2
+xxx opened,she given you to play with when you were having your nappie changed,CHI,MOT,FALSE,28,FALSE,0.29300000000012005,1.1199999999998909,TRUE,FALSE,2,no error,13
+watch Pippin on and billets,watch Pippin on and the billets,CHI,MOT,FALSE,28,FALSE,0.4300000000000068,2.5999999999999943,FALSE,TRUE,5,no error,6
+chips MacDonald's,chips MacDonald's,CHI,MOT,TRUE,29,FALSE,0.09300000000007458,1.5670000000000073,FALSE,TRUE,3,other error,3
+a de stuck,you're stuck,CHI,MOT,FALSE,29,FALSE,0,1.219000000000051,TRUE,FALSE,3,no error,3
+did wave,yes you wave,CHI,MOT,FALSE,29,FALSE,0.057999999999992724,1.2309999999999945,TRUE,FALSE,2,no error,3
+all done a big poo,no Purdie wouldn't do that,CHI,MOT,FALSE,29,FALSE,-0.12000000000034561,2.6530000000002474,TRUE,FALSE,5,no error,6
+four apples,xxx four,CHI,MOT,FALSE,29,FALSE,-2.0670000000000073,2.0799999999999272,FALSE,TRUE,2,no error,2
+sit an hours,sit an hour,CHI,MOT,TRUE,29,FALSE,0.6090000000000089,1.6020000000000039,FALSE,TRUE,3,other error,3
+an hours,an hours,CHI,MOT,TRUE,29,FALSE,0.03700000000000614,0.7770000000000152,FALSE,TRUE,2,other error,2
+dear oh dear an hours,sit an hour,CHI,MOT,TRUE,29,FALSE,0.8039999999999736,3.1929999999999836,FALSE,TRUE,5,other error,3
+a some sandwiches,some sandwiches,CHI,MOT,FALSE,29,FALSE,0.4290000000000873,1.3119999999998981,FALSE,TRUE,3,no error,2
+Mummy xxx the moneys,Mummy's bringing some money,CHI,MOT,TRUE,29,FALSE,0.34999999999990905,2.4600000000000364,FALSE,TRUE,4,other error,5
+xxx the moneys,there we are,CHI,MOT,TRUE,29,FALSE,1.1469999999999345,1.5879999999999654,FALSE,TRUE,3,other error,3
+more moneys,more moneys,CHI,MOT,TRUE,29,FALSE,-9.999999999763531e-4,1.0960000000000036,FALSE,TRUE,2,other error,2
+moneys,with some money,CHI,MOT,TRUE,29,FALSE,-0.06300000000010186,1.0150000000001,FALSE,TRUE,1,other error,3
+where xxx been,whoops,CHI,MOT,FALSE,29,FALSE,0.7309999999997672,1.8339999999998327,TRUE,FALSE,3,no error,1
+seen,very good,CHI,MOT,FALSE,29,FALSE,-0.010999999999967258,0.4639999999999418,TRUE,FALSE,1,no error,2
+grapes please,you'd like some grapes as well,CHI,MOT,FALSE,29,FALSE,0.26700000000005275,2.0529999999998836,FALSE,TRUE,2,no error,7
+stuck,steady,CHI,MOT,FALSE,29,FALSE,1.5209999999997308,0.8350000000000364,TRUE,FALSE,1,no error,1
+stuck,don't move the cloth because we've got cups of tea on it haven't we,CHI,MOT,FALSE,29,FALSE,0.6849999999999454,0.7310000000002219,TRUE,FALSE,1,no error,17
+Ray gone,you be careful,CHI,MOT,FALSE,29,FALSE,0.18600000000000705,1.149000000000001,TRUE,FALSE,2,no error,3
+sent Thomas,that's really nice isn't it,CHI,MOT,FALSE,29,FALSE,-0.16199999999997772,1.4739999999999895,TRUE,FALSE,2,no error,7
+Thomas pocket moneys,Thomas pocket,CHI,MOT,TRUE,29,FALSE,1.48599999999999,2.844000000000051,FALSE,TRUE,3,other error,2
+train two moneys,are you going to have a cup of tea with Mummy like you did yesterday,CHI,MOT,TRUE,29,FALSE,0.6730000000000018,2.2169999999999845,FALSE,TRUE,3,other error,15
+stuck,if you want to come to playgroup you'd better have your breakfast quickly,CHI,MOT,FALSE,29,FALSE,0.15099999999995362,0.5230000000000246,TRUE,FALSE,1,no error,14
+oh no stuck,are you stuck,CHI,MOT,FALSE,29,FALSE,0.10399999999992815,2.0780000000000882,TRUE,FALSE,3,no error,3
+the white ones,white envelope and it had a little blue stamp on it,CHI,MOT,FALSE,29,FALSE,0.5049999999998818,1.4529999999999745,FALSE,TRUE,3,no error,11
+bin bag men,well it's recycling day,CHI,MOT,FALSE,29,FALSE,-0.047000000000025466,1.3600000000001273,FALSE,TRUE,3,no error,5
+stuck,oh that was very dramatic Thomas,CHI,MOT,FALSE,29,FALSE,-0.1330000000000382,0.9600000000000364,TRUE,FALSE,1,no error,6
+stuck,you're not stuck,CHI,MOT,FALSE,29,FALSE,-0.25300000000015643,1.4270000000001346,TRUE,FALSE,1,no error,4
+twos hat,two hats from McDonalds,CHI,MOT,TRUE,29,FALSE,0.1730000000002292,1.2539999999999054,FALSE,TRUE,2,other error,4
+Purdie gone,pardon,CHI,MOT,FALSE,29,FALSE,0.2319999999999709,1.7480000000000473,TRUE,FALSE,2,no error,1
+finished,finished,CHI,MOT,FALSE,29,FALSE,-0.16300000000001091,0.9519999999999982,TRUE,FALSE,1,no error,1
+a big bites,mhm,CHI,MOT,TRUE,29,FALSE,0.06400000000007822,0.9639999999999418,FALSE,TRUE,3,other error,1
+one gone,one done,CHI,MOT,FALSE,29,FALSE,0.30199999999967986,1.1260000000002037,TRUE,FALSE,2,no error,2
+two moneys,yes,CHI,MOT,TRUE,30,FALSE,-0.03500000000002501,0.8940000000000055,FALSE,TRUE,2,other error,1
+xxx broke broken now,what's the matter,CHI,MOT,TRUE,30,FALSE,-0.05799999999999983,1.9160000000000004,TRUE,FALSE,4,other error,4
+no fit in,the lego where's the lego train,CHI,MOT,FALSE,30,FALSE,-0.9990000000000236,2.2180000000000746,TRUE,FALSE,3,no error,7
+two balls,two what darling,CHI,MOT,FALSE,30,FALSE,1.8120000000000118,1.1140000000000043,FALSE,TRUE,2,no error,3
+Purdie lot a teeth,pardon,CHI,MOT,FALSE,30,FALSE,0.32900000000000773,2.1090000000000373,FALSE,TRUE,4,no error,1
+lot le teeth,you've hurt your teeth,CHI,MOT,FALSE,30,FALSE,0.4519999999999982,1.4250000000000114,FALSE,TRUE,3,no error,5
+dirty things,dirty things,CHI,MOT,FALSE,30,FALSE,0.6730000000000018,1.41700000000003,FALSE,TRUE,2,no error,2
+two moneys please driver,I don't think the digger man takes money does he,CHI,MOT,TRUE,30,FALSE,1.887000000000171,2.8170000000000073,FALSE,TRUE,4,other error,11
+two man a ladders,two man a ladders,CHI,MOT,TRUE,30,FALSE,0.27500000000009095,2.074999999999818,FALSE,TRUE,4,other error,4
+broken off,oh what's that that broken off,CHI,MOT,FALSE,30,FALSE,0.2860000000000582,0.919999999999618,TRUE,FALSE,2,no error,7
+a de xxx in rings,is it the measuring spoons in the kitchen,CHI,MOT,FALSE,30,FALSE,0.7880000000000109,3.3530000000000655,FALSE,TRUE,5,no error,8
+two moneys,two moneys please,CHI,MOT,TRUE,30,FALSE,0.2909999999999968,0.7539999999999623,FALSE,TRUE,2,other error,3
+Mummy currants,Mummy's what darling,CHI,MOT,FALSE,30,FALSE,0.6559999999999491,0.9400000000000546,FALSE,TRUE,2,no error,4
+Mummy currants,Mummy's sultanas,CHI,MOT,FALSE,30,FALSE,0.7889999999999873,1.509999999999991,FALSE,TRUE,2,no error,3
+knock xxx leaves,no,CHI,MOT,FALSE,30,FALSE,0.19800000000032014,1.7059999999996762,FALSE,TRUE,3,no error,1
+another steps,that was very clever really wasn't it,CHI,MOT,TRUE,30,FALSE,0.16200000000003456,1.63799999999992,FALSE,TRUE,2,other error,8
+gone back now,has he gone back now,CHI,MOT,FALSE,30,FALSE,0.11999999999989086,1.4389999999998508,TRUE,FALSE,3,no error,5
+all done finished,and then do you think we're allowed to sit and have one,CHI,MOT,FALSE,30,FALSE,0.8959999999999582,1.3240000000000691,TRUE,FALSE,3,no error,13
+run away,are you going to put are you going to put a chocolate button on that one,CHI,MOT,FALSE,30,FALSE,-0.9800000000000182,1.5440000000000964,TRUE,FALSE,2,no error,16
+Jess fell over,xxx,CHI,MOT,FALSE,30,FALSE,-1.5679999999999836,1.6370000000000005,TRUE,FALSE,3,no error,1
+gone in the postbox,going in the postbox,CHI,MOT,FALSE,30,FALSE,-0.011000000000002785,1.6950000000000003,TRUE,FALSE,4,no error,4
+whoops a gone again,is it gone again,CHI,MOT,FALSE,30,FALSE,-0.20900000000000318,2.2990000000000066,TRUE,FALSE,4,no error,4
+play lambs there,are you saying something about lambs Thomas,CHI,MOT,FALSE,30,FALSE,1.6260000000002037,2.507000000000062,FALSE,TRUE,3,no error,7
+lambs,lambs,CHI,MOT,FALSE,30,FALSE,0.5100000000002183,0.6739999999999782,FALSE,TRUE,1,no error,1
+Nana Grandad brought it,Nana and Grandad brought it,CHI,MOT,FALSE,30,FALSE,0.4639999999999418,2.740000000000009,TRUE,FALSE,4,no error,5
+dropped ones,you've dropped ones,CHI,MOT,TRUE,30,FALSE,0.15099999999983993,1.5790000000001783,FALSE,TRUE,2,other error,4
+eat sweets,you're eating the sweets are you,CHI,MOT,FALSE,30,FALSE,-0.8470000000002074,2.019999999999982,FALSE,TRUE,2,no error,7
+not where gone,don't you think it's going to be very big,CHI,MOT,FALSE,30,FALSE,1.4859999999998763,1.1959999999999127,TRUE,FALSE,3,no error,11
+stuck,no,CHI,MOT,FALSE,30,FALSE,0.7550000000000097,1.0450000000000017,TRUE,FALSE,1,no error,1
+bit my finger so,which finger did he bite,CHI,MOT,FALSE,30,FALSE,0.30700000000001637,2.187000000000012,TRUE,FALSE,4,no error,5
+frightened mouse a chair,under her chair,CHI,MOT,FALSE,30,FALSE,-0.17300000000000182,1.7999999999999545,TRUE,FALSE,4,no error,3
+one a poorly legs,poorly legs,CHI,MOT,FALSE,30,FALSE,0.5200000000002092,2.5599999999999454,FALSE,TRUE,4,no error,2
+two ones,two ones,CHI,MOT,FALSE,30,FALSE,0.12700000000018008,1.0219999999999345,FALSE,TRUE,2,no error,2
+what got here,look,CHI,MOT,FALSE,30,FALSE,0.24400000000014188,1.77599999999984,TRUE,FALSE,3,no error,1
+two trains,ah,CHI,MOT,FALSE,30,FALSE,-1.9149999999999636,1.9149999999999636,FALSE,TRUE,2,no error,1
+two wheels,putting,CHI,MOT,FALSE,30,FALSE,-1.0329999999999018,1.0340000000001055,FALSE,TRUE,2,no error,1
+another traffic lights,another traffic lights,CHI,MOT,TRUE,30,FALSE,0.98700000000008,1.7179999999998472,FALSE,TRUE,3,other error,3
+paying the moneys,you've finished your moneys,CHI,MOT,TRUE,30,FALSE,0.8479999999999563,1.462999999999738,FALSE,TRUE,3,other error,5
+two ones,two ones,CHI,MOT,TRUE,30,FALSE,0.12700000000000955,1.218999999999994,FALSE,TRUE,2,other error,2
+crisps,you'd like you'd like some juice,CHI,MOT,FALSE,30,FALSE,-0.9189999999999827,0.9199999999999591,FALSE,TRUE,1,no error,8
+one cones two cones,yes,CHI,MOT,TRUE,30,FALSE,0.30199999999967986,1.9270000000001346,FALSE,TRUE,4,other error,1
+glasses,what a silly_billy,CHI,MOT,FALSE,30,FALSE,-0.987999999999829,1.4169999999999163,FALSE,TRUE,1,no error,4
+sultanas,there we are,CHI,MOT,FALSE,30,FALSE,-0.11799999999993815,1.961999999999989,FALSE,TRUE,1,no error,3
+drop ones,you've dropped one,CHI,MOT,TRUE,30,FALSE,0.03499999999985448,1.0790000000001783,FALSE,TRUE,2,other error,4
+sa mix done it,mix,CHI,MOT,FALSE,30,FALSE,0.6159999999999854,2.3910000000000764,TRUE,FALSE,4,no error,1
+done as well,you've finished as well,CHI,MOT,FALSE,30,FALSE,0.9869999999998527,1.6490000000001146,TRUE,FALSE,3,no error,5
+heard the hands rubbing in the lorrys,you heard your hands rubbing what,CHI,MOT,FALSE,30,FALSE,-0.05299999999999727,3.346999999999994,FALSE,TRUE,7,no error,6
+never see big big red bus big red bus came,are you telling me you didn't see the red bus properly because you're having your nappie changed,CHI,MOT,TRUE,30,FALSE,0.835999999999899,4.249000000000024,TRUE,FALSE,10,other error,19
+eyes come off,and I think what you're calling the green snake is actually a lizard,CHI,MOT,FALSE,30,FALSE,0,0.9060000000001764,FALSE,TRUE,3,no error,14
+ears have come off,the ears have come off,CHI,MOT,TRUE,30,FALSE,0.11599999999998545,2.0659999999998035,FALSE,TRUE,4,other error,5
+clouds,we can't see it today for the clouds can we,CHI,MOT,FALSE,30,FALSE,3.6010000000001128,1.3929999999998017,FALSE,TRUE,1,no error,11
+big nips,what are you asking for darling,CHI,MOT,FALSE,30,FALSE,2.0750000000000455,2.7509999999999764,FALSE,TRUE,2,no error,6
+big teeth gone,what gone,CHI,MOT,FALSE,30,FALSE,-1.5090000000000146,8.928000000000111,FALSE,TRUE,3,no error,2
+trains a died,want your spoon back,CHI,MOT,FALSE,30,FALSE,-1.9149999999999636,1.9500000000000455,TRUE,TRUE,3,no error,4
+locked in,what's not in,CHI,MOT,FALSE,31,FALSE,0.035000000000081855,2.310999999999922,TRUE,FALSE,2,no error,4
+some more moneys,oh,CHI,MOT,TRUE,31,FALSE,-0.12000000000000455,1.747000000000071,FALSE,TRUE,3,other error,1
+what happened,it doesn't matter we've plenty of things here haven't we,CHI,MOT,FALSE,31,FALSE,-0.5919999999998709,1.2649999999998727,TRUE,FALSE,2,no error,13
+Mummy's broken hat,oh dear,CHI,MOT,FALSE,31,FALSE,0.31799999999998363,1.719000000000051,TRUE,FALSE,4,no error,2
+run away,these are all pictures that we did together,CHI,MOT,FALSE,31,FALSE,-0.35999999999989996,1.6489999999998872,TRUE,FALSE,2,no error,8
+mixer has gone,you took it upstairs Thomas,CHI,MOT,TRUE,31,FALSE,-0.17399999999997817,1.6019999999998618,TRUE,FALSE,3,other error,5
+leaves dumper trucks,oh the dumper truck has to touch them,CHI,MOT,FALSE,31,FALSE,0.8710000000000946,1.6949999999999363,FALSE,TRUE,3,no error,8
+leaves covered in,in snow,CHI,MOT,FALSE,31,FALSE,0.11599999999998545,1.8579999999999472,TRUE,FALSE,3,no error,2
+um no reach them lights,can you not reach something,CHI,MOT,FALSE,31,FALSE,0.32500000000027285,3.83199999999988,FALSE,TRUE,5,no error,5
+xxx got the net done,pardon,CHI,MOT,FALSE,31,FALSE,0.8939999999997781,4.388000000000375,TRUE,FALSE,5,no error,1
+a xxx Purdie eating nuts,Purdie's eating nuts,CHI,MOT,FALSE,31,FALSE,0,2.3100000000000023,FALSE,TRUE,5,no error,4
+strawberries,but he was still hungry,CHI,MOT,FALSE,31,FALSE,0.5810000000000173,1.5319999999999254,FALSE,TRUE,1,no error,5
+gone,xxx,CHI,MOT,FALSE,31,FALSE,4.5470000000000255,1.009999999999991,TRUE,FALSE,1,no error,1
+pears,strawberries oranges pears,CHI,MOT,FALSE,31,FALSE,0.14699999999993452,1.5450000000000728,FALSE,TRUE,1,no error,3
+a traffics,is Spud a character from Bob_The_Builder Thomas,CHI,MOT,TRUE,31,FALSE,1.0679999999997563,1.8810000000003129,FALSE,TRUE,2,other error,9
+Mummy brought it downstairs come come from,Mummy,CHI,MOT,FALSE,31,FALSE,0.7309999999999945,4.122000000000071,TRUE,FALSE,7,no error,1
+Maltesers have done,aah,CHI,MOT,TRUE,31,FALSE,-2.181999999999789,2.1829999999999927,TRUE,FALSE,3,other error,1
+Isabel done a wee wee,Isabel done a wee wee,CHI,MOT,TRUE,31,FALSE,0.15699999999969805,3.2270000000003165,TRUE,FALSE,5,other error,5
+two steps,two steps,CHI,MOT,FALSE,31,FALSE,0.023000000000024556,1.3809999999999718,FALSE,TRUE,2,no error,2
+make a rows,I don't know where the window cleaner gone to Thomas,CHI,MOT,FALSE,31,FALSE,2.369000000000028,2.158999999999992,FALSE,TRUE,3,no error,11
+heard him,you heard him,CHI,MOT,FALSE,31,FALSE,-0.10399999999981446,1.3350000000000364,TRUE,FALSE,2,no error,3
+digs,Doug,CHI,MOT,FALSE,31,FALSE,0,0.9290000000000873,FALSE,TRUE,1,no error,1
+got xxx,and look,CHI,MOT,FALSE,31,FALSE,1.8500000000003638,3.076000000000022,TRUE,FALSE,2,no error,2
+is lots,why don't you do the jigsaw again and then push them all out,CHI,MOT,TRUE,31,FALSE,0.18600000000014916,1.300000000000182,FALSE,TRUE,2,other error,14
+xxx lots,there's lots,CHI,MOT,FALSE,31,FALSE,1.1210000000000377,1.9969999999999573,FALSE,TRUE,2,no error,3
+a pilot said,what did the pilot say,CHI,MOT,FALSE,31,FALSE,-0.04100000000005366,2.3379999999999654,TRUE,FALSE,3,no error,5
+I dropped one,you've dropped three,CHI,MOT,FALSE,31,FALSE,0.2839999999999918,1.3780000000000427,TRUE,FALSE,3,no error,4
+another ones,there're quite a lot of small pieces here look that'll fit into the digger quite nicely won't they,CHI,MOT,TRUE,31,FALSE,2.0429999999998927,1.5440000000000964,FALSE,TRUE,2,other error,21
+hear the bin men come,you can still hear the lorry,CHI,MOT,FALSE,31,FALSE,0.2370000000000232,1.5670000000000073,FALSE,TRUE,5,no error,6
+parked a the main road,on the main road,CHI,MOT,FALSE,31,FALSE,0,2.4149999999999636,TRUE,FALSE,5,no error,4
+Mummy got in there,tie them up there,CHI,MOT,FALSE,31,FALSE,0.6459999999999582,2.0420000000001437,TRUE,FALSE,4,no error,4
+a got elephant,no,CHI,MOT,FALSE,31,FALSE,0.6149999999997817,2.04300000000012,TRUE,FALSE,3,no error,1
+run away a table,run away on the table,CHI,MOT,FALSE,31,FALSE,1.4559999999996762,4.563000000000102,TRUE,FALSE,4,no error,5
+run away,come on,CHI,MOT,FALSE,31,FALSE,-0.09300000000030195,3.0770000000002256,TRUE,FALSE,2,no error,2
+a the a heard a talking,you heard them talking,CHI,MOT,FALSE,31,FALSE,0.2559999999998581,2.1359999999999673,TRUE,FALSE,6,no error,4
+lot of tapes there,is there tapes,CHI,MOT,FALSE,31,FALSE,-0.052000000000134605,2.1019999999998618,FALSE,TRUE,4,no error,3
+open the letters,oh you can play with the letters later,CHI,MOT,FALSE,31,FALSE,0.22700000000008913,1.946999999999889,FALSE,TRUE,3,no error,8
+xxx letters,no,CHI,MOT,FALSE,31,FALSE,0.06700000000000728,1.7059999999999036,FALSE,TRUE,2,no error,1
+no xxx letters,no,CHI,MOT,FALSE,31,FALSE,0.30700000000001637,2.586999999999989,FALSE,TRUE,3,no error,1
+no more letters,well who have you got letters for,CHI,MOT,FALSE,31,FALSE,-0.012999999999919964,1.5599999999999454,FALSE,TRUE,3,no error,7
+heard a big red pocket,mhm,CHI,MOT,FALSE,31,FALSE,0.03999999999996362,2.0529999999998836,TRUE,FALSE,5,no error,1
+mine has gone,oh you'll have_to pour yourself another cup Thomas,CHI,MOT,TRUE,31,FALSE,0.7319999999999709,2.4190000000000964,TRUE,FALSE,3,other error,10
+a whistles,you talking about the digger,CHI,MOT,TRUE,31,FALSE,1.2770000000000437,0.5800000000000409,FALSE,TRUE,2,other error,5
+big eyes,I can't tell what you're saying,CHI,MOT,FALSE,31,FALSE,0.7549999999998818,1.9160000000001673,FALSE,TRUE,2,no error,8
+lot of whistles,please,CHI,MOT,FALSE,31,FALSE,-0.14000000000010004,1.7999999999999545,FALSE,TRUE,3,no error,1
+whistles,a lot of whistles,CHI,MOT,FALSE,31,FALSE,-0.7550000000001091,0.8009999999999309,FALSE,TRUE,1,no error,4
+actions,I won't worry,CHI,MOT,FALSE,31,FALSE,0.8129999999999882,1.1370000000000005,FALSE,TRUE,1,no error,4
+a the actions,pardon,CHI,MOT,FALSE,31,FALSE,0.25500000000000966,3.3089999999999975,FALSE,TRUE,3,no error,1
+and chocolates please,we haven't excuse me,CHI,MOT,FALSE,31,FALSE,-1.8809999999998581,1.8809999999998581,FALSE,TRUE,3,no error,5
+that two balls,yes,CHI,MOT,FALSE,31,FALSE,0.15999999999996817,1.427000000000021,FALSE,TRUE,3,no error,1
+the boxes empty,are those boxes empty,CHI,MOT,FALSE,31,FALSE,0.11999999999989086,2.133000000000038,FALSE,TRUE,3,no error,4
+got chocolates on it,no,CHI,MOT,FALSE,31,FALSE,0.1069999999999709,1.6399999999998727,TRUE,FALSE,4,no error,1
+Postman_Pat bought that,shall we put your scarf round your neck,CHI,MOT,FALSE,31,FALSE,-0.9519999999999982,2.9139999999999873,TRUE,FALSE,4,no error,8
+got ice cream there,yes,CHI,MOT,FALSE,31,FALSE,-0.13999999999998636,1.6259999999999764,TRUE,FALSE,4,no error,1
+done that one,have you,CHI,MOT,FALSE,31,FALSE,-0.6389999999998963,1.4169999999999163,TRUE,FALSE,3,no error,2
+colors,well that looks exciting isn't it,CHI,MOT,FALSE,31,FALSE,-0.9169999999999163,0.974999999999909,FALSE,TRUE,1,no error,7
+stamps,some stamps,CHI,MOT,FALSE,31,FALSE,0.03500000000030923,1.3239999999996144,FALSE,TRUE,1,no error,2
+gone somewhere,xxx,CHI,MOT,FALSE,31,FALSE,-1.7529999999997017,1.7529999999997017,TRUE,FALSE,2,no error,1
+two o'clocks,one o'clock two o'clock,CHI,MOT,TRUE,31,FALSE,0.03999999999996362,1.1030000000000655,FALSE,TRUE,3,other error,6
+have a bricks please,have,CHI,MOT,FALSE,31,FALSE,0.03499999999985448,1.4860000000001037,FALSE,TRUE,4,no error,1
+a the boxes,right,CHI,MOT,FALSE,31,FALSE,3.913000000000011,4.155999999999949,FALSE,TRUE,3,no error,1
+look all these boxes,we'll put,CHI,MOT,FALSE,31,FALSE,-1.0109999999999673,2.4039999999999964,FALSE,TRUE,4,no error,3
+three sausages,oh sausages,CHI,MOT,FALSE,31,FALSE,0.7959999999998217,1.20699999999988,FALSE,TRUE,2,no error,2
+blue ones,and blue engines,CHI,MOT,FALSE,31,FALSE,-1.625,1.6260000000002037,FALSE,TRUE,2,no error,3
+all mended,oh,CHI,MOT,FALSE,32,FALSE,0.2549999999996544,1.625,TRUE,FALSE,2,no error,1
+got my wellies,you've been for a walk,CHI,MOT,FALSE,32,FALSE,0.6149999999999523,1.55600000000004,TRUE,TRUE,3,no error,6
+oh not got my rubbish bags,you can play Postman_Pat,CHI,MOT,FALSE,32,FALSE,-2.879000000000019,2.97199999999998,TRUE,TRUE,6,no error,5
+kissing mistletoes,kissing mistletoes,CHI,MOT,TRUE,32,FALSE,0.1049999999999045,2.090000000000032,FALSE,TRUE,2,other error,2
+mistletoes,oh you missed your party,CHI,MOT,TRUE,32,FALSE,-0.5460000000000491,1.7770000000000437,FALSE,TRUE,1,other error,5
+lots_of poos,where're you going now Thomas,CHI,MOT,FALSE,32,FALSE,4.526000000000067,1.8179999999999836,FALSE,TRUE,3,no error,6
+bought brought another one,you've brought another one,CHI,MOT,TRUE,32,FALSE,-0.16200000000003456,1.5090000000000146,TRUE,FALSE,4,other error,5
+xxx boxes,yes,CHI,MOT,FALSE,32,FALSE,-0.0809999999999036,1.2789999999999964,FALSE,TRUE,2,no error,1
+xxx Thomas gone,be careful because there are little chairs going into the furniture Thomas,CHI,MOT,FALSE,32,FALSE,-1.83299999999997,1.83400000000006,TRUE,FALSE,3,no error,12
+me locked out,what does Old_Macdonald have on his farm,CHI,MOT,FALSE,32,FALSE,0.6040000000000418,1.115000000000009,TRUE,FALSE,3,no error,8
+man told,the man said abra_cadabra and things started to appear didn't they,CHI,MOT,FALSE,32,FALSE,0.7709999999997308,1.3120000000003529,TRUE,FALSE,2,no error,13
+run around a dustbin,you're talking about the dustbin aren't you,CHI,MOT,FALSE,32,FALSE,0.6329999999999814,4.236999999999995,TRUE,FALSE,4,no error,9
+pa dried rain,Incey_Wincey spider,CHI,MOT,FALSE,32,FALSE,0.32499999999998863,2.3100000000000023,TRUE,FALSE,3,no error,3
+washed the spider out,out the came the sunshine and dried up all the rain,CHI,MOT,FALSE,32,FALSE,0.5409999999999968,2.1129999999999995,TRUE,FALSE,4,no error,11
+a seen it,yes,CHI,MOT,FALSE,32,FALSE,-0.010999999999967258,1.717999999999961,TRUE,FALSE,3,no error,1
+not van it's a bus gone back,oh I'm a sorry,CHI,MOT,FALSE,32,FALSE,-0.03499999999996817,2.6709999999999354,TRUE,FALSE,8,no error,5
+and cards,come on,CHI,MOT,FALSE,32,FALSE,0.3949999999999818,1.1489999999998872,FALSE,TRUE,2,no error,2
+post letters,people won't be sending Christmas cards to us,CHI,MOT,FALSE,32,FALSE,0.03499999999985448,1.856999999999971,FALSE,TRUE,2,no error,9
+strapped in the lorry,you're strapped in the lorry,CHI,MOT,FALSE,32,FALSE,0.010999999999967258,1.7649999999998727,TRUE,FALSE,4,no error,6
+thank you letters,thank you letters,CHI,MOT,FALSE,32,FALSE,0.6270000000000095,0.8480000000000132,FALSE,TRUE,3,no error,3
+it green stripes,oh yes,CHI,MOT,FALSE,32,FALSE,0.011999999999943611,1.856999999999971,FALSE,TRUE,3,no error,2
+choc fell chocolates,oh chocolates from Sue,CHI,MOT,FALSE,32,FALSE,-0.02299999999991087,1.6949999999999363,TRUE,FALSE,3,no error,4
+xxx my bricks,why don't you shine your torch into that box and see if you can see inside,CHI,MOT,FALSE,32,FALSE,0.18599999999997863,3.274000000000001,FALSE,TRUE,3,no error,17
+I found it,you found it,CHI,MOT,FALSE,32,FALSE,0.8669999999999618,0.8589999999999236,TRUE,FALSE,3,no error,3
+done it,you've done it,CHI,MOT,FALSE,32,FALSE,0.3369999999999891,0.5460000000000491,TRUE,FALSE,2,no error,4
+oh spilt it,now it had a loaf of bread dropped in it it won't be very nice will it,CHI,MOT,FALSE,32,FALSE,-0.4130000000000109,1.5050000000001091,TRUE,FALSE,3,no error,18
+bushes,we talked about we talked about bushes this morning,CHI,MOT,FALSE,32,FALSE,1.4980000000000473,0.556999999999789,FALSE,TRUE,1,no error,9
+bushes,look there's the teddy bear,CHI,MOT,FALSE,32,FALSE,1.4280000000003383,0.7529999999997017,FALSE,TRUE,1,no error,6
+dicky birds eat holly berries,Isabelle eats holly berries,CHI,MOT,FALSE,32,FALSE,0.057999999999992724,2.7270000000003165,FALSE,TRUE,5,no error,4
+no dust bags,and do you know what those are,CHI,MOT,FALSE,32,FALSE,-1.393000000000029,2.4609999999997854,FALSE,TRUE,3,no error,7
+bit lower down,it's lower down,CHI,MOT,FALSE,32,FALSE,-0.23200000000019827,1.578000000000202,TRUE,FALSE,3,no error,4
+mhm no windows,look,CHI,MOT,FALSE,32,FALSE,0.10500000000001819,2.91399999999976,FALSE,TRUE,3,no error,1
+no lights,no,CHI,MOT,FALSE,32,FALSE,0.22100000000000364,1.706000000000131,FALSE,TRUE,2,no error,1
+what the mouth gone,it got two eyes,CHI,MOT,FALSE,32,FALSE,-0.8479999999999563,1.2309999999999945,TRUE,FALSE,4,no error,4
+I found it,you found it,CHI,MOT,FALSE,32,FALSE,0.19100000000003092,1.0679999999999836,TRUE,FALSE,3,no error,3
+fireworks in Christmas tree too,well yes,CHI,MOT,FALSE,32,FALSE,0.2439999999999145,2.3559999999999945,FALSE,TRUE,5,no error,2
+uh I want that a clocks now,you want the clock now,CHI,MOT,TRUE,32,FALSE,0.03999999999996362,2.8330000000000837,FALSE,TRUE,7,other error,5
+a washed my hair,well we've wet it haven't we,CHI,MOT,FALSE,32,FALSE,0.09300000000001774,1.5209999999999582,TRUE,FALSE,4,no error,8
+a a found something there,and Tigger,CHI,MOT,FALSE,32,FALSE,-1.3470000000000937,2.54200000000003,TRUE,FALSE,5,no error,2
+lots,I've only just realized,CHI,MOT,FALSE,32,FALSE,-0.5219999999999345,0.5229999999996835,FALSE,TRUE,1,no error,5
+big letters an the baby letters,it's,CHI,MOT,FALSE,33,FALSE,0,2.531000000000006,FALSE,TRUE,6,no error,2
+lot a pressies,oh you got a lot of books,CHI,MOT,FALSE,33,FALSE,2.032000000000153,1.788000000000011,FALSE,TRUE,3,no error,7
+thrown it somewhere,you've thrown it somewhere,CHI,MOT,FALSE,33,FALSE,0.09300000000001774,1.3230000000000075,TRUE,FALSE,3,no error,5
+like Aunty_Mabel done,like Aunty_Mabel does,CHI,MOT,TRUE,33,FALSE,0.01099999999999568,2.427000000000021,TRUE,FALSE,4,other error,4
+got your xxx,she can see it,CHI,MOT,FALSE,33,FALSE,-0.23200000000002774,0.7080000000000268,TRUE,FALSE,3,no error,4
+that cream gone in here,pardon,CHI,MOT,FALSE,33,FALSE,0.012000000000057298,2.1359999999999673,TRUE,FALSE,5,no error,1
+that gone,the cream,CHI,MOT,FALSE,33,FALSE,-0.3129999999999882,0.9400000000000546,TRUE,FALSE,2,no error,2
+I wanted it,you want it,CHI,MOT,TRUE,33,FALSE,0.012000000000170985,0.7429999999999382,TRUE,FALSE,3,other error,3
+bananas,bananas in pyjamas are coming down the stairs,CHI,MOT,FALSE,33,FALSE,-0.8240000000000691,1.5090000000000146,FALSE,TRUE,1,no error,8
+bananas in pyjamas,bananas in pyjamas,CHI,MOT,FALSE,33,FALSE,-2.786000000000058,3.076000000000022,FALSE,TRUE,3,no error,3
+oh your stuck,that was Purdie,CHI,MOT,FALSE,33,FALSE,-1.6599999999999682,1.7989999999999782,TRUE,FALSE,3,no error,3
+a doggy poos,no,CHI,MOT,FALSE,33,FALSE,0.09300000000007458,1.5329999999999018,FALSE,TRUE,3,no error,1
+put slippers,well wait to put your slippers on until we've got your trousers back on,CHI,MOT,FALSE,33,FALSE,-0.03499999999996817,1.3700000000000045,FALSE,TRUE,2,no error,15
+where has Thomas gone,right we'll leave your,CHI,MOT,TRUE,33,FALSE,-2.089999999999918,2.5079999999999245,TRUE,FALSE,4,other error,5
+sausages got red breast,saus sausages have red breast's,CHI,MOT,FALSE,33,FALSE,-0.03499999999985448,2.6929999999997563,TRUE,FALSE,4,no error,6
+got two lots of chocolates,two chocolates,CHI,MOT,TRUE,33,FALSE,-0.2669999999998254,1.961999999999989,FALSE,TRUE,5,other error,2
+tired,you slept well last night didn't you,CHI,MOT,FALSE,33,FALSE,1.1490000000001146,0.9169999999999163,TRUE,FALSE,1,no error,8
+somebody bumped my head,you bumped your head,CHI,MOT,FALSE,33,FALSE,0.7229999999999563,3.0299999999997453,TRUE,FALSE,4,no error,4
+big noses,big,CHI,MOT,FALSE,33,FALSE,0.057999999999992724,1.3120000000000118,FALSE,TRUE,2,no error,1
+that's tacked,oh is it still blue tacked,CHI,MOT,FALSE,33,FALSE,0.6730000000002292,1.8580000000001746,TRUE,FALSE,3,no error,6
+oh dogs opening a mouth,he got some,CHI,MOT,FALSE,33,FALSE,0.18499999999994543,2.69399999999996,FALSE,TRUE,5,no error,3
+they're lots,they're lots,CHI,MOT,FALSE,33,FALSE,0.03499999999985448,1.2300000000000182,FALSE,TRUE,3,no error,3
+got six eggs,so one is yours,CHI,MOT,FALSE,33,FALSE,-1.5209999999999582,2.275000000000091,FALSE,TRUE,3,no error,4
+where's the moneys,well that's your purse isn't it,CHI,MOT,TRUE,33,FALSE,0.057999999999992724,1.6710000000000491,FALSE,TRUE,4,other error,8
+backs on,yes,CHI,MOT,FALSE,33,FALSE,0.15100000000029468,1.7409999999999854,FALSE,TRUE,2,no error,1
+pieces,of this jigsaw,CHI,MOT,FALSE,33,FALSE,-0.9389999999998508,0.9400000000000546,FALSE,TRUE,1,no error,3
+it's spilt xxx,oh my goodness,CHI,MOT,FALSE,33,FALSE,-0.20199999999999818,2.115000000000009,TRUE,FALSE,4,no error,3
+I just did,you might have done because we had an s on the board a minute ago,CHI,MOT,FALSE,33,FALSE,-0.10799999999994725,1.81899999999996,TRUE,FALSE,3,no error,15
+do you eh been a pussy cat say not snotty my nose,what did you say,CHI,MOT,FALSE,33,FALSE,0.027000000000043656,7.8659999999999854,TRUE,FALSE,12,no error,4
+just left,that's lovely,CHI,MOT,FALSE,33,FALSE,0.24299999999993815,2.2839999999996508,TRUE,FALSE,2,no error,3
+got cranberries,it got Sainsbury's in it,CHI,MOT,FALSE,33,FALSE,-0.08199999999987995,1.8699999999998909,FALSE,TRUE,2,no error,6
+emptying lots_of books,no,CHI,MOT,FALSE,33,FALSE,0.010999999999967258,3.0419999999999163,FALSE,TRUE,4,no error,1
+eating a sausages,right,CHI,MOT,FALSE,33,FALSE,0.8759999999999764,1.8920000000000528,FALSE,TRUE,3,no error,1
+lots_of engines,lots_of engines,CHI,MOT,FALSE,33,FALSE,-0.012000000000000455,2.8100000000000023,FALSE,TRUE,3,no error,3
+lots and lots big bears on my holiday,what about your holiday Thomas,CHI,MOT,FALSE,33,FALSE,0.9410000000000309,4.17999999999995,FALSE,TRUE,8,no error,5
+I got letters and lots_of parcels,yes,CHI,MOT,FALSE,33,FALSE,-0.047000000000025466,3.9010000000000673,TRUE,FALSE,7,no error,1
+eaten it,you pinched it and ate it didn't you,CHI,MOT,FALSE,33,FALSE,-0.010999999999967258,1.0449999999998454,TRUE,FALSE,2,no error,9
+a big j job xxx children,he's doing a big job,CHI,MOT,FALSE,33,FALSE,0.9409999999998035,3.2270000000003165,FALSE,TRUE,6,no error,6
+my presents,I'll start putting these away,CHI,MOT,FALSE,33,FALSE,-0.08199999999987995,1.9739999999997053,FALSE,TRUE,2,no error,6
+my digger man dropped,mhm,CHI,MOT,FALSE,33,FALSE,0.2559999999998581,1.6480000000001382,TRUE,FALSE,4,no error,1
+build some ladders,build some ladders,CHI,MOT,FALSE,33,FALSE,0.08100000000013097,1.3229999999998654,FALSE,TRUE,3,no error,3
+tripped something under my head,you tripped something under your head,CHI,MOT,FALSE,33,FALSE,4.398000000000138,1.9039999999999964,TRUE,FALSE,5,no error,6
+I got it cracked now,pardon,CHI,MOT,FALSE,33,FALSE,-0.057999999999992724,2.530999999999949,TRUE,FALSE,5,no error,1
+got it crack,no,CHI,MOT,FALSE,33,FALSE,0.08199999999987995,1.6130000000002838,TRUE,FALSE,3,no error,1
+got a telephone on board and I have a telephone in my tummy,Bob_The_Builder has got a telephone on board and you've a telephone in your tummy,CHI,MOT,FALSE,34,FALSE,1.183999999999969,4.469000000000051,TRUE,FALSE,13,no error,17
+just opened the track on the track,you've just opened the track,CHI,MOT,FALSE,34,FALSE,0.4639999999999418,2.032000000000153,TRUE,FALSE,7,no error,6
+it's all broke broken,it all broken,CHI,MOT,TRUE,34,FALSE,0.27800000000002,2.310999999999922,TRUE,FALSE,5,other error,3
+it broken,it hasn't broken,CHI,MOT,TRUE,34,FALSE,0.3710000000000946,1.6489999999998872,TRUE,FALSE,2,other error,4
+you've never worn shoe,and what color's that shoe,CHI,MOT,FALSE,34,FALSE,0.20899999999983265,1.8920000000002801,TRUE,FALSE,5,no error,6
+I felt so proud,so proud,CHI,MOT,FALSE,34,FALSE,-0.25499999999999545,2.3029999999999973,TRUE,FALSE,4,no error,2
+what you brought,who gave you that,CHI,MOT,FALSE,34,FALSE,-0.06999999999993634,1.5209999999999582,TRUE,FALSE,3,no error,4
+the train driver said I like you,you like me,CHI,MOT,FALSE,34,FALSE,-0.09300000000007458,2.82100000000014,TRUE,FALSE,7,no error,3
+wet,oh silly_billy,CHI,MOT,FALSE,34,FALSE,0.057999999999992724,1.3809999999998581,TRUE,FALSE,1,no error,3
+table gone,what gone,CHI,MOT,FALSE,34,FALSE,0.5690000000000026,2.286999999999992,TRUE,FALSE,2,no error,2
+my table gone,your what gone,CHI,MOT,FALSE,34,FALSE,0.058000000000006935,1.9509999999999934,TRUE,FALSE,3,no error,3
+dustbin lorry lots,there we are,CHI,MOT,FALSE,34,FALSE,0.63900000000001,1.625,FALSE,TRUE,3,no error,3
+I caught a fish alive,you've caught a fish alive,CHI,MOT,FALSE,34,FALSE,1.7529999999997017,1.9850000000001273,TRUE,FALSE,5,no error,6
+got my coat,you're driving off now,CHI,MOT,FALSE,34,FALSE,0.1390000000001237,1.4169999999999163,TRUE,FALSE,3,no error,5
+in his vans,collecting all his bags,CHI,MOT,FALSE,34,FALSE,-1.7530000000000001,1.7530000000000001,FALSE,TRUE,3,no error,4
+dustbin men,oh dustbin men,CHI,MOT,FALSE,34,FALSE,0.26700000000005275,1.4399999999998272,FALSE,TRUE,2,no error,3
+Thomas bees,that's right,CHI,MOT,FALSE,34,FALSE,0.29500000000007276,1.3799999999996544,FALSE,TRUE,2,no error,3
+I clowned,you're a clown,CHI,MOT,TRUE,34,FALSE,0.08199999999987995,0.6900000000000546,TRUE,FALSE,2,other error,4
+wheels on the bus go red red red,Thomas you silly_billy,CHI,MOT,FALSE,34,FALSE,0.6499999999998636,3.413000000000011,FALSE,TRUE,8,no error,4
+what's it called,and one day,CHI,MOT,FALSE,34,FALSE,-1.6829999999999927,1.6829999999999927,TRUE,FALSE,4,no error,3
+it's mornings now,no,CHI,MOT,TRUE,34,FALSE,0.08100000000013097,1.7529999999997017,FALSE,TRUE,4,other error,1
+where did it come from,I'm not sure,CHI,MOT,FALSE,34,FALSE,0,2.2520000000000095,TRUE,FALSE,5,no error,4
+he's stuck,look,CHI,MOT,FALSE,34,FALSE,0.40699999999969805,1.0909999999998945,TRUE,FALSE,3,no error,1
+thought I lost that,one with Marmite,CHI,MOT,FALSE,34,FALSE,-1.3339999999998327,1.3350000000000364,TRUE,FALSE,4,no error,3
+ostrich done a poo in his nappie,no,CHI,MOT,TRUE,34,FALSE,0.16300000000001091,2.90199999999993,TRUE,FALSE,7,other error,1
+here's his wheels on his on his post vans,oh you can see the wheels on his post van,CHI,MOT,TRUE,34,FALSE,0.20899999999983265,3.785000000000082,FALSE,TRUE,10,other error,10
+I bumped in a big chair like a dog poo,oh Thomas,CHI,MOT,FALSE,34,FALSE,0.2439999999999145,3.7029999999999745,TRUE,FALSE,10,no error,2
+munching on two packets,oh I know I know what you mean,CHI,MOT,FALSE,34,FALSE,-2.4719999999997526,2.4839999999999236,FALSE,TRUE,4,no error,8
+xxx letters,Thomas you're not having any sweets,CHI,MOT,FALSE,34,FALSE,0.6390000000001237,2.8789999999999054,FALSE,TRUE,2,no error,7
+it got flags on,it got flags on it,CHI,MOT,FALSE,34,FALSE,0.5219999999999914,1.5670000000000073,TRUE,FALSE,4,no error,5
+in my eyes,it's xxx,CHI,MOT,FALSE,34,FALSE,-1.2999999999999972,1.2999999999999972,FALSE,TRUE,3,no error,3
+my van's called su suit an my wheels,is it,CHI,MOT,FALSE,34,FALSE,0.3369999999999891,2.879000000000019,TRUE,FALSE,9,no error,2
+where's the baby called,oh no,CHI,MOT,FALSE,34,FALSE,1.393000000000029,1.8420000000000982,TRUE,FALSE,5,no error,2
+you have got some more,I know,CHI,MOT,TRUE,34,FALSE,-0.06500000000005457,1.8340000000002874,TRUE,FALSE,5,other error,2
+Mummy eat my crisps,oh darling I haven't eaten your crisps,CHI,MOT,FALSE,34,FALSE,0.04000000000041837,2.881999999999607,FALSE,TRUE,4,no error,8
+no that's no that's Humpty_Dumpty sat on a wall,that's not Dumpty,CHI,MOT,FALSE,34,FALSE,-0.12200000000029831,3.1820000000002437,TRUE,FALSE,12,no error,4
+no that's no that's Humpty_Dumpty sat on a wall,it's not it's The_Archers,CHI,MOT,FALSE,34,FALSE,-0.7710000000001855,3.3769999999999527,TRUE,FALSE,12,no error,7
+and lots,that one,CHI,MOT,FALSE,34,FALSE,-1.5330000000000155,1.5330000000000155,FALSE,TRUE,2,no error,2
+an pears,and pears,CHI,MOT,FALSE,34,FALSE,0.19699999999988904,1.5789999999999509,FALSE,TRUE,2,no error,2
+ate Pippin all up,what sort of farm was it Thomas,CHI,MOT,FALSE,34,FALSE,0.7720000000000482,1.9039999999999964,TRUE,FALSE,4,no error,7
+ate Pippin all up,who ate Pippin,CHI,MOT,FALSE,34,FALSE,0.11599999999998545,1.3700000000000045,TRUE,FALSE,4,no error,3
+xxx your leaved it on the station,there been a child left on the the station,CHI,MOT,FALSE,34,FALSE,0.6730000000002292,3.169999999999618,TRUE,FALSE,7,no error,9
+I am not finished,well let's well let's just move them over there Thomas,CHI,MOT,TRUE,34,FALSE,-0.6030000000000655,1.5209999999997308,TRUE,FALSE,4,other error,12
+yeah lots,oh,CHI,MOT,FALSE,34,FALSE,-1.5440000000000964,1.5440000000000964,FALSE,TRUE,2,no error,1
+a put em in the box,okay,CHI,MOT,FALSE,34,FALSE,-0.1510000000000673,2.04300000000012,TRUE,FALSE,6,no error,1
+little lives,yes,CHI,MOT,FALSE,34,FALSE,0.5579999999999927,1.300000000000182,FALSE,TRUE,2,no error,1
+I need that little little toys,there,CHI,MOT,TRUE,35,FALSE,3.9340000000000828,2.19399999999996,FALSE,TRUE,6,other error,1
+I I see this ones,you saw the balloon did you,CHI,MOT,TRUE,35,FALSE,-0.0929999999998472,2.8099999999999454,FALSE,TRUE,5,other error,6
+Fireman_Sam got in the kitchen making some sausages,Fireman_Sam is in the kitchen making some sausages,CHI,MOT,TRUE,35,FALSE,0.07000000000016371,5.618999999999687,TRUE,FALSE,9,other error,9
+this this this this roller's called making Wellington boots,who's making Wellington boots,CHI,MOT,FALSE,35,FALSE,1.0149999999998727,6.29300000000012,TRUE,FALSE,10,no error,5
+no got a shed,we have got a shed,CHI,MOT,FALSE,35,FALSE,0.3020000000000209,1.9039999999999964,TRUE,FALSE,4,no error,5
+no need a put biscuits in Purdie's bowl,you want to put some biscuits in Purdie's bowl,CHI,MOT,FALSE,35,FALSE,0.08699999999998909,3.506000000000313,TRUE,TRUE,9,no error,10
+they fell over,they fell over,CHI,MOT,FALSE,35,FALSE,-1.1380000000000337,1.2430000000000518,TRUE,FALSE,3,no error,3
+I need a be a crocodile on your fingers,oh well can I show it to Dimitra before we carry on being a crocodile,CHI,MOT,FALSE,35,FALSE,-0.17400000000009186,3.0650000000000546,FALSE,TRUE,9,no error,15
+it got,it reminds me,CHI,MOT,FALSE,35,FALSE,-0.8940000000000055,0.8940000000000055,TRUE,FALSE,2,no error,3
+I crocodile going on my knees,you look like a barber now,CHI,MOT,FALSE,35,FALSE,-1.856999999999971,3.4249999999999545,FALSE,TRUE,6,no error,6
+doctor got a funny head up an down,the doctor got a funny head,CHI,MOT,FALSE,35,FALSE,1.1610000000000582,3.37900000000036,TRUE,FALSE,8,no error,6
+I getting a thingys rings out,you're getting the rings out are you,CHI,MOT,FALSE,35,FALSE,9.999999997489795e-4,2.450000000000273,FALSE,TRUE,6,no error,8
+Thomas broke it,did you pull it off the coat rack,CHI,MOT,FALSE,35,FALSE,0.24299999999993815,1.3240000000000691,TRUE,FALSE,3,no error,8
+wet in my nappie,yes,CHI,MOT,FALSE,35,FALSE,0.17399999999997817,1.625,TRUE,FALSE,4,no error,1
+wet,it's square,CHI,MOT,FALSE,35,FALSE,0.48700000000008004,0.5919999999998709,TRUE,FALSE,1,no error,3
+two dogs eating apples,two dogs,CHI,MOT,FALSE,35,FALSE,-2.0549999999998363,2.0549999999998363,FALSE,TRUE,4,no error,2
+a people say ha,you did bang it loud,CHI,MOT,FALSE,35,FALSE,0.1150000000000091,2.366999999999962,FALSE,TRUE,4,no error,5
+yellow pears,yellow pears,CHI,MOT,FALSE,35,FALSE,0.15300000000024738,1.1959999999999127,FALSE,TRUE,2,no error,2
+a done a that xxx Postman_Pat,oh well we sang Postman_Pat with Julian,CHI,MOT,FALSE,35,FALSE,0.31199999999989814,4.492999999999938,TRUE,FALSE,7,no error,8
+your see a your see ambulance gone siren on,no,CHI,MOT,FALSE,35,FALSE,0.6150000000000091,5.247999999999934,TRUE,FALSE,9,no error,1
+I fire fire engine goed out of the fire service,pardon,CHI,MOT,FALSE,35,FALSE,0.6150000000000091,3.947999999999979,TRUE,FALSE,10,no error,1
+slips down,it slips down does it,CHI,MOT,FALSE,35,FALSE,0.08199999999987995,1.1960000000003674,FALSE,TRUE,2,no error,5
+an sausages,and sausages,CHI,MOT,FALSE,35,FALSE,-0.022999999999683496,1.77599999999984,FALSE,TRUE,2,no error,2
+I think a finished it,you think you've finished,CHI,MOT,FALSE,35,FALSE,-0.10400000000004184,2.26400000000001,TRUE,FALSE,5,no error,5
+potatoes coming,yes,CHI,MOT,FALSE,35,FALSE,0.03499999999985448,2.1130000000000564,FALSE,TRUE,2,no error,1
+dust uh dustbin man Thomas gotten in a self,hello dustbin man Thomas,CHI,MOT,FALSE,35,FALSE,0.8010000000001583,4.329999999999927,TRUE,FALSE,9,no error,4
+got Bob_the_Builder,yes,CHI,MOT,FALSE,35,FALSE,0.1510000000000673,1.5899999999999181,TRUE,FALSE,4,no error,1
+I got idea,what have you got,CHI,MOT,FALSE,35,FALSE,-0.0929999999998472,1.6949999999999363,TRUE,FALSE,3,no error,4
+a snake a snake coming in an out an coming in a tummys,a snake coming in our tummys,CHI,MOT,FALSE,35,FALSE,-1.0099999999997635,3.250999999999749,FALSE,TRUE,13,no error,6
+lots a water in your hair,what's in my hair,CHI,MOT,FALSE,35,FALSE,-0.18899999999985084,2.2210000000000036,FALSE,TRUE,6,no error,5
+oh where the sausage gone,there it is,CHI,MOT,FALSE,35,FALSE,-0.63799999999992,4.53899999999976,TRUE,FALSE,5,no error,3
+I need some sweets,you need some sweets,CHI,MOT,FALSE,35,FALSE,0.43000000000006366,1.34699999999998,FALSE,TRUE,4,no error,4
+I got,you got Fireman you have,CHI,MOT,FALSE,35,FALSE,-1.1610000000000582,1.1720000000000255,TRUE,FALSE,2,no error,5
+in the trees,teasing the crocodiles,CHI,MOT,FALSE,35,FALSE,-0.028999999999996362,1.5550000000000637,FALSE,TRUE,3,no error,3
+along came,along came a crocodile as sneaky as can be,CHI,MOT,FALSE,35,FALSE,-0.8700000000000045,0.8710000000000946,TRUE,FALSE,2,no error,9
+buns,hot cross buns,CHI,MOT,FALSE,35,FALSE,0.10900000000037835,0.9059999999999491,FALSE,TRUE,1,no error,3
+yellow keys he's back a fallen off,has the back fallen off,CHI,MOT,FALSE,35,FALSE,-2.263999999999669,5.780999999999949,FALSE,TRUE,8,no error,5
+feathers,feathers,CHI,MOT,FALSE,35,FALSE,-0.9260000000003856,0.9270000000001346,FALSE,TRUE,1,no error,1
+went crash,right,CHI,MOT,FALSE,35,FALSE,1.913000000000011,1.83400000000006,TRUE,FALSE,2,no error,1
+and the train not washed out and it crashed Mummy,oh now a crane train crashed into me,CHI,MOT,FALSE,35,FALSE,-1.8689999999996871,6.652999999999793,TRUE,FALSE,10,no error,8
+off we went,bumpity bumpity bumpity bump,CHI,MOT,FALSE,35,FALSE,-0.02400000000000091,0.9639999999999986,TRUE,FALSE,3,no error,4
+cross buns,and he sang one about a cuckoo didn't he,CHI,MOT,FALSE,35,FALSE,0.4159999999999968,1.4630000000000223,FALSE,TRUE,2,no error,10
+Granddad told me like that xxx,Daddy told you what darling,CHI,MOT,FALSE,35,FALSE,-0.023000000000024556,2.937000000000012,TRUE,FALSE,6,no error,5
+teeth each day,and be a friend to me,CHI,MOT,FALSE,35,FALSE,-0.5919999999998709,1.20699999999988,FALSE,TRUE,3,no error,6
+brush your teeth a day,and be a friend to me,CHI,MOT,FALSE,35,FALSE,-1.6600000000000819,3.3430000000000746,FALSE,TRUE,5,no error,6
+and carrots,xxx,CHI,MOT,FALSE,35,FALSE,-1.34699999999998,1.4050000000002,FALSE,TRUE,2,no error,1
+she got,oh,CHI,MOT,FALSE,35,FALSE,-0.5799999999999272,0.581000000000131,TRUE,FALSE,2,no error,1
+this made delivery,it made a delivery,CHI,MOT,TRUE,36,FALSE,-0.015999999999998238,1.7530000000000001,TRUE,FALSE,3,other error,4
+and these tools be my tools,your tools,CHI,MOT,FALSE,36,FALSE,-0.13400000000001455,3.8079999999999927,FALSE,TRUE,6,no error,2
+you hold some two ones,I'll hold these two,CHI,MOT,TRUE,36,FALSE,0.012000000000170985,1.7179999999998472,FALSE,TRUE,5,other error,5
+the lorry taken it away,what's in here Thomas,CHI,MOT,FALSE,36,FALSE,0.1180000000003929,3.169999999999618,TRUE,FALSE,5,no error,5
+I pushed over again,yes,CHI,MOT,TRUE,36,FALSE,0.6390000000001237,1.7989999999999782,TRUE,FALSE,4,other error,1
+and the post lorry driven away,must be my birthday,CHI,MOT,TRUE,36,FALSE,0.4329999999999927,2.8089999999997417,TRUE,FALSE,6,other error,4
+ah big hugs Fluffy,xxx sunshine,CHI,MOT,FALSE,36,FALSE,-2.9029999999997926,2.9029999999997926,FALSE,TRUE,4,no error,2
+the job done,Bob the Builder,CHI,MOT,FALSE,36,FALSE,0.19700000000000273,1.2889999999999873,TRUE,FALSE,3,no error,3
+that man put his thing in machine nearly squashed it,oh_gosh,CHI,MOT,TRUE,36,FALSE,0.33600000000001273,3.54099999999994,TRUE,FALSE,10,other error,2
+broken fire engine coming on nee_nas,oh,CHI,MOT,FALSE,36,FALSE,0.1790000000000873,3.703999999999951,TRUE,FALSE,7,no error,1
+all your saying is Isabelle an Daddy_Rod a Sonia done,you're talking a lot about Daddy_Rod Isabelle and Sonia,CHI,MOT,FALSE,36,FALSE,0.20900000000000318,5.188999999999993,TRUE,FALSE,11,no error,11
+I got four,which we don't need now do we,CHI,MOT,FALSE,36,FALSE,0.011999999999943611,1.288000000000011,TRUE,FALSE,3,no error,8
+yum yum sweets,Thomas that's not nice,CHI,MOT,FALSE,36,FALSE,2.879000000000019,1.649000000000001,FALSE,TRUE,3,no error,5
+lot a lots_of sweets in boxes,mhm,CHI,MOT,FALSE,36,FALSE,-0.1169999999999618,2.1019999999998618,FALSE,TRUE,7,no error,1
+Fireman's eyes,you like watching Fireman_Sam but Daddy likes watching the news doesn't he,CHI,MOT,FALSE,36,FALSE,0.20800000000008367,1.4399999999998272,FALSE,TRUE,3,no error,14
+get me down a stroke Purdie whiskers,listen,CHI,MOT,FALSE,36,FALSE,-0.6149999999997817,3.18100000000004,FALSE,TRUE,7,no error,1
+no no finished,have you finished with your Cornflakes,CHI,MOT,FALSE,36,FALSE,-1.6010000000001128,1.6019999999998618,TRUE,FALSE,3,no error,6
+what your eyes called,what are my eyes called,CHI,MOT,FALSE,36,FALSE,0.11100000000033106,2.1709999999998217,TRUE,TRUE,4,no error,5
+sweets,Thomas Lastname,CHI,MOT,FALSE,36,FALSE,0.45299999999997453,1.5789999999997235,FALSE,TRUE,1,no error,2
+robins going sleep under the under the trees,yes,CHI,MOT,FALSE,36,FALSE,0.10500000000001819,4.040000000000418,FALSE,TRUE,8,no error,1
+two ones,yes,CHI,MOT,FALSE,36,FALSE,0.022999999999996135,0.8239999999999981,FALSE,TRUE,2,no error,1
+look a crocodiles,yes,CHI,MOT,TRUE,36,FALSE,0.27899999999999636,2.3099999999999454,FALSE,TRUE,3,other error,1
+clicks,that makes a lovely noise doesn't it,CHI,MOT,FALSE,36,FALSE,1.9490000000000691,0.9169999999999163,FALSE,TRUE,1,no error,8
+dustbin men,we can just hear it can't we,CHI,MOT,FALSE,36,FALSE,2.362000000000023,3.5999999999999943,FALSE,TRUE,2,no error,8
+sweets,no,CHI,MOT,FALSE,36,FALSE,0.6150000000000091,1.2420000000000186,FALSE,TRUE,1,no error,1
+when the dustbin men have gone have another sweetie,no,CHI,MOT,FALSE,36,FALSE,0.24399999999997135,3.1450000000000387,TRUE,TRUE,9,no error,1
+dustbin men,were here on your third birthday will still be here on your twenty first,CHI,MOT,FALSE,36,FALSE,-1.4510000000000218,1.4750000000003638,FALSE,TRUE,2,no error,14
+you all wet,xxx,CHI,MOT,FALSE,36,FALSE,-0.3130000000000166,1.335000000000008,TRUE,FALSE,3,no error,1
+look I got anything on my hand,xxx,CHI,MOT,TRUE,36,FALSE,-2.480000000000018,3.265999999999849,TRUE,FALSE,7,other error,1
+got any more cans,have you got any more cans,CHI,MOT,FALSE,36,FALSE,0.03999999999996362,1.2390000000000327,TRUE,FALSE,4,no error,6
+look what I have got my grass,yes,CHI,MOT,TRUE,36,FALSE,0.35999999999989996,1.7050000000001546,TRUE,FALSE,7,other error,1
+told you,right Thomas are you going to come and sit with me on the floor,CHI,MOT,FALSE,36,FALSE,1.7719999999999345,0.9400000000000546,TRUE,FALSE,2,no error,14
+we picked a pot on the grass,the pot on the grass,CHI,MOT,FALSE,36,FALSE,0.22100000000000364,2.473000000000013,TRUE,FALSE,7,no error,5
+two ones,two ones,CHI,MOT,TRUE,36,FALSE,0.1979999999998654,0.7430000000003929,FALSE,TRUE,2,other error,2
+two ones,oh two books,CHI,MOT,TRUE,36,FALSE,0,0.5,FALSE,TRUE,2,other error,3
+about a lot ones,no no,CHI,MOT,TRUE,36,FALSE,0.057999999999992724,1.1950000000001637,FALSE,TRUE,4,other error,2
+and the suits an helmets,and their suits,CHI,MOT,FALSE,36,FALSE,-0.6599999999999682,1.5559999999999263,FALSE,TRUE,5,no error,3
+all those crumbs have fallen down,have they,CHI,MOT,FALSE,36,FALSE,-0.1279999999999859,3.0889999999999986,FALSE,TRUE,6,no error,2
+Fireman_Sam called it the engine,yes,CHI,MOT,FALSE,36,FALSE,0.7199999999997999,2.6350000000002183,TRUE,FALSE,6,no error,1
+this this wheels can't work,oh has something happened to the wheel,CHI,MOT,TRUE,36,FALSE,0.5450000000000728,3.018999999999778,FALSE,TRUE,6,other error,7
+need my torch to see what's wet,I think you would need your torch wouldn't you,CHI,MOT,FALSE,36,FALSE,1.0679999999999836,1.5670000000000073,TRUE,FALSE,8,no error,10
+and he stopped,I would imagine the T N T lorry when it carry newspapers carries stacks and stacks of newspapers all bundled up in piles,CHI,MOT,FALSE,36,FALSE,-0.09300000000007458,1.6480000000001382,TRUE,FALSE,3,no error,23
+didn't go in the castle,Purdie's not well at the moment is she,CHI,MOT,FALSE,36,FALSE,0.9119999999998072,3.4020000000000437,TRUE,FALSE,6,no error,9
+Fireman_Sam went,oh that's the train not the fire engine,CHI,MOT,FALSE,36,FALSE,-0.6390000000001237,3.7270000000003165,TRUE,FALSE,3,no error,9
+been runaway buss instead,I'll explain,CHI,MOT,FALSE,36,FALSE,0.3949999999999818,2.0779999999999745,TRUE,FALSE,4,no error,3
+brought some chocolate pops,she brought some chocolate lollipops for you,CHI,MOT,FALSE,36,FALSE,0.17199999999996862,2.5430000000000064,TRUE,FALSE,4,no error,7
+nee_na on the sirens,you pulled the chair up because you wanted to sit down to look at them,CHI,MOT,FALSE,36,FALSE,-0.4560000000000173,2.158999999999992,FALSE,TRUE,5,no error,15
+I can do deliverys,come on,CHI,MOT,FALSE,36,FALSE,1.7509999999999764,2.495999999999981,FALSE,TRUE,4,no error,2
+lots_of parcels an shapes,jelly mouse,CHI,MOT,FALSE,36,FALSE,-1.27699999999993,2.76299999999992,FALSE,TRUE,5,no error,2
+an cones,pardon,CHI,MOT,FALSE,36,FALSE,0.6849999999999454,1.77599999999984,FALSE,TRUE,2,no error,1
+pairs,bananas in pajamas are coming down in pairs,CHI,MOT,FALSE,36,FALSE,0.032000000000152795,1.0789999999999509,FALSE,TRUE,1,no error,8
+in pajamas are coming down in pairs,do you know what it means when they say coming down in pairs,CHI,MOT,FALSE,36,FALSE,0.23500000000012733,4.620999999999867,FALSE,TRUE,7,no error,13
+in your fat bellys,oh Thomas,CHI,MOT,FALSE,36,FALSE,0.047000000000025466,2.088999999999942,FALSE,TRUE,4,no error,2
+are going down the stairs,bananas in pajamas,CHI,MOT,FALSE,36,FALSE,-1.012000000000171,3.912000000000262,FALSE,TRUE,5,no error,3
+are da_da_da pairs,bananas in pajamas,CHI,MOT,FALSE,36,FALSE,-0.0500000000001819,3.2390000000000327,FALSE,TRUE,5,no error,3
+are coming down in pairs,bananas,CHI,MOT,FALSE,36,FALSE,-0.29599999999982174,3.2739999999998872,FALSE,TRUE,5,no error,1
+I call have some cough smints mints,you call them cough mints,CHI,MOT,TRUE,36,FALSE,0.39500000000043656,3.8549999999995634,FALSE,TRUE,7,other error,5
+I roasted,pardon,CHI,MOT,FALSE,37,FALSE,0,3.1700000000000728,TRUE,FALSE,2,no error,1
+I roasted,roasted,CHI,MOT,FALSE,37,FALSE,-0.023000000000138243,1.2889999999999873,TRUE,FALSE,2,no error,1
+things are not fit in bowls,these things are not,CHI,MOT,TRUE,37,FALSE,1.1890000000000214,2.5780000000000314,TRUE,FALSE,6,other error,4
+what happened,well they did some tests then,CHI,MOT,FALSE,37,FALSE,0.11099999999999,1.1720000000000255,TRUE,FALSE,2,no error,6
+I got the crocodile xxx settee,and that one that,CHI,MOT,FALSE,37,FALSE,-0.010000000000047748,2.5780000000000314,TRUE,FALSE,6,no error,4
+I have got these,xxx,CHI,MOT,TRUE,37,FALSE,-0.81899999999996,3.336999999999989,TRUE,FALSE,4,other error,1
+then the train not watched out,did the train not watch out,CHI,MOT,TRUE,37,FALSE,0.04599999999982174,2.425999999999931,TRUE,FALSE,6,other error,6
+then it's rolled down again,oh Thomas,CHI,MOT,FALSE,37,FALSE,-1.1849999999999454,2.0790000000001783,TRUE,FALSE,6,no error,2
+brush brush brush your teeth each day,and be a friend to me,CHI,MOT,FALSE,37,FALSE,-0.023000000000024556,2.1000000000000227,FALSE,TRUE,7,no error,6
+saw a cement mixer,we saw a cement mixer today didn't we,CHI,MOT,FALSE,37,FALSE,-0.011999999999943611,2.0779999999999745,TRUE,FALSE,4,no error,9
+there's lots of dirty beer there,well you call all,CHI,MOT,FALSE,37,FALSE,-2.6350000000002183,2.774000000000342,FALSE,TRUE,7,no error,4
+bought some lots_of money here,oh I know,CHI,MOT,FALSE,37,FALSE,-0.03500000000030923,1.7420000000001892,TRUE,FALSE,6,no error,3
+es droven driven over the money,oh you're driving over the money,CHI,MOT,TRUE,37,FALSE,-0.023999999999887223,1.719000000000051,TRUE,FALSE,6,other error,7
+an then went on train,pardon,CHI,MOT,FALSE,37,FALSE,0.15000000000009095,2.5779999999999745,TRUE,FALSE,5,no error,1
+look I got some xxx,look there are some jugs here,CHI,MOT,FALSE,37,FALSE,-1.2309999999997672,1.2309999999997672,TRUE,FALSE,5,no error,6
+then come two ones,two ones,CHI,MOT,TRUE,37,FALSE,0.16300000000001091,3.993999999999687,FALSE,TRUE,4,other error,2
+he didn't,oh right,CHI,MOT,FALSE,37,FALSE,0.057999999999992724,0.7490000000000236,TRUE,FALSE,3,no error,2
+snails,ugh,CHI,MOT,FALSE,37,FALSE,0.27799999999979264,0.9060000000001764,FALSE,TRUE,1,no error,1
+a found something,I think we took some bubbles up to Grandma's,CHI,MOT,FALSE,37,FALSE,0.3949999999999818,2.588999999999942,TRUE,FALSE,3,no error,10
+more like sweeties,more like sweeties,CHI,MOT,FALSE,37,FALSE,-0.08100000000013097,1.348000000000411,FALSE,TRUE,3,no error,3
+grapes,grapes,CHI,MOT,FALSE,37,FALSE,0.568000000000211,0.543999999999869,FALSE,TRUE,1,no error,1
+I do not want my tracks off on,that's alright love,CHI,MOT,TRUE,37,FALSE,0.11599999999999966,2.497,FALSE,TRUE,8,other error,4
+what's her name called,what's her name,CHI,MOT,FALSE,37,FALSE,-1.5439999999999827,1.5439999999999827,TRUE,FALSE,5,no error,4
+I got xxx on that one,shall we pretend,CHI,MOT,FALSE,37,FALSE,0,1.97199999999998,TRUE,FALSE,6,no error,3
+cough sweets,you they're not cough sweets,CHI,MOT,FALSE,37,FALSE,-0.03600000000005821,1.1850000000001728,FALSE,TRUE,2,no error,6
+gone,is it,CHI,MOT,FALSE,37,FALSE,-0.08100000000013097,1.393000000000029,TRUE,FALSE,1,no error,2
+down came,down came the rain and washed the spider out,CHI,MOT,FALSE,37,FALSE,-2.0609999999996944,2.2169999999996435,TRUE,FALSE,2,no error,9
+rain and washed the sweet watch,washed the what,CHI,MOT,FALSE,37,FALSE,1.7409999999999854,2.8099999999999454,TRUE,FALSE,6,no error,3
+I got there an there an there an there an there an there an there,well I think I would have noticed if was there and there and there and there and there and there,CHI,MOT,FALSE,37,FALSE,0.06999999999999318,5.850999999999999,TRUE,FALSE,15,no error,20
+this chairs is tickling me,the chair's tickling you,CHI,MOT,TRUE,37,FALSE,0.03499999999996817,1.927000000000021,FALSE,TRUE,5,other error,5
+that chairs is on fire,is it,CHI,MOT,TRUE,37,FALSE,-1.3500000000000227,2.808999999999969,FALSE,TRUE,5,other error,2
+buy some buttons in Mothercare please,that's right,CHI,MOT,FALSE,37,FALSE,0,2.7630000000001473,FALSE,TRUE,6,no error,3
+need a put all my money in my back of my lorry,have you,CHI,MOT,FALSE,37,FALSE,0.09300000000030195,3.020999999999731,TRUE,FALSE,12,no error,2
+there one moneys,one two three four five,CHI,MOT,TRUE,37,FALSE,-0.15000000000009095,1.4050000000002,FALSE,TRUE,3,other error,5
+two sweeties,oh I don't think we've got two sweeties,CHI,MOT,FALSE,37,FALSE,0.12599999999974898,1.706000000000131,FALSE,TRUE,2,no error,10
+a stairs look there's all bear,that's not all bear,CHI,MOT,FALSE,37,FALSE,0.22100000000000364,3.1340000000000003,FALSE,TRUE,7,no error,5
+where it gone,where's the bear,CHI,MOT,FALSE,37,FALSE,0.012000000000000455,1.7879999999999825,TRUE,FALSE,3,no error,4
+oh it trapped some,he only knows that if it's one o'clock it must be time for lunch,CHI,MOT,FALSE,37,FALSE,-0.1510000000000673,0.15200000000004366,TRUE,FALSE,4,no error,16
+two trains,that's right,CHI,MOT,FALSE,37,FALSE,-0.023000000000138243,1.080000000000382,FALSE,TRUE,2,no error,3
+eggs,grapes,CHI,MOT,FALSE,37,FALSE,0.2549999999996544,0.7200000000002547,FALSE,TRUE,1,no error,1
+eggs,he got a he got a nice checked blanket hasn't he,CHI,MOT,FALSE,37,FALSE,-0.31300000000010186,0.7550000000001091,FALSE,TRUE,1,no error,12
+tipped them all out,have you,CHI,MOT,FALSE,37,FALSE,0.487999999999829,2.4839999999999236,TRUE,FALSE,4,no error,2
+it's caught up in pieces,it's caught up,CHI,MOT,FALSE,37,FALSE,0.5219999999999345,1.5210000000001855,FALSE,TRUE,6,no error,4
+in pieces,it is,CHI,MOT,FALSE,37,FALSE,1.474999999999909,1.0799999999999272,FALSE,TRUE,2,no error,2
+xxx brushed,press it,CHI,MOT,FALSE,37,FALSE,2.867999999999995,1.730000000000004,TRUE,FALSE,2,no error,2
+this not works,no,CHI,MOT,TRUE,37,FALSE,0.9689999999999994,1.8339999999999996,FALSE,TRUE,3,other error,1
+Daddy got some little whiskers,some sand,CHI,MOT,FALSE,37,FALSE,0.556999999999995,2.7050000000000054,FALSE,TRUE,5,no error,2
+I'm making just painting breads,painting breads,CHI,MOT,TRUE,37,FALSE,1.1140000000000327,2.9729999999999563,FALSE,TRUE,6,other error,2
+this pieces wants a wash in my drink,no,CHI,MOT,TRUE,37,FALSE,-0.03399999999987813,4.121000000000095,FALSE,TRUE,8,other error,1
+this train not works,no,CHI,MOT,TRUE,37,FALSE,0.5450000000000728,1.97400000000016,FALSE,TRUE,4,other error,1
+and mountains,it's May now isn't it,CHI,MOT,FALSE,37,FALSE,1.1610000000000582,1.9619999999998754,FALSE,TRUE,2,no error,7
+sleeves and buttons and a scarf,what's he wearing,CHI,MOT,FALSE,37,FALSE,0.2669999999998254,3.6800000000000637,FALSE,TRUE,6,no error,4
+I found my telephone,it's Ben's birthday in August isn't it,CHI,MOT,FALSE,37,FALSE,0.035000000000081855,1.8109999999999218,TRUE,FALSE,4,no error,10
+lots an lots of wheels,yeah,CHI,MOT,FALSE,37,FALSE,-0.01099999999999568,1.5559999999999832,FALSE,TRUE,5,no error,1
+got Larry tight,I see,CHI,MOT,FALSE,37,FALSE,1.6600000000000819,2.089999999999918,TRUE,FALSE,3,no error,2
+gone,what do you call sticky trains,CHI,MOT,FALSE,37,FALSE,1.7639999999998963,1.0920000000000982,TRUE,FALSE,1,no error,6
+going in the engine shed,is he,CHI,MOT,FALSE,37,FALSE,0.4060000000004038,2.4609999999997854,TRUE,FALSE,5,no error,2
+I just said Tony,didn't we,CHI,MOT,FALSE,38,FALSE,-1.4859999999998763,1.4859999999998763,TRUE,FALSE,4,no error,3
+we weren't,we know now though don't we,CHI,MOT,FALSE,38,FALSE,0.057999999999992724,0.6160000000000139,TRUE,FALSE,3,no error,7
+cherries,cherries,CHI,MOT,FALSE,38,FALSE,-0.02299999999991087,0.7319999999999709,FALSE,TRUE,1,no error,1
+I don't take these buttons off,you can do it,CHI,MOT,FALSE,38,FALSE,-2.206000000000131,2.206000000000131,FALSE,TRUE,7,no error,4
+ah carrots,carrots,CHI,MOT,FALSE,38,FALSE,1.18100000000004,1.3119999999998981,FALSE,TRUE,2,no error,1
+oh gone,to wipe your feet on,CHI,MOT,FALSE,38,FALSE,-1.2189999999998236,1.2189999999998236,TRUE,FALSE,2,no error,5
+Purdie swallow my sausages,Purdie done what,CHI,MOT,TRUE,38,FALSE,0.3020000000001346,3.4479999999998654,FALSE,TRUE,4,other error,3
+my sausages,sausages,CHI,MOT,FALSE,38,FALSE,0.2319999999999709,1.3579999999997199,FALSE,TRUE,2,no error,1
+two ones,two,CHI,MOT,TRUE,38,FALSE,0.11599999999998545,1.0690000000000737,FALSE,TRUE,2,other error,1
+I think lorry's going round here for batterys,is it,CHI,MOT,FALSE,38,FALSE,0.487999999999829,3.4589999999998327,FALSE,TRUE,9,no error,2
+you wanted some post,right,CHI,MOT,FALSE,38,FALSE,0.34799999999995634,1.9849999999999,TRUE,FALSE,4,no error,1
+trains,the trains don't you,CHI,MOT,FALSE,38,FALSE,-0.9400000000000546,1.5319999999999254,FALSE,TRUE,1,no error,5
+and door just door just flapped open,has it,CHI,MOT,FALSE,38,FALSE,-1.323000000000036,4.3770000000000095,TRUE,FALSE,7,no error,2
+I wanted it I wanted to say,well you'll have_to look Thomas because it's dirty,CHI,MOT,FALSE,38,FALSE,-0.04600000000004911,2.6929999999999836,TRUE,FALSE,7,no error,11
+where did sent them,well she sent them up to bed,CHI,MOT,TRUE,38,FALSE,-0.10999999999989996,2.6359999999999673,TRUE,FALSE,4,other error,7
+Mummy my horse went,oh yes,CHI,MOT,FALSE,38,FALSE,0.8709999999998672,2.647000000000162,TRUE,FALSE,4,no error,2
+oh xxx two ones have popped,the balloons,CHI,MOT,TRUE,38,FALSE,0.10399999999981446,2.9720000000002074,FALSE,TRUE,6,other error,2
+tipped off,thank you,CHI,MOT,FALSE,38,FALSE,-0.02400000000000091,1.3120000000000118,TRUE,FALSE,2,no error,2
+Purdie has gone upstairs again,has she,CHI,MOT,FALSE,39,FALSE,-1.1059999999999945,2.9320000000000164,TRUE,FALSE,5,no error,2
+I've weed,oh Thomas,CHI,MOT,FALSE,39,FALSE,0.3730000000000473,1.4400000000000546,TRUE,FALSE,3,no error,2
+all down my arm I did,what's the matter,CHI,MOT,TRUE,39,FALSE,0.6130000000002838,2.092999999999847,TRUE,FALSE,6,other error,4
+two more ones,two ones,CHI,MOT,FALSE,39,FALSE,-2.02599999999984,2.905999999999949,FALSE,TRUE,3,no error,2
+halves,put those,CHI,MOT,FALSE,39,FALSE,-1.0270000000000437,1.040000000000191,FALSE,TRUE,1,no error,2
+two broken,well that's why I let you have it,CHI,MOT,FALSE,39,FALSE,1.65300000000002,0.8140000000000782,TRUE,FALSE,2,no error,9
+bout xxx done it xxx,and I used to,CHI,MOT,FALSE,39,FALSE,0.34700000000020736,1.7599999999997635,TRUE,FALSE,5,no error,4
+yes it was,right,CHI,MOT,FALSE,39,FALSE,-0.5570000000000164,0.9750000000000227,TRUE,FALSE,3,no error,1
+oh I wanted lots to stack,that's it,CHI,MOT,FALSE,39,FALSE,-1.6830000000001064,2.2520000000000664,TRUE,FALSE,6,no error,3
+see a saw a sea sea sea,very good,CHI,MOT,FALSE,39,FALSE,0.035000000000081855,6.9659999999998945,TRUE,FALSE,7,no error,2
+look what I have done,right,CHI,MOT,TRUE,39,FALSE,-1.1959999999999127,1.3119999999998981,TRUE,FALSE,5,other error,1
+say it's lost,if the vase,CHI,MOT,FALSE,39,FALSE,-1.0779999999999745,1.0789999999999509,TRUE,FALSE,4,no error,3
+he said he isn't,could you just excuse me a moment please while I pop this,CHI,MOT,FALSE,39,FALSE,-0.03700000000003456,1.0329999999999018,TRUE,FALSE,5,no error,12
+roses again,mhm,CHI,MOT,FALSE,39,FALSE,0.8829999999998108,1.428000000000111,FALSE,TRUE,2,no error,1
+no you are stuck,am I,CHI,MOT,TRUE,39,FALSE,0.022999999999683496,1.1140000000000327,TRUE,FALSE,4,other error,2
+it's a beautiful flowers,beautiful flowers in the window box on the farm,CHI,MOT,TRUE,39,FALSE,0.16300000000001091,3.11099999999999,FALSE,TRUE,5,other error,9
+I wanted to see a donkey xxx under the cat,what is under the pussy cat sitting on the wall,CHI,MOT,FALSE,39,FALSE,0.03500000000002501,4.271999999999991,TRUE,FALSE,10,no error,10
+and you wanted to be it was bedtime you were sleepy wasn't you,well I am quite sleepy Thomas,CHI,MOT,TRUE,39,FALSE,-0.08300000000002683,7.442000000000007,TRUE,FALSE,14,other error,6
+let's do let's go cooking scales,well we'll get the cooking scales in a minute,CHI,MOT,FALSE,39,FALSE,-0.45299999999997453,3.518000000000029,FALSE,TRUE,8,no error,10
+we was too late,what was too late,CHI,MOT,TRUE,39,FALSE,0.11599999999998545,1.7070000000001073,TRUE,FALSE,4,other error,4
+finished,would you like some more little beads,CHI,MOT,FALSE,39,FALSE,0.650000000000091,0.8469999999997526,TRUE,FALSE,1,no error,7
+he got lots_of containers in it but it was a train track in,oh right,CHI,MOT,TRUE,39,FALSE,0.13299999999981083,5.3400000000001455,TRUE,TRUE,14,other error,2
+for cars,it's the road isn't it,CHI,MOT,FALSE,39,FALSE,-0.10500000000001819,1.2889999999999873,FALSE,TRUE,2,no error,7
+this man shouted with his voice oy oy to a dustbin man,why did he say,CHI,MOT,FALSE,40,FALSE,0.055999999999983174,4.992000000000019,TRUE,FALSE,12,no error,4
+look at I have done,we've got_to see what this one has done,CHI,MOT,TRUE,40,FALSE,0.3020000000001346,1.2420000000001892,TRUE,FALSE,5,other error,10
+it was got lots_of wheels and it said oil,did it,CHI,MOT,TRUE,40,FALSE,-0.04699999999991178,3.088999999999942,TRUE,FALSE,10,other error,2
+Mummy put some lots in there then can deliver it there,alright,CHI,MOT,TRUE,40,FALSE,-1.2770000000000437,4.9220000000000255,FALSE,TRUE,11,other error,1
+found it,and a green e,CHI,MOT,FALSE,40,FALSE,0.56899999999996,0.9169999999999163,TRUE,FALSE,2,no error,4
+fun size pears,they're especially for children,CHI,MOT,FALSE,40,FALSE,-0.012000000000170985,1.393000000000029,FALSE,TRUE,3,no error,5
+I need some boiled water,there,CHI,MOT,FALSE,40,FALSE,0.6620000000000346,2.658999999999878,TRUE,FALSE,5,no error,1
+xxx need some lots,yeah,CHI,MOT,TRUE,40,FALSE,-0.3949999999999818,1.4049999999999727,FALSE,TRUE,4,other error,1
+I am making some some biscuits for them I like biscuits,right,CHI,MOT,TRUE,40,FALSE,-2.560999999999922,4.898999999999887,FALSE,TRUE,11,other error,1
+you have got,it's,CHI,MOT,TRUE,40,FALSE,-0.8530000000000655,1.3359999999997854,TRUE,FALSE,3,other error,2
+he stopped out a Liam house,yes,CHI,MOT,TRUE,40,FALSE,0.012000000000170985,2.6929999999997563,TRUE,FALSE,6,other error,1
+it were gold blue an it had got numbers on it as well,got num the rainbow had numbers on it,CHI,MOT,TRUE,40,FALSE,-3.399000000000001,7.933999999999969,TRUE,FALSE,13,other error,8
+you didn't saw me,well you must think you're doing something naughty by asking me to turn my head,CHI,MOT,TRUE,40,FALSE,-0.07500000000004547,1.7770000000000437,TRUE,FALSE,5,other error,16
+it got a nee_na,don't put your helmet in your food,CHI,MOT,FALSE,40,FALSE,-1.2649999999998727,1.265999999999849,TRUE,FALSE,5,no error,8
+you are a good lady you say cables,oh right,CHI,MOT,TRUE,40,FALSE,-0.696999999999889,3.1579999999999018,FALSE,TRUE,8,other error,2
+and we have gone all the rubbish away,very good,CHI,MOT,TRUE,40,FALSE,-0.010999999999967258,3.59900000000016,TRUE,FALSE,8,other error,2
+give you a big kiss on your eyes,on my on my eyes,CHI,MOT,FALSE,40,FALSE,-0.003000000000156433,2.3339999999998327,FALSE,TRUE,8,no error,5
+he's called,Nick,CHI,MOT,FALSE,40,FALSE,-0.9520000000002256,1.2300000000000182,TRUE,FALSE,3,no error,1
+called Jamie,right,CHI,MOT,FALSE,40,FALSE,0.1610000000000582,1.0790000000001783,TRUE,FALSE,2,no error,1
+it did,well just be careful sweetheart please,CHI,MOT,FALSE,40,FALSE,-0.5440000000003238,0.5450000000000728,TRUE,FALSE,2,no error,6
+then he gone down xxx rubbish,and then he came down and collected all the rubbish did he,CHI,MOT,TRUE,41,FALSE,0.7170000000000982,4.620999999999867,TRUE,FALSE,6,other error,12
+not mice lady,oh I am a nice lady,CHI,MOT,TRUE,41,FALSE,0.362999999999829,1.8380000000001928,FALSE,TRUE,3,other error,6
+and I think that little baby likes super buds,super buds,CHI,MOT,FALSE,41,FALSE,-0.10300000000006548,4.309999999999945,FALSE,TRUE,9,no error,2
+because I like super buds,which little baby,CHI,MOT,FALSE,41,FALSE,0.73700000000008,2.3469999999997526,FALSE,TRUE,5,no error,3
+it was got some problem,oh dear,CHI,MOT,TRUE,41,FALSE,0.32499999999998863,1.7300000000000182,TRUE,FALSE,5,other error,2
+please can I got past,yes,CHI,MOT,TRUE,41,FALSE,-0.033999999999991815,1.8689999999999145,TRUE,FALSE,5,other error,1
+Mummy do you want to talk to Daddy today didn't you,yeah,CHI,MOT,TRUE,41,FALSE,-0.6649999999999636,4.1440000000000055,TRUE,FALSE,12,other error,1
+but I have just gone away,Thomas would you like some toast,CHI,MOT,TRUE,41,FALSE,-0.03099999999994907,2.201999999999998,TRUE,FALSE,6,other error,6
+got a bones in it,it got bones in it has it,CHI,MOT,TRUE,41,FALSE,-0.11999999999989086,1.6199999999998909,FALSE,TRUE,5,other error,7
+there's some lines here,you were telling me that you drawn some flowers at Nana's,CHI,MOT,TRUE,41,FALSE,-0.9860000000003311,3.7380000000002838,FALSE,TRUE,5,other error,12
+sorry I've turned that bread,be careful,CHI,MOT,FALSE,41,FALSE,-0.15099999999983993,2.4839999999999236,TRUE,FALSE,6,no error,2
+um a sirens,what siren,CHI,MOT,TRUE,41,FALSE,-0.10500000000001819,1.6720000000000255,FALSE,TRUE,3,other error,2
+don't get any papers,Thomas just let me,CHI,MOT,FALSE,41,FALSE,0.010999999999967258,1.8690000000001419,FALSE,TRUE,5,no error,4
+throw you blues away,don't put those on the floor Thomas,CHI,MOT,FALSE,41,FALSE,-0.6849999999999454,2.7289999999998145,FALSE,TRUE,4,no error,8
+there got some pants,there's a pair of pants on the floor,CHI,MOT,FALSE,41,FALSE,0,1.5909999999998945,TRUE,FALSE,4,no error,9
+shut your eyes,don't,CHI,MOT,FALSE,41,FALSE,0.6040000000000134,1.728999999999985,FALSE,TRUE,3,no error,2
+yes did,wouldn't it be quiet if there wasn't Thomas living here,CHI,MOT,FALSE,41,FALSE,-2.0670000000000073,2.1709999999998217,TRUE,FALSE,2,no error,12
+not toys,it's not full of sweets is it,CHI,MOT,FALSE,42,FALSE,0.10499999999998977,2.0430000000000064,FALSE,TRUE,2,no error,8
+i want this xxx weighed an make it full up,yes please,CHI,MOT,TRUE,42,FALSE,0,3.923999999999978,TRUE,FALSE,10,other error,2
+got in Mum,oh yes sorry,CHI,MOT,TRUE,42,FALSE,0.2440000000000282,1.8809999999999718,TRUE,FALSE,3,other error,3
+letters,these,CHI,MOT,FALSE,42,FALSE,-1.3460000000000036,1.34699999999998,FALSE,TRUE,1,no error,1
+I'm just going to left just on there,you're you're going to leave them,CHI,MOT,TRUE,42,FALSE,0.1169999999999618,3.1920000000000073,TRUE,FALSE,9,other error,8
+I just want to get on with these wheels,don't you are going to break that bus Thomas,CHI,MOT,FALSE,42,FALSE,0.035000000000081855,2.612999999999829,FALSE,TRUE,9,no error,10
+that one is called,oh right,CHI,MOT,FALSE,42,FALSE,-1.1730000000002292,1.1730000000002292,TRUE,FALSE,4,no error,2
+she gone on a rails,oh no,CHI,MOT,TRUE,42,FALSE,0.03499999999985448,2.4029999999997926,FALSE,TRUE,5,other error,2
+the wind blew up and the bus got on the railway track,the wheels on the bus book,CHI,MOT,FALSE,42,FALSE,-0.012000000000170985,4.992999999999938,TRUE,FALSE,12,no error,6
+an it shut a doors,right,CHI,MOT,TRUE,42,FALSE,0.7200000000002547,2.599999999999909,FALSE,TRUE,5,other error,1
+a shops,a shop,CHI,MOT,TRUE,42,FALSE,1.3880000000000337,1.045000000000016,FALSE,TRUE,2,other error,2
+I'm just I know I'm just fell out of the space rocket that's why I'm lying there,oh right,CHI,MOT,TRUE,42,FALSE,0.033999999999991815,5.4220000000000255,TRUE,FALSE,21,other error,2
+I won't be coming late now I just getting cars in,right,CHI,MOT,FALSE,42,FALSE,-0.4780000000000655,5.201000000000022,FALSE,TRUE,12,no error,1
+and a man done this,pardon,CHI,MOT,TRUE,42,FALSE,0.6219999999998436,1.7999999999997272,TRUE,FALSE,5,other error,1
+two hours,you can xxx two hours,CHI,MOT,FALSE,42,FALSE,0.05500000000029104,0.9989999999997963,FALSE,TRUE,2,no error,5
+head and shoulders knees and toes,watch your head,CHI,MOT,FALSE,42,FALSE,0,3.018999999999778,FALSE,TRUE,6,no error,3
+Mummy naughty with books,yes,CHI,MOT,FALSE,42,FALSE,0.4759999999999991,2.4729999999999563,FALSE,TRUE,4,no error,1
+an what your in the shops you gave it back to me when we are out of the shops you can get it again,alright,CHI,MOT,TRUE,42,FALSE,-0.5799999999999272,7.105000000000018,TRUE,FALSE,24,other error,1
+I have got a friend called Luke,the boy's,CHI,MOT,TRUE,42,FALSE,-2.145999999999958,2.1469999999999345,TRUE,FALSE,7,other error,3
+I have got some Smarties,oh look,CHI,MOT,TRUE,42,FALSE,-0.7549999999996544,2.855999999999767,TRUE,FALSE,5,other error,2
+I have eaten it,there's a there's a brown one there that I can see,CHI,MOT,TRUE,42,FALSE,-0.012000000000170985,1.474999999999909,TRUE,FALSE,4,other error,13
+no we wasn't,well tell me what was it,CHI,MOT,TRUE,42,FALSE,0,1.9499999999999886,TRUE,FALSE,4,other error,6
+I have just got headache,pardon,CHI,MOT,TRUE,42,FALSE,-0.045000000000015916,1.9739999999999895,TRUE,FALSE,5,other error,1
+I want to watch telly an eat sweets,pardon,CHI,MOT,FALSE,42,FALSE,0.0929999999998472,3.089000000000169,FALSE,TRUE,8,no error,1
+Daddy's pooey birthday wasn't it,so when he comes home you can say Daddy here's your birthday treat,CHI,MOT,FALSE,42,FALSE,-0.8469999999997526,3.7029999999999745,TRUE,FALSE,7,no error,14
+when it was drop on the floor,oh,CHI,MOT,FALSE,42,FALSE,0.03499999999985448,1.9720000000002074,TRUE,FALSE,7,no error,1
+jammy dodgers,jammy dodgers,CHI,MOT,FALSE,42,FALSE,-0.047000000000025466,1.7650000000003274,FALSE,TRUE,2,no error,2
+this barrier's broken,be careful,CHI,MOT,FALSE,42,FALSE,0,2.936999999999898,TRUE,FALSE,4,no error,2
+Mummy Mummy do you know what has gone on fire,don't please don't bang that Thomas darling,CHI,MOT,TRUE,43,FALSE,-4.550999999999931,8.288999999999987,TRUE,FALSE,10,other error,9
+I was going to do one,you did do that one,CHI,MOT,FALSE,43,FALSE,-0.023000000000024556,1.788000000000011,TRUE,FALSE,6,no error,5
+smelly socks,smelly socks,CHI,MOT,FALSE,43,FALSE,0.8009999999999309,1.1950000000001637,FALSE,TRUE,2,no error,2
+do you know what it's name called Mummy,no,CHI,MOT,TRUE,43,FALSE,-0.011999999999943611,2.2760000000000673,TRUE,FALSE,9,other error,1
+Mummy it's tacheded attached on,attached,CHI,MOT,TRUE,43,FALSE,0.023999999999887223,2.6350000000002183,TRUE,FALSE,6,other error,1
+I wanted to do it now,could you stand up please,CHI,MOT,TRUE,43,FALSE,-0.9630000000001928,2.936999999999898,TRUE,FALSE,6,other error,5
+xxx when I'm tired,shh,CHI,MOT,FALSE,43,FALSE,-1.125999999999749,2.6809999999995853,TRUE,FALSE,5,no error,1
+Mummy I didn't xxx bridge,shh Thomas,CHI,MOT,FALSE,43,FALSE,-1.4160000000001673,6.802999999999884,TRUE,FALSE,6,no error,2
+Gordon and Henry was um walking along the rail rail lines,yes,CHI,MOT,TRUE,43,FALSE,-0.10399999999981446,7.3539999999998145,TRUE,FALSE,11,other error,1
+I've got hiccups,have you got xxx,CHI,MOT,FALSE,43,FALSE,0.019000000000005457,1.3240000000000691,TRUE,TRUE,4,no error,4
+she doesn't bit your finger like that,bite your finger,CHI,MOT,TRUE,43,FALSE,-0.01900000000023283,3.3780000000001564,TRUE,FALSE,8,other error,3
+and that was hurt on you,did someone else fly out of their car and land on top of me,CHI,MOT,TRUE,43,FALSE,0.19700000000000273,2.0439999999999827,TRUE,FALSE,6,other error,14
+and you know uh uh Purdie had just gone your lap,oh that's nice isn't it,CHI,MOT,FALSE,43,FALSE,0.06999999999993634,4.875999999999976,TRUE,FALSE,11,no error,7
+he got a tiny pussy cat called Purdie,and the bean,CHI,MOT,FALSE,43,FALSE,-4.433999999999969,4.434999999999945,TRUE,FALSE,8,no error,3
+we gone in another hotel didn't we,yes yes,CHI,MOT,TRUE,43,FALSE,0,3.1340000000000146,TRUE,FALSE,8,other error,2
+show me went it's ready,I will,CHI,MOT,TRUE,43,FALSE,0.1479999999996835,1.800000000000182,TRUE,FALSE,6,other error,2
+he flied on on my head,you're probably suffering from jet lag Thomas you don't give yourself time in a country to catch up on your sleep before you fly off again,CHI,MOT,TRUE,43,FALSE,-2.738999999999919,2.7509999999999764,TRUE,FALSE,6,other error,28
+uh Mummy yesterday you gone on a bus and you forgotten your purse,oh dear,CHI,MOT,TRUE,44,FALSE,0.20899999999994634,6.757000000000062,TRUE,FALSE,13,other error,2
+shook hands first then I will sing a song,oh,CHI,MOT,TRUE,44,FALSE,-0.5,3.3899999999998727,TRUE,FALSE,9,other error,1
+Mummy it was it was lost the bell,lost the bell,CHI,MOT,FALSE,44,FALSE,0.09300000000030195,4.875999999999749,TRUE,FALSE,8,no error,3
+there's more dustbin bags,that's all I need,CHI,MOT,TRUE,44,FALSE,-1.461999999999989,1.4630000000001928,FALSE,TRUE,5,other error,5
+Santa got stuck up a chimney,wouldn't it,CHI,MOT,FALSE,44,FALSE,-2.8570000000000277,2.90300000000002,TRUE,FALSE,6,no error,3
+he began to yell,shout,CHI,MOT,FALSE,44,FALSE,0.023000000000024556,2.147999999999911,TRUE,FALSE,4,no error,1
+when I make crush that it gots got dough in,sorry,CHI,MOT,TRUE,44,FALSE,0.5919999999999845,4.817999999999984,TRUE,FALSE,10,other error,1
+and he's called little slowy coachie coach coach coach,he's called a slow coach is he,CHI,MOT,FALSE,44,FALSE,-0.9979999999999336,4.492999999999938,TRUE,FALSE,10,no error,8
+okay cat biscuits,there we are puss,CHI,MOT,FALSE,44,FALSE,-2.2990000000002055,2.9950000000001182,FALSE,TRUE,3,no error,4
+had a very doughy nose,very shiny nose,CHI,MOT,FALSE,44,FALSE,-1.3350000000000364,2.97199999999998,TRUE,FALSE,5,no error,3
+lights,don't don't don't touch it please,CHI,MOT,FALSE,44,FALSE,0.010999999999967258,0.581000000000131,FALSE,TRUE,1,no error,9
+had a very shiny nose,and if you ever saw it,CHI,MOT,FALSE,44,FALSE,0.12800000000015643,3.4479999999998654,TRUE,FALSE,5,no error,6
+no they said do not do any Ruldoph games,oh right,CHI,MOT,TRUE,44,FALSE,0.10400000000004184,4.52800000000002,TRUE,FALSE,9,other error,2
+had a very shiny nose,right now would you like to,CHI,MOT,FALSE,44,FALSE,0.2319999999999709,2.7870000000000346,TRUE,FALSE,5,no error,6
+had a very shiny nose,very shiny nose,CHI,MOT,FALSE,44,FALSE,-2.6700000000000728,3.796000000000049,TRUE,FALSE,5,no error,3
+oh I found another,another fork,CHI,MOT,FALSE,44,FALSE,0,1.1610000000000582,TRUE,FALSE,4,no error,2
+look what I found,twelve xxx,CHI,MOT,FALSE,44,FALSE,-0.6150000000002365,1.393000000000029,TRUE,FALSE,4,no error,2
+I love,you do don't you,CHI,MOT,FALSE,44,FALSE,-0.48700000000008004,1.1840000000001965,FALSE,TRUE,2,no error,5
+no it didn't,pardon,CHI,MOT,FALSE,44,FALSE,0.17399999999997817,2.5779999999999745,TRUE,FALSE,4,no error,1
+it had snowed,it would be awful if it did snow on top of strawberries because when we grow strawberries in the summer the last thing we want is snow coming down isn't it,CHI,MOT,TRUE,44,FALSE,0.3809999999998581,1.8690000000001419,TRUE,FALSE,3,other error,32
+just got one more thing to do,with lots,CHI,MOT,FALSE,45,FALSE,1.1260000000000332,2.125,TRUE,FALSE,7,no error,2
+when you was going in a driveway do you know what he saw,no,CHI,MOT,TRUE,45,FALSE,-0.19800000000003593,4.5750000000000455,TRUE,FALSE,13,other error,1
+Mummy you might get spiked,do you think those came with the rescue set from Margaret,CHI,MOT,FALSE,45,FALSE,-0.9759999999999991,2.5430000000000064,TRUE,FALSE,5,no error,11
+they did,now the firefighters definitely did didn't they,CHI,MOT,FALSE,45,FALSE,-0.6150000000000091,0.6730000000000018,TRUE,FALSE,2,no error,8
+I xxx fell over fire engine,well there's a little fire engine,CHI,MOT,FALSE,45,FALSE,0.5450000000000728,2.7749999999999773,TRUE,FALSE,6,no error,7
+Mummy you spoiled it Mummy xxx,I haven't spoiled it,CHI,MOT,FALSE,45,FALSE,-0.10500000000001819,5.980000000000018,TRUE,FALSE,6,no error,5
+Mummy I wanted to do it,Thomas I am absolutely fed up of you crying,CHI,MOT,FALSE,45,FALSE,-0.010999999999967258,4.329999999999927,TRUE,FALSE,6,no error,9
+I don't like wrapping presents,you don't like wrapping presents,CHI,MOT,FALSE,45,FALSE,-0.15099999999983993,3.8079999999999927,FALSE,TRUE,6,no error,6
+rabbits and fishys,that's right,CHI,MOT,FALSE,45,FALSE,0.26700000000005275,3.4249999999999545,FALSE,TRUE,3,no error,3
+oh Santa's little helpers,yes,CHI,MOT,FALSE,45,FALSE,-0.45299999999997453,3.668999999999869,FALSE,TRUE,5,no error,1
+now I better not cut thingys,you've had good fun doing this haven't you,CHI,MOT,FALSE,45,FALSE,3.843999999999596,2.4030000000002474,FALSE,TRUE,6,no error,10
+I won't get messys,no no but there's all this Sellotape that needs using up look,CHI,MOT,TRUE,45,FALSE,0.5149999999998727,1.3460000000000036,FALSE,TRUE,5,other error,13
+gold rings,that's right,CHI,MOT,FALSE,45,FALSE,-2.158999999999992,2.158999999999992,FALSE,TRUE,2,no error,3
+look what I got,one more piece,CHI,MOT,FALSE,45,FALSE,2.0319999999999254,1.2770000000000437,TRUE,FALSE,4,no error,3
+with the windows in and now did it went bang,well Daddy said it all burnt to the ground,CHI,MOT,TRUE,45,FALSE,-0.0340000000001055,3.227000000000089,TRUE,FALSE,10,other error,9
+I didn't but I saw treading on wires,treading on the wires,CHI,MOT,TRUE,45,FALSE,0.5809999999999995,4.098000000000001,TRUE,FALSE,9,other error,4
+sing a song of shepherds,sing a song of shepherds,CHI,MOT,FALSE,45,FALSE,0.4760000000001128,2.786000000000058,FALSE,TRUE,5,no error,5
+got it,yes that's right,CHI,MOT,FALSE,45,FALSE,0.1390000000000029,0.7550000000000026,TRUE,FALSE,2,no error,4
+got hole,cheese box and margarine,CHI,MOT,FALSE,45,FALSE,-1.0209999999999937,1.0219999999999985,TRUE,FALSE,2,no error,4
+and then I have thicker dinners at Mrs_Plattford's,pardon,CHI,MOT,FALSE,45,FALSE,0,3.25,FALSE,TRUE,10,no error,1
+I have thicker dinners at Mrs_Plattford's when I'm four,you had what at Mrs_Plattford's when your four,CHI,MOT,FALSE,45,FALSE,0.13600000000008095,3.435999999999922,FALSE,TRUE,12,no error,10
+over the things and far away,far away,CHI,MOT,FALSE,45,FALSE,-1.5480000000000018,4.110000000000014,FALSE,TRUE,6,no error,2
+three little ducks went swimming one day,you're taking a hula hoop off,CHI,MOT,FALSE,45,FALSE,-2.159999999999968,4.586000000000013,TRUE,TRUE,7,no error,7
+Mummy duck said quack quack quack,Mummy duck said quack quack quack quack,CHI,MOT,FALSE,45,FALSE,-3.796000000000049,3.796000000000049,TRUE,FALSE,6,no error,7
+only none little ducks came back,only none little ducks came back,CHI,MOT,FALSE,45,FALSE,-0.047000000000025466,3.3319999999999936,TRUE,TRUE,6,no error,6
+three little frogs went,no,CHI,MOT,FALSE,45,FALSE,0,2.8330000000000837,TRUE,TRUE,4,no error,1
+Mummy frog said ribbit and only one little duck came back,we're back on the ducks,CHI,MOT,FALSE,45,FALSE,-0.18499999999994543,8.633000000000038,TRUE,FALSE,11,no error,6
+three little ducks,sat on a speckled log,CHI,MOT,FALSE,45,FALSE,0.04599999999982174,2.6590000000001055,FALSE,TRUE,3,no error,5
+and only two little ducks came back,do two little speckled frogs,CHI,MOT,FALSE,45,FALSE,1.3209999999999127,4.447000000000116,TRUE,TRUE,7,no error,5
+did we,there we are,CHI,MOT,FALSE,45,FALSE,-1.1000000000001364,1.3350000000000364,TRUE,FALSE,2,no error,3
+could you put the sweets near me,there you are,CHI,MOT,FALSE,45,FALSE,-0.3250000000000455,3.2509999999999764,FALSE,TRUE,7,no error,3
+done,and a grey,CHI,MOT,FALSE,45,FALSE,0.15100000000029468,1.2649999999998727,TRUE,FALSE,1,no error,3
+Mummy the mice,they're nice are they,CHI,MOT,FALSE,45,FALSE,-0.16300000000001091,0.5460000000002765,FALSE,TRUE,3,no error,5
+have we not got any,I can't work out which is black and which is green,CHI,MOT,FALSE,46,FALSE,-0.6730000000000018,1.7180000000000177,TRUE,FALSE,5,no error,12
+I did heard it,yes,CHI,MOT,TRUE,46,FALSE,0.03399999999999892,1.1150000000000002,TRUE,FALSE,4,other error,1
+what happened rain so he done that,he put the cloth over his van did he,CHI,MOT,TRUE,46,FALSE,0.5589999999999691,3.6679999999998927,TRUE,FALSE,7,other error,9
+and who did put the rubbish bin under the table,well you did darling actually,CHI,MOT,TRUE,46,FALSE,-0.012000000000170985,3.586999999999989,TRUE,FALSE,10,other error,5
+hula hoops,and,CHI,MOT,FALSE,46,FALSE,0.28999999999999204,1.0219999999999914,FALSE,TRUE,2,no error,1
+and Daddy helped you as well,and,CHI,MOT,FALSE,46,FALSE,0.7569999999999482,1.9390000000000214,TRUE,FALSE,6,no error,1
+I was tape it as well,well we don't tape it now because I've got it on tape but it's on the C_B_B_C on choice,CHI,MOT,FALSE,46,FALSE,0.5750000000000455,1.48599999999999,TRUE,FALSE,6,no error,25
+could you see any fire extinguishers,well I don't think I really looked when I was a little girl Thomas,CHI,MOT,FALSE,46,FALSE,0.055000000000063665,2.0550000000000637,FALSE,TRUE,6,no error,15
+the bananas in pajamas are walking down the stairs,are you singing bananas in pajamas are walking down the stairs,CHI,MOT,FALSE,46,FALSE,0.1349999999999909,4.749000000000024,FALSE,TRUE,9,no error,11
+did he crep around,he didn't creep around no,CHI,MOT,FALSE,46,FALSE,0,2.0499999999999545,TRUE,FALSE,4,no error,6
+know Mummy know who eat sharks and whales,no no,CHI,MOT,FALSE,46,FALSE,-1.0209999999999582,3.3199999999999363,FALSE,TRUE,8,no error,2
+and I won a prize,and you won a prize didn't you,CHI,MOT,FALSE,46,FALSE,-0.8389999999999418,2.4039999999999964,TRUE,FALSE,5,no error,8
+uhoh lots of number ones,no it's that's not number ones,CHI,MOT,TRUE,46,FALSE,-0.2090000000002874,2.380000000000109,FALSE,TRUE,5,other error,8
+what have you got for me,take the sack off of your back and let me have a see,CHI,MOT,FALSE,46,FALSE,0.4410000000002583,2.2409999999999854,TRUE,FALSE,6,no error,13
+here's a dolly dressed in white,here's a dolly dressed in white,CHI,MOT,FALSE,46,FALSE,-2.3220000000001164,2.3220000000001164,TRUE,FALSE,7,no error,7
+here's a ball with colors bright,here's a ball with colors bright,CHI,MOT,FALSE,46,FALSE,-2.0779999999999745,2.0779999999999745,FALSE,TRUE,7,no error,7
+you ripped that bit,then we've got_to January two thousand and one,CHI,MOT,FALSE,46,FALSE,0.22199999999975262,1.3240000000000691,TRUE,FALSE,4,no error,10
+it was,we know,CHI,MOT,FALSE,46,FALSE,-0.8350000000000364,1.0680000000000405,TRUE,FALSE,2,no error,2
+oh no my feet need a rest,shall I go and,CHI,MOT,TRUE,46,FALSE,-2.1200000000000045,2.310000000000059,FALSE,TRUE,7,other error,4
+they can eat pooey cakes,no,CHI,MOT,FALSE,46,FALSE,-1.7069999999999936,2.728999999999928,FALSE,TRUE,5,no error,1
+told,well it's a great big bag I think actually your Grandad got it from B Q didn't he one day,CHI,MOT,TRUE,46,FALSE,0.8359999999997854,0.8710000000000946,TRUE,FALSE,1,other error,22
+you always need to wash apples,well yes now we've cut them up we'll eat them later so,CHI,MOT,FALSE,46,FALSE,-0.9600000000000364,3.1700000000000728,FALSE,TRUE,6,no error,14
+that banged my toe,what have you done,CHI,MOT,FALSE,46,FALSE,-0.023000000000138243,1.20699999999988,TRUE,FALSE,4,no error,4
+can I get the sauces,saucers,CHI,MOT,FALSE,47,FALSE,-0.3369999999999891,1.9850000000000136,FALSE,TRUE,5,no error,1
+we call them scones,good boy,CHI,MOT,FALSE,47,FALSE,-0.023000000000024556,3.3780000000000427,FALSE,TRUE,4,no error,2
+and bread rolls we do,you did what sorry,CHI,MOT,FALSE,47,FALSE,0,1.891999999999939,FALSE,TRUE,5,no error,4
+i dropped my list,you dropped your list,CHI,MOT,TRUE,47,FALSE,-9.999999999763531e-4,0.9390000000000782,TRUE,FALSE,4,other error,4
+they were havings,well eat this first,CHI,MOT,TRUE,47,FALSE,0.09199999999987085,1.9850000000001273,FALSE,TRUE,3,other error,4
+how many cousins we had,mm,CHI,MOT,FALSE,47,FALSE,1.4860000000001037,3.2390000000000327,FALSE,TRUE,5,no error,1
+I can I saw all of the trains,well I like,CHI,MOT,FALSE,47,FALSE,-0.3369999999999891,2.6589999999996508,FALSE,TRUE,8,no error,3
+he had two,uh two please,CHI,MOT,FALSE,47,FALSE,0.11599999999998545,1.4630000000001928,TRUE,FALSE,3,no error,3
+I was sit one of the customer and said please may I have some sausage and chips and tomato,you were one of the customers,CHI,MOT,TRUE,47,FALSE,-0.022999999999683496,5.804999999999836,TRUE,FALSE,19,other error,6
+said I did and now it's xxx,is that your baby voice,CHI,MOT,FALSE,47,FALSE,0.8239999999996144,2.867999999999938,TRUE,FALSE,8,no error,5
+look what I did here,no darling,CHI,MOT,FALSE,47,FALSE,-1.9850000000001273,1.9850000000001273,TRUE,FALSE,5,no error,2
+I have just got pants on,he wears his pants on the outside doesn't he,CHI,MOT,TRUE,47,FALSE,-1.2420000000000044,1.764000000000003,TRUE,FALSE,6,other error,10
+it's plugged in,it is definitely plugged in,CHI,MOT,FALSE,47,FALSE,-0.03499999999999659,1.2660000000000196,TRUE,FALSE,4,no error,5
+it was squashing,oh so you took it,CHI,MOT,FALSE,47,FALSE,0.17399999999997817,0.5909999999998945,TRUE,FALSE,3,no error,5
+I've got food in the xxx but I xxx,and you've had some,CHI,MOT,FALSE,48,FALSE,-3.703000000000003,3.7040000000000077,TRUE,FALSE,10,no error,5
+xxx keys,one of,CHI,MOT,FALSE,48,FALSE,-1.4050000000000296,1.4050000000000296,FALSE,TRUE,2,no error,2
+that's xxx miles,no no,CHI,MOT,FALSE,48,FALSE,-0.4880000000000564,2.0670000000000073,FALSE,TRUE,4,no error,2
+I like whatsits,I do,CHI,MOT,FALSE,48,FALSE,0,1.3350000000000364,FALSE,TRUE,3,no error,2
+is there any pink quavers,no,CHI,MOT,TRUE,48,FALSE,-0.010999999999967258,2.7159999999998945,FALSE,TRUE,5,other error,1
+if I runned ran away what would happen,now if you ran away and let go it would come flying back and hit me wouldn't it,CHI,MOT,TRUE,48,FALSE,-0.05400000000008731,1.893000000000029,TRUE,FALSE,8,other error,19
+found a rocket,what a shame,CHI,MOT,FALSE,48,FALSE,-0.7549999999996544,1.219000000000051,TRUE,FALSE,3,no error,3
+I played you can catch you can catch I can catch,he was playing football and I said would you like to be a footballer when you grow up and he said no I want to be a fireman,CHI,MOT,FALSE,49,FALSE,-0.5190000000000055,3.2860000000000014,TRUE,FALSE,11,no error,28
+little trains,oh I'll come and do that,CHI,MOT,FALSE,49,FALSE,-0.09299999999998931,1.242999999999995,FALSE,TRUE,2,no error,7
+teeth feel like they're going to fall out,do they,CHI,MOT,FALSE,49,FALSE,0,2.229000000000042,FALSE,TRUE,9,no error,2
+these buses have forgot fire engine,right,CHI,MOT,TRUE,49,FALSE,0.2560000000000855,2.2049999999999272,TRUE,FALSE,6,other error,1
+when I lost it did you go where's the bus,even when you knew where it was,CHI,MOT,FALSE,49,FALSE,0.20199999999999818,2.4139999999999873,TRUE,FALSE,11,no error,7
+pears,apples,CHI,MOT,FALSE,49,FALSE,-0.26700000000005275,1.2889999999999873,FALSE,TRUE,1,no error,1
+we were,and we looked down,CHI,MOT,FALSE,49,FALSE,-0.1979999999998654,0.8939999999997781,TRUE,FALSE,2,no error,4
+um when by magic another bus came,oh right,CHI,MOT,FALSE,49,FALSE,-0.24299999999993815,3.111000000000331,TRUE,FALSE,7,no error,2
+tricked you,they're chomping aren't they,CHI,MOT,FALSE,49,FALSE,-0.023999999999887223,1.1959999999999127,TRUE,FALSE,2,no error,6
+but the cats there looks bluey,why,CHI,MOT,TRUE,49,FALSE,0.03499999999985448,2.5890000000003965,FALSE,TRUE,6,other error,1
+I've ate it,you've eaten it all have you,CHI,MOT,TRUE,49,FALSE,0.17399999999997817,1.4980000000000473,TRUE,FALSE,4,other error,7
+you are just preten you are dreaming weren't you,I was dreaming,CHI,MOT,TRUE,49,FALSE,-0.046000000000276486,3.018000000000029,TRUE,FALSE,10,other error,3
+and I was tickling those toes,oh stop it,CHI,MOT,FALSE,49,FALSE,-0.8930000000000291,1.7290000000002692,FALSE,TRUE,6,no error,3
+I guessed what you were going to do,I'm going to put you in the engine shed,CHI,MOT,FALSE,49,FALSE,-0.11099999999987631,2.1710000000002765,TRUE,FALSE,8,no error,10
+trails,hm,CHI,MOT,FALSE,49,FALSE,0.0929999999998472,0.7899999999999636,FALSE,TRUE,1,no error,1
+tracks,caterpillars hm,CHI,MOT,FALSE,49,FALSE,-0.33599999999978536,1.5549999999998363,FALSE,TRUE,1,no error,2
+did hurt me though,well,CHI,MOT,FALSE,49,FALSE,-0.0010000000000047748,1.9869999999999948,TRUE,FALSE,4,no error,1
+you really upset me when you kicked me,Thomas I did not kick you,CHI,MOT,FALSE,49,FALSE,0.022999999999996135,3.912000000000006,TRUE,FALSE,8,no error,6
+she did wanted let out that door,so you opened the door and she didn't want to go,CHI,MOT,TRUE,49,FALSE,0.01900000000023283,2.76299999999992,TRUE,FALSE,7,other error,12
+this is when this is what she did when Nana and Grandad was here,did she,CHI,MOT,TRUE,49,FALSE,0,4.08600000000024,TRUE,FALSE,14,other error,2
+I wasn't,xxx,CHI,MOT,FALSE,49,FALSE,-0.8240000000000691,0.8240000000000691,TRUE,FALSE,3,no error,1
+just pretend the cornflakes was back of learning signs then,alright,CHI,MOT,TRUE,49,FALSE,0.11599999999998545,4.414000000000215,TRUE,FALSE,10,other error,1
+Mummy play shops,xxx,CHI,MOT,FALSE,49,FALSE,-1.9070000000000107,1.9070000000000107,FALSE,TRUE,3,no error,1
+um it's your xxx you can get excited,sorry,CHI,MOT,FALSE,49,FALSE,0.38700000000000045,4.012999999999977,TRUE,FALSE,9,no error,1
+you got a teddy bear,oh,CHI,MOT,FALSE,49,FALSE,0.011000000000080945,1.752999999999929,TRUE,FALSE,5,no error,1
+I haven't got it,please,CHI,MOT,FALSE,49,FALSE,-0.7820000000001528,0.7830000000003565,TRUE,FALSE,5,no error,1
+here's some more toys,oh,CHI,MOT,TRUE,49,FALSE,0.44099999999980355,1.2890000000002146,FALSE,TRUE,5,other error,1
+there's xxx to take his credit card out in a minute and then it'll be lost,and we've got white rice,CHI,MOT,FALSE,49,FALSE,-2.3220000000000027,5.200999999999908,TRUE,FALSE,18,no error,6
+I did,shouldn't play under the table,CHI,MOT,FALSE,49,FALSE,-1.0679999999999836,1.0679999999999836,TRUE,FALSE,2,no error,6
+I can see your letters here,that was a shock,CHI,MOT,FALSE,49,FALSE,-0.03499999999985448,2.100999999999658,FALSE,TRUE,6,no error,4
+just pretend you're shocked,five six,CHI,MOT,FALSE,49,FALSE,-1.3699999999998909,1.3699999999998909,TRUE,FALSE,5,no error,2
+just pretend you wanted to open the post box,xxx,CHI,MOT,FALSE,49,FALSE,-2.8209999999999127,2.832999999999629,TRUE,FALSE,9,no error,1
+lost,I've just given that casserole a little stir,CHI,MOT,FALSE,49,FALSE,-0.07600000000002183,1.1960000000003674,TRUE,FALSE,1,no error,9
+xxx with stabilizers,xxx,CHI,MOT,FALSE,50,FALSE,-1.3700000000000045,2.8329999999999984,FALSE,TRUE,3,no error,1
+my mum Jean Lastname said I can have lots and lots_of sweets,no I did not,CHI,MOT,FALSE,50,FALSE,-0.49900000000002365,6.536999999999921,FALSE,TRUE,13,no error,4
+builder builders to the rescue,what's that song,CHI,MOT,FALSE,50,FALSE,1.0850000000000364,3.3899999999999864,FALSE,TRUE,5,no error,4
+got a knife and fork,oh well you if you've got a knife and fork,CHI,MOT,FALSE,50,FALSE,0.08200000000010732,1.27599999999984,TRUE,FALSE,5,no error,11
+but not real burgers,not real burgers no,CHI,MOT,FALSE,50,FALSE,-0.35999999999989996,1.5559999999998126,FALSE,TRUE,4,no error,4
+seen xxx,this truck is being filled with stones at a quarry,CHI,MOT,FALSE,50,FALSE,1.5670000000000073,1.1030000000000655,TRUE,FALSE,2,no error,10
+I've been to quarry,a road,CHI,MOT,FALSE,50,FALSE,-1.1260000000002037,1.219000000000051,TRUE,FALSE,5,no error,2
+camels,can you imagine if we went across the common in a on a camel,CHI,MOT,FALSE,50,FALSE,-0.3489999999997053,1.3469999999997526,FALSE,TRUE,1,no error,14
+I'll bring the boxes,that's a better idea,CHI,MOT,FALSE,50,FALSE,-0.27899999999999636,1.3239999999996144,FALSE,TRUE,5,no error,5
+and it xxx into a dive and xxx falled into a diver's xxx,right,CHI,MOT,FALSE,50,FALSE,0.007000000000005002,4.423000000000002,TRUE,FALSE,14,no error,1
+h oles,yeah,CHI,MOT,FALSE,50,FALSE,0.035000000000081855,1.91599999999994,FALSE,TRUE,2,no error,1
+xxx tickets and then xxx took your presents,oh it's that cheeky cheeky ticket man,CHI,MOT,FALSE,50,FALSE,1.48700000000008,5.143000000000029,FALSE,TRUE,8,no error,8
+oops I ripped it,five,CHI,MOT,FALSE,50,FALSE,-0.9519999999999982,1.288000000000011,TRUE,FALSE,4,no error,1
+it's climbed out,well I think it's the bottom of the box isn't it,CHI,MOT,FALSE,50,FALSE,0.038000000000010914,1.0799999999999272,TRUE,FALSE,4,no error,13
+talking pretend cheese whatsits I've got real cheese whatsits,you have,CHI,MOT,FALSE,50,FALSE,-0.5180000000000291,6.072000000000116,FALSE,TRUE,10,no error,2
+afternoon it rained till it wasn't,it did not,CHI,MOT,FALSE,50,FALSE,0.20899999999983265,2.4850000000001273,TRUE,FALSE,7,no error,3
+cheesy whatsits I'm gonna going to kill you,no stop it,CHI,MOT,FALSE,50,FALSE,0.08099999999967622,2.4030000000002474,FALSE,TRUE,9,no error,3
+you found a tiny tiny screw once,well I know and I don't think I knew what it was from,CHI,MOT,FALSE,50,FALSE,0.016999999999995907,2.9950000000000045,TRUE,FALSE,7,no error,14
+bit,ah,CHI,MOT,FALSE,50,FALSE,2.2520000000000095,0.8249999999999886,TRUE,FALSE,1,no error,1
+all my things are breaking,nice,CHI,MOT,FALSE,50,FALSE,-3.6560000000000628,3.657000000000039,FALSE,TRUE,5,no error,1
+it's cracked here,yeah,CHI,MOT,FALSE,50,FALSE,0.011999999999943611,1.5440000000000964,TRUE,FALSE,4,no error,1
+knobs and screws,knobs and screws,CHI,MOT,FALSE,50,FALSE,-0.31399999999985084,1.0329999999999018,FALSE,TRUE,3,no error,3
+because he from handcuffs,did he,CHI,MOT,FALSE,50,FALSE,0.06700000000000728,2.1009999999998854,TRUE,FALSE,4,no error,2
+ha got you robber,well there we are,CHI,MOT,FALSE,50,FALSE,0.40599999999994907,1.5209999999999582,TRUE,FALSE,4,no error,4
+xxx blues sir,xxx blues,CHI,MOT,FALSE,50,FALSE,-0.4169999999999163,1.5319999999999254,FALSE,TRUE,3,no error,2
+what was that lorry carried,www,CHI,MOT,TRUE,50,FALSE,0.12399999999979627,2.0790000000001783,TRUE,FALSE,5,other error,1
+two life boats,www,CHI,MOT,FALSE,50,FALSE,0.08500000000003638,1.3469999999997526,FALSE,TRUE,3,no error,1
+two life boats on rivers,www,CHI,MOT,FALSE,50,FALSE,0.18899999999985084,1.9039999999999964,FALSE,TRUE,5,no error,1
+you've got xxx,www,CHI,MOT,FALSE,50,FALSE,-1.2999999999997272,1.6829999999999927,TRUE,FALSE,4,no error,1
+that's when I'm died,oh,CHI,MOT,TRUE,50,FALSE,0.40599999999994907,2.2409999999999854,TRUE,FALSE,6,other error,1
+I've got the right post for me,www,CHI,MOT,FALSE,50,FALSE,-0.9640000000003965,3.088000000000193,TRUE,FALSE,8,no error,1
+just pretend Purdie was Woody,xxx going to stroke Woody are we,CHI,MOT,TRUE,50,FALSE,-0.11599999999998545,2.1709999999998217,TRUE,FALSE,5,other error,7
+but that was a xxx pictures of planes,what's this,CHI,MOT,FALSE,50,FALSE,0.14700000000001978,2.890999999999991,FALSE,TRUE,8,no error,3
+or they could have painted it,there you are painted your plane xxx,CHI,MOT,TRUE,50,FALSE,0.9060000000000059,1.752999999999986,TRUE,FALSE,6,other error,7
+xxx it didn't,in the front,CHI,MOT,FALSE,50,FALSE,-1.7749999999999773,1.7760000000000105,TRUE,FALSE,4,no error,3
+one was a nice woman,thought she was a nice woman,CHI,MOT,FALSE,50,FALSE,0.1309999999999718,1.6480000000000246,TRUE,FALSE,5,no error,6
+leaves,leaves,CHI,MOT,FALSE,50,FALSE,0.5220000000000482,0.77800000000002,FALSE,TRUE,1,no error,1
+leaves,heaves,CHI,MOT,FALSE,50,FALSE,0.2319999999999709,0.8360000000000127,FALSE,TRUE,1,no error,1
+yes he went xxx,I seem to think that the picture in my mind is of the lady running with a a rolling pin,CHI,MOT,FALSE,50,FALSE,1.1050000000000182,1.3350000000000364,TRUE,FALSE,4,no error,20
+made it up,it's not a nursery made it up,CHI,MOT,FALSE,50,FALSE,0.15600000000017644,1.3699999999998909,TRUE,FALSE,3,no error,8
+I said do you like them,no,CHI,MOT,FALSE,50,FALSE,0.13000000000010914,1.3119999999998981,TRUE,FALSE,6,no error,1
+I picked them off the floor,that's right yes,CHI,MOT,FALSE,50,FALSE,-0.03500000000030923,2.0660000000002583,TRUE,FALSE,6,no error,4
+he tells you all the sweets how they're made,does he,CHI,MOT,TRUE,50,FALSE,0.1979999999998654,2.1480000000001382,TRUE,TRUE,10,other error,2
+xxx wouldn't go near your ears,when you're fifty if Mummy's still alive I'll be nearly ninety,CHI,MOT,FALSE,50,FALSE,-0.11499999999978172,2.6239999999997963,FALSE,TRUE,7,no error,14
+old ladies,no,CHI,MOT,FALSE,50,FALSE,-0.3489999999997053,1.0920000000000982,FALSE,TRUE,2,no error,1
+look he dropped the pies,listen do you not remember our conversation earlier on,CHI,MOT,FALSE,50,FALSE,-1.9389999999998508,2.1590000000001055,TRUE,TRUE,5,no error,9
+I've got that box,anyway,CHI,MOT,FALSE,51,FALSE,-1.0799999999999272,1.1730000000000018,TRUE,FALSE,5,no error,1
+I've got a shop,xxx,CHI,MOT,FALSE,51,FALSE,-1.022000000000162,1.022000000000162,TRUE,FALSE,5,no error,1
+she called apple,pardon,CHI,MOT,FALSE,51,FALSE,0.03499999999985448,1.4510000000000218,TRUE,FALSE,3,no error,1
+have you have you collected your sweets,I have thank you yes,CHI,MOT,FALSE,51,FALSE,0.5890000000003965,2.507999999999811,TRUE,FALSE,7,no error,5
+because I did a do a do,you were absolutely gorgeous,CHI,MOT,FALSE,51,FALSE,2.035000000000082,3.564000000000078,TRUE,FALSE,7,no error,4
+that was in olden days,olden days when you were a little baby,CHI,MOT,FALSE,51,FALSE,-0.06999999999993634,2.2519999999999527,TRUE,FALSE,5,no error,8
+old days ha ha ha,you,CHI,MOT,FALSE,51,FALSE,0.22600000000011278,3.576000000000022,FALSE,TRUE,5,no error,1
+and then they she did up her knickers,uh Thomas,CHI,MOT,TRUE,51,FALSE,0.023999999999887223,3.494000000000142,TRUE,FALSE,8,other error,2
+I've got a bottom,no,CHI,MOT,FALSE,51,FALSE,-0.02400000000034197,2.055000000000291,TRUE,FALSE,5,no error,1
+I've got a fat botty,what,CHI,MOT,FALSE,51,FALSE,-1.6020000000003165,1.637000000000171,TRUE,FALSE,6,no error,1
+oh yeah I've seen it,when the people have had have accidents,CHI,MOT,FALSE,51,FALSE,0.5759999999995671,1.1100000000001273,TRUE,FALSE,6,no error,7
+you knew that,do you feel very unloved,CHI,MOT,FALSE,51,FALSE,-0.052999999999883585,1.2709999999997308,TRUE,FALSE,3,no error,5
+I've seen police squirrel helicopters,oh the squirrel helicopter,CHI,MOT,FALSE,51,FALSE,-0.3739999999997963,2.675000000000182,FALSE,TRUE,6,no error,4
+and those are and that was one of my thrills,are you coming to sit next to me properly now xxx,CHI,MOT,FALSE,51,FALSE,0.056999999999789,6.19399999999996,FALSE,TRUE,10,no error,11
+touch these bits,www,CHI,MOT,FALSE,51,FALSE,-1.532000000000039,1.532000000000039,FALSE,TRUE,3,no error,1
+those cones,get get down please,CHI,MOT,FALSE,51,FALSE,-0.08100000000001728,0.9279999999999973,FALSE,TRUE,2,no error,4
+of course I don't because I tickled them killed them,oh no,CHI,MOT,FALSE,51,FALSE,0.03499999999996817,1.8110000000000355,TRUE,FALSE,11,no error,2
+no ears,no ears,CHI,MOT,FALSE,51,FALSE,-0.40599999999994907,1.2539999999999054,FALSE,TRUE,2,no error,2
+I told you,xxx,CHI,MOT,FALSE,51,FALSE,-1.4270000000001346,1.428000000000111,TRUE,FALSE,3,no error,1
+yoghurts,they're chicken yoghurts,CHI,MOT,FALSE,51,FALSE,-0.9969999999998436,0.9980000000000473,FALSE,TRUE,1,no error,4
+um sorry brought the shop down,goodness me,CHI,MOT,FALSE,51,FALSE,0.863999999999919,2.798000000000002,TRUE,FALSE,6,no error,2
+for people,okay then,CHI,MOT,FALSE,51,FALSE,0.10299999999983811,1.2080000000000837,FALSE,TRUE,2,no error,2
+my phone was broke,brrr brrr oh bother,CHI,MOT,TRUE,51,FALSE,9.999999999763531e-4,1.2660000000000764,TRUE,FALSE,4,other error,4
+these gates,oh I'm a bit confused as to what we're doing now,CHI,MOT,FALSE,51,FALSE,-0.43100000000004,1.0570000000000164,FALSE,TRUE,2,no error,13
+these gates,oh is that a gate,CHI,MOT,FALSE,51,FALSE,-0.2319999999999709,1.2070000000001073,FALSE,TRUE,2,no error,5
+um have you seen I've got some xxx beakers that might be yours,oh that's the money from the safe,CHI,MOT,FALSE,51,FALSE,-0.007999999999810825,6.467000000000098,FALSE,TRUE,14,no error,8
+that came off,oh dear the till's wrong,CHI,MOT,FALSE,51,FALSE,0.023999999999887223,1.6950000000001637,TRUE,FALSE,3,no error,6
+and then he did change his bottoms,Mister Clarke wants what,CHI,MOT,TRUE,51,FALSE,1.3510000000001128,3.2040000000001783,TRUE,FALSE,7,other error,4
+that we've never hap had,you can,CHI,MOT,TRUE,51,FALSE,0.6620000000002619,1.13799999999992,TRUE,FALSE,6,other error,2
+what kebabs,you didn't,CHI,MOT,FALSE,51,FALSE,-0.8470000000002074,1.1840000000001965,FALSE,TRUE,2,no error,3
+that's strawberries,do you know what happens Thomas,CHI,MOT,FALSE,51,FALSE,0.40499999999974534,1.3340000000002874,FALSE,TRUE,3,no error,6
+now it's gone into my tea,going to have some biscuits as well,CHI,MOT,FALSE,51,FALSE,0.47100000000000364,1.7649999999998727,TRUE,FALSE,7,no error,7
+hulahula hoops,Thomas,CHI,MOT,FALSE,51,FALSE,-0.9059999999999491,1.4859999999998763,FALSE,TRUE,2,no error,1
+the other crisps Mum,hula hoops,CHI,MOT,FALSE,51,FALSE,0.2760000000000673,1.3240000000000691,FALSE,TRUE,4,no error,2
+grated all this,xxx cheese xxx,CHI,MOT,FALSE,51,FALSE,1.0789999999999509,1.4750000000001364,TRUE,FALSE,3,no error,3
+quavers,crotchets and quavers,CHI,MOT,FALSE,51,FALSE,-0.023000000000138243,1.3589999999999236,FALSE,TRUE,1,no error,3
+what was he wearing,well,CHI,MOT,FALSE,51,FALSE,0.04599999999982174,1.474999999999909,TRUE,FALSE,4,no error,1
+I've just had hundreds of the cheese,have you,CHI,MOT,TRUE,51,FALSE,-0.0909999999998945,2.5779999999999745,FALSE,TRUE,8,other error,2
+if you had what would happen,well you know the men have given us a new bin bag,CHI,MOT,FALSE,51,FALSE,1.262000000000171,1.462999999999738,TRUE,FALSE,6,no error,12
+Father_Christmas was,what's he doing up there,CHI,MOT,FALSE,52,FALSE,-0.7659999999999911,1.5550000000000068,TRUE,FALSE,3,no error,6
+I've been carrying chairs,no,CHI,MOT,FALSE,52,FALSE,0.03499999999996817,2.2870000000000346,FALSE,TRUE,5,no error,1
+we sleep in barns,we slept in a farmhouse,CHI,MOT,FALSE,52,FALSE,-0.30199999999990723,2.6820000000000164,FALSE,TRUE,4,no error,5
+and there were no sharks,no,CHI,MOT,FALSE,52,FALSE,0.07799999999997453,1.7179999999998472,TRUE,FALSE,5,no error,1
+let's get filling up our trucks,are they they um,CHI,MOT,FALSE,52,FALSE,-0.18500000000000227,1.6720000000000255,FALSE,TRUE,7,no error,4
+lorries,no,CHI,MOT,FALSE,52,FALSE,0,0.6850000000000023,FALSE,TRUE,1,no error,1
+why are we don't had any rubbish,yes I put mine out,CHI,MOT,TRUE,52,FALSE,0.40800000000001546,2.461999999999989,TRUE,FALSE,8,other error,5
+and I was sitting on one,right,CHI,MOT,FALSE,52,FALSE,-0.024999999999977263,1.683999999999969,TRUE,FALSE,6,no error,1
+my favorite toys,xxx,CHI,MOT,FALSE,52,FALSE,-1.7539999999999054,3.9939999999999145,FALSE,TRUE,3,no error,1
+it mends boilers,no thank you,CHI,MOT,FALSE,52,FALSE,-0.010999999999967258,1.8230000000000928,FALSE,TRUE,3,no error,3
+that makes boilers,no thank you,CHI,MOT,FALSE,52,FALSE,-0.0929999999998472,1.6369999999999436,FALSE,TRUE,3,no error,3
+so you can't have the tickets,no,CHI,MOT,FALSE,52,FALSE,-0.6269999999999527,1.5909999999998945,FALSE,TRUE,7,no error,1
+tickets,well which one do you think belongs on a T_N_T one,CHI,MOT,FALSE,52,FALSE,-0.09400000000005093,1.0679999999997563,FALSE,TRUE,1,no error,13
+you have forty minutes to go,to go where,CHI,MOT,FALSE,52,FALSE,0.32600000000002183,3.0770000000002256,FALSE,TRUE,6,no error,3
+five minutes,thought it was forty minutes,CHI,MOT,FALSE,52,FALSE,0.318000000000211,2.1590000000001055,FALSE,TRUE,2,no error,5
+four minutes Mum,well that's gone quickly,CHI,MOT,FALSE,52,FALSE,-0.07400000000006912,1.625,FALSE,TRUE,3,no error,5
+three minutes,so the whole thing could go in the bath couldn't he really,CHI,MOT,FALSE,52,FALSE,-0.018999999999778083,1.2770000000000437,FALSE,TRUE,2,no error,13
+two minutes,lost a wheel off there,CHI,MOT,FALSE,52,FALSE,-0.17399999999997817,1.4859999999998763,FALSE,TRUE,2,no error,5
+forty minutes,ah that must belong there,CHI,MOT,FALSE,52,FALSE,0.7729999999996835,2.2400000000002365,FALSE,TRUE,2,no error,5
+you have not done when it was two,well I've mended xxx,CHI,MOT,TRUE,52,FALSE,1.0070000000000618,3.355999999999767,TRUE,FALSE,8,other error,5
+two minutes,I think I've got some more somewhere Thomas,CHI,MOT,FALSE,52,FALSE,-0.1619999999998072,2.0779999999999745,FALSE,TRUE,2,no error,9
+two minutes,yes I have,CHI,MOT,FALSE,52,FALSE,-0.2739999999998872,1.706000000000131,FALSE,TRUE,2,no error,3
+ten minutes,right,CHI,MOT,FALSE,52,FALSE,3.7390000000000327,2.4609999999997854,FALSE,TRUE,2,no error,1
+every minute you took to me it goes,no,CHI,MOT,FALSE,52,FALSE,-0.09199999999964348,2.100999999999658,TRUE,FALSE,8,no error,1
+nine minutes,don't you,CHI,MOT,FALSE,52,FALSE,3.1080000000001746,1.1489999999998872,FALSE,TRUE,2,no error,3
+my papers my papers my papers my papers xxx,you like that clip holder don't you,CHI,MOT,FALSE,52,FALSE,0.6200000000003456,4.166999999999916,FALSE,TRUE,9,no error,8
+this is lost property,right,CHI,MOT,FALSE,52,FALSE,0,2.588999999999942,TRUE,FALSE,4,no error,1
+I just drunk some water den then,did you,CHI,MOT,TRUE,52,FALSE,0.16899999999999693,1.7650000000000006,TRUE,FALSE,7,other error,2
+Percivil thought it must be Purdie's birthday,mhm,CHI,MOT,FALSE,52,FALSE,-0.011000000000080945,2.810000000000059,TRUE,FALSE,8,no error,1
+dropped saus,well that's different isn't it,CHI,MOT,FALSE,52,FALSE,-0.047000000000025466,0.8830000000000382,TRUE,FALSE,2,no error,7
+I forgot to play got,well start at the white cat,CHI,MOT,FALSE,52,FALSE,0.18599999999992178,1.55600000000004,TRUE,FALSE,5,no error,6
+I rolled it,watch where you're going xxx,CHI,MOT,FALSE,52,FALSE,0.742999999999995,1.1380000000000052,TRUE,FALSE,3,no error,6
+and then you were so shocked,and clean clothes,CHI,MOT,FALSE,52,FALSE,-1.9850000000000136,2.473000000000013,TRUE,FALSE,6,no error,3
+have you got one,no,CHI,MOT,FALSE,52,FALSE,-0.047000000000025466,1.3009999999999309,TRUE,FALSE,4,no error,1
+we've got a green suitcases,yes,CHI,MOT,TRUE,52,FALSE,-0.7079999999998563,2.4149999999999636,FALSE,TRUE,6,other error,1
+the point xxx didn't put any down,he's standing on the point,CHI,MOT,FALSE,52,FALSE,0.18600000000014916,2.088999999999942,TRUE,FALSE,8,no error,6
+xxx wheels are skipping slipping,they,CHI,MOT,TRUE,52,FALSE,-0.08200000000010732,2.3460000000000036,FALSE,TRUE,5,other error,1
+capol capital wheels,caterpillar wheels,CHI,MOT,FALSE,52,FALSE,-0.30199999999990723,2.6820000000000164,FALSE,TRUE,3,no error,2
+not got any of them,I don't think you have actually Thomas,CHI,MOT,FALSE,52,FALSE,0.34900000000016007,1.8689999999999145,TRUE,FALSE,5,no error,8
+cables,pardon,CHI,MOT,FALSE,52,FALSE,0.6040000000000418,1.0449999999998454,FALSE,TRUE,1,no error,1
+keebu cables,oh cables,CHI,MOT,FALSE,52,FALSE,-0.3830000000000382,1.7999999999999545,FALSE,TRUE,2,no error,2
+into squares,they boil it up in those big pans,CHI,MOT,FALSE,52,FALSE,0.13700000000017099,1.6369999999997162,FALSE,TRUE,2,no error,8
+who ate it,lots and,CHI,MOT,FALSE,52,FALSE,-0.046000000000276486,0.98700000000008,TRUE,FALSE,3,no error,2
+I am tired,you just don't like it being done Thomas,CHI,MOT,FALSE,52,FALSE,-0.5710000000003674,1.5100000000002183,TRUE,FALSE,3,no error,9
+I will if there's another people squirting me,no,CHI,MOT,TRUE,52,FALSE,0.09200000000009823,2.356000000000222,FALSE,TRUE,9,other error,1
+flannels the smile off,xxx oh,CHI,MOT,FALSE,52,FALSE,-0.0929999999998472,1.6019999999998618,FALSE,TRUE,4,no error,2
+xxx socks,listen,CHI,MOT,FALSE,52,FALSE,-1.0450000000000728,1.231000000000222,FALSE,TRUE,2,no error,1
+grasses is one pound,pardon,CHI,MOT,FALSE,52,FALSE,-0.057999999999992724,1.8809999999998581,FALSE,TRUE,4,no error,1
+somebody dropped their teeth,no,CHI,MOT,FALSE,52,FALSE,1.6770000000001346,1.8229999999998654,TRUE,FALSE,4,no error,1
+does it say ingredients nothing,what the scent it,CHI,MOT,FALSE,52,FALSE,-1.5209999999997308,2.380000000000109,FALSE,TRUE,5,no error,4
+he did say that's okay if you have it but then then your money came out,oh wonderful and this is even better I asked the machine for ten pounds and it's given me how much,CHI,MOT,FALSE,52,FALSE,0.057999999999992724,6.119,TRUE,FALSE,17,no error,21
+I just thought we're going over,pardon,CHI,MOT,FALSE,52,FALSE,0.77800000000002,2.3559999999999945,TRUE,FALSE,7,no error,1
+and just pretend just pretend it said this is a bank,dear me I'll try this one,CHI,MOT,FALSE,52,FALSE,-4.040000000000191,4.435000000000173,TRUE,FALSE,11,no error,7
+you said sweets,no,CHI,MOT,FALSE,52,FALSE,-0.20499999999992724,1.0549999999998363,FALSE,TRUE,3,no error,1
+but I didn't say it,no do you know,CHI,MOT,FALSE,53,FALSE,0.35999999999989996,1.4629999999999654,TRUE,FALSE,6,no error,4
+it's the first things we eat,the first things you eat,CHI,MOT,FALSE,53,FALSE,1.237999999999829,2.0900000000001455,FALSE,TRUE,7,no error,5
+you made me flush the chain,alright shout me in a minute won't you,CHI,MOT,FALSE,53,FALSE,-0.057999999999992724,1.8110000000001492,TRUE,FALSE,6,no error,9
+Grant given gave it to me,oh that's right yes you're right,CHI,MOT,TRUE,53,FALSE,-0.023000000000138243,1.6950000000001637,TRUE,FALSE,6,other error,8
+look how many dinosaurs I have got,xxx,CHI,MOT,TRUE,53,FALSE,-0.04599999999982174,2.449999999999818,TRUE,FALSE,7,other error,1
+that's how I play jokes,and then you've had sweet corn and rice,CHI,MOT,FALSE,53,FALSE,0.8360000000002401,2.112999999999829,FALSE,TRUE,6,no error,9
+but you tore off that,it smells like breakfast doesn't it,CHI,MOT,FALSE,53,FALSE,0,2.3800000000000523,TRUE,FALSE,5,no error,7
+can I buy one of the big planes,yes just a second,CHI,MOT,FALSE,53,FALSE,-0.16300000000001091,2.19500000000005,FALSE,TRUE,8,no error,4
+I want xxx things,well I don't think I've really got pennies for that Thomas,CHI,MOT,FALSE,53,FALSE,-0.34799999999995634,1.7409999999999854,FALSE,TRUE,4,no error,13
+her got thirty rubbish,mm are you a dustbin man now,CHI,MOT,TRUE,53,FALSE,-0.10900000000015098,2.3920000000000528,TRUE,FALSE,4,other error,7
+oh yeah I really wanted,Holly_Watkins,CHI,MOT,FALSE,53,FALSE,-0.6269999999999527,1.3699999999998909,TRUE,FALSE,5,no error,2
+xxx I did coming out,no,CHI,MOT,FALSE,53,FALSE,0,1.694999999999709,TRUE,FALSE,5,no error,1
+I want to go in the wheel just watchin the trains,right,CHI,MOT,FALSE,53,FALSE,-0.0340000000001055,3.7840000000001055,FALSE,TRUE,11,no error,1
+bumped off and now it's broke broken,is the driver of a plane or a train,CHI,MOT,TRUE,53,FALSE,1.4049999999997453,3.994000000000142,TRUE,FALSE,8,other error,9
+they just all they's nice ordered that's my teddy that's my ted,that's right,CHI,MOT,FALSE,53,FALSE,-0.9289999999996326,5.596000000000004,TRUE,FALSE,15,no error,3
+glasses,glasses there's a box full of spectacles people must have left a_lot of spectacles on the bus or at least they've been found,CHI,MOT,FALSE,53,FALSE,-0.6089999999999236,1.300000000000182,FALSE,TRUE,1,no error,26
+telescoping ladders bring note it down,I'm I'm yes I am doing yes,CHI,MOT,FALSE,53,FALSE,0,3.3659999999999854,FALSE,TRUE,6,no error,9
+old xxx equipment all clean and bright big scary ladders breathing apparatus,breathing apparatus is that,CHI,MOT,FALSE,53,FALSE,-0.010999999999967258,6.361999999999625,FALSE,TRUE,12,no error,4
+so wet,it's no surprise,CHI,MOT,FALSE,53,FALSE,-0.5570000000000022,1.3689999999999998,TRUE,FALSE,2,no error,4
+it had this whoo,goodness me that's loud,CHI,MOT,TRUE,53,FALSE,-0.007000000000061846,2.3450000000000273,TRUE,FALSE,4,other error,5
+rocks rocks,rocks,CHI,MOT,FALSE,53,FALSE,-0.11400000000003274,1.8350000000000364,FALSE,TRUE,2,no error,1
+got you xxx in that playing thing,yes,CHI,MOT,FALSE,53,FALSE,-0.06900000000041473,2.531000000000404,TRUE,FALSE,7,no error,1
+um when we went like dis this,does it hurt,CHI,MOT,FALSE,53,FALSE,-1.77599999999984,2.6349999999997635,TRUE,FALSE,7,no error,3
+it's the building of your dreams,pardon,CHI,MOT,FALSE,53,FALSE,0.046999999999997044,2.8089999999999975,FALSE,TRUE,7,no error,1
+I wanted to touch those other things,but listen sweetheart we're rushing we've got plenty of time at the moment,CHI,MOT,FALSE,53,FALSE,-1.3230000000000075,2.6580000000000155,FALSE,TRUE,7,no error,15
+it had horns,like a,CHI,MOT,FALSE,53,FALSE,-1.252999999999929,2.228999999999928,FALSE,TRUE,3,no error,2
+birds,really,CHI,MOT,FALSE,53,FALSE,0.37200000000007094,1.0559999999999263,FALSE,TRUE,1,no error,1
+but you don't know all about crows,well I don't Thomas you're right what do you know about crows that I might not know,CHI,MOT,FALSE,53,FALSE,-0.3709999999999809,3.1119999999999663,FALSE,TRUE,8,no error,19
+and wash all things,sorry,CHI,MOT,FALSE,53,FALSE,0.0929999999998472,2.125,FALSE,TRUE,4,no error,1
+here's the book you were looking,well before that just tell me what you had for lunch at school today please,CHI,MOT,FALSE,53,FALSE,0.057999999999992724,1.8800000000001091,TRUE,FALSE,7,no error,15
+xxx going off in a few minutes,well come on,CHI,MOT,FALSE,53,FALSE,-2.5540000000000873,2.8099999999999454,FALSE,TRUE,7,no error,3
+I had snack,did you not have a snack,CHI,MOT,FALSE,53,FALSE,0.6619999999998072,1.9510000000000218,TRUE,FALSE,3,no error,6
+she went like this,yeah,CHI,MOT,FALSE,53,FALSE,-1.7650000000003274,1.800000000000182,TRUE,FALSE,4,no error,1
+she went shoo and she jumped,yeah,CHI,MOT,FALSE,53,FALSE,0.10500000000001819,3.7609999999999673,TRUE,FALSE,6,no error,1
+I broke it,mind your,CHI,MOT,FALSE,53,FALSE,0.012000000000000455,1.1129999999999995,TRUE,FALSE,3,no error,2
+shoe shoes,don't be rough Thomas,CHI,MOT,FALSE,53,FALSE,-0.556999999999988,0.9050000000000011,FALSE,TRUE,2,no error,5
+I just I forgot where it is,very careful,CHI,MOT,FALSE,53,FALSE,-1.7180000000000177,2.136000000000024,TRUE,FALSE,7,no error,2
+look what I did,someone'll mend it,CHI,MOT,FALSE,53,FALSE,-1.183999999999969,1.1949999999999363,TRUE,FALSE,4,no error,4
+they called the taxi,well I suppose if it's carrying things it is a little bit like a taxi isn't it,CHI,MOT,FALSE,54,FALSE,4.013000000000005,3.6450000000000102,TRUE,FALSE,4,no error,19
+here comes the squeaks,yes,CHI,MOT,FALSE,54,FALSE,-0.3709999999999809,2.19399999999996,FALSE,TRUE,4,no error,1
+have some crisps,what do you say,CHI,MOT,TRUE,54,FALSE,-0.03500000000002501,1.3700000000000045,FALSE,TRUE,3,other error,4
+please can I have some crisps,yes,CHI,MOT,FALSE,54,FALSE,-0.07000000000005002,3.1580000000000155,FALSE,TRUE,6,no error,1
+you haven't played with me so I've got all the things away,Thomas the toys are all over the floor,CHI,MOT,FALSE,54,FALSE,1.1309999999999718,3.622000000000014,TRUE,TRUE,14,no error,8
+I said xxx,have you got a tickle,CHI,MOT,FALSE,54,FALSE,-0.16200000000003456,1.6480000000000246,TRUE,FALSE,3,no error,5
+even her xxx nips,I'm just ignoring you when you're rude,CHI,MOT,FALSE,54,FALSE,-0.057999999999992724,1.7069999999999936,FALSE,TRUE,4,no error,9
+xxx see we looked up he was hit me eye,hm,CHI,MOT,TRUE,54,FALSE,0,3.344000000000051,TRUE,FALSE,10,other error,1
+I had um a cheese and san um,cheese and ham sandwich you had didn't you,CHI,MOT,FALSE,54,FALSE,-0.04600000000004911,3.772999999999911,TRUE,FALSE,8,no error,9
+I'm giving these ones a haircut,are you,CHI,MOT,FALSE,54,FALSE,-0.11599999999998545,2.6700000000000728,FALSE,TRUE,7,no error,2
+now I need to wash my hands again xxx that,xxx,CHI,MOT,FALSE,54,FALSE,-0.7199999999997999,1.9510000000000218,FALSE,TRUE,10,no error,1
+they're coming over the wires,are both the orange and ones the green ones on,CHI,MOT,FALSE,54,FALSE,-0.6620000000002619,1.7420000000001892,FALSE,TRUE,6,no error,10
+I don't want the um wheels squeak if I put some oil in,well if you put oil in things it lubricates them,CHI,MOT,TRUE,54,FALSE,0.41200000000026193,5.3289999999997235,FALSE,TRUE,14,other error,10
+it just needs one wheel lost,no,CHI,MOT,TRUE,54,FALSE,-0.03499999999985448,2.263999999999669,TRUE,FALSE,6,other error,1
+sweets,there's sweets,CHI,MOT,FALSE,54,FALSE,-0.31399999999985084,1.2660000000000764,FALSE,TRUE,1,no error,3
+who gots got money,and is this yours Thomas,CHI,MOT,TRUE,54,FALSE,1.4469999999996617,1.718000000000302,TRUE,FALSE,4,other error,5
+just sneezed,it's just I like a cloth over it to cover it up because with the tools being under the stairs,CHI,MOT,FALSE,54,FALSE,-0.5530000000003383,0.8940000000002328,TRUE,FALSE,2,no error,21
+you do rack of pans,rockers hands,CHI,MOT,FALSE,54,FALSE,0.010999999999967258,1.9389999999999645,FALSE,TRUE,5,no error,2
+does it not matter if it got suds in your ear,no,CHI,MOT,TRUE,54,FALSE,0.6269999999999527,2.2760000000000673,TRUE,FALSE,11,other error,1
+xxx to playing ninjas xxx,let's get your vest tucked in,CHI,MOT,FALSE,54,FALSE,-0.24400000000014188,2.775000000000091,FALSE,TRUE,5,no error,7
+it did,no,CHI,MOT,FALSE,54,FALSE,-0.6729999999997744,0.6729999999997744,TRUE,FALSE,2,no error,1
+a bottom of lies,no,CHI,MOT,FALSE,54,FALSE,0.09200000000009823,3.796999999999912,FALSE,TRUE,4,no error,1
+I've been the zoo with xxx,oh dear,CHI,MOT,FALSE,54,FALSE,0.07899999999995089,3.145999999999958,TRUE,FALSE,7,no error,2
+I've been the zoo with a little camoo,not only you but Purdie is a lucky cat,CHI,MOT,FALSE,54,FALSE,4.847999999999956,3.425000000000182,TRUE,FALSE,9,no error,9
+I've got the box,xxx,CHI,MOT,FALSE,54,FALSE,-1.0549999999998363,1.05600000000004,TRUE,FALSE,5,no error,1
+did he,this kit looks like good fun,CHI,MOT,FALSE,54,FALSE,-0.047000000000025466,1.2429999999999382,TRUE,FALSE,2,no error,6
+um have you ate your jelly,eaten it,CHI,MOT,TRUE,54,FALSE,-0.012999999999919964,2.9719999999997526,TRUE,FALSE,6,other error,2
+places,we have_to move the number of squares as indicated by his hand,CHI,MOT,FALSE,54,FALSE,-0.9629999999997381,0.9639999999999418,FALSE,TRUE,1,no error,13
+was Thomas,was that Thomas_The_Tank_Engine,CHI,MOT,FALSE,54,FALSE,-0.03500000000030923,1.4630000000001928,TRUE,FALSE,2,no error,6
+I can remember xxx your trousers,I thought you could because you se you really liked that didn't you when you heard it,CHI,MOT,FALSE,54,FALSE,0.12899999999996226,2.5190000000000055,FALSE,TRUE,6,no error,18
+I was I was gonna going to say,or would you like a sandwich,CHI,MOT,FALSE,54,FALSE,-1.5670000000000073,2.0200000000000387,TRUE,FALSE,8,no error,6
+oh xxx fallen again,yes,CHI,MOT,FALSE,54,FALSE,-0.012999999999919964,2.40300000000002,TRUE,FALSE,4,no error,1
+yeah and black crispies,mhm,CHI,MOT,FALSE,54,FALSE,-0.4290000000000873,2.2170000000000982,FALSE,TRUE,4,no error,1
+okay give me four parts of beer,xxx,CHI,MOT,FALSE,54,FALSE,0.41800000000012005,3.076999999999771,FALSE,TRUE,7,no error,1
+who was it,I don't know,CHI,MOT,FALSE,54,FALSE,-0.8589999999999236,0.8589999999999236,TRUE,FALSE,3,no error,4
+oh yeah but then you can put different signs on,and then it says find the letters that spell out the illustrated word,CHI,MOT,FALSE,55,FALSE,-0.63900000000001,2.531000000000006,FALSE,TRUE,10,no error,13
+found it,what is it you've found,CHI,MOT,FALSE,55,FALSE,0.03599999999994452,1.0080000000000382,TRUE,FALSE,2,no error,6
+yes I am fed up,you've been doing,CHI,MOT,FALSE,55,FALSE,0.010999999999967258,1.995999999999981,TRUE,FALSE,5,no error,4
+I got them in the pile I think,right well you've put the pinks in a pile,CHI,MOT,FALSE,55,FALSE,-0.125,1.7759999999999536,TRUE,FALSE,8,no error,10
+how how did the duck fell down,the duck,CHI,MOT,TRUE,55,FALSE,0.19700000000011642,2.33400000000006,TRUE,FALSE,7,other error,2
+I was trying to,probably yes,CHI,MOT,FALSE,55,FALSE,-0.012000000000170985,1.2660000000000764,TRUE,FALSE,4,no error,2
+it's mended,it's mended,CHI,MOT,FALSE,55,FALSE,0.08199999999987995,1.4969999999998436,TRUE,FALSE,3,no error,3
+and it said you are the weakest,hm,CHI,MOT,FALSE,55,FALSE,0.9810000000002219,1.9969999999998436,TRUE,FALSE,7,no error,1
+I nearly touched that,did you,CHI,MOT,FALSE,55,FALSE,0.20600000000013097,1.4400000000000546,TRUE,FALSE,4,no error,2
+have you seen the forklift,the forklift truck,CHI,MOT,FALSE,55,FALSE,0.20899999999983265,2.04300000000012,TRUE,FALSE,5,no error,3
+went to his bed xxx face,right shall we carry on doing what we're doing,CHI,MOT,FALSE,55,FALSE,1.875999999999749,3.0650000000000546,TRUE,FALSE,6,no error,10
+I was,what,CHI,MOT,FALSE,55,FALSE,-0.9980000000000473,0.9980000000000473,TRUE,FALSE,2,no error,1
+they had,with beds with covers,CHI,MOT,FALSE,55,FALSE,-0.5570000000002437,0.5579999999999927,TRUE,FALSE,2,no error,4
+food cans these,food cans,CHI,MOT,FALSE,55,FALSE,0.7549999999996544,1.8690000000001419,FALSE,TRUE,3,no error,2
+I've filled you up,xxx,CHI,MOT,FALSE,55,FALSE,-0.04600000000000648,0.9629999999999939,TRUE,FALSE,5,no error,1
+numbers,no,CHI,MOT,FALSE,55,FALSE,-0.23200000000008458,0.9640000000000555,FALSE,TRUE,1,no error,1
+chocolates,chocolate buttons,CHI,MOT,FALSE,55,FALSE,-0.20899999999994634,0.9279999999999973,FALSE,TRUE,1,no error,2
+and bunnies,and a bunny rabbit,CHI,MOT,FALSE,55,FALSE,0.5199999999999818,1.48599999999999,FALSE,TRUE,2,no error,4
+biscuits,chip finger biscuits again,CHI,MOT,FALSE,55,FALSE,-0.3129999999999882,0.9629999999999654,FALSE,TRUE,1,no error,4
+toys,yes,CHI,MOT,FALSE,55,FALSE,0.4420000000000073,0.5919999999999845,FALSE,TRUE,1,no error,1
+I'm just going to play in the fields,are you playing the fields,CHI,MOT,FALSE,55,FALSE,0,1.6490000000001146,FALSE,TRUE,9,no error,5
+but would someone have a big candles,yes,CHI,MOT,TRUE,55,FALSE,-0.5570000000000164,3.007000000000062,FALSE,TRUE,7,other error,1
+cats,pussy cats,CHI,MOT,FALSE,55,FALSE,-0.02299999999991087,0.6849999999999454,FALSE,TRUE,1,no error,2
+a little little hut where the captain's signed,xxx do you know what it is,CHI,MOT,FALSE,55,FALSE,-0.36800000000016553,3.4830000000001746,TRUE,FALSE,9,no error,7
+and she's not very pleased,oh gosh I didn't see that,CHI,MOT,FALSE,55,FALSE,-0.6150000000000091,2.008000000000038,TRUE,FALSE,6,no error,7
+I've seen the old woman,have you,CHI,MOT,FALSE,55,FALSE,0.12800000000015643,1.4050000000002,TRUE,FALSE,6,no error,2
+apples,apples,CHI,MOT,FALSE,55,FALSE,0.08199999999987995,0.5920000000000982,FALSE,TRUE,1,no error,1
+boys,for the m,CHI,MOT,FALSE,55,FALSE,-0.057999999999992724,0.8359999999997854,FALSE,TRUE,1,no error,3
+tired tired tired,I know you're tired darling I know,CHI,MOT,FALSE,55,FALSE,1.1140000000000327,0.581000000000131,TRUE,FALSE,3,no error,8
+that was,quite often when you're playing in here with cars,CHI,MOT,FALSE,55,FALSE,0.9729999999999563,0.7070000000001073,TRUE,FALSE,2,no error,10
+but we emptied,oh,CHI,MOT,FALSE,55,FALSE,-1.3820000000000618,1.4049999999999727,TRUE,FALSE,3,no error,1
+or curly ladders,no,CHI,MOT,FALSE,55,FALSE,-0.36000000000012733,1.4279999999998836,FALSE,TRUE,3,no error,1
+that had fell off,yes,CHI,MOT,TRUE,55,FALSE,-0.023000000000138243,1.2420000000001892,TRUE,FALSE,4,other error,1
+the man's fell off his cab now,at Christmas it was all lit up in his cab and I think he used to have a big advertising poster on his crane as well,CHI,MOT,TRUE,55,FALSE,4.751000000000204,2.1589999999996508,TRUE,FALSE,8,other error,26
+one of the raspberries,one of the raspberries,CHI,MOT,FALSE,56,FALSE,0.04599999999999227,1.9390000000000214,FALSE,TRUE,4,no error,4
+it was when she was here,well it must have been a while ago,CHI,MOT,FALSE,56,FALSE,0.10200000000003229,3.8770000000000095,TRUE,FALSE,6,no error,8
+forty pounds,forty pounds,CHI,MOT,FALSE,56,FALSE,-0.1269999999999527,1.8799999999998818,FALSE,TRUE,2,no error,2
+if I parked here,oh so am I on tow now,CHI,MOT,FALSE,56,FALSE,3.8579999999999472,2.171000000000049,TRUE,FALSE,4,no error,7
+and these are the engine things,right,CHI,MOT,FALSE,56,FALSE,-0.20900000000006003,1.6020000000000891,FALSE,TRUE,6,no error,1
+how did you get that,but could somebody not mend it,CHI,MOT,FALSE,56,FALSE,-0.035000000000081855,1.6140000000000327,TRUE,FALSE,5,no error,6
+how digs then,I only want a bar of soap,CHI,MOT,FALSE,56,FALSE,0.03500000000030923,1.5199999999999818,FALSE,TRUE,3,no error,7
+thought he went pink when he was hot,oh,CHI,MOT,FALSE,56,FALSE,0.1390000000001237,2.4849999999996726,TRUE,FALSE,8,no error,1
+can I open my eyes now,just let me xxx then you can,CHI,MOT,FALSE,56,FALSE,-0.11599999999998545,1.1269999999999527,FALSE,TRUE,6,no error,7
+I've only got that,right,CHI,MOT,FALSE,56,FALSE,0.6690000000000111,1.5790000000000077,TRUE,FALSE,5,no error,1
+and then I turned it up,then when you came for your lunch,CHI,MOT,FALSE,56,FALSE,-0.004999999999654392,1.7179999999998472,TRUE,FALSE,6,no error,7
+she got it in mud,so so she got a grass stain,CHI,MOT,FALSE,56,FALSE,-1.0909999999998945,1.1489999999998872,TRUE,FALSE,5,no error,7
+moved,what are you saying,CHI,MOT,FALSE,56,FALSE,0.4330000000000007,0.7199999999999998,TRUE,FALSE,1,no error,4
+is this what cabs around,yes uhhuh,CHI,MOT,TRUE,56,FALSE,-0.012000000000000455,1.7410000000000139,FALSE,TRUE,5,other error,2
+apples,mhm,CHI,MOT,FALSE,56,FALSE,0.023000000000138243,1.1489999999998872,FALSE,TRUE,1,no error,1
+pooed his bum,Postman_Pat,CHI,MOT,FALSE,56,FALSE,-0.8230000000000928,0.8240000000000691,TRUE,FALSE,3,no error,2
+I think you've got very short legs,have I got very short legs,CHI,MOT,FALSE,56,FALSE,-0.05099999999993088,2.3919999999998254,TRUE,TRUE,8,no error,6
+I've got,nice family picture,CHI,MOT,FALSE,56,FALSE,0.10799999999994725,0.7550000000001091,TRUE,FALSE,3,no error,3
+careful there's a Tesco that where the fire engine was,well I was just thinking,CHI,MOT,FALSE,56,FALSE,-0.30600000000004,4.110000000000127,TRUE,FALSE,11,no error,5
+done it done,well done,CHI,MOT,FALSE,56,FALSE,-0.5940000000000509,1.2890000000002146,TRUE,FALSE,3,no error,2
+has anybody seen the,I think that goes there actually,CHI,MOT,FALSE,56,FALSE,-1.1840000000001965,1.1849999999999454,TRUE,FALSE,4,no error,6
+you said,crusty bread,CHI,MOT,FALSE,56,FALSE,0.03499999999985448,0.5340000000001055,TRUE,FALSE,2,no error,2
+he did,would you like another drink of apple juice Thomas,CHI,MOT,FALSE,56,FALSE,-1.194999999999709,1.1959999999999127,TRUE,FALSE,2,no error,9
+hm lights gone,thank you,CHI,MOT,FALSE,56,FALSE,0.022999999999967713,2.809000000000026,TRUE,FALSE,3,no error,2
+Mum you helped,Daddy asked you a question Thomas,CHI,MOT,FALSE,56,FALSE,-0.20900000000000318,1.5329999999999586,TRUE,FALSE,3,no error,6
+mushrooms,an apple's just fallen off the tree,CHI,MOT,FALSE,56,FALSE,-0.10599999999999454,1.5670000000000073,FALSE,TRUE,1,no error,8
+chocolates,the sweetie box,CHI,MOT,FALSE,56,FALSE,-0.2439999999999145,1.3009999999999309,FALSE,TRUE,1,no error,3
+people xxx,no,CHI,MOT,FALSE,56,FALSE,-0.36000000000012733,3.1469999999999345,FALSE,TRUE,2,no error,1
+I've forgotten all the words too,well let's,CHI,MOT,FALSE,56,FALSE,-0.63799999999992,2.0899999999996908,TRUE,FALSE,7,no error,3
+um I've forgot all the words,right,CHI,MOT,TRUE,56,FALSE,0.08100000000013097,2.519999999999982,TRUE,FALSE,7,other error,1
+all the rooms are taken,so go away,CHI,MOT,FALSE,56,FALSE,0,2.1709999999998217,TRUE,TRUE,5,no error,3
+I've got a tail that looks like a fox,let's just get you dry,CHI,MOT,FALSE,56,FALSE,-2.796999999999997,2.798000000000002,TRUE,FALSE,10,no error,6
+tidied up,excuse me,CHI,MOT,FALSE,56,FALSE,-0.19799999999997908,0.6739999999999782,TRUE,FALSE,2,no error,2
+I'm not tired,he was actually poorly,CHI,MOT,FALSE,56,FALSE,-0.7550000000001091,2.380000000000109,TRUE,FALSE,4,no error,4
+got Woody on that one,whoops,CHI,MOT,FALSE,56,FALSE,0.6970000000001164,2.05399999999986,TRUE,FALSE,5,no error,1
+it shoots people and made them die,oh dear,CHI,MOT,TRUE,56,FALSE,-0.011999999999943611,2.4849999999999,TRUE,FALSE,7,other error,2
+xxx met him I told you at morning,I told you,CHI,MOT,FALSE,56,FALSE,-1.9550000000001546,3.644999999999982,TRUE,FALSE,8,no error,3
+no I burped me,silly boy,CHI,MOT,FALSE,56,FALSE,-0.09300000000007458,2.171000000000049,TRUE,FALSE,4,no error,2
+more buffers,some more xxx,CHI,MOT,FALSE,57,FALSE,-1.6839999999999975,1.6839999999999975,FALSE,TRUE,2,no error,3
+if they're not careful the express will go into the buffers,that's right,CHI,MOT,FALSE,57,FALSE,-1.0049999999999955,4.225999999999999,FALSE,TRUE,12,no error,3
+just stretched,will it not go,CHI,MOT,FALSE,57,FALSE,0.010999999999967258,1.752999999999929,TRUE,FALSE,2,no error,4
+um I'm a truck I carry trucks,right,CHI,MOT,FALSE,57,FALSE,-0.4070000000000391,4.354000000000042,FALSE,TRUE,8,no error,1
+over the hills and far away,is that Teletubbies come to play,CHI,MOT,FALSE,57,FALSE,1.4600000000000364,3.308999999999969,FALSE,TRUE,6,no error,6
+but we but we haven't got two buffers,well the next time we go to Tesco then,CHI,MOT,FALSE,57,FALSE,-0.39200000000005275,3.8659999999999854,FALSE,TRUE,9,no error,9
+packets,get another packet of buffers because that's what we we could do with if we could,CHI,MOT,FALSE,57,FALSE,-0.17599999999993088,0.8239999999998417,FALSE,TRUE,1,no error,17
+yes I altered,xxx bit,CHI,MOT,FALSE,57,FALSE,-1.2309999999997672,1.462999999999738,TRUE,FALSE,3,no error,2
+I did a fart,Thomas we don't want to know that thank you,CHI,MOT,FALSE,57,FALSE,0.1299999999996544,2.368000000000393,TRUE,FALSE,4,no error,10
+I saw some red there,off she goes,CHI,MOT,FALSE,57,FALSE,-1.3460000000000036,1.3469999999997526,TRUE,FALSE,5,no error,3
+Purdie's got six tummies,six tummies,CHI,MOT,FALSE,57,FALSE,-0.0010000000002037268,1.787000000000262,TRUE,FALSE,5,no error,2
+why can you not eat touch the the chunks,well I can touch the chunks but they're not very nice to touch,CHI,MOT,TRUE,57,FALSE,0.0969999999999942,3.9939999999999998,FALSE,TRUE,9,other error,14
+I wish it said stop ladies,oh now now,CHI,MOT,FALSE,57,FALSE,-0.06199999999995498,2.297999999999945,FALSE,TRUE,6,no error,3
+look cats,movement group that I go to,CHI,MOT,FALSE,57,FALSE,0.012000000000057298,1.4039999999999964,FALSE,TRUE,2,no error,6
+where shall I put these letters,mind you the thing is actually Thomas it was her birthday a long time ago,CHI,MOT,FALSE,57,FALSE,0.8460000000000036,5.132000000000062,FALSE,TRUE,6,no error,15
+all done,are you saying Adam,CHI,MOT,FALSE,57,FALSE,0.8969999999999345,0.9980000000000473,TRUE,FALSE,2,no error,4
+done done,oh yes,CHI,MOT,FALSE,57,FALSE,-1.0559999999999263,1.0559999999999263,TRUE,FALSE,2,no error,2
+it did,oh,CHI,MOT,FALSE,57,FALSE,-0.6849999999999454,0.6849999999999454,TRUE,FALSE,2,no error,1
+jingle bells jingle bells,oh that's a nice picture,CHI,MOT,FALSE,57,FALSE,2.3450000000000273,2.3339999999998327,FALSE,TRUE,4,no error,6
+I fell over on one of these,I'm not surprised,CHI,MOT,FALSE,57,FALSE,-0.012000000000170985,1.8350000000000364,TRUE,FALSE,7,no error,4
+slabs,no it isn't a slab,CHI,MOT,FALSE,57,FALSE,0.057999999999992724,1.219000000000051,FALSE,TRUE,1,no error,6
+I spilt my drink xxx,it's alright,CHI,MOT,FALSE,57,FALSE,0.04599999999982174,2.369000000000142,TRUE,FALSE,5,no error,3
+I spilt my milk,right there you are,CHI,MOT,FALSE,57,FALSE,0.2559999999998581,2.3330000000000837,TRUE,FALSE,4,no error,4
+oh I I xxx eat with my spoon and I spilt it xxx,alright,CHI,MOT,FALSE,57,FALSE,-2.4479999999998654,5.003999999999905,TRUE,FALSE,13,no error,1
+I used it when Nana and Grandad was here,yesterday,CHI,MOT,TRUE,57,FALSE,0.056999999999789,2.530999999999949,TRUE,FALSE,9,other error,1
+tricycles,tricycles,CHI,MOT,FALSE,57,FALSE,-0.6390000000001237,1.7530000000001564,FALSE,TRUE,1,no error,1
+and then the xxx at the end gets tricycles with icicles,oh,CHI,MOT,FALSE,57,FALSE,-1.150000000000091,5.177999999999884,FALSE,TRUE,11,no error,1
+xxx her claws xxx,xxx,CHI,MOT,FALSE,57,FALSE,-3.018000000000029,3.5529999999998836,FALSE,TRUE,4,no error,1
+I might let you run now,that's right,CHI,MOT,FALSE,57,FALSE,-0.1269999999999527,1.6369999999999436,TRUE,FALSE,6,no error,3
+xxx toes,then apparently Stockport's renowned for smelling of curry and sewage,CHI,MOT,FALSE,57,FALSE,-0.7549999999998818,1.4279999999998836,FALSE,TRUE,2,no error,11
+chocolate digestives,chocolate,CHI,MOT,FALSE,57,FALSE,-1.1490000000001146,1.8460000000000036,FALSE,TRUE,2,no error,1
+xxx biscuits,to me if I smelt sewage,CHI,MOT,FALSE,57,FALSE,-1.0670000000000073,1.0679999999999836,FALSE,TRUE,2,no error,6
+lots_of things,lots_of things,CHI,MOT,FALSE,57,FALSE,0.11599999999998545,1.0800000000001546,FALSE,TRUE,3,no error,3
+shops,would would I like an air freshener for your socks,CHI,MOT,FALSE,57,FALSE,-0.8350000000000364,0.8359999999997854,FALSE,TRUE,1,no error,10
+yeah but some boys have found them,did he,CHI,MOT,FALSE,57,FALSE,0.10399999999981446,3.2400000000002365,FALSE,TRUE,7,no error,2
+boxes,well what I've done I've,CHI,MOT,FALSE,57,FALSE,0,1.2310000000000016,FALSE,TRUE,1,no error,7
+I love those popping things,I know you do but I,CHI,MOT,FALSE,57,FALSE,-0.4060000000000059,2.798000000000002,FALSE,TRUE,5,no error,6
+did I bring the animals xxx,you brought the animals,CHI,MOT,FALSE,57,FALSE,-0.5460000000000491,2.6240000000000236,TRUE,FALSE,6,no error,4
+I got home from the camel,pardon,CHI,MOT,FALSE,57,FALSE,0.6739999999999782,2.2520000000000664,TRUE,FALSE,6,no error,1
+I've got a xxx in my hair,and now you've stored some tinsel in it,CHI,MOT,FALSE,57,FALSE,-0.033999999999991815,3.227000000000089,TRUE,FALSE,8,no error,9
+I used all the paper up,xxx,CHI,MOT,FALSE,57,FALSE,-1.8700000000001182,2.206000000000131,TRUE,FALSE,6,no error,1
+I've used all the paper up,have you,CHI,MOT,FALSE,57,FALSE,-1.497000000000071,1.4980000000000473,TRUE,FALSE,7,no error,2
+and we wave our hands in the air because we have got xxx to spare,it'll be a very important job once we've finished it,CHI,MOT,FALSE,57,FALSE,0.5509999999999309,3.785000000000082,TRUE,TRUE,15,no error,12
+oh you just got Noo_Noos on,pardon,CHI,MOT,FALSE,57,FALSE,0.6150000000000091,2.55399999999986,TRUE,FALSE,7,no error,1
+oh you snatched it,no I didn't,CHI,MOT,FALSE,57,FALSE,0.13999999999987267,2.286999999999807,TRUE,FALSE,4,no error,4
+stuck,I've tidied the table and I've just got a cloth to give it a good wash down,CHI,MOT,FALSE,57,FALSE,0.36000000000012733,0.3829999999998108,TRUE,FALSE,1,no error,19
+now I knew a way to put the animals,right then,CHI,MOT,TRUE,57,FALSE,-0.09200000000000585,2.5190000000000055,TRUE,TRUE,9,other error,2
+big boxes,very good,CHI,MOT,FALSE,57,FALSE,0.28700000000003456,0.8730000000000473,FALSE,TRUE,2,no error,2
+you get it from shops,yes,CHI,MOT,FALSE,57,FALSE,0.06700000000000728,1.5,FALSE,TRUE,5,no error,1
+no it's the buffers,it's the buffers,CHI,MOT,FALSE,57,FALSE,-0.56899999999996,1.05600000000004,FALSE,TRUE,5,no error,4
+I bring cans,xxx,CHI,MOT,FALSE,57,FALSE,0.18699999999989814,2.4980000000000473,FALSE,TRUE,3,no error,1
+this little present there a xxx some other toys,so when you're passing,CHI,MOT,FALSE,57,FALSE,2.186999999999898,2.3659999999999854,FALSE,TRUE,9,no error,5
+we're sorry we haven't got anything,did you touch my bone,CHI,MOT,FALSE,57,FALSE,-2.007000000000062,2.07300000000032,TRUE,FALSE,8,no error,5
+I gave it to you,why did you have a xxx,CHI,MOT,FALSE,57,FALSE,0.8930000000000291,1.2089999999998327,TRUE,FALSE,5,no error,6
+gets on your hands xxx,mhm,CHI,MOT,FALSE,57,FALSE,0,2.5520000000001346,FALSE,TRUE,5,no error,1
+Mum you went xxx,do you remember when we went to Legoland,CHI,MOT,FALSE,57,FALSE,-0.06899999999995998,1.4969999999998436,TRUE,FALSE,4,no error,8
+someone must must have took them xxx and left them,no no,CHI,MOT,FALSE,57,FALSE,-1.150000000000091,3.5300000000002,TRUE,FALSE,10,no error,2
+it was a lady and a man,oh well that's what we look like inside isn't it,CHI,MOT,FALSE,58,FALSE,0.31399999999999295,1.3119999999999834,TRUE,FALSE,7,no error,12
+letters,letters of the alphabet,CHI,MOT,FALSE,58,FALSE,-0.18600000000000705,0.8600000000000136,FALSE,TRUE,1,no error,4
+just pretend that said sweeties,I will,CHI,MOT,FALSE,58,FALSE,-0.8359999999999843,3.2040000000000077,FALSE,TRUE,5,no error,2
+those are called letter sweets,letter sweets,CHI,MOT,FALSE,58,FALSE,-0.464999999999975,2.426999999999964,FALSE,TRUE,5,no error,2
+let's check it's locked and tight on,no,CHI,MOT,FALSE,58,FALSE,-0.3020000000000209,2.5190000000000055,TRUE,FALSE,9,no error,1
+smarties,well they,CHI,MOT,FALSE,58,FALSE,-0.09300000000001774,1.3000000000000114,FALSE,TRUE,1,no error,2
+I've forgot,now I'll tell you again then,CHI,MOT,TRUE,58,FALSE,-0.10499999999996135,0.6389999999999532,TRUE,FALSE,3,other error,7
+lie sweets,lie sweets,CHI,MOT,FALSE,58,FALSE,-0.06999999999999318,1.2309999999999945,FALSE,TRUE,2,no error,2
+light sweets,right,CHI,MOT,FALSE,58,FALSE,-0.37100000000003774,1.219000000000051,FALSE,TRUE,2,no error,1
+it's called a pass sweets,pass sweets,CHI,MOT,TRUE,58,FALSE,0.36000000000001364,2.7749999999999773,FALSE,TRUE,6,other error,2
+oh yes I've got these,this is your xxx,CHI,MOT,FALSE,58,FALSE,-0.8589999999999236,1.6019999999999754,TRUE,FALSE,6,no error,4
+they are sweets,would you believe this Thomas,CHI,MOT,FALSE,58,FALSE,-0.4639999999999418,1.2999999999999545,FALSE,TRUE,3,no error,5
+shapes,now,CHI,MOT,FALSE,58,FALSE,-0.8930000000000291,1.0789999999999509,FALSE,TRUE,1,no error,1
+where are my grabbers,your grabbers,CHI,MOT,FALSE,58,FALSE,0.08200000000010732,1.6829999999999927,FALSE,TRUE,4,no error,2
+the edges,the ambulance came out,CHI,MOT,FALSE,58,FALSE,0.975999999999658,0.8700000000003456,FALSE,TRUE,2,no error,4
+where did they came from,I don't know,CHI,MOT,TRUE,58,FALSE,0.028999999999996362,1.1839999999997417,TRUE,FALSE,5,other error,4
+that was xxx there,pardon,CHI,MOT,FALSE,58,FALSE,-0.03099999999994907,2.0090000000000146,TRUE,FALSE,4,no error,1
+my hand was under there,you tripped up you got your foot caught in the blind Tom,CHI,MOT,FALSE,58,FALSE,-0.23700000000008004,2.844000000000051,TRUE,FALSE,5,no error,12
+um the last customer wanted lemonade I thought,the last customer wanted lemonade,CHI,MOT,FALSE,58,FALSE,-0.06499999999999773,3.296999999999997,TRUE,FALSE,8,no error,5
+sausage with slugs and worms,look,CHI,MOT,FALSE,58,FALSE,-2.0090000000000146,2.8220000000000027,FALSE,TRUE,5,no error,1
+that's why it's dalmatian ones,dalmatian slush,CHI,MOT,FALSE,58,FALSE,-0.63900000000001,2.8909999999999627,FALSE,TRUE,7,no error,2
+for his drink he can have slugs,oh good,CHI,MOT,FALSE,58,FALSE,-0.9399999999999409,2.4149999999999636,FALSE,TRUE,7,no error,2
+flies and wees,no,CHI,MOT,FALSE,58,FALSE,-0.10400000000004184,1.4740000000000464,FALSE,TRUE,3,no error,1
+I'm pushing in the men's stuff you want,oh right,CHI,MOT,FALSE,58,FALSE,0.21900000000005093,2.890999999999849,FALSE,TRUE,10,no error,2
+and mixed up sausages,mixed up chips and sausage in Lucozade,CHI,MOT,FALSE,58,FALSE,0.27800000000002,2.4260000000001583,FALSE,TRUE,4,no error,7
+told you,you are a magic man aren't you,CHI,MOT,FALSE,58,FALSE,0.02299999999991087,1.4049999999999727,TRUE,FALSE,2,no error,8
+and close your eyes,on my own,CHI,MOT,FALSE,58,FALSE,-0.43000000000006366,1.474999999999909,FALSE,TRUE,4,no error,3
+did it,right,CHI,MOT,FALSE,58,FALSE,-0.07000000000016371,0.8240000000000691,TRUE,FALSE,2,no error,1
+um um those are new ones,put it on the bath side Thomas,CHI,MOT,FALSE,58,FALSE,0.15099999999983993,3.0770000000002256,FALSE,TRUE,6,no error,7
+have you got a machine,no,CHI,MOT,FALSE,58,FALSE,-0.03499999999985448,1.2309999999997672,TRUE,FALSE,5,no error,1
+then I went pwooch,well I think,CHI,MOT,FALSE,58,FALSE,-1.6600000000003092,1.6950000000001637,TRUE,FALSE,4,no error,3
+Bob's fallen you can see where the shark's xxx,oh no,CHI,MOT,FALSE,58,FALSE,-0.05199999999967986,3.2969999999995707,TRUE,FALSE,11,no error,2
+then I zoomed up,did you not think eating a machine,CHI,MOT,FALSE,58,FALSE,0.4230000000002292,2.1829999999999927,TRUE,FALSE,4,no error,7
+the land's turned up the right way,oh very good,CHI,MOT,FALSE,58,FALSE,0.012000000000170985,3.1579999999999018,TRUE,FALSE,8,no error,3
+what's tips,well tips they're fiber tips,CHI,MOT,FALSE,58,FALSE,-0.1739999999999995,0.7430000000000021,FALSE,TRUE,3,no error,6
+oy xxx batteries xxx,it's lunchtime now,CHI,MOT,FALSE,58,FALSE,-1.0810000000000173,3.3670000000000186,FALSE,TRUE,4,no error,4
+and when somebody steps on the leaves then,when somebody steps on the leaves the volcano goes does it,CHI,MOT,FALSE,58,FALSE,0.14200000000005275,2.7049999999999272,FALSE,TRUE,8,no error,11
+ev even the teachers,oh dear me,CHI,MOT,FALSE,58,FALSE,0.03499999999996817,1.76400000000001,FALSE,TRUE,4,no error,3
+I'm slipped down,come on Thomas please now,CHI,MOT,FALSE,58,FALSE,-0.6960000000000264,2.4610000000000127,TRUE,FALSE,4,no error,5
+if you said,please come on,CHI,MOT,FALSE,58,FALSE,-9.999999999763531e-4,1.788000000000011,TRUE,FALSE,3,no error,3
+I got a prisoner,you're a prisoner,CHI,MOT,FALSE,58,FALSE,0.14699999999993452,1.7300000000000182,TRUE,FALSE,4,no error,4
+squirrels eat nuts,they do,CHI,MOT,FALSE,58,FALSE,0.02200000000016189,1.265999999999849,FALSE,TRUE,3,no error,2
+wouldn't it be funny if the teachers wore pyjamas,hm,CHI,MOT,FALSE,58,FALSE,0.08099999999967622,3.3900000000003274,TRUE,TRUE,10,no error,1
+birds drink like this,do they,CHI,MOT,FALSE,58,FALSE,0.9630000000001928,1.4859999999998763,FALSE,TRUE,4,no error,2
+have you seen um,drink and eat properly,CHI,MOT,FALSE,58,FALSE,0,1.6599999999998545,TRUE,FALSE,4,no error,4
+no they have got a child,have they,CHI,MOT,TRUE,58,FALSE,-0.08199999999987995,2.100999999999658,TRUE,FALSE,6,other error,2
+I did,in the shop,CHI,MOT,FALSE,58,FALSE,-0.6739999999999782,0.6739999999999782,TRUE,FALSE,2,no error,3
+I did,don't,CHI,MOT,FALSE,58,FALSE,-0.8820000000000618,0.8820000000000618,TRUE,FALSE,2,no error,2
+two oranges,you take on board please what I've just said,CHI,MOT,FALSE,58,FALSE,-0.047000000000025466,1.1959999999999127,FALSE,TRUE,2,no error,10
+Purdie's listened,and if you,CHI,MOT,FALSE,58,FALSE,-1.6829999999999927,1.6829999999999927,TRUE,FALSE,3,no error,3
+and we'd be next door neighbors,oh Thomas,CHI,MOT,FALSE,58,FALSE,-0.7779999999997926,2.1480000000001382,FALSE,TRUE,7,no error,2
+we want real sweets,I'm just reminding you,CHI,MOT,FALSE,58,FALSE,2.4509999999999934,2.0320000000000107,FALSE,TRUE,4,no error,5
+if a delivery man doesn't come in ten minutes,www,CHI,MOT,FALSE,58,FALSE,-2.706000000000131,2.706000000000131,FALSE,TRUE,10,no error,1
+what have you got today,well I'll show you,CHI,MOT,FALSE,58,FALSE,0.9230000000000018,1.4860000000001037,TRUE,FALSE,5,no error,5
+sweets,and um,CHI,MOT,FALSE,58,FALSE,0.004000000000132786,0.9289999999998599,FALSE,TRUE,1,no error,2
+have you lost your ticket,I have actually,CHI,MOT,FALSE,58,FALSE,0.5109999999999673,2.193000000000211,TRUE,FALSE,5,no error,3
+my ticket punch has broken,has it,CHI,MOT,FALSE,58,FALSE,-0.16300000000001091,2.1010000000001128,TRUE,FALSE,5,no error,2
+I was in a town and when this a and a bo and um the people and I forgot to put my trousers on,oh,CHI,MOT,TRUE,58,FALSE,-0.037000000000261934,8.0340000000001055,FALSE,TRUE,24,other error,1
+she's lost her sword,yes,CHI,MOT,FALSE,58,FALSE,-0.012000000000170985,1.8920000000002801,TRUE,FALSE,5,no error,1
+you have done it over there,well you can't stay over there all the time Tom because you need your breakfast,CHI,MOT,TRUE,59,FALSE,-0.17500000000001137,2.973000000000013,TRUE,FALSE,6,other error,16
+what are honey nut loops like when you put them in the oven,shall we,CHI,MOT,FALSE,59,FALSE,-3.0179999999999154,3.4710000000000036,FALSE,TRUE,13,no error,2
+when you had chicken pox you were itchy,and you had and you had lots_of spots,CHI,MOT,FALSE,59,FALSE,-0.6390000000001237,2.25200000000018,TRUE,FALSE,8,no error,9
+doughnuts are very healthy,xxx,CHI,MOT,FALSE,59,FALSE,-1.9849999999999,2.40300000000002,FALSE,TRUE,4,no error,1
+doughnuts are healthy,shh,CHI,MOT,FALSE,59,FALSE,-1.1259999999999764,1.1259999999999764,FALSE,TRUE,3,no error,1
+did you know what I heard,boo boo something like that,CHI,MOT,TRUE,59,FALSE,0.8940000000000055,1.961999999999989,TRUE,FALSE,6,other error,5
+you did smack me,I went I went like that with my hands and said that was naughty,CHI,MOT,FALSE,59,FALSE,-0.8830000000000382,2.438000000000102,TRUE,FALSE,4,no error,14
+I heard,oh look there's a nice one here that says surprise surprise,CHI,MOT,FALSE,59,FALSE,-0.3079999999999927,0.8940000000002328,TRUE,FALSE,2,no error,12
+but I was trying,the other end,CHI,MOT,FALSE,59,FALSE,0.625999999999749,2.0900000000001455,TRUE,FALSE,4,no error,3
+Zoe sent to the writing,the one you have written to Lyne and the one you have written to Lyne was the first one,CHI,MOT,TRUE,59,FALSE,0.12800000000015643,2.2049999999999272,TRUE,FALSE,5,other error,19
+oh xxx stuck,well exams are,CHI,MOT,FALSE,59,FALSE,-2.2870000000000346,2.879000000000019,TRUE,FALSE,3,no error,3
+with xxx showed me yes,yeah,CHI,MOT,FALSE,59,FALSE,-0.4759999999999991,1.8460000000000036,TRUE,FALSE,5,no error,1
+be good if real horses,if what,CHI,MOT,TRUE,59,FALSE,0.13999999999998636,2.367999999999938,FALSE,TRUE,5,other error,2
+bit xxx,what,CHI,MOT,FALSE,59,FALSE,-0.023000000000138243,2.2520000000004075,TRUE,FALSE,2,no error,1
+that was sugar,was it,CHI,MOT,FALSE,59,FALSE,0.03499999999985448,1.637000000000171,TRUE,FALSE,3,no error,2
+but when I brought that pencil machine in um no one wanted it xxx,when you took a pencil machine in,CHI,MOT,FALSE,59,FALSE,0.1979999999998654,6.025000000000091,TRUE,FALSE,14,no error,7
+you must be gone to back to the shop,well I don't,CHI,MOT,TRUE,59,FALSE,-0.057999999999992724,3.3789999999999054,TRUE,FALSE,9,other error,4
+do dogs do that,xxx,CHI,MOT,FALSE,59,FALSE,-1.544000000000004,1.544000000000004,FALSE,TRUE,4,no error,1
+seen dogs,xxx,CHI,MOT,FALSE,59,FALSE,-0.8709999999999951,2.0659999999999954,FALSE,TRUE,2,no error,1
+I was,because pussy cats like Purdie,CHI,MOT,FALSE,59,FALSE,0.046999999999997044,0.9400000000000119,TRUE,FALSE,2,no error,5
+Felix keeps rubbing round my legs,oh well Felix is a very friendly cat,CHI,MOT,FALSE,59,FALSE,-0.18600000000000705,2.960000000000008,FALSE,TRUE,6,no error,8
+you like weren't me,you keep saying that to me,CHI,MOT,TRUE,59,FALSE,0.6040000000000418,1.926999999999964,TRUE,FALSE,5,other error,6
+we're going to put some more chunks on,we're not now,CHI,MOT,FALSE,59,FALSE,0.1150000000000091,2.495999999999981,FALSE,TRUE,9,no error,4
+we've got more chunks,Thomas please will you stop shouting,CHI,MOT,FALSE,59,FALSE,-0.8360000000000127,1.9500000000000455,FALSE,TRUE,5,no error,6
+got you cu,she,CHI,MOT,FALSE,59,FALSE,-0.15800000000001546,1.0209999999999582,TRUE,FALSE,3,no error,1
+playing sausage factories,that's okay then,CHI,MOT,FALSE,59,FALSE,0.30100000000004457,2.4850000000000136,FALSE,TRUE,3,no error,4
+got a butchers right next to us,oh,CHI,MOT,FALSE,59,FALSE,-1.8110000000000355,2.2409999999999854,TRUE,FALSE,7,no error,1
+and then we were even wetter,so that's what Purdie's doing isn't it,CHI,MOT,FALSE,59,FALSE,0.17000000000007276,1.893000000000029,TRUE,FALSE,6,no error,10
+warm sausages,what's that the cooker,CHI,MOT,FALSE,59,FALSE,0.6900000000000546,2.4149999999999636,FALSE,TRUE,2,no error,5
+I think I've already broke it,well just do it gent,CHI,MOT,TRUE,59,FALSE,-0.4869999999996253,1.8460000000000036,TRUE,FALSE,7,other error,5
+but all of the legs,you need to put your weight on the sticks,CHI,MOT,FALSE,59,FALSE,-0.2549999999996544,1.4859999999998763,FALSE,TRUE,5,no error,9
+went on the toilet and bumped their bottom ah,don't,CHI,MOT,FALSE,59,FALSE,-2.856999999999971,2.867999999999938,TRUE,FALSE,9,no error,2
+I saw some,ah,CHI,MOT,FALSE,59,FALSE,-0.011999999999943611,0.5109999999999673,TRUE,FALSE,3,no error,1
+skidded,xxx,CHI,MOT,FALSE,59,FALSE,-0.9170000000003711,0.9170000000003711,TRUE,FALSE,1,no error,1
+I have seen it,and your the dirty rascal,CHI,MOT,TRUE,59,FALSE,-1.254000000000019,1.34699999999998,TRUE,FALSE,4,other error,5
+and I know where he's moved to,I know it's right near a railway track actually Thomas,CHI,MOT,FALSE,59,FALSE,0.13900000000001,1.649000000000001,TRUE,FALSE,8,no error,11
+didn't I,hello Purdie,CHI,MOT,FALSE,59,FALSE,0.31399999999996453,0.6140000000000327,TRUE,FALSE,3,no error,2
+I wonder where Louise lives,Louise or Louisa,CHI,MOT,FALSE,59,FALSE,0.8710000000000946,1.9389999999998508,FALSE,TRUE,5,no error,3
+make one of like you can make one of ramps,a ramp it looked like a wigwam when you had it stood up like that,CHI,MOT,FALSE,59,FALSE,0.19800000000032014,6.605999999999767,FALSE,TRUE,10,no error,15
+xxx guide my feet please,I will keep coming oh that's a funny noise keep coming,CHI,MOT,FALSE,59,FALSE,0.6520000000000437,6.8960000000001855,FALSE,TRUE,5,no error,12
+look at all these sunflowers,can you see sunflowers,CHI,MOT,FALSE,59,FALSE,-0.98700000000008,2.4850000000001273,FALSE,TRUE,5,no error,4
+did you hear the explosion,he's the,CHI,MOT,FALSE,59,FALSE,-1.893000000000029,1.9159999999997126,TRUE,FALSE,5,no error,3
+they have sawed them down,right,CHI,MOT,TRUE,59,FALSE,0.03500000000030923,1.55600000000004,TRUE,FALSE,5,other error,1
+oh Mum xxx would you like to hear the chuff of the trains,yes,CHI,MOT,FALSE,59,FALSE,-0.3369999999999891,4.7719999999999345,FALSE,TRUE,13,no error,1

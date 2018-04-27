@@ -1,0 +1,551 @@
+utterance,response,speaker,responder,error,age,response_time,utterance_time,past_tense,plural,overreg,overlap,source_file,error_type,rl
+is it washed,oh this is beautiful,CHI,MOT,FALSE,24,0.21699999999998454,1.9159999999999968,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-02a.xml,no error,4
+they done Mummy,you can dip in an egg today,CHI,MOT,FALSE,24,2.8090000000000828,1.2429999999999382,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-02a.xml,no error,7
+xxx scared,you going to give Mama a big kiss,CHI,MOT,FALSE,24,-0.31899999999996,0.73700000000008,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-02a.xml,no error,8
+cups,xxx ah xxx,CHI,FAT,FALSE,24,0.022999999999967713,0.6620000000000346,FALSE,TRUE,FALSE,FALSE,eleanor/2-00-02b.xml,no error,3
+I made xxx coffee,do you not think xxx,CHI,MOT,FALSE,24,-1.3229999999998654,1.856000000000222,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-02b.xml,no error,5
+where Mama gone,xxx,CHI,FAT,TRUE,24,-0.6040000000000418,2.089999999999918,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-03a.xml,other error,1
+gone see Ewww,xxx,CHI,FAT,FALSE,24,0.9279999999998836,2.4850000000001273,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-03a.xml,no error,1
+it stuck,is it stuck,CHI,MOT,TRUE,24,0.17400000000003502,1.752999999999986,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-03b.xml,other error,3
+I got stomach ache,have you got stomach ache,CHI,MOT,TRUE,24,0.05200000000002092,2.495999999999981,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-03b.xml,other error,5
+Daddy I did nappie,whooh,CHI,FAT,FALSE,24,0.08899999999994179,1.97400000000016,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-03b.xml,no error,1
+I did that,whooh,CHI,FAT,FALSE,24,-0.27800000000002,1.2300000000000182,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-03b.xml,no error,1
+hey look my teddy's got,ah,CHI,FAT,TRUE,24,-1.6720000000000255,2.229000000000042,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-03b.xml,other error,1
+Mummy xxx you want xxx Mama's arms,okay darling,CHI,MOT,FALSE,24,-0.6029999999998381,3.6569999999999254,FALSE,TRUE,FALSE,TRUE,eleanor/2-00-03b.xml,no error,2
+where's Mama gone,Mama's on the telephone,CHI,FAT,FALSE,24,-0.40599999999994907,1.461999999999989,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-03b.xml,no error,5
+xxx Mama gone,xxx,CHI,MOT,FALSE,24,-0.6069999999999709,2.2639999999998963,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-03b.xml,no error,1
+yellows,yellow daffodil,CHI,FAT,TRUE,24,-0.10500000000001819,0.8479999999999563,FALSE,TRUE,FALSE,TRUE,eleanor/2-00-03b.xml,other error,2
+I teared it,hm,CHI,FAT,TRUE,24,0.2199999999997999,1.1959999999999127,TRUE,FALSE,TRUE,FALSE,eleanor/2-00-03b.xml,overregularization,1
+it's raining it's pouring old man is snoring went to bed bumped,bumped his head,CHI,MOT,TRUE,24,-2.19399999999996,9.414999999999964,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-04b.xml,other error,3
+three ears,three,CHI,MOT,FALSE,24,0.09300000000030195,0.8239999999996144,FALSE,TRUE,FALSE,FALSE,eleanor/2-00-04v.xml,no error,1
+I got jacket on,doesn't know about the xxx,CHI,MOT,TRUE,24,-2.078000000000003,2.2520000000000024,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-05b.xml,other error,6
+I like I like red and blue socks,all right,CHI,MOT,FALSE,24,-0.7429999999999382,2.9840000000000373,FALSE,TRUE,FALSE,TRUE,eleanor/2-00-05b.xml,no error,2
+what happened,xxx,CHI,MOT,FALSE,24,-0.48699999999996635,1.2419999999999618,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-05b.xml,no error,1
+I got it,what have you got there,CHI,MOT,FALSE,24,-1.102999999999838,1.102999999999838,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-06a.xml,no error,5
+I got it Mummy,you've got Bella,CHI,MOT,FALSE,24,-1.5670000000000073,1.6479999999999109,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-06a.xml,no error,4
+we got l,yeah you've got l on yours,CHI,FAT,FALSE,24,0.057999999999992724,1.879000000000019,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-06b.xml,no error,7
+I wanna play games,alright let me hear no crying here's your that's golf,CHI,MOT,FALSE,24,-0.7899999999999636,2.1829999999999927,FALSE,TRUE,FALSE,TRUE,eleanor/2-00-06b.xml,no error,12
+where's ball gone,it's over here,CHI,FAT,TRUE,24,0.1430000000000291,2.1480000000000246,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-08b.xml,other error,4
+Dada xxx gone,roar,CHI,FAT,FALSE,24,-2.995999999999867,2.995999999999867,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-08b.xml,no error,1
+trunks,they're trunks,CHI,MOT,FALSE,24,0.22100000000000364,1.5090000000000146,FALSE,TRUE,FALSE,FALSE,eleanor/2-00-08v.xml,no error,3
+the nappies,put them back please,CHI,MOT,FALSE,24,-0.9979999999999905,1.0439999999999827,FALSE,TRUE,FALSE,TRUE,eleanor/2-00-09a.xml,no error,4
+it tomatoes,m,CHI,MOT,FALSE,24,-0.4880000000000564,1.5440000000000964,FALSE,TRUE,FALSE,TRUE,eleanor/2-00-09a.xml,no error,1
+arrows,yeah you put a stamp on number twelve,CHI,MOT,FALSE,24,0.2090000000002874,0.9519999999997708,FALSE,TRUE,FALSE,FALSE,eleanor/2-00-09a.xml,no error,8
+pears,one two pears,CHI,MOT,FALSE,24,-1.8100000000004002,1.8110000000001492,FALSE,TRUE,FALSE,TRUE,eleanor/2-00-09a.xml,no error,3
+oranges,on Saturday he ate through one piece of,CHI,MOT,FALSE,24,4.99599999999964,1.2660000000000764,FALSE,TRUE,FALSE,FALSE,eleanor/2-00-09a.xml,no error,8
+look I made dog,there's a dog what noise does a dog make,CHI,MOT,TRUE,24,-0.06700000000000728,2.227000000000089,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-10a.xml,other error,10
+I want I want sleep Mama's arms,no,CHI,MOT,TRUE,24,-2.1020000000000323,4.122000000000014,FALSE,TRUE,FALSE,TRUE,eleanor/2-00-10b.xml,other error,1
+crocodiles,crocodiles and what do crocodiles do,CHI,MOT,FALSE,24,0,1.1019999999998618,FALSE,TRUE,FALSE,TRUE,eleanor/2-00-11a.xml,no error,6
+kept it,do you not want to make something with your Play_Doh today,CHI,MOT,FALSE,24,4.91399999999976,2.229000000000269,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-11a.xml,no error,12
+I got look xxx I got Mama,shall Mama do my hand shall I do my hand,CHI,MOT,FALSE,24,0.023000000000138243,2.8799999999996544,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-11a.xml,no error,10
+I broken it,you broke it darling,CHI,FAT,TRUE,24,0.5219999999999345,1.9510000000000218,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-11b.xml,other error,4
+I got hot,you got,CHI,FAT,TRUE,24,0.13899999999989632,1.4629999999999654,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-11b.xml,other error,2
+I found,ah that's Thomas_the_Tank_Engine,CHI,FAT,TRUE,24,0.047000000000025466,0.9629999999999654,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-11b.xml,other error,7
+I got,eighteen nineteen and,CHI,MOT,FALSE,24,0.009000000000014552,0.56899999999996,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-12a.xml,no error,3
+drawers,good girl,CHI,MOT,FALSE,24,-0.09299999999996089,0.5339999999999918,FALSE,TRUE,FALSE,TRUE,eleanor/2-00-16a.xml,no error,2
+Mummy Eleanor made a mess,who made a mess,CHI,MOT,FALSE,24,0.012000000000057298,2.298999999999978,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-16a.xml,no error,4
+I done a painting,Eleanor,CHI,MOT,TRUE,24,-0.7080000000000837,1.5090000000000146,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-16a.xml,other error,1
+Bob a gone a sleep,it's,CHI,MOT,FALSE,24,-0.44199999999955253,2.1239999999997963,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-16a.xml,no error,2
+where Jeannine gone,oh xxx,CHI,MOT,TRUE,24,-0.487999999999829,2.031999999999698,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-16a.xml,other error,2
+look what Kwww got,look,CHI,FAT,TRUE,24,-0.3949999999999818,2.0090000000000146,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-16b.xml,other error,1
+Gwww falled down,oh no,CHI,FAT,TRUE,24,0.018000000000029104,2.298999999999978,TRUE,FALSE,TRUE,FALSE,eleanor/2-00-16b.xml,overregularization,2
+he's watering the flowers,he's watering the,CHI,MOT,FALSE,24,0.0039999999999054126,2.6239999999997963,FALSE,TRUE,FALSE,FALSE,eleanor/2-00-17a.xml,no error,4
+mice did,mm,CHI,MOT,FALSE,24,0.1280000000000001,1.4860000000000007,TRUE,TRUE,FALSE,FALSE,eleanor/2-00-17b.xml,no error,1
+Dad where's the ice gone,Eleanor what are you doing,CHI,MOT,FALSE,24,0.3729999999999336,1.9370000000000118,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-17b.xml,no error,5
+this here what put one,oh we'll put it in our lounge,CHI,FAT,FALSE,24,-0.5459999999998217,2.27599999999984,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-17b.xml,no error,8
+finished xxx,just wait a minute,CHI,FAT,FALSE,24,0.5479999999997744,1.20699999999988,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-17b.xml,no error,4
+I did rolly,wow,CHI,FAT,TRUE,24,0.3229999999998654,1.9400000000000546,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-17b.xml,other error,1
+doors,and thirteen,CHI,MOT,FALSE,24,0.027000000000043656,0.650000000000091,FALSE,TRUE,FALSE,FALSE,eleanor/2-00-18a.xml,no error,2
+where's xxx gone,no,CHI,MOT,FALSE,24,-0.9050000000002001,2.2519999999999527,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-18a.xml,no error,1
+where's xxx gone,you're a funny girl,CHI,MOT,FALSE,24,-0.2670000000002801,1.5090000000000146,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-18a.xml,no error,5
+head shoulder knees and toes knees and toes,NA,CHI,FAT,TRUE,24,-4.410999999999831,4.410999999999831,FALSE,TRUE,FALSE,TRUE,eleanor/2-00-22b.xml,other error,NA
+no I done me wet,have you done a weewee,CHI,MOT,TRUE,24,0.17800000000033833,2.42699999999968,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-22b.xml,other error,5
+Po where Lala gone,um,CHI,FAT,TRUE,24,0.09300000000030195,2.29300000000012,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-23b.xml,other error,1
+I got pink nose,you got a pink nose,CHI,MOT,TRUE,24,0.21000000000003638,1.5550000000000637,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-23v.xml,other error,5
+I see the spiders the museum,spiders were there a lot of spiders were they big or were they small,CHI,MOT,TRUE,24,0.05199999999990723,2.461999999999989,FALSE,TRUE,FALSE,FALSE,eleanor/2-00-23v.xml,other error,14
+no men,good girl,CHI,MOT,FALSE,24,0.09200000000009823,0.5809999999996762,FALSE,TRUE,FALSE,FALSE,eleanor/2-00-23v.xml,no error,2
+my bees,that bee's gone to sleep he's tired,CHI,MOT,FALSE,24,-0.6270000000001801,1.4630000000001928,FALSE,TRUE,FALSE,TRUE,eleanor/2-00-24a.xml,no error,9
+blue they're broken,look blue shall we do the paws blue look,CHI,MOT,FALSE,24,1.3050000000000637,2.5540000000000873,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-24a.xml,no error,9
+I got blue,now could you get a red and yellow,CHI,MOT,FALSE,24,0,1.1609999999998308,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-24a.xml,no error,8
+elephants,and what's this,CHI,MOT,FALSE,24,0.07099999999991269,1.3589999999999236,FALSE,TRUE,FALSE,FALSE,eleanor/2-00-24a.xml,no error,4
+tracks,no that's a track,CHI,MOT,FALSE,24,0.0340000000001055,0.6039999999998145,FALSE,TRUE,FALSE,FALSE,eleanor/2-00-24a.xml,no error,5
+rabbits,rabbits good girl,CHI,MOT,FALSE,24,-0.3949999999999818,0.974999999999909,FALSE,TRUE,FALSE,TRUE,eleanor/2-00-24a.xml,no error,3
+fell down,oh no and what did Dadda do when he when he had fallen darling,CHI,MOT,FALSE,24,0.027999999999792635,0.8250000000002728,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-24a.xml,no error,14
+I did Tellytubbies on,where,CHI,FAT,TRUE,24,0.15100000000001046,2.623999999999967,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-24b.xml,other error,1
+gone the shop,gone to the shop,CHI,FAT,TRUE,24,0.5740000000000123,1.7300000000000182,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-24b.xml,other error,4
+smarties,smarties,CHI,MOT,FALSE,24,-1.183999999999969,1.183999999999969,FALSE,TRUE,FALSE,TRUE,eleanor/2-00-26a.xml,no error,1
+all rolled around,what is it though,CHI,MOT,FALSE,24,0.04699999999979809,1.6950000000001637,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-26a.xml,no error,4
+xxx join the dots,oh have you got lots and lots of dots there,CHI,MOT,FALSE,24,3.2549999999996544,2.508000000000038,FALSE,TRUE,FALSE,FALSE,eleanor/2-00-26a.xml,no error,10
+I got dirty hands,oh Eleanor let's have a look,CHI,MOT,TRUE,24,-0.6970000000001164,2.0670000000000073,FALSE,TRUE,FALSE,TRUE,eleanor/2-00-26a.xml,other error,7
+it did fall down like this,oh,CHI,MOT,FALSE,24,-1.1610000000000582,2.438000000000102,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-26a.xml,no error,1
+he did it oh miaow miaow,did Pilchard say miaow miaow,CHI,MOT,FALSE,24,0.011999999999716238,3.262000000000171,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-26a.xml,no error,5
+what happened Pilchard,er try and remember correctly,CHI,FAT,TRUE,24,0.8569999999999709,2.4980000000000473,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-26b.xml,other error,5
+look I did painting,wow,CHI,FAT,TRUE,24,1.009999999999991,2.15300000000002,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-26b.xml,other error,1
+I used it,what's that called,CHI,MOT,FALSE,24,0.5639999999998508,1.7870000000000346,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-27a.xml,no error,4
+I found it,oh goo you're a clever girl,CHI,MOT,FALSE,24,-1.719000000000051,2.0790000000001783,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-27a.xml,no error,7
+trousers,blue jeans,CHI,MOT,FALSE,24,-1.2420000000001892,1.6720000000000255,FALSE,TRUE,FALSE,TRUE,eleanor/2-00-27a.xml,no error,2
+I want red strawberries,oh look,CHI,MOT,FALSE,24,-1.2660000000000764,2.7519999999999527,FALSE,TRUE,FALSE,TRUE,eleanor/2-00-27a.xml,no error,2
+I xxx strawberries,Mama hasn't got strawberries,CHI,MOT,FALSE,24,-1.1790000000000873,2.04300000000012,FALSE,TRUE,FALSE,TRUE,eleanor/2-00-27a.xml,no error,5
+they're my toys,xxx,CHI,FAT,FALSE,24,-1.322,1.323,FALSE,TRUE,FALSE,TRUE,eleanor/2-00-28a.xml,no error,1
+look and these puzzles,thank you,CHI,MOT,FALSE,24,-1.3350000000000364,1.8690000000000282,FALSE,TRUE,FALSE,TRUE,eleanor/2-00-28a.xml,no error,2
+look at these puzzles,it's a jigsaw darling,CHI,MOT,FALSE,24,0.3069999999999027,2.4150000000000773,FALSE,TRUE,FALSE,FALSE,eleanor/2-00-28a.xml,no error,5
+where did I,waste your time,CHI,FAT,FALSE,24,0.48699999999996635,1.0450000000000728,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-28a.xml,no error,3
+Eleanor Eleanor be tired,right give me a kiss first,CHI,MOT,TRUE,24,-0.3249999999999318,1.6829999999999927,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-28a.xml,other error,6
+look I made spring time Dada,yeah what what season is that darling,CHI,MOT,FALSE,24,-2.1670000000001437,3.2390000000000327,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-28a.xml,no error,7
+er Eleanor did xxx,do you want do you want to go to the toilet,CHI,MOT,FALSE,24,-2.05399999999986,3.4710000000000036,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-28a.xml,no error,11
+two bears live xxx,whoops,CHI,MOT,FALSE,24,-3.2849999999998545,3.2849999999998545,FALSE,TRUE,FALSE,TRUE,eleanor/2-00-28a.xml,no error,1
+eggs and birds,eggs in the nest,CHI,MOT,FALSE,24,0.2669999999998254,1.0570000000002437,FALSE,TRUE,FALSE,FALSE,eleanor/2-00-28a.xml,no error,4
+no they're little dots,that,CHI,MOT,FALSE,24,0.03500000000030923,2.125,FALSE,TRUE,FALSE,FALSE,eleanor/2-00-28a.xml,no error,1
+I make chicken legs,what is chicken xxx,CHI,FAT,FALSE,24,0.02299999999991087,2.5190000000000055,FALSE,TRUE,FALSE,FALSE,eleanor/2-00-28b.xml,no error,4
+I got big crater beasts book,www,CHI,FAT,FALSE,24,-3.3330000000000837,3.3330000000000837,TRUE,TRUE,FALSE,TRUE,eleanor/2-00-28b.xml,no error,1
+I have got a dog with hair,www,CHI,FAT,FALSE,24,-1.8230000000003201,3.2510000000002037,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-28b.xml,no error,1
+did a dinner,you drew a man,CHI,MOT,FALSE,24,-1.6610000000000582,1.69600000000014,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-29a.xml,no error,4
+baby done xxx,oh no,CHI,MOT,TRUE,24,0.06899999999995998,2.147999999999911,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-29a.xml,other error,2
+look I done nappie,would you like to do a weewee,CHI,MOT,TRUE,24,-0.6270000000000024,1.8340000000000032,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-30a.xml,other error,7
+no I I done weewee,have you done weewee,CHI,MOT,TRUE,24,0.242999999999995,3.007000000000005,TRUE,FALSE,FALSE,FALSE,eleanor/2-00-30a.xml,other error,4
+I don't like sheeps,you don't like,CHI,MOT,TRUE,24,0.46399999999999864,2.275000000000034,FALSE,TRUE,TRUE,FALSE,eleanor/2-00-30a.xml,overregularization,4
+I don't like worms and chips,I know you don't like,CHI,MOT,FALSE,24,-0.7319999999999709,3.0419999999999163,FALSE,TRUE,FALSE,TRUE,eleanor/2-00-30a.xml,no error,6
+I don't like sheeps,sheeps,CHI,MOT,TRUE,24,0.010999999999967258,2.636000000000024,FALSE,TRUE,TRUE,FALSE,eleanor/2-00-30b.xml,overregularization,1
+fallen down,oh Awww,CHI,MOT,FALSE,24,-0.7899999999999636,1.2770000000000437,TRUE,FALSE,FALSE,TRUE,eleanor/2-00-30b.xml,no error,2
+I liked it Winnie_the_pooh had friends,oh,CHI,MOT,TRUE,25,2.83199999999988,3.518000000000029,FALSE,TRUE,FALSE,FALSE,eleanor/2-01-00a.xml,other error,1
+caterpillars,caterpillars,CHI,MOT,FALSE,25,0.022999999999683496,1.1140000000000327,FALSE,TRUE,FALSE,FALSE,eleanor/2-01-00a.xml,no error,1
+stars,xxx the other ones I've got look,CHI,MOT,FALSE,25,-0.7419999999999902,0.742999999999995,FALSE,TRUE,FALSE,TRUE,eleanor/2-01-00b.xml,no error,8
+I got eggs nothing,nothing,CHI,MOT,FALSE,25,0,2.4490000000000016,TRUE,FALSE,FALSE,FALSE,eleanor/2-01-02a.xml,no error,1
+xxx but Dalmatian gone a Dalmatian all gone,what's a Dalmatian got on you tell us has he got spots or stripes,CHI,MOT,TRUE,25,0.19099999999997408,7.524000000000001,TRUE,FALSE,FALSE,FALSE,eleanor/2-01-02a.xml,other error,15
+xxx urr spots,spots good girl,CHI,MOT,FALSE,25,0.16300000000001091,1.521000000000015,FALSE,TRUE,FALSE,FALSE,eleanor/2-01-02a.xml,no error,3
+I built this cow,clown,CHI,MOT,FALSE,25,0.160000000000025,5.479999999999961,TRUE,FALSE,FALSE,FALSE,eleanor/2-01-02a.xml,no error,1
+where are your things,www,CHI,MOT,FALSE,25,-3.355000000000018,3.355000000000018,FALSE,TRUE,FALSE,TRUE,eleanor/2-01-02b.xml,no error,1
+noodles,noodles how many noodles,CHI,MOT,FALSE,25,-0.42899999999985994,0.7539999999999054,FALSE,TRUE,FALSE,TRUE,eleanor/2-01-06a.xml,no error,4
+seeds,so Marjorie_Daw don't you have new master,CHI,MOT,FALSE,25,0.6100000000001273,1.05600000000004,FALSE,TRUE,FALSE,FALSE,eleanor/2-01-06a.xml,no error,9
+tired,ah,CHI,MOT,FALSE,25,0.021000000000185537,0.7190000000000509,TRUE,FALSE,FALSE,FALSE,eleanor/2-01-06a.xml,no error,1
+he's annoyed with Winnie_the_Pooh,all right,CHI,MOT,FALSE,25,0.023000000000024556,2.925999999999931,TRUE,FALSE,FALSE,FALSE,eleanor/2-01-07a.xml,no error,2
+they xxx came,right,CHI,MOT,FALSE,25,0.3709999999998672,2.7630000000001473,TRUE,FALSE,FALSE,FALSE,eleanor/2-01-07a.xml,no error,1
+he's hit his leg,Eleanor hold Mama,CHI,MOT,FALSE,25,0.057999999999992724,1.7420000000001892,TRUE,FALSE,FALSE,FALSE,eleanor/2-01-07a.xml,no error,3
+gone,oop,CHI,MOT,FALSE,25,2.5470000000000255,1.4520000000002256,TRUE,FALSE,FALSE,FALSE,eleanor/2-01-07a.xml,no error,1
+um Noo_Noo got it with a ball,really,CHI,MOT,FALSE,25,0.10200000000008913,3.5289999999999964,TRUE,FALSE,FALSE,FALSE,eleanor/2-01-08v.xml,no error,1
+gave Eleanor cake and then come back and someone ate it,so Dada went to get Eleanor a cake and when he came back someone scratched it,CHI,MOT,FALSE,25,0.2780000000002474,4.8409999999998945,TRUE,FALSE,FALSE,FALSE,eleanor/2-01-08v.xml,no error,16
+all my friends gone swimming,right,CHI,MOT,TRUE,26,0.5399999999999636,2.9600000000000364,FALSE,TRUE,FALSE,FALSE,eleanor/2-02-00b.xml,other error,1
+stuck,this dress is stuck,CHI,MOT,FALSE,26,-0.650000000000091,0.6849999999999454,TRUE,FALSE,FALSE,TRUE,eleanor/2-02-00v.xml,no error,4
+I doing acrobats,acrobat,CHI,MOT,TRUE,26,0.6570000000000391,2.2749999999999773,FALSE,TRUE,FALSE,FALSE,eleanor/2-02-02a.xml,other error,1
+Swww and me making clays,there you go,CHI,MOT,TRUE,26,0.9169999999999163,3.298000000000002,FALSE,TRUE,FALSE,FALSE,eleanor/2-02-02a.xml,other error,3
+what does Daddy's eyes,are you making Daddy,CHI,MOT,TRUE,26,0.02299999999991087,1.9510000000000218,FALSE,TRUE,FALSE,FALSE,eleanor/2-02-02a.xml,other error,4
+she's pouring a water can to the flowers,she's watering the,CHI,MOT,TRUE,26,-0.3949999999999818,3.4479999999998654,FALSE,TRUE,FALSE,TRUE,eleanor/2-02-02a.xml,other error,4
+three hats,and,CHI,MOT,FALSE,26,-0.9290000000000873,0.9290000000000873,FALSE,TRUE,FALSE,TRUE,eleanor/2-02-02a.xml,no error,1
+I did it and you do it too,I did it and you do it too,CHI,MOT,FALSE,26,-3.6569999999999823,3.6569999999999823,TRUE,FALSE,FALSE,TRUE,eleanor/2-02-03a.xml,no error,8
+bees,what've we got,CHI,MOT,FALSE,26,-1.1720000000000255,1.1730000000000018,FALSE,TRUE,FALSE,TRUE,eleanor/2-02-03a.xml,no error,4
+knees and toes,toes,CHI,MOT,FALSE,26,-0.63799999999992,1.252999999999929,FALSE,TRUE,FALSE,TRUE,eleanor/2-02-03a.xml,no error,1
+gone,ooh,CHI,FAT,FALSE,26,0.41399999999998727,0.9169999999999163,TRUE,FALSE,FALSE,FALSE,eleanor/2-02-03b.xml,no error,1
+stuck,are you stuck,CHI,MOT,FALSE,26,0.7900000000000773,0.7189999999999372,TRUE,FALSE,FALSE,FALSE,eleanor/2-02-03b.xml,no error,3
+it's cooled down,it's what darling,CHI,MOT,FALSE,26,0.9139999999999873,1.821999999999889,TRUE,FALSE,FALSE,FALSE,eleanor/2-02-03b.xml,no error,4
+I didn't Mum,Eleanor,CHI,MOT,FALSE,26,-0.9630000000001928,1.9039999999999964,TRUE,FALSE,FALSE,TRUE,eleanor/2-02-03b.xml,no error,1
+it's not fair to my bees,okay,CHI,MOT,FALSE,26,0,1.788000000000011,FALSE,TRUE,FALSE,FALSE,eleanor/2-02-03b.xml,no error,1
+these people having their picnic,okay,CHI,FAT,TRUE,26,0.20800000000008367,4.213999999999942,FALSE,TRUE,FALSE,FALSE,eleanor/2-02-03b.xml,other error,1
+cooking bears,xxx,CHI,MOT,FALSE,26,2.602999999999952,1.323000000000036,FALSE,TRUE,FALSE,FALSE,eleanor/2-02-04a.xml,no error,1
+why xxx put xxx there,what's that in xxx,CHI,MOT,FALSE,26,-1.6020000000000891,2.1240000000000236,TRUE,FALSE,FALSE,TRUE,eleanor/2-02-04a.xml,no error,5
+I'm doing a little little jewels on it,yeah well you have to cut some nice shapes,CHI,MOT,FALSE,26,0.6149999999997817,3.344000000000051,FALSE,TRUE,FALSE,FALSE,eleanor/2-02-04a.xml,no error,9
+I cut only diamonds,you sure,CHI,MOT,FALSE,26,-0.9400000000000546,1.9970000000002983,FALSE,TRUE,FALSE,TRUE,eleanor/2-02-04a.xml,no error,2
+I dried this one,we'll play another game,CHI,MOT,FALSE,26,3.66700000000003,2.1359999999999673,TRUE,FALSE,FALSE,FALSE,eleanor/2-02-05a.xml,no error,5
+knees and toes,yes,CHI,MOT,FALSE,26,0.011999999999716238,1.300000000000182,FALSE,TRUE,FALSE,FALSE,eleanor/2-02-05a.xml,no error,1
+knees and toes,knees and toes and,CHI,MOT,FALSE,26,0.7660000000000764,1.5790000000001783,FALSE,TRUE,FALSE,FALSE,eleanor/2-02-05a.xml,no error,4
+shoulders,then point to your shoulders,CHI,MOT,FALSE,26,-0.31300000000010186,0.7309999999997672,FALSE,TRUE,FALSE,TRUE,eleanor/2-02-05a.xml,no error,5
+knees and toes,yeah,CHI,MOT,FALSE,26,0.03499999999985448,0.9290000000000873,FALSE,TRUE,FALSE,FALSE,eleanor/2-02-05a.xml,no error,1
+knees and toes,P Po's watching darling,CHI,MOT,FALSE,26,0.06999999999970896,1.3810000000003129,FALSE,TRUE,FALSE,FALSE,eleanor/2-02-05a.xml,no error,5
+you do the s again xxx potatoes,xxx gone to,CHI,MOT,FALSE,26,0.07000000000016371,4.8449999999998,FALSE,TRUE,FALSE,FALSE,eleanor/2-02-05a.xml,no error,3
+I've already done it,have you finished,CHI,MOT,FALSE,26,0.012000000000170985,1.6489999999998872,TRUE,FALSE,FALSE,FALSE,eleanor/2-02-05a.xml,no error,3
+two little gentlemen sitting on a,two little what darling,CHI,MOT,FALSE,27,1.5420000000000016,3.0420000000000016,FALSE,TRUE,FALSE,FALSE,eleanor/2-03-00a.xml,no error,4
+gentlemen,two little tinkermens,CHI,MOT,FALSE,27,1.1730000000000018,1.914999999999992,FALSE,TRUE,FALSE,FALSE,eleanor/2-03-00a.xml,no error,3
+three cakes,three,CHI,MOT,FALSE,27,-0.8350000000000364,1.3460000000000036,FALSE,TRUE,FALSE,TRUE,eleanor/2-03-00a.xml,no error,1
+I make lots of,sorry,CHI,MOT,FALSE,27,0.2319999999999709,2.2530000000001564,FALSE,TRUE,FALSE,FALSE,eleanor/2-03-00a.xml,no error,1
+oh it's broken,oh,CHI,MOT,FALSE,27,-0.9400000000000546,1.3350000000000364,TRUE,FALSE,FALSE,TRUE,eleanor/2-03-00a.xml,no error,1
+I got xxx,sorry,CHI,MOT,TRUE,27,0.4689999999999941,1.7760000000000105,TRUE,FALSE,FALSE,FALSE,eleanor/2-03-00b.xml,other error,1
+flowers,xxx,CHI,FAT,FALSE,27,0.6150000000000091,1.91599999999994,FALSE,TRUE,FALSE,FALSE,eleanor/2-03-00b.xml,no error,1
+I have got xxx,xxx,CHI,MOT,FALSE,27,-2.147999999999911,2.19399999999996,TRUE,FALSE,FALSE,TRUE,eleanor/2-03-00b.xml,no error,1
+I made pocket,aha,CHI,FAT,TRUE,27,0.03500000000030923,1.462999999999738,TRUE,FALSE,FALSE,FALSE,eleanor/2-03-00b.xml,other error,1
+it's broken,one,CHI,FAT,FALSE,27,-0.9059999999999491,1.6369999999997162,TRUE,FALSE,FALSE,TRUE,eleanor/2-03-00b.xml,no error,1
+where did your turn Daddy,NA,CHI,FAT,TRUE,27,-2.786000000000058,2.9140000000002146,TRUE,FALSE,FALSE,TRUE,eleanor/2-03-00b.xml,other error,NA
+moths are nice,yeah,CHI,MOT,FALSE,27,0.08100000000001728,1.3700000000000045,FALSE,TRUE,FALSE,FALSE,eleanor/2-03-01v.xml,no error,1
+chicks,chicks,CHI,MOT,FALSE,27,0,0.7080000000000837,FALSE,TRUE,FALSE,FALSE,eleanor/2-03-01v.xml,no error,1
+there some rabbits,oh,CHI,MOT,TRUE,27,-0.4880000000000564,1.7300000000000182,FALSE,TRUE,FALSE,TRUE,eleanor/2-03-01v.xml,other error,1
+it's xxx stuck,how long have you done that,CHI,MOT,FALSE,27,2.97199999999998,1.9039999999999964,TRUE,FALSE,FALSE,FALSE,eleanor/2-03-03a.xml,no error,6
+it's stuck,you count,CHI,MOT,FALSE,27,0.024000000000114596,1.183999999999969,TRUE,FALSE,FALSE,FALSE,eleanor/2-03-03a.xml,no error,2
+I need some milkies,xxx,CHI,MOT,FALSE,27,-1.800000000000182,1.9510000000000218,FALSE,TRUE,FALSE,TRUE,eleanor/2-03-03a.xml,no error,1
+xxx glues,xxx glue on there,CHI,MOT,FALSE,27,0.8020000000001346,1.706000000000131,FALSE,TRUE,FALSE,FALSE,eleanor/2-03-03a.xml,no error,4
+penguins,which one,CHI,MOT,FALSE,27,0.9990000000000236,1.4510000000000218,FALSE,TRUE,FALSE,FALSE,eleanor/2-03-03b.xml,no error,2
+penguins,penguins,CHI,MOT,FALSE,27,0.6620000000000346,1.393000000000029,FALSE,TRUE,FALSE,FALSE,eleanor/2-03-03b.xml,no error,1
+it's scared,who's scared,CHI,FAT,FALSE,27,0.36000000000012733,2.1480000000001382,TRUE,FALSE,FALSE,FALSE,eleanor/2-03-03b.xml,no error,3
+have you got a cat,xxx,CHI,MOT,FALSE,27,0.5570000000000164,1.4169999999999732,TRUE,FALSE,FALSE,TRUE,eleanor/2-03-04a.xml,no error,1
+Daddy's gone xxx,you know whose birthday it is today,CHI,MOT,FALSE,27,0.4519999999999982,2.1949999999999363,TRUE,FALSE,FALSE,FALSE,eleanor/2-03-04a.xml,no error,7
+not not we done that one,which one,CHI,MOT,TRUE,27,0.19799999999997908,2.8439999999999372,TRUE,FALSE,FALSE,FALSE,eleanor/2-03-04a.xml,other error,2
+I got one of those,what are they called,CHI,MOT,TRUE,27,-0.22000000000025466,1.7400000000002365,TRUE,FALSE,FALSE,TRUE,eleanor/2-03-04a.xml,other error,4
+I haven't got tail,tail you haven't got a tail,CHI,MOT,TRUE,27,0.022999999999683496,2.3330000000000837,TRUE,FALSE,FALSE,FALSE,eleanor/2-03-04a.xml,other error,7
+sandwiches,there you go,CHI,MOT,FALSE,27,0.44099999999980355,1.9270000000001346,FALSE,TRUE,FALSE,FALSE,eleanor/2-03-04a.xml,no error,3
+sandwiches,mm,CHI,MOT,FALSE,27,0.047000000000025466,1.3350000000000364,FALSE,TRUE,FALSE,FALSE,eleanor/2-03-04a.xml,no error,1
+I like foils,you like foil,CHI,MOT,FALSE,27,1.068000000000211,1.9039999999999964,FALSE,TRUE,FALSE,FALSE,eleanor/2-03-04a.xml,no error,3
+Mum where's Bob's gone,is it not in here,CHI,MOT,TRUE,27,-1.3349999999999227,2.3339999999999463,TRUE,FALSE,FALSE,TRUE,eleanor/2-03-04b.xml,other error,5
+and I've weed,did you wee again,CHI,MOT,FALSE,27,0.08199999999987995,1.1490000000001146,TRUE,FALSE,FALSE,FALSE,eleanor/2-03-04b.xml,no error,4
+where's it gone,www,CHI,MOT,FALSE,27,-0.8809999999998581,0.8820000000000618,TRUE,FALSE,FALSE,TRUE,eleanor/2-03-05b.xml,no error,1
+in your trousers,in your trousers,CHI,MOT,FALSE,28,0.10400000000001342,1.5910000000000082,FALSE,TRUE,FALSE,FALSE,eleanor/2-04-00a.xml,no error,3
+wore now,Eleanor can you put those clothes in the laundry basket please,CHI,MOT,FALSE,28,0.09299999999996089,1.149000000000001,TRUE,FALSE,FALSE,FALSE,eleanor/2-04-00a.xml,no error,11
+lilies,and what other flowers are there,CHI,MOT,FALSE,28,-0.17399999999997817,1.1950000000001637,FALSE,TRUE,FALSE,TRUE,eleanor/2-04-00a.xml,no error,6
+fly flew away,again,CHI,MOT,FALSE,28,0.3710000000000946,1.55600000000004,TRUE,FALSE,FALSE,FALSE,eleanor/2-04-00a.xml,no error,1
+we sold the blue one,which blue one come on,CHI,MOT,FALSE,28,0.01499999999987267,2.356000000000222,TRUE,FALSE,FALSE,FALSE,eleanor/2-04-00a.xml,no error,5
+xxx got,xxx,CHI,FAT,FALSE,28,0,1.3930000000000007,TRUE,FALSE,FALSE,FALSE,eleanor/2-04-00b.xml,no error,1
+went to town,riding,CHI,FAT,FALSE,28,0.06999999999999318,1.5559999999999832,TRUE,FALSE,FALSE,FALSE,eleanor/2-04-00b.xml,no error,1
+I I do bones,xxx,CHI,FAT,FALSE,28,0.06999999999993634,1.8920000000000528,FALSE,TRUE,FALSE,FALSE,eleanor/2-04-00b.xml,no error,1
+well done,they're done,CHI,FAT,FALSE,28,-0.9629999999999654,0.9629999999999654,TRUE,FALSE,FALSE,TRUE,eleanor/2-04-00b.xml,no error,3
+did you do the chocolate,mm,CHI,FAT,FALSE,28,0.2999999999999545,1.6320000000000618,TRUE,FALSE,FALSE,FALSE,eleanor/2-04-02a.xml,no error,1
+there's your shoes,uhhuh,CHI,FAT,TRUE,28,-0.7080000000000837,1.4280000000003383,FALSE,TRUE,FALSE,TRUE,eleanor/2-04-02a.xml,other error,1
+I'm looking passed now,oh no,CHI,FAT,FALSE,28,0.6610000000000582,2.681999999999789,TRUE,FALSE,FALSE,FALSE,eleanor/2-04-02a.xml,no error,2
+like cherries,cherries xxx,CHI,MOT,FALSE,28,1.5670000000000073,2.2990000000000066,FALSE,TRUE,FALSE,FALSE,eleanor/2-04-02b.xml,no error,2
+a snails eat fries,do s,CHI,MOT,FALSE,28,0.06899999999995998,2.3810000000000855,FALSE,TRUE,FALSE,FALSE,eleanor/2-04-02b.xml,no error,2
+no we have done,we have done,CHI,MOT,FALSE,28,0.1979999999998654,2.438000000000102,TRUE,FALSE,FALSE,FALSE,eleanor/2-04-02b.xml,no error,3
+xxx bananas,mhm,CHI,MOT,FALSE,28,-1.1960000000000264,1.649000000000001,FALSE,TRUE,FALSE,TRUE,eleanor/2-04-04a.xml,no error,1
+I want the cups,xxx,CHI,MOT,FALSE,28,-0.45299999999997453,0.8130000000001019,FALSE,TRUE,FALSE,TRUE,eleanor/2-04-04a.xml,no error,1
+and the spider eat the sausages,oh at the uh puppet show,CHI,MOT,TRUE,28,0.3010000000003856,3.332999999999629,FALSE,TRUE,FALSE,FALSE,eleanor/2-04-04a.xml,other error,6
+we see the seagulls,ooh,CHI,FAT,TRUE,28,-0.35999999999999943,2.5660000000000025,FALSE,TRUE,FALSE,TRUE,eleanor/2-04-04b.xml,other error,1
+yeah it was,xxx,CHI,FAT,FALSE,28,0.6159999999999854,1.288000000000011,TRUE,FALSE,FALSE,FALSE,eleanor/2-04-04b.xml,no error,1
+xxx gone,xxx at the door,CHI,FAT,FALSE,28,0.6610000000000582,1.8229999999998654,TRUE,FALSE,FALSE,FALSE,eleanor/2-04-04b.xml,no error,4
+I don't like seeds,xxx,CHI,FAT,FALSE,28,0.07000000000016371,2.5419999999999163,FALSE,TRUE,FALSE,FALSE,eleanor/2-04-04b.xml,no error,1
+Little_bo_peep has lost sheep,and doesn't know where to,CHI,MOT,TRUE,28,0.13900000000001,2.578000000000003,TRUE,FALSE,FALSE,FALSE,eleanor/2-04-05a.xml,other error,6
+I saw sheeps yesterday,did you see sheep yesterday,CHI,MOT,TRUE,28,0,2.995999999999981,FALSE,TRUE,TRUE,FALSE,eleanor/2-04-05a.xml,overregularization,5
+rectangles,good girl,CHI,MOT,FALSE,28,0.9640000000000555,1.893000000000029,FALSE,TRUE,FALSE,FALSE,eleanor/2-04-05a.xml,no error,2
+we done now,no,CHI,MOT,TRUE,28,0.3830000000000382,0.9990000000000236,TRUE,FALSE,FALSE,FALSE,eleanor/2-04-05a.xml,other error,1
+xxx some crisps,xxx,CHI,MOT,FALSE,28,-2.11200000000008,2.1130000000000564,FALSE,TRUE,FALSE,TRUE,eleanor/2-04-05a.xml,no error,1
+got hoppy do,hoppy do,CHI,MOT,FALSE,28,0.20899999999983265,1.706000000000131,TRUE,FALSE,FALSE,FALSE,eleanor/2-04-05a.xml,no error,2
+little frogs,oh frogs,CHI,MOT,FALSE,28,-0.2559999999998581,1.4630000000001928,FALSE,TRUE,FALSE,TRUE,eleanor/2-04-05a.xml,no error,2
+pigs,what's a pigs,CHI,MOT,FALSE,28,0.22000000000025466,1.2779999999997926,FALSE,TRUE,FALSE,FALSE,eleanor/2-04-05a.xml,no error,4
+sandwiches,one,CHI,MOT,FALSE,28,3.3899999999998727,1.5090000000000146,FALSE,TRUE,FALSE,FALSE,eleanor/2-04-05a.xml,no error,1
+look I got two plate,mhm,CHI,FAT,FALSE,28,0.046000000000276486,1.8109999999996944,FALSE,TRUE,FALSE,FALSE,eleanor/2-04-05a.xml,no error,1
+what have I got,xxx,CHI,FAT,FALSE,28,0.56899999999996,1.474999999999909,TRUE,FALSE,FALSE,FALSE,eleanor/2-04-05a.xml,no error,1
+I went with you,xxx,CHI,FAT,FALSE,29,0.022999999999996135,2.2060000000000173,TRUE,FALSE,FALSE,FALSE,eleanor/2-05-00b.xml,no error,1
+Mama bought,see you,CHI,FAT,FALSE,29,-1.41700000000003,1.41700000000003,TRUE,FALSE,FALSE,TRUE,eleanor/2-05-00b.xml,no error,2
+you did the door,thank you,CHI,FAT,FALSE,29,0.6620000000000346,2.0549999999998363,TRUE,FALSE,FALSE,FALSE,eleanor/2-05-00b.xml,no error,2
+I can't see the greens,what colors that,CHI,FAT,FALSE,29,-1.009999999999991,2.6130000000000564,FALSE,TRUE,FALSE,TRUE,eleanor/2-05-00b.xml,no error,3
+I got two bubbles,oh my xxx,CHI,FAT,FALSE,29,-0.6269999999999527,2.1829999999999927,FALSE,TRUE,FALSE,TRUE,eleanor/2-05-00b.xml,no error,3
+I hurted my foot,what stuff have you got,CHI,MOT,TRUE,29,0.17399999999997817,1.7530000000000427,TRUE,FALSE,TRUE,FALSE,eleanor/2-05-01b.xml,overregularization,5
+Dada walked past the tree and this apple fallen down on his head,NA,CHI,MOT,TRUE,29,2.324000000000069,4.608999999999924,TRUE,FALSE,FALSE,FALSE,eleanor/2-05-01b.xml,other error,NA
+he's been work,you've been to work,CHI,MOT,TRUE,29,0.9259999999999309,2.7280000000000655,TRUE,FALSE,FALSE,FALSE,eleanor/2-05-03a.xml,other error,5
+two years old,when's your birthday,CHI,MOT,FALSE,29,-0.6519999999998163,1.2879999999997835,FALSE,TRUE,FALSE,TRUE,eleanor/2-05-03a.xml,no error,4
+I want to do a dice,Eleanor,CHI,MOT,FALSE,29,-0.20899999999983265,2.1820000000000164,FALSE,TRUE,FALSE,TRUE,eleanor/2-05-03a.xml,no error,1
+broken,ah,CHI,MOT,FALSE,29,-1.28899999999976,1.28899999999976,TRUE,FALSE,FALSE,TRUE,eleanor/2-05-03a.xml,no error,1
+it's a broken man,what darling,CHI,MOT,FALSE,29,1.5210000000001855,2.5540000000000873,TRUE,FALSE,FALSE,FALSE,eleanor/2-05-03a.xml,no error,2
+look look look what I made,oh wow,CHI,MOT,FALSE,29,-0.1270000000000664,3.25,TRUE,FALSE,FALSE,TRUE,eleanor/2-05-03b.xml,no error,2
+where's he gone,xxx,CHI,MOT,FALSE,29,-0.48700000000008004,1.300000000000182,TRUE,FALSE,FALSE,TRUE,eleanor/2-05-03b.xml,no error,1
+four and twenty black birds baked up a pie,in the pie,CHI,MOT,FALSE,29,0.022999999999683496,4.273000000000138,TRUE,TRUE,FALSE,FALSE,eleanor/2-05-03b.xml,no error,3
+I wanted drink of milk in there like Ha Hwww,yeah,CHI,MOT,TRUE,29,0.06900000000000261,5.061999999999998,TRUE,FALSE,FALSE,FALSE,eleanor/2-05-05a.xml,other error,1
+I go and get carrots,are you going to sit down,CHI,MOT,TRUE,29,1.3120000000000118,1.9849999999999568,FALSE,TRUE,FALSE,FALSE,eleanor/2-05-05a.xml,other error,6
+eggs today,xxx,CHI,MOT,FALSE,29,-1.183999999999969,1.2300000000000182,FALSE,TRUE,FALSE,TRUE,eleanor/2-05-05a.xml,no error,1
+do we have to have veggies,alright,CHI,MOT,FALSE,29,-0.8120000000000118,2.2749999999999773,FALSE,TRUE,FALSE,TRUE,eleanor/2-05-05a.xml,no error,1
+I married,hello,CHI,MOT,TRUE,29,1.17899999999986,1.6490000000001146,TRUE,FALSE,FALSE,FALSE,eleanor/2-05-05a.xml,other error,1
+they got pink face,NA,CHI,MOT,TRUE,29,0.0340000000001055,1.5209999999999582,TRUE,FALSE,FALSE,FALSE,eleanor/2-05-05a.xml,other error,NA
+where has your face gone xxx,do it,CHI,MOT,FALSE,29,0.012000000000170985,1.2770000000000437,TRUE,FALSE,FALSE,FALSE,eleanor/2-05-05a.xml,no error,2
+bananas,mm,CHI,MOT,FALSE,29,-1.322999999999979,1.322999999999979,FALSE,TRUE,FALSE,TRUE,eleanor/2-05-06v.xml,no error,1
+I weren't,cry and I won't take you anywhere,CHI,MOT,TRUE,30,2.3220000000000027,0.8240000000000123,TRUE,FALSE,FALSE,FALSE,eleanor/2-06-00a.xml,other error,8
+she just um she just all needed to baby,oh xxx,CHI,MOT,FALSE,30,0.023000000000024556,4.968000000000018,TRUE,FALSE,FALSE,FALSE,eleanor/2-06-00a.xml,no error,2
+what I did,no,CHI,MOT,FALSE,30,-0.7889999999997599,1.6720000000000255,TRUE,FALSE,FALSE,TRUE,eleanor/2-06-00a.xml,no error,1
+I banged my wrist,good xxx,CHI,MOT,FALSE,30,-2.099999999999909,2.1010000000001128,TRUE,FALSE,FALSE,TRUE,eleanor/2-06-00a.xml,no error,2
+ee two ducks,careful xxx,CHI,MOT,FALSE,30,-1.6590000000001055,1.6599999999998545,FALSE,TRUE,FALSE,TRUE,eleanor/2-06-00a.xml,no error,2
+I didn't xxx,why did you do that,CHI,MOT,FALSE,30,-0.33600000000001273,2.229000000000042,TRUE,FALSE,FALSE,TRUE,eleanor/2-06-02b.xml,no error,5
+I didn't,wait a minute,CHI,MOT,FALSE,30,2.2640000000001237,1.2999999999999545,TRUE,FALSE,FALSE,FALSE,eleanor/2-06-02b.xml,no error,3
+look at my babies,NA,CHI,MOT,FALSE,30,-1.0799999999999272,2.4149999999999636,FALSE,TRUE,FALSE,TRUE,eleanor/2-06-02b.xml,no error,NA
+climbed up the stairs then she fee she falled down,she climbed up the stairs and she'd fallen down,CHI,MOT,TRUE,30,0.06899999999995998,3.785000000000025,TRUE,FALSE,TRUE,FALSE,eleanor/2-06-02v.xml,overregularization,10
+two masculated cards,masculated,CHI,MOT,FALSE,30,0.10500000000001819,2.3099999999999454,FALSE,TRUE,FALSE,FALSE,eleanor/2-06-02v.xml,no error,1
+get some crisps,get some,CHI,MOT,FALSE,30,0.23299999999994725,1.252999999999929,FALSE,TRUE,FALSE,FALSE,eleanor/2-06-02v.xml,no error,2
+sheeps,sheep,CHI,MOT,TRUE,30,0.19800000000032014,0.8819999999996071,FALSE,TRUE,TRUE,FALSE,eleanor/2-06-03a.xml,overregularization,1
+is that is that did hurt,that hurts,CHI,MOT,TRUE,30,0,2.5430000000000064,TRUE,FALSE,FALSE,FALSE,eleanor/2-06-04a.xml,other error,2
+ducks,only girls,CHI,MOT,FALSE,30,0.14000000000010004,1.2649999999999864,FALSE,TRUE,FALSE,FALSE,eleanor/2-06-04a.xml,no error,2
+I want to take my trousers off,take your trousers off,CHI,MOT,FALSE,30,0.11599999999998545,2.6580000000000155,FALSE,TRUE,FALSE,FALSE,eleanor/2-06-04a.xml,no error,4
+has it got stickers in it,okay,CHI,MOT,FALSE,30,0.34799999999995634,2.1480000000001382,TRUE,FALSE,FALSE,FALSE,eleanor/2-06-04a.xml,no error,1
+my took,going there,CHI,MOT,FALSE,31,-1.2889999999999873,1.2889999999999873,TRUE,FALSE,FALSE,TRUE,eleanor/2-07-02a.xml,no error,2
+they're hiding behind the woods,Mama didn't even see the hand,CHI,MOT,FALSE,31,0.20800000000008367,2.9609999999997854,FALSE,TRUE,FALSE,FALSE,eleanor/2-07-02a.xml,no error,7
+where's he gone,he's coming soon,CHI,MOT,FALSE,31,-0.56899999999996,1.8690000000000282,TRUE,FALSE,FALSE,TRUE,eleanor/2-07-02b.xml,no error,4
+twisters,NA,CHI,FAT,FALSE,31,-1.4050000000002,1.4050000000002,FALSE,TRUE,FALSE,TRUE,eleanor/2-07-02b.xml,no error,NA
+found it xxx little puppy,www,CHI,MOT,FALSE,31,-2.4729999999999563,2.4729999999999563,TRUE,FALSE,FALSE,TRUE,eleanor/2-07-02b.xml,no error,1
+there's someone missed,who's that,CHI,MOT,TRUE,31,-0.8940000000000055,1.6840000000000828,TRUE,FALSE,FALSE,TRUE,eleanor/2-07-03a.xml,other error,3
+she said to,ah she's very good,CHI,MOT,FALSE,31,-0.8940000000000055,1.8109999999999218,TRUE,FALSE,FALSE,TRUE,eleanor/2-07-03a.xml,no error,5
+it's almost finished,it's getting longer,CHI,MOT,FALSE,31,0.003000000000156433,2.6709999999998217,TRUE,FALSE,FALSE,FALSE,eleanor/2-07-03a.xml,no error,4
+have you got parachute,no,CHI,MOT,TRUE,31,0.023000000000138243,1.5670000000000073,TRUE,FALSE,FALSE,FALSE,eleanor/2-07-03a.xml,other error,1
+just the gate's closed,closed,CHI,MOT,FALSE,31,0.39500000000043656,3.3669999999997344,TRUE,FALSE,FALSE,FALSE,eleanor/2-07-03a.xml,no error,1
+are you tired,xxx,CHI,MOT,FALSE,31,-1.5790000000000646,1.5790000000000646,TRUE,FALSE,FALSE,TRUE,eleanor/2-07-03b.xml,no error,1
+these are called silver bells,silver bells and cockle,CHI,FAT,FALSE,31,0.23500000000012733,3.2739999999998872,TRUE,TRUE,FALSE,FALSE,eleanor/2-07-03b.xml,no error,4
+they tied her on a little xxx under the chair,no,CHI,FAT,FALSE,31,0.1510000000000673,3.668999999999869,TRUE,FALSE,FALSE,FALSE,eleanor/2-07-03b.xml,no error,1
+I was hiding,alright,CHI,FAT,FALSE,31,0.08100000000013097,1.6140000000000327,TRUE,FALSE,FALSE,FALSE,eleanor/2-07-03b.xml,no error,1
+a toys,Eleanor what does this say,CHI,MOT,TRUE,31,-0.3020000000000209,0.7309999999999945,FALSE,TRUE,FALSE,TRUE,eleanor/2-07-04a.xml,other error,5
+I found it,xxx,CHI,MOT,TRUE,31,-0.9059999999999491,1.544999999999959,TRUE,FALSE,FALSE,TRUE,eleanor/2-07-05a.xml,other error,1
+I did this one,do you think it might do you think it might go in there,CHI,MOT,FALSE,31,-1.856999999999971,1.9849999999999,TRUE,FALSE,FALSE,TRUE,eleanor/2-07-05a.xml,no error,13
+can I just woke up,right you put it in,CHI,MOT,TRUE,31,-0.31300000000010186,1.5670000000000073,TRUE,FALSE,FALSE,TRUE,eleanor/2-07-05a.xml,other error,5
+look here's my shoes,oh put them on then,CHI,MOT,TRUE,31,-0.5340000000001055,1.8700000000001182,FALSE,TRUE,FALSE,TRUE,eleanor/2-07-05a.xml,other error,5
+shoes,kind isn't she,CHI,MOT,FALSE,31,-0.7080000000000837,0.7890000000002146,FALSE,TRUE,FALSE,TRUE,eleanor/2-07-05a.xml,no error,4
+he makes me some children tea,gonna going to make your children some tea,CHI,MOT,TRUE,31,0.7310000000002219,3.087999999999738,FALSE,TRUE,FALSE,FALSE,eleanor/2-07-05a.xml,other error,8
+go and have cheese dunkers,mm,CHI,MOT,FALSE,31,-1.6259999999999764,2.7749999999999773,FALSE,TRUE,FALSE,TRUE,eleanor/2-07-06v.xml,no error,1
+ding bells,good girl,CHI,MOT,FALSE,31,-0.1510000000000673,1.7530000000001564,FALSE,TRUE,FALSE,TRUE,eleanor/2-07-06v.xml,no error,2
+choose some more things,www,CHI,MOT,FALSE,31,-1.4510000000000218,1.4510000000000218,FALSE,TRUE,FALSE,TRUE,eleanor/2-07-06v.xml,no error,1
+I just put this in here it doesn't mix them up,it doesn't what darling,CHI,MOT,TRUE,31,0.12800000000015643,5.235999999999876,TRUE,FALSE,FALSE,FALSE,eleanor/2-07-06v.xml,other error,5
+the bunnies making a noise,the bunnies are making a noise,CHI,MOT,TRUE,31,0.09199999999964348,2.1950000000001637,FALSE,TRUE,FALSE,FALSE,eleanor/2-07-06v.xml,other error,6
+little bit left,little bit left,CHI,MOT,FALSE,32,0.22100000000000364,1.0450000000000728,TRUE,FALSE,FALSE,FALSE,eleanor/2-08-00a.xml,no error,3
+finished,would you like some more,CHI,MOT,FALSE,32,-0.25500000000010914,1.2300000000000182,TRUE,FALSE,FALSE,TRUE,eleanor/2-08-00a.xml,no error,5
+I drewed drew,drew,CHI,MOT,TRUE,32,0.32900000000017826,1.5090000000000146,TRUE,FALSE,TRUE,FALSE,eleanor/2-08-00a.xml,overregularization,1
+fish and chips,why,CHI,MOT,FALSE,32,-1.3819999999999482,1.4629999999999654,FALSE,TRUE,FALSE,TRUE,eleanor/2-08-00b.xml,no error,1
+got to follow the xxx line here,what are you doing petal,CHI,MOT,FALSE,32,1.149000000000001,3.8430000000000035,TRUE,FALSE,FALSE,FALSE,eleanor/2-08-02b.xml,no error,5
+leave the other ones off,yeah,CHI,MOT,TRUE,32,-0.6150000000000091,2.415000000000191,FALSE,TRUE,FALSE,TRUE,eleanor/2-08-02b.xml,other error,1
+do you see my birds,yeah,CHI,MOT,TRUE,32,-0.3369999999999891,2.1359999999999673,FALSE,TRUE,FALSE,TRUE,eleanor/2-08-02b.xml,other error,1
+he's licked that food,oh yes,CHI,MOT,FALSE,32,-0.3130000000000166,2.2060000000000173,TRUE,FALSE,FALSE,TRUE,eleanor/2-08-04v.xml,no error,2
+I've bought this for bake cakes track,look Eleanor look,CHI,MOT,TRUE,32,-2.171000000000049,2.438000000000045,TRUE,TRUE,FALSE,TRUE,eleanor/2-08-04v.xml,other error,3
+cheese plates,oh wake up,CHI,MOT,FALSE,32,0.11599999999998545,1.788000000000011,FALSE,TRUE,FALSE,FALSE,eleanor/2-08-04v.xml,no error,3
+called Emmy,Emmy,CHI,MOT,FALSE,32,0,1.1599999999999682,TRUE,FALSE,FALSE,TRUE,eleanor/2-08-04v.xml,no error,1
+two dolphins,two dolphins,CHI,MOT,FALSE,32,-0.5919999999999845,1.5319999999999254,FALSE,TRUE,FALSE,TRUE,eleanor/2-08-04v.xml,no error,2
+marbles,marbles,CHI,MOT,FALSE,32,0.035000000000081855,0.8589999999999236,FALSE,TRUE,FALSE,FALSE,eleanor/2-08-04v.xml,no error,1
+xxx this is losted lost,sorry darling,CHI,MOT,TRUE,32,1.3769999999999527,1.7640000000001237,TRUE,FALSE,TRUE,FALSE,eleanor/2-08-04v.xml,overregularization,2
+this lost,what's lost,CHI,MOT,TRUE,32,0.3209999999999127,1.1030000000000655,TRUE,FALSE,FALSE,FALSE,eleanor/2-08-04v.xml,other error,3
+I want to play with the trucks again,is it going in,CHI,MOT,FALSE,32,0.06899999999995998,2.230000000000018,FALSE,TRUE,FALSE,FALSE,eleanor/2-08-04v.xml,no error,4
+xxx rounded,oh,CHI,MOT,FALSE,32,-0.25400000000036016,1.2530000000001564,TRUE,FALSE,FALSE,TRUE,eleanor/2-08-04v.xml,no error,1
+two eyes,okay,CHI,MOT,FALSE,32,0.5570000000002437,0.8359999999997854,FALSE,TRUE,FALSE,FALSE,eleanor/2-08-04v.xml,no error,1
+you catched it,you caught it darling,CHI,MOT,TRUE,32,0.6430000000000291,1.5440000000003238,TRUE,FALSE,TRUE,FALSE,eleanor/2-08-04v.xml,overregularization,4
+you caught it,you don't say,CHI,MOT,FALSE,32,-0.8589999999999236,0.9290000000000873,TRUE,FALSE,FALSE,TRUE,eleanor/2-08-04v.xml,no error,4
+I did those,okay,CHI,MOT,FALSE,32,-0.5450000000000017,1.439,TRUE,FALSE,FALSE,TRUE,eleanor/2-08-10b.xml,no error,1
+not the circles,not the circles,CHI,MOT,FALSE,32,-0.22100000000000364,1.27800000000002,FALSE,TRUE,FALSE,TRUE,eleanor/2-08-10b.xml,no error,3
+just the squares,yeah,CHI,MOT,FALSE,32,-0.3480000000000132,1.8460000000000036,FALSE,TRUE,FALSE,TRUE,eleanor/2-08-10b.xml,no error,1
+when you gonna going to get some more presents,you're gonna going to get lots of presents,CHI,MOT,TRUE,32,-0.5,2.298999999999978,FALSE,TRUE,FALSE,TRUE,eleanor/2-08-10b.xml,other error,9
+xxx heard that xxx,www,CHI,MOT,FALSE,32,-3.2630000000000337,3.3210000000000264,TRUE,FALSE,FALSE,TRUE,eleanor/2-08-10b.xml,no error,1
+but it was to it xxx,www,CHI,MOT,FALSE,32,-4.179000000000087,4.180000000000064,TRUE,FALSE,FALSE,TRUE,eleanor/2-08-10b.xml,no error,1
+two little dog came back one day,mhm,CHI,MOT,TRUE,32,0.010999999999967258,4.273000000000138,TRUE,FALSE,FALSE,FALSE,eleanor/2-08-10b.xml,other error,1
+look what I've done,oh,CHI,MOT,FALSE,32,-0.5919999999999845,1.9390000000000782,TRUE,FALSE,FALSE,TRUE,eleanor/2-08-11a.xml,no error,1
+that cat's got three toes,yeah,CHI,MOT,FALSE,32,-1.6829999999999927,2.8559999999999945,TRUE,FALSE,FALSE,TRUE,eleanor/2-08-11a.xml,no error,1
+they're triangles,yeah,CHI,MOT,FALSE,32,-0.15099999999983993,1.0209999999999582,FALSE,TRUE,FALSE,TRUE,eleanor/2-08-11a.xml,no error,1
+supposed to have two ear,he's only got one,CHI,MOT,TRUE,32,-0.8010000000001583,1.6600000000000819,TRUE,FALSE,FALSE,TRUE,eleanor/2-08-11a.xml,other error,5
+that one's got three toes,right,CHI,MOT,FALSE,32,-0.4290000000000873,2.413000000000011,FALSE,TRUE,FALSE,TRUE,eleanor/2-08-11a.xml,no error,1
+those ribbons,you know when you were a baby,CHI,MOT,FALSE,32,-0.27899999999999636,1.231000000000222,FALSE,TRUE,FALSE,TRUE,eleanor/2-08-11a.xml,no error,7
+xxx my trousers,NA,CHI,MOT,FALSE,32,-1.0209999999997308,2.588999999999942,FALSE,TRUE,FALSE,TRUE,eleanor/2-08-11a.xml,no error,NA
+trousers,oh,CHI,MOT,FALSE,32,-0.5929999999998472,1.1150000000002365,FALSE,TRUE,FALSE,TRUE,eleanor/2-08-11a.xml,no error,1
+my trousers,NA,CHI,MOT,FALSE,32,-1.0099999999997635,1.6019999999998618,FALSE,TRUE,FALSE,TRUE,eleanor/2-08-11a.xml,no error,NA
+have you got blue,blue,CHI,FAT,FALSE,32,0.047000000000025466,1.0789999999999509,TRUE,FALSE,FALSE,TRUE,eleanor/2-08-11b.xml,no error,1
+you had number five,right,CHI,FAT,FALSE,32,0,1.9739999999999327,TRUE,FALSE,FALSE,FALSE,eleanor/2-08-11b.xml,no error,1
+Daddy I thought it was you,it looks like me,CHI,FAT,FALSE,32,0,2.2639999999998963,TRUE,FALSE,FALSE,FALSE,eleanor/2-08-11b.xml,no error,4
+did share with Frosty,yeah,CHI,FAT,TRUE,32,0.6970000000001164,1.9849999999996726,TRUE,FALSE,FALSE,FALSE,eleanor/2-08-11b.xml,other error,1
+out of the bones,shall we get some paper,CHI,MOT,FALSE,33,4.6340000000000146,1.8689999999999998,FALSE,TRUE,FALSE,FALSE,eleanor/2-09-01a.xml,no error,5
+and he puffed,and he blew the new house of straw all down,CHI,MOT,FALSE,33,0.3669999999997344,1.2770000000000437,TRUE,FALSE,FALSE,FALSE,eleanor/2-09-01a.xml,no error,10
+puffed,blow the house down,CHI,MOT,FALSE,33,0.2179999999998472,6.233999999999924,TRUE,FALSE,FALSE,FALSE,eleanor/2-09-01a.xml,no error,4
+he's been he waked up too early,woke up too early darling,CHI,MOT,TRUE,33,0.05599999999958527,3.2970000000000255,TRUE,FALSE,FALSE,FALSE,eleanor/2-09-01a.xml,other error,5
+he not going to get any presents,he's getting no presents,CHI,MOT,TRUE,33,-0.6739999999999782,3.3089999999997417,FALSE,TRUE,FALSE,TRUE,eleanor/2-09-01a.xml,other error,5
+hand printers,no,CHI,MOT,FALSE,33,0.34900000000016007,0.7080000000000837,FALSE,TRUE,FALSE,FALSE,eleanor/2-09-01a.xml,no error,1
+we did the food,which food,CHI,MOT,FALSE,33,0.19700000000011642,1.4859999999998763,TRUE,FALSE,FALSE,FALSE,eleanor/2-09-01a.xml,no error,2
+I done it,no,CHI,MOT,TRUE,33,0,1.5679999999999836,TRUE,FALSE,FALSE,FALSE,eleanor/2-09-01b.xml,other error,1
+I did it,think you did,CHI,MOT,FALSE,33,0.33599999999978536,1.1840000000001965,TRUE,FALSE,FALSE,FALSE,eleanor/2-09-02a.xml,no error,3
+you have to broke them do you,not broke them,CHI,MOT,TRUE,33,-0.56899999999996,2.088999999999942,TRUE,FALSE,FALSE,TRUE,eleanor/2-09-02a.xml,other error,3
+no they not gone out,where have they gone,CHI,MOT,TRUE,33,0,1.8809999999998581,TRUE,FALSE,FALSE,FALSE,eleanor/2-09-02b.xml,other error,4
+you didn't,I did,CHI,MOT,FALSE,33,0.047000000000025466,1.1720000000000255,TRUE,FALSE,FALSE,FALSE,eleanor/2-09-02b.xml,no error,2
+you didn't,come on,CHI,MOT,FALSE,33,-0.37199999999984357,0.6849999999999454,TRUE,FALSE,FALSE,TRUE,eleanor/2-09-02b.xml,no error,2
+I I wanted you drink it,alright,CHI,MOT,FALSE,33,-0.650000000000091,4.899000000000115,TRUE,FALSE,FALSE,TRUE,eleanor/2-09-03a.xml,no error,1
+was it down the bucket,thank you,CHI,MOT,FALSE,33,0.24399999999968713,1.7420000000001892,TRUE,FALSE,FALSE,FALSE,eleanor/2-09-03a.xml,no error,2
+you didn't,come on,CHI,MOT,FALSE,33,-0.3020000000001346,0.8240000000000691,TRUE,FALSE,FALSE,TRUE,eleanor/2-09-03b.xml,no error,2
+because Ted was come early,NA,CHI,MOT,TRUE,33,0.011999999999943611,2.1130000000000564,TRUE,FALSE,FALSE,FALSE,eleanor/2-09-04a.xml,other error,NA
+there's no heart in fishes drawing,oh right,CHI,MOT,FALSE,33,0.06899999999995998,3.3789999999999054,FALSE,TRUE,FALSE,FALSE,eleanor/2-09-04a.xml,no error,2
+I've not looked,right,CHI,MOT,FALSE,33,0.1269999999999527,1.9039999999999964,TRUE,FALSE,FALSE,FALSE,eleanor/2-09-04a.xml,no error,1
+will you xxx made us pancakes,what,CHI,MOT,FALSE,33,0.7550000000001091,4.179000000000087,TRUE,FALSE,FALSE,FALSE,eleanor/2-09-04a.xml,no error,1
+chicks,chicks,CHI,MOT,FALSE,33,-0.9980000000000473,1.05600000000004,FALSE,TRUE,FALSE,TRUE,eleanor/2-09-04a.xml,no error,1
+he she he didn't xxx yes please,what did he mean,CHI,MOT,FALSE,33,0.022999999999683496,5.480000000000018,TRUE,FALSE,FALSE,FALSE,eleanor/2-09-04a.xml,no error,4
+we need cups don't we,yeah,CHI,FAT,FALSE,33,-1.6370000000000005,2.843999999999994,FALSE,TRUE,FALSE,TRUE,eleanor/2-09-04b.xml,no error,1
+you burned your arm,that's right,CHI,FAT,TRUE,33,1.1459999999999582,4.005999999999972,TRUE,FALSE,TRUE,FALSE,eleanor/2-09-04b.xml,overregularization,3
+the tea's fell out,again,CHI,FAT,TRUE,33,0,1.9389999999999645,TRUE,FALSE,FALSE,FALSE,eleanor/2-09-04b.xml,other error,1
+who spilled it,mm,CHI,FAT,TRUE,33,0.010999999999967258,1.4750000000000227,TRUE,FALSE,TRUE,FALSE,eleanor/2-09-04b.xml,overregularization,1
+curtains,hm,CHI,FAT,FALSE,33,-0.36000000000012733,1.3700000000001182,FALSE,TRUE,FALSE,TRUE,eleanor/2-09-04b.xml,no error,1
+then they saw a knock on the door,mhm,CHI,FAT,TRUE,33,1.34699999999998,3.4019999999998163,TRUE,FALSE,FALSE,FALSE,eleanor/2-09-04b.xml,other error,1
+then the big bad wolf puffed then he puffed then he blowed the house down,uhoh,CHI,FAT,TRUE,33,0.010999999999967258,7.199000000000069,TRUE,FALSE,TRUE,FALSE,eleanor/2-09-04b.xml,overregularization,1
+did you like orange,hm,CHI,FAT,FALSE,33,0.13999999999987267,1.6710000000002765,TRUE,FALSE,FALSE,FALSE,eleanor/2-09-04b.xml,no error,1
+gingerbread men,hurray for Eleanor,CHI,FAT,FALSE,33,0.03499999999985448,1.0909999999998945,FALSE,TRUE,FALSE,FALSE,eleanor/2-09-04b.xml,no error,3
+I have blues as well,are you copying me again,CHI,MOT,TRUE,33,0.34900000000016007,2.030999999999949,FALSE,TRUE,FALSE,FALSE,eleanor/2-09-05b.xml,other error,5
+xxx you went back,remember,CHI,MOT,FALSE,33,0.11599999999999966,1.671999999999997,TRUE,FALSE,FALSE,FALSE,eleanor/2-09-05v.xml,no error,1
+I won,no,CHI,MOT,FALSE,33,-0.03499999999996817,1.27699999999993,TRUE,FALSE,FALSE,TRUE,eleanor/2-09-05v.xml,no error,1
+I got a bigger fish,oh,CHI,MOT,TRUE,33,0.16200000000003456,1.5439999999999827,TRUE,FALSE,FALSE,FALSE,eleanor/2-09-05v.xml,other error,1
+I'm blowing kisses,please,CHI,MOT,FALSE,33,-1.0909999999998945,1.3589999999999236,FALSE,TRUE,FALSE,TRUE,eleanor/2-09-05v.xml,no error,1
+she didn't woke up,she didn't wake up,CHI,MOT,TRUE,33,0.27899999999999636,1.2999999999997272,TRUE,FALSE,FALSE,FALSE,eleanor/2-09-05v.xml,other error,5
+I have done on the water,no,CHI,MOT,TRUE,34,0.035000000000081855,1.8109999999999218,TRUE,FALSE,FALSE,FALSE,eleanor/2-10-01a.xml,other error,1
+seeds,seeds,CHI,MOT,FALSE,34,-1.1140000000000327,1.1140000000000327,FALSE,TRUE,FALSE,TRUE,eleanor/2-10-01b.xml,no error,1
+then what happened Mister_bear xxx the seeds,oh,CHI,FAT,TRUE,34,0.4179999999998927,6.025000000000091,TRUE,FALSE,FALSE,FALSE,eleanor/2-10-01b.xml,other error,1
+cakes,yes,CHI,FAT,FALSE,34,0.24099999999998545,0.6380000000001473,FALSE,TRUE,FALSE,FALSE,eleanor/2-10-01b.xml,no error,1
+glasses xxx,oh right,CHI,FAT,FALSE,34,2.298999999999978,2.5660000000002583,FALSE,TRUE,FALSE,FALSE,eleanor/2-10-01b.xml,no error,2
+did your friends,I'm so excited,CHI,FAT,FALSE,34,-0.8939999999997781,1.5789999999997235,FALSE,TRUE,FALSE,TRUE,eleanor/2-10-01b.xml,no error,4
+he can help the books putting away,xxx,CHI,FAT,TRUE,34,0.010999999999967258,2.9030000000002474,FALSE,TRUE,FALSE,FALSE,eleanor/2-10-01b.xml,other error,1
+this book's tored torn,this what,CHI,MOT,TRUE,34,0.010999999999967258,2.1369999999999436,TRUE,FALSE,TRUE,FALSE,eleanor/2-10-02a.xml,overregularization,2
+torn,torn,CHI,MOT,FALSE,34,0.035000000000081855,1.0319999999999254,TRUE,FALSE,FALSE,FALSE,eleanor/2-10-02a.xml,no error,1
+took my hairs,xxx,CHI,MOT,TRUE,34,0,1.7409999999999854,FALSE,TRUE,TRUE,FALSE,eleanor/2-10-02a.xml,overregularization,1
+my tights are wet,oh,CHI,FAT,FALSE,34,0.4210000000000065,1.8579999999999899,TRUE,FALSE,FALSE,FALSE,eleanor/2-10-02b.xml,no error,1
+he's done poopoo,who did,CHI,FAT,TRUE,34,0.01099999999999568,1.3349999999999795,TRUE,FALSE,FALSE,FALSE,eleanor/2-10-02b.xml,other error,2
+just Teddy did weewee,oh,CHI,FAT,TRUE,34,0.20600000000001728,1.6019999999999754,TRUE,FALSE,FALSE,FALSE,eleanor/2-10-02b.xml,other error,1
+he's done he's just done spilt on the swing,spilt what Darling,CHI,FAT,TRUE,34,0.13899999999989632,4.296000000000049,TRUE,FALSE,FALSE,FALSE,eleanor/2-10-02b.xml,other error,3
+he he didn't spilt it,no,CHI,FAT,TRUE,34,0,1.694999999999709,TRUE,FALSE,FALSE,FALSE,eleanor/2-10-02b.xml,other error,1
+he just got scarf on,oh,CHI,FAT,TRUE,34,0.08099999999967622,1.6140000000000327,TRUE,FALSE,FALSE,FALSE,eleanor/2-10-02b.xml,other error,1
+he just got hat on,mm,CHI,FAT,TRUE,34,0.10999999999967258,1.4630000000001928,TRUE,FALSE,FALSE,FALSE,eleanor/2-10-02b.xml,other error,1
+he just got glove on,mm,CHI,FAT,TRUE,34,0.1750000000001819,1.7989999999999782,TRUE,FALSE,FALSE,FALSE,eleanor/2-10-02b.xml,other error,1
+I forgotten,oh dear,CHI,FAT,TRUE,34,0.07000000000016371,0.9519999999997708,TRUE,FALSE,FALSE,FALSE,eleanor/2-10-02b.xml,other error,2
+do you think these bears ones do fit him,I hope so,CHI,FAT,TRUE,34,0.31300000000010186,3.1700000000000728,FALSE,TRUE,FALSE,FALSE,eleanor/2-10-02b.xml,other error,3
+he he just done poopoo in his pants,xxx,CHI,FAT,TRUE,34,-0.9980000000000473,3.367000000000189,TRUE,FALSE,FALSE,TRUE,eleanor/2-10-02b.xml,other error,1
+this old man came rolling home,stand up,CHI,MOT,FALSE,34,-1.8689999999999145,4.923000000000002,TRUE,FALSE,FALSE,TRUE,eleanor/2-10-03a.xml,no error,2
+I going to swimming lessons,is it,CHI,MOT,TRUE,34,1.9510000000000218,2.367999999999938,FALSE,TRUE,FALSE,FALSE,eleanor/2-10-03a.xml,other error,2
+but we done this,we've done that one haven't we,CHI,MOT,FALSE,34,-0.6730000000000018,1.102999999999838,TRUE,FALSE,FALSE,TRUE,eleanor/2-10-03a.xml,no error,8
+follow these dots,follow the leader,CHI,MOT,FALSE,34,-0.6039999999998145,1.3009999999999309,FALSE,TRUE,FALSE,TRUE,eleanor/2-10-03a.xml,no error,3
+I want I want some crisps,Eleanor,CHI,MOT,FALSE,34,0.16300000000001091,2.9600000000000364,FALSE,TRUE,FALSE,FALSE,eleanor/2-10-03a.xml,no error,1
+I saw xxx,are you back,CHI,MOT,FALSE,34,-2.019999999999982,2.019999999999982,TRUE,FALSE,FALSE,TRUE,eleanor/2-10-03a.xml,no error,3
+I just put these here,well I think we should find the tray and put them all together then we can't find them when we need them,CHI,MOT,TRUE,34,0.63799999999992,2.218000000000302,TRUE,FALSE,FALSE,FALSE,eleanor/2-10-03a.xml,other error,23
+then the teddy did it,NA,CHI,MOT,FALSE,34,-2.1359999999999673,2.1359999999999673,TRUE,FALSE,FALSE,TRUE,eleanor/2-10-04v.xml,no error,NA
+um the spill water spilt,no stand up,CHI,MOT,FALSE,34,-1.0790000000001783,2.3910000000000764,TRUE,FALSE,FALSE,TRUE,eleanor/2-10-05a.xml,no error,3
+you did it,oh,CHI,MOT,FALSE,34,-0.4989999999997963,1.0219999999999345,TRUE,FALSE,FALSE,TRUE,eleanor/2-10-05a.xml,no error,1
+down came rain,hm,CHI,FAT,TRUE,35,0.12699999999999534,1.8230000000000075,TRUE,FALSE,FALSE,FALSE,eleanor/2-11-01b.xml,other error,1
+where the Bob_builder gone,xxx the fall,CHI,FAT,TRUE,35,0.11599999999998545,2.26400000000001,TRUE,FALSE,FALSE,FALSE,eleanor/2-11-01b.xml,other error,3
+what happened Dada,xxx,CHI,MOT,FALSE,35,-2.0659999999998035,2.7739999999998872,TRUE,FALSE,FALSE,TRUE,eleanor/2-11-01b.xml,no error,1
+and they lived happily ever,oh Eleanor,CHI,MOT,FALSE,35,0.06899999999995998,1.1610000000000582,TRUE,FALSE,FALSE,FALSE,eleanor/2-11-03a.xml,no error,2
+old Macdonald had chicken ducks,mhm hm,CHI,MOT,FALSE,35,-1.55600000000004,2.7979999999997744,TRUE,FALSE,FALSE,TRUE,eleanor/2-11-03a.xml,no error,2
+did it hurt you there,it did,CHI,FAT,FALSE,35,0.06999999999993634,1.5439999999999827,TRUE,FALSE,FALSE,FALSE,eleanor/2-11-03b.xml,no error,2
+and the and the and ponies in in a stable,that's right,CHI,FAT,TRUE,35,0.024000000000114596,4.898999999999887,FALSE,TRUE,FALSE,FALSE,eleanor/2-11-03b.xml,other error,3
+I rolled the Play_Doh,next book,CHI,FAT,FALSE,35,-1.4050000000002,1.7420000000001892,TRUE,FALSE,FALSE,TRUE,eleanor/2-11-03b.xml,no error,2
+I didn't broke it,er it's called the counting train,CHI,MOT,TRUE,35,0.875,1.8109999999999928,TRUE,FALSE,FALSE,FALSE,eleanor/2-11-04a.xml,other error,7
+that's one broken,I know,CHI,MOT,FALSE,35,-0.2440000000000282,1.683999999999969,TRUE,FALSE,FALSE,TRUE,eleanor/2-11-04a.xml,no error,2
+seven little pigs go to the market,mhm,CHI,MOT,FALSE,35,0.49900000000002365,2.8099999999999454,FALSE,TRUE,FALSE,FALSE,eleanor/2-11-04a.xml,no error,1
+Mama I think this is broken,I'll fix it for you,CHI,MOT,FALSE,35,-1.9740000000000464,3.3210000000000264,TRUE,FALSE,FALSE,TRUE,eleanor/2-11-04a.xml,no error,6
+can you buy me some more people,xxx you're a good girl,CHI,MOT,FALSE,35,0.8010000000000446,3.7269999999999754,FALSE,TRUE,FALSE,FALSE,eleanor/2-11-04a.xml,no error,6
+there's something in my bricks,would you like to try some,CHI,MOT,FALSE,35,0.06899999999995998,2.356999999999971,FALSE,TRUE,FALSE,FALSE,eleanor/2-11-04a.xml,no error,6
+she's got a golden hair,yeah she xxx,CHI,MOT,FALSE,35,0.03499999999985448,1.8920000000002801,TRUE,FALSE,FALSE,FALSE,eleanor/2-11-04a.xml,no error,3
+she's gone in the kennels,in the where,CHI,MOT,FALSE,35,0.08100000000013097,2.112999999999829,FALSE,TRUE,FALSE,FALSE,eleanor/2-11-04a.xml,no error,3
+he doesn't want eat rats,no,CHI,MOT,TRUE,35,-0.0929999999998472,2.0899999999996908,FALSE,TRUE,FALSE,TRUE,eleanor/2-11-04a.xml,other error,1
+um the ants,xxx,CHI,FAT,FALSE,35,-0.8129999999999882,1.91599999999994,FALSE,TRUE,FALSE,TRUE,eleanor/2-11-04b.xml,no error,1
+your trousers falling down,oh,CHI,FAT,TRUE,35,-0.8009999999999309,1.6140000000000327,FALSE,TRUE,FALSE,TRUE,eleanor/2-11-04b.xml,other error,1
+it hasn't got spiders now,not very nice,CHI,FAT,FALSE,35,-2.4960000000000946,2.7740000000001146,TRUE,TRUE,FALSE,TRUE,eleanor/2-11-04b.xml,no error,3
+bees,zzz,CHI,FAT,FALSE,35,-1.009999999999991,1.009999999999991,FALSE,TRUE,FALSE,TRUE,eleanor/2-11-04b.xml,no error,1
+he's eating some worms,he's eating the worms,CHI,FAT,FALSE,35,-0.16300000000001091,1.55600000000004,FALSE,TRUE,FALSE,TRUE,eleanor/2-11-04b.xml,no error,5
+they don't like potatoes,they don't like potatoes,CHI,FAT,FALSE,35,-0.6039999999998145,1.4969999999998436,FALSE,TRUE,FALSE,TRUE,eleanor/2-11-04b.xml,no error,5
+go do those stamps,would you like to,CHI,FAT,FALSE,35,-0.08100000000013097,1.462999999999738,FALSE,TRUE,FALSE,TRUE,eleanor/2-11-04b.xml,no error,4
+we did those didn't we,mm,CHI,FAT,FALSE,35,-0.7309999999997672,1.8689999999996871,TRUE,FALSE,FALSE,TRUE,eleanor/2-11-04b.xml,no error,1
+I done one,oh,CHI,FAT,TRUE,35,-1.0909999999998945,1.13799999999992,TRUE,FALSE,FALSE,TRUE,eleanor/2-11-04b.xml,other error,1
+I just got children,no animals,CHI,FAT,TRUE,35,0.03499999999985448,1.9149999999999636,TRUE,TRUE,FALSE,FALSE,eleanor/2-11-04b.xml,other error,2
+I'm finished one,you gonna going to do any more colors,CHI,FAT,TRUE,35,0.9750000000003638,1.9039999999999964,TRUE,FALSE,FALSE,FALSE,eleanor/2-11-04b.xml,other error,8
+I picked in the crab today,yeah,CHI,FAT,TRUE,35,-0.11599999999998545,1.8800000000001091,TRUE,FALSE,FALSE,TRUE,eleanor/2-11-04b.xml,other error,1
+you look at eggs,oh,CHI,FAT,FALSE,35,0.3710000000000946,1.2419999999997344,FALSE,TRUE,FALSE,FALSE,eleanor/2-11-04b.xml,no error,1
+dolphins eat sharks,no,CHI,FAT,FALSE,35,0.03500000000030923,1.9739999999997053,FALSE,TRUE,FALSE,FALSE,eleanor/2-11-04b.xml,no error,1
+owls wake up at night,yes,CHI,FAT,FALSE,35,0.3599999999996726,2.46100000000024,FALSE,TRUE,FALSE,FALSE,eleanor/2-11-04b.xml,no error,1
+I haven't got sausages with chips,oh,CHI,MOT,FALSE,35,-1.3010000000000446,2.5430000000000064,FALSE,TRUE,FALSE,TRUE,eleanor/2-11-05a.xml,no error,1
+lots of pieces,or we need a bit of a log don't we,CHI,MOT,FALSE,35,0.0820000000003347,2.274999999999636,FALSE,TRUE,FALSE,FALSE,eleanor/2-11-05a.xml,no error,11
+you got smelly toes,Eleanor,CHI,MOT,TRUE,35,0.27899999999999636,2.019999999999982,TRUE,FALSE,FALSE,FALSE,eleanor/2-11-06a.xml,other error,1
+animals,animals,CHI,MOT,FALSE,35,0.0340000000001055,1.2660000000000764,FALSE,TRUE,FALSE,FALSE,eleanor/2-11-06a.xml,no error,1
+Mummy and Daddy and the babies were crying one day,ooh,CHI,FAT,FALSE,35,-2.3470000000000084,5.3980000000000246,TRUE,FALSE,FALSE,TRUE,eleanor/2-11-06b.xml,no error,1
+bruised,hm,CHI,FAT,FALSE,35,-0.3009999999999877,0.9049999999999727,TRUE,FALSE,FALSE,TRUE,eleanor/2-11-06b.xml,no error,1
+crutches,biscuits for who,CHI,FAT,FALSE,35,0.25300000000004275,0.8829999999999245,FALSE,TRUE,FALSE,FALSE,eleanor/2-11-06b.xml,no error,3
+but not those ones,mhm,CHI,FAT,FALSE,35,-0.2899999999999636,1.83400000000006,FALSE,TRUE,FALSE,TRUE,eleanor/2-11-06b.xml,no error,1
+but he didn't want a face,NA,CHI,FAT,FALSE,35,0.3829999999998108,2.288000000000011,TRUE,FALSE,FALSE,FALSE,eleanor/2-11-06b.xml,no error,NA
+get your hooves go clippety,ow,CHI,FAT,FALSE,35,0.6270000000004075,3.401999999999589,FALSE,TRUE,FALSE,FALSE,eleanor/2-11-06b.xml,no error,1
+it's got less holes in it,right,CHI,FAT,FALSE,35,0,1.77599999999984,FALSE,TRUE,FALSE,FALSE,eleanor/2-11-06b.xml,no error,1
+have you got mouse,xxx this is called the mouse,CHI,FAT,TRUE,35,0.487999999999829,1.1720000000000255,TRUE,FALSE,FALSE,FALSE,eleanor/2-11-06b.xml,other error,6
+I don't want words,there,CHI,FAT,FALSE,35,-0.5349999999998545,1.2429999999999382,FALSE,TRUE,FALSE,TRUE,eleanor/2-11-06b.xml,no error,1
+that's a numbers two,oh yes,CHI,FAT,TRUE,35,0.15100000000029468,2.3449999999998,FALSE,TRUE,FALSE,FALSE,eleanor/2-11-06b.xml,other error,2
+I'm going to do some dots,clever girls can do them without dots,CHI,MOT,FALSE,35,3.0389999999999873,1.9390000000000782,FALSE,TRUE,FALSE,FALSE,eleanor/2-11-09v.xml,no error,7
+I just got,www,CHI,MOT,FALSE,35,0.19800000000009277,0.928000000000111,TRUE,FALSE,FALSE,FALSE,eleanor/2-11-09v.xml,no error,1
+I winned,you did not win,CHI,MOT,TRUE,35,0.010999999999967258,1.06899999999996,TRUE,FALSE,TRUE,FALSE,eleanor/2-11-09v.xml,overregularization,4
+have you got diabetes,she said you've got diabetes and grandmother hasn't,CHI,MOT,TRUE,36,0.3140000000000214,2.100999999999999,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-00v.xml,other error,10
+he won,he wins a,CHI,MOT,FALSE,36,0.3949999999999818,1.8690000000000282,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-00v.xml,no error,3
+I want two cuddly toys,that's two cuddly toys,CHI,MOT,FALSE,36,0,2.3689999999999714,FALSE,TRUE,FALSE,FALSE,eleanor/3-00-01a.xml,no error,5
+I just did carried,just did carried,CHI,MOT,TRUE,36,0.03500000000002501,2.298000000000002,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-01a.xml,other error,3
+Dada drawed that,Dada,CHI,MOT,TRUE,36,0.0809999999999036,2.0550000000000637,TRUE,FALSE,TRUE,FALSE,eleanor/3-00-01a.xml,overregularization,1
+and xxx crazy chips,are you going to eat them,CHI,MOT,FALSE,36,-0.16200000000026193,1.5320000000001528,FALSE,TRUE,FALSE,TRUE,eleanor/3-00-01a.xml,no error,6
+it was accident,right,CHI,MOT,TRUE,36,0.06399999999985084,1.6489999999998872,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-01a.xml,other error,1
+you scareded scared it,did what,CHI,MOT,TRUE,36,0.010999999999967258,1.8460000000000036,TRUE,FALSE,TRUE,FALSE,eleanor/3-00-01a.xml,overregularization,2
+but that I did that when I um when I was a baby,when you were a baby but you mustn't do that pumpkin,CHI,MOT,FALSE,36,-3.0289999999999964,3.0299999999997453,TRUE,FALSE,FALSE,TRUE,eleanor/3-00-01b.xml,no error,12
+I did,oh,CHI,MOT,FALSE,36,2.6539999999999964,0.9790000000002692,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-01b.xml,no error,1
+and you put your sunglasses when there's sun and then,that's right,CHI,FAT,TRUE,36,0,4.307999999999993,FALSE,TRUE,FALSE,FALSE,eleanor/3-00-02b.xml,other error,3
+it's got planet on,ooh,CHI,FAT,TRUE,36,0.13900000000001,1.6019999999999754,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-02b.xml,other error,1
+toys,there are so many toys here,CHI,FAT,FALSE,36,0.30700000000001637,0.6730000000000018,FALSE,TRUE,FALSE,FALSE,eleanor/3-00-02b.xml,no error,6
+zero throwed it on the floor,Sammy,CHI,FAT,TRUE,36,0.5920000000000982,1.949999999999818,TRUE,FALSE,TRUE,FALSE,eleanor/3-00-02b.xml,overregularization,1
+she did wee in her pants,yeah,CHI,FAT,TRUE,36,0.023000000000138243,1.9039999999999964,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-02b.xml,other error,1
+look who's gone,I know I know I've looked I've looked it's,CHI,MOT,FALSE,36,0.5570000000000164,1.7069999999999936,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-03a.xml,no error,12
+have you watched bananas in their pajamas,xxx,CHI,MOT,FALSE,36,-2.7339999999999804,2.8100000000000023,TRUE,TRUE,FALSE,TRUE,eleanor/3-00-03b.xml,no error,1
+we had a nice time at skating didn't we,can I have my shoes back,CHI,MOT,FALSE,36,-0.4650000000001455,2.9720000000002074,TRUE,FALSE,FALSE,TRUE,eleanor/3-00-03b.xml,no error,6
+I did the hop,NA,CHI,MOT,FALSE,36,-1.9969999999998436,1.9969999999998436,TRUE,FALSE,FALSE,TRUE,eleanor/3-00-04a.xml,no error,NA
+it's called Tinkerbell,oh yeah that's Snow_White,CHI,MOT,FALSE,36,-0.2780000000002474,1.055000000000291,TRUE,FALSE,FALSE,TRUE,eleanor/3-00-04a.xml,no error,6
+I did it,come on then,CHI,MOT,FALSE,36,0.1979999999998654,1.1610000000000582,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-04b.xml,no error,3
+it was,what,CHI,MOT,FALSE,36,0.31300000000010186,1.7419999999997344,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-05b.xml,no error,1
+I found a xxx timer,oh,CHI,FAT,FALSE,36,0.07000000000016371,2.356999999999971,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-05b.xml,no error,1
+have you finished your painting,Eleanor,CHI,FAT,FALSE,36,-2.0090000000000003,2.8100000000000023,TRUE,FALSE,FALSE,TRUE,eleanor/3-00-06b.xml,no error,1
+opened your eye,okay,CHI,FAT,TRUE,36,0.4270000000001346,1.2889999999999873,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-06b.xml,other error,1
+Dada's having xxx eggs,Eleanor it's very hot,CHI,MOT,FALSE,36,1.1820000000002437,5.444999999999709,FALSE,TRUE,FALSE,FALSE,eleanor/3-00-06b.xml,no error,5
+I took it out,why,CHI,FAT,TRUE,36,0.27799999999979264,2.8220000000001164,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-06b.xml,other error,1
+Dad Daddy it's fixed,it's fixed,CHI,FAT,FALSE,36,0.17399999999997817,4.039999999999964,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-06b.xml,no error,3
+spiders,spiders,CHI,MOT,FALSE,36,-0.4420000000000073,0.4420000000000073,FALSE,TRUE,FALSE,TRUE,eleanor/3-00-07a.xml,no error,1
+hot cross buns,hot cross buns,CHI,MOT,FALSE,36,-2.1829999999999927,2.1829999999999927,FALSE,TRUE,FALSE,TRUE,eleanor/3-00-08a.xml,no error,3
+hot cross buns,hot cross buns,CHI,MOT,FALSE,36,-2.33400000000006,2.33400000000006,FALSE,TRUE,FALSE,TRUE,eleanor/3-00-08a.xml,no error,3
+you were,does she,CHI,MOT,FALSE,36,-0.70900000000006,0.70900000000006,TRUE,FALSE,FALSE,TRUE,eleanor/3-00-08a.xml,no error,2
+I want crisps,no,CHI,MOT,FALSE,36,0.3020000000000209,1.27699999999993,FALSE,TRUE,FALSE,FALSE,eleanor/3-00-08b.xml,no error,1
+xxx did you make me that,NA,CHI,FAT,FALSE,36,-2.798000000000002,2.8099999999999454,TRUE,FALSE,FALSE,TRUE,eleanor/3-00-08b.xml,no error,NA
+I want my dips,you,CHI,FAT,FALSE,36,1.1660000000001673,1.4389999999998508,FALSE,TRUE,FALSE,FALSE,eleanor/3-00-08b.xml,no error,1
+when I were a baby,when I w,CHI,MOT,TRUE,36,0.13900000000001,2.19500000000005,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-09a.xml,other error,3
+take men oh stay ladies over they,red,CHI,MOT,TRUE,36,0.1979999999998654,5.4909999999999854,FALSE,TRUE,FALSE,FALSE,eleanor/3-00-09a.xml,other error,1
+see them run away run them stop,shark,CHI,MOT,TRUE,36,0.2039999999999509,5.457000000000107,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-09a.xml,other error,1
+I wanted Tigger's watch,Tigger's watch,CHI,MOT,FALSE,36,0.1369999999999436,2.298000000000002,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-09a.xml,no error,3
+a xxx have some sweets,come on then,CHI,MOT,FALSE,36,-1.9390000000000782,2.7170000000000982,FALSE,TRUE,FALSE,TRUE,eleanor/3-00-09a.xml,no error,3
+you did,no I didn't,CHI,MOT,FALSE,36,-0.2400000000000091,0.6509999999998399,TRUE,FALSE,FALSE,TRUE,eleanor/3-00-09a.xml,no error,4
+one died,Eleanor you don't say that either,CHI,MOT,FALSE,36,0.03500000000030923,0.9869999999996253,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-09a.xml,no error,7
+all broken,nicely nicely,CHI,MOT,FALSE,36,0.6709999999998217,2.1469999999999345,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-10a.xml,no error,2
+drew your book,draw on the book,CHI,FAT,FALSE,36,-1.7530000000000001,1.7530000000000001,TRUE,FALSE,FALSE,TRUE,eleanor/3-00-10b.xml,no error,4
+have you never been big children,I've never been on a climbing frame,CHI,MOT,TRUE,36,0.024000000000114596,3.1569999999999254,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-11b.xml,other error,8
+Daddy have you never seen high seat,see what,CHI,FAT,TRUE,36,1.7999999999999545,2.9829999999999472,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-11b.xml,other error,2
+got xxx there,NA,CHI,FAT,FALSE,36,-1.719000000000051,1.719000000000051,TRUE,FALSE,FALSE,TRUE,eleanor/3-00-11b.xml,no error,NA
+potatoes,www,CHI,MOT,FALSE,36,-1.2770000000000437,1.2770000000000437,FALSE,TRUE,FALSE,TRUE,eleanor/3-00-11v.xml,no error,1
+small letters,good girl,CHI,MOT,FALSE,36,-0.11599999999998545,1.3470000000000084,FALSE,TRUE,FALSE,TRUE,eleanor/3-00-14a.xml,no error,2
+oy I got boot,number,CHI,MOT,TRUE,36,0,1.8460000000000036,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-14a.xml,other error,1
+Mummy there's got water in there,what what water,CHI,MOT,TRUE,36,0.08199999999987995,2.6580000000003565,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-14a.xml,other error,3
+it's hurting my eyes,xxx,CHI,MOT,FALSE,36,0.9750000000000227,2.125,FALSE,TRUE,FALSE,FALSE,eleanor/3-00-14b.xml,no error,1
+carrots eat rabbits,rabbits eat carrot,CHI,MOT,FALSE,36,0.057999999999992724,2.066000000000031,FALSE,TRUE,FALSE,FALSE,eleanor/3-00-14b.xml,no error,3
+wurly wurly curls,curls,CHI,FAT,FALSE,36,-2.5540000000000873,2.5540000000000873,FALSE,TRUE,FALSE,TRUE,eleanor/3-00-15a.xml,no error,1
+what were you doing,NA,CHI,FAT,FALSE,36,-1.4509999999997945,1.4509999999997945,TRUE,FALSE,FALSE,TRUE,eleanor/3-00-15a.xml,no error,NA
+it was Barbie_umbrella,Barbie_umbrella,CHI,FAT,TRUE,36,0.16200000000026193,2.288000000000011,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-15a.xml,other error,2
+there was another,that's kind isn't it,CHI,FAT,FALSE,36,0.3489999999999327,1.8460000000000036,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-15b.xml,no error,6
+it was Barbie umbrella,a baby umbrella,CHI,FAT,TRUE,36,0.03499999999985448,2.0779999999999745,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-15b.xml,other error,3
+oh looky she got jumper,she's got a nice jumper hasn't she,CHI,MOT,TRUE,36,0.17999999999994998,2.427000000000021,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-16a.xml,other error,9
+did you didn't,let me see,CHI,MOT,FALSE,36,0.02400000000000091,1.2070000000001073,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-16a.xml,no error,3
+I said,four,CHI,MOT,FALSE,36,-0.8360000000000127,1.0679999999999836,TRUE,FALSE,FALSE,TRUE,eleanor/3-00-16a.xml,no error,1
+brains,they're pupils in your eyes,CHI,MOT,FALSE,36,-0.4519999999999982,1.5090000000000146,FALSE,TRUE,FALSE,TRUE,eleanor/3-00-16a.xml,no error,6
+dogs eat bones,ugh,CHI,MOT,FALSE,36,-0.5219999999999345,1.6369999999999436,FALSE,TRUE,FALSE,TRUE,eleanor/3-00-16a.xml,no error,1
+where's the words,and winter,CHI,MOT,FALSE,36,-1.4859999999998763,1.4859999999998763,FALSE,TRUE,FALSE,TRUE,eleanor/3-00-16a.xml,no error,2
+shall we read these books,of course we,CHI,MOT,FALSE,36,-0.4070000000001528,1.9510000000000218,FALSE,TRUE,FALSE,TRUE,eleanor/3-00-16a.xml,no error,3
+xxx the cracks,ah,CHI,FAT,FALSE,36,0,0.0010000000002037268,FALSE,TRUE,FALSE,FALSE,eleanor/3-00-16b.xml,no error,1
+she's got friend,ah,CHI,FAT,TRUE,36,0,9.999999997489795e-4,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-16b.xml,other error,1
+ow oh I got oh I got leg ache,leg ache,CHI,MOT,TRUE,36,0.5200000000000102,4.424000000000007,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-17a.xml,other error,2
+don't upset dinners,ow,CHI,MOT,FALSE,36,0.06899999999995998,1.9039999999999964,FALSE,TRUE,FALSE,FALSE,eleanor/3-00-17b.xml,no error,1
+I know who trod that,mhm,CHI,MOT,TRUE,36,0.15100000000001046,3.0880000000000223,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-18b.xml,other error,1
+I I thought it was got eight,um it might have eight,CHI,MOT,TRUE,36,0.34600000000000364,3.099999999999909,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-18b.xml,other error,5
+toys,Eleanor,CHI,MOT,FALSE,36,0.5370000000000346,0.9170000000001437,FALSE,TRUE,FALSE,FALSE,eleanor/3-00-18b.xml,no error,1
+and this is called Indrex,Indrex,CHI,MOT,FALSE,36,-0.7199999999999704,1.8340000000000032,TRUE,FALSE,FALSE,TRUE,eleanor/3-00-18v.xml,no error,1
+Barbie sunglasses,no you have not,CHI,MOT,FALSE,36,-0.4759999999999991,1.8000000000000682,FALSE,TRUE,FALSE,TRUE,eleanor/3-00-18v.xml,no error,4
+in ducks cafe,oh the one in the park you had when you had your second party,CHI,MOT,FALSE,36,0.23799999999982901,1.2890000000002146,FALSE,TRUE,FALSE,FALSE,eleanor/3-00-18v.xml,no error,14
+he hadn't had a Mummy,he didn't have a Mummy,CHI,MOT,TRUE,36,0.24400000000014188,1.949999999999818,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-18v.xml,other error,6
+magic fairy got some fruit,is there any to share,CHI,FAT,TRUE,36,0.1879999999998745,3.6800000000000637,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-21b.xml,other error,5
+I found it up there,ha,CHI,FAT,FALSE,36,-1.949999999999818,1.949999999999818,TRUE,FALSE,FALSE,TRUE,eleanor/3-00-21b.xml,no error,1
+t who wants these marble,so where do you think the marbles,CHI,MOT,FALSE,36,-0.10399999999992815,1.961999999999989,FALSE,TRUE,FALSE,TRUE,eleanor/3-00-21v.xml,no error,7
+girls have that in my nursery Jwww,Jwww,CHI,MOT,FALSE,36,0.10500000000001819,3.707999999999629,FALSE,TRUE,FALSE,FALSE,eleanor/3-00-21v.xml,no error,1
+she gone xxx,she woke up early,CHI,MOT,TRUE,36,-0.3249999999998181,1.0099999999997635,TRUE,FALSE,FALSE,TRUE,eleanor/3-00-21v.xml,other error,4
+er but I swallowed it,no,CHI,MOT,FALSE,36,0.18600000000014916,2.0429999999998927,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-22a.xml,no error,1
+Wwww took away,oh she wants to share it does she,CHI,FAT,TRUE,36,0.023000000000024556,2.0670000000000073,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-22b.xml,other error,8
+can you pull the pens,xxx,CHI,FAT,FALSE,36,-1.4090000000001055,1.8110000000001492,FALSE,TRUE,FALSE,TRUE,eleanor/3-00-22b.xml,no error,1
+they were not my friends,you haven't got any friends have you,CHI,MOT,FALSE,36,-1.0329999999999018,2.1359999999999673,FALSE,TRUE,FALSE,TRUE,eleanor/3-00-23a.xml,no error,8
+they did,come over here Eleanor,CHI,MOT,FALSE,36,-1.497000000000071,1.5670000000000073,TRUE,FALSE,FALSE,TRUE,eleanor/3-00-23a.xml,no error,4
+with my sharp nails they crack,no,CHI,MOT,TRUE,36,0.18299999999999272,2.425999999999931,FALSE,TRUE,FALSE,FALSE,eleanor/3-00-24a.xml,other error,1
+what rhymes xxx,you're clever girl,CHI,MOT,FALSE,36,1.0570000000002437,2.750999999999749,FALSE,TRUE,FALSE,FALSE,eleanor/3-00-24a.xml,no error,4
+hands,xxx,CHI,MOT,FALSE,36,1.2869999999998072,1.3120000000003529,FALSE,TRUE,FALSE,FALSE,eleanor/3-00-24a.xml,no error,1
+eight thirties,eight thirty,CHI,MOT,TRUE,36,0.18100000000004002,1.137000000000171,FALSE,TRUE,FALSE,FALSE,eleanor/3-00-24a.xml,other error,2
+that rhymes,very good,CHI,MOT,FALSE,36,-1.4739999999997053,1.4739999999997053,FALSE,TRUE,FALSE,TRUE,eleanor/3-00-24a.xml,no error,2
+mouses,mouses,CHI,MOT,FALSE,36,1.4050000000002,1.4980000000000473,FALSE,TRUE,FALSE,FALSE,eleanor/3-00-24a.xml,no error,1
+that's mouses,right what we need is um,CHI,MOT,FALSE,36,-1.4500000000002728,1.4510000000000218,FALSE,TRUE,FALSE,TRUE,eleanor/3-00-24a.xml,no error,6
+I want straw um straw crisps,okay,CHI,MOT,FALSE,36,-0.8010000000000446,5.456999999999994,FALSE,TRUE,FALSE,TRUE,eleanor/3-00-24b.xml,no error,1
+did you bought that,I bought it yes,CHI,MOT,TRUE,36,0.10400000000026921,1.3119999999998981,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-24b.xml,other error,4
+I said that,do you put,CHI,MOT,FALSE,36,-1.7640000000001237,1.7640000000001237,TRUE,FALSE,FALSE,TRUE,eleanor/3-00-25a.xml,no error,3
+that was on it,and when you've finished playing,CHI,MOT,FALSE,36,-0.9870000000000019,1.068000000000005,TRUE,FALSE,FALSE,TRUE,eleanor/3-00-25b.xml,no error,6
+story makers come out at night,story makers come out at night,CHI,MOT,FALSE,36,0.5219999999999345,2.1019999999998618,FALSE,TRUE,FALSE,FALSE,eleanor/3-00-25b.xml,no error,6
+I did,like that,CHI,MOT,FALSE,36,-0.2319999999999709,0.8120000000001255,TRUE,FALSE,FALSE,TRUE,eleanor/3-00-28a.xml,no error,2
+Mama has got green eyes,I haven't got green I've got brown eyes,CHI,MOT,FALSE,36,-0.36000000000012733,2.4729999999999563,FALSE,TRUE,FALSE,TRUE,eleanor/3-00-28a.xml,no error,10
+I weren't,you weren't,CHI,MOT,TRUE,36,0,1.6020000000000891,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-29a.xml,other error,3
+I told you,Eleanor there's a letter here,CHI,MOT,FALSE,36,0.02299999999991087,3.134999999999991,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-29b.xml,no error,6
+Polly took it again,Polly took it off again,CHI,MOT,FALSE,36,-2.4729999999999563,2.4729999999999563,TRUE,FALSE,FALSE,TRUE,eleanor/3-00-29b.xml,no error,5
+Polly took it off again,Polly took it off again,CHI,MOT,FALSE,36,-2.519000000000233,2.519000000000233,TRUE,FALSE,FALSE,TRUE,eleanor/3-00-29b.xml,no error,5
+Mama Dada's got it,Dada's got what darling,CHI,MOT,FALSE,36,0.25500000000010914,3.298000000000002,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-30a.xml,no error,5
+I don't like bats,c,CHI,MOT,FALSE,36,-0.3830000000000382,1.7640000000001237,FALSE,TRUE,FALSE,TRUE,eleanor/3-00-30a.xml,no error,1
+I made a bird can see,sheep,CHI,MOT,FALSE,36,0.18600000000014916,2.8099999999999454,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-30a.xml,no error,1
+Daddy Mama said I couldn't put my leg on the table,you're not allowed to unless you've got a bad leg like mine,CHI,FAT,FALSE,36,0.02299999999991087,4.691000000000031,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-30b.xml,no error,14
+I did have a face painting at Gullivers_world,oh,CHI,FAT,TRUE,36,0.03500000000030923,4.643999999999778,TRUE,FALSE,FALSE,FALSE,eleanor/3-00-30b.xml,other error,1
+a lots of stars,not not too many darling,CHI,FAT,TRUE,36,-0.6620000000002619,1.6840000000001965,FALSE,TRUE,FALSE,TRUE,eleanor/3-00-30b.xml,other error,5
