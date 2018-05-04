@@ -156,11 +156,11 @@ summary(char_model)
 
 # Does the model accord with the data?
 predicted_data <- aggregate_data %>%
-  filter(!is.na(log_rt_per_char)) %>%
+  filter(!is.na(rt_per_char)) %>%
   ungroup() %>%
   mutate(predicted = predict(char_model, re.form = NA))
 
-cor.test(predicted_data$predicted, predicted_data$log_rt_per_char)
+cor.test(predicted_data$predicted, predicted_data$rt_per_char)
 
 plot_data <- aggregate_data %>%
   group_by(version, pos, subj, trial) %>%
@@ -174,6 +174,36 @@ plot_data <- aggregate_data %>%
 ggplot(plot_data, aes(x = pos, y = empirical_stat, color = version)) +
   geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper), 
                       position = position_dodge(.5))
+
+```
+
+# Results section work (4/1/18)
+```{r}
+diff_plot <- plot_data %>%
+  ungroup() %>%
+  group_by(pos) %>%
+  summarise(diff = abs(diff(empirical_stat)))
+
+ggplot(diff_plot, aes(x = pos, y = diff)) + geom_bar(stat="identity") + coord_cartesian(ylim = c(0, 15))
+
+
+plot_data <- plot_data %>%
+  ungroup() %>%
+  mutate(version = ifelse(version == "g", "grammatical", "ungrammatical"))
+
+quartz()
+ggplot(diff_plot, aes(x = pos, y = diff, fill = pos)) +
+  geom_bar(stat="identity", alpha=0.7, position="dodge") +
+  ylab("Mean Response Time (ms)") +
+  xlab("") +
+  theme(legend.title = element_blank()) +
+  scale_fill_brewer(palette="Accent") +
+  scale_color_brewer(palette="Accent") +
+  theme_classic(base_size = 26) +
+  theme(plot.title = element_text(hjust=0.5), legend.title=element_blank(), legend.position = "top",legend.text=element_text(size=30),panel.background = element_rect(fill = "transparent"), axis.text = element_text(size=30)) +
+  guides(color = guide_legend(override.aes = list(size=0.75))) +
+  ggtitle("RT Before, During, and After Target Word") +
+  coord_cartesian(ylim = c(0,15))
 ```
 
 ```{r}

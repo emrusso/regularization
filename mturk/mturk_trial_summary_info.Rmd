@@ -1,0 +1,45 @@
+---
+title: "murk_trial_summary_info"
+author: "Emmi Russo"
+date: "4/18/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+```{r}
+
+trials <- read_csv("trials.csv")
+
+trials_no_instructions <- trials %>%
+  filter(TRIAL >= 0)
+
+test_trials <- trials_no_instructions %>%
+  filter(VERSION == "u")
+
+trial_summary <- test_trials %>%
+  group_by(CHILD, TRIAL) %>%
+  summarise(num_utts = max(INDEX)) %>%
+  group_by(num_utts) %>%
+  summarise(c = n())
+
+nwords <- function(string, pseudo=F){
+  string = gsub("[^[:alpha:][:space:]]", "", string)
+  ifelse( pseudo, 
+          pattern <- "\\S+", 
+          pattern <- "[[:alpha:]]+" 
+        )
+  str_count(string, pattern)
+}
+
+len_summary <- test_trials %>%
+  mutate(ul = nwords(UTTERANCE)) %>%
+  group_by(CHILD, TRIAL, SPEAKER) %>%
+  summarise(n_utterances = n(), len_var = var(ul), total_len = sum(ul), mlu = total_len/n_utterances) %>%
+  group_by(CHILD, SPEAKER) %>%
+  summarise(len_var = var(total_len), avg_len = mean(total_len), mlu_var = var(mlu), avg_mlu = mean(mlu))
+  summarise(n_utterances = sum(n_utterances), total_len = sum(total_len), mlu = mean(mlu), mlu_manual = total_len/n_utterances)
+```

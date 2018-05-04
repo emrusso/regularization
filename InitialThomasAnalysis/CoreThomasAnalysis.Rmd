@@ -127,11 +127,17 @@ isIncorrectToken <- function(words, regularized, double) {
   regularized %in% words | double %in% words
 }
 
-past_with_irregulars <- past_with_irregulars %>%
+irregulars_tagged <- past_with_irregulars %>%
   rowwise() %>%
-  mutate(contains_correct_token = isCorrectToken(words, PastSimple1, PastSimple2, PastParticiple1, PastParticiple2), contains_incorrect_token = isIncorrectToken(words, RegularizedPast, DoubleInflection)) %>%
+  mutate(contains_correct_token = isCorrectToken(words, PastSimple1, PastSimple2, PastParticiple1, PastParticiple2), contains_incorrect_token = isIncorrectToken(words, RegularizedPast, DoubleInflection))
+
+# compare what we got to what Maslen got
+maslen_tokenct <- read_csv("Maslen_past_tokens.csv")
+
+past_with_irregulars <- irregulars_tagged %>%
   filter(contains_correct_token | contains_incorrect_token) %>%
 mutate(correct_token = getCorrectToken(words, PastSimple1, PastSimple2, PastParticiple1, PastParticiple2, RegularizedPast, DoubleInflection))
+
        
 past_with_irregulars["PastSimple1"] <- NULL
 past_with_irregulars["PastSimple2"] <- NULL
@@ -139,6 +145,19 @@ past_with_irregulars["PastParticiple1"] <- NULL
 past_with_irregulars["PastParticiple2"] <- NULL
 past_with_irregulars["RegularizedPast"] <- NULL
 past_with_irregulars["DoubleInflection"] <- NULL
+irregulars_tagged["PastSimple1"] <- NULL
+irregulars_tagged["PastSimple2"] <- NULL
+irregulars_tagged["PastParticiple1"] <- NULL
+irregulars_tagged["PastParticiple2"] <- NULL
+irregulars_tagged["RegularizedPast"] <- NULL
+irregulars_tagged["DoubleInflection"] <- NULL
+
+
+thomas_tokenct <- irregulars_tagged %>%
+  filter(past_tense) %>%
+  distinct(utterance, age, contains_correct_token, contains_incorrect_token) %>%
+  group_by(age) %>%
+  summarise(irregular_tokens = sum(contains_correct_token | contains_incorrect_token), regular_tokens = sum(!contains_correct_token & !contains_incorrect_token))
 
 overreg_stats <- past_with_irregulars %>%
   group_by(age, correct_token) %>%

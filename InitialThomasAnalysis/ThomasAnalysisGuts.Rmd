@@ -19,7 +19,7 @@ thomas_data_clean <- thomas_data %>%
   mutate(age = as.numeric(age)) %>%
   mutate_at(vars(error, past_tense, plural), as.logical)
 
-thomas_kid_data <- thomas_data %>%
+thomas_kid_data <- thomas_data_clean %>%
   filter(speaker == "CHI") %>%
   filter(responder == "MOT")
 
@@ -37,7 +37,7 @@ manual_thomas_overregs <- manual_thomas_overregs %>%
 
 thomas_kid_with_overregs <- read_csv("all_thomas_kid_utterances_with_overregs.csv")
 thomas_kid_with_overregs <- thomas_kid_with_overregs %>%
-  filter(responder == "MOT")
+  #filter(responder == "MOT")
 thomas_kid_with_overregs$X <- NULL
 
 utt_to_sf <- rownames_to_column(thomas_kid_data)

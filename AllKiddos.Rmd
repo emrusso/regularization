@@ -9,6 +9,7 @@ output: pdf_document
 library(tidyverse)
 library(tidyboot)
 library(ggridges)
+library(lmerTest)
 ```
 
 ```{r eleanor}
@@ -131,8 +132,8 @@ t.test(filter(eleanor, error_type == "overregularization") %>% pull(response_tim
 lm(response_time ~ error_type + age + rl, data = filter(all_kids, kid == "Fraser")) %>%
   summary()
 
-lmer(esponse_time ~ error_type + age + rl + (error_type|kid),
-     data = filter(all_kids)) %>%
+lmer(response_time ~ error_type + age + rl + (error_type|kid),
+     data = all_kids) %>%
   summary()
 
 all_kids %>%
@@ -150,9 +151,10 @@ all_kids %>%
 all_lmer <- all_kids %>%
   group_by(kid) %>%
   mutate(response_time = scale(response_time)) %>% 
-  lmer(response_time ~ error_type *  age + rl + 
-                   (error_type + age|kid), 
-                   data = .)
+  lmer(response_time ~ error_type + age + rl + 
+                   (error_type | kid), 
+                   data = .) %>%
+  summary()
 
 scaled_kids <- all_kids %>%
   group_by(kid) %>%
