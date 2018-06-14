@@ -1,0 +1,81 @@
+---
+title             : "Parents' Response Times Provide Implicit Negative Evidence for Grammar Learning"
+shorttitle        : "Response Times as Negative Evidence"
+
+author: 
+  - name          : "Emilia Russo"
+    affiliation   : "1"
+
+  - name          : "Daniel Yurovsky"
+    affiliation   : "1"
+    corresponding : yes    # Define only one corresponding author
+    address       : "5848 S University Ave, Chicago, IL 60637"
+    email         : "yurovsky@uchicago.edu"
+
+
+affiliation:
+  - id            : "1"
+    institution   : "University of Chicago"
+
+author_note: |
+  This work was supported by a James S McDonnell Scholars Foundation grant to DY
+
+abstract: |
+  A key debate in language development is how children learn an infinitely generative language from a finite amount of evidence. Although children can reasonably take the production of an utterance from an adult as evidence for its grammaticality, this positive evidence may not be sufficient to constrain the learning of an infinitely generative grammar with complex rules and numerous, subtle exceptions. The problem would be easier if children consistently received negative evidence after producing incorrect utterances. However, while parents sometimes correct children’s semantic errors, they rarely correct syntactic errors. Parents’ reformulations of children’s utterances (e.g. “I runned yesterday” with “Yes, you ran yesterday”) could be useful for learning correct grammar, but knowing when a response is a reformulation is non-trivial without knowledge that allows the two forms to be aligned. We hypothesized that children may rely on a lower-level signal in conjunction with or even instead of reformulations: response time.  We analyzed response times from three dense corpora to examine how parent response times vary with the grammaticality of the child utterance. This analysis revealed that parents were significantly slower to respond to ungrammatical utterances than grammatical utterances. These results indicate that response time may be one implicit learning cue for language. Additionally, we employed a self-paced reading experiment and found that adults are significantly slower to process overregularized utterances compared to their grammatical counterparts, indicating that parents may take longer to respond due to a processing delay.
+  
+keywords          : "language acquisition, learning, cognitive development"
+wordcount         : "X"
+
+bibliography      : ["regularization.bib"]
+
+figsintext        : yes
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+lineno            : yes
+mask              : no
+
+class             : "man"
+output            : papaja::apa6_pdf
+---
+
+```{r load_packages, include = FALSE}
+library(papaja)
+library(tidyverse)
+library(lme4)
+```
+
+```{r analysis_preferences}
+# Seed for random number generation
+set.seed(42)
+```
+
+
+
+# Methods
+We report how we determined our sample size, all data exclusions (if any), all manipulations, and all measures in the study. <!-- 21-word solution (Simmons, Nelson & Simonsohn, 2012; retrieved from http://ssrn.com/abstract=2160588) -->
+
+## Participants
+
+## Material
+
+## Procedure
+
+## Data analysis
+
+
+# Results
+
+# Discussion
+
+
+\newpage
+
+# References
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+<div id = "refs"></div>
+\endgroup
