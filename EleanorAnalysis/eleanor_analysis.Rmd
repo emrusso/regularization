@@ -28,7 +28,7 @@ utts <- read_csv("eleanor_utterance_data.csv", col_names = FALSE)
 names(utts) <- c("utterance", "response", "response_time", "speaker", "responder", "utterance_time", "error", "age", "past_tense", "plural", "overlap", "source_file")
 
 # coerce types, remove any wonky timing data
-# NB: pick reasonable cutoff instead of just handpicked values that seem reasonable
+# TODO: pick reasonable cutoff instead of just handpicked values that seem reasonable
 utts_clean <- utts %>%
   mutate_at(vars(age, response_time, utterance_time), as.numeric) %>%
   mutate_at(vars(error, past_tense, plural, overlap), as.logical) %>%
