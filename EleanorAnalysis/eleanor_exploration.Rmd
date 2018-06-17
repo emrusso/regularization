@@ -1,0 +1,277 @@
+---
+title: Regularization in Manchester/eleanor corpus
+author: Emmi Russo
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+  toc: false
+number_sections: false
+theme: lumen
+toc_float: false
+code_folding: hide
+---
+
+```{r setup}
+library(tidyverse)
+library(tidyboot)
+
+utts <- read_csv("eleanor_utterance_data.csv", col_names = FALSE)
+names(utts) <- c("utterance", "response", "response_time", "speaker", "responder", "utterance_time", "error", "age", "past_tense", "plural", "overlap", "source_file")
+
+# coerce types, remove any wonky timing data
+# TODO: use an appropriate cutoff for timing rather than a handpicked value
+utts_clean <- utts %>%
+  mutate_at(vars(age, response_time, utterance_time), as.numeric) %>%
+  mutate_at(vars(error, past_tense, plural, overlap), as.logical) %>%
+  filter(!((response_time < 0) & (!overlap))) %>%
+  filter((-5 <= response_time) & (response_time <= 5) & (utterance_time <= 10))
+
+kid_parent_utts <- utts_clean %>%
+  filter((speaker == "CHI") & ((responder == "MOT") | (responder == "FAT")))
+
+```
+
+```{r get possible overregs}
+
+# overreg_candidates <- kid_parent_utts %>%
+  #mutate(overreg_candidate = ((past_tense | plural) & error))  %>%
+  #filter(past_tense | plural)
+
+#to_write <- overreg_candidates %>%
+  #filter(overreg_candidate)
+
+#write.csv(to_write, "eleanor_overreg_candidates.csv")
+
+eleanor_manual_overregs <- read_csv("eleanor_manual_overregs.csv")
+
+eleanor_manual_overregs$X1 = NULL
+
+eleanor_final <- kid_parent_utts %>%
+  left_join(eleanor_manual_overregs, by=c("utterance", "response")) %>%
+  mutate(overreg = ifelse(is.na(manual_code), F, ifelse(manual_code == "T", T, F)))
+
+eleanor_final <- eleanor_final %>%
+  mutate(error_type = ifelse(!error.x, "no error", ifelse(overreg, "overregularization", "other error")))
+
+sub_data <- eleanor_final %>%
+  filter(past_tense.x | plural.x)
+
+
+sub_data %>%
+  group_by(error_type) %>%
+  filter(response_time.x > 0) %>%
+  summarise(med_rt = median(log(response_time.x)),
+            mean_rt = mean(log(response_time.x)))
+
+
+ ggplot(sub_data, aes(x=response_time.x, fill=error_type)) + geom_density(alpha=.3) + scale_x_continuous(limits = c(-2, 2))
+
+ 
+ ggplot(sub_data, aes(x = age.x, y = response_time.x, fill = error_type)) + geom_smooth()
+
+ or_lm <- lm(response_time.x ~ utterance_time.x + age.x + error_type, sub_data)
+  summary(or_lm)
+
+ 
+ eleanor_or_rates <- sub_data %>%
+  group_by(age.x) %>%
+  summarise(total_tokens = n(), overreg_tokens = sum(overreg), error_tokens = sum(error.x)) %>%
+  mutate(or_rate = (overreg_tokens/total_tokens) * 100, error_rate = (error_tokens/total_tokens) * 100, or_of_err = (overreg_tokens/error_tokens) * 100)
+
+ggplot(eleanor_or_rates, aes(x=age.x, y=or_rate)) + geom_line() + geom_smooth()
+
+ggplot(eleanor_or_rates, aes(x=age.x, y=error_rate)) + geom_line() + geom_smooth()
+
+max_rates <- eleanor_or_rates %>%
+  summarise(max_er = max(error_rate), max_or = max(or_rate), max_or_of_err = max(or_of_err))
+
+max_er_age <- eleanor_or_rates %>%
+  filter(error_rate == max_rates$max_er)
+
+max_or_age <- eleanor_or_rates %>%
+  filter(or_rate == max_rates$max_or)
+
+max_or_percent_of_err <- eleanor_or_rates %>%
+  filter(or_of_err == max_rates$max_or_of_err)
+
+ggplot(eleanor_or_rates, aes(x=age.x)) +
+  geom_smooth(aes(y=or_rate, colour="or_rate")) +
+  geom_smooth(aes(y=error_rate, colour="error_rate"))
+
+sub_data <- sub_data %>%
+  mutate(error_type = ifelse(!error.x, "no error", ifelse(overreg, "overregularization", "other error")))
+
+ggplot(sub_data, aes(x=response_time.x, fill=error_type)) + geom_density(alpha=0.4)
+
+nwords <- function(string, pseudo=F){
+  ifelse( pseudo, 
+          pattern <- "\\S+", 
+          pattern <- "[[:alpha:]]+" 
+        )
+  str_count(string, pattern)
+}
+
+with_response_length <- sub_data %>%
+  mutate(rl = nwords(response))
+
+ggplot(with_response_length, aes(x=rl)) + geom_histogram()
+
+ggplot(with_response_length, aes(x=response_time.x, fill=error_type)) + geom_density(alpha=.6) + facet_grid(responder.x ~ .)
+
+to_write <- with_response_length %>%
+  rename(response_time = response_time.x, speaker = speaker.x, responder = responder.x, utterance_time = utterance_time.x, error = error.x, age = age.x, past_tense = past_tense.x, plural = plural.x, overlap = overlap.x, source_file = source_file.x)
+
+to_write <- to_write[,c("utterance", "response", "speaker", "responder", "error", "age", "response_time", "utterance_time", "past_tense", "plural", "overreg", "overlap", "source_file", "error_type", "rl")]
+
+#write_csv(to_write, "eleanor_final_utterances.csv")
+
+ggplot(to_write, aes(x=response_time, fill=error_type)) + geom_density(alpha=.6) +
+  geom_vline(xintercept=0, linetype="dotted", color="red") +
+  facet_grid(error_type ~ .) + theme_classic() + ggtitle("Eleanor") + coord_cartesian(xlim=c(-2.5, 2.5), ylim=c(0, 3.5))
+
+#quartz()
+ggplot(to_write, aes(x=response_time, fill=error_type)) + geom_density(alpha=.6) +
+  geom_vline(xintercept=0, linetype="dotted", color="red") +
+  scale_fill_brewer(palette="Accent") +
+  facet_grid(error_type ~ .) + theme_classic() + ggtitle("Eleanor") + coord_cartesian(xlim = c(-2.5, 2.5), ylim = c(0, 3.5)) + xlab("Parent Response Time (s)") + ylab("Density")
+
+stats <- with_response_length %>%
+  group_by(error_type) %>%
+  summarise(mean = mean(response_time.x), var = var(response_time.x), sd = sd(response_time.x), se = sd/sqrt(n()))
+
+ggplot(stats, aes(x=error_type, y = mean, fill=error_type)) + geom_bar(stat="identity") + geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width = 0.2) + theme_classic()
+
+lm(response_time.x ~ error_type + age.x, data = sub_data) %>%
+  summary()
+
+
+left_side <- sub_data %>%
+  filter(overlap.x) %>%
+  mutate(abs_rt = abs(response_time.x)) %>%
+  filter(abs_rt > 0)
+
+
+sub_data %>%
+  group_by(error_type) %>%
+  summarise(rt = mean(response_time.x))
+
+
+lm(response_time.x < 0 ~ error_type + age.x, sub_data) %>%
+  summary()
+
+right_side <- sub_data %>%
+  filter(response_time.x > 0)
+
+ggplot(left_side, aes(x=log(abs_rt), fill=error_type)) + geom_density(alpha=0.4)
+
+ggplot(right_side, aes(x=log(response_time.x), fill=error_type)) + geom_density(alpha=0.4)
+```
+
+```{r}
+lm(log(abs_rt) ~ error_type + age.x, left_side) %>% summary()
+lm(log(response_time.x) ~ error_type + age.x, right_side) %>% summary()
+
+lm(overlap.x ~ error_type + age.x, sub_data) %>% summary()
+```
+
+```{r}
+nwords <- function(string, pseudo=F){
+  ifelse( pseudo, 
+          pattern <- "\\S+", 
+          pattern <- "[[:alpha:]]+" 
+        )
+  str_count(string, pattern)
+}
+
+#MLU
+kid_utts <- utts_clean %>%
+  filter(speaker == "CHI") %>%
+  mutate(ul = nwords(utterance))
+
+mlu <- kid_utts %>%
+  filter(!is.na(ul)) %>%
+  group_by(age) %>%
+  summarise(mlu = mean(ul))
+
+ggplot(mlu, aes(x = age, y = mlu)) + geom_smooth() + geom_line() + theme_classic()
+
+```
+
+# models + examining difference between parents
+```{r}
+with_ulrl <- to_write %>%
+  mutate(ul = nwords(utterance), rl = nwords(response))
+
+mom_response <- with_ulrl %>% filter(responder == "MOT")
+dad_response <- with_ulrl %>% filter(responder == "FAT")
+
+mom <- lm(response_time ~ error_type + age + utterance_time + ul + rl, mom_response)
+dad <- lm(response_time ~ error_type + age + utterance_time + ul + rl, dad_response)
+both <- lm(response_time ~ error_type + age + utterance_time + ul + rl + responder, with_ulrl)
+
+momdad <- to_write %>%
+  group_by(responder, error_type) %>%
+  tidyboot_mean(., response_time, na.rm = T)
+
+t.test(formula = response_time ~ responder, data = to_write %>% filter(error_type == "no error"))
+t.test(formula = response_time ~ responder, data = to_write %>% filter(error_type == "other error"))
+t.test(formula = response_time ~ responder, data = to_write %>% filter(error_type == "overregularization"))
+
+# Variance
+to_write %>%
+  group_by(error_type) %>%
+  summarise(var = var(response_time))
+
+```
+
+
+
+# Nicer plots
+```{r}
+tb_stats <- to_write %>%
+  group_by(error_type) %>%
+  tidyboot_mean(., response_time, na.rm = T)
+
+t.test(formula = response_time ~ error_type, data = to_write %>% filter(error_type == "no error" | error_type == "overregularization"))
+t.test(formula = response_time ~ error_type, data = to_write %>% filter(error_type == "other error" | error_type == "no error"))
+t.test(formula = response_time ~ error_type, data = to_write %>% filter(error_type == "other error" | error_type == "overregularization"))
+
+
+ggplot(tb_stats, aes(x=error_type, y = mean, fill=error_type)) + geom_bar(stat="identity") + geom_errorbar(aes(ymin=ci_lower, ymax=ci_upper), width = 0.2) + theme_bw()
+
+tb_stats$error_type = paste0(tb_stats$error_type, "       ")
+
+basePlot <- ggplot(tb_stats, aes(x = error_type, y = mean * 1000, 
+                           group=error_type, fill=error_type)) + 
+  geom_bar(stat="identity", position="dodge") +
+  geom_errorbar(aes(ymin=ci_lower*1000, ymax=ci_upper*1000), 
+                width = 0.2, position = position_dodge(0.9)) +
+  theme_bw(base_size = 16) +
+  theme(plot.title = element_text(hjust=0.5), legend.position = "none",panel.background = element_rect(fill = "transparent"), axis.text = element_text(size=16)) +
+  scale_fill_brewer(palette = "Accent") +
+  xlab("Error Type") +
+  ylab("Mean parent response time (ms)") +
+  ggtitle("Average Parent Response Time by Grammaticality (Eleanor)") +
+  coord_cartesian(ylim=(c(-500,600))) +
+  scale_y_continuous(breaks = scales::pretty_breaks(n = 6))
+
+quartz()
+#pdf("ploooot.pdf", width=6, height=4)
+basePlot +
+  geom_segment(y = 580, yend = 580, x = 1, xend = 3) +
+  geom_segment(y = 565, yend = 580, x = 1, xend = 1) +
+  geom_segment(y = 565, yend = 580, x = 3, xend = 3) +
+  annotate("text", x = 2, y = 620, label="p < 0.001 ***") +
+  geom_segment(y = 215, yend = 215, x = 1, xend = 2) +
+  geom_segment(y = 200, yend = 215, x = 1, xend = 1) +
+  geom_segment(y = 200, yend = 215, x = 2, xend = 2) +
+  annotate("text", x = 1.5, y = 255, label="p = 0.00159 **") +
+  geom_segment(y = 480, yend = 480, x = 2, xend = 3) +
+  geom_segment(y = 465, yend = 480, x = 2, xend = 2) +
+  geom_segment(y = 465, yend = 480, x = 3, xend = 3) +
+  annotate("text", x = 2.5, y = 520, label="p = 0.0273 *")
+
+```
+
+
+
