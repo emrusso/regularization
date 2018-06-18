@@ -1,0 +1,126 @@
+---
+title: "Regularization in Manchester/eleanor corpus"
+author: "Emmi Russo"
+date: "`r Sys.Date()`"
+output:
+  html_document: null
+  pdf_document: default
+  toc: no
+number_sections: no
+theme: lumen
+code_folding: hide
+toc_float: no
+---
+
+```{r setup}
+library(tidyverse)
+library(tidyboot)
+
+nwords <- function(string, pseudo=F){
+  ifelse( pseudo, 
+          pattern <- "\\S+", 
+          pattern <- "[[:alpha:]]+" 
+        )
+  str_count(string, pattern)
+}
+
+utts <- read_csv("eleanor_utterance_data.csv", col_names = FALSE)
+names(utts) <- c("utterance", "response", "response_time", "speaker", "responder", "utterance_time", "error", "age", "past_tense", "plural", "overlap", "source_file")
+
+# coerce types, remove any wonky timing data
+# TODO: pick reasonable cutoff instead of just handpicked values that seem reasonable
+utts_clean <- utts %>%
+  mutate_at(vars(age, response_time, utterance_time), as.numeric) %>%
+  mutate_at(vars(error, past_tense, plural, overlap), as.logical) %>%
+  filter(!((response_time < 0) & (!overlap))) %>%
+  filter((-5 <= response_time) & (response_time <= 5) & (utterance_time <= 10))
+
+kid_parent_utts <- utts_clean %>%
+  filter((speaker == "CHI") & ((responder == "MOT") | (responder == "FAT")))
+
+```
+
+```{r}
+# read in overregularization coding
+eleanor_manual_overregs <- read_csv("eleanor_manual_overregs.csv")
+eleanor_manual_overregs$X1 = NULL
+
+# join in overregularization code with all utterances
+eleanor_final <- kid_parent_utts %>%
+  left_join(eleanor_manual_overregs, by=c("utterance", "response")) %>%
+  mutate(overreg = ifelse(is.na(manual_code), F, ifelse(manual_code == "T", T, F)))
+
+eleanor_final <- eleanor_final %>%
+  rename(response_time = response_time.x, speaker = speaker.x, responder = responder.x, utterance_time = utterance_time.x, error = error.x, age = age.x, past_tense = past_tense.x, plural = plural.x, overlap = overlap.x, source_file = source_file.x)
+
+eleanor_final <- eleanor_final %>%
+  mutate(error_type = ifelse(!error, "no error", ifelse(overreg, "overregularization", "other error")))
+
+past_plural_only <- eleanor_final %>%
+  filter(past_tense | plural) %>%
+  mutate(rl = nwords(response), ul = nwords(utterance))
+
+stats <- past_plural_only %>%
+  group_by(error_type) %>%
+  summarise(mean = mean(response_time), var = var(response_time), sd = sd(response_time), se = sd/sqrt(n()))
+```
+
+```{r plots}
+# Mean response time by error type
+tb_stats <- past_plural_only %>%
+  group_by(error_type) %>%
+  tidyboot_mean(., response_time, na.rm = T)
+
+# get p values for error type comparisons
+t.test(formula = response_time ~ error_type, data = past_plural_only %>% filter(error_type == "no error" | error_type == "overregularization"))
+t.test(formula = response_time ~ error_type, data = past_plural_only %>% filter(error_type == "other error" | error_type == "no error"))
+t.test(formula = response_time ~ error_type, data = past_plural_only %>% filter(error_type == "other error" | error_type == "overregularization"))
+
+# add a bunch of whitespace for neater legend
+tb_stats$error_type = paste0(tb_stats$error_type, "       ")
+
+basePlot <- ggplot(tb_stats, aes(x = error_type, y = mean * 1000, 
+                           group=error_type, fill=error_type)) + 
+  geom_bar(stat="identity", position="dodge") +
+  geom_errorbar(aes(ymin=ci_lower*1000, ymax=ci_upper*1000), 
+                width = 0.2, position = position_dodge(0.9)) +
+  theme_bw(base_size = 16) +
+  theme(plot.title = element_text(hjust=0.5), legend.position = "none",panel.background = element_rect(fill = "transparent"), axis.text = element_text(size=16)) +
+  scale_fill_brewer(palette = "Accent") +
+  xlab("Error Type") +
+  ylab("Mean parent response time (ms)") +
+  ggtitle("Average Parent Response Time by Grammaticality (Eleanor)") +
+  coord_cartesian(ylim=(c(-500,600))) +
+  scale_y_continuous(breaks = scales::pretty_breaks(n = 6))
+
+# Add significance annotations
+basePlot +
+  geom_segment(y = 580, yend = 580, x = 1, xend = 3) +
+  geom_segment(y = 565, yend = 580, x = 1, xend = 1) +
+  geom_segment(y = 565, yend = 580, x = 3, xend = 3) +
+  annotate("text", x = 2, y = 620, label="p < 0.001 ***") +
+  geom_segment(y = 215, yend = 215, x = 1, xend = 2) +
+  geom_segment(y = 200, yend = 215, x = 1, xend = 1) +
+  geom_segment(y = 200, yend = 215, x = 2, xend = 2) +
+  annotate("text", x = 1.5, y = 255, label="p = 0.00159 **") +
+  geom_segment(y = 480, yend = 480, x = 2, xend = 3) +
+  geom_segment(y = 465, yend = 480, x = 2, xend = 2) +
+  geom_segment(y = 465, yend = 480, x = 3, xend = 3) +
+  annotate("text", x = 2.5, y = 520, label="p = 0.0273 *")
+
+# Response time densities by error type
+ggplot(past_plural_only, aes(x=response_time, fill=error_type)) +
+  geom_density(alpha=0.6) +
+  geom_vline(xintercept=0, linetype="dotted", color="red") +
+  facet_grid(error_type ~ .) +
+  theme_minimal(base_size = 14) +
+  theme(axis.text.y = element_text(vjust = 0)) +
+  scale_fill_brewer(palette = "Accent") +
+  ggtitle("Eleanor - Response Time Densities by Error Type") +
+  xlab("Response Time") +
+  ylab("Density by Error Type") +
+  theme(legend.position = "none")
+```
+
+
+
